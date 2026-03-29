@@ -428,6 +428,90 @@
     line-height: 1.7;
 }
 
+/* ===== Quick Reference Table ===== */
+.section-quick-table {
+    background: linear-gradient(135deg, var(--primary-light), var(--surface));
+    border: 2px solid var(--primary);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-quick-table::before {
+    content: "📋";
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 1.5rem;
+    opacity: 0.3;
+}
+
+.section-quick-table h3 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--primary);
+}
+
+.quick-table-desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* ===== Warning Section ===== */
+.section-warning {
+    background: var(--error-light);
+    border-left: 4px solid var(--error);
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.section-warning::before {
+    content: "⚠️ Attenzione: ";
+    font-weight: 600;
+}
+
+/* ===== Summary Section ===== */
+.section-summary {
+    background: var(--success-light);
+    border: 2px solid var(--success);
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+}
+
+.section-summary h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--success);
+    margin-bottom: 8px;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 6px;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+
+.summary-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--success);
+    font-weight: 700;
+}
+
 /* ===== Tables ===== */
 .data-table {
     width: 100%;

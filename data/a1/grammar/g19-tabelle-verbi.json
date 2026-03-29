@@ -1,0 +1,163 @@
+{
+  "id": "a1-ref02",
+  "level": "a1",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: Coniugazione dei verbi",
+  "subtitle": "Verbkonjugation – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Tutte le coniugazioni dei verbi più importanti in un colpo d'occhio!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Verbi regolari - Presente (machen)",
+      "description": "I verbi regolari seguono sempre questo schema di desinenze. Basta sostituire la radice!",
+      "table": {
+        "headers": ["Pronome", "Desinenza", "Esempio"],
+        "rows": [
+          ["ich", "-e", "mache"],
+          ["du", "-st", "machst"],
+          ["er/sie/es", "-t", "macht"],
+          ["wir", "-en", "machen"],
+          ["ihr", "-t", "macht"],
+          ["sie/Sie", "-en", "machen"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "sein (essere)",
+      "description": "Il verbo più irregolare e più importante del tedesco.",
+      "table": {
+        "headers": ["Pronome", "Presente", "Präteritum", "Perfekt"],
+        "rows": [
+          ["ich", "bin", "war", "bin gewesen"],
+          ["du", "bist", "warst", "bist gewesen"],
+          ["er/sie/es", "ist", "war", "ist gewesen"],
+          ["wir", "sind", "waren", "sind gewesen"],
+          ["ihr", "seid", "wart", "seid gewesen"],
+          ["sie/Sie", "sind", "waren", "sind gewesen"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "haben (avere)",
+      "description": "Il secondo verbo ausiliare fondamentale.",
+      "table": {
+        "headers": ["Pronome", "Presente", "Präteritum", "Perfekt"],
+        "rows": [
+          ["ich", "habe", "hatte", "habe gehabt"],
+          ["du", "hast", "hattest", "hast gehabt"],
+          ["er/sie/es", "hat", "hatte", "hat gehabt"],
+          ["wir", "haben", "hatten", "haben gehabt"],
+          ["ihr", "habt", "hattet", "habt gehabt"],
+          ["sie/Sie", "haben", "hatten", "haben gehabt"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "werden (diventare)",
+      "description": "Usato anche come ausiliare per il futuro e il passivo.",
+      "table": {
+        "headers": ["Pronome", "Presente", "Präteritum", "Perfekt"],
+        "rows": [
+          ["ich", "werde", "wurde", "bin geworden"],
+          ["du", "wirst", "wurdest", "bist geworden"],
+          ["er/sie/es", "wird", "wurde", "ist geworden"],
+          ["wir", "werden", "wurden", "sind geworden"],
+          ["ihr", "werdet", "wurdet", "seid geworden"],
+          ["sie/Sie", "werden", "wurden", "sind geworden"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Verbi modali al presente",
+      "description": "I sei verbi modali tedeschi con tutte le loro forme al presente indicativo.",
+      "table": {
+        "headers": ["Pronome", "können", "müssen", "wollen", "sollen", "dürfen", "mögen"],
+        "rows": [
+          ["ich", "kann", "muss", "will", "soll", "darf", "mag"],
+          ["du", "kannst", "musst", "willst", "sollst", "darfst", "magst"],
+          ["er/sie/es", "kann", "muss", "will", "soll", "darf", "mag"],
+          ["wir", "können", "müssen", "wollen", "sollen", "dürfen", "mögen"],
+          ["ihr", "könnt", "müsst", "wollt", "sollt", "dürft", "mögt"],
+          ["sie/Sie", "können", "müssen", "wollen", "sollen", "dürfen", "mögen"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Verbi irregolari comuni",
+      "description": "I verbi irregolari più frequenti con il cambio vocalico alla terza persona e il Perfekt.",
+      "table": {
+        "headers": ["Infinitiv", "3. Person", "Perfekt", "Italiano"],
+        "rows": [
+          ["fahren", "fährt", "ist gefahren", "andare (con mezzo)"],
+          ["geben", "gibt", "hat gegeben", "dare"],
+          ["lesen", "liest", "hat gelesen", "leggere"],
+          ["nehmen", "nimmt", "hat genommen", "prendere"],
+          ["schlafen", "schläft", "hat geschlafen", "dormire"],
+          ["sehen", "sieht", "hat gesehen", "vedere"],
+          ["sprechen", "spricht", "hat gesprochen", "parlare"],
+          ["tragen", "trägt", "hat getragen", "portare/indossare"],
+          ["essen", "isst", "hat gegessen", "mangiare"],
+          ["laufen", "läuft", "ist gelaufen", "correre/camminare"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "I verbi modali al presente hanno la stessa desinenza per 'ich' e 'er/sie/es' (senza -t!): ich kann, er kann"
+    },
+    {
+      "type": "warning",
+      "content": "Non confondere 'sein' e 'haben' nel Perfekt! I verbi di movimento usano 'sein': Ich BIN gegangen"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "I verbi regolari seguono sempre lo schema: -e, -st, -t, -en, -t, -en",
+        "sein, haben e werden sono i tre ausiliari fondamentali",
+        "I verbi modali hanno forme speciali: ich e er/sie/es sono uguali",
+        "Molti verbi irregolari cambiano la vocale alla 2a e 3a persona singolare (a→ä, e→i/ie)",
+        "Nel Perfekt: verbi di movimento e cambiamento di stato usano 'sein', gli altri 'haben'",
+        "Il Partizip II dei verbi regolari: ge- + radice + -t (gemacht)",
+        "Il Partizip II dei verbi irregolari: ge- + radice modificata + -en (gegeben)"
+      ]
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Ich mache meine Hausaufgaben.",
+          "it": "Faccio i miei compiti. (verbo regolare, presente)"
+        },
+        {
+          "de": "Er ist gestern nach Berlin gefahren.",
+          "it": "Ieri è andato a Berlino. (Perfekt con 'sein')"
+        },
+        {
+          "de": "Wir haben einen Film gesehen.",
+          "it": "Abbiamo visto un film. (Perfekt con 'haben')"
+        },
+        {
+          "de": "Sie kann sehr gut Deutsch sprechen.",
+          "it": "Lei sa parlare tedesco molto bene. (modale + infinito)"
+        },
+        {
+          "de": "Er liest jeden Tag die Zeitung.",
+          "it": "Lui legge il giornale ogni giorno. (cambio vocalico e→ie)"
+        },
+        {
+          "de": "Als Kind war ich sehr schüchtern.",
+          "it": "Da bambino ero molto timido. (Präteritum di 'sein')"
+        }
+      ]
+    }
+  ]
+}

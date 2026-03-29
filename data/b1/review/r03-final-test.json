@@ -20,7 +20,11 @@
       "type": "fill-blank",
       "sentence": "Das Buch ___ von vielen Studenten gelesen.",
       "blanks": [
-        "wird"
+        {
+          "correct": [
+            "wird"
+          ]
+        }
       ],
       "explanation": "Passivo presente: 'werden' coniugato + Partizip II. 'Das Buch wird gelesen' = il libro viene letto."
     },
@@ -28,7 +32,11 @@
       "type": "fill-blank",
       "sentence": "Der Mann, ___ dort steht, ist mein Lehrer.",
       "blanks": [
-        "der"
+        {
+          "correct": [
+            "der"
+          ]
+        }
       ],
       "explanation": "Pronome relativo maschile nominativo (soggetto della frase relativa) = 'der'."
     },
@@ -48,7 +56,11 @@
       "type": "fill-blank",
       "sentence": "___ des schlechten Wetters sind wir zu Hause geblieben.",
       "blanks": [
-        "Wegen"
+        {
+          "correct": [
+            "Wegen"
+          ]
+        }
       ],
       "explanation": "'Wegen' (a causa di) è una preposizione che regge il genitivo."
     },
@@ -103,7 +115,11 @@
       "type": "fill-blank",
       "sentence": "Die Frau, ___ ich das Buch gegeben habe, war sehr nett.",
       "blanks": [
-        "der"
+        {
+          "correct": [
+            "der"
+          ]
+        }
       ],
       "explanation": "Pronome relativo femminile dativo (a cui ho dato) = 'der'. Attenzione: il dativo femminile ha la stessa forma del nominativo maschile."
     },
@@ -138,7 +154,11 @@
       "type": "fill-blank",
       "sentence": "Die Universität ___ letztes Jahr renoviert.",
       "blanks": [
-        "wurde"
+        {
+          "correct": [
+            "wurde"
+          ]
+        }
       ],
       "explanation": "Passivo al Präteritum: 'wurde' + Partizip II. 'wurde renoviert' = fu ristrutturata."
     },
@@ -189,7 +209,11 @@
       "type": "fill-blank",
       "sentence": "Ich habe beschlossen, nächstes Jahr an der Universität Medizin ___ .",
       "blanks": [
-        "zu studieren"
+        {
+          "correct": [
+            "zu studieren"
+          ]
+        }
       ],
       "explanation": "Dopo 'beschließen' (decidere) si usa 'zu + Infinitiv'. L'infinito con 'zu' va alla fine della frase."
     },

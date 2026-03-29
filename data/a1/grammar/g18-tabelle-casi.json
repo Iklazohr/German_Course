@@ -1,0 +1,121 @@
+{
+  "id": "a1-ref01",
+  "level": "a1",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: I casi tedeschi",
+  "subtitle": "Die deutschen Fälle – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I casi tedeschi sono fondamentali. Ecco tutte le tabelle che ti servono in un unico posto!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Articoli determinativi",
+      "description": "Gli articoli determinativi (der, die, das) cambiano forma a seconda del caso grammaticale.",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Nominativ", "der", "die", "das", "die"],
+          ["Akkusativ", "den", "die", "das", "die"],
+          ["Dativ", "dem", "der", "dem", "den (+n)"],
+          ["Genitiv", "des (+s)", "der", "des (+s)", "der"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Articoli indeterminativi",
+      "description": "Gli articoli indeterminativi (ein, eine) seguono lo stesso schema ma non hanno plurale.",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro"],
+        "rows": [
+          ["Nominativ", "ein", "eine", "ein"],
+          ["Akkusativ", "einen", "eine", "ein"],
+          ["Dativ", "einem", "einer", "einem"],
+          ["Genitiv", "eines", "einer", "eines"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Pronomi personali nei casi",
+      "description": "I pronomi personali cambiano forma nel Nominativo, Accusativo e Dativo.",
+      "table": {
+        "headers": ["", "Nom", "Akk", "Dat"],
+        "rows": [
+          ["1a sing.", "ich", "mich", "mir"],
+          ["2a sing.", "du", "dich", "dir"],
+          ["3a sing. (m)", "er", "ihn", "ihm"],
+          ["3a sing. (f)", "sie", "sie", "ihr"],
+          ["3a sing. (n)", "es", "es", "ihm"],
+          ["1a pl.", "wir", "uns", "uns"],
+          ["2a pl.", "ihr", "euch", "euch"],
+          ["3a pl.", "sie", "sie", "ihnen"],
+          ["formale", "Sie", "Sie", "Ihnen"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Quando usare quale caso?",
+      "description": "Ogni caso risponde a una domanda specifica e ha una funzione precisa nella frase.",
+      "table": {
+        "headers": ["Caso", "Domanda", "Uso"],
+        "rows": [
+          ["Nominativ", "Wer? Was?", "Soggetto della frase"],
+          ["Akkusativ", "Wen? Was?", "Oggetto diretto"],
+          ["Dativ", "Wem?", "Oggetto indiretto"],
+          ["Genitiv", "Wessen?", "Possesso / appartenenza"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "Ricorda: il verbo 'sein' richiede sempre il Nominativ: Ich bin EIN Lehrer (non 'einen')"
+    },
+    {
+      "type": "warning",
+      "content": "Molti studenti confondono Akkusativ e Dativ. Il Dativ risponde a 'A chi?' (Wem?), l'Akkusativ a 'Chi/Cosa?' (Wen? Was?)"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il Nominativ è per il soggetto",
+        "L'Akkusativ è per l'oggetto diretto e dopo für, durch, gegen, ohne, um",
+        "Il Dativ è per l'oggetto indiretto e dopo mit, von, zu, bei, nach, seit, aus",
+        "Il Genitivo esprime possesso e si usa dopo wegen, trotz, während, statt"
+      ]
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Der Mann liest ein Buch.",
+          "it": "L'uomo legge un libro. (der Mann = Nom, ein Buch = Akk)"
+        },
+        {
+          "de": "Ich sehe den Hund.",
+          "it": "Vedo il cane. (den Hund = Akkusativ)"
+        },
+        {
+          "de": "Sie gibt dem Kind einen Apfel.",
+          "it": "Lei dà al bambino una mela. (dem Kind = Dat, einen Apfel = Akk)"
+        },
+        {
+          "de": "Das ist das Auto des Lehrers.",
+          "it": "Questa è la macchina dell'insegnante. (des Lehrers = Genitiv)"
+        },
+        {
+          "de": "Ich fahre mit dem Bus zur Schule.",
+          "it": "Vado con l'autobus a scuola. (mit + Dativ, zu + Dativ)"
+        },
+        {
+          "de": "Das Geschenk ist für dich.",
+          "it": "Il regalo è per te. (für + Akkusativ: dich)"
+        }
+      ]
+    }
+  ]
+}

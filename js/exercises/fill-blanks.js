@@ -52,14 +52,20 @@ export function renderFillBlank(container, exercise, onReady, onDirectAnswer) {
 
                 if (allCorrect) {
                     playCorrect();
-                    feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
+                    feedbackEl.innerHTML = `
+                        <div class="feedback feedback-correct">
+                            <div class="feedback-title">✅ Corretto!</div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
+                        </div>
+                    `;
                 } else {
                     playIncorrect();
-                    const correctAnswers = blanks.map(b => b.correct[0]).join(', ');
+                    const correctAnswers = blanks.map(b => (b.correct || [])[0] || b).join(', ');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">
-                            <div class="feedback-title">Non corretto</div>
-                            <div class="feedback-explanation">Risposta corretta: ${correctAnswers}</div>
+                            <div class="feedback-title">❌ Non corretto</div>
+                            <div class="feedback-explanation">Risposta corretta: <strong>${correctAnswers}</strong></div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                         </div>
                     `;
                 }

@@ -8,7 +8,11 @@
       "type": "fill-blank",
       "sentence": "Wenn ich mehr Zeit hätte, ___ ich mehr Sport treiben.",
       "blanks": [
-        "würde"
+        {
+          "correct": [
+            "würde"
+          ]
+        }
       ],
       "explanation": "Il Konjunktiv II si forma con 'würde' + infinito per i verbi regolari: 'würde ... treiben' = farei sport."
     },
@@ -16,7 +20,11 @@
       "type": "fill-blank",
       "sentence": "Wenn ich reich ___, würde ich eine Weltreise machen.",
       "blanks": [
-        "wäre"
+        {
+          "correct": [
+            "wäre"
+          ]
+        }
       ],
       "explanation": "'Sein' ha una forma propria al Konjunktiv II: ich wäre, du wärst, er/sie wäre, wir wären, ihr wärt, sie wären."
     },
@@ -24,7 +32,11 @@
       "type": "fill-blank",
       "sentence": "An deiner Stelle ___ ich zum Arzt gehen.",
       "blanks": [
-        "würde"
+        {
+          "correct": [
+            "würde"
+          ]
+        }
       ],
       "explanation": "'An deiner Stelle würde ich...' (Al posto tuo io...) è un'espressione comune per dare consigli con il Konjunktiv II."
     },
@@ -154,7 +166,11 @@
       "type": "fill-blank",
       "sentence": "Wenn ich besser Deutsch sprechen ___, würde ich in Deutschland arbeiten.",
       "blanks": [
-        "könnte"
+        {
+          "correct": [
+            "könnte"
+          ]
+        }
       ],
       "explanation": "'Können' al Konjunktiv II: ich könnte, du könntest, er könnte. Significa 'potessi/potrebbe'."
     },
@@ -162,7 +178,11 @@
       "type": "fill-blank",
       "sentence": "Wenn er das ___, würde er es anders machen.",
       "blanks": [
-        "wüsste"
+        {
+          "correct": [
+            "wüsste"
+          ]
+        }
       ],
       "explanation": "'Wissen' al Konjunktiv II: ich wüsste, du wüsstest, er wüsste. Significa 'sapessi/sapesse'."
     }

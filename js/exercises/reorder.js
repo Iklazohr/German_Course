@@ -50,13 +50,19 @@ export function renderReorder(container, exercise, onReady, onDirectAnswer) {
 
                 if (isCorrect) {
                     playCorrect();
-                    feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
+                    feedbackEl.innerHTML = `
+                        <div class="feedback feedback-correct">
+                            <div class="feedback-title">✅ Corretto!</div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
+                        </div>
+                    `;
                 } else {
                     playIncorrect();
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">
-                            <div class="feedback-title">Non corretto</div>
+                            <div class="feedback-title">❌ Non corretto</div>
                             <div class="feedback-explanation">Ordine corretto: <strong>${exercise.correct}</strong></div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                         </div>
                     `;
                 }

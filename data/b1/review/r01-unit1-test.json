@@ -20,7 +20,11 @@
       "type": "fill-blank",
       "sentence": "Wenn ich du ___, würde ich mich sofort bewerben.",
       "blanks": [
-        "wäre"
+        {
+          "correct": [
+            "wäre"
+          ]
+        }
       ],
       "explanation": "'Sein' al Konjunktiv II: ich wäre. 'Wenn ich du wäre' = se fossi te."
     },
@@ -28,7 +32,11 @@
       "type": "fill-blank",
       "sentence": "___ Sie mir bitte helfen?",
       "blanks": [
-        "Könnten"
+        {
+          "correct": [
+            "Könnten"
+          ]
+        }
       ],
       "explanation": "Forma cortese con il Konjunktiv II di 'können': 'Könnten Sie...' (Potrebbe Lei...)."
     },
@@ -48,7 +56,11 @@
       "type": "fill-blank",
       "sentence": "Sie fragt, ___ ich morgen kommen kann.",
       "blanks": [
-        "ob"
+        {
+          "correct": [
+            "ob"
+          ]
+        }
       ],
       "explanation": "Per le domande sì/no indirette si usa la congiunzione 'ob' (se): 'Sie fragt, ob...'."
     },
@@ -99,7 +111,11 @@
       "type": "fill-blank",
       "sentence": "Er hat seinen Job ___, weil er unzufrieden war.",
       "blanks": [
-        "gekündigt"
+        {
+          "correct": [
+            "gekündigt"
+          ]
+        }
       ],
       "explanation": "'Kündigen' (licenziarsi/dare le dimissioni). Partizip II: gekündigt."
     },

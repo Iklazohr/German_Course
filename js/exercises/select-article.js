@@ -61,12 +61,18 @@ export function renderSelectArticle(container, exercise, onReady, onDirectAnswer
                     playIncorrect();
                 }
                 if (allCorrect) {
-                    feedbackEl.innerHTML = '<div class="feedback feedback-correct">Tutti gli articoli sono corretti!</div>';
+                    feedbackEl.innerHTML = `
+                        <div class="feedback feedback-correct">
+                            <div class="feedback-title">✅ Tutti gli articoli sono corretti!</div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
+                        </div>
+                    `;
                 } else {
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">
-                            <div class="feedback-title">${correctCount}/${totalItems} corretti</div>
+                            <div class="feedback-title">❌ ${correctCount}/${totalItems} corretti</div>
                             <div class="feedback-explanation">Rivedi gli articoli evidenziati in rosso.</div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                         </div>
                     `;
                 }

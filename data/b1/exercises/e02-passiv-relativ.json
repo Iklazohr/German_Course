@@ -8,7 +8,11 @@
       "type": "fill-blank",
       "sentence": "Das Buch ___ von vielen Schülern gelesen.",
       "blanks": [
-        "wird"
+        {
+          "correct": [
+            "wird"
+          ]
+        }
       ],
       "explanation": "Il passivo presente (Vorgangspassiv) si forma con 'werden' + Partizip II: 'wird gelesen' = viene letto."
     },
@@ -16,7 +20,11 @@
       "type": "fill-blank",
       "sentence": "Das Auto ___ gestern repariert.",
       "blanks": [
-        "wurde"
+        {
+          "correct": [
+            "wurde"
+          ]
+        }
       ],
       "explanation": "Il passivo al Präteritum si forma con 'wurde' + Partizip II: 'wurde repariert' = fu riparato."
     },
@@ -24,7 +32,11 @@
       "type": "fill-blank",
       "sentence": "Hier ___ nicht geraucht werden.",
       "blanks": [
-        "darf"
+        {
+          "correct": [
+            "darf"
+          ]
+        }
       ],
       "explanation": "Il passivo con verbo modale: modale coniugato + Partizip II + 'werden' all'infinito. 'Darf nicht geraucht werden' = non si può fumare."
     },
@@ -131,7 +143,11 @@
       "type": "fill-blank",
       "sentence": "Das Buch, ___ ich lese, ist sehr spannend.",
       "blanks": [
-        "das"
+        {
+          "correct": [
+            "das"
+          ]
+        }
       ],
       "explanation": "'Das Buch' è neutro. Nella frase relativa è oggetto diretto → accusativo neutro = 'das'."
     },
@@ -139,7 +155,11 @@
       "type": "fill-blank",
       "sentence": "Die Kollegin, ___ Büro neben meinem ist, kommt aus Spanien.",
       "blanks": [
-        "deren"
+        {
+          "correct": [
+            "deren"
+          ]
+        }
       ],
       "explanation": "'Die Kollegin' è femminile. 'Il cui ufficio' → genitivo femminile = 'deren'."
     },

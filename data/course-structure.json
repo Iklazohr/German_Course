@@ -114,7 +114,9 @@
             { "id": "a1-g17", "type": "grammar", "file": "a1/grammar/g17-werden-futur.json", "title": "Il verbo \"werden\" e cenni sul futuro" },
             { "id": "a1-v14", "type": "vocab", "file": "a1/vocab/v14-schule-lernen.json", "title": "Scuola e apprendimento" },
             { "id": "a1-v15", "type": "vocab", "file": "a1/vocab/v15-freizeit-sport.json", "title": "Tempo libero e sport" },
-            { "id": "a1-e10", "type": "exercise", "file": "a1/exercises/e10-riepilogo.json", "title": "Esercizi: Riepilogo generale" }
+            { "id": "a1-e10", "type": "exercise", "file": "a1/exercises/e10-riepilogo.json", "title": "Esercizi: Riepilogo generale" },
+            { "id": "a1-ref01", "type": "grammar", "file": "a1/grammar/g18-tabelle-casi.json", "title": "📋 Tabella rapida: I casi tedeschi" },
+            { "id": "a1-ref02", "type": "grammar", "file": "a1/grammar/g19-tabelle-verbi.json", "title": "📋 Tabella rapida: Coniugazione verbi" }
           ],
           "review": { "id": "a1-r06", "file": "a1/review/r06-final-test.json", "title": "Test finale A1" }
         }
@@ -191,7 +193,9 @@
             { "id": "a2-g12", "type": "grammar", "file": "a2/grammar/g12-relativpronomen-intro.json", "title": "Introduzione ai pronomi relativi" },
             { "id": "a2-v08", "type": "vocab", "file": "a2/vocab/v08-arbeit-buero.json", "title": "Lavoro e ufficio" },
             { "id": "a2-v09", "type": "vocab", "file": "a2/vocab/v09-gefuehle-meinungen.json", "title": "Sentimenti e opinioni" },
-            { "id": "a2-e06", "type": "exercise", "file": "a2/exercises/e06-futur-relativ.json", "title": "Esercizi: Futuro e pronomi relativi" }
+            { "id": "a2-e06", "type": "exercise", "file": "a2/exercises/e06-futur-relativ.json", "title": "Esercizi: Futuro e pronomi relativi" },
+            { "id": "a2-ref01", "type": "grammar", "file": "a2/grammar/g13-tabelle-preposizioni.json", "title": "📋 Tabella rapida: Preposizioni" },
+            { "id": "a2-ref02", "type": "grammar", "file": "a2/grammar/g14-tabelle-aggettivi.json", "title": "📋 Tabella rapida: Declinazione aggettivi" }
           ],
           "review": { "id": "a2-r04", "file": "a2/review/r04-final-test.json", "title": "Test finale A2" }
         }
@@ -257,7 +261,9 @@
             { "id": "b1-g10", "type": "grammar", "file": "b1/grammar/g10-n-deklination.json", "title": "La n-Deklination" },
             { "id": "b1-v07", "type": "vocab", "file": "b1/vocab/v07-technik-internet.json", "title": "Tecnologia e internet" },
             { "id": "b1-v08", "type": "vocab", "file": "b1/vocab/v08-gesellschaft.json", "title": "Società e convivenza" },
-            { "id": "b1-e05", "type": "exercise", "file": "b1/exercises/e05-wortbildung-ndekl.json", "title": "Esercizi: Parole composte e n-Deklination" }
+            { "id": "b1-e05", "type": "exercise", "file": "b1/exercises/e05-wortbildung-ndekl.json", "title": "Esercizi: Parole composte e n-Deklination" },
+            { "id": "b1-ref01", "type": "grammar", "file": "b1/grammar/g11-tabelle-tempi.json", "title": "📋 Tabella rapida: Tempi verbali" },
+            { "id": "b1-ref02", "type": "grammar", "file": "b1/grammar/g12-tabelle-nebensaetze.json", "title": "📋 Tabella rapida: Subordinate e connettori" }
           ],
           "review": { "id": "b1-r03", "file": "b1/review/r03-final-test.json", "title": "Test finale B1" }
         }

@@ -40,14 +40,21 @@ export function renderTranslation(container, exercise, onReady, onDirectAnswer) 
                 if (result === 'correct') {
                     playCorrect();
                     textarea.classList.add('correct');
-                    feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
+                    feedbackEl.innerHTML = `
+                        <div class="feedback feedback-correct">
+                            <div class="feedback-title">✅ Corretto!</div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
+                        </div>
+                    `;
                     return true;
                 } else if (result === 'close') {
                     playCorrect();
                     textarea.classList.add('correct');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-correct">
-                            Quasi perfetto! La risposta esatta è: <strong>${exercise.acceptable[0]}</strong>
+                            <div class="feedback-title">✅ Quasi perfetto!</div>
+                            <div class="feedback-explanation">La risposta esatta è: <strong>${exercise.acceptable[0]}</strong></div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                         </div>
                     `;
                     return true;
@@ -56,8 +63,9 @@ export function renderTranslation(container, exercise, onReady, onDirectAnswer) 
                     textarea.classList.add('incorrect');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">
-                            <div class="feedback-title">Non corretto</div>
+                            <div class="feedback-title">❌ Non corretto</div>
                             <div class="feedback-explanation">Risposta corretta: <strong>${exercise.acceptable[0]}</strong></div>
+                            ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                         </div>
                     `;
                     return false;

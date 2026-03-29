@@ -1,0 +1,105 @@
+{
+  "id": "a2-ref01",
+  "level": "a2",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: Le preposizioni tedesche",
+  "subtitle": "Deutsche Präpositionen – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le preposizioni tedesche reggono casi specifici. Ecco una guida completa per non sbagliare mai!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Preposizioni con Akkusativ",
+      "description": "Queste preposizioni reggono **sempre** l'accusativo. Memorizzale con: **für, um, durch, gegen, entlang, bis, ohne**.",
+      "table": {
+        "headers": ["Preposizione", "Significato", "Esempio"],
+        "rows": [
+          ["für", "per", "Das ist für den Mann."],
+          ["um", "intorno a / alle (ora)", "Um den Tisch. / Um 8 Uhr."],
+          ["durch", "attraverso", "Durch die Stadt gehen."],
+          ["gegen", "contro", "Gegen den Wind laufen."],
+          ["entlang", "lungo", "Den Fluss entlang gehen."],
+          ["bis", "fino a", "Bis nächsten Montag!"],
+          ["ohne", "senza", "Ohne einen Fehler."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Preposizioni con Dativ",
+      "description": "Queste preposizioni reggono **sempre** il dativo: **aus, bei, mit, nach, seit, von, zu**.",
+      "table": {
+        "headers": ["Preposizione", "Significato", "Esempio"],
+        "rows": [
+          ["aus", "da (provenienza)", "Ich komme aus der Schweiz."],
+          ["bei", "presso / da", "Ich wohne bei meiner Mutter."],
+          ["mit", "con", "Ich fahre mit dem Bus."],
+          ["nach", "dopo / verso", "Nach der Schule. / Nach Berlin."],
+          ["seit", "da (tempo)", "Seit einem Jahr lerne ich Deutsch."],
+          ["von", "da / di", "Das Buch von dem Lehrer."],
+          ["zu", "verso / a / da", "Ich gehe zum Arzt."],
+          ["gegenüber", "di fronte a", "Gegenüber dem Bahnhof."],
+          ["außer", "tranne", "Alle außer mir."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Wechselpräpositionen (preposizioni a doppio regime)",
+      "description": "Queste 9 preposizioni reggono **Akkusativ** (movimento → wohin?) o **Dativ** (posizione → wo?).",
+      "table": {
+        "headers": ["Preposizione", "Significato", "Akk (wohin?)", "Dat (wo?)"],
+        "rows": [
+          ["an", "a / presso", "Ich gehe an den Tisch.", "Ich bin am Tisch."],
+          ["auf", "su / sopra", "Ich lege es auf den Tisch.", "Es liegt auf dem Tisch."],
+          ["hinter", "dietro", "Ich gehe hinter das Haus.", "Ich bin hinter dem Haus."],
+          ["in", "in / dentro", "Ich gehe in die Schule.", "Ich bin in der Schule."],
+          ["neben", "accanto a", "Ich setze mich neben den Mann.", "Ich sitze neben dem Mann."],
+          ["über", "sopra", "Ich hänge es über den Tisch.", "Es hängt über dem Tisch."],
+          ["unter", "sotto", "Ich lege es unter den Tisch.", "Es liegt unter dem Tisch."],
+          ["vor", "davanti a", "Ich stelle es vor die Tür.", "Es steht vor der Tür."],
+          ["zwischen", "tra", "Ich setze mich zwischen die Kinder.", "Ich sitze zwischen den Kindern."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Trucco per le Wechselpräpositionen:** se rispondi a **wohin?** (dove vai?) → Akkusativ. Se rispondi a **wo?** (dove sei?) → Dativ. Movimento = Akk, Posizione = Dat!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Contrazioni comuni",
+      "description": "Alcune preposizioni si fondono con l'articolo:",
+      "table": {
+        "headers": ["Preposizione + Articolo", "Contrazione", "Esempio"],
+        "rows": [
+          ["an + dem", "am", "Am Montag (lunedì)"],
+          ["an + das", "ans", "Ans Meer fahren"],
+          ["in + dem", "im", "Im Sommer (in estate)"],
+          ["in + das", "ins", "Ins Kino gehen"],
+          ["zu + dem", "zum", "Zum Bahnhof gehen"],
+          ["zu + der", "zur", "Zur Schule gehen"],
+          ["von + dem", "vom", "Vom Arzt kommen"],
+          ["bei + dem", "beim", "Beim Essen (durante il pranzo)"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Non confondere **nach** e **zu**: si usa *nach* per città e paesi senza articolo (nach Berlin, nach Italien), e *zu* per luoghi specifici e persone (zum Arzt, zur Schule)."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Akkusativ: für, um, durch, gegen, entlang, bis, ohne",
+        "Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber, außer",
+        "Wechselpräpositionen: an, auf, hinter, in, neben, über, unter, vor, zwischen",
+        "Wohin? → Akkusativ (movimento) / Wo? → Dativ (posizione)",
+        "Impara le contrazioni: am, im, zum, zur, ins, ans, vom, beim"
+      ]
+    }
+  ]
+}

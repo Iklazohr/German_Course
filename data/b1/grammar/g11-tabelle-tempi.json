@@ -1,0 +1,121 @@
+{
+  "id": "b1-ref01",
+  "level": "b1",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: I tempi verbali tedeschi",
+  "subtitle": "Deutsche Zeitformen – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Tutti i tempi verbali tedeschi a colpo d'occhio! Questa guida ti aiuta a capire quando e come usare ciascun tempo."
+    },
+    {
+      "type": "quick-table",
+      "title": "Panoramica dei tempi verbali",
+      "description": "I 6 tempi verbali del tedesco con le loro funzioni principali:",
+      "table": {
+        "headers": ["Tempo", "Nome tedesco", "Uso principale", "Esempio"],
+        "rows": [
+          ["Presente", "Präsens", "Azioni attuali, abituali, future certe", "Ich lerne Deutsch."],
+          ["Passato (conv.)", "Perfekt", "Passato nel parlato quotidiano", "Ich habe gelernt."],
+          ["Passato (narr.)", "Präteritum", "Passato nello scritto/formale", "Ich lernte."],
+          ["Trapassato", "Plusquamperfekt", "Azione precedente a un'altra passata", "Ich hatte gelernt."],
+          ["Futuro I", "Futur I", "Futuro, supposizioni", "Ich werde lernen."],
+          ["Futuro II", "Futur II", "Azione futura completata, supposizioni", "Ich werde gelernt haben."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Perfekt: haben o sein?",
+      "description": "La scelta dell'ausiliare è fondamentale:",
+      "table": {
+        "headers": ["Ausiliare", "Quando si usa", "Esempi"],
+        "rows": [
+          ["haben", "La maggior parte dei verbi", "Ich habe gegessen/gelesen/gekauft."],
+          ["haben", "Verbi riflessivi", "Ich habe mich gewaschen."],
+          ["haben", "Verbi modali", "Ich habe gekonnt."],
+          ["sein", "Verbi di movimento (cambio di luogo)", "Ich bin gegangen/gefahren/geflogen."],
+          ["sein", "Verbi di cambio di stato", "Ich bin aufgewacht/eingeschlafen."],
+          ["sein", "sein, werden, bleiben, passieren", "Ich bin gewesen/geworden."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Formazione del Partizip II",
+      "description": "Come si forma il participio passato:",
+      "table": {
+        "headers": ["Tipo", "Schema", "Esempio"],
+        "rows": [
+          ["Regolari", "ge- + radice + -t", "machen → gemacht"],
+          ["Irregolari", "ge- + radice (cambiata) + -en", "fahren → gefahren"],
+          ["Prefisso separabile", "prefisso + ge- + radice + -t/-en", "aufmachen → aufgemacht"],
+          ["Prefisso inseparabile", "radice + -t/-en (NO ge-)", "besuchen → besucht"],
+          ["Verbi in -ieren", "radice + -t (NO ge-)", "studieren → studiert"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Präteritum: verbi importanti irregolari",
+      "description": "I verbi più comuni al Präteritum:",
+      "table": {
+        "headers": ["Infinito", "Präteritum", "Significato"],
+        "rows": [
+          ["sein", "war", "essere"],
+          ["haben", "hatte", "avere"],
+          ["werden", "wurde", "diventare"],
+          ["gehen", "ging", "andare"],
+          ["kommen", "kam", "venire"],
+          ["sehen", "sah", "vedere"],
+          ["geben", "gab", "dare"],
+          ["nehmen", "nahm", "prendere"],
+          ["sprechen", "sprach", "parlare"],
+          ["finden", "fand", "trovare"],
+          ["stehen", "stand", "stare in piedi"],
+          ["wissen", "wusste", "sapere"],
+          ["denken", "dachte", "pensare"],
+          ["bringen", "brachte", "portare"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Konjunktiv II: forme più usate",
+      "description": "Per esprimere desideri, ipotesi e cortesia:",
+      "table": {
+        "headers": ["Infinito", "Konj. II", "Uso comune"],
+        "rows": [
+          ["sein", "wäre", "Ich wäre froh. (Sarei felice.)"],
+          ["haben", "hätte", "Ich hätte gern... (Vorrei...)"],
+          ["können", "könnte", "Könntest du...? (Potresti...?)"],
+          ["werden", "würde", "Ich würde gehen. (Andrei.)"],
+          ["müssen", "müsste", "Du müsstest... (Dovresti...)"],
+          ["dürfen", "dürfte", "Dürfte ich...? (Potrei...?)"],
+          ["sollen", "sollte", "Du solltest... (Dovresti...)"],
+          ["wissen", "wüsste", "Ich wüsste gern... (Vorrei sapere...)"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Nel parlato quotidiano** si usa quasi sempre il Perfekt per il passato. Il Präteritum si usa soprattutto con sein (war), haben (hatte) e i verbi modali (konnte, wollte, musste, durfte, sollte)."
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Il Konjunktiv II di molti verbi irregolari suona antiquato. Nella lingua moderna si preferisce **würde + Infinitiv**. Le eccezioni importanti sono: wäre, hätte, könnte, müsste, dürfte, sollte, wüsste."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Perfekt = parlato (haben/sein + Partizip II), Präteritum = scritto",
+        "Sein come ausiliare: movimento, cambio di stato, sein/werden/bleiben",
+        "Partizip II: ge-...-t (regolari), ge-...-en (irregolari), niente ge- con prefissi inseparabili",
+        "Konjunktiv II: wäre, hätte, könnte, würde + Infinitiv per il resto",
+        "Plusquamperfekt: hatte/war + Partizip II (per il trapassato)"
+      ]
+    }
+  ]
+}

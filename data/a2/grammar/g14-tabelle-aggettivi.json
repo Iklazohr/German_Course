@@ -1,0 +1,83 @@
+{
+  "id": "a2-ref02",
+  "level": "a2",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: Declinazione degli aggettivi",
+  "subtitle": "Adjektivdeklination – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "La declinazione degli aggettivi è una delle parti più complesse del tedesco. Queste tabelle ti aiuteranno a scegliere sempre la desinenza giusta!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Con articolo determinativo (der, die, das)",
+      "description": "Quando c'è l'articolo determinativo, l'aggettivo prende desinenze **deboli** (-e o -en).",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Nominativ", "der alt-e Mann", "die alt-e Frau", "das alt-e Kind", "die alt-en Leute"],
+          ["Akkusativ", "den alt-en Mann", "die alt-e Frau", "das alt-e Kind", "die alt-en Leute"],
+          ["Dativ", "dem alt-en Mann", "der alt-en Frau", "dem alt-en Kind", "den alt-en Leuten"],
+          ["Genitiv", "des alt-en Mannes", "der alt-en Frau", "des alt-en Kindes", "der alt-en Leute"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Trucco facile:** con l'articolo determinativo, la desinenza è quasi sempre **-en**. Solo al Nominativo (tutti) e Akkusativ femminile/neutro si usa **-e**. Conta: 5 volte -e, tutto il resto -en!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Con articolo indeterminativo (ein, eine, ein)",
+      "description": "Con l'articolo indeterminativo, l'aggettivo deve a volte compensare mostrando il genere (**declinazione mista**).",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro", "Plurale (keine)"],
+        "rows": [
+          ["Nominativ", "ein alt-er Mann", "eine alt-e Frau", "ein alt-es Kind", "keine alt-en Leute"],
+          ["Akkusativ", "einen alt-en Mann", "eine alt-e Frau", "ein alt-es Kind", "keine alt-en Leute"],
+          ["Dativ", "einem alt-en Mann", "einer alt-en Frau", "einem alt-en Kind", "keinen alt-en Leuten"],
+          ["Genitiv", "eines alt-en Mannes", "einer alt-en Frau", "eines alt-en Kindes", "keiner alt-en Leute"]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Senza articolo (declinazione forte)",
+      "description": "Senza articolo, l'aggettivo prende le desinenze dell'articolo determinativo.",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Nominativ", "alt-er Mann", "alt-e Frau", "alt-es Kind", "alt-e Leute"],
+          ["Akkusativ", "alt-en Mann", "alt-e Frau", "alt-es Kind", "alt-e Leute"],
+          ["Dativ", "alt-em Mann", "alt-er Frau", "alt-em Kind", "alt-en Leuten"],
+          ["Genitiv", "alt-en Mannes", "alt-er Frau", "alt-en Kindes", "alt-er Leute"]
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {"de": "Der neue Film ist gut.", "it": "Il nuovo film è buono."},
+        {"de": "Ich kaufe einen roten Mantel.", "it": "Compro un cappotto rosso."},
+        {"de": "Sie trinkt kaltes Wasser.", "it": "Lei beve acqua fredda."},
+        {"de": "Mit großer Freude!", "it": "Con grande gioia!"}
+      ]
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Alcuni aggettivi sono irregolari: *hoch* → *das hohe Haus* (perde la -c), *dunkel* → *die dunkle Nacht* (perde la -e), *teuer* → *das teure Auto* (perde la -e)."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Con articolo determinativo: quasi sempre -en, solo Nom + Akk (f/n) è -e",
+        "Con articolo indeterminativo: Nom masch -er, Nom/Akk neutro -es, resto simile",
+        "Senza articolo: l'aggettivo prende le desinenze dell'articolo",
+        "Al Dativo e Genitivo è quasi sempre -en in tutti e tre i tipi",
+        "Esercitati con frasi complete, non solo con tabelle!"
+      ]
+    }
+  ]
+}

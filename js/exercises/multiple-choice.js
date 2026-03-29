@@ -38,11 +38,17 @@ export function renderMultipleChoice(container, exercise, onReady, onDirectAnswe
 
             // Show feedback
             if (isCorrect) {
-                feedbackEl.innerHTML = `<div class="feedback feedback-correct">Corretto!</div>`;
+                feedbackEl.innerHTML = `
+                    <div class="feedback feedback-correct">
+                        <div class="feedback-title">✅ Corretto!</div>
+                        ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
+                    </div>
+                `;
             } else {
                 feedbackEl.innerHTML = `
                     <div class="feedback feedback-incorrect">
-                        <div class="feedback-title">Non corretto</div>
+                        <div class="feedback-title">❌ Non corretto</div>
+                        <div class="feedback-explanation">La risposta corretta è: <strong>${exercise.options[exercise.correct]}</strong></div>
                         ${exercise.explanation ? `<div class="feedback-explanation">${exercise.explanation}</div>` : ''}
                     </div>
                 `;

@@ -1,0 +1,123 @@
+{
+  "id": "b1-ref02",
+  "level": "b1",
+  "type": "grammar",
+  "title": "📋 Tabella rapida: Frasi subordinate e connettori",
+  "subtitle": "Nebensätze und Konnektoren – Übersicht",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le congiunzioni e i connettori tedeschi cambiano la posizione del verbo nella frase. Ecco tutte le regole in un unico posto!"
+    },
+    {
+      "type": "quick-table",
+      "title": "Congiunzioni coordinanti (Hauptsatz + Hauptsatz)",
+      "description": "Non cambiano l'ordine delle parole. Il verbo resta in **posizione 2**.",
+      "table": {
+        "headers": ["Congiunzione", "Significato", "Esempio"],
+        "rows": [
+          ["und", "e", "Ich lerne Deutsch und ich spreche Englisch."],
+          ["aber", "ma / però", "Ich bin müde, aber ich lerne weiter."],
+          ["oder", "o / oppure", "Kommst du mit oder bleibst du hier?"],
+          ["denn", "perché / poiché", "Ich bleibe zu Hause, denn ich bin krank."],
+          ["sondern", "ma / bensì (dopo negazione)", "Nicht Kaffee, sondern Tee."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Congiunzioni subordinanti (verbo alla fine!)",
+      "description": "Il verbo coniugato va alla **fine** della frase subordinata.",
+      "table": {
+        "headers": ["Congiunzione", "Significato", "Esempio"],
+        "rows": [
+          ["weil", "perché", "Ich bleibe, weil ich krank bin."],
+          ["dass", "che", "Ich weiß, dass du recht hast."],
+          ["wenn", "quando / se", "Wenn es regnet, bleibe ich zu Hause."],
+          ["als", "quando (passato, una volta)", "Als ich jung war, spielte ich viel."],
+          ["ob", "se (dubbio)", "Ich weiß nicht, ob er kommt."],
+          ["obwohl", "sebbene / nonostante", "Obwohl es regnet, gehe ich raus."],
+          ["damit", "affinché", "Ich lerne, damit ich die Prüfung bestehe."],
+          ["bevor", "prima che", "Bevor du gehst, ruf mich an!"],
+          ["nachdem", "dopo che", "Nachdem ich gegessen hatte, ging ich."],
+          ["während", "mentre", "Während ich lese, hört er Musik."],
+          ["seitdem", "da quando", "Seitdem ich hier wohne, bin ich glücklich."],
+          ["bis", "finché", "Warte, bis ich zurückkomme!"],
+          ["falls", "nel caso in cui", "Falls es regnet, nehme ich den Schirm."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Regola d'oro delle subordinate:** in una Nebensatz il verbo coniugato va **sempre alla fine**. Se c'è un verbo modale + infinito, l'ordine è: ...infinito + verbo modale. Es: *...weil ich Deutsch **lernen muss**.*"
+    },
+    {
+      "type": "quick-table",
+      "title": "Avverbi connettivi (verbo in posizione 2)",
+      "description": "Questi connettori occupano una posizione nella frase principale:",
+      "table": {
+        "headers": ["Connettore", "Significato", "Esempio"],
+        "rows": [
+          ["deshalb / deswegen", "perciò", "Ich bin krank, deshalb bleibe ich zu Hause."],
+          ["trotzdem", "nonostante ciò", "Es regnet, trotzdem gehe ich raus."],
+          ["außerdem", "inoltre", "Außerdem spreche ich auch Französisch."],
+          ["dann", "poi / allora", "Zuerst esse ich, dann gehe ich."],
+          ["danach", "dopo / in seguito", "Danach fahren wir nach Berlin."],
+          ["jedoch", "tuttavia", "Er ist nett, jedoch manchmal laut."],
+          ["stattdessen", "invece", "Stattdessen bleibe ich lieber hier."]
+        ]
+      }
+    },
+    {
+      "type": "quick-table",
+      "title": "Pronomi relativi (Relativpronomen)",
+      "description": "Il pronome relativo si declina secondo il caso richiesto dal verbo della subordinata:",
+      "table": {
+        "headers": ["Caso", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Nominativ", "der", "die", "das", "die"],
+          ["Akkusativ", "den", "die", "das", "die"],
+          ["Dativ", "dem", "der", "dem", "denen"],
+          ["Genitiv", "dessen", "deren", "dessen", "deren"]
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {"de": "Der Mann, der dort steht, ist mein Lehrer.", "it": "L'uomo che sta lì è il mio insegnante. (Nom)"},
+        {"de": "Die Frau, die ich kenne, ist Ärztin.", "it": "La donna che conosco è medico. (Akk)"},
+        {"de": "Das Kind, dem ich helfe, ist 5 Jahre alt.", "it": "Il bambino che aiuto ha 5 anni. (Dat)"},
+        {"de": "Der Lehrer, dessen Auto rot ist, kommt aus Berlin.", "it": "L'insegnante la cui auto è rossa viene da Berlino. (Gen)"}
+      ]
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Non confondere **weil** e **denn**: entrambi significano 'perché', ma *weil* manda il verbo alla fine, mentre *denn* mantiene l'ordine normale."
+    },
+    {
+      "type": "quick-table",
+      "title": "wenn vs. als vs. wann",
+      "description": "Tre parole che significano tutte 'quando' ma con usi diversi:",
+      "table": {
+        "headers": ["Parola", "Uso", "Esempio"],
+        "rows": [
+          ["wenn", "Presente/futuro + passato ripetuto", "Wenn ich nach Hause komme, koche ich."],
+          ["als", "Passato, evento unico", "Als ich 10 war, zog ich um."],
+          ["wann", "Domande (dirette e indirette)", "Wann kommst du? / Ich weiß nicht, wann er kommt."]
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Congiunzioni coordinanti (und, aber, oder, denn, sondern): ordine invariato",
+        "Congiunzioni subordinanti (weil, dass, wenn...): verbo alla FINE",
+        "Avverbi connettivi (deshalb, trotzdem...): verbo in posizione 2",
+        "Frasi relative: pronome relativo declinato + verbo alla fine",
+        "wenn = presente/ripetuto, als = passato unico, wann = domande"
+      ]
+    }
+  ]
+}

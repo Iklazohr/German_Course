@@ -8,7 +8,11 @@
       "type": "fill-blank",
       "sentence": "Ich habe keine Lust, heute ___ arbeiten.",
       "blanks": [
-        "zu"
+        {
+          "correct": [
+            "zu"
+          ]
+        }
       ],
       "explanation": "Dopo espressioni come 'Lust haben', 'Angst haben', 'anfangen' ecc. si usa la costruzione 'zu + Infinitiv'."
     },
@@ -16,7 +20,11 @@
       "type": "fill-blank",
       "sentence": "Er versucht, das Problem ___ lösen.",
       "blanks": [
-        "zu"
+        {
+          "correct": [
+            "zu"
+          ]
+        }
       ],
       "explanation": "Dopo verbi come 'versuchen' (provare), 'beginnen' (iniziare), 'hoffen' (sperare) si usa 'zu + Infinitiv'."
     },
@@ -24,7 +32,11 @@
       "type": "fill-blank",
       "sentence": "Es ist wichtig, genug Wasser ___ trinken.",
       "blanks": [
-        "zu"
+        {
+          "correct": [
+            "zu"
+          ]
+        }
       ],
       "explanation": "Dopo costruzioni impersonali come 'es ist wichtig', 'es ist möglich', 'es ist schön' si usa 'zu + Infinitiv'."
     },
@@ -32,7 +44,11 @@
       "type": "fill-blank",
       "sentence": "Sie hat angefangen, Deutsch ___ .",
       "blanks": [
-        "zu lernen"
+        {
+          "correct": [
+            "zu lernen"
+          ]
+        }
       ],
       "explanation": "Con 'anfangen' si usa 'zu + Infinitiv'. Il 'zu' va direttamente prima dell'infinito alla fine della frase."
     },
@@ -40,7 +56,11 @@
       "type": "fill-blank",
       "sentence": "Ich habe vor, nächstes Jahr nach Deutschland ___ .",
       "blanks": [
-        "zu reisen"
+        {
+          "correct": [
+            "zu reisen"
+          ]
+        }
       ],
       "explanation": "'Vorhaben' (avere intenzione) richiede 'zu + Infinitiv': 'Ich habe vor, zu reisen' = ho intenzione di viaggiare."
     },
@@ -134,7 +154,11 @@
       "type": "fill-blank",
       "sentence": "___ des schlechten Wetters gehen wir spazieren.",
       "blanks": [
-        "Trotz"
+        {
+          "correct": [
+            "Trotz"
+          ]
+        }
       ],
       "explanation": "'Trotz' (nonostante) è una preposizione che regge il genitivo: 'trotz des schlechten Wetters'."
     },
@@ -142,7 +166,11 @@
       "type": "fill-blank",
       "sentence": "___ der Ferien fahren wir ans Meer.",
       "blanks": [
-        "Während"
+        {
+          "correct": [
+            "Während"
+          ]
+        }
       ],
       "explanation": "'Während' (durante) è una preposizione che regge il genitivo: 'während der Ferien'."
     },
@@ -150,7 +178,11 @@
       "type": "fill-blank",
       "sentence": "___ des Regens blieb er zu Hause.",
       "blanks": [
-        "Wegen"
+        {
+          "correct": [
+            "Wegen"
+          ]
+        }
       ],
       "explanation": "'Wegen' (a causa di) è una preposizione che regge il genitivo: 'wegen des Regens'."
     }

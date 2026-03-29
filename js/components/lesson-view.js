@@ -96,6 +96,36 @@ function renderGrammarLesson(data, lessonId, levelId, nextLessonId, nextLessonTy
                     </div>
                 `;
 
+            case 'quick-table':
+                return `
+                    <div class="lesson-section">
+                        <div class="section-quick-table">
+                            <h3>${section.title || 'Tabella rapida'}</h3>
+                            ${section.description ? `<p class="quick-table-desc">${formatMarkdown(section.description)}</p>` : ''}
+                            ${section.table ? renderTable(section.table) : ''}
+                        </div>
+                    </div>
+                `;
+
+            case 'warning':
+                return `
+                    <div class="lesson-section">
+                        <div class="section-warning">${formatMarkdown(section.content)}</div>
+                    </div>
+                `;
+
+            case 'summary':
+                return `
+                    <div class="lesson-section">
+                        <div class="section-summary">
+                            <h3>${section.title || 'Riepilogo'}</h3>
+                            <ul class="summary-list">
+                                ${(section.points || []).map(p => `<li>${formatMarkdown(p)}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                `;
+
             default:
                 return '';
         }
