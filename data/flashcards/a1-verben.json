@@ -1,0 +1,655 @@
+{
+  "id": "a1-verben",
+  "level": "a1",
+  "type": "verben",
+  "title": "Verbi A1",
+  "subtitle": "Die Verben – Grundwortschatz",
+  "description": "I verbi più importanti del livello A1 con coniugazione al presente.",
+  "cards": [
+    {
+      "de": "sein",
+      "it": "essere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "bin",
+        "du": "bist",
+        "er/sie/es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie/Sie": "sind"
+      },
+      "example": "Ich bin müde.",
+      "note": "Verbo completamente irregolare"
+    },
+    {
+      "de": "haben",
+      "it": "avere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "habe",
+        "du": "hast",
+        "er/sie/es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie/Sie": "haben"
+      },
+      "example": "Ich habe einen Hund.",
+      "note": "Irregolare alla 2ª e 3ª persona singolare"
+    },
+    {
+      "de": "machen",
+      "it": "fare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "mache",
+        "du": "machst",
+        "er/sie/es": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie/Sie": "machen"
+      },
+      "example": "Ich mache meine Hausaufgaben.",
+      "note": ""
+    },
+    {
+      "de": "gehen",
+      "it": "andare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er/sie/es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie/Sie": "gehen"
+      },
+      "example": "Ich gehe in die Schule.",
+      "note": "Regolare al presente, irregolare al passato"
+    },
+    {
+      "de": "kommen",
+      "it": "venire",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "komme",
+        "du": "kommst",
+        "er/sie/es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie/Sie": "kommen"
+      },
+      "example": "Ich komme aus Italien.",
+      "note": "Regolare al presente, irregolare al passato"
+    },
+    {
+      "de": "essen",
+      "it": "mangiare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "esse",
+        "du": "isst",
+        "er/sie/es": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie/Sie": "essen"
+      },
+      "example": "Ich esse gern Pizza.",
+      "note": "Cambio vocale: e→i"
+    },
+    {
+      "de": "trinken",
+      "it": "bere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er/sie/es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie/Sie": "trinken"
+      },
+      "example": "Ich trinke Wasser.",
+      "note": "Regolare al presente, irregolare al passato"
+    },
+    {
+      "de": "schlafen",
+      "it": "dormire",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er/sie/es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie/Sie": "schlafen"
+      },
+      "example": "Ich schlafe acht Stunden.",
+      "note": "Cambio vocale: a→ä"
+    },
+    {
+      "de": "arbeiten",
+      "it": "lavorare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er/sie/es": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie/Sie": "arbeiten"
+      },
+      "example": "Ich arbeite in einem Büro.",
+      "note": "Aggiunta di -e- prima delle desinenze -st e -t"
+    },
+    {
+      "de": "lernen",
+      "it": "imparare / studiare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er/sie/es": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie/Sie": "lernen"
+      },
+      "example": "Ich lerne Deutsch.",
+      "note": ""
+    },
+    {
+      "de": "spielen",
+      "it": "giocare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er/sie/es": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie/Sie": "spielen"
+      },
+      "example": "Die Kinder spielen im Garten.",
+      "note": ""
+    },
+    {
+      "de": "sehen",
+      "it": "vedere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er/sie/es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie/Sie": "sehen"
+      },
+      "example": "Ich sehe einen Film.",
+      "note": "Cambio vocale: e→ie"
+    },
+    {
+      "de": "lesen",
+      "it": "leggere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "lese",
+        "du": "liest",
+        "er/sie/es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie/Sie": "lesen"
+      },
+      "example": "Ich lese ein Buch.",
+      "note": "Cambio vocale: e→ie"
+    },
+    {
+      "de": "schreiben",
+      "it": "scrivere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er/sie/es": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie/Sie": "schreiben"
+      },
+      "example": "Ich schreibe einen Brief.",
+      "note": "Regolare al presente, irregolare al passato"
+    },
+    {
+      "de": "sprechen",
+      "it": "parlare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er/sie/es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie/Sie": "sprechen"
+      },
+      "example": "Ich spreche Deutsch und Italienisch.",
+      "note": "Cambio vocale: e→i"
+    },
+    {
+      "de": "wohnen",
+      "it": "abitare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er/sie/es": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie/Sie": "wohnen"
+      },
+      "example": "Ich wohne in Berlin.",
+      "note": ""
+    },
+    {
+      "de": "kaufen",
+      "it": "comprare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er/sie/es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie/Sie": "kaufen"
+      },
+      "example": "Ich kaufe Brot und Milch.",
+      "note": ""
+    },
+    {
+      "de": "kochen",
+      "it": "cucinare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "koche",
+        "du": "kochst",
+        "er/sie/es": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie/Sie": "kochen"
+      },
+      "example": "Ich koche Pasta.",
+      "note": ""
+    },
+    {
+      "de": "fahren",
+      "it": "andare (con mezzo) / guidare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie/es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie/Sie": "fahren"
+      },
+      "example": "Ich fahre mit dem Bus.",
+      "note": "Cambio vocale: a→ä"
+    },
+    {
+      "de": "laufen",
+      "it": "correre / camminare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er/sie/es": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie/Sie": "laufen"
+      },
+      "example": "Er läuft sehr schnell.",
+      "note": "Cambio vocale: au→äu"
+    },
+    {
+      "de": "nehmen",
+      "it": "prendere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er/sie/es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie/Sie": "nehmen"
+      },
+      "example": "Ich nehme einen Kaffee.",
+      "note": "Cambio vocale: e→i"
+    },
+    {
+      "de": "geben",
+      "it": "dare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er/sie/es": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie/Sie": "geben"
+      },
+      "example": "Er gibt mir das Buch.",
+      "note": "Cambio vocale: e→i"
+    },
+    {
+      "de": "helfen",
+      "it": "aiutare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er/sie/es": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie/Sie": "helfen"
+      },
+      "example": "Kannst du mir helfen?",
+      "note": "Cambio vocale: e→i"
+    },
+    {
+      "de": "finden",
+      "it": "trovare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "finde",
+        "du": "findest",
+        "er/sie/es": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie/Sie": "finden"
+      },
+      "example": "Ich finde das gut.",
+      "note": "Aggiunta di -e- prima delle desinenze -st e -t"
+    },
+    {
+      "de": "wissen",
+      "it": "sapere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er/sie/es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie/Sie": "wissen"
+      },
+      "example": "Ich weiß das nicht.",
+      "note": "Verbo irregolare, singolare completamente diverso dal plurale"
+    },
+    {
+      "de": "brauchen",
+      "it": "aver bisogno",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er/sie/es": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie/Sie": "brauchen"
+      },
+      "example": "Ich brauche Hilfe.",
+      "note": ""
+    },
+    {
+      "de": "heißen",
+      "it": "chiamarsi",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er/sie/es": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie/Sie": "heißen"
+      },
+      "example": "Ich heiße Maria.",
+      "note": "La radice in -ß assorbe la -s della desinenza"
+    },
+    {
+      "de": "verstehen",
+      "it": "capire",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "verstehe",
+        "du": "verstehst",
+        "er/sie/es": "versteht",
+        "wir": "verstehen",
+        "ihr": "versteht",
+        "sie/Sie": "verstehen"
+      },
+      "example": "Ich verstehe das nicht.",
+      "note": "Regolare al presente, irregolare al passato"
+    },
+    {
+      "de": "können",
+      "it": "potere / saper fare",
+      "type": "modale",
+      "conjugation": {
+        "ich": "kann",
+        "du": "kannst",
+        "er/sie/es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie/Sie": "können"
+      },
+      "example": "Ich kann Deutsch sprechen.",
+      "note": "Verbo modale: cambio vocale al singolare, nessuna desinenza alla 1ª e 3ª persona singolare"
+    },
+    {
+      "de": "müssen",
+      "it": "dovere (necessità)",
+      "type": "modale",
+      "conjugation": {
+        "ich": "muss",
+        "du": "musst",
+        "er/sie/es": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie/Sie": "müssen"
+      },
+      "example": "Ich muss arbeiten.",
+      "note": "Verbo modale: cambio vocale al singolare"
+    },
+    {
+      "de": "wollen",
+      "it": "volere",
+      "type": "modale",
+      "conjugation": {
+        "ich": "will",
+        "du": "willst",
+        "er/sie/es": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie/Sie": "wollen"
+      },
+      "example": "Ich will nach Hause gehen.",
+      "note": "Verbo modale: cambio vocale al singolare"
+    },
+    {
+      "de": "sollen",
+      "it": "dovere (consiglio / obbligo morale)",
+      "type": "modale",
+      "conjugation": {
+        "ich": "soll",
+        "du": "sollst",
+        "er/sie/es": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie/Sie": "sollen"
+      },
+      "example": "Du sollst mehr lernen.",
+      "note": "Verbo modale: nessun cambio vocale, ma nessuna desinenza alla 1ª e 3ª persona singolare"
+    },
+    {
+      "de": "dürfen",
+      "it": "potere (permesso)",
+      "type": "modale",
+      "conjugation": {
+        "ich": "darf",
+        "du": "darfst",
+        "er/sie/es": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie/Sie": "dürfen"
+      },
+      "example": "Darf ich hier rauchen?",
+      "note": "Verbo modale: cambio vocale al singolare"
+    },
+    {
+      "de": "mögen",
+      "it": "piacere / volere (cortese)",
+      "type": "modale",
+      "conjugation": {
+        "ich": "mag",
+        "du": "magst",
+        "er/sie/es": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie/Sie": "mögen"
+      },
+      "example": "Ich mag Schokolade.",
+      "note": "Verbo modale: cambio vocale al singolare. Forma möchte (vorrei) usata spesso"
+    },
+    {
+      "de": "aufstehen",
+      "it": "alzarsi",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er/sie/es": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie/Sie": "stehen auf"
+      },
+      "example": "Ich stehe um sieben Uhr auf.",
+      "note": "Separabile: auf|stehen"
+    },
+    {
+      "de": "anfangen",
+      "it": "cominciare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "fange an",
+        "du": "fängst an",
+        "er/sie/es": "fängt an",
+        "wir": "fangen an",
+        "ihr": "fangt an",
+        "sie/Sie": "fangen an"
+      },
+      "example": "Der Kurs fängt um neun Uhr an.",
+      "note": "Separabile: an|fangen. Cambio vocale: a→ä"
+    },
+    {
+      "de": "einkaufen",
+      "it": "fare la spesa",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er/sie/es": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "sie/Sie": "kaufen ein"
+      },
+      "example": "Ich kaufe im Supermarkt ein.",
+      "note": "Separabile: ein|kaufen"
+    },
+    {
+      "de": "aufräumen",
+      "it": "riordinare / mettere in ordine",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "räume auf",
+        "du": "räumst auf",
+        "er/sie/es": "räumt auf",
+        "wir": "räumen auf",
+        "ihr": "räumt auf",
+        "sie/Sie": "räumen auf"
+      },
+      "example": "Ich räume mein Zimmer auf.",
+      "note": "Separabile: auf|räumen"
+    },
+    {
+      "de": "anrufen",
+      "it": "telefonare / chiamare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er/sie/es": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "sie/Sie": "rufen an"
+      },
+      "example": "Ich rufe meine Mutter an.",
+      "note": "Separabile: an|rufen"
+    },
+    {
+      "de": "mitkommen",
+      "it": "venire insieme",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "komme mit",
+        "du": "kommst mit",
+        "er/sie/es": "kommt mit",
+        "wir": "kommen mit",
+        "ihr": "kommt mit",
+        "sie/Sie": "kommen mit"
+      },
+      "example": "Kommst du mit?",
+      "note": "Separabile: mit|kommen"
+    },
+    {
+      "de": "fernsehen",
+      "it": "guardare la TV",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "sehe fern",
+        "du": "siehst fern",
+        "er/sie/es": "sieht fern",
+        "wir": "sehen fern",
+        "ihr": "seht fern",
+        "sie/Sie": "sehen fern"
+      },
+      "example": "Abends sehe ich fern.",
+      "note": "Separabile: fern|sehen. Cambio vocale: e→ie"
+    },
+    {
+      "de": "aufmachen",
+      "it": "aprire",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "mache auf",
+        "du": "machst auf",
+        "er/sie/es": "macht auf",
+        "wir": "machen auf",
+        "ihr": "macht auf",
+        "sie/Sie": "machen auf"
+      },
+      "example": "Mach bitte das Fenster auf!",
+      "note": "Separabile: auf|machen"
+    },
+    {
+      "de": "zumachen",
+      "it": "chiudere",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "mache zu",
+        "du": "machst zu",
+        "er/sie/es": "macht zu",
+        "wir": "machen zu",
+        "ihr": "macht zu",
+        "sie/Sie": "machen zu"
+      },
+      "example": "Mach bitte die Tür zu!",
+      "note": "Separabile: zu|machen"
+    }
+  ]
+}

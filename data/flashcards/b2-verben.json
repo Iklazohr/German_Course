@@ -1,0 +1,430 @@
+{
+  "id": "b2-verben",
+  "level": "b2",
+  "type": "verben",
+  "title": "Verbi B2",
+  "subtitle": "Die Verben – Obere Mittelstufe",
+  "description": "Verbi avanzati con coniugazione, Perfekt e Präteritum.",
+  "cards": [
+    {
+      "de": "beitragen (zu + Dat)",
+      "it": "contribuire (a)",
+      "type": "con preposizione",
+      "conjugation": { "ich": "trage bei", "du": "trägst bei", "er/sie/es": "trägt bei", "wir": "tragen bei", "ihr": "tragt bei", "sie/Sie": "tragen bei" },
+      "perfekt": "hat beigetragen",
+      "praeteritum": "trug bei",
+      "example": "Jeder kann zum Umweltschutz beitragen.",
+      "note": "Separabile. Cambio vocale: a→ä"
+    },
+    {
+      "de": "beeinflussen",
+      "it": "influenzare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "beeinflusse", "du": "beeinflusst", "er/sie/es": "beeinflusst", "wir": "beeinflussen", "ihr": "beeinflusst", "sie/Sie": "beeinflussen" },
+      "perfekt": "hat beeinflusst",
+      "praeteritum": "beeinflusste",
+      "example": "Die Werbung beeinflusst unser Kaufverhalten.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "sich auseinandersetzen (mit + Dat)",
+      "it": "confrontarsi (con) / affrontare",
+      "type": "riflessivo",
+      "conjugation": { "ich": "setze mich auseinander", "du": "setzt dich auseinander", "er/sie/es": "setzt sich auseinander", "wir": "setzen uns auseinander", "ihr": "setzt euch auseinander", "sie/Sie": "setzen sich auseinander" },
+      "perfekt": "hat sich auseinandergesetzt",
+      "praeteritum": "setzte sich auseinander",
+      "example": "Man muss sich mit dem Problem auseinandersetzen.",
+      "note": "Separabile e riflessivo. Regolare."
+    },
+    {
+      "de": "voraussetzen",
+      "it": "presupporre / richiedere",
+      "type": "separabile",
+      "conjugation": { "ich": "setze voraus", "du": "setzt voraus", "er/sie/es": "setzt voraus", "wir": "setzen voraus", "ihr": "setzt voraus", "sie/Sie": "setzen voraus" },
+      "perfekt": "hat vorausgesetzt",
+      "praeteritum": "setzte voraus",
+      "example": "Diese Stelle setzt Berufserfahrung voraus.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "berücksichtigen",
+      "it": "prendere in considerazione / tener conto di",
+      "type": "inseparabile",
+      "conjugation": { "ich": "berücksichtige", "du": "berücksichtigst", "er/sie/es": "berücksichtigt", "wir": "berücksichtigen", "ihr": "berücksichtigt", "sie/Sie": "berücksichtigen" },
+      "perfekt": "hat berücksichtigt",
+      "praeteritum": "berücksichtigte",
+      "example": "Bitte berücksichtigen Sie alle Faktoren.",
+      "note": "Inseparabile. Regolare. Verbo formale."
+    },
+    {
+      "de": "durchsetzen",
+      "it": "imporre / far valere",
+      "type": "separabile",
+      "conjugation": { "ich": "setze durch", "du": "setzt durch", "er/sie/es": "setzt durch", "wir": "setzen durch", "ihr": "setzt durch", "sie/Sie": "setzen durch" },
+      "perfekt": "hat durchgesetzt",
+      "praeteritum": "setzte durch",
+      "example": "Die Regierung konnte ihre Pläne durchsetzen.",
+      "note": "Separabile. Anche riflessivo: sich durchsetzen = imporsi."
+    },
+    {
+      "de": "widersprechen (+ Dat)",
+      "it": "contraddire",
+      "type": "irregolare",
+      "conjugation": { "ich": "widerspreche", "du": "widersprichst", "er/sie/es": "widerspricht", "wir": "widersprechen", "ihr": "widersprecht", "sie/Sie": "widersprechen" },
+      "perfekt": "hat widersprochen",
+      "praeteritum": "widersprach",
+      "example": "Der Zeuge widersprach der Aussage des Angeklagten.",
+      "note": "Inseparabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "sich bewerben (um + Akk)",
+      "it": "candidarsi (per)",
+      "type": "riflessivo",
+      "conjugation": { "ich": "bewerbe mich", "du": "bewirbst dich", "er/sie/es": "bewirbt sich", "wir": "bewerben uns", "ihr": "bewerbt euch", "sie/Sie": "bewerben sich" },
+      "perfekt": "hat sich beworben",
+      "praeteritum": "bewarb sich",
+      "example": "Sie hat sich um die Stelle beworben.",
+      "note": "Inseparabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "in Anspruch nehmen",
+      "it": "usufruire di / richiedere",
+      "type": "con preposizione",
+      "conjugation": { "ich": "nehme in Anspruch", "du": "nimmst in Anspruch", "er/sie/es": "nimmt in Anspruch", "wir": "nehmen in Anspruch", "ihr": "nehmt in Anspruch", "sie/Sie": "nehmen in Anspruch" },
+      "perfekt": "hat in Anspruch genommen",
+      "praeteritum": "nahm in Anspruch",
+      "example": "Das Projekt nimmt viel Zeit in Anspruch.",
+      "note": "Funktionsverbgefüge. Cambio vocale: e→i."
+    },
+    {
+      "de": "in Kauf nehmen",
+      "it": "accettare (qualcosa di negativo)",
+      "type": "con preposizione",
+      "conjugation": { "ich": "nehme in Kauf", "du": "nimmst in Kauf", "er/sie/es": "nimmt in Kauf", "wir": "nehmen in Kauf", "ihr": "nehmt in Kauf", "sie/Sie": "nehmen in Kauf" },
+      "perfekt": "hat in Kauf genommen",
+      "praeteritum": "nahm in Kauf",
+      "example": "Er nimmt Nachteile in Kauf, um sein Ziel zu erreichen.",
+      "note": "Funktionsverbgefüge. Cambio vocale: e→i."
+    },
+    {
+      "de": "zur Verfügung stehen",
+      "it": "essere a disposizione",
+      "type": "con preposizione",
+      "conjugation": { "ich": "stehe zur Verfügung", "du": "stehst zur Verfügung", "er/sie/es": "steht zur Verfügung", "wir": "stehen zur Verfügung", "ihr": "steht zur Verfügung", "sie/Sie": "stehen zur Verfügung" },
+      "perfekt": "hat zur Verfügung gestanden",
+      "praeteritum": "stand zur Verfügung",
+      "example": "Die Unterlagen stehen Ihnen zur Verfügung.",
+      "note": "Funktionsverbgefüge. Irregolare."
+    },
+    {
+      "de": "in Betracht ziehen",
+      "it": "prendere in considerazione",
+      "type": "con preposizione",
+      "conjugation": { "ich": "ziehe in Betracht", "du": "ziehst in Betracht", "er/sie/es": "zieht in Betracht", "wir": "ziehen in Betracht", "ihr": "zieht in Betracht", "sie/Sie": "ziehen in Betracht" },
+      "perfekt": "hat in Betracht gezogen",
+      "praeteritum": "zog in Betracht",
+      "example": "Man sollte alle Möglichkeiten in Betracht ziehen.",
+      "note": "Funktionsverbgefüge. Irregolare."
+    },
+    {
+      "de": "überzeugen",
+      "it": "convincere",
+      "type": "inseparabile",
+      "conjugation": { "ich": "überzeuge", "du": "überzeugst", "er/sie/es": "überzeugt", "wir": "überzeugen", "ihr": "überzeugt", "sie/Sie": "überzeugen" },
+      "perfekt": "hat überzeugt",
+      "praeteritum": "überzeugte",
+      "example": "Sein Argument hat mich überzeugt.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "vermitteln",
+      "it": "mediare / trasmettere",
+      "type": "inseparabile",
+      "conjugation": { "ich": "vermittle", "du": "vermittelst", "er/sie/es": "vermittelt", "wir": "vermitteln", "ihr": "vermittelt", "sie/Sie": "vermitteln" },
+      "perfekt": "hat vermittelt",
+      "praeteritum": "vermittelte",
+      "example": "Der Lehrer vermittelt den Schülern Wissen.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "verhandeln (über + Akk)",
+      "it": "negoziare / trattare",
+      "type": "con preposizione",
+      "conjugation": { "ich": "verhandle", "du": "verhandelst", "er/sie/es": "verhandelt", "wir": "verhandeln", "ihr": "verhandelt", "sie/Sie": "verhandeln" },
+      "perfekt": "hat verhandelt",
+      "praeteritum": "verhandelte",
+      "example": "Die Parteien verhandeln über einen Kompromiss.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "einschränken",
+      "it": "limitare / restringere",
+      "type": "separabile",
+      "conjugation": { "ich": "schränke ein", "du": "schränkst ein", "er/sie/es": "schränkt ein", "wir": "schränken ein", "ihr": "schränkt ein", "sie/Sie": "schränken ein" },
+      "perfekt": "hat eingeschränkt",
+      "praeteritum": "schränkte ein",
+      "example": "Das neue Gesetz schränkt die Freiheit ein.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "herausstellen",
+      "it": "evidenziare / risultare",
+      "type": "separabile",
+      "conjugation": { "ich": "stelle heraus", "du": "stellst heraus", "er/sie/es": "stellt heraus", "wir": "stellen heraus", "ihr": "stellt heraus", "sie/Sie": "stellen heraus" },
+      "perfekt": "hat herausgestellt",
+      "praeteritum": "stellte heraus",
+      "example": "Es hat sich herausgestellt, dass er recht hatte.",
+      "note": "Separabile. Spesso usato come riflessivo: sich herausstellen."
+    },
+    {
+      "de": "aufweisen",
+      "it": "presentare / mostrare",
+      "type": "separabile",
+      "conjugation": { "ich": "weise auf", "du": "weist auf", "er/sie/es": "weist auf", "wir": "weisen auf", "ihr": "weist auf", "sie/Sie": "weisen auf" },
+      "perfekt": "hat aufgewiesen",
+      "praeteritum": "wies auf",
+      "example": "Die Studie weist interessante Ergebnisse auf.",
+      "note": "Separabile. Irregolare. Verbo formale/accademico."
+    },
+    {
+      "de": "behaupten",
+      "it": "affermare / sostenere",
+      "type": "inseparabile",
+      "conjugation": { "ich": "behaupte", "du": "behauptest", "er/sie/es": "behauptet", "wir": "behaupten", "ihr": "behauptet", "sie/Sie": "behaupten" },
+      "perfekt": "hat behauptet",
+      "praeteritum": "behauptete",
+      "example": "Er behauptet, unschuldig zu sein.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "sich ergeben (aus + Dat)",
+      "it": "risultare (da) / derivare",
+      "type": "riflessivo",
+      "conjugation": { "ich": "ergebe mich", "du": "ergibst dich", "er/sie/es": "ergibt sich", "wir": "ergeben uns", "ihr": "ergebt euch", "sie/Sie": "ergeben sich" },
+      "perfekt": "hat sich ergeben",
+      "praeteritum": "ergab sich",
+      "example": "Daraus ergibt sich ein neues Problem.",
+      "note": "Inseparabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "vorwerfen (+ Dat)",
+      "it": "rimproverare / accusare",
+      "type": "separabile",
+      "conjugation": { "ich": "werfe vor", "du": "wirfst vor", "er/sie/es": "wirft vor", "wir": "werfen vor", "ihr": "werft vor", "sie/Sie": "werfen vor" },
+      "perfekt": "hat vorgeworfen",
+      "praeteritum": "warf vor",
+      "example": "Man wirft ihm Betrug vor.",
+      "note": "Separabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "vertreten",
+      "it": "rappresentare / sostenere (un'opinione)",
+      "type": "inseparabile",
+      "conjugation": { "ich": "vertrete", "du": "vertrittst", "er/sie/es": "vertritt", "wir": "vertreten", "ihr": "vertretet", "sie/Sie": "vertreten" },
+      "perfekt": "hat vertreten",
+      "praeteritum": "vertrat",
+      "example": "Der Anwalt vertritt seinen Mandanten vor Gericht.",
+      "note": "Inseparabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "betreffen",
+      "it": "riguardare / concernere",
+      "type": "inseparabile",
+      "conjugation": { "ich": "betreffe", "du": "betriffst", "er/sie/es": "betrifft", "wir": "betreffen", "ihr": "betrefft", "sie/Sie": "betreffen" },
+      "perfekt": "hat betroffen",
+      "praeteritum": "betraf",
+      "example": "Das Gesetz betrifft alle Bürger.",
+      "note": "Inseparabile. Cambio vocale: e→i."
+    },
+    {
+      "de": "veranlassen",
+      "it": "indurre / disporre",
+      "type": "inseparabile",
+      "conjugation": { "ich": "veranlasse", "du": "veranlasst", "er/sie/es": "veranlasst", "wir": "veranlassen", "ihr": "veranlasst", "sie/Sie": "veranlassen" },
+      "perfekt": "hat veranlasst",
+      "praeteritum": "veranlasste",
+      "example": "Die Regierung veranlasste eine Untersuchung.",
+      "note": "Inseparabile. Regolare. Formale."
+    },
+    {
+      "de": "sich herausstellen",
+      "it": "risultare / rivelarsi",
+      "type": "riflessivo",
+      "conjugation": { "ich": "stelle mich heraus", "du": "stellst dich heraus", "er/sie/es": "stellt sich heraus", "wir": "stellen uns heraus", "ihr": "stellt euch heraus", "sie/Sie": "stellen sich heraus" },
+      "perfekt": "hat sich herausgestellt",
+      "praeteritum": "stellte sich heraus",
+      "example": "Es stellte sich heraus, dass die Theorie falsch war.",
+      "note": "Separabile. Usato spesso in forma impersonale: es stellt sich heraus."
+    },
+    {
+      "de": "hinweisen (auf + Akk)",
+      "it": "indicare / far notare",
+      "type": "con preposizione",
+      "conjugation": { "ich": "weise hin", "du": "weist hin", "er/sie/es": "weist hin", "wir": "weisen hin", "ihr": "weist hin", "sie/Sie": "weisen hin" },
+      "perfekt": "hat hingewiesen",
+      "praeteritum": "wies hin",
+      "example": "Der Experte wies auf die Risiken hin.",
+      "note": "Separabile. Irregolare."
+    },
+    {
+      "de": "befürworten",
+      "it": "approvare / sostenere",
+      "type": "inseparabile",
+      "conjugation": { "ich": "befürworte", "du": "befürwortest", "er/sie/es": "befürwortet", "wir": "befürworten", "ihr": "befürwortet", "sie/Sie": "befürworten" },
+      "perfekt": "hat befürwortet",
+      "praeteritum": "befürwortete",
+      "example": "Die Partei befürwortet eine Reform.",
+      "note": "Inseparabile. Regolare. Formale."
+    },
+    {
+      "de": "ablehnen",
+      "it": "rifiutare / respingere",
+      "type": "separabile",
+      "conjugation": { "ich": "lehne ab", "du": "lehnst ab", "er/sie/es": "lehnt ab", "wir": "lehnen ab", "ihr": "lehnt ab", "sie/Sie": "lehnen ab" },
+      "perfekt": "hat abgelehnt",
+      "praeteritum": "lehnte ab",
+      "example": "Der Antrag wurde abgelehnt.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "ausüben",
+      "it": "esercitare (una professione, pressione)",
+      "type": "separabile",
+      "conjugation": { "ich": "übe aus", "du": "übst aus", "er/sie/es": "übt aus", "wir": "üben aus", "ihr": "übt aus", "sie/Sie": "üben aus" },
+      "perfekt": "hat ausgeübt",
+      "praeteritum": "übte aus",
+      "example": "Er übt großen Druck auf die Regierung aus.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "sich einsetzen (für + Akk)",
+      "it": "impegnarsi (per)",
+      "type": "riflessivo",
+      "conjugation": { "ich": "setze mich ein", "du": "setzt dich ein", "er/sie/es": "setzt sich ein", "wir": "setzen uns ein", "ihr": "setzt euch ein", "sie/Sie": "setzen sich ein" },
+      "perfekt": "hat sich eingesetzt",
+      "praeteritum": "setzte sich ein",
+      "example": "Sie setzt sich für die Rechte der Frauen ein.",
+      "note": "Separabile e riflessivo. Regolare."
+    },
+    {
+      "de": "unterstreichen",
+      "it": "sottolineare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "unterstreiche", "du": "unterstreichst", "er/sie/es": "unterstreicht", "wir": "unterstreichen", "ihr": "unterstreicht", "sie/Sie": "unterstreichen" },
+      "perfekt": "hat unterstrichen",
+      "praeteritum": "unterstrich",
+      "example": "Der Minister unterstrich die Bedeutung der Bildung.",
+      "note": "Inseparabile. Irregolare."
+    },
+    {
+      "de": "in Frage stellen",
+      "it": "mettere in discussione",
+      "type": "con preposizione",
+      "conjugation": { "ich": "stelle in Frage", "du": "stellst in Frage", "er/sie/es": "stellt in Frage", "wir": "stellen in Frage", "ihr": "stellt in Frage", "sie/Sie": "stellen in Frage" },
+      "perfekt": "hat in Frage gestellt",
+      "praeteritum": "stellte in Frage",
+      "example": "Die Opposition stellt die Entscheidung in Frage.",
+      "note": "Funktionsverbgefüge. Regolare."
+    },
+    {
+      "de": "überprüfen",
+      "it": "verificare / controllare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "überprüfe", "du": "überprüfst", "er/sie/es": "überprüft", "wir": "überprüfen", "ihr": "überprüft", "sie/Sie": "überprüfen" },
+      "perfekt": "hat überprüft",
+      "praeteritum": "überprüfte",
+      "example": "Die Ergebnisse müssen überprüft werden.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "feststellen",
+      "it": "constatare / accertare",
+      "type": "separabile",
+      "conjugation": { "ich": "stelle fest", "du": "stellst fest", "er/sie/es": "stellt fest", "wir": "stellen fest", "ihr": "stellt fest", "sie/Sie": "stellen fest" },
+      "perfekt": "hat festgestellt",
+      "praeteritum": "stellte fest",
+      "example": "Der Arzt stellte eine Infektion fest.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "anregen",
+      "it": "stimolare / suggerire",
+      "type": "separabile",
+      "conjugation": { "ich": "rege an", "du": "regst an", "er/sie/es": "regt an", "wir": "regen an", "ihr": "regt an", "sie/Sie": "regen an" },
+      "perfekt": "hat angeregt",
+      "praeteritum": "regte an",
+      "example": "Der Professor regte eine Diskussion an.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "bewältigen",
+      "it": "superare / affrontare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "bewältige", "du": "bewältigst", "er/sie/es": "bewältigt", "wir": "bewältigen", "ihr": "bewältigt", "sie/Sie": "bewältigen" },
+      "perfekt": "hat bewältigt",
+      "praeteritum": "bewältigte",
+      "example": "Sie hat die Krise bewältigt.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "schildern",
+      "it": "descrivere / esporre",
+      "type": "regolare",
+      "conjugation": { "ich": "schildere", "du": "schilderst", "er/sie/es": "schildert", "wir": "schildern", "ihr": "schildert", "sie/Sie": "schildern" },
+      "perfekt": "hat geschildert",
+      "praeteritum": "schilderte",
+      "example": "Der Zeuge schilderte den Vorfall genau.",
+      "note": "Regolare. Usato spesso in contesti formali e giuridici."
+    },
+    {
+      "de": "verfügen (über + Akk)",
+      "it": "disporre (di)",
+      "type": "con preposizione",
+      "conjugation": { "ich": "verfüge", "du": "verfügst", "er/sie/es": "verfügt", "wir": "verfügen", "ihr": "verfügt", "sie/Sie": "verfügen" },
+      "perfekt": "hat verfügt",
+      "praeteritum": "verfügte",
+      "example": "Das Unternehmen verfügt über große Ressourcen.",
+      "note": "Inseparabile. Regolare."
+    },
+    {
+      "de": "gelten (als)",
+      "it": "valere / essere considerato",
+      "type": "irregolare",
+      "conjugation": { "ich": "gelte", "du": "giltst", "er/sie/es": "gilt", "wir": "gelten", "ihr": "geltet", "sie/Sie": "gelten" },
+      "perfekt": "hat gegolten",
+      "praeteritum": "galt",
+      "example": "Er gilt als einer der besten Wissenschaftler.",
+      "note": "Irregolare. Cambio vocale: e→i."
+    },
+    {
+      "de": "auffordern (zu + Dat)",
+      "it": "esortare / invitare (a fare)",
+      "type": "separabile",
+      "conjugation": { "ich": "fordere auf", "du": "forderst auf", "er/sie/es": "fordert auf", "wir": "fordern auf", "ihr": "fordert auf", "sie/Sie": "fordern auf" },
+      "perfekt": "hat aufgefordert",
+      "praeteritum": "forderte auf",
+      "example": "Die Polizei forderte die Demonstranten zum Verlassen auf.",
+      "note": "Separabile. Regolare."
+    },
+    {
+      "de": "heißen (Konjunktiv I: es heiße)",
+      "it": "significare / si dice che",
+      "type": "irregolare",
+      "conjugation": { "ich": "heiße", "du": "heißt", "er/sie/es": "heißt", "wir": "heißen", "ihr": "heißt", "sie/Sie": "heißen" },
+      "perfekt": "hat geheißen",
+      "praeteritum": "hieß",
+      "example": "Es hieß, die Verhandlungen seien gescheitert.",
+      "note": "Irregolare. Konjunktiv I usato nel discorso indiretto: er heiße."
+    },
+    {
+      "de": "sein (Konjunktiv I: er sei)",
+      "it": "essere (Konjunktiv I per discorso indiretto)",
+      "type": "irregolare",
+      "conjugation": { "ich": "sei", "du": "seist/seiest", "er/sie/es": "sei", "wir": "seien", "ihr": "seiet", "sie/Sie": "seien" },
+      "perfekt": "–",
+      "praeteritum": "–",
+      "example": "Er sagte, er sei krank.",
+      "note": "Konjunktiv I di 'sein'. Fondamentale per il discorso indiretto."
+    }
+  ]
+}

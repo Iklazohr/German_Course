@@ -1,0 +1,410 @@
+{
+  "id": "c1-verben",
+  "level": "c1",
+  "type": "verben",
+  "title": "Verbi C1",
+  "subtitle": "Die Verben – Fortgeschritten",
+  "description": "Verbi per padroneggiare la lingua a livello avanzato.",
+  "cards": [
+    {
+      "de": "erörtern",
+      "it": "discutere / esaminare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "erörtere", "du": "erörterst", "er/sie/es": "erörtert", "wir": "erörtern", "ihr": "erörtert", "sie/Sie": "erörtern" },
+      "perfekt": "hat erörtert",
+      "praeteritum": "erörterte",
+      "example": "Der Autor erörtert dieses Thema ausführlich.",
+      "note": "Formale. Usato nello scritto accademico."
+    },
+    {
+      "de": "darlegen",
+      "it": "esporre / illustrare",
+      "type": "separabile",
+      "conjugation": { "ich": "lege dar", "du": "legst dar", "er/sie/es": "legt dar", "wir": "legen dar", "ihr": "legt dar", "sie/Sie": "legen dar" },
+      "perfekt": "hat dargelegt",
+      "praeteritum": "legte dar",
+      "example": "Der Wissenschaftler legte seine Theorie dar.",
+      "note": "Separabile. Regolare. Tipico dello scritto accademico."
+    },
+    {
+      "de": "herleiten (aus + Dat)",
+      "it": "derivare / dedurre",
+      "type": "separabile",
+      "conjugation": { "ich": "leite her", "du": "leitest her", "er/sie/es": "leitet her", "wir": "leiten her", "ihr": "leitet her", "sie/Sie": "leiten her" },
+      "perfekt": "hat hergeleitet",
+      "praeteritum": "leitete her",
+      "example": "Diese Formel lässt sich aus dem Grundsatz herleiten.",
+      "note": "Separabile. Regolare. Linguaggio scientifico."
+    },
+    {
+      "de": "widerlegen",
+      "it": "confutare / smentire",
+      "type": "inseparabile",
+      "conjugation": { "ich": "widerlege", "du": "widerlegst", "er/sie/es": "widerlegt", "wir": "widerlegen", "ihr": "widerlegt", "sie/Sie": "widerlegen" },
+      "perfekt": "hat widerlegt",
+      "praeteritum": "widerlegte",
+      "example": "Die neuen Daten widerlegen die alte Theorie.",
+      "note": "Inseparabile. Regolare. Linguaggio accademico."
+    },
+    {
+      "de": "untermauern",
+      "it": "corroborare / avvalorare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "untermauere", "du": "untermauerst", "er/sie/es": "untermauert", "wir": "untermauern", "ihr": "untermauert", "sie/Sie": "untermauern" },
+      "perfekt": "hat untermauert",
+      "praeteritum": "untermauerte",
+      "example": "Die Studie untermauert die These des Forschers.",
+      "note": "Inseparabile. Regolare. Usato per rafforzare argomenti."
+    },
+    {
+      "de": "sich befassen (mit + Dat)",
+      "it": "occuparsi (di) / trattare",
+      "type": "riflessivo",
+      "conjugation": { "ich": "befasse mich", "du": "befasst dich", "er/sie/es": "befasst sich", "wir": "befassen uns", "ihr": "befasst euch", "sie/Sie": "befassen sich" },
+      "perfekt": "hat sich befasst",
+      "praeteritum": "befasste sich",
+      "example": "Die Arbeit befasst sich mit dem Thema Migration.",
+      "note": "Inseparabile. Riflessivo. Formale."
+    },
+    {
+      "de": "nahelegen",
+      "it": "suggerire / far supporre",
+      "type": "separabile",
+      "conjugation": { "ich": "lege nahe", "du": "legst nahe", "er/sie/es": "legt nahe", "wir": "legen nahe", "ihr": "legt nahe", "sie/Sie": "legen nahe" },
+      "perfekt": "hat nahegelegt",
+      "praeteritum": "legte nahe",
+      "example": "Die Ergebnisse legen nahe, dass ein Zusammenhang besteht.",
+      "note": "Separabile. Regolare. Frequente nel linguaggio scientifico."
+    },
+    {
+      "de": "einräumen",
+      "it": "ammettere / concedere",
+      "type": "separabile",
+      "conjugation": { "ich": "räume ein", "du": "räumst ein", "er/sie/es": "räumt ein", "wir": "räumen ein", "ihr": "räumt ein", "sie/Sie": "räumen ein" },
+      "perfekt": "hat eingeräumt",
+      "praeteritum": "räumte ein",
+      "example": "Der Minister räumte Fehler ein.",
+      "note": "Separabile. Regolare. Usato nell'argomentazione."
+    },
+    {
+      "de": "anführen",
+      "it": "citare / addurre (un argomento)",
+      "type": "separabile",
+      "conjugation": { "ich": "führe an", "du": "führst an", "er/sie/es": "führt an", "wir": "führen an", "ihr": "führt an", "sie/Sie": "führen an" },
+      "perfekt": "hat angeführt",
+      "praeteritum": "führte an",
+      "example": "Er führte mehrere Gründe für seine These an.",
+      "note": "Separabile. Regolare. Frequente nell'argomentazione."
+    },
+    {
+      "de": "veranschaulichen",
+      "it": "illustrare / rendere chiaro",
+      "type": "inseparabile",
+      "conjugation": { "ich": "veranschauliche", "du": "veranschaulichst", "er/sie/es": "veranschaulicht", "wir": "veranschaulichen", "ihr": "veranschaulicht", "sie/Sie": "veranschaulichen" },
+      "perfekt": "hat veranschaulicht",
+      "praeteritum": "veranschaulichte",
+      "example": "Das Diagramm veranschaulicht den Zusammenhang.",
+      "note": "Inseparabile. Regolare. Tipico delle presentazioni accademiche."
+    },
+    {
+      "de": "zugrunde liegen (+ Dat)",
+      "it": "essere alla base di",
+      "type": "separabile",
+      "conjugation": { "ich": "liege zugrunde", "du": "liegst zugrunde", "er/sie/es": "liegt zugrunde", "wir": "liegen zugrunde", "ihr": "liegt zugrunde", "sie/Sie": "liegen zugrunde" },
+      "perfekt": "hat zugrunde gelegen",
+      "praeteritum": "lag zugrunde",
+      "example": "Welche Annahmen liegen dieser Theorie zugrunde?",
+      "note": "Separabile. Irregolare. Tipico del linguaggio accademico."
+    },
+    {
+      "de": "hervorrufen",
+      "it": "provocare / suscitare",
+      "type": "separabile",
+      "conjugation": { "ich": "rufe hervor", "du": "rufst hervor", "er/sie/es": "ruft hervor", "wir": "rufen hervor", "ihr": "ruft hervor", "sie/Sie": "rufen hervor" },
+      "perfekt": "hat hervorgerufen",
+      "praeteritum": "rief hervor",
+      "example": "Die Entscheidung rief starke Kritik hervor.",
+      "note": "Separabile. Irregolare."
+    },
+    {
+      "de": "sich herauskristallisieren",
+      "it": "delinearsi / emergere chiaramente",
+      "type": "riflessivo",
+      "conjugation": { "ich": "kristallisiere mich heraus", "du": "kristallisierst dich heraus", "er/sie/es": "kristallisiert sich heraus", "wir": "kristallisieren uns heraus", "ihr": "kristallisiert euch heraus", "sie/Sie": "kristallisieren sich heraus" },
+      "perfekt": "hat sich herauskristallisiert",
+      "praeteritum": "kristallisierte sich heraus",
+      "example": "Es kristallisierte sich heraus, dass die Methode fehlerhaft war.",
+      "note": "Separabile. Riflessivo. Registro elevato."
+    },
+    {
+      "de": "erweisen (als)",
+      "it": "rivelarsi / dimostrarsi",
+      "type": "irregolare",
+      "conjugation": { "ich": "erweise", "du": "erweist", "er/sie/es": "erweist", "wir": "erweisen", "ihr": "erweist", "sie/Sie": "erweisen" },
+      "perfekt": "hat erwiesen",
+      "praeteritum": "erwies",
+      "example": "Die Methode erwies sich als wirksam.",
+      "note": "Inseparabile. Irregolare. Spesso riflessivo: sich erweisen als."
+    },
+    {
+      "de": "bedingen",
+      "it": "condizionare / causare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "bedinge", "du": "bedingst", "er/sie/es": "bedingt", "wir": "bedingen", "ihr": "bedingt", "sie/Sie": "bedingen" },
+      "perfekt": "hat bedingt",
+      "praeteritum": "bedingte",
+      "example": "Die beiden Faktoren bedingen sich gegenseitig.",
+      "note": "Inseparabile. Regolare. Linguaggio scientifico."
+    },
+    {
+      "de": "implizieren",
+      "it": "implicare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "impliziere", "du": "implizierst", "er/sie/es": "impliziert", "wir": "implizieren", "ihr": "impliziert", "sie/Sie": "implizieren" },
+      "perfekt": "hat impliziert",
+      "praeteritum": "implizierte",
+      "example": "Diese Aussage impliziert einen Widerspruch.",
+      "note": "Inseparabile. Regolare. Verbo colto."
+    },
+    {
+      "de": "konstatieren",
+      "it": "constatare / accertare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "konstatiere", "du": "konstatierst", "er/sie/es": "konstatiert", "wir": "konstatieren", "ihr": "konstatiert", "sie/Sie": "konstatieren" },
+      "perfekt": "hat konstatiert",
+      "praeteritum": "konstatierte",
+      "example": "Der Forscher konstatierte einen signifikanten Unterschied.",
+      "note": "Regolare. Verbo colto di registro formale."
+    },
+    {
+      "de": "postulieren",
+      "it": "postulare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "postuliere", "du": "postulierst", "er/sie/es": "postuliert", "wir": "postulieren", "ihr": "postuliert", "sie/Sie": "postulieren" },
+      "perfekt": "hat postuliert",
+      "praeteritum": "postulierte",
+      "example": "Einstein postulierte die Relativitätstheorie.",
+      "note": "Regolare. Linguaggio scientifico e filosofico."
+    },
+    {
+      "de": "abstrahieren (von + Dat)",
+      "it": "astrarre (da)",
+      "type": "con preposizione",
+      "conjugation": { "ich": "abstrahiere", "du": "abstrahierst", "er/sie/es": "abstrahiert", "wir": "abstrahieren", "ihr": "abstrahiert", "sie/Sie": "abstrahieren" },
+      "perfekt": "hat abstrahiert",
+      "praeteritum": "abstrahierte",
+      "example": "Man muss von den Einzelfällen abstrahieren.",
+      "note": "Regolare. Linguaggio filosofico e scientifico."
+    },
+    {
+      "de": "prägen",
+      "it": "plasmare / caratterizzare",
+      "type": "regolare",
+      "conjugation": { "ich": "präge", "du": "prägst", "er/sie/es": "prägt", "wir": "prägen", "ihr": "prägt", "sie/Sie": "prägen" },
+      "perfekt": "hat geprägt",
+      "praeteritum": "prägte",
+      "example": "Die Erfahrungen der Kindheit prägen den Menschen.",
+      "note": "Regolare. Molto frequente in contesti culturali e storici."
+    },
+    {
+      "de": "sich niederschlagen (in + Dat)",
+      "it": "riflettersi / manifestarsi",
+      "type": "riflessivo",
+      "conjugation": { "ich": "schlage mich nieder", "du": "schlägst dich nieder", "er/sie/es": "schlägt sich nieder", "wir": "schlagen uns nieder", "ihr": "schlagt euch nieder", "sie/Sie": "schlagen sich nieder" },
+      "perfekt": "hat sich niedergeschlagen",
+      "praeteritum": "schlug sich nieder",
+      "example": "Die Krise schlägt sich in den Zahlen nieder.",
+      "note": "Separabile. Irregolare. Cambio vocale: a→ä."
+    },
+    {
+      "de": "einbeziehen",
+      "it": "includere / coinvolgere",
+      "type": "separabile",
+      "conjugation": { "ich": "beziehe ein", "du": "beziehst ein", "er/sie/es": "bezieht ein", "wir": "beziehen ein", "ihr": "bezieht ein", "sie/Sie": "beziehen ein" },
+      "perfekt": "hat einbezogen",
+      "praeteritum": "bezog ein",
+      "example": "Alle relevanten Faktoren müssen einbezogen werden.",
+      "note": "Separabile. Irregolare."
+    },
+    {
+      "de": "abwägen",
+      "it": "ponderare / soppesare",
+      "type": "separabile",
+      "conjugation": { "ich": "wäge ab", "du": "wägst ab", "er/sie/es": "wägt ab", "wir": "wägen ab", "ihr": "wägt ab", "sie/Sie": "wägen ab" },
+      "perfekt": "hat abgewogen",
+      "praeteritum": "wog ab",
+      "example": "Man muss die Vor- und Nachteile sorgfältig abwägen.",
+      "note": "Separabile. Irregolare (forte). Anche forma debole: abwägte."
+    },
+    {
+      "de": "heranziehen",
+      "it": "ricorrere a / consultare",
+      "type": "separabile",
+      "conjugation": { "ich": "ziehe heran", "du": "ziehst heran", "er/sie/es": "zieht heran", "wir": "ziehen heran", "ihr": "zieht heran", "sie/Sie": "ziehen heran" },
+      "perfekt": "hat herangezogen",
+      "praeteritum": "zog heran",
+      "example": "Er zog mehrere Quellen zur Überprüfung heran.",
+      "note": "Separabile. Irregolare. Linguaggio accademico."
+    },
+    {
+      "de": "ausklammern",
+      "it": "escludere / tralasciare",
+      "type": "separabile",
+      "conjugation": { "ich": "klammere aus", "du": "klammerst aus", "er/sie/es": "klammert aus", "wir": "klammern aus", "ihr": "klammert aus", "sie/Sie": "klammern aus" },
+      "perfekt": "hat ausgeklammert",
+      "praeteritum": "klammerte aus",
+      "example": "Diesen Aspekt können wir nicht ausklammern.",
+      "note": "Separabile. Regolare. Linguaggio accademico."
+    },
+    {
+      "de": "erläutern",
+      "it": "spiegare / chiarire",
+      "type": "inseparabile",
+      "conjugation": { "ich": "erläutere", "du": "erläuterst", "er/sie/es": "erläutert", "wir": "erläutern", "ihr": "erläutert", "sie/Sie": "erläutern" },
+      "perfekt": "hat erläutert",
+      "praeteritum": "erläuterte",
+      "example": "Der Professor erläuterte die Zusammenhänge.",
+      "note": "Inseparabile. Regolare. Più formale di 'erklären'."
+    },
+    {
+      "de": "sich vollziehen",
+      "it": "compiersi / avvenire",
+      "type": "riflessivo",
+      "conjugation": { "ich": "vollziehe mich", "du": "vollziehst dich", "er/sie/es": "vollzieht sich", "wir": "vollziehen uns", "ihr": "vollzieht euch", "sie/Sie": "vollziehen sich" },
+      "perfekt": "hat sich vollzogen",
+      "praeteritum": "vollzog sich",
+      "example": "Ein tiefgreifender Wandel vollzieht sich in der Gesellschaft.",
+      "note": "Inseparabile. Irregolare. Registro elevato."
+    },
+    {
+      "de": "innehaben",
+      "it": "ricoprire / detenere (una carica)",
+      "type": "separabile",
+      "conjugation": { "ich": "habe inne", "du": "hast inne", "er/sie/es": "hat inne", "wir": "haben inne", "ihr": "habt inne", "sie/Sie": "haben inne" },
+      "perfekt": "hat innegehabt",
+      "praeteritum": "hatte inne",
+      "example": "Er hatte das Amt des Präsidenten inne.",
+      "note": "Separabile. Irregolare (come haben). Verbo raro e formale."
+    },
+    {
+      "de": "obliegen (+ Dat)",
+      "it": "spettare a / essere compito di",
+      "type": "inseparabile",
+      "conjugation": { "ich": "obliege", "du": "obliegst", "er/sie/es": "obliegt", "wir": "obliegen", "ihr": "obliegt", "sie/Sie": "obliegen" },
+      "perfekt": "hat oblegen",
+      "praeteritum": "oblag",
+      "example": "Die Entscheidung obliegt dem Gericht.",
+      "note": "Inseparabile. Irregolare. Verbo giuridico e molto formale."
+    },
+    {
+      "de": "vermögen (zu + Inf)",
+      "it": "essere in grado di / riuscire a",
+      "type": "irregolare",
+      "conjugation": { "ich": "vermag", "du": "vermagst", "er/sie/es": "vermag", "wir": "vermögen", "ihr": "vermögt", "sie/Sie": "vermögen" },
+      "perfekt": "hat vermocht",
+      "praeteritum": "vermochte",
+      "example": "Niemand vermochte das Rätsel zu lösen.",
+      "note": "Inseparabile. Irregolare (Präteritopräsens). Registro molto elevato."
+    },
+    {
+      "de": "bedürfen (+ Gen)",
+      "it": "necessitare (di) / abbisognare",
+      "type": "irregolare",
+      "conjugation": { "ich": "bedarf", "du": "bedarfst", "er/sie/es": "bedarf", "wir": "bedürfen", "ihr": "bedürft", "sie/Sie": "bedürfen" },
+      "perfekt": "hat bedurft",
+      "praeteritum": "bedurfte",
+      "example": "Diese Frage bedarf einer gründlichen Untersuchung.",
+      "note": "Inseparabile. Irregolare (Präteritopräsens). Regge il genitivo."
+    },
+    {
+      "de": "anberaumen",
+      "it": "fissare / convocare (una seduta)",
+      "type": "separabile",
+      "conjugation": { "ich": "beraume an", "du": "beraumst an", "er/sie/es": "beraumt an", "wir": "beraumen an", "ihr": "beraumt an", "sie/Sie": "beraumen an" },
+      "perfekt": "hat anberaumt",
+      "praeteritum": "beraumte an",
+      "example": "Das Gericht hat eine Verhandlung anberaumt.",
+      "note": "Separabile. Regolare. Verbo giuridico."
+    },
+    {
+      "de": "umreißen",
+      "it": "delineare / abbozzare",
+      "type": "inseparabile",
+      "conjugation": { "ich": "umreiße", "du": "umreißt", "er/sie/es": "umreißt", "wir": "umreißen", "ihr": "umreißt", "sie/Sie": "umreißen" },
+      "perfekt": "hat umrissen",
+      "praeteritum": "umriss",
+      "example": "Der Redner umriss die wichtigsten Punkte.",
+      "note": "Inseparabile. Irregolare. Da non confondere con la forma separabile (demolire)."
+    },
+    {
+      "de": "zutreffen (auf + Akk)",
+      "it": "essere valido / applicarsi",
+      "type": "separabile",
+      "conjugation": { "ich": "treffe zu", "du": "triffst zu", "er/sie/es": "trifft zu", "wir": "treffen zu", "ihr": "trefft zu", "sie/Sie": "treffen zu" },
+      "perfekt": "hat zugetroffen",
+      "praeteritum": "traf zu",
+      "example": "Diese Beschreibung trifft auf viele Fälle zu.",
+      "note": "Separabile. Irregolare. Cambio vocale: e→i."
+    },
+    {
+      "de": "hervorgehen (aus + Dat)",
+      "it": "risultare (da) / emergere",
+      "type": "separabile",
+      "conjugation": { "ich": "gehe hervor", "du": "gehst hervor", "er/sie/es": "geht hervor", "wir": "gehen hervor", "ihr": "geht hervor", "sie/Sie": "gehen hervor" },
+      "perfekt": "ist hervorgegangen",
+      "praeteritum": "ging hervor",
+      "example": "Aus der Studie geht hervor, dass die Hypothese stimmt.",
+      "note": "Separabile. Irregolare. Ausiliare: sein."
+    },
+    {
+      "de": "gegenüberstellen",
+      "it": "confrontare / mettere a confronto",
+      "type": "separabile",
+      "conjugation": { "ich": "stelle gegenüber", "du": "stellst gegenüber", "er/sie/es": "stellt gegenüber", "wir": "stellen gegenüber", "ihr": "stellt gegenüber", "sie/Sie": "stellen gegenüber" },
+      "perfekt": "hat gegenübergestellt",
+      "praeteritum": "stellte gegenüber",
+      "example": "Der Autor stellt die beiden Theorien gegenüber.",
+      "note": "Separabile. Regolare. Frequente nell'argomentazione."
+    },
+    {
+      "de": "bezwecken",
+      "it": "mirare a / avere lo scopo di",
+      "type": "inseparabile",
+      "conjugation": { "ich": "bezwecke", "du": "bezweckst", "er/sie/es": "bezweckt", "wir": "bezwecken", "ihr": "bezweckt", "sie/Sie": "bezwecken" },
+      "perfekt": "hat bezweckt",
+      "praeteritum": "bezweckte",
+      "example": "Was bezweckt der Gesetzgeber mit dieser Regelung?",
+      "note": "Inseparabile. Regolare. Formale."
+    },
+    {
+      "de": "sich erstrecken (auf + Akk)",
+      "it": "estendersi / comprendere",
+      "type": "riflessivo",
+      "conjugation": { "ich": "erstrecke mich", "du": "erstreckst dich", "er/sie/es": "erstreckt sich", "wir": "erstrecken uns", "ihr": "erstreckt euch", "sie/Sie": "erstrecken sich" },
+      "perfekt": "hat sich erstreckt",
+      "praeteritum": "erstreckte sich",
+      "example": "Die Analyse erstreckt sich auf mehrere Bereiche.",
+      "note": "Inseparabile. Riflessivo. Regolare."
+    },
+    {
+      "de": "voraussetzen",
+      "it": "presupporre",
+      "type": "separabile",
+      "conjugation": { "ich": "setze voraus", "du": "setzt voraus", "er/sie/es": "setzt voraus", "wir": "setzen voraus", "ihr": "setzt voraus", "sie/Sie": "setzen voraus" },
+      "perfekt": "hat vorausgesetzt",
+      "praeteritum": "setzte voraus",
+      "example": "Die Argumentation setzt voraus, dass die Prämisse stimmt.",
+      "note": "Separabile. Regolare. Frequente nell'argomentazione logica."
+    },
+    {
+      "de": "tangieren",
+      "it": "tangere / riguardare marginalmente",
+      "type": "inseparabile",
+      "conjugation": { "ich": "tangiere", "du": "tangierst", "er/sie/es": "tangiert", "wir": "tangieren", "ihr": "tangiert", "sie/Sie": "tangieren" },
+      "perfekt": "hat tangiert",
+      "praeteritum": "tangierte",
+      "example": "Dieses Problem tangiert auch andere Forschungsbereiche.",
+      "note": "Regolare. Verbo colto. Dal latino tangere."
+    }
+  ]
+}

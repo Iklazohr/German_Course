@@ -1,0 +1,570 @@
+{
+  "id": "b1-nomen",
+  "level": "b1",
+  "type": "nomen",
+  "title": "Sostantivi B1",
+  "subtitle": "Die Nomen – Mittelstufe",
+  "description": "I sostantivi del livello B1 per comunicare con sicurezza.",
+  "cards": [
+    {
+      "de": "Bewerbung",
+      "article": "die",
+      "plural": "Bewerbungen",
+      "it": "candidatura / domanda di lavoro",
+      "example": "Ich schreibe eine Bewerbung.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Arbeitgeber",
+      "article": "der",
+      "plural": "Arbeitgeber",
+      "it": "datore di lavoro",
+      "example": "Mein Arbeitgeber ist sehr zufrieden mit mir.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Arbeitnehmer",
+      "article": "der",
+      "plural": "Arbeitnehmer",
+      "it": "lavoratore dipendente",
+      "example": "Die Arbeitnehmer streiken heute.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Gehalt",
+      "article": "das",
+      "plural": "Gehälter",
+      "it": "stipendio",
+      "example": "Das Gehalt wird am Ende des Monats überwiesen.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Kündigung",
+      "article": "die",
+      "plural": "Kündigungen",
+      "it": "licenziamento / dimissioni",
+      "example": "Er hat seine Kündigung eingereicht.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Vorstellungsgespräch",
+      "article": "das",
+      "plural": "Vorstellungsgespräche",
+      "it": "colloquio di lavoro",
+      "example": "Morgen habe ich ein Vorstellungsgespräch.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Beruf",
+      "article": "der",
+      "plural": "Berufe",
+      "it": "professione",
+      "example": "Welchen Beruf möchtest du ergreifen?",
+      "category": "lavoro"
+    },
+    {
+      "de": "Erfahrung",
+      "article": "die",
+      "plural": "Erfahrungen",
+      "it": "esperienza",
+      "example": "Sie hat viel Erfahrung in diesem Bereich.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Umwelt",
+      "article": "die",
+      "plural": "-",
+      "it": "ambiente",
+      "example": "Wir müssen die Umwelt schützen.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Verschmutzung",
+      "article": "die",
+      "plural": "Verschmutzungen",
+      "it": "inquinamento",
+      "example": "Die Verschmutzung der Meere ist ein großes Problem.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Klimawandel",
+      "article": "der",
+      "plural": "-",
+      "it": "cambiamento climatico",
+      "example": "Der Klimawandel betrifft uns alle.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Erneuerbare Energie",
+      "article": "die",
+      "plural": "Erneuerbare Energien",
+      "it": "energia rinnovabile",
+      "example": "Erneuerbare Energien werden immer wichtiger.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Abfall",
+      "article": "der",
+      "plural": "Abfälle",
+      "it": "rifiuto / spazzatura",
+      "example": "Bitte den Abfall trennen!",
+      "category": "ambiente"
+    },
+    {
+      "de": "Naturschutz",
+      "article": "der",
+      "plural": "-",
+      "it": "protezione della natura",
+      "example": "Naturschutz ist eine wichtige Aufgabe.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Rohstoff",
+      "article": "der",
+      "plural": "Rohstoffe",
+      "it": "materia prima",
+      "example": "Rohstoffe werden immer knapper.",
+      "category": "ambiente"
+    },
+    {
+      "de": "Ausbildung",
+      "article": "die",
+      "plural": "Ausbildungen",
+      "it": "formazione professionale",
+      "example": "Er macht eine Ausbildung zum Mechaniker.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Abschluss",
+      "article": "der",
+      "plural": "Abschlüsse",
+      "it": "diploma / laurea / titolo di studio",
+      "example": "Welchen Abschluss haben Sie?",
+      "category": "istruzione"
+    },
+    {
+      "de": "Studiengang",
+      "article": "der",
+      "plural": "Studiengänge",
+      "it": "corso di laurea",
+      "example": "Dieser Studiengang dauert sechs Semester.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Wissenschaft",
+      "article": "die",
+      "plural": "Wissenschaften",
+      "it": "scienza",
+      "example": "Die Wissenschaft macht große Fortschritte.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Forschung",
+      "article": "die",
+      "plural": "Forschungen",
+      "it": "ricerca",
+      "example": "Die Forschung im Bereich Medizin ist wichtig.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Kenntnisse",
+      "article": "die",
+      "plural": "Kenntnisse",
+      "it": "conoscenze / competenze",
+      "example": "Sie hat gute Kenntnisse in Mathematik.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Stipendium",
+      "article": "das",
+      "plural": "Stipendien",
+      "it": "borsa di studio",
+      "example": "Er hat ein Stipendium bekommen.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Semester",
+      "article": "das",
+      "plural": "Semester",
+      "it": "semestre",
+      "example": "Im nächsten Semester belege ich neue Kurse.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Angst",
+      "article": "die",
+      "plural": "Ängste",
+      "it": "paura / ansia",
+      "example": "Er hat Angst vor Spinnen.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Enttäuschung",
+      "article": "die",
+      "plural": "Enttäuschungen",
+      "it": "delusione",
+      "example": "Die Enttäuschung war groß.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Begeisterung",
+      "article": "die",
+      "plural": "-",
+      "it": "entusiasmo",
+      "example": "Sie sprach mit großer Begeisterung.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Eifersucht",
+      "article": "die",
+      "plural": "-",
+      "it": "gelosia",
+      "example": "Eifersucht zerstört Beziehungen.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Vertrauen",
+      "article": "das",
+      "plural": "-",
+      "it": "fiducia",
+      "example": "Vertrauen ist die Basis jeder Freundschaft.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Sehnsucht",
+      "article": "die",
+      "plural": "Sehnsüchte",
+      "it": "nostalgia / desiderio ardente",
+      "example": "Sie hat Sehnsucht nach ihrer Heimat.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Zufriedenheit",
+      "article": "die",
+      "plural": "-",
+      "it": "soddisfazione / contentezza",
+      "example": "Zufriedenheit ist wichtiger als Reichtum.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Ärger",
+      "article": "der",
+      "plural": "-",
+      "it": "rabbia / irritazione",
+      "example": "Er konnte seinen Ärger nicht verbergen.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Unterkunft",
+      "article": "die",
+      "plural": "Unterkünfte",
+      "it": "alloggio",
+      "example": "Wir suchen eine günstige Unterkunft.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Sehenswürdigkeit",
+      "article": "die",
+      "plural": "Sehenswürdigkeiten",
+      "it": "attrazione turistica",
+      "example": "Diese Stadt hat viele Sehenswürdigkeiten.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Reiseziel",
+      "article": "das",
+      "plural": "Reiseziele",
+      "it": "destinazione di viaggio",
+      "example": "Italien ist ein beliebtes Reiseziel.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Verspätung",
+      "article": "die",
+      "plural": "Verspätungen",
+      "it": "ritardo",
+      "example": "Der Zug hat zwanzig Minuten Verspätung.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Rundreise",
+      "article": "die",
+      "plural": "Rundreisen",
+      "it": "viaggio organizzato / tour",
+      "example": "Wir planen eine Rundreise durch Europa.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Ausflug",
+      "article": "der",
+      "plural": "Ausflüge",
+      "it": "gita / escursione",
+      "example": "Am Wochenende machen wir einen Ausflug.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Anschluss",
+      "article": "der",
+      "plural": "Anschlüsse",
+      "it": "coincidenza (treno) / collegamento",
+      "example": "Ich habe den Anschluss verpasst.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Aufführung",
+      "article": "die",
+      "plural": "Aufführungen",
+      "it": "rappresentazione / spettacolo",
+      "example": "Die Aufführung beginnt um 20 Uhr.",
+      "category": "cultura"
+    },
+    {
+      "de": "Ausstellung",
+      "article": "die",
+      "plural": "Ausstellungen",
+      "it": "mostra / esposizione",
+      "example": "Die Ausstellung im Museum ist sehr interessant.",
+      "category": "cultura"
+    },
+    {
+      "de": "Veranstaltung",
+      "article": "die",
+      "plural": "Veranstaltungen",
+      "it": "evento / manifestazione",
+      "example": "Am Wochenende gibt es viele Veranstaltungen.",
+      "category": "cultura"
+    },
+    {
+      "de": "Zeitschrift",
+      "article": "die",
+      "plural": "Zeitschriften",
+      "it": "rivista",
+      "example": "Ich lese gern wissenschaftliche Zeitschriften.",
+      "category": "cultura"
+    },
+    {
+      "de": "Sendung",
+      "article": "die",
+      "plural": "Sendungen",
+      "it": "trasmissione / programma TV",
+      "example": "Diese Sendung kommt jeden Freitag.",
+      "category": "cultura"
+    },
+    {
+      "de": "Verlag",
+      "article": "der",
+      "plural": "Verlage",
+      "it": "casa editrice",
+      "example": "Der Verlag hat das Buch veröffentlicht.",
+      "category": "cultura"
+    },
+    {
+      "de": "Daten",
+      "article": "die",
+      "plural": "Daten",
+      "it": "dati",
+      "example": "Persönliche Daten muss man schützen.",
+      "category": "tecnologia"
+    },
+    {
+      "de": "Netzwerk",
+      "article": "das",
+      "plural": "Netzwerke",
+      "it": "rete",
+      "example": "Das Netzwerk funktioniert nicht richtig.",
+      "category": "tecnologia"
+    },
+    {
+      "de": "Anwendung",
+      "article": "die",
+      "plural": "Anwendungen",
+      "it": "applicazione",
+      "example": "Diese Anwendung ist sehr nützlich.",
+      "category": "tecnologia"
+    },
+    {
+      "de": "Gerät",
+      "article": "das",
+      "plural": "Geräte",
+      "it": "apparecchio / dispositivo",
+      "example": "Dieses Gerät ist sehr leicht zu bedienen.",
+      "category": "tecnologia"
+    },
+    {
+      "de": "Suchmaschine",
+      "article": "die",
+      "plural": "Suchmaschinen",
+      "it": "motore di ricerca",
+      "example": "Google ist die bekannteste Suchmaschine.",
+      "category": "tecnologia"
+    },
+    {
+      "de": "Gesellschaft",
+      "article": "die",
+      "plural": "Gesellschaften",
+      "it": "societa",
+      "example": "Wir leben in einer multikulturellen Gesellschaft.",
+      "category": "società"
+    },
+    {
+      "de": "Gleichberechtigung",
+      "article": "die",
+      "plural": "-",
+      "it": "parità di diritti",
+      "example": "Gleichberechtigung ist ein wichtiges Ziel.",
+      "category": "società"
+    },
+    {
+      "de": "Einwanderung",
+      "article": "die",
+      "plural": "Einwanderungen",
+      "it": "immigrazione",
+      "example": "Die Einwanderung ist ein politisches Thema.",
+      "category": "società"
+    },
+    {
+      "de": "Bürger",
+      "article": "der",
+      "plural": "Bürger",
+      "it": "cittadino",
+      "example": "Alle Bürger haben das Recht zu wählen.",
+      "category": "società"
+    },
+    {
+      "de": "Wahl",
+      "article": "die",
+      "plural": "Wahlen",
+      "it": "elezione / scelta",
+      "example": "Die nächsten Wahlen finden im September statt.",
+      "category": "società"
+    },
+    {
+      "de": "Regierung",
+      "article": "die",
+      "plural": "Regierungen",
+      "it": "governo",
+      "example": "Die Regierung hat ein neues Gesetz beschlossen.",
+      "category": "società"
+    },
+    {
+      "de": "Gesetz",
+      "article": "das",
+      "plural": "Gesetze",
+      "it": "legge",
+      "example": "Dieses Gesetz ist seit letztem Jahr gültig.",
+      "category": "società"
+    },
+    {
+      "de": "Gerechtigkeit",
+      "article": "die",
+      "plural": "-",
+      "it": "giustizia",
+      "example": "Gerechtigkeit ist ein Grundwert der Demokratie.",
+      "category": "società"
+    },
+    {
+      "de": "Vorurteil",
+      "article": "das",
+      "plural": "Vorurteile",
+      "it": "pregiudizio",
+      "example": "Vorurteile entstehen aus Unwissenheit.",
+      "category": "società"
+    },
+    {
+      "de": "Zusammenhang",
+      "article": "der",
+      "plural": "Zusammenhänge",
+      "it": "contesto / relazione / nesso",
+      "example": "In diesem Zusammenhang ist es wichtig zu wissen...",
+      "category": "società"
+    },
+    {
+      "de": "Fortschritt",
+      "article": "der",
+      "plural": "Fortschritte",
+      "it": "progresso",
+      "example": "Der technische Fortschritt verändert unser Leben.",
+      "category": "società"
+    },
+    {
+      "de": "Bedeutung",
+      "article": "die",
+      "plural": "Bedeutungen",
+      "it": "significato / importanza",
+      "example": "Die Bedeutung dieses Wortes kenne ich nicht.",
+      "category": "cultura"
+    },
+    {
+      "de": "Eigenschaft",
+      "article": "die",
+      "plural": "Eigenschaften",
+      "it": "qualità / caratteristica",
+      "example": "Ehrlichkeit ist eine gute Eigenschaft.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Leidenschaft",
+      "article": "die",
+      "plural": "Leidenschaften",
+      "it": "passione",
+      "example": "Kochen ist seine größte Leidenschaft.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Herausforderung",
+      "article": "die",
+      "plural": "Herausforderungen",
+      "it": "sfida",
+      "example": "Das ist eine große Herausforderung für uns.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Lebenslauf",
+      "article": "der",
+      "plural": "Lebensläufe",
+      "it": "curriculum vitae",
+      "example": "Bitte schicken Sie uns Ihren Lebenslauf.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Entwicklung",
+      "article": "die",
+      "plural": "Entwicklungen",
+      "it": "sviluppo / evoluzione",
+      "example": "Die wirtschaftliche Entwicklung ist positiv.",
+      "category": "società"
+    },
+    {
+      "de": "Verhalten",
+      "article": "das",
+      "plural": "-",
+      "it": "comportamento",
+      "example": "Sein Verhalten war sehr unhöflich.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Einfluss",
+      "article": "der",
+      "plural": "Einflüsse",
+      "it": "influenza",
+      "example": "Das Internet hat einen großen Einfluss auf die Gesellschaft.",
+      "category": "società"
+    },
+    {
+      "de": "Ergebnis",
+      "article": "das",
+      "plural": "Ergebnisse",
+      "it": "risultato",
+      "example": "Das Ergebnis der Prüfung war sehr gut.",
+      "category": "istruzione"
+    },
+    {
+      "de": "Maßnahme",
+      "article": "die",
+      "plural": "Maßnahmen",
+      "it": "provvedimento / misura",
+      "example": "Die Regierung hat neue Maßnahmen beschlossen.",
+      "category": "società"
+    }
+  ]
+}

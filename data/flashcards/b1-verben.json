@@ -1,0 +1,758 @@
+{
+  "id": "b1-verben",
+  "level": "b1",
+  "type": "verben",
+  "title": "Verbi B1",
+  "subtitle": "Die Verben – Mittelstufe",
+  "description": "I verbi del livello B1 con coniugazione, Perfekt e Präteritum.",
+  "cards": [
+    {
+      "de": "sich bewerben (um + Akk)",
+      "it": "candidarsi (per)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "bewerbe mich",
+        "du": "bewirbst dich",
+        "er/sie/es": "bewirbt sich",
+        "wir": "bewerben uns",
+        "ihr": "bewerbt euch",
+        "sie/Sie": "bewerben sich"
+      },
+      "perfekt": "hat sich beworben",
+      "praeteritum": "bewarb sich",
+      "example": "Sie bewirbt sich um die Stelle.",
+      "note": "Inseparabile + riflessivo. Cambio vocale: e→i"
+    },
+    {
+      "de": "sich interessieren (für + Akk)",
+      "it": "interessarsi (a/di)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "interessiere mich",
+        "du": "interessierst dich",
+        "er/sie/es": "interessiert sich",
+        "wir": "interessieren uns",
+        "ihr": "interessiert euch",
+        "sie/Sie": "interessieren sich"
+      },
+      "perfekt": "hat sich interessiert",
+      "praeteritum": "interessierte sich",
+      "example": "Ich interessiere mich für Kunst.",
+      "note": "Riflessivo + preposizione für + accusativo"
+    },
+    {
+      "de": "abhängen (von + Dat)",
+      "it": "dipendere (da)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "hänge ab",
+        "du": "hängst ab",
+        "er/sie/es": "hängt ab",
+        "wir": "hängen ab",
+        "ihr": "hängt ab",
+        "sie/Sie": "hängen ab"
+      },
+      "perfekt": "hat abgehangen",
+      "praeteritum": "hing ab",
+      "example": "Das hängt vom Wetter ab.",
+      "note": "Separabile. Präteritum irregolare: hing ab"
+    },
+    {
+      "de": "teilnehmen (an + Dat)",
+      "it": "partecipare (a)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "nehme teil",
+        "du": "nimmst teil",
+        "er/sie/es": "nimmt teil",
+        "wir": "nehmen teil",
+        "ihr": "nehmt teil",
+        "sie/Sie": "nehmen teil"
+      },
+      "perfekt": "hat teilgenommen",
+      "praeteritum": "nahm teil",
+      "example": "Er nimmt am Kurs teil.",
+      "note": "Separabile. Cambio vocale: e→i"
+    },
+    {
+      "de": "sich gewöhnen (an + Akk)",
+      "it": "abituarsi (a)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "gewöhne mich",
+        "du": "gewöhnst dich",
+        "er/sie/es": "gewöhnt sich",
+        "wir": "gewöhnen uns",
+        "ihr": "gewöhnt euch",
+        "sie/Sie": "gewöhnen sich"
+      },
+      "perfekt": "hat sich gewöhnt",
+      "praeteritum": "gewöhnte sich",
+      "example": "Ich gewöhne mich an das Klima.",
+      "note": "Inseparabile + riflessivo. Preposizione an + accusativo"
+    },
+    {
+      "de": "sich entscheiden (für + Akk)",
+      "it": "decidere / decidersi (per)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "entscheide mich",
+        "du": "entscheidest dich",
+        "er/sie/es": "entscheidet sich",
+        "wir": "entscheiden uns",
+        "ihr": "entscheidet euch",
+        "sie/Sie": "entscheiden sich"
+      },
+      "perfekt": "hat sich entschieden",
+      "praeteritum": "entschied sich",
+      "example": "Sie hat sich für das Studium entschieden.",
+      "note": "Inseparabile + riflessivo. Konjunktiv II: würde sich entscheiden"
+    },
+    {
+      "de": "sich beschweren (über + Akk)",
+      "it": "lamentarsi (di)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "beschwere mich",
+        "du": "beschwerst dich",
+        "er/sie/es": "beschwert sich",
+        "wir": "beschweren uns",
+        "ihr": "beschwert euch",
+        "sie/Sie": "beschweren sich"
+      },
+      "perfekt": "hat sich beschwert",
+      "praeteritum": "beschwerte sich",
+      "example": "Er beschwert sich über den Lärm.",
+      "note": "Inseparabile + riflessivo. Preposizione über + accusativo"
+    },
+    {
+      "de": "sich verlassen (auf + Akk)",
+      "it": "contare / fare affidamento (su)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "verlasse mich",
+        "du": "verlässt dich",
+        "er/sie/es": "verlässt sich",
+        "wir": "verlassen uns",
+        "ihr": "verlasst euch",
+        "sie/Sie": "verlassen sich"
+      },
+      "perfekt": "hat sich verlassen",
+      "praeteritum": "verließ sich",
+      "example": "Du kannst dich auf mich verlassen.",
+      "note": "Inseparabile + riflessivo. Cambio vocale: a→ä. Präteritum: verließ"
+    },
+    {
+      "de": "bestehen (aus + Dat)",
+      "it": "consistere (di/in)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "bestehe",
+        "du": "bestehst",
+        "er/sie/es": "besteht",
+        "wir": "bestehen",
+        "ihr": "besteht",
+        "sie/Sie": "bestehen"
+      },
+      "perfekt": "hat bestanden",
+      "praeteritum": "bestand",
+      "example": "Das Team besteht aus fünf Personen.",
+      "note": "Inseparabile. Anche: bestehen + Akk = superare (un esame)"
+    },
+    {
+      "de": "verzichten (auf + Akk)",
+      "it": "rinunciare (a)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "verzichte",
+        "du": "verzichtest",
+        "er/sie/es": "verzichtet",
+        "wir": "verzichten",
+        "ihr": "verzichtet",
+        "sie/Sie": "verzichten"
+      },
+      "perfekt": "hat verzichtet",
+      "praeteritum": "verzichtete",
+      "example": "Er verzichtet auf Süßigkeiten.",
+      "note": "Regolare. Preposizione auf + accusativo"
+    },
+    {
+      "de": "vorschlagen",
+      "it": "proporre",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "schlage vor",
+        "du": "schlägst vor",
+        "er/sie/es": "schlägt vor",
+        "wir": "schlagen vor",
+        "ihr": "schlagt vor",
+        "sie/Sie": "schlagen vor"
+      },
+      "perfekt": "hat vorgeschlagen",
+      "praeteritum": "schlug vor",
+      "example": "Ich schlage eine Pause vor.",
+      "note": "Separabile. Cambio vocale: a→ä. Konjunktiv II: schlüge vor"
+    },
+    {
+      "de": "stattfinden",
+      "it": "aver luogo / svolgersi",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "-",
+        "du": "-",
+        "er/sie/es": "findet statt",
+        "wir": "-",
+        "ihr": "-",
+        "sie/Sie": "finden statt"
+      },
+      "perfekt": "hat stattgefunden",
+      "praeteritum": "fand statt",
+      "example": "Die Konferenz findet morgen statt.",
+      "note": "Separabile. Usato quasi solo alla terza persona"
+    },
+    {
+      "de": "zunehmen",
+      "it": "aumentare / ingrassare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "nehme zu",
+        "du": "nimmst zu",
+        "er/sie/es": "nimmt zu",
+        "wir": "nehmen zu",
+        "ihr": "nehmt zu",
+        "sie/Sie": "nehmen zu"
+      },
+      "perfekt": "hat zugenommen",
+      "praeteritum": "nahm zu",
+      "example": "Die Zahl der Studenten nimmt zu.",
+      "note": "Separabile. Cambio vocale: e→i. Contrario: abnehmen"
+    },
+    {
+      "de": "ausschalten",
+      "it": "spegnere",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "schalte aus",
+        "du": "schaltest aus",
+        "er/sie/es": "schaltet aus",
+        "wir": "schalten aus",
+        "ihr": "schaltet aus",
+        "sie/Sie": "schalten aus"
+      },
+      "perfekt": "hat ausgeschaltet",
+      "praeteritum": "schaltete aus",
+      "example": "Bitte schalten Sie das Handy aus.",
+      "note": "Separabile, regolare. Contrario: einschalten"
+    },
+    {
+      "de": "herausfinden",
+      "it": "scoprire / trovare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "finde heraus",
+        "du": "findest heraus",
+        "er/sie/es": "findet heraus",
+        "wir": "finden heraus",
+        "ihr": "findet heraus",
+        "sie/Sie": "finden heraus"
+      },
+      "perfekt": "hat herausgefunden",
+      "praeteritum": "fand heraus",
+      "example": "Wir müssen die Wahrheit herausfinden.",
+      "note": "Separabile. Irregolare come finden"
+    },
+    {
+      "de": "aufgeben",
+      "it": "arrendersi / rinunciare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "gebe auf",
+        "du": "gibst auf",
+        "er/sie/es": "gibt auf",
+        "wir": "geben auf",
+        "ihr": "gebt auf",
+        "sie/Sie": "geben auf"
+      },
+      "perfekt": "hat aufgegeben",
+      "praeteritum": "gab auf",
+      "example": "Gib nicht auf!",
+      "note": "Separabile. Cambio vocale: e→i"
+    },
+    {
+      "de": "beeinflussen",
+      "it": "influenzare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "beeinflusse",
+        "du": "beeinflusst",
+        "er/sie/es": "beeinflusst",
+        "wir": "beeinflussen",
+        "ihr": "beeinflusst",
+        "sie/Sie": "beeinflussen"
+      },
+      "perfekt": "hat beeinflusst",
+      "praeteritum": "beeinflusste",
+      "example": "Die Medien beeinflussen die Meinung der Menschen.",
+      "note": "Inseparabile, regolare. Prefisso be-"
+    },
+    {
+      "de": "verbieten",
+      "it": "vietare / proibire",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "verbiete",
+        "du": "verbietest",
+        "er/sie/es": "verbietet",
+        "wir": "verbieten",
+        "ihr": "verbietet",
+        "sie/Sie": "verbieten"
+      },
+      "perfekt": "hat verboten",
+      "praeteritum": "verbot",
+      "example": "Rauchen ist hier verboten.",
+      "note": "Inseparabile, irregolare. Cambio vocale: ie→o nel Perfekt/Präteritum"
+    },
+    {
+      "de": "erziehen",
+      "it": "educare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "erziehe",
+        "du": "erziehst",
+        "er/sie/es": "erzieht",
+        "wir": "erziehen",
+        "ihr": "erzieht",
+        "sie/Sie": "erziehen"
+      },
+      "perfekt": "hat erzogen",
+      "praeteritum": "erzog",
+      "example": "Sie erzieht ihre Kinder streng.",
+      "note": "Inseparabile, irregolare. Prefisso er-"
+    },
+    {
+      "de": "unterrichten",
+      "it": "insegnare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "unterrichte",
+        "du": "unterrichtest",
+        "er/sie/es": "unterrichtet",
+        "wir": "unterrichten",
+        "ihr": "unterrichtet",
+        "sie/Sie": "unterrichten"
+      },
+      "perfekt": "hat unterrichtet",
+      "praeteritum": "unterrichtete",
+      "example": "Sie unterrichtet Deutsch an einer Schule.",
+      "note": "Inseparabile, regolare. Prefisso unter-"
+    },
+    {
+      "de": "übersetzen",
+      "it": "tradurre",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "übersetze",
+        "du": "übersetzt",
+        "er/sie/es": "übersetzt",
+        "wir": "übersetzen",
+        "ihr": "übersetzt",
+        "sie/Sie": "übersetzen"
+      },
+      "perfekt": "hat übersetzt",
+      "praeteritum": "übersetzte",
+      "example": "Kannst du diesen Text übersetzen?",
+      "note": "Inseparabile, regolare. Prefisso über-. Accento su -set-"
+    },
+    {
+      "de": "sich erinnern (an + Akk)",
+      "it": "ricordarsi (di)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "erinnere mich",
+        "du": "erinnerst dich",
+        "er/sie/es": "erinnert sich",
+        "wir": "erinnern uns",
+        "ihr": "erinnert euch",
+        "sie/Sie": "erinnern sich"
+      },
+      "perfekt": "hat sich erinnert",
+      "praeteritum": "erinnerte sich",
+      "example": "Ich erinnere mich an den Urlaub.",
+      "note": "Inseparabile + riflessivo. Preposizione an + accusativo"
+    },
+    {
+      "de": "sich freuen (auf + Akk / über + Akk)",
+      "it": "essere contento (di) / non vedere l'ora (di)",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "freue mich",
+        "du": "freust dich",
+        "er/sie/es": "freut sich",
+        "wir": "freuen uns",
+        "ihr": "freut euch",
+        "sie/Sie": "freuen sich"
+      },
+      "perfekt": "hat sich gefreut",
+      "praeteritum": "freute sich",
+      "example": "Ich freue mich auf den Urlaub.",
+      "note": "auf + Akk = aspettativa futura; über + Akk = gioia per qualcosa di presente/passato"
+    },
+    {
+      "de": "sich verhalten",
+      "it": "comportarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "verhalte mich",
+        "du": "verhältst dich",
+        "er/sie/es": "verhält sich",
+        "wir": "verhalten uns",
+        "ihr": "verhaltet euch",
+        "sie/Sie": "verhalten sich"
+      },
+      "perfekt": "hat sich verhalten",
+      "praeteritum": "verhielt sich",
+      "example": "Er verhält sich sehr seltsam.",
+      "note": "Inseparabile + riflessivo. Cambio vocale: a→ä"
+    },
+    {
+      "de": "sich unterhalten",
+      "it": "conversare / intrattenersi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "unterhalte mich",
+        "du": "unterhältst dich",
+        "er/sie/es": "unterhält sich",
+        "wir": "unterhalten uns",
+        "ihr": "unterhaltet euch",
+        "sie/Sie": "unterhalten sich"
+      },
+      "perfekt": "hat sich unterhalten",
+      "praeteritum": "unterhielt sich",
+      "example": "Wir unterhalten uns über Politik.",
+      "note": "Inseparabile + riflessivo. Cambio vocale: a→ä"
+    },
+    {
+      "de": "sich bemühen (um + Akk)",
+      "it": "sforzarsi (di/per)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "bemühe mich",
+        "du": "bemühst dich",
+        "er/sie/es": "bemüht sich",
+        "wir": "bemühen uns",
+        "ihr": "bemüht euch",
+        "sie/Sie": "bemühen sich"
+      },
+      "perfekt": "hat sich bemüht",
+      "praeteritum": "bemühte sich",
+      "example": "Er bemüht sich um eine neue Stelle.",
+      "note": "Inseparabile + riflessivo. Preposizione um + accusativo"
+    },
+    {
+      "de": "wissen",
+      "it": "sapere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er/sie/es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie/Sie": "wissen"
+      },
+      "perfekt": "hat gewusst",
+      "praeteritum": "wusste",
+      "example": "Ich weiß nicht, wo er ist.",
+      "note": "Verbo misto (Präteritum-Präsens). Konjunktiv II: wüsste"
+    },
+    {
+      "de": "können",
+      "it": "potere / sapere (fare)",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "kann",
+        "du": "kannst",
+        "er/sie/es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie/Sie": "können"
+      },
+      "perfekt": "hat gekonnt / hat ... können",
+      "praeteritum": "konnte",
+      "example": "Ich kann gut schwimmen.",
+      "note": "Modale. Konjunktiv II: könnte. Molto usato per richieste cortesi"
+    },
+    {
+      "de": "sollen",
+      "it": "dovere (consiglio/obbligo esterno)",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "soll",
+        "du": "sollst",
+        "er/sie/es": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie/Sie": "sollen"
+      },
+      "perfekt": "hat gesollt / hat ... sollen",
+      "praeteritum": "sollte",
+      "example": "Du sollst mehr Wasser trinken.",
+      "note": "Modale. Konjunktiv II: sollte (identico al Präteritum). Usato per consigli"
+    },
+    {
+      "de": "dürfen",
+      "it": "avere il permesso di / potere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "darf",
+        "du": "darfst",
+        "er/sie/es": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie/Sie": "dürfen"
+      },
+      "perfekt": "hat gedurft / hat ... dürfen",
+      "praeteritum": "durfte",
+      "example": "Hier darf man nicht rauchen.",
+      "note": "Modale. Konjunktiv II: dürfte. Usato per permesso e cortesia formale"
+    },
+    {
+      "de": "lassen",
+      "it": "lasciare / far fare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "lasse",
+        "du": "lässt",
+        "er/sie/es": "lässt",
+        "wir": "lassen",
+        "ihr": "lasst",
+        "sie/Sie": "lassen"
+      },
+      "perfekt": "hat gelassen / hat ... lassen",
+      "praeteritum": "ließ",
+      "example": "Ich lasse mir die Haare schneiden.",
+      "note": "Irregolare. Konjunktiv II: ließe. Doppio Perfekt con infinito"
+    },
+    {
+      "de": "vermeiden",
+      "it": "evitare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "vermeide",
+        "du": "vermeidest",
+        "er/sie/es": "vermeidet",
+        "wir": "vermeiden",
+        "ihr": "vermeidet",
+        "sie/Sie": "vermeiden"
+      },
+      "perfekt": "hat vermieden",
+      "praeteritum": "vermied",
+      "example": "Wir sollten Plastikmüll vermeiden.",
+      "note": "Inseparabile, irregolare. Cambio vocale: ei→ie"
+    },
+    {
+      "de": "vergleichen",
+      "it": "paragonare / confrontare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "vergleiche",
+        "du": "vergleichst",
+        "er/sie/es": "vergleicht",
+        "wir": "vergleichen",
+        "ihr": "vergleicht",
+        "sie/Sie": "vergleichen"
+      },
+      "perfekt": "hat verglichen",
+      "praeteritum": "verglich",
+      "example": "Man kann die zwei Länder nicht vergleichen.",
+      "note": "Inseparabile, irregolare. Cambio vocale: ei→i"
+    },
+    {
+      "de": "empfehlen",
+      "it": "consigliare / raccomandare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "empfehle",
+        "du": "empfiehlst",
+        "er/sie/es": "empfiehlt",
+        "wir": "empfehlen",
+        "ihr": "empfehlt",
+        "sie/Sie": "empfehlen"
+      },
+      "perfekt": "hat empfohlen",
+      "praeteritum": "empfahl",
+      "example": "Ich empfehle dir dieses Restaurant.",
+      "note": "Inseparabile, irregolare. Cambio vocale: e→ie→a→o. Konjunktiv II: empföhle/empfähle"
+    },
+    {
+      "de": "entstehen",
+      "it": "nascere / formarsi / originarsi",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "entstehe",
+        "du": "entstehst",
+        "er/sie/es": "entsteht",
+        "wir": "entstehen",
+        "ihr": "entsteht",
+        "sie/Sie": "entstehen"
+      },
+      "perfekt": "ist entstanden",
+      "praeteritum": "entstand",
+      "example": "Wie ist dieses Problem entstanden?",
+      "note": "Inseparabile, irregolare. Ausiliare: sein!"
+    },
+    {
+      "de": "betragen",
+      "it": "ammontare a",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "betrage",
+        "du": "beträgst",
+        "er/sie/es": "beträgt",
+        "wir": "betragen",
+        "ihr": "betragt",
+        "sie/Sie": "betragen"
+      },
+      "perfekt": "hat betragen",
+      "praeteritum": "betrug",
+      "example": "Die Kosten betragen 500 Euro.",
+      "note": "Inseparabile, irregolare. Cambio vocale: a→ä"
+    },
+    {
+      "de": "beschließen",
+      "it": "decidere / deliberare",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "beschließe",
+        "du": "beschließt",
+        "er/sie/es": "beschließt",
+        "wir": "beschließen",
+        "ihr": "beschließt",
+        "sie/Sie": "beschließen"
+      },
+      "perfekt": "hat beschlossen",
+      "praeteritum": "beschloss",
+      "example": "Die Regierung hat ein neues Gesetz beschlossen.",
+      "note": "Inseparabile, irregolare. Cambio vocale: ie→o"
+    },
+    {
+      "de": "gelingen",
+      "it": "riuscire (impersonale)",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "-",
+        "du": "-",
+        "er/sie/es": "gelingt",
+        "wir": "-",
+        "ihr": "-",
+        "sie/Sie": "gelingen"
+      },
+      "perfekt": "ist gelungen",
+      "praeteritum": "gelang",
+      "example": "Es gelingt mir nicht, ihn zu überzeugen.",
+      "note": "Impersonale. Si usa con dativo: es gelingt mir/dir/ihm. Ausiliare: sein!"
+    },
+    {
+      "de": "versprechen",
+      "it": "promettere",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "verspreche",
+        "du": "versprichst",
+        "er/sie/es": "verspricht",
+        "wir": "versprechen",
+        "ihr": "versprecht",
+        "sie/Sie": "versprechen"
+      },
+      "perfekt": "hat versprochen",
+      "praeteritum": "versprach",
+      "example": "Er hat mir versprochen zu kommen.",
+      "note": "Inseparabile, irregolare. Cambio vocale: e→i"
+    },
+    {
+      "de": "überzeugen",
+      "it": "convincere",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "überzeuge",
+        "du": "überzeugst",
+        "er/sie/es": "überzeugt",
+        "wir": "überzeugen",
+        "ihr": "überzeugt",
+        "sie/Sie": "überzeugen"
+      },
+      "perfekt": "hat überzeugt",
+      "praeteritum": "überzeugte",
+      "example": "Du hast mich überzeugt.",
+      "note": "Inseparabile, regolare. Prefisso über-"
+    },
+    {
+      "de": "erreichen",
+      "it": "raggiungere",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "erreiche",
+        "du": "erreichst",
+        "er/sie/es": "erreicht",
+        "wir": "erreichen",
+        "ihr": "erreicht",
+        "sie/Sie": "erreichen"
+      },
+      "perfekt": "hat erreicht",
+      "praeteritum": "erreichte",
+      "example": "Wir haben unser Ziel erreicht.",
+      "note": "Inseparabile, regolare. Prefisso er-"
+    },
+    {
+      "de": "auffallen",
+      "it": "saltare all'occhio / notarsi",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "falle auf",
+        "du": "fällst auf",
+        "er/sie/es": "fällt auf",
+        "wir": "fallen auf",
+        "ihr": "fallt auf",
+        "sie/Sie": "fallen auf"
+      },
+      "perfekt": "ist aufgefallen",
+      "praeteritum": "fiel auf",
+      "example": "Mir ist aufgefallen, dass er nicht da war.",
+      "note": "Separabile, irregolare. Ausiliare: sein! Si usa con dativo"
+    },
+    {
+      "de": "ausdrücken",
+      "it": "esprimere",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "drücke aus",
+        "du": "drückst aus",
+        "er/sie/es": "drückt aus",
+        "wir": "drücken aus",
+        "ihr": "drückt aus",
+        "sie/Sie": "drücken aus"
+      },
+      "perfekt": "hat ausgedrückt",
+      "praeteritum": "drückte aus",
+      "example": "Wie kann ich das auf Deutsch ausdrücken?",
+      "note": "Separabile, regolare. Anche riflessivo: sich ausdrücken = esprimersi"
+    },
+    {
+      "de": "berücksichtigen",
+      "it": "prendere in considerazione / tenere conto di",
+      "type": "inseparabile",
+      "conjugation": {
+        "ich": "berücksichtige",
+        "du": "berücksichtigst",
+        "er/sie/es": "berücksichtigt",
+        "wir": "berücksichtigen",
+        "ihr": "berücksichtigt",
+        "sie/Sie": "berücksichtigen"
+      },
+      "perfekt": "hat berücksichtigt",
+      "praeteritum": "berücksichtigte",
+      "example": "Man muss alle Faktoren berücksichtigen.",
+      "note": "Inseparabile, regolare. Prefisso be-"
+    }
+  ]
+}

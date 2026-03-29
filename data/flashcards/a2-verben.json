@@ -1,0 +1,698 @@
+{
+  "id": "a2-verben",
+  "level": "a2",
+  "type": "verben",
+  "title": "Verbi A2",
+  "subtitle": "Die Verben – Aufbauwortschatz",
+  "description": "I verbi del livello A2 con coniugazione al presente e Perfekt.",
+  "cards": [
+    {
+      "de": "sich waschen",
+      "it": "lavarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "wasche mich",
+        "du": "wäschst dich",
+        "er/sie/es": "wäscht sich",
+        "wir": "waschen uns",
+        "ihr": "wascht euch",
+        "sie/Sie": "waschen sich"
+      },
+      "perfekt": "hat sich gewaschen",
+      "example": "Ich wasche mich jeden Morgen.",
+      "note": "Riflessivo con cambio vocale: a → ä"
+    },
+    {
+      "de": "sich anziehen",
+      "it": "vestirsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "ziehe mich an",
+        "du": "ziehst dich an",
+        "er/sie/es": "zieht sich an",
+        "wir": "ziehen uns an",
+        "ihr": "zieht euch an",
+        "sie/Sie": "ziehen sich an"
+      },
+      "perfekt": "hat sich angezogen",
+      "example": "Er zieht sich schnell an.",
+      "note": "Riflessivo e separabile. Perfekt irregolare: angezogen"
+    },
+    {
+      "de": "sich fühlen",
+      "it": "sentirsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "fühle mich",
+        "du": "fühlst dich",
+        "er/sie/es": "fühlt sich",
+        "wir": "fühlen uns",
+        "ihr": "fühlt euch",
+        "sie/Sie": "fühlen sich"
+      },
+      "perfekt": "hat sich gefühlt",
+      "example": "Ich fühle mich heute sehr gut.",
+      "note": "Riflessivo regolare"
+    },
+    {
+      "de": "sich freuen",
+      "it": "essere contento, rallegrarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "freue mich",
+        "du": "freust dich",
+        "er/sie/es": "freut sich",
+        "wir": "freuen uns",
+        "ihr": "freut euch",
+        "sie/Sie": "freuen sich"
+      },
+      "perfekt": "hat sich gefreut",
+      "example": "Ich freue mich auf den Urlaub.",
+      "note": "sich freuen auf + Akk. (aspettare con gioia) / sich freuen über + Akk. (essere contento di)"
+    },
+    {
+      "de": "sich erinnern",
+      "it": "ricordarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "erinnere mich",
+        "du": "erinnerst dich",
+        "er/sie/es": "erinnert sich",
+        "wir": "erinnern uns",
+        "ihr": "erinnert euch",
+        "sie/Sie": "erinnern sich"
+      },
+      "perfekt": "hat sich erinnert",
+      "example": "Ich erinnere mich an den Sommer.",
+      "note": "sich erinnern an + Akk."
+    },
+    {
+      "de": "sich interessieren",
+      "it": "interessarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "interessiere mich",
+        "du": "interessierst dich",
+        "er/sie/es": "interessiert sich",
+        "wir": "interessieren uns",
+        "ihr": "interessiert euch",
+        "sie/Sie": "interessieren sich"
+      },
+      "perfekt": "hat sich interessiert",
+      "example": "Er interessiert sich für Musik.",
+      "note": "sich interessieren für + Akk."
+    },
+    {
+      "de": "sich entschuldigen",
+      "it": "scusarsi",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "entschuldige mich",
+        "du": "entschuldigst dich",
+        "er/sie/es": "entschuldigt sich",
+        "wir": "entschuldigen uns",
+        "ihr": "entschuldigt euch",
+        "sie/Sie": "entschuldigen sich"
+      },
+      "perfekt": "hat sich entschuldigt",
+      "example": "Er hat sich bei mir entschuldigt.",
+      "note": "sich entschuldigen bei + Dat. / für + Akk."
+    },
+    {
+      "de": "sich verabreden",
+      "it": "darsi appuntamento",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "verabrede mich",
+        "du": "verabredest dich",
+        "er/sie/es": "verabredet sich",
+        "wir": "verabreden uns",
+        "ihr": "verabredet euch",
+        "sie/Sie": "verabreden sich"
+      },
+      "perfekt": "hat sich verabredet",
+      "example": "Wir verabreden uns für Freitag.",
+      "note": "sich verabreden mit + Dat."
+    },
+    {
+      "de": "fahren",
+      "it": "andare (con mezzo), guidare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie/es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie/Sie": "fahren"
+      },
+      "perfekt": "ist gefahren",
+      "example": "Wir fahren morgen nach Berlin.",
+      "note": "Irregolare: a → ä. Perfekt con sein (moto a luogo)"
+    },
+    {
+      "de": "fliegen",
+      "it": "volare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "fliege",
+        "du": "fliegst",
+        "er/sie/es": "fliegt",
+        "wir": "fliegen",
+        "ihr": "fliegt",
+        "sie/Sie": "fliegen"
+      },
+      "perfekt": "ist geflogen",
+      "example": "Wir fliegen im Sommer nach Spanien.",
+      "note": "Perfekt con sein (moto a luogo)"
+    },
+    {
+      "de": "ankommen",
+      "it": "arrivare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er/sie/es": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "sie/Sie": "kommen an"
+      },
+      "perfekt": "ist angekommen",
+      "example": "Der Zug kommt um 15 Uhr an.",
+      "note": "Separabile. Perfekt con sein"
+    },
+    {
+      "de": "abfahren",
+      "it": "partire (mezzo di trasporto)",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "fahre ab",
+        "du": "fährst ab",
+        "er/sie/es": "fährt ab",
+        "wir": "fahren ab",
+        "ihr": "fahrt ab",
+        "sie/Sie": "fahren ab"
+      },
+      "perfekt": "ist abgefahren",
+      "example": "Der Bus fährt in zehn Minuten ab.",
+      "note": "Separabile e irregolare: a → ä. Perfekt con sein"
+    },
+    {
+      "de": "umsteigen",
+      "it": "cambiare (treno, bus)",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "steige um",
+        "du": "steigst um",
+        "er/sie/es": "steigt um",
+        "wir": "steigen um",
+        "ihr": "steigt um",
+        "sie/Sie": "steigen um"
+      },
+      "perfekt": "ist umgestiegen",
+      "example": "In München müssen wir umsteigen.",
+      "note": "Separabile. Perfekt con sein"
+    },
+    {
+      "de": "einladen",
+      "it": "invitare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "lade ein",
+        "du": "lädst ein",
+        "er/sie/es": "lädt ein",
+        "wir": "laden ein",
+        "ihr": "ladet ein",
+        "sie/Sie": "laden ein"
+      },
+      "perfekt": "hat eingeladen",
+      "example": "Ich lade dich zum Essen ein.",
+      "note": "Separabile e irregolare: a → ä"
+    },
+    {
+      "de": "aufräumen",
+      "it": "mettere in ordine, riordinare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "räume auf",
+        "du": "räumst auf",
+        "er/sie/es": "räumt auf",
+        "wir": "räumen auf",
+        "ihr": "räumt auf",
+        "sie/Sie": "räumen auf"
+      },
+      "perfekt": "hat aufgeräumt",
+      "example": "Ich räume mein Zimmer auf.",
+      "note": "Separabile regolare"
+    },
+    {
+      "de": "einkaufen",
+      "it": "fare la spesa, comprare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er/sie/es": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "sie/Sie": "kaufen ein"
+      },
+      "perfekt": "hat eingekauft",
+      "example": "Wir kaufen samstags im Supermarkt ein.",
+      "note": "Separabile regolare"
+    },
+    {
+      "de": "anrufen",
+      "it": "telefonare, chiamare",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er/sie/es": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "sie/Sie": "rufen an"
+      },
+      "perfekt": "hat angerufen",
+      "example": "Ich rufe dich heute Abend an.",
+      "note": "Separabile. Perfekt irregolare: angerufen"
+    },
+    {
+      "de": "aufstehen",
+      "it": "alzarsi",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er/sie/es": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie/Sie": "stehen auf"
+      },
+      "perfekt": "ist aufgestanden",
+      "example": "Ich stehe jeden Tag um sieben Uhr auf.",
+      "note": "Separabile. Perfekt con sein e irregolare: aufgestanden"
+    },
+    {
+      "de": "ausgeben",
+      "it": "spendere",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "gebe aus",
+        "du": "gibst aus",
+        "er/sie/es": "gibt aus",
+        "wir": "geben aus",
+        "ihr": "gebt aus",
+        "sie/Sie": "geben aus"
+      },
+      "perfekt": "hat ausgegeben",
+      "example": "Er gibt viel Geld für Kleidung aus.",
+      "note": "Separabile e irregolare: e → i"
+    },
+    {
+      "de": "warten auf",
+      "it": "aspettare",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "warte",
+        "du": "wartest",
+        "er/sie/es": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie/Sie": "warten"
+      },
+      "perfekt": "hat gewartet",
+      "example": "Ich warte auf den Bus.",
+      "note": "warten auf + Akk."
+    },
+    {
+      "de": "denken an",
+      "it": "pensare a",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "denke",
+        "du": "denkst",
+        "er/sie/es": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie/Sie": "denken"
+      },
+      "perfekt": "hat gedacht",
+      "example": "Ich denke oft an meine Familie.",
+      "note": "denken an + Akk. Perfekt irregolare: gedacht"
+    },
+    {
+      "de": "sprechen über",
+      "it": "parlare di",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er/sie/es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie/Sie": "sprechen"
+      },
+      "perfekt": "hat gesprochen",
+      "example": "Wir sprechen über das Wetter.",
+      "note": "sprechen über + Akk. Irregolare: e → i"
+    },
+    {
+      "de": "bitten um",
+      "it": "chiedere (per favore)",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "bitte",
+        "du": "bittest",
+        "er/sie/es": "bittet",
+        "wir": "bitten",
+        "ihr": "bittet",
+        "sie/Sie": "bitten"
+      },
+      "perfekt": "hat gebeten",
+      "example": "Ich bitte um Hilfe.",
+      "note": "bitten um + Akk. Perfekt irregolare: gebeten"
+    },
+    {
+      "de": "teilnehmen an",
+      "it": "partecipare a",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "nehme teil",
+        "du": "nimmst teil",
+        "er/sie/es": "nimmt teil",
+        "wir": "nehmen teil",
+        "ihr": "nehmt teil",
+        "sie/Sie": "nehmen teil"
+      },
+      "perfekt": "hat teilgenommen",
+      "example": "Ich nehme am Kurs teil.",
+      "note": "teilnehmen an + Dat. Separabile e irregolare: e → i"
+    },
+    {
+      "de": "achten auf",
+      "it": "fare attenzione a",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "achte",
+        "du": "achtest",
+        "er/sie/es": "achtet",
+        "wir": "achten",
+        "ihr": "achtet",
+        "sie/Sie": "achten"
+      },
+      "perfekt": "hat geachtet",
+      "example": "Achte auf den Verkehr!",
+      "note": "achten auf + Akk. Regolare"
+    },
+    {
+      "de": "träumen von",
+      "it": "sognare di",
+      "type": "con preposizione",
+      "conjugation": {
+        "ich": "träume",
+        "du": "träumst",
+        "er/sie/es": "träumt",
+        "wir": "träumen",
+        "ihr": "träumt",
+        "sie/Sie": "träumen"
+      },
+      "perfekt": "hat geträumt",
+      "example": "Ich träume von einer Reise nach Japan.",
+      "note": "träumen von + Dat. Regolare"
+    },
+    {
+      "de": "vergessen",
+      "it": "dimenticare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "vergesse",
+        "du": "vergisst",
+        "er/sie/es": "vergisst",
+        "wir": "vergessen",
+        "ihr": "vergesst",
+        "sie/Sie": "vergessen"
+      },
+      "perfekt": "hat vergessen",
+      "example": "Ich habe meinen Schlüssel vergessen.",
+      "note": "Irregolare: e → i. Participio senza ge-: vergessen"
+    },
+    {
+      "de": "empfehlen",
+      "it": "consigliare, raccomandare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "empfehle",
+        "du": "empfiehlst",
+        "er/sie/es": "empfiehlt",
+        "wir": "empfehlen",
+        "ihr": "empfehlt",
+        "sie/Sie": "empfehlen"
+      },
+      "perfekt": "hat empfohlen",
+      "example": "Ich empfehle dir dieses Restaurant.",
+      "note": "Irregolare: e → ie. Participio senza ge-: empfohlen"
+    },
+    {
+      "de": "verlieren",
+      "it": "perdere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "verliere",
+        "du": "verlierst",
+        "er/sie/es": "verliert",
+        "wir": "verlieren",
+        "ihr": "verliert",
+        "sie/Sie": "verlieren"
+      },
+      "perfekt": "hat verloren",
+      "example": "Ich habe mein Portemonnaie verloren.",
+      "note": "Irregolare. Participio senza ge-: verloren"
+    },
+    {
+      "de": "versprechen",
+      "it": "promettere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "verspreche",
+        "du": "versprichst",
+        "er/sie/es": "verspricht",
+        "wir": "versprechen",
+        "ihr": "versprecht",
+        "sie/Sie": "versprechen"
+      },
+      "perfekt": "hat versprochen",
+      "example": "Er hat mir geholfen, wie er es versprochen hat.",
+      "note": "Irregolare: e → i. Participio senza ge-: versprochen"
+    },
+    {
+      "de": "unterschreiben",
+      "it": "firmare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "unterschreibe",
+        "du": "unterschreibst",
+        "er/sie/es": "unterschreibt",
+        "wir": "unterschreiben",
+        "ihr": "unterschreibt",
+        "sie/Sie": "unterschreiben"
+      },
+      "perfekt": "hat unterschrieben",
+      "example": "Bitte unterschreiben Sie den Vertrag.",
+      "note": "Irregolare. Participio senza ge-: unterschrieben"
+    },
+    {
+      "de": "beschreiben",
+      "it": "descrivere",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "beschreibe",
+        "du": "beschreibst",
+        "er/sie/es": "beschreibt",
+        "wir": "beschreiben",
+        "ihr": "beschreibt",
+        "sie/Sie": "beschreiben"
+      },
+      "perfekt": "hat beschrieben",
+      "example": "Kannst du die Person beschreiben?",
+      "note": "Irregolare. Participio senza ge-: beschrieben"
+    },
+    {
+      "de": "vergleichen",
+      "it": "confrontare, paragonare",
+      "type": "irregolare",
+      "conjugation": {
+        "ich": "vergleiche",
+        "du": "vergleichst",
+        "er/sie/es": "vergleicht",
+        "wir": "vergleichen",
+        "ihr": "vergleicht",
+        "sie/Sie": "vergleichen"
+      },
+      "perfekt": "hat verglichen",
+      "example": "Ich vergleiche die Preise im Internet.",
+      "note": "Irregolare. Participio senza ge-: verglichen"
+    },
+    {
+      "de": "bestellen",
+      "it": "ordinare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "bestelle",
+        "du": "bestellst",
+        "er/sie/es": "bestellt",
+        "wir": "bestellen",
+        "ihr": "bestellt",
+        "sie/Sie": "bestellen"
+      },
+      "perfekt": "hat bestellt",
+      "example": "Ich bestelle einen Kaffee.",
+      "note": "Regolare. Participio senza ge-: bestellt"
+    },
+    {
+      "de": "erklären",
+      "it": "spiegare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "erkläre",
+        "du": "erklärst",
+        "er/sie/es": "erklärt",
+        "wir": "erklären",
+        "ihr": "erklärt",
+        "sie/Sie": "erklären"
+      },
+      "perfekt": "hat erklärt",
+      "example": "Der Lehrer erklärt die Grammatik.",
+      "note": "Regolare. Participio senza ge-: erklärt"
+    },
+    {
+      "de": "erlauben",
+      "it": "permettere",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "erlaube",
+        "du": "erlaubst",
+        "er/sie/es": "erlaubt",
+        "wir": "erlauben",
+        "ihr": "erlaubt",
+        "sie/Sie": "erlauben"
+      },
+      "perfekt": "hat erlaubt",
+      "example": "Meine Eltern erlauben mir das nicht.",
+      "note": "Regolare. Participio senza ge-: erlaubt"
+    },
+    {
+      "de": "übersetzen",
+      "it": "tradurre",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "übersetze",
+        "du": "übersetzt",
+        "er/sie/es": "übersetzt",
+        "wir": "übersetzen",
+        "ihr": "übersetzt",
+        "sie/Sie": "übersetzen"
+      },
+      "perfekt": "hat übersetzt",
+      "example": "Kannst du diesen Satz übersetzen?",
+      "note": "Regolare (inseparabile). Participio senza ge-: übersetzt"
+    },
+    {
+      "de": "verdienen",
+      "it": "guadagnare",
+      "type": "regolare",
+      "conjugation": {
+        "ich": "verdiene",
+        "du": "verdienst",
+        "er/sie/es": "verdient",
+        "wir": "verdienen",
+        "ihr": "verdient",
+        "sie/Sie": "verdienen"
+      },
+      "perfekt": "hat verdient",
+      "example": "Sie verdient gut in ihrem Beruf.",
+      "note": "Regolare. Participio senza ge-: verdient"
+    },
+    {
+      "de": "sich beschweren",
+      "it": "lamentarsi, reclamare",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "beschwere mich",
+        "du": "beschwerst dich",
+        "er/sie/es": "beschwert sich",
+        "wir": "beschweren uns",
+        "ihr": "beschwert euch",
+        "sie/Sie": "beschweren sich"
+      },
+      "perfekt": "hat sich beschwert",
+      "example": "Er beschwert sich über den Lärm.",
+      "note": "Riflessivo. sich beschweren über + Akk."
+    },
+    {
+      "de": "sich erkälten",
+      "it": "raffreddarsi, prendere il raffreddore",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "erkälte mich",
+        "du": "erkältest dich",
+        "er/sie/es": "erkältet sich",
+        "wir": "erkälten uns",
+        "ihr": "erkältet euch",
+        "sie/Sie": "erkälten sich"
+      },
+      "perfekt": "hat sich erkältet",
+      "example": "Ich habe mich erkältet.",
+      "note": "Riflessivo regolare"
+    },
+    {
+      "de": "stattfinden",
+      "it": "aver luogo, svolgersi",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "–",
+        "du": "–",
+        "er/sie/es": "findet statt",
+        "wir": "–",
+        "ihr": "–",
+        "sie/Sie": "finden statt"
+      },
+      "perfekt": "hat stattgefunden",
+      "example": "Das Konzert findet am Samstag statt.",
+      "note": "Separabile. Usato quasi esclusivamente alla 3a persona"
+    },
+    {
+      "de": "vorschlagen",
+      "it": "proporre, suggerire",
+      "type": "separabile",
+      "conjugation": {
+        "ich": "schlage vor",
+        "du": "schlägst vor",
+        "er/sie/es": "schlägt vor",
+        "wir": "schlagen vor",
+        "ihr": "schlagt vor",
+        "sie/Sie": "schlagen vor"
+      },
+      "perfekt": "hat vorgeschlagen",
+      "example": "Ich schlage einen Ausflug vor.",
+      "note": "Separabile e irregolare: a → ä"
+    },
+    {
+      "de": "sich umziehen",
+      "it": "cambiarsi (d'abito)",
+      "type": "riflessivo",
+      "conjugation": {
+        "ich": "ziehe mich um",
+        "du": "ziehst dich um",
+        "er/sie/es": "zieht sich um",
+        "wir": "ziehen uns um",
+        "ihr": "zieht euch um",
+        "sie/Sie": "ziehen sich um"
+      },
+      "perfekt": "hat sich umgezogen",
+      "example": "Ich ziehe mich schnell um.",
+      "note": "Riflessivo e separabile. Perfekt irregolare: umgezogen"
+    }
+  ]
+}

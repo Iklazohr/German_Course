@@ -1,0 +1,578 @@
+{
+  "id": "a1-nomen",
+  "level": "a1",
+  "type": "nomen",
+  "title": "Sostantivi A1",
+  "subtitle": "Die Nomen – Grundwortschatz",
+  "description": "I sostantivi più importanti del livello A1 con articolo, plurale e traduzione.",
+  "cards": [
+    {
+      "de": "Mutter",
+      "article": "die",
+      "plural": "Mütter",
+      "it": "madre",
+      "example": "Meine Mutter kocht sehr gut.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Vater",
+      "article": "der",
+      "plural": "Väter",
+      "it": "padre",
+      "example": "Mein Vater arbeitet in Berlin.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Kind",
+      "article": "das",
+      "plural": "Kinder",
+      "it": "bambino",
+      "example": "Das Kind spielt im Garten.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Bruder",
+      "article": "der",
+      "plural": "Brüder",
+      "it": "fratello",
+      "example": "Mein Bruder ist zehn Jahre alt.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Schwester",
+      "article": "die",
+      "plural": "Schwestern",
+      "it": "sorella",
+      "example": "Meine Schwester wohnt in München.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Familie",
+      "article": "die",
+      "plural": "Familien",
+      "it": "famiglia",
+      "example": "Meine Familie ist sehr groß.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Eltern",
+      "article": "die",
+      "plural": "–",
+      "it": "genitori",
+      "example": "Meine Eltern leben in Italien.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Großmutter",
+      "article": "die",
+      "plural": "Großmütter",
+      "it": "nonna",
+      "example": "Meine Großmutter ist sehr nett.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Großvater",
+      "article": "der",
+      "plural": "Großväter",
+      "it": "nonno",
+      "example": "Mein Großvater liest die Zeitung.",
+      "category": "famiglia"
+    },
+    {
+      "de": "Brot",
+      "article": "das",
+      "plural": "Brote",
+      "it": "pane",
+      "example": "Ich kaufe ein Brot.",
+      "category": "cibo"
+    },
+    {
+      "de": "Wasser",
+      "article": "das",
+      "plural": "–",
+      "it": "acqua",
+      "example": "Ich trinke ein Glas Wasser.",
+      "category": "cibo"
+    },
+    {
+      "de": "Kaffee",
+      "article": "der",
+      "plural": "–",
+      "it": "caffè",
+      "example": "Ich trinke morgens Kaffee.",
+      "category": "cibo"
+    },
+    {
+      "de": "Milch",
+      "article": "die",
+      "plural": "–",
+      "it": "latte",
+      "example": "Die Milch ist im Kühlschrank.",
+      "category": "cibo"
+    },
+    {
+      "de": "Apfel",
+      "article": "der",
+      "plural": "Äpfel",
+      "it": "mela",
+      "example": "Der Apfel ist rot.",
+      "category": "cibo"
+    },
+    {
+      "de": "Ei",
+      "article": "das",
+      "plural": "Eier",
+      "it": "uovo",
+      "example": "Ich esse ein Ei zum Frühstück.",
+      "category": "cibo"
+    },
+    {
+      "de": "Fleisch",
+      "article": "das",
+      "plural": "–",
+      "it": "carne",
+      "example": "Ich esse gern Fleisch.",
+      "category": "cibo"
+    },
+    {
+      "de": "Tee",
+      "article": "der",
+      "plural": "Tees",
+      "it": "tè",
+      "example": "Möchtest du einen Tee?",
+      "category": "cibo"
+    },
+    {
+      "de": "Kuchen",
+      "article": "der",
+      "plural": "Kuchen",
+      "it": "torta",
+      "example": "Der Kuchen schmeckt gut.",
+      "category": "cibo"
+    },
+    {
+      "de": "Haus",
+      "article": "das",
+      "plural": "Häuser",
+      "it": "casa",
+      "example": "Das Haus ist groß.",
+      "category": "casa"
+    },
+    {
+      "de": "Wohnung",
+      "article": "die",
+      "plural": "Wohnungen",
+      "it": "appartamento",
+      "example": "Die Wohnung hat drei Zimmer.",
+      "category": "casa"
+    },
+    {
+      "de": "Küche",
+      "article": "die",
+      "plural": "Küchen",
+      "it": "cucina",
+      "example": "Ich koche in der Küche.",
+      "category": "casa"
+    },
+    {
+      "de": "Zimmer",
+      "article": "das",
+      "plural": "Zimmer",
+      "it": "stanza",
+      "example": "Mein Zimmer ist klein.",
+      "category": "casa"
+    },
+    {
+      "de": "Bad",
+      "article": "das",
+      "plural": "Bäder",
+      "it": "bagno",
+      "example": "Das Bad ist neben dem Schlafzimmer.",
+      "category": "casa"
+    },
+    {
+      "de": "Tür",
+      "article": "die",
+      "plural": "Türen",
+      "it": "porta",
+      "example": "Bitte mach die Tür zu.",
+      "category": "casa"
+    },
+    {
+      "de": "Fenster",
+      "article": "das",
+      "plural": "Fenster",
+      "it": "finestra",
+      "example": "Das Fenster ist offen.",
+      "category": "casa"
+    },
+    {
+      "de": "Kopf",
+      "article": "der",
+      "plural": "Köpfe",
+      "it": "testa",
+      "example": "Mein Kopf tut weh.",
+      "category": "corpo"
+    },
+    {
+      "de": "Hand",
+      "article": "die",
+      "plural": "Hände",
+      "it": "mano",
+      "example": "Wasch dir die Hände!",
+      "category": "corpo"
+    },
+    {
+      "de": "Auge",
+      "article": "das",
+      "plural": "Augen",
+      "it": "occhio",
+      "example": "Sie hat blaue Augen.",
+      "category": "corpo"
+    },
+    {
+      "de": "Nase",
+      "article": "die",
+      "plural": "Nasen",
+      "it": "naso",
+      "example": "Meine Nase ist kalt.",
+      "category": "corpo"
+    },
+    {
+      "de": "Mund",
+      "article": "der",
+      "plural": "Münder",
+      "it": "bocca",
+      "example": "Mach den Mund auf!",
+      "category": "corpo"
+    },
+    {
+      "de": "Fuß",
+      "article": "der",
+      "plural": "Füße",
+      "it": "piede",
+      "example": "Mein Fuß tut weh.",
+      "category": "corpo"
+    },
+    {
+      "de": "Schule",
+      "article": "die",
+      "plural": "Schulen",
+      "it": "scuola",
+      "example": "Die Kinder gehen in die Schule.",
+      "category": "scuola"
+    },
+    {
+      "de": "Buch",
+      "article": "das",
+      "plural": "Bücher",
+      "it": "libro",
+      "example": "Ich lese ein Buch.",
+      "category": "scuola"
+    },
+    {
+      "de": "Stift",
+      "article": "der",
+      "plural": "Stifte",
+      "it": "penna",
+      "example": "Hast du einen Stift?",
+      "category": "scuola"
+    },
+    {
+      "de": "Lehrer",
+      "article": "der",
+      "plural": "Lehrer",
+      "it": "insegnante (m)",
+      "example": "Der Lehrer erklärt die Grammatik.",
+      "category": "scuola"
+    },
+    {
+      "de": "Lehrerin",
+      "article": "die",
+      "plural": "Lehrerinnen",
+      "it": "insegnante (f)",
+      "example": "Die Lehrerin ist sehr nett.",
+      "category": "scuola"
+    },
+    {
+      "de": "Heft",
+      "article": "das",
+      "plural": "Hefte",
+      "it": "quaderno",
+      "example": "Schreib das in dein Heft!",
+      "category": "scuola"
+    },
+    {
+      "de": "Stadt",
+      "article": "die",
+      "plural": "Städte",
+      "it": "città",
+      "example": "Die Stadt ist sehr schön.",
+      "category": "città"
+    },
+    {
+      "de": "Straße",
+      "article": "die",
+      "plural": "Straßen",
+      "it": "strada",
+      "example": "Die Straße ist lang.",
+      "category": "città"
+    },
+    {
+      "de": "Supermarkt",
+      "article": "der",
+      "plural": "Supermärkte",
+      "it": "supermercato",
+      "example": "Ich gehe in den Supermarkt.",
+      "category": "città"
+    },
+    {
+      "de": "Bahnhof",
+      "article": "der",
+      "plural": "Bahnhöfe",
+      "it": "stazione",
+      "example": "Der Bahnhof ist in der Nähe.",
+      "category": "città"
+    },
+    {
+      "de": "Krankenhaus",
+      "article": "das",
+      "plural": "Krankenhäuser",
+      "it": "ospedale",
+      "example": "Das Krankenhaus ist groß.",
+      "category": "città"
+    },
+    {
+      "de": "Restaurant",
+      "article": "das",
+      "plural": "Restaurants",
+      "it": "ristorante",
+      "example": "Wir essen im Restaurant.",
+      "category": "città"
+    },
+    {
+      "de": "Auto",
+      "article": "das",
+      "plural": "Autos",
+      "it": "macchina",
+      "example": "Das Auto ist neu.",
+      "category": "trasporti"
+    },
+    {
+      "de": "Bus",
+      "article": "der",
+      "plural": "Busse",
+      "it": "autobus",
+      "example": "Ich fahre mit dem Bus.",
+      "category": "trasporti"
+    },
+    {
+      "de": "Zug",
+      "article": "der",
+      "plural": "Züge",
+      "it": "treno",
+      "example": "Der Zug kommt um acht Uhr.",
+      "category": "trasporti"
+    },
+    {
+      "de": "Fahrrad",
+      "article": "das",
+      "plural": "Fahrräder",
+      "it": "bicicletta",
+      "example": "Ich fahre mit dem Fahrrad.",
+      "category": "trasporti"
+    },
+    {
+      "de": "Flugzeug",
+      "article": "das",
+      "plural": "Flugzeuge",
+      "it": "aereo",
+      "example": "Das Flugzeug fliegt nach Rom.",
+      "category": "trasporti"
+    },
+    {
+      "de": "Frühstück",
+      "article": "das",
+      "plural": "–",
+      "it": "colazione",
+      "example": "Was möchtest du zum Frühstück?",
+      "category": "routine"
+    },
+    {
+      "de": "Mittagessen",
+      "article": "das",
+      "plural": "–",
+      "it": "pranzo",
+      "example": "Das Mittagessen ist um zwölf Uhr.",
+      "category": "routine"
+    },
+    {
+      "de": "Abendessen",
+      "article": "das",
+      "plural": "–",
+      "it": "cena",
+      "example": "Was gibt es zum Abendessen?",
+      "category": "routine"
+    },
+    {
+      "de": "Arbeit",
+      "article": "die",
+      "plural": "Arbeiten",
+      "it": "lavoro",
+      "example": "Ich gehe zur Arbeit.",
+      "category": "routine"
+    },
+    {
+      "de": "Arzt",
+      "article": "der",
+      "plural": "Ärzte",
+      "it": "medico",
+      "example": "Ich gehe zum Arzt.",
+      "category": "professioni"
+    },
+    {
+      "de": "Ärztin",
+      "article": "die",
+      "plural": "Ärztinnen",
+      "it": "medico (f)",
+      "example": "Die Ärztin ist sehr freundlich.",
+      "category": "professioni"
+    },
+    {
+      "de": "Student",
+      "article": "der",
+      "plural": "Studenten",
+      "it": "studente",
+      "example": "Der Student lernt Deutsch.",
+      "category": "professioni"
+    },
+    {
+      "de": "Studentin",
+      "article": "die",
+      "plural": "Studentinnen",
+      "it": "studentessa",
+      "example": "Die Studentin kommt aus Italien.",
+      "category": "professioni"
+    },
+    {
+      "de": "Kellner",
+      "article": "der",
+      "plural": "Kellner",
+      "it": "cameriere",
+      "example": "Der Kellner bringt das Essen.",
+      "category": "professioni"
+    },
+    {
+      "de": "Polizist",
+      "article": "der",
+      "plural": "Polizisten",
+      "it": "poliziotto",
+      "example": "Der Polizist steht auf der Straße.",
+      "category": "professioni"
+    },
+    {
+      "de": "Hemd",
+      "article": "das",
+      "plural": "Hemden",
+      "it": "camicia",
+      "example": "Das Hemd ist weiß.",
+      "category": "vestiti"
+    },
+    {
+      "de": "Hose",
+      "article": "die",
+      "plural": "Hosen",
+      "it": "pantaloni",
+      "example": "Die Hose ist blau.",
+      "category": "vestiti"
+    },
+    {
+      "de": "Schuh",
+      "article": "der",
+      "plural": "Schuhe",
+      "it": "scarpa",
+      "example": "Die Schuhe sind neu.",
+      "category": "vestiti"
+    },
+    {
+      "de": "Jacke",
+      "article": "die",
+      "plural": "Jacken",
+      "it": "giacca",
+      "example": "Zieh die Jacke an, es ist kalt!",
+      "category": "vestiti"
+    },
+    {
+      "de": "Kleid",
+      "article": "das",
+      "plural": "Kleider",
+      "it": "vestito",
+      "example": "Das Kleid ist sehr schön.",
+      "category": "vestiti"
+    },
+    {
+      "de": "Uhr",
+      "article": "die",
+      "plural": "Uhren",
+      "it": "orologio / ora",
+      "example": "Es ist drei Uhr.",
+      "category": "tempo"
+    },
+    {
+      "de": "Tag",
+      "article": "der",
+      "plural": "Tage",
+      "it": "giorno",
+      "example": "Heute ist ein schöner Tag.",
+      "category": "tempo"
+    },
+    {
+      "de": "Woche",
+      "article": "die",
+      "plural": "Wochen",
+      "it": "settimana",
+      "example": "Die Woche hat sieben Tage.",
+      "category": "tempo"
+    },
+    {
+      "de": "Monat",
+      "article": "der",
+      "plural": "Monate",
+      "it": "mese",
+      "example": "Ein Jahr hat zwölf Monate.",
+      "category": "tempo"
+    },
+    {
+      "de": "Jahr",
+      "article": "das",
+      "plural": "Jahre",
+      "it": "anno",
+      "example": "Ich bin zwanzig Jahre alt.",
+      "category": "tempo"
+    },
+    {
+      "de": "Morgen",
+      "article": "der",
+      "plural": "–",
+      "it": "mattina",
+      "example": "Am Morgen trinke ich Kaffee.",
+      "category": "tempo"
+    },
+    {
+      "de": "Abend",
+      "article": "der",
+      "plural": "Abende",
+      "it": "sera",
+      "example": "Am Abend sehe ich fern.",
+      "category": "tempo"
+    },
+    {
+      "de": "Nacht",
+      "article": "die",
+      "plural": "Nächte",
+      "it": "notte",
+      "example": "Gute Nacht!",
+      "category": "tempo"
+    }
+  ]
+}

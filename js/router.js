@@ -63,6 +63,7 @@ export function handleRoute() {
         const isActive =
             (route === 'home' && (path === '/' || path === '')) ||
             (route === 'levels' && path.startsWith('/level')) ||
+            (route === 'flashcards' && path.startsWith('/flashcards')) ||
             (route === 'progress' && path === '/progress') ||
             (route === 'settings' && path === '/settings');
         item.classList.toggle('active', isActive);

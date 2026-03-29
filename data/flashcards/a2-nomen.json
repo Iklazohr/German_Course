@@ -1,0 +1,538 @@
+{
+  "id": "a2-nomen",
+  "level": "a2",
+  "type": "nomen",
+  "title": "Sostantivi A2",
+  "subtitle": "Die Nomen – Aufbauwortschatz",
+  "description": "I sostantivi del livello A2 con articolo, plurale e traduzione.",
+  "cards": [
+    {
+      "de": "Flughafen",
+      "article": "der",
+      "plural": "Flughäfen",
+      "it": "aeroporto",
+      "example": "Der Flughafen ist weit weg.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Reise",
+      "article": "die",
+      "plural": "Reisen",
+      "it": "viaggio",
+      "example": "Die Reise nach Italien war wunderbar.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Gepäck",
+      "article": "das",
+      "plural": "–",
+      "it": "bagaglio",
+      "example": "Mein Gepäck ist sehr schwer.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Fahrkarte",
+      "article": "die",
+      "plural": "Fahrkarten",
+      "it": "biglietto (di viaggio)",
+      "example": "Ich habe die Fahrkarte online gekauft.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Unterkunft",
+      "article": "die",
+      "plural": "Unterkünfte",
+      "it": "alloggio",
+      "example": "Die Unterkunft liegt im Zentrum.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Ausflug",
+      "article": "der",
+      "plural": "Ausflüge",
+      "it": "gita, escursione",
+      "example": "Wir machen morgen einen Ausflug.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Koffer",
+      "article": "der",
+      "plural": "Koffer",
+      "it": "valigia",
+      "example": "Der Koffer steht im Flur.",
+      "category": "viaggio"
+    },
+    {
+      "de": "Arzt",
+      "article": "der",
+      "plural": "Ärzte",
+      "it": "medico",
+      "example": "Der Arzt hat mich untersucht.",
+      "category": "salute"
+    },
+    {
+      "de": "Krankheit",
+      "article": "die",
+      "plural": "Krankheiten",
+      "it": "malattia",
+      "example": "Diese Krankheit ist nicht gefährlich.",
+      "category": "salute"
+    },
+    {
+      "de": "Medikament",
+      "article": "das",
+      "plural": "Medikamente",
+      "it": "medicinale, farmaco",
+      "example": "Das Medikament hilft gegen Kopfschmerzen.",
+      "category": "salute"
+    },
+    {
+      "de": "Schmerz",
+      "article": "der",
+      "plural": "Schmerzen",
+      "it": "dolore",
+      "example": "Ich habe starke Schmerzen im Rücken.",
+      "category": "salute"
+    },
+    {
+      "de": "Apotheke",
+      "article": "die",
+      "plural": "Apotheken",
+      "it": "farmacia",
+      "example": "Die Apotheke ist um die Ecke.",
+      "category": "salute"
+    },
+    {
+      "de": "Krankenhaus",
+      "article": "das",
+      "plural": "Krankenhäuser",
+      "it": "ospedale",
+      "example": "Er liegt im Krankenhaus.",
+      "category": "salute"
+    },
+    {
+      "de": "Fieber",
+      "article": "das",
+      "plural": "–",
+      "it": "febbre",
+      "example": "Das Kind hat hohes Fieber.",
+      "category": "salute"
+    },
+    {
+      "de": "Rezept",
+      "article": "das",
+      "plural": "Rezepte",
+      "it": "ricetta (medica)",
+      "example": "Der Arzt hat mir ein Rezept gegeben.",
+      "category": "salute"
+    },
+    {
+      "de": "Angebot",
+      "article": "das",
+      "plural": "Angebote",
+      "it": "offerta",
+      "example": "Das Angebot im Supermarkt ist gut.",
+      "category": "acquisti"
+    },
+    {
+      "de": "Kasse",
+      "article": "die",
+      "plural": "Kassen",
+      "it": "cassa",
+      "example": "Bitte zahlen Sie an der Kasse.",
+      "category": "acquisti"
+    },
+    {
+      "de": "Größe",
+      "article": "die",
+      "plural": "Größen",
+      "it": "taglia, misura",
+      "example": "Welche Größe tragen Sie?",
+      "category": "acquisti"
+    },
+    {
+      "de": "Preis",
+      "article": "der",
+      "plural": "Preise",
+      "it": "prezzo",
+      "example": "Der Preis ist zu hoch.",
+      "category": "acquisti"
+    },
+    {
+      "de": "Einkauf",
+      "article": "der",
+      "plural": "Einkäufe",
+      "it": "acquisto, spesa",
+      "example": "Ich mache den Einkauf am Samstag.",
+      "category": "acquisti"
+    },
+    {
+      "de": "Quittung",
+      "article": "die",
+      "plural": "Quittungen",
+      "it": "ricevuta, scontrino",
+      "example": "Kann ich bitte die Quittung haben?",
+      "category": "acquisti"
+    },
+    {
+      "de": "Umtausch",
+      "article": "der",
+      "plural": "–",
+      "it": "cambio (di merce)",
+      "example": "Ein Umtausch ist innerhalb von 14 Tagen möglich.",
+      "category": "acquisti"
+    },
+    {
+      "de": "Gewitter",
+      "article": "das",
+      "plural": "Gewitter",
+      "it": "temporale",
+      "example": "Heute Nachmittag gibt es ein Gewitter.",
+      "category": "natura"
+    },
+    {
+      "de": "Wolke",
+      "article": "die",
+      "plural": "Wolken",
+      "it": "nuvola",
+      "example": "Dunkle Wolken ziehen auf.",
+      "category": "natura"
+    },
+    {
+      "de": "Grad",
+      "article": "der",
+      "plural": "Grade",
+      "it": "grado",
+      "example": "Es sind heute 25 Grad.",
+      "category": "natura"
+    },
+    {
+      "de": "Wald",
+      "article": "der",
+      "plural": "Wälder",
+      "it": "bosco, foresta",
+      "example": "Wir wandern gern im Wald.",
+      "category": "natura"
+    },
+    {
+      "de": "See",
+      "article": "der",
+      "plural": "Seen",
+      "it": "lago",
+      "example": "Der See ist im Sommer sehr warm.",
+      "category": "natura"
+    },
+    {
+      "de": "Meer",
+      "article": "das",
+      "plural": "Meere",
+      "it": "mare",
+      "example": "Im Urlaub fahren wir ans Meer.",
+      "category": "natura"
+    },
+    {
+      "de": "Sturm",
+      "article": "der",
+      "plural": "Stürme",
+      "it": "tempesta",
+      "example": "Der Sturm hat viele Bäume umgeworfen.",
+      "category": "natura"
+    },
+    {
+      "de": "Verein",
+      "article": "der",
+      "plural": "Vereine",
+      "it": "associazione, club",
+      "example": "Er spielt Fußball im Verein.",
+      "category": "hobby"
+    },
+    {
+      "de": "Mannschaft",
+      "article": "die",
+      "plural": "Mannschaften",
+      "it": "squadra",
+      "example": "Unsere Mannschaft hat gewonnen.",
+      "category": "hobby"
+    },
+    {
+      "de": "Ausstellung",
+      "article": "die",
+      "plural": "Ausstellungen",
+      "it": "mostra, esposizione",
+      "example": "Die Ausstellung im Museum ist sehr interessant.",
+      "category": "hobby"
+    },
+    {
+      "de": "Konzert",
+      "article": "das",
+      "plural": "Konzerte",
+      "it": "concerto",
+      "example": "Wir gehen heute Abend ins Konzert.",
+      "category": "hobby"
+    },
+    {
+      "de": "Instrument",
+      "article": "das",
+      "plural": "Instrumente",
+      "it": "strumento (musicale)",
+      "example": "Spielst du ein Instrument?",
+      "category": "hobby"
+    },
+    {
+      "de": "Spaziergang",
+      "article": "der",
+      "plural": "Spaziergänge",
+      "it": "passeggiata",
+      "example": "Wir machen einen Spaziergang im Park.",
+      "category": "hobby"
+    },
+    {
+      "de": "Zeitschrift",
+      "article": "die",
+      "plural": "Zeitschriften",
+      "it": "rivista",
+      "example": "Ich lese gern diese Zeitschrift.",
+      "category": "hobby"
+    },
+    {
+      "de": "Kollege",
+      "article": "der",
+      "plural": "Kollegen",
+      "it": "collega (m.)",
+      "example": "Mein Kollege arbeitet im selben Büro.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Besprechung",
+      "article": "die",
+      "plural": "Besprechungen",
+      "it": "riunione",
+      "example": "Die Besprechung beginnt um zehn Uhr.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Gehalt",
+      "article": "das",
+      "plural": "Gehälter",
+      "it": "stipendio",
+      "example": "Das Gehalt wird am Ende des Monats gezahlt.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Termin",
+      "article": "der",
+      "plural": "Termine",
+      "it": "appuntamento",
+      "example": "Ich habe morgen einen Termin beim Arzt.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Bewerbung",
+      "article": "die",
+      "plural": "Bewerbungen",
+      "it": "candidatura, domanda di lavoro",
+      "example": "Ich habe meine Bewerbung abgeschickt.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Vertrag",
+      "article": "der",
+      "plural": "Verträge",
+      "it": "contratto",
+      "example": "Der Vertrag läuft zwei Jahre.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Drucker",
+      "article": "der",
+      "plural": "Drucker",
+      "it": "stampante",
+      "example": "Der Drucker funktioniert nicht.",
+      "category": "lavoro"
+    },
+    {
+      "de": "Nachricht",
+      "article": "die",
+      "plural": "Nachrichten",
+      "it": "notizia, messaggio",
+      "example": "Hast du die Nachricht gelesen?",
+      "category": "media"
+    },
+    {
+      "de": "Sendung",
+      "article": "die",
+      "plural": "Sendungen",
+      "it": "programma (TV/radio)",
+      "example": "Diese Sendung kommt jeden Dienstag.",
+      "category": "media"
+    },
+    {
+      "de": "Bildschirm",
+      "article": "der",
+      "plural": "Bildschirme",
+      "it": "schermo",
+      "example": "Der Bildschirm ist zu klein.",
+      "category": "media"
+    },
+    {
+      "de": "Werbung",
+      "article": "die",
+      "plural": "Werbungen",
+      "it": "pubblicità",
+      "example": "Im Fernsehen gibt es zu viel Werbung.",
+      "category": "media"
+    },
+    {
+      "de": "Zeitungsartikel",
+      "article": "der",
+      "plural": "Zeitungsartikel",
+      "it": "articolo di giornale",
+      "example": "Ich habe einen interessanten Zeitungsartikel gelesen.",
+      "category": "media"
+    },
+    {
+      "de": "Internet",
+      "article": "das",
+      "plural": "–",
+      "it": "internet",
+      "example": "Das Internet ist heute sehr langsam.",
+      "category": "media"
+    },
+    {
+      "de": "Angst",
+      "article": "die",
+      "plural": "Ängste",
+      "it": "paura, ansia",
+      "example": "Sie hat Angst vor Spinnen.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Freude",
+      "article": "die",
+      "plural": "Freuden",
+      "it": "gioia",
+      "example": "Die Kinder schreien vor Freude.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Überraschung",
+      "article": "die",
+      "plural": "Überraschungen",
+      "it": "sorpresa",
+      "example": "Das Geschenk war eine große Überraschung.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Sorge",
+      "article": "die",
+      "plural": "Sorgen",
+      "it": "preoccupazione",
+      "example": "Mach dir keine Sorgen!",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Ärger",
+      "article": "der",
+      "plural": "–",
+      "it": "rabbia, irritazione",
+      "example": "Er hat viel Ärger auf der Arbeit.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Glück",
+      "article": "das",
+      "plural": "–",
+      "it": "fortuna, felicità",
+      "example": "Viel Glück bei der Prüfung!",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Langeweile",
+      "article": "die",
+      "plural": "–",
+      "it": "noia",
+      "example": "Die Langeweile im Wartezimmer war groß.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Sehnsucht",
+      "article": "die",
+      "plural": "Sehnsüchte",
+      "it": "nostalgia, desiderio",
+      "example": "Er hat Sehnsucht nach seiner Heimat.",
+      "category": "sentimenti"
+    },
+    {
+      "de": "Möbel",
+      "article": "die (Pl.)",
+      "plural": "Möbel",
+      "it": "mobili",
+      "example": "Die Möbel in der Wohnung sind neu.",
+      "category": "casa"
+    },
+    {
+      "de": "Regal",
+      "article": "das",
+      "plural": "Regale",
+      "it": "scaffale",
+      "example": "Die Bücher stehen im Regal.",
+      "category": "casa"
+    },
+    {
+      "de": "Teppich",
+      "article": "der",
+      "plural": "Teppiche",
+      "it": "tappeto",
+      "example": "Der Teppich liegt im Wohnzimmer.",
+      "category": "casa"
+    },
+    {
+      "de": "Vorhang",
+      "article": "der",
+      "plural": "Vorhänge",
+      "it": "tenda (da finestra)",
+      "example": "Die Vorhänge sind blau.",
+      "category": "casa"
+    },
+    {
+      "de": "Waschmaschine",
+      "article": "die",
+      "plural": "Waschmaschinen",
+      "it": "lavatrice",
+      "example": "Die Waschmaschine steht im Bad.",
+      "category": "casa"
+    },
+    {
+      "de": "Heizung",
+      "article": "die",
+      "plural": "Heizungen",
+      "it": "riscaldamento",
+      "example": "Die Heizung funktioniert nicht richtig.",
+      "category": "casa"
+    },
+    {
+      "de": "Steckdose",
+      "article": "die",
+      "plural": "Steckdosen",
+      "it": "presa elettrica",
+      "example": "Die Steckdose ist hinter dem Sofa.",
+      "category": "casa"
+    },
+    {
+      "de": "Schlüssel",
+      "article": "der",
+      "plural": "Schlüssel",
+      "it": "chiave",
+      "example": "Ich habe meinen Schlüssel vergessen.",
+      "category": "casa"
+    },
+    {
+      "de": "Spiegel",
+      "article": "der",
+      "plural": "Spiegel",
+      "it": "specchio",
+      "example": "Der Spiegel hängt an der Wand.",
+      "category": "casa"
+    }
+  ]
+}
