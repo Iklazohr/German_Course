@@ -1,0 +1,40 @@
+{
+  "id": "a1-g15",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Preposizioni di luogo",
+  "subtitle": "Lokale Präpositionen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le preposizioni di luogo in tedesco sono fondamentali per descrivere dove si trovano le cose e dove ci si muove. Il gruppo più importante è quello delle 'Wechselpräpositionen' (preposizioni a doppio regime), che possono reggere sia il dativo (stato in luogo) sia l'accusativo (moto a luogo)."
+    },
+    {
+      "type": "rule",
+      "title": "Le 9 Wechselpräpositionen (preposizioni a doppio regime)",
+      "content": "in = in, dentro\nan = a, presso, accanto a (superficie verticale)\nauf = su, sopra (superficie orizzontale)\nneben = accanto a, vicino a\nzwischen = tra, fra\nvor = davanti a\nhinter = dietro a\nüber = sopra (senza contatto)\nunter = sotto\n\nQueste 9 preposizioni cambiano il caso a seconda del significato:\n- DATIVO → stato in luogo (dove? = wo?)\n- ACCUSATIVO → moto a luogo (verso dove? = wohin?)"
+    },
+    {
+      "type": "rule",
+      "title": "Dativo (stato) vs. Accusativo (direzione)",
+      "content": "STATO IN LUOGO (wo? → DATIVO):\nIch bin in DEM Park. = Sono nel parco.\nDas Bild hängt an DER Wand. = Il quadro è appeso alla parete.\nDas Buch liegt auf DEM Tisch. = Il libro è sul tavolo.\n\nMOTO A LUOGO (wohin? → ACCUSATIVO):\nIch gehe in DEN Park. = Vado al parco.\nIch hänge das Bild an DIE Wand. = Appendo il quadro alla parete.\nIch lege das Buch auf DEN Tisch. = Metto il libro sul tavolo.\n\nContrazioni comuni:\nin + dem = im (Ich bin im Park.)\nin + das = ins (Ich gehe ins Kino.)\nan + dem = am (Ich bin am Bahnhof.)\nan + das = ans (Ich gehe ans Fenster.)"
+    },
+    {
+      "type": "tip",
+      "content": "Per ricordare la regola: chiediti 'wo?' (dove? = stai fermo → dativo) o 'wohin?' (verso dove? = ti muovi → accusativo). Un trucco: i verbi di posizione statica (sein, stehen, liegen, sitzen, hängen) vogliono il DATIVO; i verbi di movimento (gehen, fahren, legen, stellen, setzen) vogliono l'ACCUSATIVO."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Die Katze sitzt auf dem Stuhl.", "it": "Il gatto è seduto sulla sedia." },
+        { "de": "Ich stelle die Vase auf den Tisch.", "it": "Metto il vaso sul tavolo." },
+        { "de": "Das Restaurant ist neben der Bank.", "it": "Il ristorante è accanto alla banca." },
+        { "de": "Er geht in die Schule.", "it": "Lui va a scuola." },
+        { "de": "Die Kinder spielen vor dem Haus.", "it": "I bambini giocano davanti alla casa." },
+        { "de": "Ich fahre hinter das Haus.", "it": "Vado dietro la casa (in macchina)." },
+        { "de": "Die Lampe hängt über dem Tisch.", "it": "La lampada è appesa sopra il tavolo." },
+        { "de": "Die Schuhe stehen unter dem Bett.", "it": "Le scarpe sono sotto il letto." }
+      ]
+    }
+  ]
+}

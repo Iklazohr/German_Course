@@ -1,0 +1,40 @@
+{
+  "id": "a1-g16",
+  "level": "a1",
+  "type": "grammar",
+  "title": "\"Es gibt\" e \"man\"",
+  "subtitle": "\"Es gibt\" und \"man\"",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "In tedesco, per dire 'c'è' o 'ci sono' si usa l'espressione 'es gibt'. A differenza dell'italiano, non cambia tra singolare e plurale! In questa lezione impariamo anche 'man', il pronome impersonale tedesco che corrisponde al 'si' italiano (si dice, si fa, ecc.)."
+    },
+    {
+      "type": "rule",
+      "title": "Es gibt + accusativo = c'è / ci sono",
+      "content": "'Es gibt' è INVARIABILE, sia al singolare che al plurale, e regge sempre l'ACCUSATIVO:\n\nEs gibt einen Park hier. = C'è un parco qui.\nEs gibt eine Apotheke in der Nähe. = C'è una farmacia nelle vicinanze.\nEs gibt ein Problem. = C'è un problema.\nEs gibt viele Restaurants. = Ci sono molti ristoranti.\n\nNella domanda:\nGibt es hier ein Hotel? = C'è un hotel qui?\nGibt es noch Plätze? = Ci sono ancora posti?\n\nNella negazione:\nEs gibt kein Kino hier. = Non c'è un cinema qui.\nEs gibt keine Busse am Sonntag. = Non ci sono autobus la domenica."
+    },
+    {
+      "type": "rule",
+      "title": "Man = si impersonale",
+      "content": "'Man' è il pronome impersonale tedesco. Corrisponde al 'si' impersonale italiano. Si coniuga SEMPRE alla terza persona singolare:\n\nMan spricht hier Deutsch. = Qui si parla tedesco.\nMan kann hier gut essen. = Qui si può mangiare bene.\nMan muss eine Fahrkarte kaufen. = Si deve comprare un biglietto.\nMan darf hier nicht rauchen. = Non si può fumare qui.\n\nAttenzione: 'man' (impersonale) ≠ 'Mann' (uomo)!\n\nAll'accusativo 'man' diventa 'einen':\nDas macht einen müde. = Questo rende stanchi. (lett: Questo rende uno stanco.)\n\nAl dativo 'man' diventa 'einem':\nDas gefällt einem nicht. = Questo non piace. (impersonale)"
+    },
+    {
+      "type": "tip",
+      "content": "Ricorda: 'es gibt' non cambia MAI, anche con il plurale. In italiano dici 'c'è/ci sono', ma in tedesco è sempre 'es gibt'. Per 'man': pensa al 'si' italiano impersonale, ma ricorda che in tedesco il verbo è sempre al singolare, anche quando in italiano useresti il plurale ('si mangiano i dolci' = 'man isst Süßigkeiten')."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Es gibt einen Supermarkt in der Nähe.", "it": "C'è un supermercato nelle vicinanze." },
+        { "de": "Gibt es hier ein Café?", "it": "C'è un bar qui?" },
+        { "de": "Es gibt keine Milch mehr.", "it": "Non c'è più latte." },
+        { "de": "In Berlin gibt es viele Museen.", "it": "A Berlino ci sono molti musei." },
+        { "de": "Man sagt, dass Berlin schön ist.", "it": "Si dice che Berlino sia bella." },
+        { "de": "Hier darf man nicht parken.", "it": "Qui non si può parcheggiare." },
+        { "de": "Wie sagt man das auf Deutsch?", "it": "Come si dice questo in tedesco?" },
+        { "de": "Man muss viel lernen.", "it": "Si deve studiare molto." }
+      ]
+    }
+  ]
+}

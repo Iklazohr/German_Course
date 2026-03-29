@@ -1,0 +1,136 @@
+{
+  "id": "a2-e06",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: Futuro e pronomi relativi",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta di 'werden'.",
+      "question": "Ich ___ morgen nach Berlin fahren.",
+      "answer": "werde",
+      "full_answer": "Ich werde morgen nach Berlin fahren.",
+      "hint": "ich → werde"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta di 'werden'.",
+      "question": "Du ___ das sicher schaffen!",
+      "answer": "wirst",
+      "full_answer": "Du wirst das sicher schaffen!",
+      "hint": "du → wirst"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta di 'werden'.",
+      "question": "Wir ___ nächstes Jahr ein Haus kaufen.",
+      "answer": "werden",
+      "full_answer": "Wir werden nächstes Jahr ein Haus kaufen.",
+      "hint": "wir → werden"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci il pronome relativo corretto.",
+      "question": "Der Mann, ___ dort steht, ist mein Lehrer.",
+      "answer": "der",
+      "full_answer": "Der Mann, der dort steht, ist mein Lehrer.",
+      "hint": "Mann = maschile, il pronome è soggetto (nominativo) → der"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci il pronome relativo corretto.",
+      "question": "Die Frau, ___ ich kenne, kommt aus Spanien.",
+      "answer": "die",
+      "full_answer": "Die Frau, die ich kenne, kommt aus Spanien.",
+      "hint": "Frau = femminile, il pronome è oggetto diretto (accusativo) → die"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci il pronome relativo corretto.",
+      "question": "Das Buch, ___ auf dem Tisch liegt, gehört mir.",
+      "answer": "das",
+      "full_answer": "Das Buch, das auf dem Tisch liegt, gehört mir.",
+      "hint": "Buch = neutro, il pronome è soggetto (nominativo) → das"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci il pronome relativo corretto.",
+      "question": "Der Film, ___ wir gesehen haben, war sehr gut.",
+      "answer": "den",
+      "full_answer": "Der Film, den wir gesehen haben, war sehr gut.",
+      "hint": "Film = maschile, il pronome è oggetto diretto (accusativo) → den"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la frase al Futur I corretta.",
+      "question": "Domani pioverà.",
+      "options": [
+        "Es wird morgen regnen.",
+        "Es werde morgen regnen.",
+        "Es morgen regnen wird.",
+        "Es regnen wird morgen."
+      ],
+      "answer": "Es wird morgen regnen.",
+      "hint": "werden coniugato in posizione 2, infinito alla fine"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli il pronome relativo corretto.",
+      "question": "Die Kinder, ___ im Garten spielen, sind meine Nachbarn.",
+      "options": ["der", "die", "das", "den"],
+      "answer": "die",
+      "hint": "Kinder = plurale, soggetto → die"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando il Futur I.",
+      "question": "L'anno prossimo viaggeremo in Germania.",
+      "answer": "Nächstes Jahr werden wir nach Deutschland reisen.",
+      "hint": "werden + infinito alla fine"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando un pronome relativo.",
+      "question": "L'uomo che conosco lavora qui.",
+      "answer": "Der Mann, den ich kenne, arbeitet hier.",
+      "hint": "Mann = maschile, oggetto diretto → den"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase al Futur I.",
+      "words": ["Sie", "wird", "nächste", "Woche", "nach", "Rom", "fliegen"],
+      "answer": "Sie wird nächste Woche nach Rom fliegen.",
+      "hint": "Soggetto + wird + complementi + infinito alla fine"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase con pronome relativo.",
+      "words": ["Das", "ist", "die", "Stadt", ",", "die", "wir", "besucht", "haben"],
+      "answer": "Das ist die Stadt, die wir besucht haben.",
+      "hint": "Frase principale + virgola + pronome relativo + ... + verbo alla fine"
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina la frase con la traduzione corretta.",
+      "pairs": [
+        { "left": "Er wird wohl krank sein.", "right": "Sarà probabilmente malato." },
+        { "left": "Wir werden dich besuchen.", "right": "Ti visiteremo." },
+        { "left": "Der Hund, der bellt, ist groß.", "right": "Il cane che abbaia è grande." },
+        { "left": "Das Haus, das ich kaufen will, ist teuer.", "right": "La casa che voglio comprare è cara." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale frase esprime una supposizione (Vermutung)?",
+      "question": "Scegli la frase che esprime una supposizione.",
+      "options": [
+        "Ich werde morgen kommen.",
+        "Er wird wohl zu Hause sein.",
+        "Wir werden ein Auto kaufen.",
+        "Du wirst mir helfen."
+      ],
+      "answer": "Er wird wohl zu Hause sein.",
+      "hint": "'wohl' indica che si tratta di una supposizione."
+    }
+  ]
+}

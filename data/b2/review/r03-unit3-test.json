@@ -1,0 +1,110 @@
+{
+  "id": "b2-r03",
+  "level": "b2",
+  "type": "exercise",
+  "title": "Test Unità 3: Funktionsverbgefüge, Nomen-Verb, Diritto e Scienza",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale FVG significa 'mettere a disposizione'?",
+      "options": ["zur Verfügung stellen", "in Betracht ziehen", "in Kauf nehmen", "zum Ausdruck bringen"],
+      "correct": 0,
+      "explanation": "'Zur Verfügung stellen' significa mettere a disposizione. Il verbo semplice equivalente è 'bereitstellen'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Eltern legen großen Wert ___ gute Bildung.",
+      "blanks": [
+        { "position": 0, "correct": ["auf"], "hint": "Wert legen ___ + Accusativo" }
+      ],
+      "translation": "I genitori danno grande importanza a una buona istruzione."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Der Angeklagte wurde vom Gericht ___.",
+      "blanks": [
+        { "position": 0, "correct": ["freigesprochen"], "hint": "Verbo: assolvere (Partizip II)" }
+      ],
+      "translation": "L'imputato è stato assolto dal tribunale."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa significa 'die Bewährung' nel contesto giuridico?",
+      "options": [
+        "La libertà vigilata / la condizionale",
+        "La prova",
+        "La dimostrazione",
+        "L'arresto"
+      ],
+      "correct": 0,
+      "explanation": "'Die Bewährung' in ambito giuridico significa la condizionale o libertà vigilata. 'Auf Bewährung verurteilt werden' = essere condannato con la condizionale."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni termine scientifico alla sua traduzione italiana.",
+      "pairs": [
+        { "left": "die Stichprobe", "right": "il campione (statistico)" },
+        { "left": "nachweisen", "right": "dimostrare / comprovare" },
+        { "left": "widerlegen", "right": "confutare / smentire" },
+        { "left": "die Fachzeitschrift", "right": "la rivista specializzata" },
+        { "left": "die Hypothese", "right": "l'ipotesi" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Polizei hat den Verdächtigen ___.",
+      "blanks": [
+        { "position": 0, "correct": ["verhaftet"], "hint": "Verbo: arrestare (Partizip II)" }
+      ],
+      "translation": "La polizia ha arrestato il sospettato."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Darf ich Ihnen eine Frage ___?'",
+      "options": ["stellen", "machen", "geben", "treffen"],
+      "correct": 0,
+      "explanation": "La combinazione corretta è 'eine Frage stellen' (fare una domanda). In tedesco si 'pone' una domanda, non si 'fa'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Forscher konnten den Zusammenhang zwischen Stress und Krankheit ___.",
+      "blanks": [
+        { "position": 0, "correct": ["nachweisen", "belegen"], "hint": "Verbo: dimostrare / comprovare" }
+      ],
+      "translation": "I ricercatori hanno potuto dimostrare la correlazione tra stress e malattia."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando un FVG.",
+      "sentence_it": "Il governo deve prendere in considerazione questa opzione.",
+      "correct": ["Die Regierung muss diese Option in Betracht ziehen."],
+      "explanation": "'Prendere in considerazione' = 'in Betracht ziehen'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale verbo si usa con 'eine Entscheidung'?",
+      "options": ["treffen", "machen", "stellen", "nehmen"],
+      "correct": 0,
+      "explanation": "La combinazione fissa è 'eine Entscheidung treffen' (prendere una decisione). Il verbo 'treffen' qui significa 'prendere' nel senso di scegliere."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Ergebnisse der ___ sind vielversprechend.",
+      "blanks": [
+        { "position": 0, "correct": ["Studie", "Forschung"], "hint": "Sostantivo: lo studio / la ricerca" }
+      ],
+      "translation": "I risultati dello studio/della ricerca sono promettenti."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni combinazione nome-verbo al suo significato.",
+      "pairs": [
+        { "left": "Rücksicht nehmen auf", "right": "avere riguardo per" },
+        { "left": "sich Sorgen machen um", "right": "preoccuparsi per" },
+        { "left": "Einfluss nehmen auf", "right": "esercitare influenza su" },
+        { "left": "Abschied nehmen von", "right": "congedarsi da" },
+        { "left": "Bezug nehmen auf", "right": "fare riferimento a" }
+      ]
+    }
+  ]
+}

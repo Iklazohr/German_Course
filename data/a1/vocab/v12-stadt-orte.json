@@ -1,0 +1,50 @@
+{
+  "id": "a1-v12",
+  "level": "a1",
+  "type": "vocab",
+  "title": "La città e i luoghi",
+  "subtitle": "Die Stadt und die Orte",
+  "groups": [
+    {
+      "name": "Luoghi",
+      "words": [
+        { "de": "der Bahnhof", "it": "la stazione", "emoji": "🚉", "example_de": "Der Bahnhof ist im Zentrum.", "example_it": "La stazione è in centro." },
+        { "de": "der Supermarkt", "it": "il supermercato", "emoji": "🛒", "example_de": "Ich kaufe im Supermarkt ein.", "example_it": "Faccio la spesa al supermercato." },
+        { "de": "das Krankenhaus", "it": "l'ospedale", "emoji": "🏥", "example_de": "Das Krankenhaus ist nicht weit.", "example_it": "L'ospedale non è lontano." },
+        { "de": "die Schule", "it": "la scuola", "emoji": "🏫", "example_de": "Die Kinder gehen in die Schule.", "example_it": "I bambini vanno a scuola." },
+        { "de": "die Kirche", "it": "la chiesa", "emoji": "⛪", "example_de": "Die Kirche ist sehr alt.", "example_it": "La chiesa è molto antica." },
+        { "de": "die Bank", "it": "la banca", "emoji": "🏦", "example_de": "Ich gehe zur Bank.", "example_it": "Vado in banca." },
+        { "de": "die Post", "it": "l'ufficio postale", "emoji": "📮", "example_de": "Ich bringe den Brief zur Post.", "example_it": "Porto la lettera alla posta." },
+        { "de": "das Rathaus", "it": "il municipio", "emoji": "🏛️", "example_de": "Das Rathaus ist am Marktplatz.", "example_it": "Il municipio è nella piazza del mercato." },
+        { "de": "die Apotheke", "it": "la farmacia", "emoji": "💊", "example_de": "Die Apotheke ist neben der Post.", "example_it": "La farmacia è accanto alla posta." },
+        { "de": "die Bibliothek", "it": "la biblioteca", "emoji": "📚", "example_de": "Ich lese in der Bibliothek.", "example_it": "Leggo in biblioteca." }
+      ]
+    },
+    {
+      "name": "Indicazioni",
+      "words": [
+        { "de": "links", "it": "a sinistra", "emoji": "⬅️", "example_de": "Gehen Sie links!", "example_it": "Vada a sinistra!" },
+        { "de": "rechts", "it": "a destra", "emoji": "➡️", "example_de": "Die Bank ist rechts.", "example_it": "La banca è a destra." },
+        { "de": "geradeaus", "it": "dritto", "emoji": "⬆️", "example_de": "Gehen Sie geradeaus!", "example_it": "Vada dritto!" },
+        { "de": "nah / in der Nähe", "it": "vicino / nelle vicinanze", "emoji": "📍", "example_de": "Der Supermarkt ist in der Nähe.", "example_it": "Il supermercato è nelle vicinanze." },
+        { "de": "weit", "it": "lontano", "emoji": "🏔️", "example_de": "Der Flughafen ist weit.", "example_it": "L'aeroporto è lontano." },
+        { "de": "hier", "it": "qui", "emoji": "👇", "example_de": "Hier ist die Haltestelle.", "example_it": "Qui c'è la fermata." },
+        { "de": "dort", "it": "là", "emoji": "👉", "example_de": "Das Museum ist dort.", "example_it": "Il museo è là." },
+        { "de": "die Kreuzung", "it": "l'incrocio", "emoji": "🔀", "example_de": "An der Kreuzung gehen Sie links.", "example_it": "All'incrocio vada a sinistra." }
+      ]
+    },
+    {
+      "name": "Azioni",
+      "words": [
+        { "de": "gehen", "it": "andare (a piedi)", "emoji": "🚶", "example_de": "Ich gehe zum Bahnhof.", "example_it": "Vado alla stazione (a piedi)." },
+        { "de": "fahren", "it": "andare (con un mezzo)", "emoji": "🚗", "example_de": "Ich fahre mit dem Bus.", "example_it": "Vado in autobus." },
+        { "de": "suchen", "it": "cercare", "emoji": "🔍", "example_de": "Ich suche die Post.", "example_it": "Cerco l'ufficio postale." },
+        { "de": "finden", "it": "trovare", "emoji": "✅", "example_de": "Ich kann den Bahnhof nicht finden.", "example_it": "Non riesco a trovare la stazione." },
+        { "de": "abbiegen", "it": "svoltare", "emoji": "↩️", "example_de": "Biegen Sie rechts ab!", "example_it": "Svolti a destra!" },
+        { "de": "überqueren", "it": "attraversare", "emoji": "🚸", "example_de": "Überqueren Sie die Straße!", "example_it": "Attraversi la strada!" },
+        { "de": "zeigen", "it": "mostrare / indicare", "emoji": "👆", "example_de": "Können Sie mir den Weg zeigen?", "example_it": "Può indicarmi la strada?" },
+        { "de": "ankommen", "it": "arrivare", "emoji": "🏁", "example_de": "Wann kommen wir an?", "example_it": "Quando arriviamo?" }
+      ]
+    }
+  ]
+}

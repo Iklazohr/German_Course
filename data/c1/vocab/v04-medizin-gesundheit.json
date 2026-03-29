@@ -1,0 +1,192 @@
+{
+  "id": "c1-v04",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Medicina e salute",
+  "subtitle": "Medizin und Gesundheit",
+  "groups": [
+    {
+      "name": "Medicina",
+      "words": [
+        {
+          "de": "die Diagnose",
+          "it": "la diagnosi",
+          "emoji": "🩺",
+          "example_de": "Die Diagnose wurde nach einer gründlichen Untersuchung gestellt.",
+          "example_it": "La diagnosi è stata formulata dopo un esame approfondito."
+        },
+        {
+          "de": "das Symptom",
+          "it": "il sintomo",
+          "emoji": "🤒",
+          "example_de": "Zu den häufigsten Symptomen gehören Fieber und Kopfschmerzen.",
+          "example_it": "Tra i sintomi più frequenti vi sono febbre e mal di testa."
+        },
+        {
+          "de": "die Behandlung",
+          "it": "il trattamento / la cura",
+          "emoji": "💊",
+          "example_de": "Die Behandlung erstreckt sich über einen Zeitraum von sechs Wochen.",
+          "example_it": "Il trattamento si estende per un periodo di sei settimane."
+        },
+        {
+          "de": "die Operation",
+          "it": "l'operazione / l'intervento chirurgico",
+          "emoji": "🏥",
+          "example_de": "Die Operation verlief ohne Komplikationen.",
+          "example_it": "L'operazione si è svolta senza complicazioni."
+        },
+        {
+          "de": "die Chirurgie",
+          "it": "la chirurgia",
+          "emoji": "🔪",
+          "example_de": "Die minimalinvasive Chirurgie hat die Erholungszeiten deutlich verkürzt.",
+          "example_it": "La chirurgia mininvasiva ha ridotto notevolmente i tempi di recupero."
+        },
+        {
+          "de": "die Anästhesie",
+          "it": "l'anestesia",
+          "emoji": "😴",
+          "example_de": "Der Patient erhielt vor dem Eingriff eine Vollnarkose.",
+          "example_it": "Il paziente ha ricevuto un'anestesia totale prima dell'intervento."
+        },
+        {
+          "de": "die Blutprobe",
+          "it": "il prelievo di sangue / l'analisi del sangue",
+          "emoji": "🩸",
+          "example_de": "Die Blutprobe ergab erhöhte Entzündungswerte.",
+          "example_it": "L'analisi del sangue ha rivelato valori infiammatori elevati."
+        },
+        {
+          "de": "die Überweisung",
+          "it": "l'impegnativa / il rinvio (a uno specialista)",
+          "emoji": "📋",
+          "example_de": "Der Hausarzt stellte eine Überweisung zum Kardiologen aus.",
+          "example_it": "Il medico di base ha emesso un'impegnativa per il cardiologo."
+        }
+      ]
+    },
+    {
+      "name": "Specialità mediche",
+      "words": [
+        {
+          "de": "die Kardiologie",
+          "it": "la cardiologia",
+          "emoji": "❤️",
+          "example_de": "In der Kardiologie werden Herz-Kreislauf-Erkrankungen behandelt.",
+          "example_it": "In cardiologia si trattano le malattie cardiovascolari."
+        },
+        {
+          "de": "die Neurologie",
+          "it": "la neurologia",
+          "emoji": "🧠",
+          "example_de": "Die Neurologie befasst sich mit Erkrankungen des Nervensystems.",
+          "example_it": "La neurologia si occupa delle malattie del sistema nervoso."
+        },
+        {
+          "de": "die Orthopädie",
+          "it": "l'ortopedia",
+          "emoji": "🦴",
+          "example_de": "Nach dem Sportunfall wurde er in die Orthopädie überwiesen.",
+          "example_it": "Dopo l'infortunio sportivo è stato indirizzato all'ortopedia."
+        },
+        {
+          "de": "die Dermatologie",
+          "it": "la dermatologia",
+          "emoji": "🧴",
+          "example_de": "Die Dermatologie untersucht Erkrankungen der Haut.",
+          "example_it": "La dermatologia studia le malattie della pelle."
+        },
+        {
+          "de": "die Onkologie",
+          "it": "l'oncologia",
+          "emoji": "🎗️",
+          "example_de": "Die Fortschritte in der Onkologie haben die Überlebensraten deutlich verbessert.",
+          "example_it": "I progressi in oncologia hanno migliorato significativamente i tassi di sopravvivenza."
+        },
+        {
+          "de": "die Psychiatrie",
+          "it": "la psichiatria",
+          "emoji": "🧩",
+          "example_de": "Die Psychiatrie behandelt psychische Störungen mit Medikamenten und Therapie.",
+          "example_it": "La psichiatria tratta i disturbi mentali con farmaci e terapia."
+        },
+        {
+          "de": "die Radiologie",
+          "it": "la radiologia",
+          "emoji": "📡",
+          "example_de": "In der Radiologie wurde ein MRT des Knies angefertigt.",
+          "example_it": "In radiologia è stata effettuata una risonanza magnetica del ginocchio."
+        },
+        {
+          "de": "die Gynäkologie",
+          "it": "la ginecologia",
+          "emoji": "👩‍⚕️",
+          "example_de": "Die Gynäkologie bietet umfassende Vorsorgeuntersuchungen an.",
+          "example_it": "La ginecologia offre esami preventivi completi."
+        }
+      ]
+    },
+    {
+      "name": "Verbi medici",
+      "words": [
+        {
+          "de": "diagnostizieren",
+          "it": "diagnosticare",
+          "emoji": "🔍",
+          "example_de": "Bei dem Patienten wurde eine seltene Autoimmunerkrankung diagnostiziert.",
+          "example_it": "Al paziente è stata diagnosticata una rara malattia autoimmune."
+        },
+        {
+          "de": "behandeln",
+          "it": "trattare / curare",
+          "emoji": "💉",
+          "example_de": "Die Infektion lässt sich gut mit Antibiotika behandeln.",
+          "example_it": "L'infezione si può trattare bene con gli antibiotici."
+        },
+        {
+          "de": "operieren",
+          "it": "operare",
+          "emoji": "🏥",
+          "example_de": "Der Chirurg hat den Patienten am offenen Herzen operiert.",
+          "example_it": "Il chirurgo ha operato il paziente a cuore aperto."
+        },
+        {
+          "de": "überweisen",
+          "it": "riferire / inviare (a uno specialista)",
+          "emoji": "📨",
+          "example_de": "Der Arzt hat mich an einen Spezialisten überwiesen.",
+          "example_it": "Il medico mi ha inviato da uno specialista."
+        },
+        {
+          "de": "verschreiben",
+          "it": "prescrivere",
+          "emoji": "📝",
+          "example_de": "Der Arzt hat ein stärkeres Schmerzmittel verschrieben.",
+          "example_it": "Il medico ha prescritto un antidolorifico più forte."
+        },
+        {
+          "de": "untersuchen",
+          "it": "esaminare / visitare",
+          "emoji": "🩺",
+          "example_de": "Die Ärztin hat den Patienten gründlich untersucht.",
+          "example_it": "La dottoressa ha visitato il paziente in modo approfondito."
+        },
+        {
+          "de": "heilen",
+          "it": "guarire / curare",
+          "emoji": "✨",
+          "example_de": "Manche Krankheiten lassen sich heute vollständig heilen.",
+          "example_it": "Alcune malattie oggi si possono guarire completamente."
+        },
+        {
+          "de": "rehabilitieren",
+          "it": "riabilitare",
+          "emoji": "🏃",
+          "example_de": "Nach der Operation muss der Patient über mehrere Monate hinweg rehabilitiert werden.",
+          "example_it": "Dopo l'operazione il paziente deve essere riabilitato per diversi mesi."
+        }
+      ]
+    }
+  ]
+}

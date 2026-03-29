@@ -1,0 +1,49 @@
+{
+  "id": "a2-v09",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Sentimenti e opinioni",
+  "subtitle": "Gefühle und Meinungen",
+  "groups": [
+    {
+      "name": "Sentimenti",
+      "words": [
+        { "de": "glücklich", "it": "felice", "emoji": "😊", "example_de": "Ich bin heute sehr glücklich.", "example_it": "Oggi sono molto felice." },
+        { "de": "traurig", "it": "triste", "emoji": "😢", "example_de": "Sie ist traurig, weil ihr Hund krank ist.", "example_it": "È triste perché il suo cane è malato." },
+        { "de": "wütend", "it": "arrabbiato/a", "emoji": "😤", "example_de": "Er ist wütend auf seinen Bruder.", "example_it": "È arrabbiato con suo fratello." },
+        { "de": "müde", "it": "stanco/a", "emoji": "😴", "example_de": "Ich bin so müde nach der Arbeit.", "example_it": "Sono così stanco dopo il lavoro." },
+        { "de": "nervös", "it": "nervoso/a", "emoji": "😰", "example_de": "Vor der Prüfung bin ich immer nervös.", "example_it": "Prima dell'esame sono sempre nervoso." },
+        { "de": "aufgeregt", "it": "emozionato/a, eccitato/a", "emoji": "🤩", "example_de": "Die Kinder sind aufgeregt wegen der Reise.", "example_it": "I bambini sono emozionati per il viaggio." },
+        { "de": "zufrieden", "it": "soddisfatto/a", "emoji": "😌", "example_de": "Ich bin mit meiner Arbeit zufrieden.", "example_it": "Sono soddisfatto del mio lavoro." },
+        { "de": "enttäuscht", "it": "deluso/a", "emoji": "😞", "example_de": "Er ist enttäuscht von dem Ergebnis.", "example_it": "È deluso dal risultato." }
+      ]
+    },
+    {
+      "name": "Opinioni ed espressioni",
+      "words": [
+        { "de": "Ich denke, dass...", "it": "Penso che...", "emoji": "💭", "example_de": "Ich denke, dass er recht hat.", "example_it": "Penso che lui abbia ragione." },
+        { "de": "Ich glaube, dass...", "it": "Credo che...", "emoji": "🤔", "example_de": "Ich glaube, dass es morgen regnet.", "example_it": "Credo che domani pioverà." },
+        { "de": "Ich meine, dass...", "it": "Intendo che... / Secondo me...", "emoji": "💬", "example_de": "Ich meine, dass wir mehr Zeit brauchen.", "example_it": "Secondo me abbiamo bisogno di più tempo." },
+        { "de": "Ich finde, dass...", "it": "Trovo che...", "emoji": "👉", "example_de": "Ich finde, dass der Film langweilig ist.", "example_it": "Trovo che il film sia noioso." },
+        { "de": "meiner Meinung nach", "it": "a mio parere", "emoji": "🗣️", "example_de": "Meiner Meinung nach ist das falsch.", "example_it": "A mio parere, questo è sbagliato." },
+        { "de": "Ich bin der Meinung, dass...", "it": "Sono dell'opinione che...", "emoji": "📢", "example_de": "Ich bin der Meinung, dass wir helfen sollten.", "example_it": "Sono dell'opinione che dovremmo aiutare." },
+        { "de": "Es stimmt, dass...", "it": "È vero che...", "emoji": "✅", "example_de": "Es stimmt, dass Deutsch nicht einfach ist.", "example_it": "È vero che il tedesco non è facile." },
+        { "de": "Ich bin einverstanden.", "it": "Sono d'accordo.", "emoji": "👍", "example_de": "Ja, ich bin einverstanden mit deinem Plan.", "example_it": "Sì, sono d'accordo con il tuo piano." },
+        { "de": "Ich bin dagegen.", "it": "Sono contrario/a.", "emoji": "👎", "example_de": "Ich bin dagegen, am Sonntag zu arbeiten.", "example_it": "Sono contrario a lavorare di domenica." }
+      ]
+    },
+    {
+      "name": "Espressioni di sentimento",
+      "words": [
+        { "de": "sich freuen (über + Akk.)", "it": "rallegrarsi (di)", "emoji": "😊", "example_de": "Ich freue mich über das Geschenk.", "example_it": "Mi rallegro del regalo." },
+        { "de": "sich ärgern (über + Akk.)", "it": "arrabbiarsi (per)", "emoji": "😤", "example_de": "Er ärgert sich über den Lärm.", "example_it": "Si arrabbia per il rumore." },
+        { "de": "Angst haben (vor + Dat.)", "it": "avere paura (di)", "emoji": "😰", "example_de": "Sie hat Angst vor Spinnen.", "example_it": "Ha paura dei ragni." },
+        { "de": "hoffen", "it": "sperare", "emoji": "🤞", "example_de": "Ich hoffe, dass alles gut wird.", "example_it": "Spero che tutto andrà bene." },
+        { "de": "sich wünschen", "it": "desiderare", "emoji": "⭐", "example_de": "Ich wünsche mir ein neues Fahrrad.", "example_it": "Desidero una bicicletta nuova." },
+        { "de": "sich beschweren (über + Akk.)", "it": "lamentarsi (di)", "emoji": "😠", "example_de": "Er beschwert sich über das Essen.", "example_it": "Si lamenta del cibo." },
+        { "de": "loben", "it": "lodare, elogiare", "emoji": "👏", "example_de": "Die Lehrerin lobt den Schüler.", "example_it": "L'insegnante loda lo studente." },
+        { "de": "kritisieren", "it": "criticare", "emoji": "🔎", "example_de": "Man sollte konstruktiv kritisieren.", "example_it": "Si dovrebbe criticare in modo costruttivo." }
+      ]
+    }
+  ]
+}

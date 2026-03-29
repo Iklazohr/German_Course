@@ -1,0 +1,37 @@
+{
+  "id": "a1-v13",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Mezzi di trasporto",
+  "subtitle": "Verkehrsmittel",
+  "groups": [
+    {
+      "name": "Mezzi",
+      "words": [
+        { "de": "das Auto", "it": "l'auto", "emoji": "🚗", "example_de": "Ich fahre mit dem Auto.", "example_it": "Vado in macchina." },
+        { "de": "der Bus", "it": "l'autobus", "emoji": "🚌", "example_de": "Der Bus kommt in 5 Minuten.", "example_it": "L'autobus arriva tra 5 minuti." },
+        { "de": "der Zug", "it": "il treno", "emoji": "🚂", "example_de": "Der Zug fährt um 10 Uhr ab.", "example_it": "Il treno parte alle 10." },
+        { "de": "das Fahrrad", "it": "la bicicletta", "emoji": "🚲", "example_de": "Ich fahre mit dem Fahrrad zur Arbeit.", "example_it": "Vado al lavoro in bicicletta." },
+        { "de": "die U-Bahn", "it": "la metropolitana", "emoji": "🚇", "example_de": "Die U-Bahn ist schnell.", "example_it": "La metropolitana è veloce." },
+        { "de": "die Straßenbahn", "it": "il tram", "emoji": "🚊", "example_de": "Die Straßenbahn hält hier.", "example_it": "Il tram si ferma qui." },
+        { "de": "das Taxi", "it": "il taxi", "emoji": "🚕", "example_de": "Ich nehme ein Taxi.", "example_it": "Prendo un taxi." },
+        { "de": "das Flugzeug", "it": "l'aereo", "emoji": "✈️", "example_de": "Das Flugzeug fliegt nach Rom.", "example_it": "L'aereo vola a Roma." },
+        { "de": "das Schiff", "it": "la nave", "emoji": "🚢", "example_de": "Wir fahren mit dem Schiff.", "example_it": "Andiamo in nave." }
+      ]
+    },
+    {
+      "name": "In viaggio",
+      "words": [
+        { "de": "die Haltestelle", "it": "la fermata", "emoji": "🚏", "example_de": "Die Haltestelle ist dort.", "example_it": "La fermata è là." },
+        { "de": "die Fahrkarte", "it": "il biglietto", "emoji": "🎫", "example_de": "Ich kaufe eine Fahrkarte.", "example_it": "Compro un biglietto." },
+        { "de": "das Gleis", "it": "il binario", "emoji": "🛤️", "example_de": "Der Zug fährt von Gleis 3 ab.", "example_it": "Il treno parte dal binario 3." },
+        { "de": "die Abfahrt", "it": "la partenza", "emoji": "🚀", "example_de": "Die Abfahrt ist um 14 Uhr.", "example_it": "La partenza è alle 14." },
+        { "de": "die Ankunft", "it": "l'arrivo", "emoji": "🏁", "example_de": "Die Ankunft ist um 16 Uhr.", "example_it": "L'arrivo è alle 16." },
+        { "de": "umsteigen", "it": "cambiare (mezzo)", "emoji": "🔄", "example_de": "Sie müssen in München umsteigen.", "example_it": "Deve cambiare a Monaco." },
+        { "de": "einsteigen", "it": "salire (su un mezzo)", "emoji": "🚪", "example_de": "Bitte einsteigen!", "example_it": "Salite, per favore!" },
+        { "de": "aussteigen", "it": "scendere (da un mezzo)", "emoji": "🚶", "example_de": "Wo muss ich aussteigen?", "example_it": "Dove devo scendere?" },
+        { "de": "der Fahrplan", "it": "l'orario (dei trasporti)", "emoji": "📋", "example_de": "Schau mal den Fahrplan an!", "example_it": "Guarda l'orario!" }
+      ]
+    }
+  ]
+}

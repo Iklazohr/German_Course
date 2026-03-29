@@ -1,0 +1,79 @@
+{
+  "id": "b1-g09",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Formazione delle parole composte",
+  "subtitle": "Wortbildung und Komposita",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il tedesco ama le parole composte! Una delle caratteristiche più affascinanti della lingua tedesca è la capacità di creare parole nuove unendo due o più parole esistenti. Questa composizione (Komposition) permette di esprimere concetti complessi con una sola parola. Mentre in italiano diciamo 'porta di casa', in tedesco si dice semplicemente 'Haustür'. Capire come funziona la formazione delle parole è essenziale per ampliare il vocabolario e comprendere parole mai viste prima."
+    },
+    {
+      "type": "rule",
+      "title": "Sostantivo + Sostantivo",
+      "content": "La composizione più comune è unire due sostantivi. Il genere della parola composta è sempre determinato dall'ULTIMO sostantivo (la parola base, Grundwort), mentre il primo sostantivo (la parola determinante, Bestimmungswort) specifica o limita il significato.\n\ndas Haus + die Tür = die Haustür (la porta di casa)\nder Schuh + das Geschäft = das Schuhgeschäft (il negozio di scarpe)\ndie Arbeit + der Platz = der Arbeitsplatz (il posto di lavoro)\nder Geburtstag + die Torte = die Geburtstagstorte (la torta di compleanno)\n\nAttenzione: a volte tra le due parole si inserisce una lettera di collegamento (Fugenlaut): -(e)s-, -(e)n-, -er-\ndie Arbeit-s-platz, die Geburt-s-tag, die Sonne-n-blume"
+    },
+    {
+      "type": "rule",
+      "title": "Radice verbale + Sostantivo",
+      "content": "Si può combinare la radice di un verbo (senza la desinenza -en) con un sostantivo:\n\nfahren + die Karte = die Fahrkarte (il biglietto di viaggio)\nschlafen + das Zimmer = das Schlafzimmer (la camera da letto)\nwohnen + der Ort = der Wohnort (il luogo di residenza)\nschwimmen + das Bad = das Schwimmbad (la piscina)\nschreiben + der Tisch = der Schreibtisch (la scrivania)\nlesen + die Brille = die Lesebrille (gli occhiali da lettura)"
+    },
+    {
+      "type": "rule",
+      "title": "Aggettivo + Sostantivo",
+      "content": "Gli aggettivi possono combinarsi con sostantivi per formare parole composte:\n\nschnell + der Zug = der Schnellzug (il treno rapido)\nhoch + das Haus = das Hochhaus (il grattacielo)\nfrei + die Zeit = die Freizeit (il tempo libero)\ngroß + die Stadt = die Großstadt (la grande città)\nkalt + das Wasser = das Kaltwasser (l'acqua fredda)\nrot + der Wein = der Rotwein (il vino rosso)"
+    },
+    {
+      "type": "rule",
+      "title": "Prefissi comuni",
+      "content": "Alcuni prefissi modificano il significato della parola base:\n\n• un- (negazione, come in- italiano): möglich → unmöglich (impossibile), freundlich → unfreundlich (scortese), glücklich → unglücklich (infelice)\n\n• Vor- (prima, davanti): der Mittag → der Vormittag (la mattinata), die Schule → die Vorschule (la prescuola), das Bild → das Vorbild (il modello/esempio)\n\n• Nach- (dopo, dietro): der Mittag → der Nachmittag (il pomeriggio), der Name → der Nachname (il cognome), der Bar → der Nachbar (il vicino)\n\n• Haupt- (principale): die Stadt → die Hauptstadt (la capitale), der Bahnhof → der Hauptbahnhof (la stazione centrale), die Straße → die Hauptstraße (la via principale)"
+    },
+    {
+      "type": "rule",
+      "title": "Suffissi importanti",
+      "content": "I suffissi trasformano verbi o aggettivi in sostantivi o aggettivi:\n\n• -ung (verbo → sostantivo femminile): wohnen → die Wohnung (l'appartamento), bilden → die Bildung (la formazione), ordnen → die Ordnung (l'ordine)\n\n• -heit/-keit (aggettivo → sostantivo femminile): frei → die Freiheit (la libertà), krank → die Krankheit (la malattia), möglich → die Möglichkeit (la possibilità), freundlich → die Freundlichkeit (la gentilezza)\n\n• -schaft (sostantivo → sostantivo femminile, indica collettività): der Freund → die Freundschaft (l'amicizia), der Nachbar → die Nachbarschaft (il vicinato), die Wirtschaft (l'economia)\n\n• -lich (→ aggettivo): der Tag → täglich (quotidiano), die Freude → freundlich (amichevole), der Herz → herzlich (cordiale)\n\n• -bar (→ aggettivo, indica possibilità, come -bile in italiano): essen → essbar (commestibile), trinken → trinkbar (bevibile), machen → machbar (fattibile)\n\n• -los (→ aggettivo, indica mancanza, come senza): die Arbeit → arbeitslos (disoccupato), das Ende → endlos (infinito), die Hoffnung → hoffnungslos (senza speranza)"
+    },
+    {
+      "type": "tip",
+      "content": "Come leggere parole composte lunghissime? Parti dalla fine! L'ultimo elemento è la parola base che dà il significato principale e il genere. Poi vai all'indietro per aggiungere specificazioni.\n\nEsempio famoso: Donaudampfschifffahrtsgesellschaft\n→ Gesellschaft (società) + Schifffahrt (navigazione) + Dampf (vapore) + Donau (Danubio)\n= La società di navigazione a vapore del Danubio\n\nAltro esempio: Krankenversicherungskarte\n→ Karte (tessera) + Versicherung (assicurazione) + Kranken (malati)\n= La tessera dell'assicurazione sanitaria\n\nNon farti spaventare dalla lunghezza: scomponi sempre la parola partendo dalla fine!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "der Kühlschrank (kühl + Schrank)",
+          "it": "il frigorifero (fresco + armadio)"
+        },
+        {
+          "de": "das Handtuch (Hand + Tuch)",
+          "it": "l'asciugamano (mano + panno)"
+        },
+        {
+          "de": "der Handschuh (Hand + Schuh)",
+          "it": "il guanto (mano + scarpa)"
+        },
+        {
+          "de": "die Unabhängigkeit (un- + Abhängigkeit)",
+          "it": "l'indipendenza (in- + dipendenza)"
+        },
+        {
+          "de": "die Gastfreundschaft (Gast + Freundschaft)",
+          "it": "l'ospitalità (ospite + amicizia)"
+        },
+        {
+          "de": "der Staubsauger (Staub + Sauger)",
+          "it": "l'aspirapolvere (polvere + aspiratore)"
+        },
+        {
+          "de": "die Hauptverkehrszeit (Haupt + Verkehr + Zeit)",
+          "it": "l'ora di punta (principale + traffico + tempo)"
+        },
+        {
+          "de": "das Schlafzimmer ist unaufgeräumt.",
+          "it": "La camera da letto è in disordine."
+        }
+      ]
+    }
+  ]
+}

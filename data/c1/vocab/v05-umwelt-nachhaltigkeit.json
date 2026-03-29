@@ -1,0 +1,192 @@
+{
+  "id": "c1-v05",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Ambiente e sostenibilità avanzato",
+  "subtitle": "Umwelt und Nachhaltigkeit (Fortgeschritten)",
+  "groups": [
+    {
+      "name": "Clima",
+      "words": [
+        {
+          "de": "der Klimawandel",
+          "it": "il cambiamento climatico",
+          "emoji": "🌡️",
+          "example_de": "Der Klimawandel stellt eine der größten Herausforderungen unserer Zeit dar.",
+          "example_it": "Il cambiamento climatico rappresenta una delle più grandi sfide del nostro tempo."
+        },
+        {
+          "de": "der Treibhauseffekt",
+          "it": "l'effetto serra",
+          "emoji": "🏭",
+          "example_de": "Der anthropogene Treibhauseffekt verstärkt die natürliche Erderwärmung erheblich.",
+          "example_it": "L'effetto serra antropogenico intensifica notevolmente il riscaldamento naturale della Terra."
+        },
+        {
+          "de": "die CO2-Emissionen",
+          "it": "le emissioni di CO2",
+          "emoji": "💨",
+          "example_de": "Die Reduzierung der CO2-Emissionen ist das zentrale Ziel des Pariser Abkommens.",
+          "example_it": "La riduzione delle emissioni di CO2 è l'obiettivo centrale dell'Accordo di Parigi."
+        },
+        {
+          "de": "die Erderwärmung",
+          "it": "il riscaldamento globale",
+          "emoji": "🌍",
+          "example_de": "Die Erderwärmung soll auf maximal 1,5 Grad Celsius begrenzt werden.",
+          "example_it": "Il riscaldamento globale deve essere limitato a un massimo di 1,5 gradi Celsius."
+        },
+        {
+          "de": "die Ozonschicht",
+          "it": "lo strato di ozono",
+          "emoji": "🛡️",
+          "example_de": "Das Montrealer Protokoll hat zur Erholung der Ozonschicht beigetragen.",
+          "example_it": "Il Protocollo di Montreal ha contribuito alla ricostituzione dello strato di ozono."
+        },
+        {
+          "de": "der Meeresspiegel",
+          "it": "il livello del mare",
+          "emoji": "🌊",
+          "example_de": "Der steigende Meeresspiegel bedroht zahlreiche Küstenstädte weltweit.",
+          "example_it": "L'innalzamento del livello del mare minaccia numerose città costiere in tutto il mondo."
+        },
+        {
+          "de": "die Dürre",
+          "it": "la siccità",
+          "emoji": "🏜️",
+          "example_de": "Infolge der Dürre kam es zu massiven Ernteausfällen.",
+          "example_it": "A causa della siccità si sono verificate massicce perdite di raccolto."
+        },
+        {
+          "de": "die Überschwemmung",
+          "it": "l'inondazione / l'alluvione",
+          "emoji": "🌧️",
+          "example_de": "Die Überschwemmungen haben ganze Landstriche verwüstet.",
+          "example_it": "Le alluvioni hanno devastato intere regioni."
+        }
+      ]
+    },
+    {
+      "name": "Energia",
+      "words": [
+        {
+          "de": "die erneuerbare Energie",
+          "it": "l'energia rinnovabile",
+          "emoji": "⚡",
+          "example_de": "Der Anteil erneuerbarer Energien am Strommix steigt kontinuierlich.",
+          "example_it": "La quota di energie rinnovabili nel mix energetico cresce continuamente."
+        },
+        {
+          "de": "die Windkraft",
+          "it": "l'energia eolica",
+          "emoji": "🌬️",
+          "example_de": "Deutschland ist einer der weltweit führenden Erzeuger von Windkraft.",
+          "example_it": "La Germania è uno dei principali produttori mondiali di energia eolica."
+        },
+        {
+          "de": "die Solarenergie",
+          "it": "l'energia solare",
+          "emoji": "☀️",
+          "example_de": "Die Kosten für Solarenergie sind in den letzten Jahren drastisch gesunken.",
+          "example_it": "I costi dell'energia solare sono diminuiti drasticamente negli ultimi anni."
+        },
+        {
+          "de": "die Wasserkraft",
+          "it": "l'energia idroelettrica",
+          "emoji": "💧",
+          "example_de": "Die Wasserkraft spielt in der Alpenregion eine bedeutende Rolle.",
+          "example_it": "L'energia idroelettrica svolge un ruolo significativo nella regione alpina."
+        },
+        {
+          "de": "die Kernenergie",
+          "it": "l'energia nucleare",
+          "emoji": "☢️",
+          "example_de": "Deutschland hat den vollständigen Ausstieg aus der Kernenergie beschlossen.",
+          "example_it": "La Germania ha deciso l'abbandono totale dell'energia nucleare."
+        },
+        {
+          "de": "der Kohlenstoff",
+          "it": "il carbonio",
+          "emoji": "⚫",
+          "example_de": "Die Reduzierung des Kohlenstoffausstoßes erfordert einen grundlegenden Wandel der Industrie.",
+          "example_it": "La riduzione delle emissioni di carbonio richiede un cambiamento radicale dell'industria."
+        },
+        {
+          "de": "die Elektromobilität",
+          "it": "la mobilità elettrica",
+          "emoji": "🔋",
+          "example_de": "Die Elektromobilität gilt als Schlüsseltechnologie für die Verkehrswende.",
+          "example_it": "La mobilità elettrica è considerata una tecnologia chiave per la transizione dei trasporti."
+        },
+        {
+          "de": "der Wasserstoff",
+          "it": "l'idrogeno",
+          "emoji": "💎",
+          "example_de": "Grüner Wasserstoff könnte fossile Brennstoffe in der Schwerindustrie ersetzen.",
+          "example_it": "L'idrogeno verde potrebbe sostituire i combustibili fossili nell'industria pesante."
+        }
+      ]
+    },
+    {
+      "name": "Politica ambientale",
+      "words": [
+        {
+          "de": "der Klimaschutz",
+          "it": "la protezione del clima",
+          "emoji": "🌱",
+          "example_de": "Der Klimaschutz muss in allen politischen Entscheidungen berücksichtigt werden.",
+          "example_it": "La protezione del clima deve essere considerata in tutte le decisioni politiche."
+        },
+        {
+          "de": "die Nachhaltigkeit",
+          "it": "la sostenibilità",
+          "emoji": "♻️",
+          "example_de": "Nachhaltigkeit bedeutet, die Bedürfnisse der Gegenwart zu erfüllen, ohne die Zukunft zu gefährden.",
+          "example_it": "Sostenibilità significa soddisfare i bisogni del presente senza compromettere il futuro."
+        },
+        {
+          "de": "der Artenschutz",
+          "it": "la protezione delle specie",
+          "emoji": "🐾",
+          "example_de": "Der Artenschutz ist eng mit dem Erhalt natürlicher Lebensräume verknüpft.",
+          "example_it": "La protezione delle specie è strettamente legata alla conservazione degli habitat naturali."
+        },
+        {
+          "de": "die Kreislaufwirtschaft",
+          "it": "l'economia circolare",
+          "emoji": "🔄",
+          "example_de": "Die Kreislaufwirtschaft zielt darauf ab, Abfall als Ressource zu nutzen.",
+          "example_it": "L'economia circolare mira a utilizzare i rifiuti come risorsa."
+        },
+        {
+          "de": "der Emissionshandel",
+          "it": "il commercio delle emissioni",
+          "emoji": "📊",
+          "example_de": "Der europäische Emissionshandel setzt einen Preis für CO2-Emissionen fest.",
+          "example_it": "Il sistema europeo di scambio delle emissioni stabilisce un prezzo per le emissioni di CO2."
+        },
+        {
+          "de": "die Klimaneutralität",
+          "it": "la neutralità climatica",
+          "emoji": "🎯",
+          "example_de": "Die EU strebt bis 2050 Klimaneutralität an.",
+          "example_it": "L'UE punta alla neutralità climatica entro il 2050."
+        },
+        {
+          "de": "die Biodiversität",
+          "it": "la biodiversità",
+          "emoji": "🌿",
+          "example_de": "Der Verlust der Biodiversität hat weitreichende Folgen für das gesamte Ökosystem.",
+          "example_it": "La perdita di biodiversità ha conseguenze di vasta portata per l'intero ecosistema."
+        },
+        {
+          "de": "die Renaturierung",
+          "it": "la rinaturalizzazione",
+          "emoji": "🌳",
+          "example_de": "Die Renaturierung ehemaliger Industriegebiete schafft neue Lebensräume für Flora und Fauna.",
+          "example_it": "La rinaturalizzazione di ex aree industriali crea nuovi habitat per flora e fauna."
+        }
+      ]
+    }
+  ]
+}
