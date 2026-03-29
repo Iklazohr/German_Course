@@ -1,0 +1,192 @@
+{
+  "id": "c1-v07",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Mondo professionale formale",
+  "subtitle": "Formelle Berufswelt",
+  "groups": [
+    {
+      "name": "Carriera",
+      "words": [
+        {
+          "de": "die Bewerbung",
+          "it": "la candidatura / la domanda di lavoro",
+          "emoji": "📝",
+          "example_de": "Die Bewerbung sollte ein Anschreiben, einen Lebenslauf und relevante Zeugnisse enthalten.",
+          "example_it": "La candidatura dovrebbe contenere una lettera di accompagnamento, un curriculum e attestati rilevanti."
+        },
+        {
+          "de": "der Lebenslauf",
+          "it": "il curriculum vitae",
+          "emoji": "📄",
+          "example_de": "Ein lückenloser Lebenslauf ist in Deutschland besonders wichtig.",
+          "example_it": "Un curriculum senza lacune temporali è particolarmente importante in Germania."
+        },
+        {
+          "de": "das Vorstellungsgespräch",
+          "it": "il colloquio di lavoro",
+          "emoji": "🤝",
+          "example_de": "Im Vorstellungsgespräch sollten Sie auf Fragen zu Ihren Stärken und Schwächen vorbereitet sein.",
+          "example_it": "Al colloquio di lavoro si dovrebbe essere preparati a domande sui propri punti di forza e debolezza."
+        },
+        {
+          "de": "die Beförderung",
+          "it": "la promozione",
+          "emoji": "⬆️",
+          "example_de": "Nach fünf Jahren im Unternehmen erhielt sie eine Beförderung zur Abteilungsleiterin.",
+          "example_it": "Dopo cinque anni in azienda ha ottenuto una promozione a capo reparto."
+        },
+        {
+          "de": "die Kündigung",
+          "it": "il licenziamento / le dimissioni",
+          "emoji": "📩",
+          "example_de": "Die Kündigung muss schriftlich und unter Einhaltung der Kündigungsfrist erfolgen.",
+          "example_it": "Il licenziamento deve avvenire per iscritto e nel rispetto del periodo di preavviso."
+        },
+        {
+          "de": "die Gehaltsverhandlung",
+          "it": "la negoziazione salariale",
+          "emoji": "💰",
+          "example_de": "Bei der Gehaltsverhandlung sollte man seine Leistungen klar darlegen können.",
+          "example_it": "Nella negoziazione salariale si dovrebbe essere in grado di esporre chiaramente i propri risultati."
+        },
+        {
+          "de": "die Weiterbildung",
+          "it": "la formazione continua / l'aggiornamento professionale",
+          "emoji": "🎓",
+          "example_de": "Das Unternehmen investiert jährlich erhebliche Mittel in die Weiterbildung seiner Mitarbeiter.",
+          "example_it": "L'azienda investe ogni anno mezzi considerevoli nella formazione continua dei suoi dipendenti."
+        },
+        {
+          "de": "die Referenz",
+          "it": "la referenza / la raccomandazione",
+          "emoji": "📋",
+          "example_de": "Können Sie mir zwei berufliche Referenzen nennen?",
+          "example_it": "Può indicarmi due referenze professionali?"
+        }
+      ]
+    },
+    {
+      "name": "Comunicazione formale",
+      "words": [
+        {
+          "de": "der Geschäftsbrief",
+          "it": "la lettera commerciale",
+          "emoji": "📨",
+          "example_de": "Ein Geschäftsbrief folgt in Deutschland strengen formalen Regeln.",
+          "example_it": "Una lettera commerciale in Germania segue regole formali rigide."
+        },
+        {
+          "de": "das Protokoll",
+          "it": "il verbale / il protocollo",
+          "emoji": "📋",
+          "example_de": "Das Protokoll der letzten Sitzung wurde an alle Teilnehmer versandt.",
+          "example_it": "Il verbale dell'ultima riunione è stato inviato a tutti i partecipanti."
+        },
+        {
+          "de": "die Präsentation",
+          "it": "la presentazione",
+          "emoji": "📊",
+          "example_de": "Die Präsentation der Quartalsergebnisse findet am Freitag statt.",
+          "example_it": "La presentazione dei risultati trimestrali avrà luogo venerdì."
+        },
+        {
+          "de": "die Verhandlung",
+          "it": "la trattativa / la negoziazione",
+          "emoji": "🤝",
+          "example_de": "Die Verhandlungen über den neuen Tarifvertrag sind ins Stocken geraten.",
+          "example_it": "Le trattative sul nuovo contratto collettivo si sono arenate."
+        },
+        {
+          "de": "die Konferenz",
+          "it": "la conferenza / il convegno",
+          "emoji": "🏛️",
+          "example_de": "Auf der internationalen Konferenz werden die neuesten Forschungsergebnisse vorgestellt.",
+          "example_it": "Alla conferenza internazionale vengono presentati i risultati di ricerca più recenti."
+        },
+        {
+          "de": "die Besprechung",
+          "it": "la riunione",
+          "emoji": "👥",
+          "example_de": "Die wöchentliche Besprechung findet montags um 9 Uhr statt.",
+          "example_it": "La riunione settimanale ha luogo il lunedì alle 9."
+        },
+        {
+          "de": "die Tagesordnung",
+          "it": "l'ordine del giorno",
+          "emoji": "📑",
+          "example_de": "Auf der Tagesordnung stehen drei Punkte, die dringend besprochen werden müssen.",
+          "example_it": "All'ordine del giorno ci sono tre punti che devono essere discussi urgentemente."
+        },
+        {
+          "de": "die Frist",
+          "it": "la scadenza / il termine",
+          "emoji": "⏰",
+          "example_de": "Die Frist für die Einreichung der Unterlagen endet am 30. April.",
+          "example_it": "Il termine per la presentazione dei documenti scade il 30 aprile."
+        }
+      ]
+    },
+    {
+      "name": "Espressioni formali",
+      "words": [
+        {
+          "de": "Bezug nehmend auf",
+          "it": "in riferimento a / con riferimento a",
+          "emoji": "📎",
+          "example_de": "Bezug nehmend auf Ihr Schreiben vom 15. März möchte ich Ihnen Folgendes mitteilen.",
+          "example_it": "Con riferimento alla Sua lettera del 15 marzo, desidero comunicarLe quanto segue."
+        },
+        {
+          "de": "Im Anhang finden Sie",
+          "it": "In allegato troverà",
+          "emoji": "📎",
+          "example_de": "Im Anhang finden Sie die gewünschten Unterlagen sowie eine detaillierte Kostenaufstellung.",
+          "example_it": "In allegato troverà la documentazione richiesta nonché un dettagliato prospetto dei costi."
+        },
+        {
+          "de": "Ich würde gerne",
+          "it": "Vorrei / Desidererei",
+          "emoji": "💭",
+          "example_de": "Ich würde gerne einen Termin für ein persönliches Gespräch vereinbaren.",
+          "example_it": "Vorrei fissare un appuntamento per un colloquio personale."
+        },
+        {
+          "de": "Mit freundlichen Grüßen",
+          "it": "Cordiali saluti / Distinti saluti",
+          "emoji": "✉️",
+          "example_de": "Mit freundlichen Grüßen, Dr. Anna Schmidt, Abteilungsleiterin.",
+          "example_it": "Cordiali saluti, Dott.ssa Anna Schmidt, Responsabile di reparto."
+        },
+        {
+          "de": "Hochachtungsvoll",
+          "it": "Con la massima stima / Con ossequio (molto formale)",
+          "emoji": "🎩",
+          "example_de": "Hochachtungsvoll verbleibe ich Ihr ergebener Diener. (veraltet, aber in manchen Kontexten noch üblich)",
+          "example_it": "Con la massima stima rimango il Suo devoto servitore. (desueto, ma ancora usato in certi contesti)"
+        },
+        {
+          "de": "verfügen über + Akk.",
+          "it": "disporre di / possedere",
+          "emoji": "💼",
+          "example_de": "Ich verfüge über umfangreiche Erfahrung im Bereich Projektmanagement.",
+          "example_it": "Dispongo di una vasta esperienza nel settore della gestione di progetti."
+        },
+        {
+          "de": "sich eignen für + Akk.",
+          "it": "essere adatto a / essere idoneo per",
+          "emoji": "✅",
+          "example_de": "Aufgrund meiner Qualifikationen eigne ich mich besonders für diese Position.",
+          "example_it": "Grazie alle mie qualifiche sono particolarmente adatto a questa posizione."
+        },
+        {
+          "de": "zuständig sein für + Akk.",
+          "it": "essere responsabile di / essere competente per",
+          "emoji": "🏷️",
+          "example_de": "Frau Meier ist zuständig für die Koordination internationaler Projekte.",
+          "example_it": "La signora Meier è responsabile del coordinamento dei progetti internazionali."
+        }
+      ]
+    }
+  ]
+}

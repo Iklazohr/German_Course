@@ -1,0 +1,151 @@
+{
+  "id": "c1-e04",
+  "level": "c1",
+  "type": "exercise",
+  "title": "Esercizi: Scrittura e retorica",
+  "exercises": [
+    {
+      "type": "identify",
+      "instruction": "Identificate la figura retorica presente nella seguente frase.",
+      "given": "Er hat ein Herz aus Stein und eine Seele aus Eis.",
+      "answer": "Metapher (Metafora)",
+      "explanation": "'Herz aus Stein' e 'Seele aus Eis' sono metafore che esprimono insensibilità e freddezza emotiva attraverso immagini concrete."
+    },
+    {
+      "type": "identify",
+      "instruction": "Quale figura retorica viene utilizzata in questa frase?",
+      "given": "Na, das hast du ja wirklich großartig hinbekommen!",
+      "answer": "Ironie (Ironia)",
+      "explanation": "Il tono suggerisce che il risultato è stato tutt'altro che brillante. L'avverbio 'ja wirklich' rafforza l'effetto ironico."
+    },
+    {
+      "type": "identify",
+      "instruction": "Identificate la figura retorica presente nel seguente estratto.",
+      "given": "Ich rufe. Ich schreie. Ich flehe. Aber niemand hört mich.",
+      "answer": "Anapher (Anafora) e Klimax (Climax)",
+      "explanation": "La ripetizione di 'Ich' all'inizio di ogni frase è un'anafora. La progressione rufe → schreie → flehe rappresenta un climax ascendente."
+    },
+    {
+      "type": "identify",
+      "instruction": "Quale figura retorica riconoscete?",
+      "given": "Das Unternehmen hat beschlossen, seine Belegschaft zu verschlanken.",
+      "answer": "Euphemismus (Eufemismo)",
+      "explanation": "'Die Belegschaft verschlanken' (snellire il personale) è un eufemismo per 'Mitarbeiter entlassen' (licenziare dipendenti)."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Completate con l'espressione accademica di hedging appropriata.",
+      "sentence": "_____, dass ein direkter Zusammenhang zwischen den beiden Variablen besteht, wurde durch mehrere Studien bestätigt.",
+      "answer": "Die Vermutung, dass / Die Annahme, dass",
+      "hint": "Usate un sostantivo che esprima una supposizione, non una certezza."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Inserite l'espressione accademica corretta per introdurre una citazione.",
+      "sentence": "_____ einer aktuellen Studie des Robert-Koch-Instituts ist die Zahl der Neuinfektionen im Vergleich zum Vorjahr gesunken.",
+      "answer": "Laut",
+      "hint": "Preposizione che regge il dativo e significa 'secondo'."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Completate con il connettore accademico appropriato.",
+      "sentence": "Erstens fehlt eine ausreichende Datenbasis. _____ weisen die vorhandenen Daten methodische Mängel auf.",
+      "answer": "Darüber hinaus / Ferner / Zweitens",
+      "hint": "Connettore che introduce un argomento aggiuntivo."
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Quale frase utilizza correttamente il registro accademico con hedging?",
+      "options": [
+        "Es ist absolut sicher, dass diese Theorie die einzig richtige ist.",
+        "Die vorliegenden Ergebnisse deuten darauf hin, dass ein Zusammenhang bestehen könnte.",
+        "Ich bin mir total sicher, dass das stimmt.",
+        "Das ist halt einfach so, da gibt es nichts zu diskutieren."
+      ],
+      "answer": 1,
+      "explanation": "'Deuten darauf hin' e 'bestehen könnte' sono espressioni di hedging tipiche del registro accademico che attenuano l'affermazione."
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Quale formula di chiusura è la più appropriata per una lettera commerciale formale?",
+      "options": [
+        "Tschüss und bis bald!",
+        "Liebe Grüße",
+        "Mit freundlichen Grüßen",
+        "Ciao ciao"
+      ],
+      "answer": 2,
+      "explanation": "'Mit freundlichen Grüßen' è la formula di chiusura standard per la corrispondenza commerciale formale in tedesco."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traducete in tedesco formale usando strutture accademiche.",
+      "given": "Secondo l'autore, i risultati indicano che la tesi principale può essere confermata solo parzialmente.",
+      "answer": "Dem Autor zufolge deuten die Ergebnisse darauf hin, dass die Hauptthese nur teilweise bestätigt werden kann.",
+      "hint": "Usate 'Dem Autor zufolge' e 'deuten darauf hin'."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traducete usando un eufemismo tedesco appropriato.",
+      "given": "Purtroppo l'azienda ha dovuto licenziare 200 dipendenti.",
+      "answer": "Bedauerlicherweise musste das Unternehmen 200 Mitarbeiter freisetzen.",
+      "hint": "Usate 'freisetzen' come eufemismo per 'entlassen'."
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbinate ogni Stilmittel alla sua definizione.",
+      "pairs": [
+        {
+          "item": "Metapher",
+          "match": "Trasferimento di significato da un ambito semantico a un altro senza 'come'"
+        },
+        {
+          "item": "Hyperbel",
+          "match": "Esagerazione consapevole per enfatizzare un concetto"
+        },
+        {
+          "item": "Euphemismus",
+          "match": "Sostituzione di un'espressione dura con una più mite"
+        },
+        {
+          "item": "Litotes",
+          "match": "Affermazione attenuata mediante doppia negazione"
+        },
+        {
+          "item": "Anapher",
+          "match": "Ripetizione della stessa parola all'inizio di frasi successive"
+        },
+        {
+          "item": "Rhetorische Frage",
+          "match": "Domanda che non richiede risposta e serve a rafforzare un'affermazione"
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordinate le parti per formare un paragrafo accademico ben strutturato.",
+      "words": [
+        "Zusammenfassend lässt sich konstatieren, dass weitere Forschung notwendig ist.",
+        "Erstens ist die Datenlage in diesem Bereich nach wie vor unzureichend.",
+        "Im Folgenden sollen die wesentlichen Kritikpunkte dargelegt werden.",
+        "Darüber hinaus weisen die bisherigen Studien erhebliche methodische Schwächen auf."
+      ],
+      "answer": "Im Folgenden sollen die wesentlichen Kritikpunkte dargelegt werden. Erstens ist die Datenlage in diesem Bereich nach wie vor unzureichend. Darüber hinaus weisen die bisherigen Studien erhebliche methodische Schwächen auf. Zusammenfassend lässt sich konstatieren, dass weitere Forschung notwendig ist.",
+      "hint": "Ordine logico: introduzione → primo argomento → argomento aggiuntivo → conclusione."
+    },
+    {
+      "type": "transform",
+      "instruction": "Riscrivete la frase in stile accademico, eliminando la soggettività.",
+      "given": "Ich finde, dass diese Theorie total falsch ist.",
+      "answer": "Es lässt sich feststellen, dass diese Theorie einer kritischen Überprüfung nicht standhält.",
+      "hint": "Eliminate 'ich finde', usate una costruzione impersonale e attenuate 'total falsch'."
+    },
+    {
+      "type": "transform",
+      "instruction": "Trasformate questa frase colloquiale in una lettera formale di candidatura.",
+      "given": "Hey, ich hab gesehen, dass ihr jemanden sucht. Ich bin echt gut in dem Bereich und würd mich freuen, bei euch anzufangen.",
+      "answer": "Sehr geehrte Damen und Herren, mit großem Interesse habe ich Ihre Stellenausschreibung zur Kenntnis genommen. Aufgrund meiner einschlägigen Erfahrung in diesem Bereich bin ich überzeugt, einen wertvollen Beitrag zu Ihrem Unternehmen leisten zu können.",
+      "hint": "Usate 'Sehr geehrte Damen und Herren', lessico formale e strutture impersonali."
+    }
+  ]
+}
