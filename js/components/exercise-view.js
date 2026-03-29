@@ -1,6 +1,7 @@
 import { renderPage, setHeaderTitle, showBackButton, loadCourseStructure, loadData } from '../renderer.js';
 import { store } from '../store.js';
 import { navigate } from '../router.js';
+import { playComplete, playStreak } from '../audio.js';
 import { renderMultipleChoice } from '../exercises/multiple-choice.js';
 import { renderFillBlank } from '../exercises/fill-blanks.js';
 import { renderMatching } from '../exercises/matching.js';
@@ -149,6 +150,8 @@ export async function renderExercise(exerciseId) {
         store.completeLesson(exerciseId, pct);
         store.addExerciseStats(total, correctCount);
         if (typeof window.applySettings === 'function') window.applySettings();
+
+        if (pct >= 90) playStreak(); else playComplete();
 
         const page = renderPage(`
             <div class="summary-card card">

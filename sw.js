@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v1';
+const CACHE_NAME = 'tedesco-facile-v2';
 const SHELL_ASSETS = [
     './',
     './index.html',
@@ -22,6 +22,11 @@ const SHELL_ASSETS = [
     './js/exercises/translation.js',
     './js/exercises/reorder.js',
     './js/exercises/select-article.js',
+    './js/audio.js',
+    './js/auth.js',
+    './js/sync.js',
+    './js/firebase-config.js',
+    './js/components/auth-view.js',
     './data/course-structure.json'
 ];
 

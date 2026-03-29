@@ -1,3 +1,5 @@
+import { playCorrect, playIncorrect, playClick } from '../audio.js';
+
 export function renderMultipleChoice(container, exercise, onReady, onDirectAnswer) {
     const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
@@ -46,6 +48,7 @@ export function renderMultipleChoice(container, exercise, onReady, onDirectAnswe
                 `;
             }
 
+            if (isCorrect) playCorrect(); else playIncorrect();
             onDirectAnswer(isCorrect);
         });
     });

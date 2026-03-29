@@ -1,4 +1,5 @@
 import { checkTranslation } from '../renderer.js';
+import { playCorrect, playIncorrect } from '../audio.js';
 
 export function renderTranslation(container, exercise, onReady, onDirectAnswer) {
     const direction = exercise.direction || 'it-to-de';
@@ -37,10 +38,12 @@ export function renderTranslation(container, exercise, onReady, onDirectAnswer) 
                 textarea.disabled = true;
 
                 if (result === 'correct') {
+                    playCorrect();
                     textarea.classList.add('correct');
                     feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
                     return true;
                 } else if (result === 'close') {
+                    playCorrect();
                     textarea.classList.add('correct');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-correct">
@@ -49,6 +52,7 @@ export function renderTranslation(container, exercise, onReady, onDirectAnswer) 
                     `;
                     return true;
                 } else {
+                    playIncorrect();
                     textarea.classList.add('incorrect');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">

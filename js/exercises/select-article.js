@@ -1,3 +1,5 @@
+import { playCorrect, playIncorrect, playClick } from '../audio.js';
+
 export function renderSelectArticle(container, exercise, onReady, onDirectAnswer) {
     let answeredCount = 0;
     let correctCount = 0;
@@ -50,8 +52,14 @@ export function renderSelectArticle(container, exercise, onReady, onDirectAnswer
             answeredCount++;
             if (isCorrect) correctCount++;
 
+            playClick();
             if (answeredCount === totalItems) {
                 const allCorrect = correctCount === totalItems;
+                if (allCorrect) {
+                    playCorrect();
+                } else {
+                    playIncorrect();
+                }
                 if (allCorrect) {
                     feedbackEl.innerHTML = '<div class="feedback feedback-correct">Tutti gli articoli sono corretti!</div>';
                 } else {

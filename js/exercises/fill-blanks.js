@@ -1,3 +1,5 @@
+import { playCorrect, playIncorrect } from '../audio.js';
+
 export function renderFillBlank(container, exercise, onReady, onDirectAnswer) {
     // Build sentence with blanks
     let sentenceHtml = exercise.sentence;
@@ -49,8 +51,10 @@ export function renderFillBlank(container, exercise, onReady, onDirectAnswer) {
                 });
 
                 if (allCorrect) {
+                    playCorrect();
                     feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
                 } else {
+                    playIncorrect();
                     const correctAnswers = blanks.map(b => b.correct[0]).join(', ');
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">

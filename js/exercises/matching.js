@@ -1,4 +1,5 @@
 import { shuffleArray } from '../renderer.js';
+import { playMatchPair, playCorrect, playIncorrect } from '../audio.js';
 
 export function renderMatching(container, exercise, onReady, onDirectAnswer) {
     const pairs = exercise.pairs;
@@ -49,14 +50,17 @@ export function renderMatching(container, exercise, onReady, onDirectAnswer) {
                     container.querySelector(`[data-side="left"][data-idx="${selectedLeft}"]`).classList.remove('selected');
                     matchedCount++;
                     selectedLeft = null;
+                    playMatchPair();
 
                     if (matchedCount === totalPairs) {
+                        playCorrect();
                         container.querySelector('#match-feedback').innerHTML =
                             '<div class="feedback feedback-correct">Tutte le coppie abbinate correttamente!</div>';
                         onDirectAnswer(true);
                     }
                 } else {
                     // Wrong match
+                    playIncorrect();
                     item.classList.add('wrong');
                     setTimeout(() => item.classList.remove('wrong'), 400);
                 }

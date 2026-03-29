@@ -8,12 +8,17 @@ import { renderLesson } from './components/lesson-view.js';
 import { renderExercise } from './components/exercise-view.js';
 import { renderProgress } from './components/progress-view.js';
 import { renderSettings } from './components/settings-view.js';
+import { renderAuthPage } from './components/auth-view.js';
+import { initAuth, onAuthChange, getCurrentUser } from './auth.js';
+import { isFirebaseConfigured } from './firebase-config.js';
+import { setAudioEnabled } from './audio.js';
 
 // Apply saved settings
 function applySettings() {
     const settings = store.getSettings();
     document.documentElement.setAttribute('data-theme', settings.darkMode ? 'dark' : 'light');
     document.documentElement.setAttribute('data-font', settings.fontSize || 'normal');
+    setAudioEnabled(settings.audioEnabled !== false);
 
     // Update streak badge
     const stats = store.getStats();
@@ -25,6 +30,28 @@ function applySettings() {
     } else {
         badge.classList.add('hidden');
     }
+
+    // Update auth indicator
+    updateAuthIndicator();
+}
+
+function updateAuthIndicator() {
+    const indicator = document.getElementById('auth-indicator');
+    if (!indicator) return;
+
+    const user = getCurrentUser();
+    if (user) {
+        const initial = (user.email || 'U')[0].toUpperCase();
+        indicator.innerHTML = `<span class="auth-avatar">${initial}</span>`;
+        indicator.classList.remove('hidden');
+        indicator.title = user.email || 'Account';
+    } else if (isFirebaseConfigured()) {
+        indicator.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
+        indicator.classList.remove('hidden');
+        indicator.title = 'Accedi';
+    } else {
+        indicator.classList.add('hidden');
+    }
 }
 
 // Theme toggle
@@ -32,6 +59,11 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
     const settings = store.getSettings();
     store.saveSetting('darkMode', !settings.darkMode);
     applySettings();
+});
+
+// Auth indicator click
+document.getElementById('auth-indicator')?.addEventListener('click', () => {
+    navigate('/account');
 });
 
 // Register routes
@@ -42,11 +74,30 @@ addRoute('/lesson/:id', (params) => renderLesson(params.id));
 addRoute('/exercise/:id', (params) => renderExercise(params.id));
 addRoute('/progress', () => renderProgress());
 addRoute('/settings', () => renderSettings());
+addRoute('/account', () => renderAuthPage());
 
 // Initialize
-applySettings();
-store.updateStreak();
-startRouter();
+async function init() {
+    applySettings();
+    store.updateStreak();
+
+    // Initialize Firebase auth if configured
+    if (isFirebaseConfigured()) {
+        await initAuth();
+        onAuthChange(async (user) => {
+            updateAuthIndicator();
+            if (user) {
+                // Sync from cloud on login
+                await store.syncFromCloud();
+                applySettings();
+            }
+        });
+    }
+
+    startRouter();
+}
+
+init();
 
 // Register service worker
 if ('serviceWorker' in navigator) {

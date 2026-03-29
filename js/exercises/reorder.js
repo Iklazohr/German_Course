@@ -1,4 +1,5 @@
 import { shuffleArray } from '../renderer.js';
+import { playCorrect, playIncorrect, playClick } from '../audio.js';
 
 export function renderReorder(container, exercise, onReady, onDirectAnswer) {
     const words = shuffleArray(exercise.words);
@@ -48,8 +49,10 @@ export function renderReorder(container, exercise, onReady, onDirectAnswer) {
                 answerEl.classList.add(isCorrect ? 'correct' : 'incorrect');
 
                 if (isCorrect) {
+                    playCorrect();
                     feedbackEl.innerHTML = '<div class="feedback feedback-correct">Corretto!</div>';
                 } else {
+                    playIncorrect();
                     feedbackEl.innerHTML = `
                         <div class="feedback feedback-incorrect">
                             <div class="feedback-title">Non corretto</div>
@@ -67,6 +70,7 @@ export function renderReorder(container, exercise, onReady, onDirectAnswer) {
     sourceEl.querySelectorAll('.reorder-word').forEach(el => {
         el.addEventListener('click', () => {
             if (el.classList.contains('placed')) return;
+            playClick();
             el.classList.add('placed');
             answerWords.push(el.dataset.word);
             updateAnswer();

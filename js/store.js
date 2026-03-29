@@ -1,14 +1,19 @@
-// ===== LocalStorage Progress & Settings Store =====
+// ===== LocalStorage Progress & Settings Store with Cloud Sync =====
+
+import { isSyncAvailable, saveToCloud, loadFromCloud, mergeProgress } from './sync.js';
 
 const STORAGE_KEY = 'germanCourse';
 const STORAGE_VERSION = 1;
+
+let syncTimeout = null;
 
 function getDefaultState() {
     return {
         version: STORAGE_VERSION,
         settings: {
             darkMode: false,
-            fontSize: 'normal'
+            fontSize: 'normal',
+            audioEnabled: true
         },
         progress: {},
         currentLesson: null,
@@ -27,6 +32,10 @@ function loadState() {
         if (state.version !== STORAGE_VERSION) {
             return { ...getDefaultState(), ...state, version: STORAGE_VERSION };
         }
+        // Ensure audioEnabled exists
+        if (state.settings && state.settings.audioEnabled === undefined) {
+            state.settings.audioEnabled = true;
+        }
         return state;
     } catch {
         return getDefaultState();
@@ -39,6 +48,17 @@ function saveState(state) {
     } catch {
         // Storage full or unavailable
     }
+    // Debounced cloud sync
+    scheduleSyncToCloud();
+}
+
+function scheduleSyncToCloud() {
+    if (syncTimeout) clearTimeout(syncTimeout);
+    syncTimeout = setTimeout(async () => {
+        if (isSyncAvailable()) {
+            await saveToCloud(state);
+        }
+    }, 2000);
 }
 
 let state = loadState();
@@ -82,9 +102,6 @@ export const store = {
             completedAt: new Date().toISOString(),
             lastAccessed: new Date().toISOString()
         };
-        if (score !== null) {
-            // Track for global stats
-        }
         this.updateStreak();
         saveState(state);
     },
@@ -151,12 +168,50 @@ export const store = {
     },
 
     resetProgress() {
+        const settings = { ...state.settings };
         state = getDefaultState();
-        state.settings = this.getSettings();
+        state.settings = settings;
         saveState(state);
     },
 
     getAllProgress() {
         return { ...state.progress };
+    },
+
+    // Cloud sync methods
+    async syncFromCloud() {
+        if (!isSyncAvailable()) return false;
+        try {
+            const cloudData = await loadFromCloud();
+            if (cloudData) {
+                const merged = mergeProgress(state, cloudData);
+                state = { ...state, ...merged, version: STORAGE_VERSION };
+                // Preserve local settings
+                if (cloudData.settings) {
+                    state.settings = { ...state.settings, ...cloudData.settings };
+                }
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+                return true;
+            }
+            return false;
+        } catch (err) {
+            console.error('Sync from cloud failed:', err);
+            return false;
+        }
+    },
+
+    async forceSyncToCloud() {
+        if (!isSyncAvailable()) return false;
+        return await saveToCloud(state);
+    },
+
+    getStateForExport() {
+        return { ...state };
+    },
+
+    importState(importedState) {
+        const merged = mergeProgress(state, importedState);
+        state = { ...state, ...merged, version: STORAGE_VERSION };
+        saveState(state);
     }
 };
