@@ -1,0 +1,45 @@
+{
+  "id": "a2-g11",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Il futuro con \"werden\"",
+  "subtitle": "Futur I",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il Futur I è il tempo verbale usato in tedesco per esprimere azioni future. Si forma con il verbo ausiliare 'werden' coniugato + l'infinito del verbo principale alla fine della frase. In pratica, però, i tedeschi usano spesso il presente con un'indicazione temporale per esprimere il futuro. Il Futur I è usato anche per esprimere supposizioni e previsioni."
+    },
+    {
+      "type": "rule",
+      "title": "Struttura: werden + infinito alla fine",
+      "content": "Il Futur I si forma così: soggetto + werden (coniugato) + ... + infinito del verbo principale (alla fine).\n\nIch werde morgen kommen. (Verrò domani.)\nDu wirst ein Geschenk bekommen. (Riceverai un regalo.)\nEr wird nächste Woche umziehen. (Si trasferirà la prossima settimana.)\n\nNelle frasi subordinate, 'werden' va alla fine dopo l'infinito:\nIch weiß, dass er morgen kommen wird."
+    },
+    {
+      "type": "rule",
+      "title": "Coniugazione di 'werden'",
+      "content": "Il verbo 'werden' è irregolare. Ecco la sua coniugazione al presente (usata per formare il Futur I):\n\nich werde\ndu wirst\ner/sie/es wird\nwir werden\nihr werdet\nsie/Sie werden\n\nAttenzione: 'werden' ha tre usi diversi in tedesco:\n1. Come verbo principale: 'diventare' → Er wird Arzt. (Diventa medico.)\n2. Come ausiliare del futuro: → Er wird kommen. (Verrà.)\n3. Come ausiliare del passivo: → Er wird gefragt. (Viene chiesto.)"
+    },
+    {
+      "type": "rule",
+      "title": "Il presente per il futuro prossimo",
+      "content": "In tedesco si usa molto spesso il presente (Präsens) per esprimere azioni future, soprattutto quando c'è un'indicazione temporale che chiarisce che si tratta del futuro.\n\nIch komme morgen. (Vengo domani. = Verrò domani.)\nWir fliegen nächsten Sommer nach Italien. (Voliamo la prossima estate in Italia.)\n\nIl Futur I con 'werden' si usa quando:\n- Si vuole sottolineare l'intenzione o la certezza\n- Si fanno previsioni\n- Non c'è un'indicazione temporale nella frase\n- Si fanno promesse: Ich werde dich nie vergessen!"
+    },
+    {
+      "type": "tip",
+      "content": "Il Futur I si usa spesso per esprimere supposizioni e probabilità. In questo caso si aggiunge spesso 'wohl', 'wahrscheinlich' o 'sicher':\n\nEr wird wohl krank sein. (Sarà probabilmente malato.)\nSie wird wahrscheinlich zu Hause sein. (Probabilmente sarà a casa.)\nDas wird schon stimmen. (Sarà sicuramente vero.)\n\nQuesto uso è molto comune nel parlato quotidiano!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Ich werde nächstes Jahr Deutsch lernen.", "it": "Imparerò il tedesco l'anno prossimo." },
+        { "de": "Wir werden morgen ins Kino gehen.", "it": "Domani andremo al cinema." },
+        { "de": "Er wird wohl krank sein.", "it": "Sarà probabilmente malato." },
+        { "de": "Du wirst das schaffen!", "it": "Ce la farai!" },
+        { "de": "Es wird morgen regnen.", "it": "Domani pioverà." },
+        { "de": "Sie werden bald heiraten.", "it": "Si sposeranno presto." },
+        { "de": "Ich werde dich nie vergessen.", "it": "Non ti dimenticherò mai." },
+        { "de": "Wirst du mir helfen?", "it": "Mi aiuterai?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "b2-v04",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Diritto e giustizia",
+  "subtitle": "Recht und Justiz",
+  "groups": [
+    {
+      "name": "Diritto",
+      "words": [
+        { "de": "das Gesetz, -e", "it": "la legge", "emoji": "📜", "example_de": "Das Gesetz verbietet Diskriminierung am Arbeitsplatz.", "example_it": "La legge vieta la discriminazione sul posto di lavoro." },
+        { "de": "das Recht, -e", "it": "il diritto", "emoji": "⚖️", "example_de": "Jeder Bürger hat das Recht auf freie Meinungsäußerung.", "example_it": "Ogni cittadino ha il diritto alla libera espressione." },
+        { "de": "das Gericht, -e", "it": "il tribunale", "emoji": "🏛️", "example_de": "Der Fall wird vor Gericht verhandelt.", "example_it": "Il caso viene discusso in tribunale." },
+        { "de": "der Richter, -", "it": "il giudice", "emoji": "👨‍⚖️", "example_de": "Der Richter hat das Urteil gesprochen.", "example_it": "Il giudice ha pronunciato la sentenza." },
+        { "de": "der Anwalt, Anwälte", "it": "l'avvocato", "emoji": "👔", "example_de": "Sie hat einen Anwalt für Familienrecht engagiert.", "example_it": "Ha assunto un avvocato per il diritto di famiglia." },
+        { "de": "der Angeklagte, -n", "it": "l'imputato", "emoji": "🧑‍⚖️", "example_de": "Der Angeklagte hat seine Unschuld beteuert.", "example_it": "L'imputato ha proclamato la sua innocenza." },
+        { "de": "der Zeuge, -n", "it": "il testimone", "emoji": "🗣️", "example_de": "Der Zeuge hat vor Gericht ausgesagt.", "example_it": "Il testimone ha testimoniato in tribunale." },
+        { "de": "das Urteil, -e", "it": "la sentenza / il giudizio", "emoji": "🔨", "example_de": "Das Urteil wird nächste Woche verkündet.", "example_it": "La sentenza sarà pronunciata la prossima settimana." },
+        { "de": "die Klage, -n", "it": "la denuncia / il ricorso", "emoji": "📋", "example_de": "Er hat eine Klage gegen die Firma eingereicht.", "example_it": "Ha presentato un ricorso contro l'azienda." },
+        { "de": "der Staatsanwalt, -anwälte", "it": "il pubblico ministero", "emoji": "🏛️", "example_de": "Der Staatsanwalt forderte eine hohe Strafe.", "example_it": "Il pubblico ministero ha chiesto una pena severa." }
+      ]
+    },
+    {
+      "name": "Reati e pene",
+      "words": [
+        { "de": "das Verbrechen, -", "it": "il crimine / il reato", "emoji": "🚔", "example_de": "Die Polizei untersucht das Verbrechen.", "example_it": "La polizia indaga sul crimine." },
+        { "de": "der Diebstahl, -stähle", "it": "il furto", "emoji": "🦹", "example_de": "Der Diebstahl wurde sofort gemeldet.", "example_it": "Il furto è stato denunciato immediatamente." },
+        { "de": "der Betrug", "it": "la truffa / la frode", "emoji": "🎭", "example_de": "Er wurde wegen Betrugs verurteilt.", "example_it": "È stato condannato per frode." },
+        { "de": "der Mord, -e", "it": "l'omicidio", "emoji": "🔪", "example_de": "Der Mord geschah in der Nacht.", "example_it": "L'omicidio è avvenuto di notte." },
+        { "de": "die Strafe, -n", "it": "la pena / la punizione", "emoji": "⚖️", "example_de": "Die Strafe fiel mild aus.", "example_it": "La pena è stata mite." },
+        { "de": "das Gefängnis, -se", "it": "il carcere / la prigione", "emoji": "🔒", "example_de": "Er muss drei Jahre ins Gefängnis.", "example_it": "Deve andare in carcere per tre anni." },
+        { "de": "die Bewährung", "it": "la condizionale / la libertà vigilata", "emoji": "📝", "example_de": "Er wurde zu zwei Jahren auf Bewährung verurteilt.", "example_it": "È stato condannato a due anni con la condizionale." },
+        { "de": "die Geldstrafe, -n", "it": "la multa / l'ammenda", "emoji": "💰", "example_de": "Er musste eine Geldstrafe von 500 Euro zahlen.", "example_it": "Ha dovuto pagare una multa di 500 euro." },
+        { "de": "die Körperverletzung", "it": "la lesione personale", "emoji": "🤕", "example_de": "Er wurde wegen Körperverletzung angezeigt.", "example_it": "È stato denunciato per lesioni personali." },
+        { "de": "die Sachbeschädigung", "it": "il danneggiamento", "emoji": "💥", "example_de": "Sachbeschädigung ist eine Straftat.", "example_it": "Il danneggiamento è un reato." }
+      ]
+    },
+    {
+      "name": "Processo e azioni legali",
+      "words": [
+        { "de": "anklagen", "it": "accusare / incriminare", "emoji": "⚖️", "example_de": "Der Staatsanwalt hat ihn wegen Betrugs angeklagt.", "example_it": "Il pubblico ministero lo ha incriminato per frode." },
+        { "de": "verurteilen", "it": "condannare", "emoji": "🔨", "example_de": "Das Gericht hat ihn zu fünf Jahren Haft verurteilt.", "example_it": "Il tribunale lo ha condannato a cinque anni di detenzione." },
+        { "de": "freisprechen", "it": "assolvere", "emoji": "✅", "example_de": "Der Angeklagte wurde freigesprochen.", "example_it": "L'imputato è stato assolto." },
+        { "de": "verteidigen", "it": "difendere", "emoji": "🛡️", "example_de": "Der Anwalt verteidigt seinen Mandanten.", "example_it": "L'avvocato difende il suo cliente." },
+        { "de": "aussagen", "it": "testimoniare / deporre", "emoji": "🗣️", "example_de": "Die Zeugin hat vor Gericht ausgesagt.", "example_it": "La testimone ha deposto in tribunale." },
+        { "de": "beweisen", "it": "dimostrare / provare", "emoji": "🔍", "example_de": "Die Schuld konnte nicht bewiesen werden.", "example_it": "La colpa non ha potuto essere dimostrata." },
+        { "de": "beschuldigen", "it": "accusare / incolpare", "emoji": "👉", "example_de": "Man beschuldigt ihn des Diebstahls.", "example_it": "Lo accusano di furto." },
+        { "de": "verhaften", "it": "arrestare", "emoji": "🚓", "example_de": "Die Polizei hat den Verdächtigen verhaftet.", "example_it": "La polizia ha arrestato il sospettato." },
+        { "de": "ermitteln", "it": "indagare", "emoji": "🔎", "example_de": "Die Polizei ermittelt in alle Richtungen.", "example_it": "La polizia indaga in tutte le direzioni." },
+        { "de": "klagen (gegen + Akk.)", "it": "fare causa (contro)", "emoji": "📄", "example_de": "Er klagt gegen seinen ehemaligen Arbeitgeber.", "example_it": "Fa causa contro il suo ex datore di lavoro." }
+      ]
+    }
+  ]
+}

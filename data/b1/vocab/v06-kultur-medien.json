@@ -1,0 +1,199 @@
+{
+  "id": "b1-v06",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Cultura e media",
+  "subtitle": "Kultur und Medien",
+  "groups": [
+    {
+      "name": "Cultura",
+      "words": [
+        {
+          "de": "das Theater",
+          "it": "il teatro",
+          "emoji": "🎭",
+          "example_de": "Heute Abend gehen wir ins Theater.",
+          "example_it": "Stasera andiamo a teatro."
+        },
+        {
+          "de": "die Oper",
+          "it": "l'opera",
+          "emoji": "🎵",
+          "example_de": "Die Oper von Wien ist weltberühmt.",
+          "example_it": "L'opera di Vienna è famosa nel mondo."
+        },
+        {
+          "de": "das Konzert",
+          "it": "il concerto",
+          "emoji": "🎶",
+          "example_de": "Das Konzert war ausverkauft.",
+          "example_it": "Il concerto era tutto esaurito."
+        },
+        {
+          "de": "die Ausstellung",
+          "it": "la mostra",
+          "emoji": "🖼️",
+          "example_de": "Die Ausstellung zeigt moderne Kunst.",
+          "example_it": "La mostra espone arte moderna."
+        },
+        {
+          "de": "das Festival",
+          "it": "il festival",
+          "emoji": "🎪",
+          "example_de": "Jedes Jahr findet hier ein Filmfestival statt.",
+          "example_it": "Ogni anno qui si tiene un festival del cinema."
+        },
+        {
+          "de": "die Literatur",
+          "it": "la letteratura",
+          "emoji": "📚",
+          "example_de": "Die deutsche Literatur hat viele berühmte Autoren.",
+          "example_it": "La letteratura tedesca ha molti autori famosi."
+        },
+        {
+          "de": "die Dichtung",
+          "it": "la poesia / la letteratura poetica",
+          "emoji": "✒️",
+          "example_de": "Goethes Dichtung ist sehr bedeutend.",
+          "example_it": "La poesia di Goethe è molto importante."
+        },
+        {
+          "de": "die Malerei",
+          "it": "la pittura",
+          "emoji": "🎨",
+          "example_de": "Die Malerei der Renaissance fasziniert mich.",
+          "example_it": "La pittura del Rinascimento mi affascina."
+        },
+        {
+          "de": "die Skulptur",
+          "it": "la scultura",
+          "emoji": "🗿",
+          "example_de": "Im Park stehen viele moderne Skulpturen.",
+          "example_it": "Nel parco ci sono molte sculture moderne."
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "words": [
+        {
+          "de": "die Zeitschrift",
+          "it": "la rivista",
+          "emoji": "📰",
+          "example_de": "Ich lese gern Zeitschriften über Reisen.",
+          "example_it": "Mi piace leggere riviste sui viaggi."
+        },
+        {
+          "de": "der Podcast",
+          "it": "il podcast",
+          "emoji": "🎙️",
+          "example_de": "Ich höre jeden Tag einen Podcast auf Deutsch.",
+          "example_it": "Ascolto ogni giorno un podcast in tedesco."
+        },
+        {
+          "de": "der Blog",
+          "it": "il blog",
+          "emoji": "💻",
+          "example_de": "Sie schreibt einen Blog über das Leben in Deutschland.",
+          "example_it": "Lei scrive un blog sulla vita in Germania."
+        },
+        {
+          "de": "die Dokumentation",
+          "it": "il documentario",
+          "emoji": "🎬",
+          "example_de": "Diese Dokumentation über die Natur ist sehr interessant.",
+          "example_it": "Questo documentario sulla natura è molto interessante."
+        },
+        {
+          "de": "die Nachrichten",
+          "it": "le notizie / il telegiornale",
+          "emoji": "📺",
+          "example_de": "Ich schaue jeden Abend die Nachrichten.",
+          "example_it": "Guardo il telegiornale ogni sera."
+        },
+        {
+          "de": "die Werbung",
+          "it": "la pubblicità",
+          "emoji": "📢",
+          "example_de": "Die Werbung im Fernsehen nervt mich.",
+          "example_it": "La pubblicità in TV mi dà fastidio."
+        },
+        {
+          "de": "die Kolumne",
+          "it": "la rubrica",
+          "emoji": "📝",
+          "example_de": "Er schreibt eine wöchentliche Kolumne in der Zeitung.",
+          "example_it": "Lui scrive una rubrica settimanale sul giornale."
+        },
+        {
+          "de": "die Redaktion",
+          "it": "la redazione",
+          "emoji": "🏢",
+          "example_de": "Die Redaktion entscheidet, welche Artikel veröffentlicht werden.",
+          "example_it": "La redazione decide quali articoli vengono pubblicati."
+        }
+      ]
+    },
+    {
+      "name": "Verbi",
+      "words": [
+        {
+          "de": "auftreten",
+          "it": "esibirsi / apparire",
+          "emoji": "🎤",
+          "example_de": "Die Band tritt heute Abend im Klub auf.",
+          "example_it": "La band si esibisce stasera nel club."
+        },
+        {
+          "de": "veröffentlichen",
+          "it": "pubblicare",
+          "emoji": "📤",
+          "example_de": "Der Autor hat einen neuen Roman veröffentlicht.",
+          "example_it": "L'autore ha pubblicato un nuovo romanzo."
+        },
+        {
+          "de": "inszenieren",
+          "it": "mettere in scena",
+          "emoji": "🎬",
+          "example_de": "Der Regisseur inszeniert ein Stück von Brecht.",
+          "example_it": "Il regista mette in scena un'opera di Brecht."
+        },
+        {
+          "de": "rezensieren",
+          "it": "recensire",
+          "emoji": "📝",
+          "example_de": "Die Kritikerin rezensiert den neuen Film.",
+          "example_it": "La critica recensisce il nuovo film."
+        },
+        {
+          "de": "empfehlen",
+          "it": "raccomandare / consigliare",
+          "emoji": "👍",
+          "example_de": "Ich empfehle dir dieses Buch.",
+          "example_it": "Ti consiglio questo libro."
+        },
+        {
+          "de": "kritisieren",
+          "it": "criticare",
+          "emoji": "🔍",
+          "example_de": "Die Zeitung kritisiert die neue Politik.",
+          "example_it": "Il giornale critica la nuova politica."
+        },
+        {
+          "de": "berichten",
+          "it": "riferire / fare un resoconto",
+          "emoji": "📡",
+          "example_de": "Der Journalist berichtet live aus Berlin.",
+          "example_it": "Il giornalista riferisce in diretta da Berlino."
+        },
+        {
+          "de": "kommentieren",
+          "it": "commentare",
+          "emoji": "💬",
+          "example_de": "Viele Leser kommentieren den Artikel online.",
+          "example_it": "Molti lettori commentano l'articolo online."
+        }
+      ]
+    }
+  ]
+}

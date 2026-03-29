@@ -1,0 +1,95 @@
+{
+  "id": "a1-r08",
+  "level": "a1",
+  "type": "exercise",
+  "title": "Test Unità 8",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "instruction": "Che ore sono? 'Es ist halb elf.'",
+      "options": ["11:30", "10:30", "10:00", "11:00"],
+      "correct": "10:30",
+      "explanation": "'Halb elf' = metà strada verso le 11 = 10:30."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione corretta.",
+      "sentence": "Der Kurs beginnt _____ 9 Uhr.",
+      "answer": "um",
+      "explanation": "Con l'orario si usa 'um'."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione corretta.",
+      "sentence": "_____ Juli fahre ich in den Urlaub.",
+      "answer": "Im",
+      "explanation": "Con i mesi si usa 'im': im Juli."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta di 'haben'.",
+      "sentence": "_____ du heute Abend Zeit?",
+      "answer": "Hast",
+      "explanation": "du hast → nella domanda: Hast du...?"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Come si dice '3:15' in modo colloquiale?",
+      "options": ["Viertel nach drei", "Viertel vor drei", "halb drei", "drei Uhr fünfzehn"],
+      "correct": "Viertel nach drei",
+      "explanation": "3:15 = un quarto dopo le 3 = Viertel nach drei."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Faccio colazione alle 7.",
+      "answer": "Ich frühstücke um 7 Uhr.",
+      "explanation": "'Frühstücken' = fare colazione, 'um 7 Uhr' = alle 7."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Dopo la scuola vado a casa.",
+      "answer": "Nach der Schule gehe ich nach Hause.",
+      "explanation": "'Nach' + dativo per 'dopo'. 'Nach Hause gehen' = andare a casa."
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina le forme corrette di 'haben'.",
+      "pairs": [
+        { "left": "ich", "right": "habe" },
+        { "left": "du", "right": "hast" },
+        { "left": "er/sie/es", "right": "hat" },
+        { "left": "ihr", "right": "habt" }
+      ]
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole.",
+      "words": ["Abend", "Am", "fern", "ich", "sehe"],
+      "answer": "Am Abend sehe ich fern.",
+      "explanation": "Complemento di tempo in posizione 1, verbo in posizione 2, soggetto in posizione 3."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione corretta.",
+      "sentence": "Ich lerne Deutsch _____ drei Monaten.",
+      "answer": "seit",
+      "explanation": "'Seit' si usa per azioni che continuano dal passato: da tre mesi."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Cosa significa 'Ich habe Durst'?",
+      "options": ["Ho sete", "Ho fame", "Ho fretta", "Ho sonno"],
+      "correct": "Ho sete",
+      "explanation": "'Durst haben' = avere sete."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco: 'La mattina mi lavo i denti.'",
+      "sentence": "La mattina mi lavo i denti.",
+      "answer": "Am Morgen putze ich mir die Zähne.",
+      "explanation": "'Am Morgen' = di mattina, 'sich die Zähne putzen' = lavarsi i denti."
+    }
+  ]
+}

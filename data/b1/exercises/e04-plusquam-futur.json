@@ -1,0 +1,127 @@
+{
+  "id": "b1-e04",
+  "level": "b1",
+  "type": "exercise",
+  "title": "Esercizi: Tempi verbali avanzati",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Plusquamperfekt del verbo tra parentesi.",
+      "question": "Nachdem ich das Buch ___ (lesen), gab ich es zurück.",
+      "answer": "gelesen hatte",
+      "hint": "lesen → gelesen + hatte (ausiliare haben)"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Plusquamperfekt del verbo tra parentesi.",
+      "question": "Nachdem sie nach Hause ___ (kommen), machte sie das Abendessen.",
+      "answer": "gekommen war",
+      "hint": "kommen → gekommen + war (ausiliare sein, verbo di movimento)"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Plusquamperfekt del verbo tra parentesi.",
+      "question": "Nachdem wir die Tickets ___ (kaufen), gingen wir ins Kino.",
+      "answer": "gekauft hatten",
+      "hint": "kaufen → gekauft + hatten (soggetto wir)"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la congiunzione temporale corretta.",
+      "question": "___ er gegessen hatte, ging er spazieren.",
+      "options": ["Bevor", "Nachdem", "Während", "Bis"],
+      "answer": "Nachdem",
+      "hint": "Quale congiunzione si usa per 'dopo che' + Plusquamperfekt?"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la congiunzione temporale corretta.",
+      "question": "___ sie abreiste, hatte sie alles eingepackt.",
+      "options": ["Nachdem", "Als", "Bevor", "Seitdem"],
+      "answer": "Bevor",
+      "hint": "L'azione di fare le valigie è avvenuta PRIMA della partenza."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale frase usa correttamente il Plusquamperfekt?",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Nachdem ich gefrühstückt hatte, ging ich zur Arbeit.",
+        "Nachdem ich frühstückte, hatte ich zur Arbeit gegangen.",
+        "Nachdem ich frühstücken hatte, ging ich zur Arbeit.",
+        "Nachdem ich gefrühstückt habe, ging ich zur Arbeit."
+      ],
+      "answer": "Nachdem ich gefrühstückt hatte, ging ich zur Arbeit.",
+      "hint": "Nachdem + Plusquamperfekt (hatte + Partizip II), frase principale al Präteritum."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando il Plusquamperfekt.",
+      "question": "Dopo che era arrivato a casa, si è riposato.",
+      "answer": "Nachdem er nach Hause gekommen war, ruhte er sich aus.",
+      "hint": "dopo che = nachdem, arrivare a casa = nach Hause kommen (sein), riposarsi = sich ausruhen"
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando il Plusquamperfekt.",
+      "question": "Avevamo già mangiato quando lui è arrivato.",
+      "answer": "Wir hatten schon gegessen, als er ankam.",
+      "hint": "già = schon, quando (evento singolo passato) = als"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Futur II per esprimere una supposizione.",
+      "question": "Er ist noch nicht da. Er ___ den Bus ___ (verpassen).",
+      "answer": "wird ... verpasst haben",
+      "hint": "werden + Partizip II + haben = Futur II"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Futur II per esprimere una supposizione.",
+      "question": "Die Straße ist nass. Es ___ wohl ___ (regnen).",
+      "answer": "wird ... geregnet haben",
+      "hint": "werden + wohl + Partizip II + haben"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Futur II per esprimere una supposizione.",
+      "question": "Sie sieht müde aus. Sie ___ schlecht ___ (schlafen).",
+      "answer": "wird ... geschlafen haben",
+      "hint": "werden + Partizip II + haben"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Cosa esprime questa frase? 'Er wird wohl krank gewesen sein.'",
+      "question": "Scegli il significato corretto.",
+      "options": [
+        "Sarà malato in futuro.",
+        "È probabilmente stato malato (supposizione).",
+        "Era sicuramente malato.",
+        "Diventerà malato."
+      ],
+      "answer": "È probabilmente stato malato (supposizione).",
+      "hint": "Il Futur II con 'wohl' esprime una supposizione sul passato."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta con il Plusquamperfekt.",
+      "question": "gegangen / Nachdem / war / er / eingeschlafen / ins Bett / er / war",
+      "answer": "Nachdem er ins Bett gegangen war, war er eingeschlafen.",
+      "hint": "Nachdem + soggetto + ... + Partizip II + war, frase principale"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase con il Futur II.",
+      "question": "haben / Er / vergessen / wird / das / wohl",
+      "answer": "Er wird das wohl vergessen haben.",
+      "hint": "Soggetto + werden + oggetto + wohl + Partizip II + haben"
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando il Futur II.",
+      "question": "Avranno probabilmente già finito.",
+      "answer": "Sie werden wohl schon fertig geworden sein.",
+      "hint": "probabilmente = wohl, già = schon, finire/diventare pronti = fertig werden (sein)"
+    }
+  ]
+}

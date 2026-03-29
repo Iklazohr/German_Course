@@ -1,0 +1,52 @@
+{
+  "id": "b2-v05",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Scienza e ricerca",
+  "subtitle": "Wissenschaft und Forschung",
+  "groups": [
+    {
+      "name": "Ricerca",
+      "words": [
+        { "de": "die Forschung, -en", "it": "la ricerca", "emoji": "🔬", "example_de": "Die Forschung auf diesem Gebiet hat große Fortschritte gemacht.", "example_it": "La ricerca in questo campo ha fatto grandi progressi." },
+        { "de": "die Studie, -n", "it": "lo studio", "emoji": "📊", "example_de": "Eine neue Studie zeigt, dass Schlaf sehr wichtig ist.", "example_it": "Un nuovo studio dimostra che il sonno è molto importante." },
+        { "de": "das Experiment, -e", "it": "l'esperimento", "emoji": "🧪", "example_de": "Das Experiment wurde unter kontrollierten Bedingungen durchgeführt.", "example_it": "L'esperimento è stato condotto in condizioni controllate." },
+        { "de": "die Hypothese, -n", "it": "l'ipotesi", "emoji": "💡", "example_de": "Die Hypothese wurde durch die Daten bestätigt.", "example_it": "L'ipotesi è stata confermata dai dati." },
+        { "de": "das Ergebnis, -se", "it": "il risultato", "emoji": "📈", "example_de": "Die Ergebnisse der Studie sind vielversprechend.", "example_it": "I risultati dello studio sono promettenti." },
+        { "de": "die Methode, -n", "it": "il metodo", "emoji": "📐", "example_de": "Welche Methode haben Sie in Ihrer Forschung verwendet?", "example_it": "Quale metodo ha usato nella sua ricerca?" },
+        { "de": "die Stichprobe, -n", "it": "il campione (statistico)", "emoji": "📋", "example_de": "Die Stichprobe umfasste 500 Teilnehmer.", "example_it": "Il campione comprendeva 500 partecipanti." },
+        { "de": "die Statistik, -en", "it": "la statistica", "emoji": "📉", "example_de": "Die Statistik zeigt einen deutlichen Trend.", "example_it": "La statistica mostra una tendenza chiara." },
+        { "de": "die Theorie, -n", "it": "la teoria", "emoji": "🧠", "example_de": "Diese Theorie ist in der Wissenschaft weit verbreitet.", "example_it": "Questa teoria è molto diffusa nella scienza." },
+        { "de": "die Daten (Pl.)", "it": "i dati", "emoji": "💾", "example_de": "Die Daten wurden sorgfältig ausgewertet.", "example_it": "I dati sono stati analizzati accuratamente." }
+      ]
+    },
+    {
+      "name": "Pubblicazione",
+      "words": [
+        { "de": "der Artikel, -", "it": "l'articolo", "emoji": "📝", "example_de": "Er hat einen Artikel über Klimawandel veröffentlicht.", "example_it": "Ha pubblicato un articolo sul cambiamento climatico." },
+        { "de": "die Fachzeitschrift, -en", "it": "la rivista specializzata", "emoji": "📖", "example_de": "Der Artikel erschien in einer renommierten Fachzeitschrift.", "example_it": "L'articolo è apparso in una rivista specializzata rinomata." },
+        { "de": "die Veröffentlichung, -en", "it": "la pubblicazione", "emoji": "📤", "example_de": "Die Veröffentlichung der Ergebnisse steht kurz bevor.", "example_it": "La pubblicazione dei risultati è imminente." },
+        { "de": "das Peer-Review", "it": "la revisione paritaria", "emoji": "🔄", "example_de": "Der Artikel hat das Peer-Review erfolgreich bestanden.", "example_it": "L'articolo ha superato con successo la revisione paritaria." },
+        { "de": "das Zitat, -e", "it": "la citazione", "emoji": "💬", "example_de": "In seiner Arbeit finden sich zahlreiche Zitate.", "example_it": "Nel suo lavoro si trovano numerose citazioni." },
+        { "de": "die Bibliografie, -n", "it": "la bibliografia", "emoji": "📚", "example_de": "Die Bibliografie umfasst über 100 Quellen.", "example_it": "La bibliografia comprende oltre 100 fonti." },
+        { "de": "die Zusammenfassung, -en", "it": "il riassunto / l'abstract", "emoji": "📄", "example_de": "Lesen Sie zuerst die Zusammenfassung des Artikels.", "example_it": "Leggete prima il riassunto dell'articolo." },
+        { "de": "die Dissertation, -en", "it": "la dissertazione / la tesi di dottorato", "emoji": "🎓", "example_de": "Sie schreibt ihre Dissertation über erneuerbare Energien.", "example_it": "Sta scrivendo la sua tesi di dottorato sulle energie rinnovabili." },
+        { "de": "die Quelle, -n", "it": "la fonte", "emoji": "🔗", "example_de": "Alle Quellen müssen korrekt angegeben werden.", "example_it": "Tutte le fonti devono essere indicate correttamente." }
+      ]
+    },
+    {
+      "name": "Verbi della ricerca",
+      "words": [
+        { "de": "forschen (an + Dat.)", "it": "fare ricerca (su)", "emoji": "🔍", "example_de": "Sie forscht an einem neuen Impfstoff.", "example_it": "Fa ricerca su un nuovo vaccino." },
+        { "de": "untersuchen", "it": "esaminare / indagare", "emoji": "🔬", "example_de": "Wir untersuchen die Auswirkungen des Klimawandels.", "example_it": "Esaminiamo le conseguenze del cambiamento climatico." },
+        { "de": "nachweisen", "it": "dimostrare / comprovare", "emoji": "✅", "example_de": "Die Forscher konnten den Zusammenhang nachweisen.", "example_it": "I ricercatori hanno potuto comprovare la correlazione." },
+        { "de": "widerlegen", "it": "confutare / smentire", "emoji": "❌", "example_de": "Die Theorie wurde durch neue Erkenntnisse widerlegt.", "example_it": "La teoria è stata confutata da nuove scoperte." },
+        { "de": "belegen", "it": "documentare / supportare con prove", "emoji": "📑", "example_de": "Die These wird durch mehrere Studien belegt.", "example_it": "La tesi è supportata da diversi studi." },
+        { "de": "veröffentlichen", "it": "pubblicare", "emoji": "📢", "example_de": "Die Universität hat die Forschungsergebnisse veröffentlicht.", "example_it": "L'università ha pubblicato i risultati della ricerca." },
+        { "de": "zitieren", "it": "citare", "emoji": "💬", "example_de": "Er zitiert häufig aktuelle Studien in seinen Arbeiten.", "example_it": "Cita spesso studi recenti nei suoi lavori." },
+        { "de": "analysieren", "it": "analizzare", "emoji": "📊", "example_de": "Die Wissenschaftler analysieren die gesammelten Daten.", "example_it": "Gli scienziati analizzano i dati raccolti." },
+        { "de": "auswerten", "it": "valutare / elaborare (dati)", "emoji": "📈", "example_de": "Die Ergebnisse werden gerade ausgewertet.", "example_it": "I risultati sono in fase di elaborazione." }
+      ]
+    }
+  ]
+}

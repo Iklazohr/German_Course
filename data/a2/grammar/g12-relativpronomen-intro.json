@@ -1,0 +1,50 @@
+{
+  "id": "a2-g12",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Introduzione ai pronomi relativi",
+  "subtitle": "Relativpronomen (Einführung)",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I pronomi relativi (Relativpronomen) servono per collegare due frasi e dare informazioni aggiuntive su un sostantivo. In italiano usiamo 'che', 'il quale', 'cui'. In tedesco i pronomi relativi hanno la stessa forma degli articoli determinativi nella maggior parte dei casi. Il verbo coniugato va alla fine della frase relativa, come in tutte le subordinate."
+    },
+    {
+      "type": "rule",
+      "title": "Pronome relativo = articolo determinativo (quasi sempre)",
+      "content": "I pronomi relativi in tedesco corrispondono nella maggior parte dei casi all'articolo determinativo:\n\n          Masc.   Fem.   Neutro  Plur.\nNom.      der     die    das     die\nAcc.      den     die    das     die\nDat.      dem     der    dem     denen\nGen.      dessen  deren  dessen  deren\n\nNota: al dativo plurale si usa 'denen' (non 'den'), e il genitivo ha forme proprie (dessen/deren). Al livello A2 ci concentriamo su nominativo e accusativo."
+    },
+    {
+      "type": "rule",
+      "title": "Pronome relativo al nominativo: der/die/das + verbo alla fine",
+      "content": "Il pronome relativo è al nominativo quando è il soggetto della frase relativa.\n\nDer Mann, der dort steht, ist mein Vater.\n(L'uomo che sta lì è mio padre.)\n→ 'der' perché Mann è maschile e il pronome è soggetto della relativa.\n\nDie Frau, die Deutsch spricht, kommt aus Italien.\n(La donna che parla tedesco viene dall'Italia.)\n→ 'die' perché Frau è femminile.\n\nDas Kind, das im Garten spielt, heißt Max.\n(Il bambino che gioca in giardino si chiama Max.)\n→ 'das' perché Kind è neutro."
+    },
+    {
+      "type": "rule",
+      "title": "Pronome relativo all'accusativo: den/die/das + verbo alla fine",
+      "content": "Il pronome relativo è all'accusativo quando è l'oggetto diretto della frase relativa.\n\nDer Mann, den ich kenne, arbeitet hier.\n(L'uomo che conosco lavora qui.)\n→ 'den' perché Mann è maschile e il pronome è oggetto diretto (ich kenne den Mann).\n\nDie Pizza, die wir bestellt haben, ist lecker.\n(La pizza che abbiamo ordinato è buona.)\n→ 'die' perché Pizza è femminile.\n\nDas Buch, das ich lese, ist spannend.\n(Il libro che leggo è avvincente.)\n→ 'das' perché Buch è neutro."
+    },
+    {
+      "type": "rule",
+      "title": "Il verbo va alla fine nella frase relativa",
+      "content": "Come in tutte le subordinate in tedesco, il verbo coniugato va alla fine della frase relativa. Se c'è un participio passato (Perfekt), l'ordine è: participio + ausiliare alla fine.\n\nDer Film, den wir gestern gesehen haben, war toll.\n(Il film che abbiamo visto ieri era fantastico.)\n\nDie Lehrerin, die uns Deutsch unterrichtet, ist sehr nett.\n(L'insegnante che ci insegna tedesco è molto simpatica.)\n\nRicorda: la frase relativa è sempre separata da virgole!"
+    },
+    {
+      "type": "tip",
+      "content": "Per scegliere il pronome relativo corretto, segui questi due passi:\n1. Trova il genere e il numero del sostantivo a cui si riferisce (maschile/femminile/neutro/plurale)\n2. Determina il caso nella frase relativa: è soggetto (nominativo) o oggetto (accusativo)?\n\nTrucco: se dopo il pronome relativo c'è subito un verbo → nominativo. Se dopo il pronome relativo c'è un altro soggetto → probabilmente accusativo."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Der Mann, der dort steht, ist mein Bruder.", "it": "L'uomo che sta lì è mio fratello." },
+        { "de": "Die Frau, die ich gestern getroffen habe, heißt Anna.", "it": "La donna che ho incontrato ieri si chiama Anna." },
+        { "de": "Das Haus, das wir kaufen wollen, ist sehr groß.", "it": "La casa che vogliamo comprare è molto grande." },
+        { "de": "Die Kinder, die im Park spielen, sind laut.", "it": "I bambini che giocano al parco sono rumorosi." },
+        { "de": "Der Kuchen, den meine Mutter macht, schmeckt fantastisch.", "it": "La torta che fa mia madre è fantastica." },
+        { "de": "Das ist der Film, den ich dir empfohlen habe.", "it": "Questo è il film che ti ho consigliato." },
+        { "de": "Die Stadt, die wir besucht haben, war wunderschön.", "it": "La città che abbiamo visitato era bellissima." },
+        { "de": "Ich kenne den Mann, der neben uns wohnt.", "it": "Conosco l'uomo che abita accanto a noi." }
+      ]
+    }
+  ]
+}

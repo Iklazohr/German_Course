@@ -1,0 +1,96 @@
+{
+  "id": "b1-r04",
+  "level": "b1",
+  "type": "exercise",
+  "title": "Test Unità 4",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Plusquamperfekt.",
+      "question": "Nachdem wir den Film ___ (sehen), diskutierten wir darüber.",
+      "answer": "gesehen hatten",
+      "hint": "sehen → gesehen + hatten (soggetto wir)"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Plusquamperfekt.",
+      "question": "Als ich ___ (ankommen), hatte das Konzert schon begonnen.",
+      "answer": "angekommen war",
+      "hint": "ankommen → angekommen + war (verbo di movimento, ausiliare sein)"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il Futur II per esprimere una supposizione.",
+      "question": "Sie ist nicht gekommen. Sie ___ wohl die Einladung nicht ___ (bekommen).",
+      "answer": "wird ... bekommen haben",
+      "hint": "werden + wohl + Partizip II + haben"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la congiunzione corretta.",
+      "question": "___ sie das Museum besichtigt hatten, gingen sie in die Altstadt.",
+      "options": ["Bevor", "Nachdem", "Während", "Obwohl"],
+      "answer": "Nachdem",
+      "hint": "Prima il museo (Plusquamperfekt), poi il centro storico (Präteritum)."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco.",
+      "question": "Dopo che avevamo prenotato l'alloggio, ci siamo rilassati.",
+      "answer": "Nachdem wir die Unterkunft gebucht hatten, entspannten wir uns.",
+      "hint": "prenotare = buchen, alloggio = die Unterkunft, rilassarsi = sich entspannen"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la traduzione corretta di 'die Sehenswürdigkeit'.",
+      "question": "Was bedeutet 'die Sehenswürdigkeit'?",
+      "options": ["Il panorama", "L'attrazione turistica", "Il monumento storico", "La bellezza naturale"],
+      "answer": "L'attrazione turistica",
+      "hint": "Sehenswürdigkeit = qualcosa che vale la pena vedere (sehenswürdig)."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci il vocabolo corretto.",
+      "question": "Ich höre jeden Tag einen ___ auf Deutsch, um mein Hörverständnis zu verbessern.",
+      "answer": "Podcast",
+      "hint": "Un programma audio che si ascolta online."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale verbo significa 'pubblicare'?",
+      "question": "Der Autor hat einen neuen Roman ___.",
+      "options": ["inszeniert", "veröffentlicht", "rezensiert", "kommentiert"],
+      "answer": "veröffentlicht",
+      "hint": "Pubblicare un libro = ein Buch veröffentlichen."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco.",
+      "question": "Avrà probabilmente perso il treno.",
+      "answer": "Er wird wohl den Zug verpasst haben.",
+      "hint": "Futur II con 'wohl' per la supposizione. Perdere il treno = den Zug verpassen."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il vocabolo corretto del tema 'viaggi'.",
+      "question": "Für die Reise nach China brauche ich ein ___.",
+      "answer": "Visum",
+      "hint": "Il documento necessario per entrare in alcuni paesi."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Cosa significa 'wandern'?",
+      "question": "Am Wochenende gehen wir in den Bergen wandern.",
+      "options": ["Correre", "Fare escursioni", "Nuotare", "Arrampicarsi"],
+      "answer": "Fare escursioni",
+      "hint": "Un'attività tipica in montagna, ma non è scalare."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando il Plusquamperfekt.",
+      "question": "Prima di visitare la mostra, aveva letto una recensione.",
+      "answer": "Bevor sie die Ausstellung besichtigte, hatte sie eine Rezension gelesen.",
+      "hint": "prima di = bevor, mostra = die Ausstellung, recensione = die Rezension"
+    }
+  ]
+}

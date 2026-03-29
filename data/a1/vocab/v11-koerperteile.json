@@ -1,0 +1,48 @@
+{
+  "id": "a1-v11",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Parti del corpo",
+  "subtitle": "Körperteile",
+  "groups": [
+    {
+      "name": "Testa",
+      "words": [
+        { "de": "der Kopf", "it": "la testa", "emoji": "🗣️", "example_de": "Mein Kopf tut weh.", "example_it": "Mi fa male la testa." },
+        { "de": "das Auge, -n", "it": "l'occhio, gli occhi", "emoji": "👁️", "example_de": "Sie hat blaue Augen.", "example_it": "Lei ha gli occhi azzurri." },
+        { "de": "die Nase", "it": "il naso", "emoji": "👃", "example_de": "Seine Nase ist klein.", "example_it": "Il suo naso è piccolo." },
+        { "de": "der Mund", "it": "la bocca", "emoji": "👄", "example_de": "Mach den Mund auf!", "example_it": "Apri la bocca!" },
+        { "de": "das Ohr, -en", "it": "l'orecchio, le orecchie", "emoji": "👂", "example_de": "Ich höre mit den Ohren.", "example_it": "Sento con le orecchie." },
+        { "de": "das Haar, -e", "it": "i capelli", "emoji": "💇", "example_de": "Sie hat lange Haare.", "example_it": "Lei ha i capelli lunghi." },
+        { "de": "der Zahn, Zähne", "it": "il dente, i denti", "emoji": "🦷", "example_de": "Ich putze meine Zähne.", "example_it": "Mi lavo i denti." },
+        { "de": "das Gesicht", "it": "il viso", "emoji": "😊", "example_de": "Er hat ein freundliches Gesicht.", "example_it": "Ha un viso simpatico." }
+      ]
+    },
+    {
+      "name": "Corpo",
+      "words": [
+        { "de": "der Arm, -e", "it": "il braccio, le braccia", "emoji": "💪", "example_de": "Er hat starke Arme.", "example_it": "Ha le braccia forti." },
+        { "de": "die Hand, Hände", "it": "la mano, le mani", "emoji": "✋", "example_de": "Wasch dir die Hände!", "example_it": "Lavati le mani!" },
+        { "de": "das Bein, -e", "it": "la gamba, le gambe", "emoji": "🦵", "example_de": "Mein Bein tut weh.", "example_it": "Mi fa male la gamba." },
+        { "de": "der Fuß, Füße", "it": "il piede, i piedi", "emoji": "🦶", "example_de": "Ich habe kalte Füße.", "example_it": "Ho i piedi freddi." },
+        { "de": "der Bauch", "it": "la pancia", "emoji": "🫃", "example_de": "Ich habe Bauchschmerzen.", "example_it": "Ho mal di pancia." },
+        { "de": "der Rücken", "it": "la schiena", "emoji": "🔙", "example_de": "Mein Rücken tut weh.", "example_it": "Mi fa male la schiena." },
+        { "de": "der Finger, -", "it": "il dito, le dita", "emoji": "☝️", "example_de": "Ich habe zehn Finger.", "example_it": "Ho dieci dita." },
+        { "de": "die Schulter, -n", "it": "la spalla, le spalle", "emoji": "🤷", "example_de": "Er hat breite Schultern.", "example_it": "Ha le spalle larghe." }
+      ]
+    },
+    {
+      "name": "Salute base",
+      "words": [
+        { "de": "krank", "it": "malato", "emoji": "🤒", "example_de": "Ich bin krank.", "example_it": "Sono malato." },
+        { "de": "gesund", "it": "sano", "emoji": "💪", "example_de": "Ich bin wieder gesund.", "example_it": "Sono di nuovo sano." },
+        { "de": "die Schmerzen (Pl.)", "it": "i dolori", "emoji": "😣", "example_de": "Ich habe Schmerzen.", "example_it": "Ho dei dolori." },
+        { "de": "der Arzt / die Ärztin", "it": "il medico (m/f)", "emoji": "👨‍⚕️", "example_de": "Ich gehe zum Arzt.", "example_it": "Vado dal medico." },
+        { "de": "die Apotheke", "it": "la farmacia", "emoji": "💊", "example_de": "Ich kaufe Medizin in der Apotheke.", "example_it": "Compro medicine in farmacia." },
+        { "de": "das Fieber", "it": "la febbre", "emoji": "🌡️", "example_de": "Ich habe Fieber.", "example_it": "Ho la febbre." },
+        { "de": "die Erkältung", "it": "il raffreddore", "emoji": "🤧", "example_de": "Ich habe eine Erkältung.", "example_it": "Ho il raffreddore." },
+        { "de": "Kopfschmerzen", "it": "mal di testa", "emoji": "🤕", "example_de": "Ich habe Kopfschmerzen.", "example_it": "Ho mal di testa." }
+      ]
+    }
+  ]
+}

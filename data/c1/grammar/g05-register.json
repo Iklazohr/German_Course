@@ -1,0 +1,66 @@
+{
+  "id": "c1-g05",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Registri linguistici: formale e informale",
+  "subtitle": "Sprachregister: formell und informell",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il tedesco distingue in modo molto netto tra registro formale e informale, non solo nel lessico ma anche nelle strutture grammaticali. A livello C1, è fondamentale saper passare da un registro all'altro con sicurezza, adattando il proprio stile alla situazione comunicativa. Questa distinzione permea ogni aspetto della lingua: dalla scelta dei pronomi alla costruzione sintattica, dalla selezione lessicale al tono complessivo del discorso."
+    },
+    {
+      "type": "rule",
+      "title": "Du vs. Sie e il passaggio tra registri",
+      "content": "La distinzione tra 'du' (informale) e 'Sie' (formale) è il marcatore più evidente del registro. In ambito professionale si usa 'Sie' fino a quando non viene esplicitamente proposto il 'Du' (il cosiddetto 'Duzen'). L'offerta del 'Du' spetta tradizionalmente alla persona gerarchicamente superiore o più anziana. Nelle aziende moderne, soprattutto nel settore tecnologico, il 'Du' è spesso la norma. Attenzione: usare il 'Du' prematuramente può risultare scortese, mentre un uso eccessivo del 'Sie' in contesti informali può sembrare freddo e distaccato."
+    },
+    {
+      "type": "rule",
+      "title": "Registro formale scritto: passivo, nominalizzazione, costruzioni impersonali",
+      "content": "Il registro formale predilige:\n\n1. **Passivo**: 'Es wird darauf hingewiesen, dass...' invece di 'Wir weisen darauf hin, dass...'\n2. **Nominalizzazione**: 'Die Durchführung der Maßnahme' invece di 'Die Maßnahme durchführen'\n3. **Costruzioni impersonali**: 'Es ist zu beachten' / 'Man sollte berücksichtigen'\n4. **Konjunktiv II per cortesia**: 'Ich würde Sie bitten...' / 'Könnten Sie mir mitteilen...'\n5. **Funktionsverbgefüge**: 'in Betracht ziehen' (prendere in considerazione), 'zur Verfügung stellen' (mettere a disposizione), 'Einfluss nehmen auf' (esercitare influenza su)"
+    },
+    {
+      "type": "rule",
+      "title": "Registro informale: particelle modali, contrazioni, ellissi",
+      "content": "Il registro informale è caratterizzato da:\n\n1. **Particelle modali abbondanti**: 'Das ist halt so' / 'Komm mal her' / 'Das ist ja toll' / 'Hast du denn keine Zeit?'\n2. **Contrazioni**: 'hab ich' → 'hab'sch', 'ein' → 'n', 'eine' → 'ne', 'etwas' → 'was'\n3. **Ellissi del soggetto**: 'Hab keine Lust' (omissione di 'ich'), 'Weiß nicht' (omissione di 'ich')\n4. **Verbi separabili in posizione informale**: 'Ich ruf dich an' (caduta della desinenza -e)\n5. **Interiezioni e segnali discorsivi**: 'na ja', 'also', 'echt?', 'krass', 'boah'"
+    },
+    {
+      "type": "rule",
+      "title": "Registro accademico: attributi estesi, Funktionsverben, passivo",
+      "content": "Il registro accademico si distingue per:\n\n1. **Attributi estesi preposti al sostantivo**: 'die in den letzten Jahren stark angestiegene Arbeitslosenquote' (il tasso di disoccupazione fortemente aumentato negli ultimi anni)\n2. **Funktionsverbgefüge**: 'eine Untersuchung durchführen' (condurre un'indagine), 'zu dem Ergebnis kommen' (giungere al risultato), 'einen Beitrag leisten' (dare un contributo)\n3. **Passivo esteso**: Vorgangspassiv, Zustandspassiv e passivo con modale: 'Die Hypothese konnte bestätigt werden'\n4. **Connettori sofisticati**: 'infolgedessen', 'nichtsdestotrotz', 'demzufolge', 'darüber hinaus'\n5. **Nominalstil predominante**: preferenza per costruzioni nominali rispetto a quelle verbali"
+    },
+    {
+      "type": "tip",
+      "content": "Per scegliere il registro giusto, chiedetevi: Chi è il mio interlocutore? Qual è il contesto comunicativo? Qual è lo scopo del mio testo? Una regola pratica: in caso di dubbio, in tedesco è sempre meglio essere troppo formali che troppo informali. Il passaggio dal 'Sie' al 'Du' è irreversibile: una volta concesso, non si torna indietro."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Informell: Kannst du mir mal kurz helfen? — Formell: Könnten Sie mir bitte behilflich sein? — Akademisch: Es wäre wünschenswert, Unterstützung zu erhalten.",
+          "it": "Informale: Mi puoi dare una mano un attimo? — Formale: Potrebbe gentilmente aiutarmi? — Accademico: Sarebbe auspicabile ricevere supporto."
+        },
+        {
+          "de": "Informell: Ich hab da 'ne Idee. — Formell: Ich hätte einen Vorschlag. — Akademisch: Es sei an dieser Stelle ein Lösungsansatz vorgeschlagen.",
+          "it": "Informale: Ho un'idea. — Formale: Avrei una proposta. — Accademico: Si proponga qui un approccio risolutivo."
+        },
+        {
+          "de": "Informell: Das geht echt nicht! — Formell: Das ist leider nicht akzeptabel. — Akademisch: Dies muss als nicht hinnehmbar betrachtet werden.",
+          "it": "Informale: Questo proprio non va! — Formale: Questo purtroppo non è accettabile. — Accademico: Ciò deve essere considerato inaccettabile."
+        },
+        {
+          "de": "Informell: Wir müssen da halt irgendwas machen. — Formell: Es besteht Handlungsbedarf. — Akademisch: Die Notwendigkeit einer Intervention ist evident.",
+          "it": "Informale: Dobbiamo fare qualcosa. — Formale: È necessario intervenire. — Accademico: La necessità di un intervento è evidente."
+        },
+        {
+          "de": "Informell: Tschüss, bis bald! — Formell: Auf Wiedersehen, ich freue mich auf unser nächstes Treffen. — Schriftlich formell: Mit freundlichen Grüßen verbleibe ich.",
+          "it": "Informale: Ciao, a presto! — Formale: Arrivederci, non vedo l'ora del nostro prossimo incontro. — Scritto formale: Porgo cordiali saluti."
+        },
+        {
+          "de": "Informell: Check mal die Zahlen. — Formell: Würden Sie bitte die Zahlen überprüfen? — Akademisch: Eine Überprüfung der Daten erscheint angebracht.",
+          "it": "Informale: Controlla i numeri. — Formale: Potrebbe cortesemente verificare i numeri? — Accademico: Una verifica dei dati appare opportuna."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "a2-v08",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Lavoro e ufficio",
+  "subtitle": "Arbeit und Büro",
+  "groups": [
+    {
+      "name": "Ufficio",
+      "words": [
+        { "de": "das Büro, -s", "it": "l'ufficio", "emoji": "🏢", "example_de": "Ich arbeite in einem großen Büro.", "example_it": "Lavoro in un grande ufficio." },
+        { "de": "der Schreibtisch, -e", "it": "la scrivania", "emoji": "🖥️", "example_de": "Auf meinem Schreibtisch liegt viel Papier.", "example_it": "Sulla mia scrivania c'è molta carta." },
+        { "de": "der Computer, -", "it": "il computer", "emoji": "💻", "example_de": "Der Computer ist heute sehr langsam.", "example_it": "Il computer è molto lento oggi." },
+        { "de": "der Drucker, -", "it": "la stampante", "emoji": "🖨️", "example_de": "Der Drucker funktioniert nicht.", "example_it": "La stampante non funziona." },
+        { "de": "die Besprechung, -en", "it": "la riunione", "emoji": "📊", "example_de": "Wir haben um 10 Uhr eine Besprechung.", "example_it": "Abbiamo una riunione alle 10." },
+        { "de": "der Chef, -s / die Chefin, -nen", "it": "il capo / la capa", "emoji": "👔", "example_de": "Mein Chef ist heute nicht im Büro.", "example_it": "Il mio capo oggi non è in ufficio." },
+        { "de": "der Kollege, -n / die Kollegin, -nen", "it": "il/la collega", "emoji": "🤝", "example_de": "Meine Kollegin hilft mir immer.", "example_it": "La mia collega mi aiuta sempre." },
+        { "de": "der Termin, -e", "it": "l'appuntamento", "emoji": "📅", "example_de": "Ich habe morgen einen wichtigen Termin.", "example_it": "Domani ho un appuntamento importante." }
+      ]
+    },
+    {
+      "name": "Professioni",
+      "words": [
+        { "de": "der Ingenieur, -e / die Ingenieurin, -nen", "it": "l'ingegnere", "emoji": "👷", "example_de": "Er arbeitet als Ingenieur bei BMW.", "example_it": "Lavora come ingegnere alla BMW." },
+        { "de": "der Programmierer, - / die Programmiererin, -nen", "it": "il/la programmatore/trice", "emoji": "💻", "example_de": "Der Programmierer schreibt den Code.", "example_it": "Il programmatore scrive il codice." },
+        { "de": "der Krankenpfleger, - / die Krankenschwester, -n", "it": "l'infermiere/a", "emoji": "👩‍⚕️", "example_de": "Die Krankenschwester arbeitet im Krankenhaus.", "example_it": "L'infermiera lavora in ospedale." },
+        { "de": "der Verkäufer, - / die Verkäuferin, -nen", "it": "il/la commesso/a", "emoji": "🏪", "example_de": "Der Verkäufer im Geschäft ist sehr freundlich.", "example_it": "Il commesso nel negozio è molto gentile." },
+        { "de": "der Sekretär, -e / die Sekretärin, -nen", "it": "il/la segretario/a", "emoji": "📋", "example_de": "Die Sekretärin organisiert die Termine.", "example_it": "La segretaria organizza gli appuntamenti." },
+        { "de": "der Handwerker, -", "it": "l'artigiano", "emoji": "🔧", "example_de": "Der Handwerker repariert die Heizung.", "example_it": "L'artigiano ripara il riscaldamento." },
+        { "de": "der Anwalt, -̈e / die Anwältin, -nen", "it": "l'avvocato/essa", "emoji": "⚖️", "example_de": "Ich brauche einen guten Anwalt.", "example_it": "Ho bisogno di un buon avvocato." },
+        { "de": "der Beamte, -n / die Beamtin, -nen", "it": "il/la funzionario/a pubblico/a", "emoji": "🏛️", "example_de": "Der Beamte arbeitet im Rathaus.", "example_it": "Il funzionario lavora nel municipio." }
+      ]
+    },
+    {
+      "name": "Azioni lavorative",
+      "words": [
+        { "de": "arbeiten", "it": "lavorare", "emoji": "💼", "example_de": "Ich arbeite von Montag bis Freitag.", "example_it": "Lavoro dal lunedì al venerdì." },
+        { "de": "verdienen", "it": "guadagnare", "emoji": "💰", "example_de": "Er verdient gut in seiner Firma.", "example_it": "Guadagna bene nella sua azienda." },
+        { "de": "kündigen", "it": "licenziarsi / licenziare", "emoji": "📄", "example_de": "Sie hat gestern gekündigt.", "example_it": "Si è licenziata ieri." },
+        { "de": "sich bewerben, bewarb sich, sich beworben", "it": "candidarsi", "emoji": "📝", "example_de": "Ich bewerbe mich um die Stelle.", "example_it": "Mi candido per il posto." },
+        { "de": "drucken", "it": "stampare", "emoji": "🖨️", "example_de": "Kannst du das Dokument drucken?", "example_it": "Puoi stampare il documento?" },
+        { "de": "telefonieren", "it": "telefonare", "emoji": "📞", "example_de": "Er telefoniert den ganzen Tag mit Kunden.", "example_it": "Telefona tutto il giorno con i clienti." },
+        { "de": "planen", "it": "pianificare", "emoji": "📋", "example_de": "Wir planen das nächste Projekt.", "example_it": "Pianifichiamo il prossimo progetto." },
+        { "de": "organisieren", "it": "organizzare", "emoji": "📊", "example_de": "Sie organisiert die Weihnachtsfeier.", "example_it": "Lei organizza la festa di Natale." }
+      ]
+    }
+  ]
+}

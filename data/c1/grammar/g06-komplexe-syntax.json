@@ -1,0 +1,66 @@
+{
+  "id": "c1-g06",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Sintassi complessa e frasi incassate",
+  "subtitle": "Komplexe Syntax und verschachtelte Sätze",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il tedesco permette costruzioni sintattiche estremamente complesse, con frasi subordinate inserite l'una dentro l'altra fino a creare strutture profondamente incassate. Questa caratteristica, particolarmente frequente nella scrittura accademica e giornalistica, può risultare inizialmente disorientante. A livello C1, è essenziale saper sia comprendere che produrre queste strutture con sicurezza, riconoscendo la posizione dei verbi come chiave per decifrare la gerarchia delle frasi."
+    },
+    {
+      "type": "rule",
+      "title": "Nebensätze multiple: subordinate dentro subordinate",
+      "content": "Il tedesco permette di annidare più frasi subordinate. Ogni Nebensatz sposta il verbo coniugato in posizione finale. Quando si hanno più livelli, i verbi si accumulano alla fine:\n\n1. **Livello 1**: 'Ich weiß, dass er kommt.' (So che viene.)\n2. **Livello 2**: 'Ich weiß, dass er kommt, weil er versprochen hat, dass er da sein wird.' (So che viene perché ha promesso che ci sarà.)\n3. **Livello 3**: 'Er sagte, dass er glaube, dass die Studie, die letztes Jahr veröffentlicht wurde, fehlerhaft sei.' (Disse che credeva che lo studio, che era stato pubblicato l'anno scorso, fosse errato.)\n\nOgni subordinata è introdotta da una congiunzione (dass, weil, obwohl, wenn, als, da, nachdem...) o da un pronome relativo (der, die, das, welcher...)."
+    },
+    {
+      "type": "rule",
+      "title": "Costruzioni correlative in frasi complesse",
+      "content": "Le costruzioni correlative collegano due elementi in un rapporto di reciprocità o proporzione:\n\n1. **je... desto/umso** (più... più): 'Je mehr man liest, desto besser versteht man die Zusammenhänge.' — Attenzione: dopo 'je' il verbo va in fondo, dopo 'desto' il verbo va in seconda posizione.\n2. **sowohl... als auch** (sia... sia): 'Sowohl die wirtschaftlichen als auch die sozialen Auswirkungen, die sich aus dieser Entscheidung ergeben, müssen berücksichtigt werden.'\n3. **weder... noch** (né... né): 'Weder konnte man die Ursache feststellen, noch war es möglich, eine Lösung zu finden.'\n4. **zwar... aber** (è vero che... ma): 'Zwar hat die Regierung Maßnahmen ergriffen, aber die Ergebnisse, die man sich erhofft hatte, sind ausgeblieben.'\n5. **nicht nur... sondern auch** (non solo... ma anche): con inversione del soggetto dopo 'sondern auch'."
+    },
+    {
+      "type": "rule",
+      "title": "Inserzioni parentetiche (Einschübe/Parenthesen)",
+      "content": "Il tedesco permette di inserire incisi all'interno di una frase, separandoli con virgole, trattini o parentesi:\n\n1. **Apposizioni**: 'Der Autor, ein bekannter Wissenschaftler aus München, vertritt die These, dass...'\n2. **Frasi relative incidentali**: 'Das Ergebnis, das übrigens niemanden überrascht hat, bestätigt die Hypothese.'\n3. **Commenti del parlante**: 'Die Regierung hat – wie zu erwarten war – keine Stellung genommen.'\n4. **Avverbi di commento**: 'Die Maßnahme ist, ehrlich gesagt, wenig überzeugend.'\n\nQueste inserzioni interrompono la struttura principale senza modificarla: il verbo mantiene la sua posizione originale."
+    },
+    {
+      "type": "rule",
+      "title": "Topicalizzazione: spostamento in prima posizione per enfasi",
+      "content": "In tedesco, qualsiasi elemento della frase può essere spostato in posizione 1 (Vorfeld) per enfatizzarlo. Il verbo coniugato resta sempre in posizione 2 (V2), causando l'inversione del soggetto:\n\n1. **Posizione neutra**: 'Der Minister hat gestern im Parlament eine Erklärung abgegeben.'\n2. **Enfasi sul tempo**: 'Gestern hat der Minister im Parlament eine Erklärung abgegeben.'\n3. **Enfasi sul luogo**: 'Im Parlament hat der Minister gestern eine Erklärung abgegeben.'\n4. **Enfasi sull'oggetto**: 'Eine Erklärung hat der Minister gestern im Parlament abgegeben.'\n5. **Subordinata in posizione 1**: 'Dass die Lage ernst ist, hat der Minister gestern im Parlament betont.'\n6. **Infinitiva in posizione 1**: 'Eine Lösung zu finden, ist unter diesen Umständen äußerst schwierig.'"
+    },
+    {
+      "type": "tip",
+      "content": "Per decifrare frasi tedesche complesse, seguite questa strategia: 1) Trovate tutti i verbi coniugati — ogni verbo coniugato corrisponde a una frase. 2) Identificate le congiunzioni subordinanti — segnano l'inizio di ogni Nebensatz. 3) Trovate le virgole — delimitano le subordinate. 4) Ricostruite la gerarchia: quale frase è principale, quale è subordinata di primo livello, di secondo livello, ecc. 5) Leggete dall'interno verso l'esterno per capire il significato."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Die Studie, die von einem Team, das an der Universität Heidelberg forscht, durchgeführt wurde, hat ergeben, dass die bisherigen Annahmen revidiert werden müssen.",
+          "it": "Lo studio, condotto da un team che svolge ricerca all'Università di Heidelberg, ha dimostrato che le ipotesi precedenti devono essere riviste."
+        },
+        {
+          "de": "Je intensiver man sich mit der Problematik auseinandersetzt, desto deutlicher wird, dass einfache Lösungen, die auf den ersten Blick überzeugend erscheinen, der Komplexität der Situation nicht gerecht werden.",
+          "it": "Più ci si confronta intensamente con la problematica, più diventa evidente che soluzioni semplici, che a prima vista appaiono convincenti, non rendono giustizia alla complessità della situazione."
+        },
+        {
+          "de": "Obwohl die Regierung, die erst seit wenigen Monaten im Amt ist, bereits mehrere Reformen angekündigt hat, bleibt abzuwarten, ob diese tatsächlich umgesetzt werden.",
+          "it": "Sebbene il governo, che è in carica solo da pochi mesi, abbia già annunciato diverse riforme, resta da vedere se queste verranno effettivamente attuate."
+        },
+        {
+          "de": "Dass der Klimawandel – entgegen dem, was manche Skeptiker behaupten – eine reale Bedrohung darstellt, ist wissenschaftlich eindeutig belegt.",
+          "it": "Che il cambiamento climatico — contrariamente a quanto sostengono alcuni scettici — rappresenti una minaccia reale, è scientificamente dimostrato in modo inequivocabile."
+        },
+        {
+          "de": "Nicht die mangelnde Finanzierung, sondern die fehlende Koordination zwischen den Abteilungen, die an dem Projekt beteiligt waren, hat zum Scheitern des Vorhabens geführt.",
+          "it": "Non la mancanza di finanziamenti, bensì la carente coordinazione tra i dipartimenti coinvolti nel progetto ha portato al fallimento dell'iniziativa."
+        },
+        {
+          "de": "Unter der Voraussetzung, dass alle Beteiligten, deren Zustimmung erforderlich ist, dem Vorschlag zustimmen, könnte das Projekt, das bereits seit zwei Jahren in Planung ist, endlich beginnen.",
+          "it": "A condizione che tutti i soggetti coinvolti, il cui consenso è necessario, approvino la proposta, il progetto, che è in fase di pianificazione già da due anni, potrebbe finalmente iniziare."
+        }
+      ]
+    }
+  ]
+}
