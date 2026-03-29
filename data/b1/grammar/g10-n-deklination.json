@@ -1,0 +1,69 @@
+{
+  "id": "b1-g10",
+  "level": "b1",
+  "type": "grammar",
+  "title": "La n-Deklination",
+  "subtitle": "Die n-Deklination",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "La n-Deklination (declinazione debole) è una regola speciale che riguarda alcuni sostantivi maschili in tedesco. Questi sostantivi aggiungono la desinenza -n o -en in TUTTI i casi tranne il nominativo singolare. Questa è una particolarità che non esiste in italiano e che spesso causa errori anche nei parlanti avanzati. Riconoscere questi sostantivi e declinarli correttamente è un segno di padronanza della lingua."
+    },
+    {
+      "type": "rule",
+      "title": "Quali sostantivi seguono la n-Deklination?",
+      "content": "I sostantivi che seguono la n-Deklination sono quasi tutti MASCHILI e indicano spesso persone o esseri viventi:\n\n• Sostantivi maschili che terminano in -e:\n  der Junge (il ragazzo), der Kunde (il cliente), der Kollege (il collega), der Neffe (il nipote), der Löwe (il leone), der Affe (la scimmia), der Zeuge (il testimone), der Experte (l'esperto)\n\n• der Herr (il signore) → aggiunge -n al singolare, -en al plurale\n\n• Sostantivi maschili di origine straniera con accento sull'ultima sillaba:\n  der Student (lo studente), der Mensch (l'essere umano), der Nachbar (il vicino), der Präsident (il presidente), der Polizist (il poliziotto), der Journalist (il giornalista), der Patient (il paziente), der Demokrat (il democratico), der Diplomat (il diplomatico)"
+    },
+    {
+      "type": "rule",
+      "title": "Tabella della declinazione",
+      "content": "Esempio con 'der Kunde' (il cliente) e 'der Student' (lo studente):\n\n            Singolare                    Plurale\nNom:  der Kunde / der Student      die Kunden / die Studenten\nAcc:  den Kunden / den Studenten   die Kunden / die Studenten\nDat:  dem Kunden / dem Studenten   den Kunden / den Studenten\nGen:  des Kunden / des Studenten   der Kunden / der Studenten\n\nEsempio con 'der Herr' (il signore):\nNom: der Herr          Plurale: die Herren\nAcc: den Herrn          die Herren\nDat: dem Herrn          den Herren\nGen: des Herrn          der Herren\n\nNotare: in tutti i casi obliqui (accusativo, dativo, genitivo) si aggiunge -n o -en!"
+    },
+    {
+      "type": "rule",
+      "title": "Sostantivi misti: der Name, das Herz",
+      "content": "Alcuni sostantivi seguono la n-Deklination ma aggiungono anche -s al genitivo. Questi sono chiamati 'sostantivi misti':\n\n• der Name (il nome):\n  Nom: der Name, Acc: den Namen, Dat: dem Namen, Gen: des Namens\n\n• der Buchstabe (la lettera dell'alfabeto):\n  Nom: der Buchstabe, Acc: den Buchstaben, Dat: dem Buchstaben, Gen: des Buchstabens\n\n• der Gedanke (il pensiero):\n  Nom: der Gedanke, Acc: den Gedanken, Dat: dem Gedanken, Gen: des Gedankens\n\n• der Glaube (la fede/credenza):\n  Nom: der Glaube, Acc: den Glauben, Dat: dem Glauben, Gen: des Glaubens\n\n• der Wille (la volontà):\n  Nom: der Wille, Acc: den Willen, Dat: dem Willen, Gen: des Willens\n\n• das Herz (il cuore) - unico NEUTRO con n-Deklination:\n  Nom: das Herz, Acc: das Herz, Dat: dem Herzen, Gen: des Herzens"
+    },
+    {
+      "type": "tip",
+      "content": "Come riconoscere i sostantivi della n-Deklination? Cerca queste desinenze tipiche:\n\n• -e (der Junge, der Kunde, der Kollege, der Löwe)\n• -ent (der Student, der Patient, der Präsident)\n• -ant (der Diamant, der Elefant, der Demonstrant)\n• -ist (der Polizist, der Tourist, der Journalist)\n• -at (der Soldat, der Diplomat, der Demokrat)\n• -oge (der Biologe, der Psychologe)\n• -oph (der Philosoph)\n\nRegola d'oro: se un sostantivo maschile indica una persona e termina con una di queste desinenze, quasi certamente segue la n-Deklination!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Ich habe den Kunden nicht gesehen.",
+          "it": "Non ho visto il cliente."
+        },
+        {
+          "de": "Der Lehrer hilft dem Studenten.",
+          "it": "L'insegnante aiuta lo studente."
+        },
+        {
+          "de": "Kennen Sie den Namen des Präsidenten?",
+          "it": "Conosce il nome del presidente?"
+        },
+        {
+          "de": "Der Junge spielt mit dem Nachbarn.",
+          "it": "Il ragazzo gioca con il vicino."
+        },
+        {
+          "de": "Ich habe dem Kollegen eine E-Mail geschickt.",
+          "it": "Ho mandato un'e-mail al collega."
+        },
+        {
+          "de": "Der Tourist fragt den Polizisten nach dem Weg.",
+          "it": "Il turista chiede la strada al poliziotto."
+        },
+        {
+          "de": "Das Herz des Menschen ist ein wichtiges Organ.",
+          "it": "Il cuore dell'essere umano è un organo importante."
+        },
+        {
+          "de": "Guten Tag, Herr Müller! Ich möchte mit Herrn Schmidt sprechen.",
+          "it": "Buongiorno, signor Müller! Vorrei parlare con il signor Schmidt."
+        }
+      ]
+    }
+  ]
+}

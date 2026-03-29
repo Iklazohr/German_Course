@@ -1,0 +1,143 @@
+{
+  "id": "c1-e03",
+  "level": "c1",
+  "type": "exercise",
+  "title": "Esercizi: Registro e sintassi",
+  "exercises": [
+    {
+      "type": "transform",
+      "instruction": "Trasforma la seguente frase dal registro informale a quello formale.",
+      "given": "Kannst du mir mal die Unterlagen schicken?",
+      "answer": "Könnten Sie mir bitte die Unterlagen zukommen lassen?",
+      "hint": "Usa il Konjunktiv II e il 'Sie'."
+    },
+    {
+      "type": "transform",
+      "instruction": "Trasforma la seguente frase dal registro informale a quello formale/accademico.",
+      "given": "Ich find das total blöd, dass die einfach die Preise erhöht haben.",
+      "answer": "Es ist als problematisch zu betrachten, dass eine Preiserhöhung vorgenommen wurde.",
+      "hint": "Usa nominalizzazione e costruzioni impersonali."
+    },
+    {
+      "type": "transform",
+      "instruction": "Riscrivi la frase in registro accademico usando il passivo e la nominalizzazione.",
+      "given": "Die Forscher haben herausgefunden, dass das Medikament wirkt.",
+      "answer": "Es konnte nachgewiesen werden, dass eine Wirksamkeit des Medikaments besteht.",
+      "hint": "Sostituisci il soggetto attivo con una costruzione passiva."
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Quale frase è appropriata per una lettera formale di candidatura?",
+      "options": [
+        "Ich wollte mal fragen, ob ihr noch 'nen Job frei habt.",
+        "Hiermit bewerbe ich mich um die ausgeschriebene Stelle als Projektmanager.",
+        "Hey, ich hätte total Bock auf den Job bei euch!",
+        "Ich schreib euch mal wegen dem Job."
+      ],
+      "answer": 1,
+      "explanation": "Solo la seconda opzione utilizza il registro formale adeguato a una candidatura: formula fissa 'Hiermit bewerbe ich mich', lessico appropriato."
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Quale registro è più adatto per un articolo scientifico?",
+      "options": [
+        "Man kann sagen, dass die Ergebnisse ziemlich cool sind.",
+        "Die Ergebnisse lassen den Schluss zu, dass die Hypothese bestätigt werden konnte.",
+        "Die Ergebnisse sind echt krass gut ausgefallen.",
+        "Also, die Ergebnisse sind halt super."
+      ],
+      "answer": 1,
+      "explanation": "'Lassen den Schluss zu' e il passivo 'bestätigt werden konnte' sono tipici del registro accademico."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Completa la frase complessa con la congiunzione appropriata.",
+      "sentence": "_____ mehr die Regierung in erneuerbare Energien investiert, _____ schneller wird die Energiewende gelingen.",
+      "answer": "Je / desto",
+      "hint": "Costruzione correlativa proporzionale."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Inserisci la congiunzione corretta per creare una frase subordinata incassata.",
+      "sentence": "Der Wissenschaftler, _____ Forschungsergebnisse, _____ erst kürzlich veröffentlicht wurden, große Aufmerksamkeit erregten, hält morgen einen Vortrag.",
+      "answer": "dessen / die",
+      "hint": "Pronome relativo genitivo + pronome relativo nominativo."
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Completa con l'espressione formale appropriata.",
+      "sentence": "_____ auf Ihr Schreiben vom 15. März möchte ich Ihnen mitteilen, dass...",
+      "answer": "Bezug nehmend",
+      "hint": "Espressione formale per 'in riferimento a'."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando una struttura con frasi incassate.",
+      "given": "Lo studio, che è stato condotto dall'università che si trova a Berlino, dimostra che il problema è più grave di quanto si pensasse.",
+      "answer": "Die Studie, die von der Universität, die sich in Berlin befindet, durchgeführt wurde, zeigt, dass das Problem gravierender ist, als man angenommen hatte.",
+      "hint": "Usa pronomi relativi e 'als man angenommen hatte'."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando il registro formale con topicalizzazione.",
+      "given": "È proprio la mancanza di comunicazione che ha portato a questo malinteso.",
+      "answer": "Gerade der Mangel an Kommunikation ist es, der zu diesem Missverständnis geführt hat.",
+      "hint": "Sposta l'elemento enfatizzato in posizione 1."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase accademica corretta.",
+      "words": ["werden", "berücksichtigt", "die", "müssen", "sich", "Faktoren", "ergeben", "die", "aus", "der", "Analyse", ","],
+      "answer": "Die Faktoren, die sich aus der Analyse ergeben, müssen berücksichtigt werden.",
+      "hint": "La frase relativa si inserisce tra soggetto e verbo principale."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina per formare una frase con costruzione correlativa.",
+      "words": ["desto", "man", "Zusammenhänge", "die", "intensiver", "versteht", "besser", "je", "sich", "beschäftigt", "damit", "man"],
+      "answer": "Je intensiver man sich damit beschäftigt, desto besser versteht man die Zusammenhänge.",
+      "hint": "je + comparativo... desto + comparativo. Dopo 'je' verbo in fondo, dopo 'desto' verbo in posizione 2."
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina ogni frase al registro appropriato.",
+      "pairs": [
+        {
+          "item": "Hiermit wird bestätigt, dass die Lieferung eingegangen ist.",
+          "match": "Registro formale scritto"
+        },
+        {
+          "item": "Hey, das Paket ist da!",
+          "match": "Registro informale orale"
+        },
+        {
+          "item": "Es lässt sich feststellen, dass der Wareneingang ordnungsgemäß erfolgt ist.",
+          "match": "Registro accademico/burocratico"
+        },
+        {
+          "item": "Hab das Paket gekriegt, alles gut.",
+          "match": "Registro informale scritto (messaggio)"
+        }
+      ]
+    },
+    {
+      "type": "transform",
+      "instruction": "Trasforma la frase usando una costruzione parentetica (Einschub).",
+      "given": "Der Minister hat die Reform angekündigt. Das hat niemanden überrascht.",
+      "answer": "Der Minister hat – was niemanden überrascht hat – die Reform angekündigt.",
+      "hint": "Inserisci un inciso tra trattini usando 'was'."
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Quale frase contiene una topicalizzazione corretta per enfatizzare il tempo?",
+      "options": [
+        "Der Vertrag wurde erst gestern von beiden Parteien unterzeichnet.",
+        "Erst gestern wurde der Vertrag von beiden Parteien unterzeichnet.",
+        "Von beiden Parteien wurde erst gestern der Vertrag unterzeichnet.",
+        "Unterzeichnet wurde der Vertrag erst gestern von beiden Parteien."
+      ],
+      "answer": 1,
+      "explanation": "Spostando 'Erst gestern' in posizione 1, si enfatizza il momento temporale. Il verbo resta in posizione 2."
+    }
+  ]
+}

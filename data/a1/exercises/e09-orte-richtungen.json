@@ -1,0 +1,126 @@
+{
+  "id": "a1-e09",
+  "level": "a1",
+  "type": "exercise",
+  "title": "Esercizi: Luoghi e direzioni",
+  "exercises": [
+    {
+      "type": "matching",
+      "instruction": "Abbina i luoghi alle descrizioni.",
+      "pairs": [
+        { "left": "Bahnhof", "right": "Hier fahren Züge ab." },
+        { "left": "Krankenhaus", "right": "Hier geht man zum Arzt." },
+        { "left": "Supermarkt", "right": "Hier kauft man Essen." },
+        { "left": "Bibliothek", "right": "Hier liest man Bücher." }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione corretta: in, auf, an, neben.",
+      "sentence": "Das Buch liegt _____ dem Tisch. (stato)",
+      "answer": "auf",
+      "explanation": "Su una superficie orizzontale si usa 'auf'. Con stato in luogo → dativo: auf dem Tisch."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione e l'articolo corretti.",
+      "sentence": "Ich gehe _____ _____ Park. (moto a luogo, m.)",
+      "answer": "in den",
+      "explanation": "Moto a luogo → accusativo: in den Park (maschile accusativo)."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta.",
+      "sentence": "Es gibt _____ Apotheke in der Nähe. (una)",
+      "answer": "eine",
+      "explanation": "'Es gibt' regge l'accusativo. Apotheke è femminile: eine Apotheke."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Come si chiede 'C'è un ristorante qui vicino?'",
+      "options": [
+        "Gibt es ein Restaurant in der Nähe?",
+        "Es gibt ein Restaurant in der Nähe?",
+        "Ist es ein Restaurant in der Nähe?",
+        "Hat es ein Restaurant in der Nähe?"
+      ],
+      "correct": "Gibt es ein Restaurant in der Nähe?",
+      "explanation": "Nella domanda con 'es gibt', il verbo va all'inizio: Gibt es...?"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale frase usa correttamente 'man'?",
+      "options": [
+        "Man kann hier gut essen.",
+        "Man können hier gut essen.",
+        "Mann kann hier gut essen.",
+        "Man kann hier gut isst."
+      ],
+      "correct": "Man kann hier gut essen.",
+      "explanation": "'Man' si coniuga sempre alla 3a persona singolare: man kann."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Come si dice 'Vada dritto e poi a sinistra' (formale)?",
+      "options": [
+        "Gehen Sie geradeaus und dann links.",
+        "Geh geradeaus und dann links.",
+        "Geht geradeaus und dann links.",
+        "Gehen geradeaus und dann links."
+      ],
+      "correct": "Gehen Sie geradeaus und dann links.",
+      "explanation": "Imperativo formale: Gehen Sie + direzione."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Il museo è dietro la chiesa.",
+      "answer": "Das Museum ist hinter der Kirche.",
+      "explanation": "Stato in luogo → dativo: hinter der Kirche (die Kirche → der Kirche al dativo)."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Devo scendere alla prossima fermata.",
+      "answer": "Ich muss an der nächsten Haltestelle aussteigen.",
+      "explanation": "'Aussteigen' = scendere (separabile). 'An der Haltestelle' = alla fermata (dativo)."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Non ci sono autobus la domenica.",
+      "answer": "Es gibt keine Busse am Sonntag.",
+      "explanation": "'Es gibt' + accusativo plurale negato: keine Busse."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo corretto per completare la frase.",
+      "word": "Ich gehe in _____ Schule. (moto a luogo)",
+      "options": ["die", "der", "dem", "den"],
+      "correct": "die",
+      "explanation": "Moto a luogo → accusativo. 'Schule' è femminile: in die Schule."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo corretto.",
+      "word": "Er ist in _____ Krankenhaus. (stato)",
+      "options": ["das", "dem", "den", "der"],
+      "correct": "dem",
+      "explanation": "Stato in luogo → dativo. 'Krankenhaus' è neutro: in dem (= im) Krankenhaus."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase.",
+      "words": ["der Nähe", "Supermarkt", "Es", "einen", "gibt", "in"],
+      "answer": "Es gibt einen Supermarkt in der Nähe.",
+      "explanation": "Struttura: Es gibt + accusativo + complemento di luogo."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole.",
+      "words": ["die", "Sie", "Straße", "Überqueren"],
+      "answer": "Überqueren Sie die Straße!",
+      "explanation": "Imperativo formale: Verbo + Sie + complemento."
+    }
+  ]
+}

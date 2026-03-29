@@ -1,0 +1,52 @@
+{
+  "id": "b2-g07",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Coesione testuale e pronomi",
+  "subtitle": "Textkohäsion und Verweismittel",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Un testo ben scritto in tedesco non è solo una sequenza di frasi corrette: le frasi devono essere **collegate** tra loro in modo fluido e coerente. Questa lezione si concentra sugli strumenti di **coesione testuale** (*Textkohäsion*): gli avverbi pronominali (*Pronominaladverbien*), il pronome anticipatorio **es**, i connettori testuali e le parole di riferimento. Padroneggiare questi strumenti è essenziale per leggere testi accademici e scrivere composizioni di livello B2."
+    },
+    {
+      "type": "rule",
+      "title": "Avverbi pronominali (Pronominaladverbien): da(r)- + preposizione",
+      "content": "Gli avverbi pronominali sostituiscono la combinazione **preposizione + pronome** quando ci si riferisce a **cose o idee** (non persone):\n\n**da + preposizione** (riferimento a qualcosa di già menzionato):\n- **dafür** (per questo) → Ich bin dafür. (Sono a favore di questo.)\n- **dagegen** (contro questo) → Er ist dagegen. (È contrario.)\n- **darüber** (su questo) → Wir sprechen darüber. (Ne parliamo.)\n- **damit** (con questo) → Was meinst du damit? (Cosa intendi con questo?)\n- **daran** (a questo) → Ich denke daran. (Ci penso.)\n- **darauf** (su questo) → Ich freue mich darauf. (Non vedo l'ora.)\n- **darin** (in questo) → Das Problem liegt darin. (Il problema sta in questo.)\n- **daraus** (da questo) → Was folgt daraus? (Cosa ne consegue?)\n- **davon** (di/da questo) → Ich habe davon gehört. (Ne ho sentito parlare.)\n- **dazu** (a questo, in aggiunta) → Was sagst du dazu? (Cosa ne dici?)\n\n**Regola:** si aggiunge **-r-** quando la preposizione inizia per vocale: da**r**über, da**r**an, da**r**auf, da**r**in, da**r**aus.\n\n**Per persone** si usa preposizione + pronome: *Ich denke **an ihn*** (penso a lui), NON *daran*."
+    },
+    {
+      "type": "rule",
+      "title": "Il pronome anticipatorio 'es'",
+      "content": "Il tedesco usa **es** come pronome anticipatorio (*Vorfeld-es* o *Korrelat-es*) per introdurre frasi subordinate o infinitive:\n\n**Es + ist/war + aggettivo + dass/zu:**\n- Es ist wichtig, **dass** alle kommen. (È importante che vengano tutti.)\n- Es ist schwierig, eine Lösung **zu** finden. (È difficile trovare una soluzione.)\n- Es war überraschend, **dass** er gewonnen hat. (È stato sorprendente che abbia vinto.)\n\n**Es + verbo impersonale:**\n- Es geht **darum**, eine Lösung zu finden. (Si tratta di trovare una soluzione.)\n- Es kommt **darauf an**, wie man reagiert. (Dipende da come si reagisce.)\n- Es handelt sich **um** ein Missverständnis. (Si tratta di un malinteso.)\n\n**Attenzione:** Quando la frase subordinata è in prima posizione, **es** scompare:\n- *Dass alle kommen, ist wichtig.* (SENZA es)"
+    },
+    {
+      "type": "rule",
+      "title": "Connettori testuali (Textverbinder)",
+      "content": "Questi avverbi e congiunzioni collegano le frasi e strutturano il testo. Sono fondamentali per la scrittura formale:\n\n**Contrasto / Concessione:**\n- **allerdings** → tuttavia, però (posizione: campo intermedio o posizione 1)\n- **dennoch** → ciononostante, nonostante ciò (posizione 1 + inversione)\n- **hingegen** → invece, al contrario (posizione 1 o campo intermedio)\n- **zwar ... aber** → è vero che ... ma\n- **stattdessen** → al posto di ciò, invece (posizione 1 + inversione)\n\n**Causa / Conseguenza:**\n- **deshalb / deswegen** → perciò, per questo (posizione 1 + inversione)\n- **folglich** → di conseguenza (posizione 1 + inversione)\n- **infolgedessen** → in seguito a ciò\n\n**Specificazione / Enfasi:**\n- **insbesondere** → in particolare\n- **vor allem** → soprattutto\n- **nämlich** → infatti, cioè (mai in posizione 1!)\n- **und zwar** → e precisamente"
+    },
+    {
+      "type": "rule",
+      "title": "Parole di riferimento (Verweismittel)",
+      "content": "Per evitare ripetizioni e creare coesione, il tedesco usa parole di riferimento:\n\n**dieser / diese / dieses** (questo/a) → riferimento a qualcosa di appena menzionato:\n- *Die Studie wurde 2023 veröffentlicht. **Diese** zeigt, dass...* (Questo studio mostra che...)\n\n**jener / jene / jenes** (quello/a) → riferimento a qualcosa di più lontano:\n- *Man unterscheidet zwei Methoden: **diese** ist qualitativ, **jene** quantitativ.*\n\n**solch-** (tale/i) → qualità:\n- ***Solche** Probleme sind nicht selten.* (Tali problemi non sono rari.)\n\n**derselbe / dieselbe / dasselbe** (lo stesso / la stessa):\n- *Er macht immer **denselben** Fehler.* (Fa sempre lo stesso errore.)\n\n**Ersterer ... Letzterer** (il primo ... il secondo):\n- *Theorie und Praxis: **Erstere** ist wichtig, **Letztere** entscheidend.*"
+    },
+    {
+      "type": "tip",
+      "content": "Per migliorare la fluidità dei tuoi testi scritti: 1) Non iniziare ogni frase con il soggetto - usa connettori e avverbi pronominali in prima posizione. 2) Evita la ripetizione dei sostantivi usando dieser/jener/solch-. 3) Usa 'zwar ... aber' per presentare due lati di un argomento. 4) Ricorda che 'nämlich' non va MAI in prima posizione (a differenza dell'italiano 'infatti')."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Das Projekt ist teuer. Dennoch lohnt es sich.", "it": "Il progetto è costoso. Ciononostante ne vale la pena." },
+        { "de": "Er hat lange gesucht. Darüber hat er nicht gesprochen.", "it": "Ha cercato a lungo. Non ne ha parlato." },
+        { "de": "Es ist wichtig, dass wir uns vorbereiten.", "it": "È importante che ci prepariamo." },
+        { "de": "Die Firma hat Probleme. Allerdings gibt es auch positive Aspekte.", "it": "L'azienda ha problemi. Tuttavia ci sono anche aspetti positivi." },
+        { "de": "Er ist zwar jung, aber sehr erfahren.", "it": "È sì giovane, ma molto esperto." },
+        { "de": "Solche Fehler dürfen nicht passieren.", "it": "Tali errori non devono accadere." },
+        { "de": "Es kommt darauf an, wie man das Problem angeht.", "it": "Dipende da come si affronta il problema." },
+        { "de": "Die Ergebnisse waren überraschend. Folglich musste die Hypothese geändert werden.", "it": "I risultati erano sorprendenti. Di conseguenza l'ipotesi dovette essere modificata." },
+        { "de": "Wir brauchen insbesondere mehr Forschung zu diesem Thema.", "it": "Abbiamo bisogno in particolare di più ricerca su questo tema." },
+        { "de": "Er macht immer denselben Fehler, stattdessen sollte er eine neue Strategie versuchen.", "it": "Fa sempre lo stesso errore; al posto di ciò dovrebbe provare una nuova strategia." }
+      ]
+    }
+  ]
+}
