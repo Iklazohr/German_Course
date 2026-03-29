@@ -1,0 +1,71 @@
+{
+  "id": "c1-g08",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Figure retoriche e mezzi stilistici",
+  "subtitle": "Stilmittel und rhetorische Figuren",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I mezzi stilistici (Stilmittel) e le figure retoriche (rhetorische Figuren) sono strumenti fondamentali per l'analisi letteraria e per una comunicazione sofisticata in tedesco. A livello C1, è importante saper riconoscere queste figure nei testi letterari, giornalistici e nella comunicazione quotidiana, nonché impiegarle consapevolmente nella propria produzione scritta e orale. Il tedesco possiede un ricco repertorio di figure retoriche, molte delle quali sono presenti anche nel linguaggio colloquiale."
+    },
+    {
+      "type": "rule",
+      "title": "Metafora (die Metapher)",
+      "content": "La metafora trasferisce il significato di un termine a un altro ambito semantico, creando un'immagine figurata:\n\n- **Das Leben ist ein Fluss.** (La vita è un fiume.)\n- **Er hat ein Herz aus Stein.** (Ha un cuore di pietra.)\n- **Der Zahn der Zeit nagt an allem.** (Il dente del tempo corrode tutto.)\n- **Am Fuß des Berges** (Ai piedi della montagna) — metafora lexicalizzata\n- **Eine Flut von Informationen** (Un'ondata di informazioni)\n\nLa metafora va distinta dal **Vergleich** (similitudine), che usa 'wie': 'Das Leben ist wie ein Fluss.' La metafora è più diretta e più incisiva."
+    },
+    {
+      "type": "rule",
+      "title": "Ironia e understatement (Ironie und Untertreibung)",
+      "content": "L'ironia esprime il contrario di ciò che si intende, spesso con un effetto comico o critico. Il tedesco è ricco di espressioni ironiche:\n\n- **Das ist ja nicht gerade billig.** (Non è proprio economico. → È molto caro.)\n- **Na, das hast du ja toll hingekriegt!** (Beh, l'hai fatto proprio bene! → detto quando qualcuno ha combinato un disastro)\n- **Das war ja eine Glanzleistung.** (È stata proprio una prestazione brillante. → il contrario)\n\n**Understatement (Untertreibung / Litotes)**:\n- **nicht unerheblich** (non insignificante → molto considerevole)\n- **nicht gerade begeistert** (non proprio entusiasta → molto deluso)\n- **Das ist nicht von der Hand zu weisen.** (Non si può respingere così facilmente. → È assolutamente corretto.)\n\nL'ironia nel tedesco scritto è spesso più sottile che in italiano e può essere difficile da riconoscere senza il contesto."
+    },
+    {
+      "type": "rule",
+      "title": "Eufemismo (der Euphemismus)",
+      "content": "L'eufemismo sostituisce un'espressione dura o sgradevole con una più mite o indiretta:\n\n- **entschlafen** = sterben (addormentarsi = morire → trapassare)\n- **von uns gehen** = sterben (lasciarci = morire)\n- **freisetzen** = entlassen (liberare risorse = licenziare)\n- **vollschlank** = dick (abbondante = grasso)\n- **Kollateralschaden** = zivile Opfer (danno collaterale = vittime civili)\n- **Freisetzung von Mitarbeitern** = Massenentlassung (rilascio di collaboratori = licenziamento di massa)\n- **bildungsfern** = ungebildet (lontano dall'istruzione = ignorante)\n- **sozial schwach** = arm (socialmente debole = povero)\n\nGli eufemismi sono particolarmente frequenti nel linguaggio politico e burocratico tedesco."
+    },
+    {
+      "type": "rule",
+      "title": "Iperbole (die Hyperbel)",
+      "content": "L'iperbole esagera per enfatizzare. Il tedesco è particolarmente produttivo nella formazione di iperboli composte:\n\n- **todmüde** (stanco morto) — tod- come prefisso intensificativo\n- **steinreich** (ricco sfondato — letteralmente: ricco come pietra)\n- **blitzschnell** (veloce come un fulmine)\n- **federleicht** (leggero come una piuma)\n- **eiskalt** (freddo come il ghiaccio)\n- **turmhoch** (alto come una torre)\n- **Ich habe dir das schon tausendmal gesagt!** (Te l'ho detto già mille volte!)\n- **Das dauert ja ewig!** (Dura un'eternità!)\n- **Ich habe einen Bärenhunger.** (Ho una fame da orso.)\n\nMolte iperboli sono ormai lessicalizzate e fanno parte del linguaggio quotidiano."
+    },
+    {
+      "type": "rule",
+      "title": "Allitterazione, anafora, domanda retorica e altre figure",
+      "content": "**Allitterazione (Alliteration)**: ripetizione del suono iniziale:\n- **Milch macht müde Männer munter.** (Il latte rende svegli gli uomini stanchi.)\n- **durch dick und dünn** (nella buona e nella cattiva sorte)\n- **Kind und Kegel** (con tutta la famiglia)\n\n**Anafora (Anapher)**: ripetizione di una parola all'inizio di frasi successive:\n- **Ich habe einen Traum. Ich habe die Vision. Ich habe die Hoffnung.**\n- Molto usata nei discorsi politici e nella poesia.\n\n**Domanda retorica (rhetorische Frage)**: domanda che non richiede risposta:\n- **Wer will schon in Armut leben?** (Chi vuole vivere in povertà?)\n- **Haben wir nicht alle das Recht auf Freiheit?** (Non abbiamo tutti diritto alla libertà?)\n\n**Parallelismo (Parallelismus)**: struttura sintattica ripetuta:\n- **Reden ist Silber, Schweigen ist Gold.** (Parlare è argento, tacere è oro.)\n\n**Antitesi (Antithese)**: contrapposizione di concetti opposti:\n- **Der Geist ist willig, aber das Fleisch ist schwach.** (Lo spirito è pronto, ma la carne è debole.)"
+    },
+    {
+      "type": "tip",
+      "content": "Per analizzare un testo letterario tedesco, procedete così: 1) Leggete il testo una prima volta per coglierne il senso generale. 2) Alla seconda lettura, sottolineate le espressioni che si discostano dal linguaggio quotidiano. 3) Classificate le figure retoriche trovate. 4) Chiedetevi: quale effetto producono queste figure? Perché l'autore le ha usate? 5) Collegate le osservazioni stilistiche all'interpretazione complessiva del testo. Ricordate: l'analisi stilistica non è fine a se stessa, ma serve a comprendere più profondamente il messaggio dell'autore."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Metapher: 'Die Nachricht schlug ein wie eine Bombe.' — Il trasferimento dal dominio bellico a quello comunicativo intensifica l'impatto della notizia.",
+          "it": "Metafora: 'La notizia colpì come una bomba.' — Il trasferimento dal dominio bellico a quello comunicativo intensifica l'impatto della notizia."
+        },
+        {
+          "de": "Ironie: 'Schönes Wetter heute', sagte er, als der Sturm die Bäume entwurzelte.",
+          "it": "Ironia: 'Bel tempo oggi', disse lui, mentre la tempesta sradicava gli alberi."
+        },
+        {
+          "de": "Euphemismus: 'Das Unternehmen wird die Belegschaft verschlanken.' (= Massenentlassung)",
+          "it": "Eufemismo: 'L'azienda snellirà il personale.' (= licenziamento di massa)"
+        },
+        {
+          "de": "Hyperbel: 'Ich bin so hungrig, dass ich ein ganzes Pferd essen könnte.'",
+          "it": "Iperbole: 'Ho così tanta fame che potrei mangiare un intero cavallo.'"
+        },
+        {
+          "de": "Rhetorische Frage: 'Ist es nicht höchste Zeit, dass wir handeln, bevor es zu spät ist?'",
+          "it": "Domanda retorica: 'Non è forse ora che agiamo, prima che sia troppo tardi?'"
+        },
+        {
+          "de": "Litotes: 'Die Reaktion des Publikums war nicht unbedingt enthusiastisch.' (= Das Publikum war enttäuscht.)",
+          "it": "Litote: 'La reazione del pubblico non è stata propriamente entusiastica.' (= Il pubblico era deluso.)"
+        }
+      ]
+    }
+  ]
+}
