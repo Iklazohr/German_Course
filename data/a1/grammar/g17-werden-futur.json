@@ -1,0 +1,45 @@
+{
+  "id": "a1-g17",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Il verbo \"werden\" e cenni sul futuro",
+  "subtitle": "Das Verb \"werden\" und Einführung ins Futur",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il verbo 'werden' è uno dei verbi più versatili del tedesco. Significa 'diventare' e si usa anche come ausiliare per formare il futuro. A livello A1 è importante conoscerne la coniugazione e i suoi usi principali: come verbo pieno (diventare) e come primo approccio al futuro."
+    },
+    {
+      "type": "rule",
+      "title": "Coniugazione di 'werden' al presente",
+      "content": "ich werde = io divento\ndu wirst = tu diventi\ner/sie/es wird = lui/lei diventa\nwir werden = noi diventiamo\nihr werdet = voi diventate\nsie/Sie werden = loro diventano / Lei diventa (formale)\n\nAttenzione al cambio vocalico: e → i nella 2a e 3a persona singolare (du wirst, er wird)."
+    },
+    {
+      "type": "rule",
+      "title": "'Werden' + sostantivo/aggettivo = diventare",
+      "content": "Come verbo pieno, 'werden' significa 'diventare':\n\nIch werde Arzt. = Divento medico. (professione futura)\nEr wird alt. = Lui diventa vecchio. / Lui invecchia.\nEs wird kalt. = Diventa freddo. / Fa freddo (sta diventando freddo).\nSie wird Lehrerin. = Lei diventa insegnante.\nDas Kind wird groß. = Il bambino cresce.\n\nNota: con le professioni NON si usa l'articolo: Ich werde Arzt (non 'ein Arzt')."
+    },
+    {
+      "type": "rule",
+      "title": "Cenni sul futuro: werden + infinito",
+      "content": "Per esprimere il futuro si può usare 'werden' + infinito (alla fine della frase):\n\nIch werde morgen kommen. = Verrò domani.\nEr wird das Buch lesen. = Lui leggerà il libro.\nWir werden nach Berlin fahren. = Andremo a Berlino.\n\nStruttura: Soggetto + werden (coniugato) + ... + INFINITO (alla fine)\n\nAttenzione: a livello A1, il futuro si esprime spesso con il PRESENTE + indicazione temporale:\nIch fahre morgen nach Berlin. = Vado domani a Berlino. (= Andrò...)\n\nQuesto è più comune nella conversazione quotidiana!"
+    },
+    {
+      "type": "tip",
+      "content": "Nella vita quotidiana, i tedeschi usano molto più spesso il presente con un'indicazione di tempo per parlare del futuro: 'Morgen gehe ich ins Kino' (Domani vado al cinema). La forma con 'werden' si usa più per promesse, previsioni o quando si vuole sottolineare che si tratta del futuro. A livello A1, concentrati soprattutto su 'werden' come 'diventare'."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Ich werde Ingenieur.", "it": "Divento ingegnere." },
+        { "de": "Es wird dunkel.", "it": "Si fa buio." },
+        { "de": "Du wirst müde.", "it": "Stai diventando stanco." },
+        { "de": "Meine Tochter wird Ärztin.", "it": "Mia figlia diventerà medico." },
+        { "de": "Im Winter wird es kalt.", "it": "In inverno fa freddo." },
+        { "de": "Wir werden nächstes Jahr nach Deutschland fahren.", "it": "L'anno prossimo andremo in Germania." },
+        { "de": "Er wird das sicher verstehen.", "it": "Lui sicuramente capirà." },
+        { "de": "Was willst du werden?", "it": "Cosa vuoi diventare (da grande)?" }
+      ]
+    }
+  ]
+}

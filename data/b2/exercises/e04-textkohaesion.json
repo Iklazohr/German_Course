@@ -1,0 +1,137 @@
+{
+  "id": "b2-e04",
+  "level": "b2",
+  "type": "exercise",
+  "title": "Esercizi: Coesione testuale e modalità",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "sentence": "Ich interessiere mich für Musik. Mein Bruder interessiert sich auch ___.",
+      "blanks": [
+        { "position": 0, "correct": ["dafür"], "hint": "da(r) + für → per questo/ciò" }
+      ],
+      "translation": "Mi interesso di musica. Anche mio fratello se ne interessa."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir haben über das Problem gesprochen. ___ haben wir lange diskutiert.",
+      "blanks": [
+        { "position": 0, "correct": ["Darüber"], "hint": "da(r) + über → su questo/ciò" }
+      ],
+      "translation": "Abbiamo parlato del problema. Ne abbiamo discusso a lungo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er denkt oft an seine Kindheit. Er denkt oft ___.",
+      "blanks": [
+        { "position": 0, "correct": ["daran"], "hint": "da(r) + an → a questo/ciò" }
+      ],
+      "translation": "Pensa spesso alla sua infanzia. Ci pensa spesso."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Er ___ krank zu sein. Er sieht sehr blass aus.'",
+      "options": ["scheint", "droht", "braucht", "verspricht"],
+      "correct": 0,
+      "explanation": "'Scheinen + zu + Infinito' esprime apparenza: 'Sembra essere malato.' La pallura è un indizio, non una certezza."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Du ___ nicht zu kommen, wenn du keine Zeit hast.'",
+      "options": ["brauchst", "scheinst", "drohst", "hast"],
+      "correct": 0,
+      "explanation": "'Brauchen + nicht + zu + Infinito' esprime che qualcosa non è necessario: 'Non hai bisogno di venire se non hai tempo.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase esprime un pericolo imminente?",
+      "options": [
+        "Die Brücke droht einzustürzen.",
+        "Die Brücke scheint stabil zu sein.",
+        "Die Brücke verspricht gut zu halten.",
+        "Die Brücke braucht nicht repariert zu werden."
+      ],
+      "correct": 0,
+      "explanation": "'Drohen + zu + Infinito' esprime un pericolo o rischio imminente: 'Il ponte rischia di crollare.'"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Aufgabe ___ bis morgen ___ erledigen.",
+      "blanks": [
+        { "position": 0, "correct": ["ist"], "hint": "Costruzione: sein + zu + Infinito (obbligo passivo)" },
+        { "position": 1, "correct": ["zu"], "hint": "Particella dell'infinito" }
+      ],
+      "translation": "Il compito è da sbrigare entro domani."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni connettore testuale alla sua funzione.",
+      "pairs": [
+        { "left": "allerdings", "right": "contrasto (tuttavia)" },
+        { "left": "folglich", "right": "conseguenza (di conseguenza)" },
+        { "left": "insbesondere", "right": "specificazione (in particolare)" },
+        { "left": "dennoch", "right": "concessione (ciononostante)" },
+        { "left": "stattdessen", "right": "alternativa (al posto di ciò)" },
+        { "left": "hingegen", "right": "opposizione (invece)" }
+      ]
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando un connettore testuale appropriato.",
+      "sentence_it": "Il progetto è costoso. Ciononostante ne vale la pena.",
+      "correct": ["Das Projekt ist teuer. Dennoch lohnt es sich."],
+      "explanation": "'Dennoch' (ciononostante) introduce una concessione. Posizione 1 + inversione del verbo."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando 'scheinen + zu'.",
+      "sentence_it": "I negoziati sembrano fare progressi.",
+      "correct": ["Die Verhandlungen scheinen Fortschritte zu machen."],
+      "explanation": "'Scheinen + zu + Infinito' esprime apparenza. Il soggetto 'die Verhandlungen' + scheinen + ... + zu machen."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è corretta con 'haben + zu'?",
+      "options": [
+        "Ich habe noch viel zu arbeiten.",
+        "Ich habe noch viel arbeiten.",
+        "Ich habe noch viel zu gearbeitet.",
+        "Ich habe noch viel arbeiten zu."
+      ],
+      "correct": 0,
+      "explanation": "'Haben + zu + Infinito' esprime obbligo attivo (= müssen). Struttura: Soggetto + haben + ... + zu + Infinito."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ ist wichtig, ___ man regelmäßig Sport treibt.",
+      "blanks": [
+        { "position": 0, "correct": ["Es"], "hint": "Pronome anticipatorio" },
+        { "position": 1, "correct": ["dass"], "hint": "Congiunzione subordinante: che" }
+      ],
+      "translation": "È importante che si faccia sport regolarmente."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er ist ___ intelligent, ___ er hat keine Erfahrung.",
+      "blanks": [
+        { "position": 0, "correct": ["zwar"], "hint": "Prima parte: è vero che..." },
+        { "position": 1, "correct": ["aber"], "hint": "Seconda parte: ...ma" }
+      ],
+      "translation": "È sì intelligente, ma non ha esperienza."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale avverbio pronominale completa la frase? 'Ich warte auf die Antwort. Ich warte schon lange ___.'",
+      "options": ["darauf", "dafür", "damit", "daran"],
+      "correct": 0,
+      "explanation": "Il verbo 'warten' regge 'auf + Akk.'. L'avverbio pronominale corrispondente è 'darauf' (= auf + das/dies)."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta.",
+      "words": ["die", "Situation", "scheint", "sich", "zu", "verschlechtern"],
+      "correct": "Die Situation scheint sich zu verschlechtern.",
+      "translation": "La situazione sembra peggiorare."
+    }
+  ]
+}

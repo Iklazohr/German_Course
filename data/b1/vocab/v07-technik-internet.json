@@ -1,0 +1,199 @@
+{
+  "id": "b1-v07",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Tecnologia e internet",
+  "subtitle": "Technik und Internet",
+  "groups": [
+    {
+      "name": "Dispositivi",
+      "words": [
+        {
+          "de": "der Laptop",
+          "it": "il portatile",
+          "emoji": "💻",
+          "example_de": "Ich arbeite jeden Tag an meinem Laptop.",
+          "example_it": "Lavoro ogni giorno al mio portatile."
+        },
+        {
+          "de": "das Tablet",
+          "it": "il tablet",
+          "emoji": "📱",
+          "example_de": "Mein Kind liest Bücher auf dem Tablet.",
+          "example_it": "Mio figlio legge libri sul tablet."
+        },
+        {
+          "de": "der Bildschirm",
+          "it": "lo schermo",
+          "emoji": "🖥️",
+          "example_de": "Der Bildschirm ist zu klein für diese Arbeit.",
+          "example_it": "Lo schermo è troppo piccolo per questo lavoro."
+        },
+        {
+          "de": "die Tastatur",
+          "it": "la tastiera",
+          "emoji": "⌨️",
+          "example_de": "Die Tastatur meines Laptops funktioniert nicht mehr.",
+          "example_it": "La tastiera del mio portatile non funziona più."
+        },
+        {
+          "de": "die Maus",
+          "it": "il mouse",
+          "emoji": "🖱️",
+          "example_de": "Klicken Sie mit der Maus auf den Button.",
+          "example_it": "Clicchi con il mouse sul pulsante."
+        },
+        {
+          "de": "der Kopfhörer",
+          "it": "le cuffie",
+          "emoji": "🎧",
+          "example_de": "Ich höre Musik mit meinen Kopfhörern.",
+          "example_it": "Ascolto musica con le mie cuffie."
+        },
+        {
+          "de": "das Ladegerät",
+          "it": "il caricatore",
+          "emoji": "🔌",
+          "example_de": "Hast du ein Ladegerät für mein Handy?",
+          "example_it": "Hai un caricatore per il mio cellulare?"
+        },
+        {
+          "de": "der USB-Stick",
+          "it": "la chiavetta USB",
+          "emoji": "💾",
+          "example_de": "Die Dokumente sind auf dem USB-Stick gespeichert.",
+          "example_it": "I documenti sono salvati sulla chiavetta USB."
+        },
+        {
+          "de": "der Drucker",
+          "it": "la stampante",
+          "emoji": "🖨️",
+          "example_de": "Der Drucker hat kein Papier mehr.",
+          "example_it": "La stampante non ha più carta."
+        }
+      ]
+    },
+    {
+      "name": "Internet",
+      "words": [
+        {
+          "de": "die Webseite",
+          "it": "il sito web",
+          "emoji": "🌐",
+          "example_de": "Diese Webseite hat viele nützliche Informationen.",
+          "example_it": "Questo sito web ha molte informazioni utili."
+        },
+        {
+          "de": "der Browser",
+          "it": "il browser",
+          "emoji": "🔎",
+          "example_de": "Welchen Browser benutzt du?",
+          "example_it": "Quale browser usi?"
+        },
+        {
+          "de": "die Suchmaschine",
+          "it": "il motore di ricerca",
+          "emoji": "🔍",
+          "example_de": "Google ist die bekannteste Suchmaschine.",
+          "example_it": "Google è il motore di ricerca più conosciuto."
+        },
+        {
+          "de": "das Passwort",
+          "it": "la password",
+          "emoji": "🔒",
+          "example_de": "Du solltest dein Passwort regelmäßig ändern.",
+          "example_it": "Dovresti cambiare la tua password regolarmente."
+        },
+        {
+          "de": "das Konto / der Account",
+          "it": "l'account",
+          "emoji": "👤",
+          "example_de": "Ich habe ein neues Konto erstellt.",
+          "example_it": "Ho creato un nuovo account."
+        },
+        {
+          "de": "die Cloud",
+          "it": "il cloud",
+          "emoji": "☁️",
+          "example_de": "Meine Fotos sind in der Cloud gespeichert.",
+          "example_it": "Le mie foto sono salvate nel cloud."
+        },
+        {
+          "de": "das WLAN",
+          "it": "il Wi-Fi",
+          "emoji": "📶",
+          "example_de": "Gibt es hier kostenloses WLAN?",
+          "example_it": "C'è il Wi-Fi gratuito qui?"
+        },
+        {
+          "de": "der Server",
+          "it": "il server",
+          "emoji": "🖥️",
+          "example_de": "Der Server ist gerade nicht erreichbar.",
+          "example_it": "Il server non è raggiungibile al momento."
+        }
+      ]
+    },
+    {
+      "name": "Azioni",
+      "words": [
+        {
+          "de": "herunterladen",
+          "it": "scaricare",
+          "emoji": "⬇️",
+          "example_de": "Ich muss die App herunterladen.",
+          "example_it": "Devo scaricare l'app."
+        },
+        {
+          "de": "hochladen",
+          "it": "caricare (upload)",
+          "emoji": "⬆️",
+          "example_de": "Kannst du die Fotos hochladen?",
+          "example_it": "Puoi caricare le foto?"
+        },
+        {
+          "de": "installieren",
+          "it": "installare",
+          "emoji": "📥",
+          "example_de": "Du musst das Programm zuerst installieren.",
+          "example_it": "Devi prima installare il programma."
+        },
+        {
+          "de": "aktualisieren",
+          "it": "aggiornare",
+          "emoji": "🔄",
+          "example_de": "Vergiss nicht, die Software zu aktualisieren.",
+          "example_it": "Non dimenticare di aggiornare il software."
+        },
+        {
+          "de": "speichern",
+          "it": "salvare",
+          "emoji": "💾",
+          "example_de": "Hast du die Datei gespeichert?",
+          "example_it": "Hai salvato il file?"
+        },
+        {
+          "de": "löschen",
+          "it": "cancellare / eliminare",
+          "emoji": "🗑️",
+          "example_de": "Ich habe die alten E-Mails gelöscht.",
+          "example_it": "Ho cancellato le vecchie e-mail."
+        },
+        {
+          "de": "sichern",
+          "it": "fare un backup / mettere in sicurezza",
+          "emoji": "🔐",
+          "example_de": "Du solltest deine Daten regelmäßig sichern.",
+          "example_it": "Dovresti fare regolarmente un backup dei tuoi dati."
+        },
+        {
+          "de": "teilen",
+          "it": "condividere",
+          "emoji": "🔗",
+          "example_de": "Kannst du den Link mit mir teilen?",
+          "example_it": "Puoi condividere il link con me?"
+        }
+      ]
+    }
+  ]
+}

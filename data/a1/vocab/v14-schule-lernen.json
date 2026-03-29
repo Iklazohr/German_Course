@@ -1,0 +1,49 @@
+{
+  "id": "a1-v14",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Scuola e apprendimento",
+  "subtitle": "Schule und Lernen",
+  "groups": [
+    {
+      "name": "Scuola",
+      "words": [
+        { "de": "die Schule", "it": "la scuola", "emoji": "🏫", "example_de": "Meine Schule ist groß.", "example_it": "La mia scuola è grande." },
+        { "de": "die Klasse", "it": "la classe", "emoji": "🎓", "example_de": "In meiner Klasse sind 25 Schüler.", "example_it": "Nella mia classe ci sono 25 alunni." },
+        { "de": "der Lehrer / die Lehrerin", "it": "l'insegnante (m/f)", "emoji": "👨‍🏫", "example_de": "Der Lehrer erklärt die Grammatik.", "example_it": "L'insegnante spiega la grammatica." },
+        { "de": "der Schüler / die Schülerin", "it": "l'alunno/a", "emoji": "👨‍🎓", "example_de": "Die Schüler lernen fleißig.", "example_it": "Gli alunni studiano con impegno." },
+        { "de": "das Buch", "it": "il libro", "emoji": "📚", "example_de": "Öffnet euer Buch auf Seite 10!", "example_it": "Aprite il libro a pagina 10!" },
+        { "de": "das Heft", "it": "il quaderno", "emoji": "📓", "example_de": "Schreib die Aufgabe ins Heft!", "example_it": "Scrivi il compito sul quaderno!" },
+        { "de": "der Stift", "it": "la penna / matita", "emoji": "✏️", "example_de": "Hast du einen Stift?", "example_it": "Hai una penna?" },
+        { "de": "die Tafel", "it": "la lavagna", "emoji": "📋", "example_de": "Der Lehrer schreibt an die Tafel.", "example_it": "L'insegnante scrive alla lavagna." },
+        { "de": "die Hausaufgabe", "it": "il compito a casa", "emoji": "📝", "example_de": "Ich mache meine Hausaufgaben.", "example_it": "Faccio i miei compiti a casa." }
+      ]
+    },
+    {
+      "name": "Materie",
+      "words": [
+        { "de": "Deutsch", "it": "tedesco", "emoji": "🇩🇪", "example_de": "Deutsch ist interessant.", "example_it": "Il tedesco è interessante." },
+        { "de": "Mathematik / Mathe", "it": "matematica", "emoji": "🔢", "example_de": "Mathe ist schwer.", "example_it": "La matematica è difficile." },
+        { "de": "Englisch", "it": "inglese", "emoji": "🇬🇧", "example_de": "Ich lerne auch Englisch.", "example_it": "Studio anche inglese." },
+        { "de": "Sport", "it": "educazione fisica", "emoji": "⚽", "example_de": "Am Dienstag haben wir Sport.", "example_it": "Martedì abbiamo educazione fisica." },
+        { "de": "Musik", "it": "musica", "emoji": "🎵", "example_de": "Im Musikunterricht singen wir.", "example_it": "A lezione di musica cantiamo." },
+        { "de": "Kunst", "it": "arte", "emoji": "🎨", "example_de": "In Kunst malen wir Bilder.", "example_it": "Ad arte dipingiamo quadri." },
+        { "de": "Geschichte", "it": "storia", "emoji": "📜", "example_de": "Geschichte finde ich spannend.", "example_it": "Trovo la storia appassionante." },
+        { "de": "Naturwissenschaften", "it": "scienze naturali", "emoji": "🔬", "example_de": "In Naturwissenschaften machen wir Experimente.", "example_it": "A scienze facciamo esperimenti." }
+      ]
+    },
+    {
+      "name": "Azioni",
+      "words": [
+        { "de": "lernen", "it": "studiare / imparare", "emoji": "📖", "example_de": "Ich lerne jeden Tag Deutsch.", "example_it": "Studio tedesco ogni giorno." },
+        { "de": "lesen", "it": "leggere", "emoji": "📕", "example_de": "Wir lesen einen Text.", "example_it": "Leggiamo un testo." },
+        { "de": "schreiben", "it": "scrivere", "emoji": "✍️", "example_de": "Schreib deinen Namen!", "example_it": "Scrivi il tuo nome!" },
+        { "de": "rechnen", "it": "calcolare / fare i conti", "emoji": "🧮", "example_de": "Die Kinder rechnen.", "example_it": "I bambini fanno i conti." },
+        { "de": "fragen", "it": "chiedere / domandare", "emoji": "❓", "example_de": "Darf ich etwas fragen?", "example_it": "Posso fare una domanda?" },
+        { "de": "antworten", "it": "rispondere", "emoji": "💬", "example_de": "Bitte antworten Sie!", "example_it": "Risponda, per favore!" },
+        { "de": "verstehen", "it": "capire", "emoji": "💡", "example_de": "Ich verstehe die Aufgabe nicht.", "example_it": "Non capisco il compito." },
+        { "de": "erklären", "it": "spiegare", "emoji": "🗣️", "example_de": "Können Sie das erklären?", "example_it": "Può spiegare questo?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "a1-e10",
+  "level": "a1",
+  "type": "exercise",
+  "title": "Esercizi: Riepilogo generale",
+  "exercises": [
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo determinativo corretto.",
+      "word": "_____ Hund ist braun.",
+      "options": ["der", "die", "das", "den"],
+      "correct": "der",
+      "explanation": "'Hund' è maschile: der Hund (nominativo)."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo corretto (accusativo).",
+      "word": "Ich kaufe _____ Buch.",
+      "options": ["der", "die", "das", "den"],
+      "correct": "das",
+      "explanation": "'Buch' è neutro. All'accusativo il neutro non cambia: das Buch."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Coniuga il verbo 'sprechen' per 'er'.",
+      "sentence": "Er _____ sehr gut Deutsch.",
+      "answer": "spricht",
+      "explanation": "'Sprechen' ha il cambio vocalico e→i: er spricht."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la negazione corretta.",
+      "sentence": "Das ist _____ Katze, das ist ein Hund.",
+      "answer": "keine",
+      "explanation": "'Katze' è femminile, la negazione dell'articolo indeterminativo è 'keine'."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale frase ha l'ordine delle parole corretto?",
+      "options": [
+        "Morgen fahre ich nach Berlin.",
+        "Morgen ich fahre nach Berlin.",
+        "Morgen ich nach Berlin fahre.",
+        "Fahre morgen ich nach Berlin."
+      ],
+      "correct": "Morgen fahre ich nach Berlin.",
+      "explanation": "In tedesco il verbo è sempre in posizione 2. Se iniziamo con 'morgen', il verbo viene subito dopo."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il verbo modale corretto: können, müssen, wollen.",
+      "sentence": "Ich _____ Deutsch lernen. (voglio)",
+      "answer": "will",
+      "explanation": "'Wollen' (volere): ich will."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il possessivo corretto.",
+      "sentence": "Wir besuchen _____ Großeltern. (nostri)",
+      "answer": "unsere",
+      "explanation": "'Großeltern' è plurale: unsere Großeltern."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Qual è l'imperativo corretto di 'nehmen' per 'du'?",
+      "options": ["Nehm!", "Nimm!", "Nehme!", "Nimmst!"],
+      "correct": "Nimm!",
+      "explanation": "'Nehmen' ha il cambio vocalico e→i all'imperativo: Nimm!"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Ci sono molti parchi a Berlino.",
+      "answer": "Es gibt viele Parks in Berlin.",
+      "explanation": "'Es gibt' + accusativo = c'è/ci sono. 'Viele Parks' = molti parchi."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Devo andare dal medico alle tre.",
+      "answer": "Ich muss um drei Uhr zum Arzt gehen.",
+      "explanation": "'Müssen' + infinito alla fine. 'Um drei Uhr' = alle tre. 'Zum Arzt' = dal medico."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la preposizione corretta.",
+      "sentence": "Die Katze sitzt _____ dem Stuhl. (sopra, stato)",
+      "answer": "auf",
+      "explanation": "Su una superficie orizzontale (stato in luogo) → 'auf' + dativo: auf dem Stuhl."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase.",
+      "words": ["du", "Kannst", "helfen", "mir"],
+      "answer": "Kannst du mir helfen?",
+      "explanation": "Domanda con verbo modale: Modale + soggetto + complemento + infinito?"
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina il tedesco all'italiano.",
+      "pairs": [
+        { "left": "werden", "right": "diventare" },
+        { "left": "haben", "right": "avere" },
+        { "left": "sein", "right": "essere" },
+        { "left": "können", "right": "potere" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta di 'werden'.",
+      "sentence": "Was _____ du von Beruf? (diventare)",
+      "answer": "wirst",
+      "explanation": "du wirst - 'werden' con cambio vocalico e→i."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Come si dice 'Qui si parla tedesco'?",
+      "options": [
+        "Man spricht hier Deutsch.",
+        "Mann spricht hier Deutsch.",
+        "Man sprechen hier Deutsch.",
+        "Es spricht hier Deutsch."
+      ],
+      "correct": "Man spricht hier Deutsch.",
+      "explanation": "'Man' + verbo alla 3a persona singolare: man spricht."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Prendo il treno alle 8 dalla stazione.",
+      "answer": "Ich nehme den Zug um 8 Uhr am Bahnhof.",
+      "explanation": "'Den Zug nehmen' = prendere il treno (accusativo). 'Um 8 Uhr' = alle 8. 'Am Bahnhof' = alla stazione."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli la forma corretta per il dativo.",
+      "word": "Ich bin in _____ Küche. (stato in luogo)",
+      "options": ["die", "der", "dem", "den"],
+      "correct": "der",
+      "explanation": "'Küche' è femminile. Al dativo femminile: der Küche. (in der Küche)"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina per formare una frase corretta.",
+      "words": ["Am", "stehe", "ich", "Sonntag", "spät", "auf"],
+      "answer": "Am Sonntag stehe ich spät auf.",
+      "explanation": "Complemento di tempo in posizione 1, verbo in posizione 2, prefisso separabile alla fine."
+    }
+  ]
+}

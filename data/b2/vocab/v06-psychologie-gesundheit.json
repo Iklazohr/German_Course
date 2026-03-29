@@ -1,0 +1,54 @@
+{
+  "id": "b2-v06",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Psicologia e salute",
+  "subtitle": "Psychologie und Gesundheit",
+  "groups": [
+    {
+      "name": "Psicologia",
+      "words": [
+        { "de": "die Therapie, -n", "it": "la terapia", "emoji": "🧠", "example_de": "Er macht seit einem Jahr eine Therapie.", "example_it": "Fa una terapia da un anno." },
+        { "de": "der Psychologe, -n", "it": "lo psicologo", "emoji": "👨‍⚕️", "example_de": "Sie geht regelmäßig zum Psychologen.", "example_it": "Va regolarmente dallo psicologo." },
+        { "de": "die Depression, -en", "it": "la depressione", "emoji": "😔", "example_de": "Depressionen gehören zu den häufigsten psychischen Erkrankungen.", "example_it": "La depressione è una delle malattie psichiche più comuni." },
+        { "de": "die Angststörung, -en", "it": "il disturbo d'ansia", "emoji": "😨", "example_de": "Angststörungen können gut behandelt werden.", "example_it": "I disturbi d'ansia possono essere trattati efficacemente." },
+        { "de": "der Stress", "it": "lo stress", "emoji": "😰", "example_de": "Zu viel Stress kann krank machen.", "example_it": "Troppo stress può far ammalare." },
+        { "de": "das Burnout, -s", "it": "il burnout / l'esaurimento professionale", "emoji": "🔥", "example_de": "Immer mehr Menschen leiden unter Burnout.", "example_it": "Sempre più persone soffrono di burnout." },
+        { "de": "das Selbstwertgefühl", "it": "l'autostima", "emoji": "💪", "example_de": "Sport kann das Selbstwertgefühl stärken.", "example_it": "Lo sport può rafforzare l'autostima." },
+        { "de": "die Bewältigung", "it": "la gestione / il superamento (di problemi)", "emoji": "🏔️", "example_de": "Die Bewältigung von Stress ist ein wichtiges Thema.", "example_it": "La gestione dello stress è un tema importante." },
+        { "de": "die Verhaltenstherapie", "it": "la terapia comportamentale", "emoji": "📋", "example_de": "Die Verhaltenstherapie zeigt oft gute Ergebnisse.", "example_it": "La terapia comportamentale mostra spesso buoni risultati." },
+        { "de": "das Trauma, Traumata", "it": "il trauma", "emoji": "💔", "example_de": "Viele Flüchtlinge leiden unter einem Trauma.", "example_it": "Molti rifugiati soffrono di un trauma." }
+      ]
+    },
+    {
+      "name": "Salute",
+      "words": [
+        { "de": "die Ernährung", "it": "l'alimentazione", "emoji": "🥗", "example_de": "Eine gesunde Ernährung ist wichtig für die Gesundheit.", "example_it": "Un'alimentazione sana è importante per la salute." },
+        { "de": "die Bewegung", "it": "il movimento / l'attività fisica", "emoji": "🏃", "example_de": "Regelmäßige Bewegung stärkt das Herz.", "example_it": "L'attività fisica regolare rafforza il cuore." },
+        { "de": "der Schlaf", "it": "il sonno", "emoji": "😴", "example_de": "Ausreichend Schlaf ist für die Gesundheit unerlässlich.", "example_it": "Un sonno sufficiente è indispensabile per la salute." },
+        { "de": "die Vorsorge", "it": "la prevenzione / il check-up", "emoji": "🩺", "example_de": "Gehen Sie regelmäßig zur Vorsorge.", "example_it": "Vada regolarmente a fare il check-up." },
+        { "de": "das Immunsystem", "it": "il sistema immunitario", "emoji": "🛡️", "example_de": "Vitamin C stärkt das Immunsystem.", "example_it": "La vitamina C rafforza il sistema immunitario." },
+        { "de": "der Blutdruck", "it": "la pressione sanguigna", "emoji": "❤️", "example_de": "Hoher Blutdruck kann gefährlich sein.", "example_it": "La pressione alta può essere pericolosa." },
+        { "de": "die Impfung, -en", "it": "la vaccinazione", "emoji": "💉", "example_de": "Die Impfung schützt vor schweren Erkrankungen.", "example_it": "La vaccinazione protegge da malattie gravi." },
+        { "de": "die Allergie, -n", "it": "l'allergia", "emoji": "🤧", "example_de": "Er hat eine Allergie gegen Pollen.", "example_it": "Ha un'allergia al polline." },
+        { "de": "die Nebenwirkung, -en", "it": "l'effetto collaterale", "emoji": "⚠️", "example_de": "Dieses Medikament hat wenige Nebenwirkungen.", "example_it": "Questo farmaco ha pochi effetti collaterali." },
+        { "de": "die Diagnose, -n", "it": "la diagnosi", "emoji": "🔍", "example_de": "Die Diagnose wurde durch einen Bluttest bestätigt.", "example_it": "La diagnosi è stata confermata da un esame del sangue." }
+      ]
+    },
+    {
+      "name": "Benessere",
+      "words": [
+        { "de": "sich erholen", "it": "riprendersi / rilassarsi", "emoji": "🧘", "example_de": "Im Urlaub konnte ich mich gut erholen.", "example_it": "In vacanza ho potuto riposarmi bene." },
+        { "de": "meditieren", "it": "meditare", "emoji": "🧘‍♂️", "example_de": "Sie meditiert jeden Morgen zwanzig Minuten.", "example_it": "Medita ogni mattina per venti minuti." },
+        { "de": "sich entspannen", "it": "rilassarsi", "emoji": "😌", "example_de": "Nach der Arbeit muss ich mich erst mal entspannen.", "example_it": "Dopo il lavoro devo prima rilassarmi." },
+        { "de": "achtsam", "it": "consapevole / attento (mindful)", "emoji": "🌿", "example_de": "Achtsam zu leben bedeutet, den Moment bewusst zu erleben.", "example_it": "Vivere in modo consapevole significa sperimentare il momento coscientemente." },
+        { "de": "das Gleichgewicht", "it": "l'equilibrio", "emoji": "⚖️", "example_de": "Ein Gleichgewicht zwischen Arbeit und Freizeit ist wichtig.", "example_it": "Un equilibrio tra lavoro e tempo libero è importante." },
+        { "de": "die Lebensqualität", "it": "la qualità della vita", "emoji": "🌟", "example_de": "Sport verbessert die Lebensqualität erheblich.", "example_it": "Lo sport migliora notevolmente la qualità della vita." },
+        { "de": "die Prävention", "it": "la prevenzione", "emoji": "🛡️", "example_de": "Prävention ist besser als Heilung.", "example_it": "La prevenzione è meglio della cura." },
+        { "de": "die Resilienz", "it": "la resilienza", "emoji": "💎", "example_de": "Resilienz hilft uns, Krisen zu überstehen.", "example_it": "La resilienza ci aiuta a superare le crisi." },
+        { "de": "das Wohlbefinden", "it": "il benessere", "emoji": "😊", "example_de": "Regelmäßige Bewegung fördert das Wohlbefinden.", "example_it": "L'attività fisica regolare favorisce il benessere." },
+        { "de": "die Achtsamkeit", "it": "la consapevolezza / la mindfulness", "emoji": "🌸", "example_de": "Achtsamkeit kann Stress reduzieren.", "example_it": "La mindfulness può ridurre lo stress." }
+      ]
+    }
+  ]
+}

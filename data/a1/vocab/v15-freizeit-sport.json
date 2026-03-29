@@ -1,0 +1,37 @@
+{
+  "id": "a1-v15",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Tempo libero e sport",
+  "subtitle": "Freizeit und Sport",
+  "groups": [
+    {
+      "name": "Sport",
+      "words": [
+        { "de": "Fußball spielen", "it": "giocare a calcio", "emoji": "⚽", "example_de": "Am Samstag spiele ich Fußball.", "example_it": "Sabato gioco a calcio." },
+        { "de": "schwimmen", "it": "nuotare", "emoji": "🏊", "example_de": "Ich schwimme gern im Meer.", "example_it": "Mi piace nuotare nel mare." },
+        { "de": "Tennis spielen", "it": "giocare a tennis", "emoji": "🎾", "example_de": "Spielst du Tennis?", "example_it": "Giochi a tennis?" },
+        { "de": "laufen / joggen", "it": "correre / fare jogging", "emoji": "🏃", "example_de": "Ich laufe jeden Morgen.", "example_it": "Corro ogni mattina." },
+        { "de": "Rad fahren", "it": "andare in bici", "emoji": "🚴", "example_de": "Am Wochenende fahre ich Rad.", "example_it": "Nel fine settimana vado in bici." },
+        { "de": "turnen", "it": "fare ginnastica", "emoji": "🤸", "example_de": "Die Kinder turnen in der Halle.", "example_it": "I bambini fanno ginnastica in palestra." },
+        { "de": "wandern", "it": "fare escursionismo", "emoji": "🥾", "example_de": "Wir wandern in den Bergen.", "example_it": "Facciamo escursioni in montagna." },
+        { "de": "Ski fahren", "it": "sciare", "emoji": "⛷️", "example_de": "Im Winter fahre ich Ski.", "example_it": "In inverno scio." }
+      ]
+    },
+    {
+      "name": "Freizeit",
+      "words": [
+        { "de": "lesen", "it": "leggere", "emoji": "📖", "example_de": "Ich lese gern Romane.", "example_it": "Mi piace leggere romanzi." },
+        { "de": "Musik hören", "it": "ascoltare musica", "emoji": "🎧", "example_de": "Abends höre ich Musik.", "example_it": "Di sera ascolto musica." },
+        { "de": "Spiele spielen", "it": "giocare ai giochi", "emoji": "🎮", "example_de": "Wir spielen Computerspiele.", "example_it": "Giochiamo ai videogiochi." },
+        { "de": "malen", "it": "dipingere / disegnare", "emoji": "🎨", "example_de": "Mein Sohn malt gern.", "example_it": "A mio figlio piace disegnare." },
+        { "de": "kochen", "it": "cucinare", "emoji": "👨‍🍳", "example_de": "Am Wochenende koche ich gern.", "example_it": "Nel fine settimana mi piace cucinare." },
+        { "de": "tanzen", "it": "ballare", "emoji": "💃", "example_de": "Sie tanzt sehr gut.", "example_it": "Lei balla molto bene." },
+        { "de": "ins Kino gehen", "it": "andare al cinema", "emoji": "🎬", "example_de": "Gehen wir ins Kino?", "example_it": "Andiamo al cinema?" },
+        { "de": "fotografieren", "it": "fotografare", "emoji": "📸", "example_de": "Ich fotografiere gern Landschaften.", "example_it": "Mi piace fotografare paesaggi." },
+        { "de": "Freunde treffen", "it": "incontrare amici", "emoji": "👫", "example_de": "Am Freitag treffe ich Freunde.", "example_it": "Venerdì incontro degli amici." },
+        { "de": "reisen", "it": "viaggiare", "emoji": "✈️", "example_de": "Ich reise gern nach Spanien.", "example_it": "Mi piace viaggiare in Spagna." }
+      ]
+    }
+  ]
+}

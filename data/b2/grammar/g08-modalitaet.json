@@ -1,0 +1,52 @@
+{
+  "id": "b2-g08",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Esprimere modalità e sfumature",
+  "subtitle": "Modalität und Nuancen ausdrücken",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il tedesco dispone di diversi verbi e costruzioni che esprimono **sfumature modali** al di là dei classici verbi modali (können, müssen, sollen, ecc.). Queste costruzioni permettono di esprimere apparenza, necessità negata, minaccia, promessa, obbligo e possibilità passiva. Sono molto frequenti nel tedesco scritto e parlato di livello B2 e superiore, e danno al discorso una **precisione espressiva** che manca nelle costruzioni più semplici."
+    },
+    {
+      "type": "rule",
+      "title": "scheinen + zu + Infinito: apparenza",
+      "content": "**scheinen + zu + Infinito** esprime che qualcosa **sembra** essere in un certo modo, senza certezza. Corrisponde all'italiano 'sembrare + infinito'.\n\n- Er **scheint** krank **zu sein**. → Sembra essere malato.\n- Sie **scheint** alles **zu wissen**. → Sembra sapere tutto.\n- Das Problem **scheint** gelöst **zu sein**. → Il problema sembra essere risolto.\n- Die Situation **scheint** sich **zu verschlechtern**. → La situazione sembra peggiorare.\n\n**Struttura:** Soggetto + scheinen (coniugato) + ... + zu + Infinito\n\n**Al passato:** Er **schien** müde **zu sein**. (Sembrava essere stanco.)"
+    },
+    {
+      "type": "rule",
+      "title": "brauchen + zu + Infinito: non è necessario",
+      "content": "**brauchen + zu + Infinito** si usa quasi esclusivamente con la **negazione** (nicht/kein) o con **nur/bloß** per esprimere che qualcosa non è necessario. Funziona come alternativa a 'nicht müssen'.\n\n- Du **brauchst** nicht **zu kommen**. → Non devi/hai bisogno di venire.\n- Sie **brauchen** sich keine Sorgen **zu machen**. → Non ha bisogno di preoccuparsi.\n- Er **braucht** nur **anzurufen**. → Deve solo chiamare.\n- Ihr **braucht** bloß **zu fragen**. → Dovete solo chiedere.\n\n**Attenzione:** Nell'orale informale si sente spesso 'brauchen' senza 'zu' (*Du brauchst nicht kommen*), ma nella lingua scritta e formale il 'zu' è obbligatorio.\n\n**Regola pratica:** brauchen + nicht/nur/bloß + zu + Infinito"
+    },
+    {
+      "type": "rule",
+      "title": "drohen + zu / versprechen + zu: minaccia e promessa",
+      "content": "Questi due verbi hanno un uso modale speciale quando sono seguiti da **zu + Infinito** (senza soggetto animato intenzionale):\n\n**drohen + zu + Infinito** → indica un pericolo imminente, qualcosa che 'minaccia' di succedere:\n- Es **droht zu regnen**. → Minaccia di piovere.\n- Die Brücke **droht einzustürzen**. → Il ponte rischia di crollare.\n- Die Verhandlungen **drohen zu scheitern**. → I negoziati rischiano di fallire.\n\n**versprechen + zu + Infinito** → indica che qualcosa si preannuncia bene:\n- Das Wetter **verspricht schön zu werden**. → Il tempo promette di essere bello.\n- Das **verspricht** ein guter Tag **zu werden**. → Promette di essere una bella giornata.\n- Die Ernte **verspricht gut auszufallen**. → Il raccolto promette di essere buono.\n\n**Nota:** In quest'uso modale, il soggetto è di solito una **cosa** o una **situazione**, non una persona. Quando il soggetto è una persona, i verbi hanno il significato letterale: *Er droht mir* (Mi minaccia), *Sie verspricht zu kommen* (Promette di venire)."
+    },
+    {
+      "type": "rule",
+      "title": "haben + zu + Infinito vs. sein + zu + Infinito",
+      "content": "Queste due costruzioni esprimono **obbligo** o **possibilità** con sfumature diverse:\n\n**haben + zu + Infinito** → esprime **obbligo attivo** (il soggetto deve fare qualcosa). Equivale a 'müssen':\n- Ich **habe** noch viel **zu arbeiten**. → Devo ancora lavorare molto.\n- Du **hast** die Regeln **zu befolgen**. → Devi rispettare le regole.\n- Wir **haben** pünktlich **zu erscheinen**. → Dobbiamo presentarci puntualmente.\n\n**sein + zu + Infinito** → esprime **possibilità o obbligo passivo** (qualcosa può/deve essere fatto). Equivale a 'können + Passiv' o 'müssen + Passiv':\n- Die Aufgabe **ist** leicht **zu lösen**. → Il compito è facile da risolvere. (= kann gelöst werden)\n- Diese Rechnung **ist** sofort **zu bezahlen**. → Questa fattura è da pagare immediatamente. (= muss bezahlt werden)\n- Der Schaden **ist** nicht mehr **zu reparieren**. → Il danno non è più riparabile. (= kann nicht mehr repariert werden)\n\n**Riassunto:**\n| Costruzione | Significato | Equivale a |\n|---|---|---|\n| haben + zu | obbligo attivo | müssen |\n| sein + zu (affermativo) | obbligo passivo | müssen + Passiv |\n| sein + zu (negativo/con facile-difficile) | possibilità passiva | können + Passiv |"
+    },
+    {
+      "type": "tip",
+      "content": "Queste costruzioni modali rendono il tuo tedesco molto più sofisticato e naturale. 'Scheinen + zu' è perfetto per esprimere cautela nelle affermazioni. 'Haben/sein + zu' è molto amato nel tedesco burocratico e formale. 'Drohen + zu' è onnipresente nei notiziari quando si parla di pericoli e crisi. Usale attivamente per superare il livello B2!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Er scheint sehr beschäftigt zu sein.", "it": "Sembra essere molto impegnato." },
+        { "de": "Du brauchst heute nicht zu arbeiten.", "it": "Oggi non hai bisogno di lavorare." },
+        { "de": "Die Wirtschaft droht in eine Rezession zu fallen.", "it": "L'economia rischia di cadere in recessione." },
+        { "de": "Das Wetter verspricht morgen schön zu werden.", "it": "Il tempo promette di essere bello domani." },
+        { "de": "Ich habe noch viel zu erledigen.", "it": "Ho ancora molto da sbrigare." },
+        { "de": "Dieses Problem ist schwer zu lösen.", "it": "Questo problema è difficile da risolvere." },
+        { "de": "Sie brauchen nur Ihren Namen zu nennen.", "it": "Deve solo dire il suo nome." },
+        { "de": "Die Verhandlungen scheinen Fortschritte zu machen.", "it": "I negoziati sembrano fare progressi." },
+        { "de": "Der Vertrag ist bis Freitag zu unterschreiben.", "it": "Il contratto è da firmare entro venerdì." },
+        { "de": "Das Gebäude droht zusammenzubrechen.", "it": "L'edificio rischia di crollare." }
+      ]
+    }
+  ]
+}

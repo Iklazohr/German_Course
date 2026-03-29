@@ -1,0 +1,133 @@
+{
+  "id": "b1-e05",
+  "level": "b1",
+  "type": "exercise",
+  "title": "Esercizi: Parole composte e n-Deklination",
+  "exercises": [
+    {
+      "type": "matching",
+      "instruction": "Abbina le parole composte al loro significato.",
+      "pairs": [
+        { "left": "die Fahrkarte", "right": "il biglietto di viaggio" },
+        { "left": "das Schlafzimmer", "right": "la camera da letto" },
+        { "left": "der Kühlschrank", "right": "il frigorifero" },
+        { "left": "das Hochhaus", "right": "il grattacielo" },
+        { "left": "der Staubsauger", "right": "l'aspirapolvere" },
+        { "left": "die Hauptstadt", "right": "la capitale" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta del sostantivo (n-Deklination).",
+      "question": "Ich habe den ___ (Kunde) gestern im Geschäft beraten.",
+      "answer": "Kunden",
+      "hint": "Kunde segue la n-Deklination: den Kunden (accusativo)."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta del sostantivo (n-Deklination).",
+      "question": "Der Lehrer hat dem ___ (Student) geholfen.",
+      "answer": "Studenten",
+      "hint": "Student segue la n-Deklination: dem Studenten (dativo)."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta del sostantivo (n-Deklination).",
+      "question": "Kennen Sie den ___ (Name) des ___ (Präsident)?",
+      "answer": "Namen / Präsidenten",
+      "hint": "Name è un sostantivo misto (den Namen, acc). Präsident segue la n-Deklination (des Präsidenten, gen)."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Qual è il genere della parola composta?",
+      "question": "der Schlaf + das Zimmer = ___ Schlafzimmer",
+      "options": ["der", "die", "das"],
+      "answer": "das",
+      "hint": "Il genere della parola composta è determinato dall'ultimo elemento: das Zimmer → das Schlafzimmer."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale suffisso trasforma un verbo in un sostantivo femminile?",
+      "question": "wohnen → die Wohn___",
+      "options": ["-heit", "-ung", "-schaft", "-bar"],
+      "answer": "-ung",
+      "hint": "Il suffisso -ung trasforma verbi in sostantivi femminili."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Forma la parola composta corretta.",
+      "question": "die Hand + der Schuh = ___",
+      "answer": "der Handschuh",
+      "hint": "Il genere viene dall'ultima parola: der Schuh → der Handschuh (il guanto)."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta del sostantivo (n-Deklination).",
+      "question": "Ich möchte mit ___ (Herr) Schmidt sprechen.",
+      "answer": "Herrn",
+      "hint": "Herr aggiunge -n al singolare nei casi obliqui: mit Herrn Schmidt (dativo)."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale parola composta significa 'il tempo libero'?",
+      "question": "Scegli la parola corretta.",
+      "options": ["die Freizeit", "die Zeitfrei", "die Freistunde", "die Zeitfreiheit"],
+      "answer": "die Freizeit",
+      "hint": "frei (libero) + die Zeit (il tempo) = die Freizeit."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando una parola composta.",
+      "question": "il negozio di scarpe",
+      "answer": "das Schuhgeschäft",
+      "hint": "der Schuh (scarpa) + das Geschäft (negozio) = das Schuhgeschäft"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Aggiungi il suffisso corretto per formare l'aggettivo.",
+      "question": "die Hoffnung → hoffnungs___ (senza speranza)",
+      "answer": "los",
+      "hint": "Il suffisso -los indica mancanza, come 'senza' in italiano."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Aggiungi il suffisso corretto per formare l'aggettivo.",
+      "question": "essen → ess___ (commestibile)",
+      "answer": "bar",
+      "hint": "Il suffisso -bar corrisponde al suffisso italiano -bile."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale sostantivo NON segue la n-Deklination?",
+      "question": "Scegli il sostantivo che non segue la n-Deklination.",
+      "options": ["der Student", "der Tisch", "der Kunde", "der Journalist"],
+      "answer": "der Tisch",
+      "hint": "der Tisch è un sostantivo maschile regolare, non indica una persona e non ha desinenze tipiche della n-Deklination."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con la forma corretta del sostantivo (n-Deklination).",
+      "question": "Der ___ (Junge) spielt im Garten. Ich sehe den ___ (Junge) vom Fenster.",
+      "answer": "Junge / Jungen",
+      "hint": "Nominativo: der Junge. Accusativo: den Jungen."
+    },
+    {
+      "type": "translate",
+      "instruction": "Traduci in tedesco usando il prefisso corretto.",
+      "question": "È impossibile! (möglich → unmöglich)",
+      "answer": "Das ist unmöglich!",
+      "hint": "Il prefisso un- nega il significato, come in- in italiano: möglich → unmöglich."
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina ogni suffisso alla sua funzione.",
+      "pairs": [
+        { "left": "-ung", "right": "verbo → sostantivo femminile" },
+        { "left": "-heit/-keit", "right": "aggettivo → sostantivo femminile" },
+        { "left": "-lich", "right": "sostantivo → aggettivo" },
+        { "left": "-bar", "right": "verbo → aggettivo (possibilità)" },
+        { "left": "-los", "right": "sostantivo → aggettivo (mancanza)" }
+      ]
+    }
+  ]
+}

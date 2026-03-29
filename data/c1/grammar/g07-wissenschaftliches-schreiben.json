@@ -1,0 +1,66 @@
+{
+  "id": "c1-g07",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Scrittura accademica in tedesco",
+  "subtitle": "Wissenschaftliches Schreiben",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "La scrittura accademica tedesca (wissenschaftliches Schreiben) segue convenzioni precise e rigorose che la distinguono nettamente dalla prosa quotidiana. Si caratterizza per un tono oggettivo, un uso sistematico di strutture passive e impersonali, un lessico specialistico e una costruzione argomentativa chiara e logica. Padroneggiare queste convenzioni è essenziale per chi desidera scrivere tesi, articoli scientifici o saggi in ambito universitario tedesco."
+    },
+    {
+      "type": "rule",
+      "title": "Hedging: attenuare le affermazioni (Heckenausdrücke)",
+      "content": "Nel discorso accademico tedesco, le affermazioni categoriche sono considerate poco appropriate. Si preferisce attenuare (hedging) le proprie tesi:\n\n1. **Es scheint, dass...** (Sembra che...): 'Es scheint, dass diese Theorie nur bedingt anwendbar ist.'\n2. **Es lässt sich feststellen, dass...** (Si può constatare che...): 'Es lässt sich feststellen, dass ein Zusammenhang besteht.'\n3. **Man könnte argumentieren, dass...** (Si potrebbe argomentare che...): 'Man könnte argumentieren, dass dieser Ansatz veraltet ist.'\n4. **Es ist davon auszugehen, dass...** (Si può presumere che...)\n5. **Die Ergebnisse deuten darauf hin, dass...** (I risultati indicano che...)\n6. **Es liegt die Vermutung nahe, dass...** (Vi è ragione di supporre che...)\n7. **Möglicherweise / Vermutlich / Unter Umständen** (Forse / Presumibilmente / In determinate circostanze)\n\nQueste espressioni dimostrano rigore intellettuale e apertura alla discussione."
+    },
+    {
+      "type": "rule",
+      "title": "Citare fonti: strutture e preposizioni",
+      "content": "In tedesco esistono diverse strutture per introdurre citazioni e riferimenti a fonti:\n\n1. **Laut + Dativo**: 'Laut einer aktuellen Studie...' (Secondo uno studio recente...)\n2. **Wie X betont / hervorhebt / feststellt**: 'Wie Müller (2023) betont, ist dieser Aspekt entscheidend.' (Come sottolinea Müller...)\n3. **X zufolge** (postposto, + Dativo): 'Dem Autor zufolge handelt es sich um...' (Secondo l'autore si tratta di...)\n4. **Nach Angaben von + Dativo**: 'Nach Angaben des Ministeriums...' (Secondo i dati del ministero...)\n5. **Wie aus ... hervorgeht**: 'Wie aus der Tabelle hervorgeht...' (Come emerge dalla tabella...)\n6. **X vertritt die Auffassung, dass...**: 'Schmidt vertritt die Auffassung, dass...' (Schmidt sostiene che...)\n7. **In Anlehnung an + Akkusativ**: 'In Anlehnung an Webers Theorie...' (Rifacendosi alla teoria di Weber...)\n\nN.B.: Per il discorso indiretto accademico si usa il Konjunktiv I: 'Müller behauptet, die These sei widerlegt.'"
+    },
+    {
+      "type": "rule",
+      "title": "Strutturare l'argomentazione: connettori e segnali discorsivi",
+      "content": "Un testo accademico richiede una struttura argomentativa trasparente. Ecco i principali connettori:\n\n**Sequenza**: Erstens... Zweitens... Drittens... (In primo luogo... In secondo luogo... In terzo luogo...)\n**Aggiunta**: Darüber hinaus (Inoltre) / Ferner (Inoltre, per di più) / Hinzu kommt, dass... (A ciò si aggiunge che...)\n**Contrasto**: Demgegenüber (Per contro) / Hingegen (Invece) / Im Gegensatz dazu (Al contrario)\n**Causa**: Aufgrund + Gen. (A causa di) / Infolge + Gen. (In conseguenza di) / Dies ist darauf zurückzuführen, dass... (Ciò è riconducibile al fatto che...)\n**Conseguenza**: Folglich (Di conseguenza) / Infolgedessen (In conseguenza di ciò) / Demzufolge (Di conseguenza)\n**Conclusione**: Zusammenfassend lässt sich sagen, dass... (Riassumendo si può dire che...) / Abschließend sei festgehalten, dass... (In conclusione si constati che...) / Insgesamt zeigt sich, dass... (Complessivamente emerge che...)"
+    },
+    {
+      "type": "rule",
+      "title": "Evitare la soggettività: passivo, 'man', 'es'",
+      "content": "Lo stile accademico tedesco evita sistematicamente il riferimento diretto all'autore:\n\n1. **Passivo invece dell'attivo**: 'Es wurde untersucht' invece di 'Ich habe untersucht' (È stato esaminato vs. Ho esaminato)\n2. **'Man' impersonale**: 'Man kann davon ausgehen, dass...' (Si può presumere che...)\n3. **'Es' impersonale**: 'Es ist anzunehmen, dass...' (È da presumere che...)\n4. **Costruzioni con 'lassen'**: 'Es lässt sich nachweisen, dass...' (Si può dimostrare che...)\n5. **Nominalizzazione dell'agente**: 'In der vorliegenden Arbeit wird...' (Nel presente lavoro viene...) invece di 'In meiner Arbeit werde ich...'\n\nAttenzione: l'uso di 'ich' non è del tutto vietato, ma va limitato a contesti precisi come la descrizione del proprio metodo ('In der vorliegenden Untersuchung gehe ich von der These aus, dass...')."
+    },
+    {
+      "type": "tip",
+      "content": "Ecco una raccolta di frasi accademiche utili da memorizzare:\n\n- 'Im Folgenden soll untersucht werden...' (Nel prosieguo si esaminerà...)\n- 'An dieser Stelle sei darauf hingewiesen, dass...' (A questo punto si faccia notare che...)\n- 'Es erübrigt sich zu erwähnen, dass...' (È superfluo menzionare che...)\n- 'Dies bedarf einer näheren Erläuterung.' (Ciò necessita di un'ulteriore chiarificazione.)\n- 'Die vorliegende Arbeit verfolgt das Ziel...' (Il presente lavoro persegue l'obiettivo di...)\n- 'Es bleibt festzuhalten, dass...' (Resta da constatare che...)\n- 'Abschließend lässt sich konstatieren, dass...' (In conclusione si può constatare che...)"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Laut einer Studie der Universität München scheint es, dass der Zusammenhang zwischen sozialer Herkunft und Bildungserfolg nach wie vor signifikant ist.",
+          "it": "Secondo uno studio dell'Università di Monaco, sembra che la correlazione tra origine sociale e successo educativo sia tuttora significativa."
+        },
+        {
+          "de": "Wie bereits von Weber (1905) hervorgehoben wurde, lässt sich die protestantische Ethik als ein wesentlicher Faktor der kapitalistischen Entwicklung betrachten.",
+          "it": "Come già evidenziato da Weber (1905), l'etica protestante può essere considerata un fattore essenziale dello sviluppo capitalistico."
+        },
+        {
+          "de": "Erstens ist festzustellen, dass die bisherige Forschungslage lückenhaft ist. Darüber hinaus weisen die vorliegenden Daten methodische Schwächen auf. Zusammenfassend ergibt sich daraus die Notwendigkeit weiterer Untersuchungen.",
+          "it": "In primo luogo si constata che lo stato attuale della ricerca è lacunoso. Inoltre, i dati disponibili presentano debolezze metodologiche. Riassumendo, ne deriva la necessità di ulteriori indagini."
+        },
+        {
+          "de": "Die Ergebnisse deuten darauf hin, dass die Hypothese nur unter bestimmten Bedingungen aufrechterhalten werden kann, was einer differenzierten Betrachtung bedarf.",
+          "it": "I risultati indicano che l'ipotesi può essere mantenuta solo in determinate condizioni, il che richiede un'analisi differenziata."
+        },
+        {
+          "de": "Man könnte argumentieren, dass die gewählte Methodik nicht ausreichend ist, um die Komplexität des Phänomens zu erfassen. Dem ist jedoch entgegenzuhalten, dass alternative Ansätze ebenfalls Limitationen aufweisen.",
+          "it": "Si potrebbe argomentare che la metodologia scelta non è sufficiente per cogliere la complessità del fenomeno. A ciò si può tuttavia obiettare che anche approcci alternativi presentano limitazioni."
+        },
+        {
+          "de": "In Anlehnung an Bourdieus Kapitaltheorie wird im Folgenden untersucht, inwieweit kulturelles Kapital den Zugang zu höherer Bildung beeinflusst.",
+          "it": "Rifacendosi alla teoria del capitale di Bourdieu, nel prosieguo si esaminerà in che misura il capitale culturale influenzi l'accesso all'istruzione superiore."
+        }
+      ]
+    }
+  ]
+}

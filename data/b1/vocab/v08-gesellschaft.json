@@ -1,0 +1,199 @@
+{
+  "id": "b1-v08",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Società e convivenza",
+  "subtitle": "Gesellschaft und Zusammenleben",
+  "groups": [
+    {
+      "name": "Società",
+      "words": [
+        {
+          "de": "die Gesellschaft",
+          "it": "la società",
+          "emoji": "👥",
+          "example_de": "Wir leben in einer multikulturellen Gesellschaft.",
+          "example_it": "Viviamo in una società multiculturale."
+        },
+        {
+          "de": "die Gemeinschaft",
+          "it": "la comunità",
+          "emoji": "🤝",
+          "example_de": "Die Gemeinschaft hilft einander in schwierigen Zeiten.",
+          "example_it": "La comunità si aiuta a vicenda nei momenti difficili."
+        },
+        {
+          "de": "die Nachbarschaft",
+          "it": "il vicinato",
+          "emoji": "🏘️",
+          "example_de": "In unserer Nachbarschaft kennt jeder jeden.",
+          "example_it": "Nel nostro vicinato tutti si conoscono."
+        },
+        {
+          "de": "die Generation",
+          "it": "la generazione",
+          "emoji": "👨‍👩‍👧‍👦",
+          "example_de": "Jede Generation hat ihre eigenen Herausforderungen.",
+          "example_it": "Ogni generazione ha le proprie sfide."
+        },
+        {
+          "de": "die Demokratie",
+          "it": "la democrazia",
+          "emoji": "🏛️",
+          "example_de": "Die Demokratie ist eine wichtige Errungenschaft.",
+          "example_it": "La democrazia è una conquista importante."
+        },
+        {
+          "de": "die Freiheit",
+          "it": "la libertà",
+          "emoji": "🕊️",
+          "example_de": "Die Freiheit der Meinungsäußerung ist ein Grundrecht.",
+          "example_it": "La libertà di espressione è un diritto fondamentale."
+        },
+        {
+          "de": "die Gerechtigkeit",
+          "it": "la giustizia",
+          "emoji": "⚖️",
+          "example_de": "Alle Menschen verdienen Gerechtigkeit.",
+          "example_it": "Tutte le persone meritano giustizia."
+        },
+        {
+          "de": "die Toleranz",
+          "it": "la tolleranza",
+          "emoji": "🌍",
+          "example_de": "Toleranz gegenüber anderen Kulturen ist wichtig.",
+          "example_it": "La tolleranza verso altre culture è importante."
+        },
+        {
+          "de": "die Gleichberechtigung",
+          "it": "la parità di diritti",
+          "emoji": "⚖️",
+          "example_de": "Gleichberechtigung zwischen Männern und Frauen ist ein Ziel.",
+          "example_it": "La parità di diritti tra uomini e donne è un obiettivo."
+        }
+      ]
+    },
+    {
+      "name": "Problemi",
+      "words": [
+        {
+          "de": "die Armut",
+          "it": "la povertà",
+          "emoji": "😔",
+          "example_de": "Die Armut in vielen Ländern ist ein großes Problem.",
+          "example_it": "La povertà in molti paesi è un grande problema."
+        },
+        {
+          "de": "die Arbeitslosigkeit",
+          "it": "la disoccupazione",
+          "emoji": "📉",
+          "example_de": "Die Arbeitslosigkeit steigt in der Krise.",
+          "example_it": "La disoccupazione aumenta durante la crisi."
+        },
+        {
+          "de": "die Diskriminierung",
+          "it": "la discriminazione",
+          "emoji": "🚫",
+          "example_de": "Diskriminierung am Arbeitsplatz ist verboten.",
+          "example_it": "La discriminazione sul posto di lavoro è vietata."
+        },
+        {
+          "de": "der Rassismus",
+          "it": "il razzismo",
+          "emoji": "✋",
+          "example_de": "Wir müssen gemeinsam gegen Rassismus kämpfen.",
+          "example_it": "Dobbiamo lottare insieme contro il razzismo."
+        },
+        {
+          "de": "das Vorurteil",
+          "it": "il pregiudizio",
+          "emoji": "🤔",
+          "example_de": "Man sollte Vorurteile abbauen.",
+          "example_it": "Bisognerebbe abbattere i pregiudizi."
+        },
+        {
+          "de": "die Obdachlosigkeit",
+          "it": "il fenomeno dei senzatetto",
+          "emoji": "🏚️",
+          "example_de": "Obdachlosigkeit ist auch in reichen Ländern ein Problem.",
+          "example_it": "Il fenomeno dei senzatetto è un problema anche nei paesi ricchi."
+        },
+        {
+          "de": "die Kriminalität",
+          "it": "la criminalità",
+          "emoji": "⚠️",
+          "example_de": "Die Kriminalität in dieser Stadt ist gesunken.",
+          "example_it": "La criminalità in questa città è diminuita."
+        },
+        {
+          "de": "die Korruption",
+          "it": "la corruzione",
+          "emoji": "💰",
+          "example_de": "Korruption schadet der ganzen Gesellschaft.",
+          "example_it": "La corruzione danneggia tutta la società."
+        }
+      ]
+    },
+    {
+      "name": "Soluzioni",
+      "words": [
+        {
+          "de": "helfen",
+          "it": "aiutare",
+          "emoji": "🤝",
+          "example_de": "Wir können den Bedürftigen helfen.",
+          "example_it": "Possiamo aiutare i bisognosi."
+        },
+        {
+          "de": "unterstützen",
+          "it": "sostenere",
+          "emoji": "💪",
+          "example_de": "Die Organisation unterstützt Familien in Not.",
+          "example_it": "L'organizzazione sostiene le famiglie in difficoltà."
+        },
+        {
+          "de": "spenden",
+          "it": "donare",
+          "emoji": "❤️",
+          "example_de": "Viele Menschen spenden Geld für wohltätige Zwecke.",
+          "example_it": "Molte persone donano soldi per scopi benefici."
+        },
+        {
+          "de": "sich engagieren",
+          "it": "impegnarsi",
+          "emoji": "🙋",
+          "example_de": "Er engagiert sich ehrenamtlich für Flüchtlinge.",
+          "example_it": "Si impegna come volontario per i rifugiati."
+        },
+        {
+          "de": "demonstrieren",
+          "it": "manifestare",
+          "emoji": "✊",
+          "example_de": "Tausende Menschen demonstrierten für den Frieden.",
+          "example_it": "Migliaia di persone hanno manifestato per la pace."
+        },
+        {
+          "de": "wählen",
+          "it": "votare / scegliere",
+          "emoji": "🗳️",
+          "example_de": "Jeder Bürger hat das Recht zu wählen.",
+          "example_it": "Ogni cittadino ha il diritto di votare."
+        },
+        {
+          "de": "reformieren",
+          "it": "riformare",
+          "emoji": "🔧",
+          "example_de": "Die Regierung will das Bildungssystem reformieren.",
+          "example_it": "Il governo vuole riformare il sistema scolastico."
+        },
+        {
+          "de": "integrieren",
+          "it": "integrare",
+          "emoji": "🌈",
+          "example_de": "Es ist wichtig, Migranten in die Gesellschaft zu integrieren.",
+          "example_it": "È importante integrare i migranti nella società."
+        }
+      ]
+    }
+  ]
+}
