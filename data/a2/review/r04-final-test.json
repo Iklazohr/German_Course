@@ -1,0 +1,76 @@
+{
+  "id": "a2-r04",
+  "level": "a2",
+  "title": "Test finale A2",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "sentence": "Ich ___ gestern ins Kino gegangen.",
+      "blanks": [{ "position": 0, "correct": ["bin"], "hint": "gehen = movimento → ausiliare 'sein'" }],
+      "translation": "Ieri sono andato al cinema."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase al Perfekt è corretta?",
+      "options": ["Sie hat nach Berlin gefahren.", "Sie ist nach Berlin gefahren.", "Sie hat nach Berlin gefahrt.", "Sie ist nach Berlin gefahrt."],
+      "correct": 1,
+      "explanation": "'Fahren' (andare con un mezzo) usa 'sein': Sie ist gefahren. Partizip II irregolare: gefahren."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich fahre mit ___ Straßenbahn zur Schule.",
+      "blanks": [{ "position": 0, "correct": ["der"], "hint": "'mit' + dativo. Die Straßenbahn (femm.) → der Straßenbahn" }],
+      "translation": "Vado a scuola con il tram."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Resto a casa perché sono malato.",
+      "acceptable": ["Ich bleibe zu Hause, weil ich krank bin."],
+      "hint": "perché = weil, il verbo va alla fine della subordinata"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega le forme irregolari.",
+      "pairs": [
+        { "left": "gut → besser →", "right": "am besten" },
+        { "left": "viel → mehr →", "right": "am meisten" },
+        { "left": "gern → lieber →", "right": "am liebsten" },
+        { "left": "hoch → höher →", "right": "am höchsten" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er fühlt ___ heute nicht gut.",
+      "blanks": [{ "position": 0, "correct": ["sich"], "hint": "sich fühlen = sentirsi, pronome riflessivo terza persona" }],
+      "translation": "Oggi non si sente bene."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Ich weiß nicht, ___ er morgen kommt.'",
+      "options": ["weil", "dass", "ob", "wenn"],
+      "correct": 2,
+      "explanation": "'Ob' (se, nel senso di dubbio) introduce una domanda indiretta: Non so se viene domani."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["Ich", "bleibe", "zu", "Hause", ",", "weil", "es", "regnet", "."],
+      "correct": "Ich bleibe zu Hause , weil es regnet .",
+      "translation": "Resto a casa perché piove."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Berlin ist ___ als München.",
+      "blanks": [{ "position": 0, "correct": ["größer"], "hint": "comparativo di 'groß' → größer (con Umlaut)" }],
+      "translation": "Berlino è più grande di Monaco."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Mi lavo le mani.",
+      "acceptable": ["Ich wasche mir die Hände."],
+      "hint": "lavarsi = sich waschen, riflessivo al dativo perché c'è un oggetto (die Hände)"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "c1-r02",
+  "level": "c1",
+  "type": "exercise",
+  "title": "Test finale C1",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase contiene un attributo esteso (erweitertes Attribut)?",
+      "options": [
+        "Der Mann, der gestern kam, ist mein Bruder.",
+        "Der gestern gekommene Mann ist mein Bruder.",
+        "Der Mann kam gestern und ist mein Bruder.",
+        "Gestern kam der Mann, mein Bruder."
+      ],
+      "correct": 1,
+      "explanation": "'Der gestern gekommene Mann' è un attributo esteso: l'informazione della frase relativa è compressa prima del sostantivo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das Problem lässt ___ leicht lösen.",
+      "blanks": ["sich"],
+      "explanation": "'Sich lassen + Infinitiv' è un'alternativa al passivo: Das Problem kann leicht gelöst werden."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale particella modale esprime rassegnazione/accettazione?",
+      "options": ["doch", "mal", "ja", "eben"],
+      "correct": 3,
+      "explanation": "'Eben' (o 'halt') esprime rassegnazione: 'Das ist eben so.' = 'È così, non ci si può fare niente.'"
+    },
+    {
+      "type": "translation",
+      "sentence": "Si dice che lui sia molto ricco.",
+      "answer": "Er soll sehr reich sein.",
+      "hint": "Verbo modale soggettivo 'sollen' = si dice che..."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die von dem bekannten Professor ___ Studie wurde veröffentlicht.",
+      "blanks": ["durchgeführte"],
+      "explanation": "Attributo esteso con Partizip II: 'die durchgeführte Studie' (lo studio condotto)."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "Er muss krank sein.", "right": "certezza (deve essere)"},
+        {"left": "Es dürfte stimmen.", "right": "probabilità (dovrebbe)"},
+        {"left": "Sie könnte Recht haben.", "right": "possibilità (potrebbe)"},
+        {"left": "Er soll reich sein.", "right": "si dice che"},
+        {"left": "Sie will Ärztin sein.", "right": "afferma di essere"}
+      ]
+    },
+    {
+      "type": "reorder",
+      "words": ["die", "seit", "drei", "Jahren", "steigende", "immer", "weiter", "Preise"],
+      "correct": "die seit drei Jahren immer weiter steigende Preise"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa significa 'den Nagel auf den Kopf treffen'?",
+      "options": [
+        "Farsi male con un martello",
+        "Centrare il punto esattamente",
+        "Essere molto precisi nel lavoro manuale",
+        "Colpire qualcuno alla testa"
+      ],
+      "correct": 1,
+      "explanation": "'Den Nagel auf den Kopf treffen' = centrare il punto, azzeccare."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Diese Aufgabe ist bis morgen zu ___.",
+      "blanks": ["erledigen"],
+      "explanation": "'Sein + zu + Infinitiv' come alternativa al passivo: Diese Aufgabe muss/kann erledigt werden."
+    },
+    {
+      "type": "translation",
+      "sentence": "Vieni pure con noi! (con particella modale di invito)",
+      "answer": "Komm doch mit!",
+      "hint": "'doch' come particella di invito/persuasione"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale forma è corretta come alternativa al passivo con '-bar'?",
+      "options": [
+        "Das Wasser ist trinklich.",
+        "Das Wasser ist trinkbar.",
+        "Das Wasser ist zu trinken.",
+        "Das Wasser lässt sich trinken."
+      ],
+      "correct": 1,
+      "explanation": "'Trinkbar' (bevibile) è formato dal verbo 'trinken' + il suffisso '-bar'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Was machst du ___ hier so spät? (particella di interesse)",
+      "blanks": ["denn"],
+      "explanation": "'Denn' nelle domande esprime interesse genuino o sorpresa."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "Tomaten auf den Augen haben", "right": "non vedere l'ovvio"},
+        {"left": "Schwein haben", "right": "avere fortuna"},
+        {"left": "die Ärmel hochkrempeln", "right": "rimboccarsi le maniche"},
+        {"left": "Schmetterlinge im Bauch haben", "right": "essere innamorati"},
+        {"left": "ins Fettnäpfchen treten", "right": "fare una gaffe"}
+      ]
+    },
+    {
+      "type": "translation",
+      "sentence": "Il libro si vende bene. (con riflessivo come alternativa al passivo)",
+      "answer": "Das Buch verkauft sich gut.",
+      "hint": "Riflessivo come Passiversatz"
+    },
+    {
+      "type": "reorder",
+      "words": ["der", "von", "vielen", "Experten", "empfohlene", "Plan"],
+      "correct": "der von vielen Experten empfohlene Plan"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa esprime 'Er dürfte schon zu Hause sein'?",
+      "options": [
+        "Ha il permesso di stare a casa.",
+        "Dovrebbe probabilmente essere già a casa.",
+        "Deve assolutamente stare a casa.",
+        "Vuole stare a casa."
+      ],
+      "correct": 1,
+      "explanation": "'Dürfte' come verbo modale soggettivo esprime probabilità: 'Dovrebbe probabilmente essere già a casa.'"
+    }
+  ]
+}
