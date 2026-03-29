@@ -1,0 +1,16 @@
+{
+  "id": "a1-g02",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Articoli e sostantivi",
+  "subtitle": "Artikel und Nomen",
+  "sections": [
+    { "type": "intro", "content": "In tedesco ogni sostantivo ha un **genere grammaticale**: maschile (maskulin), femminile (feminin) o neutro (neutral). A differenza dell'italiano, il tedesco ha **tre generi** e il genere spesso **non è prevedibile** — bisogna impararlo insieme al sostantivo!" },
+    { "type": "rule", "title": "Articoli determinativi", "content": "Gli articoli determinativi ('il, lo, la') in tedesco sono:", "table": { "headers": ["Genere", "Tedesco", "Italiano", "Esempio"], "rows": [["Maschile", "**der**", "il / lo", "**der** Mann (l'uomo)"], ["Femminile", "**die**", "la", "**die** Frau (la donna)"], ["Neutro", "**das**", "il / lo / la", "**das** Kind (il bambino)"], ["Plurale (tutti)", "**die**", "i / gli / le", "**die** Kinder (i bambini)"]] } },
+    { "type": "rule", "title": "Articoli indeterminativi", "content": "Gli articoli indeterminativi ('un, uno, una') sono:", "table": { "headers": ["Genere", "Tedesco", "Italiano", "Esempio"], "rows": [["Maschile", "**ein**", "un / uno", "**ein** Mann (un uomo)"], ["Femminile", "**eine**", "una", "**eine** Frau (una donna)"], ["Neutro", "**ein**", "un / uno / una", "**ein** Kind (un bambino)"]] } },
+    { "type": "tip", "content": "Non esiste l'articolo indeterminativo plurale in tedesco! 'Dei bambini' si dice semplicemente **Kinder** senza articolo." },
+    { "type": "rule", "title": "Come riconoscere il genere", "content": "Ci sono alcune regole utili per indovinare il genere:", "table": { "headers": ["Genere", "Terminazione tipica", "Esempi"], "rows": [["Maschile (der)", "-er, -ling, -ismus, -or", "der Computer, der Frühling, der Tourismus"], ["Femminile (die)", "-e, -ung, -heit, -keit, -tion, -schaft", "die Lampe, die Zeitung, die Freiheit, die Nation"], ["Neutro (das)", "-chen, -lein, -ment, -um", "das Mädchen, das Büchlein, das Dokument"]] } },
+    { "type": "example", "pairs": [{ "de": "Der Tisch ist groß.", "it": "Il tavolo è grande." }, { "de": "Die Lampe ist neu.", "it": "La lampada è nuova." }, { "de": "Das Buch ist interessant.", "it": "Il libro è interessante." }, { "de": "Die Bücher sind interessant.", "it": "I libri sono interessanti." }] },
+    { "type": "comparison", "title": "Attenzione ai falsi amici!", "content": "Il genere tedesco spesso NON corrisponde a quello italiano:\n- **la** ragazza → **das** Mädchen (neutro!)\n- **la** sedia → **der** Stuhl (maschile!)\n- **il** sole → **die** Sonne (femminile!)\n- **la** forchetta → **die** Gabel (femminile, come in italiano)\n\nRegola d'oro: impara sempre il sostantivo CON il suo articolo!" }
+  ]
+}

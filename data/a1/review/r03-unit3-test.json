@@ -1,0 +1,63 @@
+{
+  "id": "a1-r03",
+  "level": "a1",
+  "title": "Test Unità 3",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "sentence": "Er ___ Lehrer.",
+      "blanks": [{ "position": 0, "correct": ["ist"], "hint": "verbo 'sein', terza persona" }],
+      "translation": "Lui è insegnante."
+    },
+    {
+      "type": "matching",
+      "instruction": "Coniuga il verbo 'sein' (essere):",
+      "pairs": [
+        { "left": "ich", "right": "bin" },
+        { "left": "du", "right": "bist" },
+        { "left": "er/sie/es", "right": "ist" },
+        { "left": "wir", "right": "sind" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale desinenza prende il verbo regolare con 'du'?",
+      "options": ["-e", "-st", "-t", "-en"],
+      "correct": 1,
+      "explanation": "La desinenza per 'du' è '-st': du lernst, du spielst, du wohnst."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Sie ___ zwei Brüder und eine Schwester.",
+      "blanks": [{ "position": 0, "correct": ["hat"], "hint": "verbo 'haben', terza persona singolare" }],
+      "translation": "Lei ha due fratelli e una sorella."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la frase corretta:",
+      "words": ["du", "Wo", "wohnst", "?"],
+      "correct": "Wo wohnst du ?",
+      "translation": "Dove abiti?"
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Noi siamo dall'Italia.",
+      "acceptable": ["Wir sind aus Italien.", "Wir kommen aus Italien."],
+      "hint": "Noi = wir, siamo = sind, dall' = aus"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 'lei ha' (terza persona) in tedesco?",
+      "options": ["sie haben", "sie hast", "sie hat", "sie habt"],
+      "correct": 2,
+      "explanation": "'Sie hat' è la forma corretta per 'lei ha'. 'Haben' con er/sie/es = hat."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir ___ in München.",
+      "blanks": [{ "position": 0, "correct": ["wohnen"], "hint": "verbo 'wohnen', prima persona plurale" }],
+      "translation": "Noi abitiamo a Monaco."
+    }
+  ]
+}

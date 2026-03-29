@@ -1,0 +1,162 @@
+// ===== LocalStorage Progress & Settings Store =====
+
+const STORAGE_KEY = 'germanCourse';
+const STORAGE_VERSION = 1;
+
+function getDefaultState() {
+    return {
+        version: STORAGE_VERSION,
+        settings: {
+            darkMode: false,
+            fontSize: 'normal'
+        },
+        progress: {},
+        currentLesson: null,
+        streakDays: 0,
+        lastActiveDate: null,
+        totalExercises: 0,
+        totalCorrect: 0
+    };
+}
+
+function loadState() {
+    try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return getDefaultState();
+        const state = JSON.parse(raw);
+        if (state.version !== STORAGE_VERSION) {
+            return { ...getDefaultState(), ...state, version: STORAGE_VERSION };
+        }
+        return state;
+    } catch {
+        return getDefaultState();
+    }
+}
+
+function saveState(state) {
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+        // Storage full or unavailable
+    }
+}
+
+let state = loadState();
+
+export const store = {
+    getSettings() {
+        return { ...state.settings };
+    },
+
+    saveSetting(key, value) {
+        state.settings[key] = value;
+        saveState(state);
+    },
+
+    getProgress(lessonId) {
+        return state.progress[lessonId] || null;
+    },
+
+    isCompleted(lessonId) {
+        return state.progress[lessonId]?.completed === true;
+    },
+
+    getScore(lessonId) {
+        return state.progress[lessonId]?.score ?? null;
+    },
+
+    saveProgress(lessonId, data) {
+        state.progress[lessonId] = {
+            ...state.progress[lessonId],
+            ...data,
+            lastAccessed: new Date().toISOString()
+        };
+        saveState(state);
+    },
+
+    completeLesson(lessonId, score = null) {
+        state.progress[lessonId] = {
+            ...state.progress[lessonId],
+            completed: true,
+            score: score,
+            completedAt: new Date().toISOString(),
+            lastAccessed: new Date().toISOString()
+        };
+        if (score !== null) {
+            // Track for global stats
+        }
+        this.updateStreak();
+        saveState(state);
+    },
+
+    addExerciseStats(total, correct) {
+        state.totalExercises = (state.totalExercises || 0) + total;
+        state.totalCorrect = (state.totalCorrect || 0) + correct;
+        saveState(state);
+    },
+
+    getStats() {
+        return {
+            totalExercises: state.totalExercises || 0,
+            totalCorrect: state.totalCorrect || 0,
+            streakDays: state.streakDays || 0,
+            completedLessons: Object.values(state.progress).filter(p => p.completed).length
+        };
+    },
+
+    getLevelCompletion(levelId, courseStructure) {
+        const level = courseStructure.levels.find(l => l.id === levelId);
+        if (!level) return 0;
+
+        let total = 0;
+        let completed = 0;
+
+        for (const unit of level.units) {
+            for (const lesson of unit.lessons) {
+                total++;
+                if (this.isCompleted(lesson.id)) completed++;
+            }
+            if (unit.review) {
+                total++;
+                if (this.isCompleted(unit.review.id)) completed++;
+            }
+        }
+
+        return total === 0 ? 0 : Math.round((completed / total) * 100);
+    },
+
+    updateStreak() {
+        const today = new Date().toISOString().split('T')[0];
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+        if (state.lastActiveDate === today) return;
+
+        if (state.lastActiveDate === yesterday) {
+            state.streakDays = (state.streakDays || 0) + 1;
+        } else if (state.lastActiveDate !== today) {
+            state.streakDays = 1;
+        }
+
+        state.lastActiveDate = today;
+        saveState(state);
+    },
+
+    getCurrentLesson() {
+        return state.currentLesson;
+    },
+
+    setCurrentLesson(lessonId) {
+        state.currentLesson = lessonId;
+        saveState(state);
+    },
+
+    resetProgress() {
+        state = getDefaultState();
+        state.settings = this.getSettings();
+        saveState(state);
+    },
+
+    getAllProgress() {
+        return { ...state.progress };
+    }
+};

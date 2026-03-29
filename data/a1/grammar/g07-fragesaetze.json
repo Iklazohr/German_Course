@@ -1,0 +1,14 @@
+{
+  "id": "a1-g07",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Le domande",
+  "subtitle": "Fragesätze und W-Fragen",
+  "sections": [
+    { "type": "intro", "content": "In tedesco esistono due tipi di domande: le **domande sì/no** (Ja/Nein-Fragen) e le **domande con parola interrogativa** (W-Fragen). La posizione del verbo cambia!" },
+    { "type": "rule", "title": "Domande Sì/No", "content": "Il verbo va in **prima posizione**:", "table": { "headers": ["Domanda", "Risposta", "Italiano"], "rows": [["**Lernst** du Deutsch?", "Ja, ich lerne Deutsch.", "Studi tedesco?"], ["**Wohnt** er in Berlin?", "Nein, er wohnt in München.", "Abita a Berlino?"], ["**Haben** Sie Kinder?", "Ja, ich habe zwei Kinder.", "Ha figli?"], ["**Ist** das dein Buch?", "Ja, das ist mein Buch.", "È il tuo libro?"]] } },
+    { "type": "rule", "title": "Domande con W-Fragen", "content": "La parola interrogativa va in prima posizione, il verbo in seconda:", "table": { "headers": ["W-Wort", "Significato", "Esempio"], "rows": [["**wer**", "chi", "Wer ist das? (Chi è?)"], ["**was**", "che cosa", "Was machst du? (Cosa fai?)"], ["**wo**", "dove", "Wo wohnst du? (Dove abiti?)"], ["**woher**", "da dove", "Woher kommst du? (Da dove vieni?)"], ["**wohin**", "verso dove", "Wohin gehst du? (Dove vai?)"], ["**wann**", "quando", "Wann kommst du? (Quando vieni?)"], ["**wie**", "come", "Wie heißt du? (Come ti chiami?)"], ["**warum**", "perché", "Warum lernst du Deutsch? (Perché studi tedesco?)"], ["**wie viel(e)**", "quanto/i", "Wie viele Kinder hast du? (Quanti figli hai?)"]] } },
+    { "type": "tip", "content": "Le parole con **W** in tedesco corrispondono alle parole con **Q** in italiano (chi=wer, quando=wann, come=wie...). Sono tutte le parole interrogative!" },
+    { "type": "example", "pairs": [{ "de": "Woher kommen Sie?", "it": "Da dove viene (Lei)?" }, { "de": "Ich komme aus Italien.", "it": "Vengo dall'Italia." }, { "de": "Was ist das?", "it": "Che cos'è questo?" }, { "de": "Wie alt bist du?", "it": "Quanti anni hai?" }] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a1-g09",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Verbi separabili",
+  "subtitle": "Trennbare Verben",
+  "sections": [
+    { "type": "intro", "content": "Una particolarità del tedesco sono i **verbi separabili** (trennbare Verben). Sono verbi formati da un prefisso + un verbo base. Nella frase principale, il prefisso si **separa** e va alla **fine** della frase!" },
+    { "type": "rule", "title": "Come funzionano", "content": "Il prefisso si stacca e va alla fine:", "table": { "headers": ["Infinito", "Significato", "Frase separata"], "rows": [["**auf**stehen", "alzarsi", "Ich **stehe** um 7 Uhr **auf**."], ["**an**rufen", "telefonare", "Ich **rufe** dich morgen **an**."], ["**ein**kaufen", "fare la spesa", "Wir **kaufen** heute **ein**."], ["**mit**kommen", "venire insieme", "**Kommst** du **mit**?"], ["**fern**sehen", "guardare la TV", "Ich **sehe** abends **fern**."], ["**zurück**kommen", "tornare", "Er **kommt** morgen **zurück**."]] } },
+    { "type": "rule", "title": "Prefissi separabili comuni", "content": "Questi prefissi sono SEMPRE separabili:", "table": { "headers": ["Prefisso", "Significato", "Esempio di verbo"], "rows": [["ab-", "via, giù", "abfahren (partire)"], ["an-", "a, presso", "ankommen (arrivare)"], ["auf-", "su, aperto", "aufmachen (aprire)"], ["aus-", "fuori", "ausgehen (uscire)"], ["ein-", "dentro", "einladen (invitare)"], ["mit-", "con, insieme", "mitnehmen (portare con sé)"], ["zu-", "chiuso, verso", "zumachen (chiudere)"], ["zurück-", "indietro", "zurückgehen (tornare)"]] } },
+    { "type": "tip", "content": "Come riconoscerli? I prefissi separabili sono **accentati** nella pronuncia: **AUF**stehen, **AN**rufen. Se l'accento cade sul prefisso, il verbo è separabile!" },
+    { "type": "example", "pairs": [{ "de": "Ich stehe jeden Tag um 7 Uhr auf.", "it": "Mi alzo ogni giorno alle 7." }, { "de": "Rufst du mich heute Abend an?", "it": "Mi chiami stasera?" }, { "de": "Der Zug kommt um 10 Uhr an.", "it": "Il treno arriva alle 10." }, { "de": "Wir gehen heute Abend aus.", "it": "Usciamo stasera." }] },
+    { "type": "comparison", "title": "Non esiste in italiano!", "content": "L'italiano non ha verbi separabili. Il concetto più simile sono i verbi pronominali (alzarsi, vestirsi), ma in tedesco il prefisso va proprio alla **fine** della frase, che può essere molto lontano dal verbo:\n- *Ich stehe morgen um halb sieben **auf**.* (Mi alzo domani alle sei e mezza)\n\nAll'infinito il verbo resta unito: *Ich will **aufstehen**.* (Voglio alzarmi)" }
+  ]
+}

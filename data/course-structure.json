@@ -1,0 +1,172 @@
+{
+  "levels": [
+    {
+      "id": "a1",
+      "title": "A1 - Principiante",
+      "description": "Le basi della lingua tedesca",
+      "color": "#34a853",
+      "units": [
+        {
+          "id": "a1-u1",
+          "title": "Unità 1: Primi passi",
+          "lessons": [
+            { "id": "a1-g01", "type": "grammar", "file": "a1/grammar/g01-alphabet-aussprache.json", "title": "Alfabeto e pronuncia" },
+            { "id": "a1-v01", "type": "vocab", "file": "a1/vocab/v01-begruessung.json", "title": "Saluti e presentazioni" },
+            { "id": "a1-e01", "type": "exercise", "file": "a1/exercises/e01-alphabet-saluti.json", "title": "Esercizi: Alfabeto e saluti" }
+          ],
+          "review": { "id": "a1-r01", "file": "a1/review/r01-unit1-test.json", "title": "Test Unità 1" }
+        },
+        {
+          "id": "a1-u2",
+          "title": "Unità 2: Articoli e sostantivi",
+          "lessons": [
+            { "id": "a1-g02", "type": "grammar", "file": "a1/grammar/g02-artikel-nomen.json", "title": "Articoli e sostantivi" },
+            { "id": "a1-v02", "type": "vocab", "file": "a1/vocab/v02-zahlen.json", "title": "Numeri da 0 a 100" },
+            { "id": "a1-e02", "type": "exercise", "file": "a1/exercises/e02-artikel-zahlen.json", "title": "Esercizi: Articoli e numeri" }
+          ],
+          "review": { "id": "a1-r02", "file": "a1/review/r02-unit2-test.json", "title": "Test Unità 2" }
+        },
+        {
+          "id": "a1-u3",
+          "title": "Unità 3: Verbi al presente",
+          "lessons": [
+            { "id": "a1-g03", "type": "grammar", "file": "a1/grammar/g03-personalpronomen-sein.json", "title": "Pronomi personali e \"sein\"" },
+            { "id": "a1-g04", "type": "grammar", "file": "a1/grammar/g04-regelmaessige-verben.json", "title": "Verbi regolari al presente" },
+            { "id": "a1-v03", "type": "vocab", "file": "a1/vocab/v03-familie.json", "title": "La famiglia" },
+            { "id": "a1-e03", "type": "exercise", "file": "a1/exercises/e03-verben-familie.json", "title": "Esercizi: Verbi e famiglia" }
+          ],
+          "review": { "id": "a1-r03", "file": "a1/review/r03-unit3-test.json", "title": "Test Unità 3" }
+        },
+        {
+          "id": "a1-u4",
+          "title": "Unità 4: La frase tedesca",
+          "lessons": [
+            { "id": "a1-g05", "type": "grammar", "file": "a1/grammar/g05-satzbau.json", "title": "Struttura della frase" },
+            { "id": "a1-g06", "type": "grammar", "file": "a1/grammar/g06-negation.json", "title": "La negazione" },
+            { "id": "a1-v04", "type": "vocab", "file": "a1/vocab/v04-farben-kleidung.json", "title": "Colori e vestiti" },
+            { "id": "a1-e04", "type": "exercise", "file": "a1/exercises/e04-satzbau-negation.json", "title": "Esercizi: Frase e negazione" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a1-u5",
+          "title": "Unità 5: Domande e casi",
+          "lessons": [
+            { "id": "a1-g07", "type": "grammar", "file": "a1/grammar/g07-fragesaetze.json", "title": "Le domande" },
+            { "id": "a1-g08", "type": "grammar", "file": "a1/grammar/g08-akkusativ.json", "title": "L'accusativo" },
+            { "id": "a1-v05", "type": "vocab", "file": "a1/vocab/v05-essen-trinken.json", "title": "Cibo e bevande" },
+            { "id": "a1-e05", "type": "exercise", "file": "a1/exercises/e05-fragen-akkusativ.json", "title": "Esercizi: Domande e accusativo" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a1-u6",
+          "title": "Unità 6: Verbi speciali",
+          "lessons": [
+            { "id": "a1-g09", "type": "grammar", "file": "a1/grammar/g09-trennbare-verben.json", "title": "Verbi separabili" },
+            { "id": "a1-g10", "type": "grammar", "file": "a1/grammar/g10-modalverben.json", "title": "Verbi modali" },
+            { "id": "a1-v06", "type": "vocab", "file": "a1/vocab/v06-wochentage-monate.json", "title": "Giorni, mesi e stagioni" },
+            { "id": "a1-v07", "type": "vocab", "file": "a1/vocab/v07-berufe.json", "title": "Professioni" },
+            { "id": "a1-v08", "type": "vocab", "file": "a1/vocab/v08-alltag.json", "title": "Vita quotidiana" },
+            { "id": "a1-e06", "type": "exercise", "file": "a1/exercises/e06-verbi-speciali.json", "title": "Esercizi: Verbi speciali" }
+          ],
+          "review": { "id": "a1-r06", "file": "a1/review/r06-final-test.json", "title": "Test finale A1" }
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "title": "A2 - Elementare",
+      "description": "Amplia le tue competenze base",
+      "color": "#1a73e8",
+      "units": [
+        {
+          "id": "a2-u1",
+          "title": "Unità 1: Il passato",
+          "lessons": [
+            { "id": "a2-g01", "type": "grammar", "file": "a2/grammar/g01-perfekt.json", "title": "Il Perfekt (passato prossimo)" },
+            { "id": "a2-v01", "type": "vocab", "file": "a2/vocab/v01-reisen.json", "title": "Viaggi e trasporti" },
+            { "id": "a2-e01", "type": "exercise", "file": "a2/exercises/e01-perfekt.json", "title": "Esercizi: Il Perfekt" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a2-u2",
+          "title": "Unità 2: Dativo e preposizioni",
+          "lessons": [
+            { "id": "a2-g02", "type": "grammar", "file": "a2/grammar/g02-dativ.json", "title": "Il dativo" },
+            { "id": "a2-g03", "type": "grammar", "file": "a2/grammar/g03-praepositionen.json", "title": "Preposizioni" },
+            { "id": "a2-v02", "type": "vocab", "file": "a2/vocab/v02-wohnung.json", "title": "Casa e arredamento" },
+            { "id": "a2-e02", "type": "exercise", "file": "a2/exercises/e02-dativ.json", "title": "Esercizi: Dativo" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a2-u3",
+          "title": "Unità 3: Frasi complesse",
+          "lessons": [
+            { "id": "a2-g04", "type": "grammar", "file": "a2/grammar/g04-nebensaetze.json", "title": "Frasi secondarie" },
+            { "id": "a2-v03", "type": "vocab", "file": "a2/vocab/v03-gesundheit.json", "title": "Salute e corpo" },
+            { "id": "a2-e03", "type": "exercise", "file": "a2/exercises/e03-nebensaetze.json", "title": "Esercizi: Frasi secondarie" }
+          ],
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "title": "B1 - Intermedio",
+      "description": "Comunica con sicurezza",
+      "color": "#f9ab00",
+      "units": [
+        {
+          "id": "b1-u1",
+          "title": "Unità 1: Passivo e Konjunktiv",
+          "lessons": [
+            { "id": "b1-g01", "type": "grammar", "file": "b1/grammar/g01-passiv.json", "title": "La forma passiva" },
+            { "id": "b1-g02", "type": "grammar", "file": "b1/grammar/g02-konjunktiv2.json", "title": "Il Konjunktiv II" },
+            { "id": "b1-v01", "type": "vocab", "file": "b1/vocab/v01-arbeit.json", "title": "Lavoro e carriera" },
+            { "id": "b1-e01", "type": "exercise", "file": "b1/exercises/e01-passiv-konj.json", "title": "Esercizi: Passivo e Konjunktiv" }
+          ],
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "B2 - Intermedio avanzato",
+      "description": "Padroneggia situazioni complesse",
+      "color": "#ea4335",
+      "units": [
+        {
+          "id": "b2-u1",
+          "title": "Unità 1: Stile e registro",
+          "lessons": [
+            { "id": "b2-g01", "type": "grammar", "file": "b2/grammar/g01-partizip.json", "title": "Participi come aggettivi" },
+            { "id": "b2-v01", "type": "vocab", "file": "b2/vocab/v01-medien.json", "title": "Media e tecnologia" },
+            { "id": "b2-e01", "type": "exercise", "file": "b2/exercises/e01-partizip.json", "title": "Esercizi: Participi" }
+          ],
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "title": "C1 - Avanzato",
+      "description": "Verso la padronanza della lingua",
+      "color": "#9334e6",
+      "units": [
+        {
+          "id": "c1-u1",
+          "title": "Unità 1: Strutture avanzate",
+          "lessons": [
+            { "id": "c1-g01", "type": "grammar", "file": "c1/grammar/g01-nominalisierung.json", "title": "Nominalizzazione" },
+            { "id": "c1-v01", "type": "vocab", "file": "c1/vocab/v01-wissenschaft.json", "title": "Scienze e accademia" },
+            { "id": "c1-e01", "type": "exercise", "file": "c1/exercises/e01-nominalisierung.json", "title": "Esercizi: Nominalizzazione" }
+          ],
+          "review": null
+        }
+      ]
+    }
+  ]
+}

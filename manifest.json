@@ -1,0 +1,22 @@
+{
+  "name": "Tedesco Facile - Corso di Tedesco per Italiani",
+  "short_name": "Tedesco Facile",
+  "description": "Impara il tedesco dall'italiano. Corso completo da A1 a C1.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#1a73e8",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

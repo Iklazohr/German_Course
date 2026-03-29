@@ -1,0 +1,33 @@
+{
+  "id": "a1-v07",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Professioni",
+  "subtitle": "Die Berufe",
+  "groups": [
+    {
+      "name": "Professioni comuni",
+      "words": [
+        { "de": "der Arzt / die Ärztin", "it": "il medico", "example_de": "Mein Vater ist Arzt.", "example_it": "Mio padre è medico." },
+        { "de": "der Lehrer / die Lehrerin", "it": "l'insegnante", "example_de": "Die Lehrerin ist nett.", "example_it": "L'insegnante è gentile." },
+        { "de": "der Student / die Studentin", "it": "lo studente", "example_de": "Ich bin Student.", "example_it": "Sono studente." },
+        { "de": "der Ingenieur / die Ingenieurin", "it": "l'ingegnere", "example_de": "Er arbeitet als Ingenieur.", "example_it": "Lavora come ingegnere." },
+        { "de": "der Koch / die Köchin", "it": "il cuoco / la cuoca", "example_de": "Der Koch macht Pasta.", "example_it": "Il cuoco prepara la pasta." },
+        { "de": "der Kellner / die Kellnerin", "it": "il cameriere / la cameriera", "example_de": "Der Kellner bringt das Essen.", "example_it": "Il cameriere porta il cibo." },
+        { "de": "der Verkäufer / die Verkäuferin", "it": "il commesso / la commessa", "example_de": "Die Verkäuferin hilft mir.", "example_it": "La commessa mi aiuta." },
+        { "de": "der Polizist / die Polizistin", "it": "il poliziotto", "example_de": "Der Polizist hilft den Leuten.", "example_it": "Il poliziotto aiuta le persone." },
+        { "de": "der Krankenpfleger / die Krankenschwester", "it": "l'infermiere/a", "example_de": "Sie arbeitet als Krankenschwester.", "example_it": "Lavora come infermiera." },
+        { "de": "der Programmierer / die Programmiererin", "it": "il programmatore", "example_de": "Er ist Programmierer bei Google.", "example_it": "È programmatore da Google." }
+      ]
+    },
+    {
+      "name": "Frasi utili sul lavoro",
+      "words": [
+        { "de": "Was sind Sie von Beruf?", "it": "Che lavoro fa? (formale)", "example_de": "Was sind Sie von Beruf? - Ich bin Lehrer.", "example_it": "Che lavoro fa? - Sono insegnante." },
+        { "de": "Ich arbeite als...", "it": "Lavoro come...", "example_de": "Ich arbeite als Ingenieur.", "example_it": "Lavoro come ingegnere." },
+        { "de": "Ich bin... von Beruf.", "it": "Faccio il/la...", "example_de": "Ich bin Ärztin von Beruf.", "example_it": "Faccio la dottoressa." },
+        { "de": "arbeitslos", "it": "disoccupato/a", "example_de": "Er ist seit Mai arbeitslos.", "example_it": "È disoccupato da maggio." }
+      ]
+    }
+  ]
+}

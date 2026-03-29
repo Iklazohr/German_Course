@@ -1,0 +1,39 @@
+{
+  "id": "a1-v04",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Colori e vestiti",
+  "subtitle": "Farben und Kleidung",
+  "groups": [
+    {
+      "name": "I colori",
+      "words": [
+        { "de": "rot", "it": "rosso", "example_de": "Das Auto ist rot.", "example_it": "La macchina è rossa." },
+        { "de": "blau", "it": "blu", "example_de": "Der Himmel ist blau.", "example_it": "Il cielo è blu." },
+        { "de": "grün", "it": "verde", "example_de": "Das Gras ist grün.", "example_it": "L'erba è verde." },
+        { "de": "gelb", "it": "giallo", "example_de": "Die Sonne ist gelb.", "example_it": "Il sole è giallo." },
+        { "de": "schwarz", "it": "nero", "example_de": "Die Katze ist schwarz.", "example_it": "Il gatto è nero." },
+        { "de": "weiß", "it": "bianco", "example_de": "Der Schnee ist weiß.", "example_it": "La neve è bianca." },
+        { "de": "braun", "it": "marrone", "example_de": "Der Hund ist braun.", "example_it": "Il cane è marrone." },
+        { "de": "grau", "it": "grigio", "example_de": "Heute ist der Himmel grau.", "example_it": "Oggi il cielo è grigio." },
+        { "de": "rosa", "it": "rosa", "example_de": "Ihr Kleid ist rosa.", "example_it": "Il suo vestito è rosa." },
+        { "de": "lila", "it": "viola", "example_de": "Die Blume ist lila.", "example_it": "Il fiore è viola." }
+      ]
+    },
+    {
+      "name": "I vestiti",
+      "words": [
+        { "de": "das T-Shirt", "it": "la maglietta", "example_de": "Ich trage ein weißes T-Shirt.", "example_it": "Indosso una maglietta bianca." },
+        { "de": "die Hose", "it": "i pantaloni", "example_de": "Die Hose ist blau.", "example_it": "I pantaloni sono blu." },
+        { "de": "das Kleid", "it": "il vestito/abito", "example_de": "Das Kleid ist schön.", "example_it": "Il vestito è bello." },
+        { "de": "der Rock", "it": "la gonna", "example_de": "Sie trägt einen roten Rock.", "example_it": "Indossa una gonna rossa." },
+        { "de": "das Hemd", "it": "la camicia", "example_de": "Er trägt ein weißes Hemd.", "example_it": "Indossa una camicia bianca." },
+        { "de": "die Jacke", "it": "la giacca", "example_de": "Nimm deine Jacke mit!", "example_it": "Porta la tua giacca!" },
+        { "de": "der Mantel", "it": "il cappotto", "example_de": "Im Winter trage ich einen Mantel.", "example_it": "In inverno porto un cappotto." },
+        { "de": "die Schuhe", "it": "le scarpe", "example_de": "Die Schuhe sind neu.", "example_it": "Le scarpe sono nuove." },
+        { "de": "der Pullover", "it": "il maglione", "example_de": "Der Pullover ist warm.", "example_it": "Il maglione è caldo." },
+        { "de": "die Mütze", "it": "il berretto", "example_de": "Setz deine Mütze auf!", "example_it": "Mettiti il berretto!" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "a1-g06",
+  "level": "a1",
+  "type": "grammar",
+  "title": "La negazione",
+  "subtitle": "Die Negation: nicht und kein",
+  "sections": [
+    { "type": "intro", "content": "In tedesco ci sono due modi principali per negare: **nicht** (non) e **kein** (nessun/nessuno). La scelta dipende da cosa si vuole negare." },
+    { "type": "rule", "title": "\"kein\" - negare i sostantivi", "content": "**Kein** si usa per negare sostantivi con articolo indeterminativo (ein) o senza articolo:", "table": { "headers": ["Affermativa", "Negativa", "Italiano"], "rows": [["Ich habe **einen** Hund.", "Ich habe **keinen** Hund.", "Non ho un cane."], ["Ich habe **eine** Katze.", "Ich habe **keine** Katze.", "Non ho un gatto."], ["Ich habe **ein** Auto.", "Ich habe **kein** Auto.", "Non ho una macchina."], ["Ich trinke Kaffee.", "Ich trinke **keinen** Kaffee.", "Non bevo caffè."]] } },
+    { "type": "rule", "title": "\"nicht\" - negare tutto il resto", "content": "**Nicht** si usa per negare verbi, aggettivi, avverbi e sostantivi con articolo determinativo:", "table": { "headers": ["Frase", "Cosa nega", "Italiano"], "rows": [["Ich komme **nicht**.", "il verbo", "Non vengo."], ["Das ist **nicht** schön.", "l'aggettivo", "Non è bello."], ["Er wohnt **nicht** in Berlin.", "il luogo", "Non abita a Berlino."], ["Das ist **nicht** der Lehrer.", "il sostantivo con 'der'", "Non è l'insegnante."]] } },
+    { "type": "tip", "content": "Regola pratica: se in italiano dici 'non ho **un/una**...' o 'non ho...' (senza articolo), usa **kein**. Se dici 'non è **il/la**...' o 'non faccio...', usa **nicht**." },
+    { "type": "rule", "title": "Posizione di \"nicht\"", "content": "Dove si mette **nicht** nella frase:", "table": { "headers": ["Regola", "Esempio"], "rows": [["Alla FINE se nega l'intera frase", "Ich komme heute **nicht**."], ["PRIMA dell'elemento negato", "Ich wohne **nicht** in Berlin."], ["PRIMA dell'aggettivo predicativo", "Das Buch ist **nicht** interessant."], ["PRIMA del complemento di luogo/tempo specifico", "Er geht **nicht** ins Kino."]] } },
+    { "type": "example", "pairs": [{ "de": "Ich bin nicht müde.", "it": "Non sono stanco." }, { "de": "Wir haben keine Kinder.", "it": "Non abbiamo figli." }, { "de": "Er trinkt keinen Alkohol.", "it": "Lui non beve alcol." }, { "de": "Das ist nicht mein Buch.", "it": "Questo non è il mio libro." }] },
+    { "type": "comparison", "title": "Confronto con l'italiano", "content": "In italiano basta mettere 'non' davanti al verbo. In tedesco è più complesso:\n- 'Non bevo birra' = Ich trinke **kein** Bier (kein per il sostantivo senza articolo)\n- 'Non bevo la birra' = Ich trinke das Bier **nicht** (nicht per il sostantivo con articolo)\n- 'Non vengo' = Ich komme **nicht** (nicht alla fine)" }
+  ]
+}

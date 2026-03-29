@@ -1,0 +1,80 @@
+{
+  "id": "a1-e05",
+  "level": "a1",
+  "title": "Esercizi: Domande e accusativo",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Dove va il verbo in una domanda sì/no?",
+      "options": ["In seconda posizione", "Alla fine", "In prima posizione", "Dopo il soggetto"],
+      "correct": 2,
+      "explanation": "Nelle domande sì/no il verbo va in prima posizione: 'Sprichst du Deutsch?'"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega le parole interrogative al significato.",
+      "pairs": [
+        { "left": "wer", "right": "chi" },
+        { "left": "was", "right": "che cosa" },
+        { "left": "wo", "right": "dove" },
+        { "left": "wann", "right": "quando" },
+        { "left": "warum", "right": "perché" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich sehe ___ Mann.",
+      "blanks": [{ "position": 0, "correct": ["den", "einen"], "hint": "articolo maschile all'accusativo" }],
+      "translation": "Vedo l'uomo / un uomo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale articolo cambia all'accusativo?",
+      "options": ["Solo il femminile", "Solo il maschile", "Il maschile e il neutro", "Tutti"],
+      "correct": 1,
+      "explanation": "All'accusativo cambia solo l'articolo maschile: der → den, ein → einen."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ kommst du?",
+      "blanks": [{ "position": 0, "correct": ["Woher"], "hint": "parola interrogativa per 'da dove'" }],
+      "translation": "Da dove vieni?"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la domanda corretta:",
+      "words": ["du", "Sprichst", "Deutsch", "?"],
+      "correct": "Sprichst du Deutsch ?",
+      "translation": "Parli tedesco?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è il pronome personale 'me' (accusativo di 'ich')?",
+      "options": ["mir", "mich", "mein", "ich"],
+      "correct": 1,
+      "explanation": "'Mich' è l'accusativo di 'ich'. Esempio: Er sieht mich. (Lui mi vede.)"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er kauft ___ Buch.",
+      "blanks": [{ "position": 0, "correct": ["ein", "das"], "hint": "articolo neutro (non cambia all'accusativo)" }],
+      "translation": "Lui compra un libro / il libro."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Dove abiti?",
+      "acceptable": ["Wo wohnst du?", "Wo wohnen Sie?"],
+      "hint": "Wo = dove, wohnen = abitare"
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo all'accusativo corretto:",
+      "items": [
+        { "noun": "Hund (maschile)", "correct": "den", "options": ["der", "den", "das"] },
+        { "noun": "Katze (femminile)", "correct": "die", "options": ["der", "die", "den"] },
+        { "noun": "Buch (neutro)", "correct": "das", "options": ["den", "die", "das"] }
+      ]
+    }
+  ]
+}

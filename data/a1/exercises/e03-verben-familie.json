@@ -1,0 +1,77 @@
+{
+  "id": "a1-e03",
+  "level": "a1",
+  "title": "Esercizi: Verbi e famiglia",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "sentence": "Ich ___ Anna.",
+      "blanks": [{ "position": 0, "correct": ["bin"], "hint": "verbo 'essere', prima persona" }],
+      "translation": "Io sono Anna."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è la forma corretta? 'Du ___ Student.'",
+      "options": ["bin", "bist", "ist", "sind"],
+      "correct": 1,
+      "explanation": "'Du bist' è la forma di 'sein' per la seconda persona singolare."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i membri della famiglia alla traduzione.",
+      "pairs": [
+        { "left": "der Vater", "right": "il padre" },
+        { "left": "die Mutter", "right": "la madre" },
+        { "left": "der Bruder", "right": "il fratello" },
+        { "left": "die Schwester", "right": "la sorella" },
+        { "left": "die Großeltern", "right": "i nonni" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er ___ in Berlin.",
+      "blanks": [{ "position": 0, "correct": ["wohnt"], "hint": "verbo 'wohnen' (abitare), terza persona" }],
+      "translation": "Lui abita a Berlino."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 'Hai fratelli o sorelle?' in tedesco?",
+      "options": ["Hast du Kinder?", "Hast du Geschwister?", "Hast du Eltern?", "Hast du Familie?"],
+      "correct": 1,
+      "explanation": "'Geschwister' significa 'fratelli e sorelle'. 'Hast du Geschwister?' = Hai fratelli o sorelle?"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir ___ Deutsch.",
+      "blanks": [{ "position": 0, "correct": ["lernen"], "hint": "verbo 'lernen' (imparare), prima persona plurale" }],
+      "translation": "Noi impariamo il tedesco."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["Mein", "ist", "Arzt", "Vater", "."],
+      "correct": "Mein Vater ist Arzt .",
+      "translation": "Mio padre è medico."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è la forma corretta di 'haben' con 'ihr'?",
+      "options": ["haben", "habt", "hat", "hast"],
+      "correct": 1,
+      "explanation": "'Ihr habt' è la forma corretta. Ihr = voi, habt = avete."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Mia sorella ha 20 anni.",
+      "acceptable": ["Meine Schwester ist 20 Jahre alt.", "Meine Schwester ist zwanzig Jahre alt."],
+      "hint": "In tedesco si dice 'è... anni vecchio/a' (ist... Jahre alt)"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Sie ___ zwei Kinder.",
+      "blanks": [{ "position": 0, "correct": ["haben", "hat"], "hint": "verbo 'haben' (avere)" }],
+      "translation": "Loro hanno due figli. / Lei ha due figli."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "a1-v08",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Vita quotidiana",
+  "subtitle": "Der Alltag",
+  "groups": [
+    {
+      "name": "Attività quotidiane",
+      "words": [
+        { "de": "aufstehen", "it": "alzarsi", "example_de": "Ich stehe um 7 Uhr auf.", "example_it": "Mi alzo alle 7." },
+        { "de": "frühstücken", "it": "fare colazione", "example_de": "Ich frühstücke um 8 Uhr.", "example_it": "Faccio colazione alle 8." },
+        { "de": "duschen", "it": "fare la doccia", "example_de": "Morgens dusche ich.", "example_it": "La mattina faccio la doccia." },
+        { "de": "arbeiten", "it": "lavorare", "example_de": "Ich arbeite von 9 bis 17 Uhr.", "example_it": "Lavoro dalle 9 alle 17." },
+        { "de": "Mittagessen", "it": "il pranzo", "example_de": "Um 12 Uhr ist Mittagessen.", "example_it": "Alle 12 è ora di pranzo." },
+        { "de": "einkaufen", "it": "fare la spesa", "example_de": "Am Samstag kaufe ich ein.", "example_it": "Sabato faccio la spesa." },
+        { "de": "kochen", "it": "cucinare", "example_de": "Abends koche ich.", "example_it": "La sera cucino." },
+        { "de": "Abendessen", "it": "la cena", "example_de": "Um 19 Uhr ist Abendessen.", "example_it": "Alle 19 c'è la cena." },
+        { "de": "fernsehen", "it": "guardare la TV", "example_de": "Abends sehe ich fern.", "example_it": "La sera guardo la TV." },
+        { "de": "schlafen gehen", "it": "andare a dormire", "example_de": "Um 23 Uhr gehe ich schlafen.", "example_it": "Alle 23 vado a dormire." }
+      ]
+    },
+    {
+      "name": "L'ora",
+      "words": [
+        { "de": "Wie spät ist es?", "it": "Che ora è?", "example_de": "Wie spät ist es? - Es ist drei Uhr.", "example_it": "Che ora è? - Sono le tre." },
+        { "de": "die Uhr", "it": "l'orologio / l'ora", "example_de": "Es ist zehn Uhr.", "example_it": "Sono le dieci." },
+        { "de": "halb", "it": "mezzo/a", "example_de": "Es ist halb drei.", "example_it": "Sono le due e mezza." },
+        { "de": "Viertel vor", "it": "un quarto a", "example_de": "Es ist Viertel vor acht.", "example_it": "Sono le otto meno un quarto." },
+        { "de": "Viertel nach", "it": "un quarto dopo", "example_de": "Es ist Viertel nach neun.", "example_it": "Sono le nove e un quarto." },
+        { "de": "morgens", "it": "di mattina", "example_de": "Morgens trinke ich Kaffee.", "example_it": "Di mattina bevo caffè." },
+        { "de": "mittags", "it": "a mezzogiorno", "example_de": "Mittags esse ich in der Kantine.", "example_it": "A mezzogiorno mangio in mensa." },
+        { "de": "abends", "it": "di sera", "example_de": "Abends lese ich ein Buch.", "example_it": "Di sera leggo un libro." },
+        { "de": "nachts", "it": "di notte", "example_de": "Nachts schlafe ich.", "example_it": "Di notte dormo." }
+      ]
+    }
+  ]
+}

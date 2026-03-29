@@ -1,0 +1,15 @@
+{
+  "id": "a1-g05",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Struttura della frase",
+  "subtitle": "Der Satzbau",
+  "sections": [
+    { "type": "intro", "content": "La struttura della frase tedesca segue regole precise e diverse dall'italiano. La regola più importante è che il **verbo coniugato** sta sempre in **seconda posizione** nella frase principale." },
+    { "type": "rule", "title": "La regola del verbo in seconda posizione (V2)", "content": "Nella frase affermativa, il verbo sta SEMPRE al secondo posto:", "table": { "headers": ["Posizione 1", "Posizione 2 (VERBO)", "Resto della frase"], "rows": [["Ich", "**lerne**", "Deutsch."], ["Heute", "**lerne**", "ich Deutsch."], ["Deutsch", "**lerne**", "ich heute."], ["In Berlin", "**wohnt**", "mein Bruder."]] } },
+    { "type": "tip", "content": "Attenzione: 'seconda posizione' non significa 'seconda parola'! **In Berlin** occupa la prima posizione anche se sono due parole. La posizione è occupata da un **elemento** della frase, non da una singola parola." },
+    { "type": "rule", "title": "Ordine degli elementi: TMP - Tempo, Modo, Luogo", "content": "Dopo il verbo, l'ordine consigliato è **Tempo → Modo → Luogo** (l'opposto dell'italiano!):", "table": { "headers": ["Soggetto", "Verbo", "Tempo", "Modo", "Luogo"], "rows": [["Ich", "fahre", "morgen", "mit dem Zug", "nach Berlin."], ["Er", "geht", "heute", "gern", "ins Kino."]] } },
+    { "type": "example", "pairs": [{ "de": "Ich lerne heute Deutsch.", "it": "Oggi imparo il tedesco." }, { "de": "Heute lerne ich Deutsch.", "it": "Oggi imparo il tedesco. (enfasi su 'oggi')" }, { "de": "Er wohnt in München.", "it": "Lui abita a Monaco." }, { "de": "Am Montag spiele ich Fußball.", "it": "Lunedì gioco a calcio." }] },
+    { "type": "comparison", "title": "Differenza chiave con l'italiano", "content": "In italiano l'ordine delle parole è abbastanza libero. In tedesco il verbo è FISSO in seconda posizione:\n- Italiano: *Domani vado a Berlino* / *Vado a Berlino domani* (verbo libero)\n- Tedesco: *Morgen **fahre** ich nach Berlin* (verbo SEMPRE in posizione 2)\n\nSe un avverbio o complemento va in prima posizione, il soggetto si sposta DOPO il verbo. Questo si chiama **inversione**." }
+  ]
+}

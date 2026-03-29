@@ -1,0 +1,45 @@
+{
+  "id": "a1-v03",
+  "level": "a1",
+  "type": "vocab",
+  "title": "La famiglia",
+  "subtitle": "Die Familie",
+  "groups": [
+    {
+      "name": "Famiglia stretta",
+      "words": [
+        { "de": "die Familie", "it": "la famiglia", "example_de": "Meine Familie ist groß.", "example_it": "La mia famiglia è grande." },
+        { "de": "die Eltern", "it": "i genitori", "example_de": "Meine Eltern wohnen in Rom.", "example_it": "I miei genitori vivono a Roma." },
+        { "de": "der Vater / der Papa", "it": "il padre / il papà", "example_de": "Mein Vater ist Arzt.", "example_it": "Mio padre è medico." },
+        { "de": "die Mutter / die Mama", "it": "la madre / la mamma", "example_de": "Meine Mutter kocht sehr gut.", "example_it": "Mia madre cucina molto bene." },
+        { "de": "der Bruder", "it": "il fratello", "example_de": "Ich habe einen Bruder.", "example_it": "Ho un fratello." },
+        { "de": "die Schwester", "it": "la sorella", "example_de": "Meine Schwester ist 20 Jahre alt.", "example_it": "Mia sorella ha 20 anni." },
+        { "de": "die Geschwister", "it": "i fratelli/sorelle", "example_de": "Hast du Geschwister?", "example_it": "Hai fratelli o sorelle?" },
+        { "de": "das Kind", "it": "il bambino / figlio", "example_de": "Wir haben zwei Kinder.", "example_it": "Abbiamo due figli." },
+        { "de": "der Sohn", "it": "il figlio", "example_de": "Mein Sohn geht in die Schule.", "example_it": "Mio figlio va a scuola." },
+        { "de": "die Tochter", "it": "la figlia", "example_de": "Ihre Tochter studiert Medizin.", "example_it": "Sua figlia studia medicina." }
+      ]
+    },
+    {
+      "name": "Famiglia allargata",
+      "words": [
+        { "de": "der Großvater / der Opa", "it": "il nonno", "example_de": "Mein Opa ist 80 Jahre alt.", "example_it": "Mio nonno ha 80 anni." },
+        { "de": "die Großmutter / die Oma", "it": "la nonna", "example_de": "Meine Oma backt Kuchen.", "example_it": "Mia nonna prepara torte." },
+        { "de": "die Großeltern", "it": "i nonni", "example_de": "Meine Großeltern leben auf dem Land.", "example_it": "I miei nonni vivono in campagna." },
+        { "de": "der Onkel", "it": "lo zio", "example_de": "Mein Onkel wohnt in Berlin.", "example_it": "Mio zio abita a Berlino." },
+        { "de": "die Tante", "it": "la zia", "example_de": "Meine Tante ist Lehrerin.", "example_it": "Mia zia è insegnante." },
+        { "de": "der Cousin / die Cousine", "it": "il cugino / la cugina", "example_de": "Mein Cousin heißt Max.", "example_it": "Mio cugino si chiama Max." }
+      ]
+    },
+    {
+      "name": "Stato civile",
+      "words": [
+        { "de": "der Mann / der Ehemann", "it": "il marito", "example_de": "Mein Mann arbeitet bei BMW.", "example_it": "Mio marito lavora alla BMW." },
+        { "de": "die Frau / die Ehefrau", "it": "la moglie", "example_de": "Seine Frau ist Ärztin.", "example_it": "Sua moglie è medico." },
+        { "de": "verheiratet", "it": "sposato/a", "example_de": "Ich bin verheiratet.", "example_it": "Sono sposato/a." },
+        { "de": "ledig", "it": "celibe / nubile", "example_de": "Er ist noch ledig.", "example_it": "È ancora celibe." },
+        { "de": "geschieden", "it": "divorziato/a", "example_de": "Sie ist geschieden.", "example_it": "È divorziata." }
+      ]
+    }
+  ]
+}

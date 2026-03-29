@@ -1,0 +1,97 @@
+{
+  "id": "a1-r06",
+  "level": "a1",
+  "title": "Test finale A1",
+  "exercises": [
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo determinativo corretto:",
+      "items": [
+        { "noun": "Vater", "correct": "der", "options": ["der", "die", "das"] },
+        { "noun": "Wohnung", "correct": "die", "options": ["der", "die", "das"] },
+        { "noun": "Mädchen", "correct": "das", "options": ["der", "die", "das"] },
+        { "noun": "Kinder", "correct": "die", "options": ["der", "die", "das"] }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich ___ jeden Tag um 7 Uhr ___.",
+      "blanks": [
+        { "position": 0, "correct": ["stehe"], "hint": "verbo aufstehen, parte coniugata" },
+        { "position": 1, "correct": ["auf"], "hint": "prefisso separabile" }
+      ],
+      "translation": "Mi alzo ogni giorno alle 7."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale verbo modale si usa per chiedere il permesso?",
+      "options": ["können", "müssen", "dürfen", "wollen"],
+      "correct": 2,
+      "explanation": "'Dürfen' si usa per chiedere il permesso: 'Darf ich...?' (Posso...?)"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la frase corretta:",
+      "words": ["gut", "kann", "Ich", "schwimmen", "."],
+      "correct": "Ich kann gut schwimmen .",
+      "translation": "So nuotare bene."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Devo lavorare domani.",
+      "acceptable": ["Ich muss morgen arbeiten.", "Morgen muss ich arbeiten."],
+      "hint": "Dovere = müssen, lavorare = arbeiten"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i giorni della settimana.",
+      "pairs": [
+        { "left": "Montag", "right": "lunedì" },
+        { "left": "Mittwoch", "right": "mercoledì" },
+        { "left": "Freitag", "right": "venerdì" },
+        { "left": "Sonntag", "right": "domenica" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich sehe ___ Mann.",
+      "blanks": [{ "position": 0, "correct": ["den", "einen"], "hint": "articolo maschile all'accusativo" }],
+      "translation": "Vedo l'uomo / un uomo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 'Non ho fratelli'?",
+      "options": ["Ich habe nicht Geschwister.", "Ich habe keine Geschwister.", "Ich nicht habe Geschwister.", "Ich keine habe Geschwister."],
+      "correct": 1,
+      "explanation": "Per negare un sostantivo senza articolo si usa 'kein': 'Ich habe keine Geschwister.'"
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Vorrei un caffè, per favore.",
+      "acceptable": ["Ich möchte einen Kaffee, bitte.", "Ich moechte einen Kaffee, bitte."],
+      "hint": "Vorrei = möchte, caffè = Kaffee (maschile!)"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la domanda corretta:",
+      "words": ["du", "heute", "Kommst", "Abend", "mit", "?"],
+      "correct": "Kommst du heute Abend mit ?",
+      "translation": "Vieni stasera?"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ ist es? - Es ist halb drei.",
+      "blanks": [{ "position": 0, "correct": ["Wie spät", "Wie spaet"], "hint": "domanda per chiedere l'ora" }],
+      "translation": "Che ora è? - Sono le due e mezza."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Nella frase 'Morgen fahre ich nach Berlin', perché il soggetto 'ich' è dopo il verbo?",
+      "options": ["È un errore", "È una domanda", "Per l'inversione (il verbo resta in posizione 2)", "Non c'è una regola"],
+      "correct": 2,
+      "explanation": "Quando un altro elemento (Morgen) è in posizione 1, il soggetto va dopo il verbo per mantenere il verbo in posizione 2 (inversione)."
+    }
+  ]
+}

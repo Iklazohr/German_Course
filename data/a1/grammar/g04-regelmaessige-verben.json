@@ -1,0 +1,16 @@
+{
+  "id": "a1-g04",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Verbi regolari al presente",
+  "subtitle": "Regelmäßige Verben im Präsens",
+  "sections": [
+    { "type": "intro", "content": "I verbi regolari tedeschi seguono uno schema fisso al presente indicativo. La forma base del verbo (infinito) termina sempre in **-en** (o raramente **-n**). Per coniugare, si toglie **-en** e si aggiungono le desinenze." },
+    { "type": "rule", "title": "Le desinenze del presente", "content": "Prendiamo il verbo **machen** (fare):", "table": { "headers": ["Pronome", "Radice + Desinenza", "Forma completa", "Italiano"], "rows": [["ich", "mach + **-e**", "mache", "faccio"], ["du", "mach + **-st**", "machst", "fai"], ["er/sie/es", "mach + **-t**", "macht", "fa"], ["wir", "mach + **-en**", "machen", "facciamo"], ["ihr", "mach + **-t**", "macht", "fate"], ["sie/Sie", "mach + **-en**", "machen", "fanno / fa (form.)"]] } },
+    { "type": "rule", "title": "Altri verbi regolari comuni", "content": "Lo stesso schema si applica a tutti i verbi regolari:", "table": { "headers": ["Infinito", "Significato", "ich", "du", "er/sie/es"], "rows": [["lernen", "imparare", "lerne", "lernst", "lernt"], ["spielen", "giocare", "spiele", "spielst", "spielt"], ["wohnen", "abitare", "wohne", "wohnst", "wohnt"], ["kommen", "venire", "komme", "kommst", "kommt"], ["trinken", "bere", "trinke", "trinkst", "trinkt"], ["kaufen", "comprare", "kaufe", "kaufst", "kauft"]] } },
+    { "type": "tip", "content": "Se la radice del verbo termina in **-t**, **-d**, **-chn** o **-gn**, si aggiunge una **-e-** prima delle desinenze **-st** e **-t** per facilitare la pronuncia:\n- arbei**t**en → du arbei**t**e**st**, er arbei**t**e**t**\n- fin**d**en → du fin**d**e**st**, er fin**d**e**t**" },
+    { "type": "rule", "title": "Il verbo \"haben\" (avere)", "content": "**Haben** è leggermente irregolare ma fondamentale:", "table": { "headers": ["Pronome", "haben", "Italiano"], "rows": [["ich", "**habe**", "ho"], ["du", "**hast**", "hai"], ["er/sie/es", "**hat**", "ha"], ["wir", "**haben**", "abbiamo"], ["ihr", "**habt**", "avete"], ["sie/Sie", "**haben**", "hanno"]] } },
+    { "type": "example", "pairs": [{ "de": "Ich lerne Deutsch.", "it": "Imparo il tedesco." }, { "de": "Du spielst Fußball.", "it": "Giochi a calcio." }, { "de": "Sie wohnt in Berlin.", "it": "Lei abita a Berlino." }, { "de": "Wir trinken Kaffee.", "it": "Beviamo caffè." }, { "de": "Ich habe eine Katze.", "it": "Ho un gatto." }, { "de": "Hast du Zeit?", "it": "Hai tempo?" }] },
+    { "type": "comparison", "title": "Confronto con l'italiano", "content": "Buone notizie! Il presente tedesco è più semplice dell'italiano:\n- In tedesco esiste **un solo presente** (in italiano: 'faccio' e 'sto facendo')\n- **Ich mache** = faccio / sto facendo\n- La terza persona singolare e la seconda plurale hanno la **stessa desinenza** (-t)" }
+  ]
+}

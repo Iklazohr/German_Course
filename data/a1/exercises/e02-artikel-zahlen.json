@@ -1,0 +1,86 @@
+{
+  "id": "a1-e02",
+  "level": "a1",
+  "title": "Esercizi: Articoli e numeri",
+  "exercises": [
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo corretto per ogni sostantivo:",
+      "items": [
+        { "noun": "Mann", "correct": "der", "options": ["der", "die", "das"] },
+        { "noun": "Frau", "correct": "die", "options": ["der", "die", "das"] },
+        { "noun": "Kind", "correct": "das", "options": ["der", "die", "das"] },
+        { "noun": "Buch", "correct": "das", "options": ["der", "die", "das"] },
+        { "noun": "Lampe", "correct": "die", "options": ["der", "die", "das"] }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è l'articolo indeterminativo femminile?",
+      "options": ["ein", "eine", "einer", "das"],
+      "correct": 1,
+      "explanation": "L'articolo indeterminativo femminile è 'eine'. Esempio: eine Frau (una donna)."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i numeri alla loro scrittura in tedesco.",
+      "pairs": [
+        { "left": "3", "right": "drei" },
+        { "left": "7", "right": "sieben" },
+        { "left": "12", "right": "zwölf" },
+        { "left": "20", "right": "zwanzig" },
+        { "left": "5", "right": "fünf" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich habe ___ Katze.",
+      "blanks": [{ "position": 0, "correct": ["eine"], "hint": "articolo indeterminativo femminile" }],
+      "translation": "Ho una gatta."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quanto fa 'dreizehn'?",
+      "options": ["3", "30", "13", "31"],
+      "correct": 2,
+      "explanation": "Dreizehn = 13 (drei + zehn = tre + dieci)."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo corretto:",
+      "items": [
+        { "noun": "Tisch", "correct": "der", "options": ["der", "die", "das"] },
+        { "noun": "Mädchen", "correct": "das", "options": ["der", "die", "das"] },
+        { "noun": "Zeitung", "correct": "die", "options": ["der", "die", "das"] },
+        { "noun": "Computer", "correct": "der", "options": ["der", "die", "das"] }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 21 in tedesco?",
+      "options": ["zwanzigeins", "einundzwanzig", "zweiundein", "einzwanzig"],
+      "correct": 1,
+      "explanation": "In tedesco i numeri composti si dicono 'al contrario': eins + und + zwanzig = einundzwanzig (21)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ Hund ist groß.",
+      "blanks": [{ "position": 0, "correct": ["Der", "der"], "hint": "articolo determinativo maschile" }],
+      "translation": "Il cane è grande."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale terminazione indica di solito un sostantivo femminile?",
+      "options": ["-chen", "-er", "-ung", "-ment"],
+      "correct": 2,
+      "explanation": "La terminazione -ung indica sempre un sostantivo femminile: die Zeitung, die Wohnung, die Übung."
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Ich habe drei Bücher.",
+      "acceptable": ["Ho tre libri.", "Ho tre libri", "Io ho tre libri."],
+      "hint": "Bücher = libri (plurale di Buch)"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+/* ===== CSS Variables & Theme ===== */
+:root {
+    --primary: #1a73e8;
+    --primary-light: #e8f0fe;
+    --primary-dark: #1557b0;
+    --success: #34a853;
+    --success-light: #e6f4ea;
+    --warning: #fbbc04;
+    --warning-light: #fef7e0;
+    --error: #ea4335;
+    --error-light: #fce8e6;
+    --bg: #f5f5f5;
+    --surface: #ffffff;
+    --surface-hover: #f8f9fa;
+    --text: #202124;
+    --text-secondary: #5f6368;
+    --text-tertiary: #9aa0a6;
+    --border: #e0e0e0;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 2px 8px rgba(0,0,0,0.12);
+    --shadow-lg: 0 4px 16px rgba(0,0,0,0.16);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --a1: #34a853;
+    --a1-light: #e6f4ea;
+    --a2: #1a73e8;
+    --a2-light: #e8f0fe;
+    --b1: #f9ab00;
+    --b1-light: #fef7e0;
+    --b2: #ea4335;
+    --b2-light: #fce8e6;
+    --c1: #9334e6;
+    --c1-light: #f3e8fd;
+    --font-base: 16px;
+    --bottom-nav-height: 64px;
+    --header-height: 56px;
+    --transition: 0.2s ease;
+}
+
+[data-theme="dark"] {
+    --bg: #121212;
+    --surface: #1e1e1e;
+    --surface-hover: #2a2a2a;
+    --text: #e8eaed;
+    --text-secondary: #9aa0a6;
+    --text-tertiary: #5f6368;
+    --border: #333;
+    --primary-light: #1a3a5c;
+    --success-light: #1a3a2a;
+    --warning-light: #3a3520;
+    --error-light: #3a1a1a;
+    --a1-light: #1a3a2a;
+    --a2-light: #1a2a3a;
+    --b1-light: #3a3520;
+    --b2-light: #3a1a1a;
+    --c1-light: #2a1a3a;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-md: 0 2px 8px rgba(0,0,0,0.4);
+    --shadow-lg: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+[data-font="small"] { --font-base: 14px; }
+[data-font="large"] { --font-base: 18px; }
+[data-font="xlarge"] { --font-base: 20px; }
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--font-base);
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+}
+
+/* ===== Header ===== */
+#app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    z-index: 100;
+    transition: background var(--transition);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.header-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--text);
+    padding: 8px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--transition);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icon-btn:hover {
+    background: var(--surface-hover);
+}
+
+.hidden { display: none !important; }
+
+/* Theme toggle icons */
+[data-theme="dark"] .sun-icon { display: block; }
+[data-theme="dark"] .moon-icon { display: none; }
+.sun-icon { display: none; }
+.moon-icon { display: block; }
+
+/* Streak badge */
+.streak-badge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--warning-light);
+    padding: 4px 10px;
+    border-radius: var(--radius-xl);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+/* ===== Main Content ===== */
+#app-main {
+    padding-top: var(--header-height);
+    padding-bottom: calc(var(--bottom-nav-height) + 16px);
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.page {
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Bottom Navigation ===== */
+#bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--bottom-nav-height);
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    z-index: 100;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.nav-item.active {
+    color: var(--primary);
+}
+
+.nav-item svg {
+    width: 22px;
+    height: 22px;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text-tertiary);
+    border-radius: 3px;
+}
+
+/* ===== Utilities ===== */
+.text-center { text-align: center; }
+.text-secondary { color: var(--text-secondary); }
+.mt-8 { margin-top: 0.5rem; }
+.mt-16 { margin-top: 1rem; }
+.mt-24 { margin-top: 1.5rem; }
+.mb-8 { margin-bottom: 0.5rem; }
+.mb-16 { margin-bottom: 1rem; }
+.gap-8 { gap: 0.5rem; }
+.gap-12 { gap: 0.75rem; }
+.gap-16 { gap: 1rem; }
+
+/* ===== Tablet & Desktop ===== */
+@media (min-width: 768px) {
+    :root {
+        --bottom-nav-height: 0px;
+    }
+
+    #bottom-nav {
+        top: 0;
+        bottom: auto;
+        left: 0;
+        right: auto;
+        width: 220px;
+        height: 100vh;
+        height: 100dvh;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: calc(var(--header-height) + 16px) 8px 16px;
+        border-top: none;
+        border-right: 1px solid var(--border);
+    }
+
+    .nav-item {
+        flex-direction: row;
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 0.875rem;
+        gap: 12px;
+        border-radius: var(--radius-md);
+    }
+
+    #app-header {
+        padding-left: 16px;
+    }
+
+    #app-main {
+        margin-left: 220px;
+        padding-bottom: 16px;
+    }
+
+    .page {
+        padding: 24px;
+    }
+}

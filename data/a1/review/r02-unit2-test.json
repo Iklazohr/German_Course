@@ -1,0 +1,71 @@
+{
+  "id": "a1-r02",
+  "level": "a1",
+  "title": "Test Unità 2",
+  "exercises": [
+    {
+      "type": "select-article",
+      "instruction": "Scegli l'articolo determinativo corretto:",
+      "items": [
+        { "noun": "Hund", "correct": "der", "options": ["der", "die", "das"] },
+        { "noun": "Katze", "correct": "die", "options": ["der", "die", "das"] },
+        { "noun": "Haus", "correct": "das", "options": ["der", "die", "das"] },
+        { "noun": "Schule", "correct": "die", "options": ["der", "die", "das"] },
+        { "noun": "Mädchen", "correct": "das", "options": ["der", "die", "das"] }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 45 in tedesco?",
+      "options": ["vierzig fünf", "fünfundvierzig", "vierfünfzig", "fünfvierzig"],
+      "correct": 1,
+      "explanation": "45 = fünfundvierzig (cinque-e-quaranta). In tedesco le unità vengono prima delle decine!"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich habe ___ Bruder und ___ Schwester.",
+      "blanks": [
+        { "position": 0, "correct": ["einen"], "hint": "articolo indeterminativo maschile accusativo" },
+        { "position": 1, "correct": ["eine"], "hint": "articolo indeterminativo femminile" }
+      ],
+      "translation": "Ho un fratello e una sorella."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i numeri tedeschi al valore corretto.",
+      "pairs": [
+        { "left": "dreißig", "right": "30" },
+        { "left": "siebzig", "right": "70" },
+        { "left": "zwölf", "right": "12" },
+        { "left": "einundzwanzig", "right": "21" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale regola è corretta sul genere dei sostantivi tedeschi?",
+      "options": ["Il genere è sempre uguale all'italiano", "I sostantivi in -chen sono sempre neutri", "I sostantivi in -er sono sempre femminili", "Non esistono regole"],
+      "correct": 1,
+      "explanation": "I sostantivi con la terminazione -chen sono SEMPRE neutri: das Mädchen, das Brötchen."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Ho due figli.",
+      "acceptable": ["Ich habe zwei Kinder.", "Ich habe 2 Kinder."],
+      "hint": "figli = Kinder, due = zwei"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ Bücher sind interessant.",
+      "blanks": [{ "position": 0, "correct": ["Die"], "hint": "articolo determinativo plurale" }],
+      "translation": "I libri sono interessanti."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la frase corretta:",
+      "words": ["eine", "Ich", "Katze", "habe", "."],
+      "correct": "Ich habe eine Katze .",
+      "translation": "Ho una gatta."
+    }
+  ]
+}

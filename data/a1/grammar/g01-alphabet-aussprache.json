@@ -1,0 +1,15 @@
+{
+  "id": "a1-g01",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Alfabeto e pronuncia",
+  "subtitle": "Alphabet und Aussprache",
+  "sections": [
+    { "type": "intro", "content": "Il tedesco usa lo stesso alfabeto latino dell'italiano, con l'aggiunta di quattro lettere speciali: **ä, ö, ü** (vocali con Umlaut) e **ß** (Eszett o scharfes S). La pronuncia tedesca è generalmente più regolare dell'inglese: ogni lettera si pronuncia quasi sempre allo stesso modo." },
+    { "type": "rule", "title": "Le lettere speciali", "content": "Il tedesco ha quattro lettere che non esistono in italiano:", "table": { "headers": ["Lettera", "Nome", "Pronuncia", "Esempio"], "rows": [["ä", "a-Umlaut", "Come la 'e' aperta italiana", "Mädchen (ragazza)"], ["ö", "o-Umlaut", "Come la 'eu' francese, labbra arrotondate", "schön (bello)"], ["ü", "u-Umlaut", "Come la 'u' francese, labbra arrotondate", "über (sopra)"], ["ß", "Eszett", "Come una doppia 's' sorda", "Straße (strada)"]] } },
+    { "type": "rule", "title": "Consonanti diverse dall'italiano", "content": "Alcune consonanti si pronunciano diversamente:", "table": { "headers": ["Lettera/Combo", "Pronuncia", "Esempio"], "rows": [["ch", "Suono aspirato (dopo a,o,u) o come 'sci' leggero (dopo e,i)", "Buch (libro), ich (io)"], ["sch", "Come 'sc' in 'scena'", "Schule (scuola)"], ["sp / st (a inizio parola)", "Si pronunciano 'shp' / 'sht'", "sprechen (parlare), Straße (strada)"], ["w", "Si pronuncia come la 'v' italiana", "Wasser (acqua)"], ["v", "Si pronuncia come la 'f' italiana", "Vater (padre)"], ["z", "Si pronuncia 'ts'", "zehn (dieci)"], ["j", "Si pronuncia come la 'i' di 'ieri'", "ja (sì)"], ["h", "Aspirata a inizio sillaba, muta dopo vocale", "Haus (casa), gehen (andare)"], ["r", "Gutturale (dalla gola), non vibrante", "rot (rosso)"]] } },
+    { "type": "tip", "content": "In tedesco, la **s** davanti a vocale si pronuncia come la **z** italiana (sonora): *Sonne* (sole) si dice 'zonne'. La doppia **ss** o **ß** è invece sempre sorda come in 'passo'." },
+    { "type": "rule", "title": "Le vocali lunghe e corte", "content": "In tedesco la lunghezza delle vocali è importante e cambia il significato delle parole:", "table": { "headers": ["Regola", "Esempio lungo", "Esempio corto"], "rows": [["Vocale + h = lunga", "Bahn (treno) - a lunga", ""], ["Vocale doppia = lunga", "Meer (mare) - e lunga", ""], ["Vocale + 1 consonante = lunga", "gut (buono) - u lunga", ""], ["Vocale + 2+ consonanti = corta", "", "Wasser (acqua) - a corta"], ["", "Schule (scuola) - u lunga", "Mutter (madre) - u corta"]] } },
+    { "type": "comparison", "title": "Confronto italiano-tedesco", "content": "A differenza dell'italiano:\n- Le **doppie consonanti** non si pronunciano più lunghe, ma indicano che la vocale precedente è **corta**\n- La lettera **h** è aspirata (come in inglese) all'inizio di parola\n- L'accento cade quasi sempre sulla **prima sillaba**: *'KAF-fee*, *'AR-bei-ten*\n- I sostantivi si scrivono sempre con la **maiuscola**: *der Tisch* (il tavolo)" }
+  ]
+}

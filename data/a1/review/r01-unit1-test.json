@@ -1,0 +1,65 @@
+{
+  "id": "a1-r01",
+  "level": "a1",
+  "title": "Test Unità 1",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Come si pronuncia 'sch' in tedesco?",
+      "options": ["Come 'sk'", "Come 'sc' in 'scena'", "Come 'ch' in 'che'", "Come 'sc' in 'scatola'"],
+      "correct": 1,
+      "explanation": "'sch' si pronuncia come 'sc' in 'scena'."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Buonasera, come sta?",
+      "acceptable": ["Guten Abend, wie geht es Ihnen?", "Guten Abend, wie geht's?"],
+      "hint": "Buonasera = Guten Abend"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i saluti al contesto corretto.",
+      "pairs": [
+        { "left": "Guten Morgen", "right": "mattina" },
+        { "left": "Guten Tag", "right": "giornata" },
+        { "left": "Guten Abend", "right": "sera" },
+        { "left": "Gute Nacht", "right": "notte" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich ___ aus Italien.",
+      "blanks": [{ "position": 0, "correct": ["komme"], "hint": "verbo 'kommen', prima persona" }],
+      "translation": "Vengo dall'Italia."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale lettera speciale tedesca corrisponde a una doppia 's'?",
+      "options": ["ä", "ö", "ü", "ß"],
+      "correct": 3,
+      "explanation": "La ß (Eszett) corrisponde a una doppia 's' sorda."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma la frase corretta:",
+      "words": ["heißt", "Wie", "du", "?"],
+      "correct": "Wie heißt du ?",
+      "translation": "Come ti chiami?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Freut mich!' significa:",
+      "options": ["Mi dispiace!", "Piacere!", "Grazie!", "Arrivederci!"],
+      "correct": 1,
+      "explanation": "'Freut mich!' significa 'Piacere!' e si usa quando ci si presenta."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Mi chiamo Marco. Vengo da Roma.",
+      "acceptable": ["Ich heiße Marco. Ich komme aus Rom.", "Ich heisse Marco. Ich komme aus Rom."],
+      "hint": "Mi chiamo = Ich heiße, Vengo da = Ich komme aus"
+    }
+  ]
+}

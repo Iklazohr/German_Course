@@ -1,0 +1,15 @@
+{
+  "id": "a1-g03",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Pronomi personali e \"sein\"",
+  "subtitle": "Personalpronomen und das Verb \"sein\"",
+  "sections": [
+    { "type": "intro", "content": "Come in italiano, anche in tedesco i verbi si coniugano secondo la persona. Il primo verbo da imparare è **sein** (essere), che è irregolare esattamente come 'essere' in italiano." },
+    { "type": "rule", "title": "I pronomi personali", "content": "Ecco i pronomi personali tedeschi:", "table": { "headers": ["Tedesco", "Italiano", "Note"], "rows": [["**ich**", "io", "Sempre minuscolo (tranne a inizio frase)"], ["**du**", "tu", "Informale, per amici e familiari"], ["**er**", "lui / egli", "Maschile"], ["**sie**", "lei / ella", "Femminile"], ["**es**", "esso / essa", "Neutro"], ["**wir**", "noi", ""], ["**ihr**", "voi", "Informale plurale"], ["**sie**", "loro", "Minuscolo"], ["**Sie**", "Lei (formale)", "Sempre maiuscolo! Singolare e plurale"]] } },
+    { "type": "tip", "content": "In tedesco il 'Lei' di cortesia è **Sie** (con la maiuscola) e usa la stessa forma verbale della terza persona plurale (**sie** = loro). Esempio: *Sie **sind** Herr Müller?* (Lei è il signor Müller?)" },
+    { "type": "rule", "title": "Il verbo \"sein\" (essere)", "content": "La coniugazione di **sein** al presente:", "table": { "headers": ["Pronome", "sein", "Italiano"], "rows": [["ich", "**bin**", "sono"], ["du", "**bist**", "sei"], ["er/sie/es", "**ist**", "è"], ["wir", "**sind**", "siamo"], ["ihr", "**seid**", "siete"], ["sie/Sie", "**sind**", "sono / è (formale)"]] } },
+    { "type": "example", "pairs": [{ "de": "Ich bin Anna.", "it": "Io sono Anna." }, { "de": "Du bist nett.", "it": "Tu sei gentile." }, { "de": "Er ist Lehrer.", "it": "Lui è insegnante." }, { "de": "Wir sind aus Italien.", "it": "Noi siamo dall'Italia." }, { "de": "Sie sind Studenten.", "it": "Loro sono studenti." }, { "de": "Sind Sie Herr Schmidt?", "it": "È Lei il signor Schmidt?" }] },
+    { "type": "comparison", "title": "Confronto italiano-tedesco", "content": "A differenza dell'italiano, in tedesco il pronome personale è **quasi sempre necessario** perché le desinenze verbali non sono sempre sufficienti a distinguere la persona:\n- Italiano: *Sono stanco* (il pronome 'io' è facoltativo)\n- Tedesco: ***Ich** bin müde* (il pronome 'ich' è obbligatorio)\n\nUnica eccezione: nei comandi (imperativo), come in italiano." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "a1-g08",
+  "level": "a1",
+  "type": "grammar",
+  "title": "L'accusativo",
+  "subtitle": "Der Akkusativ",
+  "sections": [
+    { "type": "intro", "content": "Il tedesco ha **quattro casi** (Nominativ, Akkusativ, Dativ, Genitiv). L'accusativo è il primo caso da imparare dopo il nominativo. Si usa per il **complemento oggetto diretto** — cioè la persona o cosa che subisce l'azione." },
+    { "type": "rule", "title": "Articoli all'accusativo", "content": "Solo il maschile cambia! Femminile, neutro e plurale restano uguali al nominativo:", "table": { "headers": ["Genere", "Nominativo", "Accusativo", "Esempio"], "rows": [["Maschile", "**der** / **ein**", "**den** / **einen**", "Ich sehe **den** Mann."], ["Femminile", "die / eine", "die / eine", "Ich sehe **die** Frau."], ["Neutro", "das / ein", "das / ein", "Ich sehe **das** Kind."], ["Plurale", "die", "die", "Ich sehe **die** Kinder."]] } },
+    { "type": "tip", "content": "Buona notizia: solo l'articolo **maschile** cambia all'accusativo! Tutto il resto rimane come il nominativo. Basta ricordare: **der → den** e **ein → einen**." },
+    { "type": "rule", "title": "Pronomi personali all'accusativo", "content": "Anche i pronomi cambiano all'accusativo:", "table": { "headers": ["Nominativo", "Accusativo", "Esempio"], "rows": [["ich", "**mich**", "Er sieht **mich**. (Mi vede.)"], ["du", "**dich**", "Ich liebe **dich**. (Ti amo.)"], ["er", "**ihn**", "Ich kenne **ihn**. (Lo conosco.)"], ["sie", "**sie**", "Ich kenne **sie**. (La conosco.)"], ["es", "**es**", "Ich kaufe **es**. (Lo compro.)"], ["wir", "**uns**", "Er besucht **uns**. (Ci visita.)"], ["ihr", "**euch**", "Ich sehe **euch**. (Vi vedo.)"], ["sie/Sie", "**sie/Sie**", "Ich frage **Sie**. (Le chiedo.)"]] } },
+    { "type": "rule", "title": "Verbi che reggono l'accusativo", "content": "Molti verbi comuni reggono l'accusativo:", "table": { "headers": ["Verbo", "Significato", "Esempio"], "rows": [["haben", "avere", "Ich habe **einen** Bruder."], ["sehen", "vedere", "Siehst du **den** Hund?"], ["kaufen", "comprare", "Sie kauft **ein** Kleid."], ["trinken", "bere", "Er trinkt **einen** Kaffee."], ["essen", "mangiare", "Wir essen **eine** Pizza."], ["lesen", "leggere", "Ich lese **das** Buch."]] } },
+    { "type": "example", "pairs": [{ "de": "Ich kaufe einen Computer.", "it": "Compro un computer." }, { "de": "Siehst du den Mann?", "it": "Vedi l'uomo?" }, { "de": "Ich liebe dich.", "it": "Ti amo." }, { "de": "Er hat keine Geschwister.", "it": "Non ha fratelli." }] },
+    { "type": "comparison", "title": "L'accusativo e l'italiano", "content": "In italiano l'accusativo non esiste come caso grammaticale separato — l'articolo non cambia. In tedesco, il cambiamento è minimo (solo il maschile!):\n- *Io vedo **il** cane* → *Ich sehe **den** Hund* (il → den)\n- *Io vedo **la** donna* → *Ich sehe **die** Frau* (la → die, nessun cambiamento!)" }
+  ]
+}

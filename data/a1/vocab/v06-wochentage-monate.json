@@ -1,0 +1,47 @@
+{
+  "id": "a1-v06",
+  "level": "a1",
+  "type": "vocab",
+  "title": "Giorni, mesi e stagioni",
+  "subtitle": "Wochentage, Monate und Jahreszeiten",
+  "groups": [
+    {
+      "name": "Giorni della settimana",
+      "words": [
+        { "de": "der Montag", "it": "lunedì", "example_de": "Am Montag arbeite ich.", "example_it": "Lunedì lavoro." },
+        { "de": "der Dienstag", "it": "martedì", "example_de": "Dienstag habe ich Deutschkurs.", "example_it": "Martedì ho corso di tedesco." },
+        { "de": "der Mittwoch", "it": "mercoledì", "example_de": "Am Mittwoch gehe ich schwimmen.", "example_it": "Mercoledì vado a nuotare." },
+        { "de": "der Donnerstag", "it": "giovedì", "example_de": "Donnerstag ist mein Lieblingstag.", "example_it": "Giovedì è il mio giorno preferito." },
+        { "de": "der Freitag", "it": "venerdì", "example_de": "Am Freitag gehen wir aus.", "example_it": "Venerdì usciamo." },
+        { "de": "der Samstag", "it": "sabato", "example_de": "Am Samstag schlafe ich lange.", "example_it": "Sabato dormo fino a tardi." },
+        { "de": "der Sonntag", "it": "domenica", "example_de": "Sonntag ist Ruhetag.", "example_it": "Domenica è giorno di riposo." }
+      ]
+    },
+    {
+      "name": "I mesi",
+      "words": [
+        { "de": "der Januar", "it": "gennaio", "example_de": "Im Januar ist es kalt.", "example_it": "A gennaio fa freddo." },
+        { "de": "der Februar", "it": "febbraio", "example_de": "Februar ist kurz.", "example_it": "Febbraio è corto." },
+        { "de": "der März", "it": "marzo", "example_de": "Im März beginnt der Frühling.", "example_it": "A marzo inizia la primavera." },
+        { "de": "der April", "it": "aprile", "example_de": "April, April!", "example_it": "Pesce d'aprile!" },
+        { "de": "der Mai", "it": "maggio", "example_de": "Im Mai blühen die Blumen.", "example_it": "A maggio fioriscono i fiori." },
+        { "de": "der Juni", "it": "giugno", "example_de": "Im Juni beginnt der Sommer.", "example_it": "A giugno inizia l'estate." },
+        { "de": "der Juli", "it": "luglio", "example_de": "Im Juli ist es heiß.", "example_it": "A luglio fa caldo." },
+        { "de": "der August", "it": "agosto", "example_de": "Im August mache ich Urlaub.", "example_it": "Ad agosto vado in vacanza." },
+        { "de": "der September", "it": "settembre", "example_de": "Im September beginnt die Schule.", "example_it": "A settembre inizia la scuola." },
+        { "de": "der Oktober", "it": "ottobre", "example_de": "Im Oktober ist Oktoberfest.", "example_it": "A ottobre c'è l'Oktoberfest." },
+        { "de": "der November", "it": "novembre", "example_de": "November ist grau.", "example_it": "Novembre è grigio." },
+        { "de": "der Dezember", "it": "dicembre", "example_de": "Im Dezember ist Weihnachten.", "example_it": "A dicembre è Natale." }
+      ]
+    },
+    {
+      "name": "Le stagioni",
+      "words": [
+        { "de": "der Frühling", "it": "la primavera", "example_de": "Im Frühling blühen die Blumen.", "example_it": "In primavera fioriscono i fiori." },
+        { "de": "der Sommer", "it": "l'estate", "example_de": "Im Sommer gehe ich schwimmen.", "example_it": "In estate vado a nuotare." },
+        { "de": "der Herbst", "it": "l'autunno", "example_de": "Im Herbst fallen die Blätter.", "example_it": "In autunno cadono le foglie." },
+        { "de": "der Winter", "it": "l'inverno", "example_de": "Im Winter schneit es.", "example_it": "In inverno nevica." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "a1-g10",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Verbi modali",
+  "subtitle": "Die Modalverben",
+  "sections": [
+    { "type": "intro", "content": "I **verbi modali** esprimono possibilità, necessità, volontà, permesso e capacità. In tedesco ce ne sono sei. Si usano insieme a un altro verbo all'**infinito**, che va alla fine della frase." },
+    { "type": "rule", "title": "I sei verbi modali", "content": "Ecco i verbi modali tedeschi con il loro significato:", "table": { "headers": ["Modale", "Significato", "Esempio"], "rows": [["**können**", "potere (capacità)", "Ich **kann** schwimmen. (So nuotare.)"], ["**müssen**", "dovere (necessità)", "Ich **muss** arbeiten. (Devo lavorare.)"], ["**wollen**", "volere", "Er **will** schlafen. (Vuole dormire.)"], ["**sollen**", "dovere (consiglio/obbligo esterno)", "Du **sollst** mehr lernen. (Dovresti studiare di più.)"], ["**dürfen**", "potere (permesso)", "Darf ich rauchen? (Posso fumare?)"], ["**möchten**", "vorrei (desiderio cortese)", "Ich **möchte** einen Kaffee. (Vorrei un caffè.)"]] } },
+    { "type": "rule", "title": "Coniugazione dei modali", "content": "I modali sono irregolari! La 1a e 3a persona singolare sono uguali e senza desinenza:", "table": { "headers": ["", "können", "müssen", "wollen", "dürfen", "möchten"], "rows": [["ich", "kann", "muss", "will", "darf", "möchte"], ["du", "kannst", "musst", "willst", "darfst", "möchtest"], ["er/sie/es", "kann", "muss", "will", "darf", "möchte"], ["wir", "können", "müssen", "wollen", "dürfen", "möchten"], ["ihr", "könnt", "müsst", "wollt", "dürft", "möchtet"], ["sie/Sie", "können", "müssen", "wollen", "dürfen", "möchten"]] } },
+    { "type": "rule", "title": "Struttura della frase con modale", "content": "Il verbo modale va in **posizione 2**, l'infinito va alla **fine**:", "table": { "headers": ["Soggetto", "Modale (pos. 2)", "Complementi", "Infinito (fine)"], "rows": [["Ich", "**kann**", "gut", "**schwimmen**."], ["Du", "**musst**", "jetzt", "**gehen**."], ["Wir", "**wollen**", "morgen nach Berlin", "**fahren**."], ["", "**Darf**", "ich hier", "**rauchen**?"]] } },
+    { "type": "tip", "content": "**möchten** (vorrei) è la forma cortese per ordinare o chiedere qualcosa. È molto più educato di **wollen** (volere): *Ich **möchte** ein Bier, bitte.* (Vorrei una birra, per favore.)" },
+    { "type": "example", "pairs": [{ "de": "Kannst du Deutsch sprechen?", "it": "Sai parlare tedesco?" }, { "de": "Ich muss jetzt gehen.", "it": "Devo andare adesso." }, { "de": "Wir wollen ins Kino gehen.", "it": "Vogliamo andare al cinema." }, { "de": "Darf ich das Fenster öffnen?", "it": "Posso aprire la finestra?" }, { "de": "Ich möchte eine Pizza bestellen.", "it": "Vorrei ordinare una pizza." }] },
+    { "type": "comparison", "title": "Confronto con l'italiano", "content": "In italiano il verbo modale + infinito stanno vicini: 'Devo **andare**'. In tedesco l'infinito va alla **fine**: 'Ich muss jetzt nach Hause **gehen**' (Devo andare a casa adesso).\n\nAttenzione a **können** vs **dürfen**: entrambi significano 'potere' ma *können* = capacità (saper fare), *dürfen* = permesso (aver il permesso di)." }
+  ]
+}
