@@ -1,110 +1,109 @@
 {
   "id": "a2-e01",
   "level": "a2",
-  "type": "exercise",
-  "title": "Esercizi: I tempi del passato",
-  "questions": [
+  "title": "Esercizi: Perfekt e Präteritum",
+  "exercises": [
     {
       "type": "multiple-choice",
-      "question": "Quale ausiliare si usa con il verbo 'gehen' al Perfekt?",
-      "options": ["haben", "sein", "werden", "können"],
+      "question": "Qual è il Partizip II del verbo 'machen'?",
+      "options": ["gemachen", "gemacht", "gemakt", "macht"],
       "correct": 1,
-      "explanation": "I verbi di movimento (gehen, kommen, fahren, laufen...) usano 'sein' come ausiliare al Perfekt."
+      "explanation": "I verbi regolari formano il Partizip II con ge- + radice + -t: machen → gemacht."
     },
     {
-      "type": "multiple-choice",
-      "question": "Quale frase è corretta?",
-      "options": [
-        "Ich habe gestern ins Kino gegangen.",
-        "Ich bin gestern ins Kino gegangen.",
-        "Ich bin gestern ins Kino gegangt.",
-        "Ich habe gestern ins Kino gegangt."
-      ],
-      "correct": 1,
-      "explanation": "'Gehen' è un verbo di movimento, quindi richiede 'sein'. Il Partizip II di 'gehen' è 'gegangen' (irregolare)."
+      "type": "fill-blank",
+      "sentence": "Ich ___ gestern einen Film gesehen.",
+      "blanks": [{ "position": 0, "correct": ["habe"], "hint": "ausiliare 'haben', prima persona singolare" }],
+      "translation": "Ieri ho visto un film."
     },
     {
       "type": "multiple-choice",
-      "question": "Quale ausiliare si usa con 'essen' al Perfekt?",
-      "options": ["sein", "haben", "werden", "sein o haben"],
-      "correct": 1,
-      "explanation": "'Essen' è un verbo transitivo (si mangia qualcosa), quindi usa 'haben': Ich habe gegessen."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Wir ___ gestern nach Berlin gefahren.",
-      "blanks": ["sind"],
-      "explanation": "'Fahren' indica un movimento da un luogo a un altro, quindi si usa 'sein' come ausiliare."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Er hat den ganzen Tag ___.",
-      "blanks": ["geschlafen"],
-      "explanation": "Il Partizip II di 'schlafen' (dormire) è 'geschlafen' (verbo forte: schlafen → schlief → geschlafen)."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Hast du schon die Hausaufgaben ___?",
-      "blanks": ["gemacht"],
-      "explanation": "Il Partizip II di 'machen' (fare) è 'gemacht' (verbo regolare: ge- + mach + -t)."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Sie ___ ein neues Buch gekauft.",
-      "blanks": ["hat"],
-      "explanation": "'Kaufen' è un verbo transitivo (si compra qualcosa), quindi richiede l'ausiliare 'haben'. Con 'sie' (lei) si usa 'hat'."
-    },
-    {
-      "type": "translation",
-      "sentence": "Ieri sono andato al supermercato.",
-      "answer": "Gestern bin ich in den Supermarkt gegangen.",
-      "hint": "gehen → gegangen (con sein)"
-    },
-    {
-      "type": "translation",
-      "sentence": "Abbiamo mangiato una pizza.",
-      "answer": "Wir haben eine Pizza gegessen.",
-      "hint": "essen → gegessen (con haben)"
-    },
-    {
-      "type": "translation",
-      "sentence": "Da bambino giocavo sempre a calcio.",
-      "answer": "Als Kind spielte ich immer Fußball.",
-      "hint": "Usa il Präteritum per le descrizioni nel passato"
-    },
-    {
-      "type": "reorder",
-      "words": ["habe", "ich", "einen", "Film", "gesehen", "gestern"],
-      "correct": "Gestern habe ich einen Film gesehen."
-    },
-    {
-      "type": "reorder",
-      "words": ["du", "nach", "bist", "Hause", "wann", "gekommen"],
-      "correct": "Wann bist du nach Hause gekommen?"
+      "question": "Quale verbo usa 'sein' come ausiliare al Perfekt?",
+      "options": ["essen", "kaufen", "fahren", "lesen"],
+      "correct": 2,
+      "explanation": "'Fahren' (andare con un mezzo) indica un movimento da un luogo a un altro, quindi usa 'sein': Ich bin gefahren."
     },
     {
       "type": "matching",
+      "instruction": "Collega l'infinito al Partizip II corretto.",
       "pairs": [
-        {"left": "schreiben", "right": "geschrieben"},
-        {"left": "trinken", "right": "getrunken"},
-        {"left": "lesen", "right": "gelesen"},
-        {"left": "sprechen", "right": "gesprochen"},
-        {"left": "nehmen", "right": "genommen"},
-        {"left": "finden", "right": "gefunden"}
+        { "left": "essen", "right": "gegessen" },
+        { "left": "trinken", "right": "getrunken" },
+        { "left": "schreiben", "right": "geschrieben" },
+        { "left": "kaufen", "right": "gekauft" },
+        { "left": "gehen", "right": "gegangen" }
       ]
     },
     {
+      "type": "fill-blank",
+      "sentence": "Sie ___ nach Berlin gefahren.",
+      "blanks": [{ "position": 0, "correct": ["ist"], "hint": "ausiliare 'sein', terza persona singolare (fahren = movimento)" }],
+      "translation": "Lei è andata a Berlino."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Ho imparato il tedesco.",
+      "acceptable": ["Ich habe Deutsch gelernt.", "Ich habe deutsch gelernt."],
+      "hint": "imparare = lernen, Partizip II regolare: ge-...-t"
+    },
+    {
       "type": "multiple-choice",
-      "question": "Quale forma del Präteritum è corretta per 'sein' con 'ich'?",
-      "options": ["ich bin", "ich war", "ich wart", "ich seid"],
+      "question": "Qual è il Präteritum di 'sein' alla prima persona singolare?",
+      "options": ["bin", "war", "wurde", "hatte"],
       "correct": 1,
-      "explanation": "Il Präteritum di 'sein' con 'ich' è 'ich war'. Il Präteritum di 'sein' e 'haben' si usa molto nel parlato, a differenza degli altri verbi."
+      "explanation": "'Sein' al Präteritum: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren."
     },
     {
       "type": "fill-blank",
-      "sentence": "Als ich klein ___, ___ ich viele Bücher.",
-      "blanks": ["war", "las"],
-      "explanation": "'War' è il Präteritum di 'sein' (ich war = io ero). 'Las' è il Präteritum di 'lesen' (ich las = io leggevo). Per le narrazioni al passato si preferisce il Präteritum."
+      "sentence": "Wir ___ gestern im Kino.",
+      "blanks": [{ "position": 0, "correct": ["waren"], "hint": "Präteritum di 'sein', prima persona plurale" }],
+      "translation": "Ieri eravamo al cinema."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["habe", "Ich", "ein", "Buch", "gelesen", "."],
+      "correct": "Ich habe ein Buch gelesen .",
+      "translation": "Ho letto un libro."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 'Avevo fame' in tedesco (Präteritum)?",
+      "options": ["Ich habe Hunger gehabt.", "Ich hatte Hunger.", "Ich war Hunger.", "Ich bin hungrig gewesen."],
+      "correct": 1,
+      "explanation": "'Ich hatte Hunger' usa il Präteritum di 'haben' (hatte). Nel parlato si preferisce il Präteritum per haben e sein."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er ___ nicht kommen, weil er krank war.",
+      "blanks": [{ "position": 0, "correct": ["konnte"], "hint": "Präteritum di 'können', terza persona singolare" }],
+      "translation": "Non poteva venire perché era malato."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Siamo andati in Italia.",
+      "acceptable": ["Wir sind nach Italien gefahren.", "Wir sind nach Italien gereist."],
+      "hint": "andare (con mezzo) = fahren, usa 'sein' come ausiliare"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è il Partizip II di 'anrufen' (chiamare al telefono)?",
+      "options": ["angeruft", "angerufen", "gerufen", "gerufan"],
+      "correct": 1,
+      "explanation": "'Anrufen' è un verbo separabile: il prefisso 'ge-' va tra 'an' e 'rufen' → angerufen."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega la forma del Präteritum al verbo corretto.",
+      "pairs": [
+        { "left": "war", "right": "sein" },
+        { "left": "hatte", "right": "haben" },
+        { "left": "konnte", "right": "können" },
+        { "left": "musste", "right": "müssen" },
+        { "left": "wollte", "right": "wollen" }
+      ]
     }
   ]
 }

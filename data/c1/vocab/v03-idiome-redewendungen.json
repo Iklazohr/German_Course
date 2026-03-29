@@ -3,31 +3,45 @@
   "level": "c1",
   "type": "vocab",
   "title": "Modi di dire e espressioni idiomatiche",
-  "subtitle": "Redewendungen und Idiome",
+  "subtitle": "Idiome und Redewendungen",
   "groups": [
     {
-      "name": "Modi di dire comuni",
+      "name": "Espressioni comuni",
       "words": [
-        { "de": "den Nagel auf den Kopf treffen", "it": "colpire nel segno, azzeccarci", "emoji": "🔨", "example_de": "Mit deiner Analyse hast du den Nagel auf den Kopf getroffen.", "example_it": "Con la tua analisi hai colpito nel segno." },
-        { "de": "um den heißen Brei herumreden", "it": "girarci intorno, menare il can per l'aia", "emoji": "🫕", "example_de": "Hör auf, um den heißen Brei herumzureden, und sag mir die Wahrheit!", "example_it": "Smettila di girarci intorno e dimmi la verita!" },
-        { "de": "jemandem auf die Nerven gehen", "it": "dare sui nervi a qualcuno", "emoji": "😤", "example_de": "Dieser ständige Lärm geht mir wirklich auf die Nerven.", "example_it": "Questo rumore continuo mi da davvero sui nervi." },
+        { "de": "den Nagel auf den Kopf treffen", "it": "centrare il punto, azzeccarci", "emoji": "🎯", "example_de": "Mit deiner Analyse hast du den Nagel auf den Kopf getroffen.", "example_it": "Con la tua analisi hai centrato il punto." },
+        { "de": "um den heißen Brei herumreden", "it": "girare intorno, menare il can per l'aia", "emoji": "🫕", "example_de": "Hör auf, um den heißen Brei herumzureden, und sag mir die Wahrheit!", "example_it": "Smettila di girare intorno e dimmi la verita!" },
         { "de": "die Daumen drücken", "it": "incrociare le dita, fare il tifo", "emoji": "🤞", "example_de": "Ich drücke dir die Daumen für deine Prüfung morgen!", "example_it": "Incrocio le dita per il tuo esame di domani!" },
         { "de": "ins Fettnäpfchen treten", "it": "fare una gaffe", "emoji": "😬", "example_de": "Mit seiner Bemerkung über ihr Alter ist er voll ins Fettnäpfchen getreten.", "example_it": "Con la sua osservazione sull'eta di lei ha fatto una bella gaffe." },
-        { "de": "Schwein haben", "it": "avere fortuna (colloquiale)", "emoji": "🐷", "example_de": "Da hast du aber Schwein gehabt, dass der Zug Verspätung hatte!", "example_it": "Hai avuto proprio fortuna che il treno era in ritardo!" },
-        { "de": "den Faden verlieren", "it": "perdere il filo (del discorso)", "emoji": "🧵", "example_de": "Entschuldigung, ich habe gerade den Faden verloren. Wo war ich?", "example_it": "Scusate, ho perso il filo. Dov'ero rimasto?" },
-        { "de": "auf dem Holzweg sein", "it": "essere fuori strada, sbagliarsi", "emoji": "🪵", "example_de": "Wenn du glaubst, dass ich das akzeptiere, bist du auf dem Holzweg.", "example_it": "Se credi che io l'accetti, sei fuori strada." }
+        { "de": "die Katze aus dem Sack lassen", "it": "svelare il segreto", "emoji": "🐱", "example_de": "Jetzt lass endlich die Katze aus dem Sack — was ist die Überraschung?", "example_it": "Adesso svela finalmente il segreto — qual e la sorpresa?" },
+        { "de": "Tomaten auf den Augen haben", "it": "non vedere l'ovvio", "emoji": "🍅", "example_de": "Das Schild steht direkt vor dir! Hast du Tomaten auf den Augen?", "example_it": "Il cartello e proprio davanti a te! Non vedi l'ovvio?" },
+        { "de": "jemandem auf den Wecker gehen", "it": "dare sui nervi a qualcuno", "emoji": "⏰", "example_de": "Dieser ständige Lärm geht mir echt auf den Wecker.", "example_it": "Questo rumore continuo mi da davvero sui nervi." },
+        { "de": "Schwein haben", "it": "avere fortuna (colloquiale)", "emoji": "🐷", "example_de": "Da hast du aber Schwein gehabt, dass der Zug Verspätung hatte!", "example_it": "Hai avuto proprio fortuna che il treno era in ritardo!" }
       ]
     },
     {
-      "name": "Espressioni idiomatiche",
+      "name": "Modi di dire sul lavoro",
       "words": [
-        { "de": "Es liegt mir auf der Zunge.", "it": "Ce l'ho sulla punta della lingua.", "emoji": "👅", "example_de": "Wie heißt er noch mal? Es liegt mir auf der Zunge!", "example_it": "Come si chiama? Ce l'ho sulla punta della lingua!" },
-        { "de": "Das ist nicht mein Bier.", "it": "Non sono affari miei.", "emoji": "🍺", "example_de": "Was die Nachbarn machen, ist nicht mein Bier.", "example_it": "Quello che fanno i vicini non sono affari miei." },
-        { "de": "Tomaten auf den Augen haben", "it": "non vedere l'ovvio", "emoji": "🍅", "example_de": "Das Schild steht direkt vor dir! Hast du Tomaten auf den Augen?", "example_it": "Il cartello e proprio davanti a te! Sei cieco?" },
-        { "de": "die Kirche im Dorf lassen", "it": "non esagerare, mantenere le proporzioni", "emoji": "⛪", "example_de": "Es war nur ein kleiner Fehler — lass mal die Kirche im Dorf!", "example_it": "Era solo un piccolo errore — non esageriamo!" },
-        { "de": "aus einer Mücke einen Elefanten machen", "it": "fare di una mosca un elefante", "emoji": "🐘", "example_de": "Du machst aus einer Mücke einen Elefanten. So schlimm war es nicht.", "example_it": "Stai facendo di una mosca un elefante. Non era cosi grave." },
-        { "de": "jemandem Honig ums Maul schmieren", "it": "adulare qualcuno", "emoji": "🍯", "example_de": "Er schmiert dem Chef ständig Honig ums Maul, um befördert zu werden.", "example_it": "Adula continuamente il capo per ottenere una promozione." },
-        { "de": "Öl ins Feuer gießen", "it": "gettare benzina sul fuoco", "emoji": "🔥", "example_de": "Mit deinem Kommentar hast du nur Öl ins Feuer gegossen.", "example_it": "Con il tuo commento hai solo gettato benzina sul fuoco." }
+        { "de": "etwas unter Dach und Fach bringen", "it": "concludere, portare a termine", "emoji": "🏠", "example_de": "Nach langen Verhandlungen konnten wir den Vertrag endlich unter Dach und Fach bringen.", "example_it": "Dopo lunghe trattative siamo finalmente riusciti a concludere il contratto." },
+        { "de": "die Ärmel hochkrempeln", "it": "rimboccarsi le maniche", "emoji": "💪", "example_de": "Es gibt viel zu tun — krempeln wir die Ärmel hoch!", "example_it": "C'e molto da fare — rimbocchiamoci le maniche!" },
+        { "de": "den Faden verlieren", "it": "perdere il filo (del discorso)", "emoji": "🧵", "example_de": "Entschuldigung, ich habe gerade den Faden verloren. Wo war ich?", "example_it": "Scusate, ho perso il filo. Dov'ero rimasto?" },
+        { "de": "auf dem Laufenden bleiben", "it": "tenersi aggiornato", "emoji": "📰", "example_de": "In dieser Branche muss man immer auf dem Laufenden bleiben.", "example_it": "In questo settore bisogna tenersi sempre aggiornati." },
+        { "de": "über den Tellerrand schauen", "it": "guardare oltre, ampliare gli orizzonti", "emoji": "🍽️", "example_de": "Man sollte öfter über den Tellerrand schauen und neue Perspektiven einnehmen.", "example_it": "Si dovrebbe guardare oltre piu spesso e assumere nuove prospettive." },
+        { "de": "Nägel mit Köpfen machen", "it": "fare le cose per bene, concretizzare", "emoji": "🔨", "example_de": "Genug geredet — jetzt machen wir Nägel mit Köpfen!", "example_it": "Basta parlare — adesso facciamo le cose per bene!" },
+        { "de": "auf Hochtouren laufen", "it": "andare a tutto gas, lavorare a pieno regime", "emoji": "🚀", "example_de": "Die Vorbereitungen für die Konferenz laufen auf Hochtouren.", "example_it": "I preparativi per la conferenza vanno a pieno regime." },
+        { "de": "ins kalte Wasser springen", "it": "buttarsi, lanciarsi senza preparazione", "emoji": "🏊", "example_de": "Am ersten Arbeitstag musste ich ins kalte Wasser springen.", "example_it": "Il primo giorno di lavoro ho dovuto buttarmi senza preparazione." }
+      ]
+    },
+    {
+      "name": "Espressioni con parti del corpo",
+      "words": [
+        { "de": "Hals- und Beinbruch!", "it": "in bocca al lupo!", "emoji": "🍀", "example_de": "Morgen ist deine Prüfung? Hals- und Beinbruch!", "example_it": "Domani hai l'esame? In bocca al lupo!" },
+        { "de": "Hand und Fuß haben", "it": "essere sensato, avere capo e coda", "emoji": "✋", "example_de": "Sein Vorschlag hat Hand und Fuß — wir sollten ihn annehmen.", "example_it": "La sua proposta ha capo e coda — dovremmo accettarla." },
+        { "de": "jemandem den Rücken stärken", "it": "sostenere qualcuno, dare supporto", "emoji": "💪", "example_de": "In dieser schwierigen Zeit hat mir meine Familie den Rücken gestärkt.", "example_it": "In questo periodo difficile la mia famiglia mi ha sostenuto." },
+        { "de": "ein Auge zudrücken", "it": "chiudere un occhio", "emoji": "😉", "example_de": "Der Lehrer hat bei der kleinen Verspätung ein Auge zugedrückt.", "example_it": "L'insegnante ha chiuso un occhio sul piccolo ritardo." },
+        { "de": "auf eigenen Beinen stehen", "it": "essere indipendente, stare in piedi da solo", "emoji": "🦵", "example_de": "Mit 25 sollte man auf eigenen Beinen stehen können.", "example_it": "A 25 anni si dovrebbe essere indipendenti." },
+        { "de": "die Nase voll haben", "it": "averne abbastanza, essere stufo", "emoji": "👃", "example_de": "Ich habe die Nase voll von diesem ewigen Regen!", "example_it": "Ne ho abbastanza di questa pioggia continua!" },
+        { "de": "Schmetterlinge im Bauch haben", "it": "avere le farfalle nello stomaco", "emoji": "🦋", "example_de": "Jedes Mal, wenn ich sie sehe, habe ich Schmetterlinge im Bauch.", "example_it": "Ogni volta che la vedo, ho le farfalle nello stomaco." },
+        { "de": "sich etwas zu Herzen nehmen", "it": "prendere a cuore qualcosa", "emoji": "❤️", "example_de": "Nimm dir die Kritik nicht so zu Herzen — sie war konstruktiv gemeint.", "example_it": "Non prendere la critica cosi a cuore — era intesa in modo costruttivo." }
       ]
     }
   ]

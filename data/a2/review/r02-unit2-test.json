@@ -1,0 +1,77 @@
+{
+  "id": "a2-r02",
+  "level": "a2",
+  "title": "Test Unità 2: Dativo, preposizioni e vocabolario",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale preposizione regge SEMPRE il dativo?",
+      "options": ["für", "durch", "mit", "ohne"],
+      "correct": 2,
+      "explanation": "'Mit' (con) regge sempre il dativo: Ich fahre mit dem Bus."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das Buch gefällt ___ sehr.",
+      "blanks": [{ "position": 0, "correct": ["mir"], "hint": "gefallen regge il dativo; 'a me' = mir" }],
+      "translation": "Il libro mi piace molto."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Vado dal medico.",
+      "acceptable": ["Ich gehe zum Arzt.", "Ich gehe zu dem Arzt."],
+      "hint": "andare da = gehen zu + dativo. zu + dem = zum"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega le stanze al loro nome tedesco.",
+      "pairs": [
+        { "left": "die Küche", "right": "la cucina" },
+        { "left": "das Schlafzimmer", "right": "la camera da letto" },
+        { "left": "das Badezimmer", "right": "il bagno" },
+        { "left": "der Garten", "right": "il giardino" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Ich stelle die Lampe auf ___ Tisch.' Accusativo o dativo?",
+      "options": ["dem (dativo)", "den (accusativo)", "der (dativo)", "das (accusativo)"],
+      "correct": 1,
+      "explanation": "'Stellen' indica un movimento (Wohin?) → accusativo. Der Tisch → den Tisch."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich komme ___ Italien.",
+      "blanks": [{ "position": 0, "correct": ["aus"], "hint": "provenienza = aus + dativo" }],
+      "translation": "Vengo dall'Italia."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["meiner", "Ich", "schenke", "Mutter", "Blumen", "."],
+      "correct": "Ich schenke meiner Mutter Blumen .",
+      "translation": "Regalo fiori a mia madre."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si dice 'Ho mal di testa' in tedesco?",
+      "options": ["Ich bin Kopfschmerzen.", "Ich habe Kopfschmerzen.", "Mir sind Kopfschmerzen.", "Kopfschmerzen tun mich."],
+      "correct": 1,
+      "explanation": "Ich habe Kopfschmerzen = Ho mal di testa. Si usa 'haben' con Schmerzen."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Milch ist ___ Kühlschrank.",
+      "blanks": [{ "position": 0, "correct": ["im"], "hint": "posizione (Wo?) → in + dativo. in + dem = im" }],
+      "translation": "Il latte è nel frigorifero."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Puoi aiutarmi?",
+      "acceptable": ["Kannst du mir helfen?", "Können Sie mir helfen?"],
+      "hint": "aiutare = helfen + dativo. A me = mir"
+    }
+  ]
+}

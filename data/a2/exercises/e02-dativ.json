@@ -1,114 +1,98 @@
 {
   "id": "a2-e02",
   "level": "a2",
-  "type": "exercise",
   "title": "Esercizi: Dativo e preposizioni",
-  "questions": [
-    {
-      "type": "fill-blank",
-      "sentence": "Ich gebe ___ Frau die Blumen.",
-      "blanks": ["der"],
-      "explanation": "'Frau' è femminile. Al dativo, l'articolo determinativo femminile 'die' diventa 'der'. 'Geben' regge l'accusativo (cosa?) e il dativo (a chi?)."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Er hilft ___ Kind bei den Hausaufgaben.",
-      "blanks": ["dem"],
-      "explanation": "'Kind' è neutro. Al dativo, l'articolo determinativo neutro 'das' diventa 'dem'. Il verbo 'helfen' regge sempre il dativo."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Wir wohnen seit drei Jahren in ___ Stadt.",
-      "blanks": ["der"],
-      "explanation": "'In' con significato di stato in luogo regge il dativo. 'Stadt' è femminile, quindi 'die' diventa 'der' al dativo."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Das Buch gehört ___ Lehrer.",
-      "blanks": ["dem"],
-      "explanation": "'Gehören' (appartenere) regge il dativo. 'Lehrer' è maschile, quindi 'der' diventa 'dem' al dativo."
-    },
+  "exercises": [
     {
       "type": "multiple-choice",
-      "question": "Quale preposizione regge SEMPRE il dativo?",
-      "options": ["in", "auf", "mit", "über"],
+      "question": "Qual è l'articolo determinativo maschile al dativo?",
+      "options": ["der", "den", "dem", "des"],
       "correct": 2,
-      "explanation": "'Mit' (con) regge sempre il dativo. 'In', 'auf' e 'über' sono Wechselpräpositionen e possono reggere dativo o accusativo."
+      "explanation": "Al dativo: maschile = dem, femminile = der, neutro = dem, plurale = den (+n)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich helfe ___ Freund.",
+      "blanks": [{ "position": 0, "correct": ["meinem"], "hint": "helfen regge il dativo; 'mein' + desinenza dativo maschile" }],
+      "translation": "Aiuto il mio amico."
     },
     {
       "type": "multiple-choice",
-      "question": "Completa: 'Ich fahre ___ dem Bus.' Quale preposizione è corretta?",
-      "options": ["mit", "bei", "von", "aus"],
-      "correct": 0,
-      "explanation": "'Mit dem Bus fahren' significa 'andare in autobus'. 'Mit' indica il mezzo di trasporto e regge il dativo."
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Quale frase usa correttamente il dativo?",
-      "options": [
-        "Ich helfe der Mann.",
-        "Ich helfe dem Mann.",
-        "Ich helfe den Mann.",
-        "Ich helfe des Mannes."
-      ],
+      "question": "Quale pronome personale corrisponde a 'a me' (dativo)?",
+      "options": ["mich", "mir", "mein", "ich"],
       "correct": 1,
-      "explanation": "'Helfen' regge il dativo. 'Mann' è maschile: al dativo 'der' diventa 'dem'. 'Dem Mann' è la forma corretta."
+      "explanation": "Il pronome 'ich' al dativo diventa 'mir': Das gefällt mir. (Questo mi piace.)"
     },
     {
       "type": "translation",
-      "sentence": "Il libro piace a mia madre.",
-      "answer": "Das Buch gefällt meiner Mutter.",
-      "hint": "gefallen + dativo (a chi piace?) — meine → meiner al dativo femminile"
+      "direction": "it-to-de",
+      "source": "Il libro mi piace.",
+      "acceptable": ["Das Buch gefällt mir.", "Mir gefällt das Buch."],
+      "hint": "piacere = gefallen (+ dativo), a me = mir"
     },
     {
-      "type": "translation",
-      "sentence": "Vado dal dottore con mio fratello.",
-      "answer": "Ich gehe mit meinem Bruder zum Arzt.",
-      "hint": "mit + dativo; zu + dem = zum"
-    },
-    {
-      "type": "translation",
-      "sentence": "Dopo il lavoro vado a casa.",
-      "answer": "Nach der Arbeit gehe ich nach Hause.",
-      "hint": "nach + dativo; 'Arbeit' è femminile"
+      "type": "fill-blank",
+      "sentence": "Ich fahre mit ___ Bus zur Arbeit.",
+      "blanks": [{ "position": 0, "correct": ["dem"], "hint": "'mit' regge il dativo; der Bus → dem Bus" }],
+      "translation": "Vado al lavoro con l'autobus."
     },
     {
       "type": "matching",
+      "instruction": "Collega le preposizioni al caso che reggono.",
       "pairs": [
-        {"left": "mit", "right": "sempre dativo"},
-        {"left": "aus", "right": "sempre dativo"},
-        {"left": "bei", "right": "sempre dativo"},
-        {"left": "in", "right": "dativo o accusativo"},
-        {"left": "auf", "right": "dativo o accusativo"},
-        {"left": "für", "right": "sempre accusativo"}
+        { "left": "mit", "right": "Dativ" },
+        { "left": "für", "right": "Akkusativ" },
+        { "left": "aus", "right": "Dativ" },
+        { "left": "ohne", "right": "Akkusativ" },
+        { "left": "seit", "right": "Dativ" }
       ]
     },
     {
-      "type": "reorder",
-      "words": ["meinem", "ich", "Freund", "helfe", "gern"],
-      "correct": "Ich helfe meinem Freund gern."
-    },
-    {
-      "type": "reorder",
-      "words": ["dem", "die", "auf", "Katze", "Tisch", "sitzt"],
-      "correct": "Die Katze sitzt auf dem Tisch."
+      "type": "multiple-choice",
+      "question": "Completa: 'Ich gehe ___ Arzt.' (Vado dal medico.)",
+      "options": ["zu dem", "bei dem", "von dem", "nach dem"],
+      "correct": 0,
+      "explanation": "'Zum Arzt gehen' = andare dal medico. 'zu' + dativo (zu dem = zum)."
     },
     {
       "type": "fill-blank",
-      "sentence": "Nach ___ Essen gehen wir spazieren.",
-      "blanks": ["dem"],
-      "explanation": "'Nach' regge sempre il dativo. 'Essen' (il pasto) è neutro, quindi 'das' diventa 'dem' al dativo."
+      "sentence": "Das Geschenk ist ___ dich.",
+      "blanks": [{ "position": 0, "correct": ["für"], "hint": "'für' (per) regge l'accusativo" }],
+      "translation": "Il regalo è per te."
     },
     {
-      "type": "select-article",
-      "words": [
-        {"word": "Tisch (dativo)", "article": "dem"},
-        {"word": "Lampe (dativo)", "article": "der"},
-        {"word": "Buch (dativo)", "article": "dem"},
-        {"word": "Kinder (dativo pl.)", "article": "den"},
-        {"word": "Freund (dativo)", "article": "dem"},
-        {"word": "Schule (dativo)", "article": "der"}
-      ]
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["Er", "gibt", "dem", "Kind", "einen", "Apfel", "."],
+      "correct": "Er gibt dem Kind einen Apfel .",
+      "translation": "Dà una mela al bambino."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Ich lege das Buch auf ___ Tisch.' Quale articolo va inserito?",
+      "options": ["dem", "den", "der", "das"],
+      "correct": 1,
+      "explanation": "'Legen' indica un movimento (Wohin?) → accusativo. Der Tisch → den Tisch."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Katze sitzt auf ___ Sofa.",
+      "blanks": [{ "position": 0, "correct": ["dem"], "hint": "'sitzen' indica posizione (Wo?) → dativo. Das Sofa → dem Sofa" }],
+      "translation": "Il gatto è seduto sul divano."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Vengo dalla Germania.",
+      "acceptable": ["Ich komme aus Deutschland."],
+      "hint": "'aus' (da, provenienza) + dativo. Germania = Deutschland"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è corretta?",
+      "options": ["Ich danke dir.", "Ich danke dich.", "Ich danke du.", "Ich danke deiner."],
+      "correct": 0,
+      "explanation": "'Danken' (ringraziare) regge il dativo: ich danke dir (ti ringrazio)."
     }
   ]
 }

@@ -2,39 +2,190 @@
   "id": "a2-v05",
   "level": "a2",
   "type": "vocab",
-  "title": "Tempo e natura",
+  "title": "Tempo atmosferico e natura",
   "subtitle": "Wetter und Natur",
   "groups": [
     {
-      "name": "Tempo atmosferico",
+      "name": "Il tempo",
       "words": [
-        { "de": "die Sonne", "it": "il sole", "emoji": "☀️", "example_de": "Die Sonne scheint heute.", "example_it": "Oggi splende il sole." },
-        { "de": "der Regen", "it": "la pioggia", "emoji": "🌧️", "example_de": "Morgen gibt es Regen.", "example_it": "Domani ci sarà pioggia." },
-        { "de": "der Schnee", "it": "la neve", "emoji": "❄️", "example_de": "Im Winter fällt viel Schnee.", "example_it": "In inverno cade molta neve." },
-        { "de": "der Wind", "it": "il vento", "emoji": "🌬️", "example_de": "Heute weht ein starker Wind.", "example_it": "Oggi soffia un vento forte." },
-        { "de": "der Sturm", "it": "la tempesta", "emoji": "⛈️", "example_de": "Ein Sturm kommt heute Nacht.", "example_it": "Stanotte arriva una tempesta." },
-        { "de": "der Nebel", "it": "la nebbia", "emoji": "🌫️", "example_de": "Heute Morgen war dichter Nebel.", "example_it": "Stamattina c'era nebbia fitta." },
-        { "de": "die Wolke", "it": "la nuvola", "emoji": "☁️", "example_de": "Am Himmel sind viele Wolken.", "example_it": "In cielo ci sono molte nuvole." },
-        { "de": "das Gewitter", "it": "il temporale", "emoji": "⛈️", "example_de": "Heute Nachmittag gibt es ein Gewitter.", "example_it": "Oggi pomeriggio ci sarà un temporale." },
-        { "de": "die Temperatur", "it": "la temperatura", "emoji": "🌡️", "example_de": "Die Temperatur liegt bei 25 Grad.", "example_it": "La temperatura è di 25 gradi." },
-        { "de": "heiß", "it": "molto caldo", "emoji": "🥵", "example_de": "Im Juli ist es sehr heiß.", "example_it": "A luglio fa molto caldo." },
-        { "de": "kalt", "it": "freddo", "emoji": "🥶", "example_de": "Im Winter ist es kalt.", "example_it": "In inverno fa freddo." },
-        { "de": "warm", "it": "caldo (piacevole)", "emoji": "😊", "example_de": "Heute ist es schön warm.", "example_it": "Oggi fa un bel caldo." }
+        {
+          "de": "die Sonne",
+          "it": "il sole",
+          "emoji": "☀️",
+          "example_de": "Die Sonne scheint heute den ganzen Tag.",
+          "example_it": "Oggi il sole splende tutto il giorno."
+        },
+        {
+          "de": "der Regen",
+          "it": "la pioggia",
+          "emoji": "🌧️",
+          "example_de": "Nimm einen Regenschirm mit, es kommt Regen.",
+          "example_it": "Prendi un ombrello, sta per piovere."
+        },
+        {
+          "de": "der Schnee",
+          "it": "la neve",
+          "emoji": "❄️",
+          "example_de": "Im Winter fällt viel Schnee in den Bergen.",
+          "example_it": "In inverno cade molta neve in montagna."
+        },
+        {
+          "de": "der Wind",
+          "it": "il vento",
+          "emoji": "🌬️",
+          "example_de": "Heute weht ein starker Wind.",
+          "example_it": "Oggi soffia un vento forte."
+        },
+        {
+          "de": "das Gewitter",
+          "it": "il temporale",
+          "emoji": "⛈️",
+          "example_de": "Am Abend gab es ein heftiges Gewitter.",
+          "example_it": "La sera c'è stato un forte temporale."
+        },
+        {
+          "de": "der Nebel",
+          "it": "la nebbia",
+          "emoji": "🌫️",
+          "example_de": "Am Morgen liegt oft Nebel über dem Fluss.",
+          "example_it": "Al mattino c'è spesso nebbia sul fiume."
+        },
+        {
+          "de": "die Wolke",
+          "it": "la nuvola",
+          "emoji": "☁️",
+          "example_de": "Dunkle Wolken ziehen auf.",
+          "example_it": "Si avvicinano nuvole scure."
+        },
+        {
+          "de": "das Eis",
+          "it": "il ghiaccio",
+          "emoji": "🧊",
+          "example_de": "Vorsicht, die Straße ist voller Eis!",
+          "example_it": "Attenzione, la strada è piena di ghiaccio!"
+        }
       ]
     },
     {
       "name": "Natura",
       "words": [
-        { "de": "der Wald", "it": "il bosco, la foresta", "emoji": "🌲", "example_de": "Wir wandern durch den Wald.", "example_it": "Facciamo un'escursione nel bosco." },
-        { "de": "der Berg", "it": "la montagna", "emoji": "⛰️", "example_de": "Die Berge in der Schweiz sind sehr hoch.", "example_it": "Le montagne in Svizzera sono molto alte." },
-        { "de": "der See", "it": "il lago", "emoji": "🏞️", "example_de": "Wir schwimmen im See.", "example_it": "Nuotiamo nel lago." },
-        { "de": "das Meer", "it": "il mare", "emoji": "🌊", "example_de": "Im Sommer fahren wir ans Meer.", "example_it": "In estate andiamo al mare." },
-        { "de": "der Fluss", "it": "il fiume", "emoji": "🏞️", "example_de": "Der Rhein ist ein langer Fluss.", "example_it": "Il Reno è un fiume lungo." },
-        { "de": "die Wiese", "it": "il prato", "emoji": "🌿", "example_de": "Die Kinder spielen auf der Wiese.", "example_it": "I bambini giocano nel prato." },
-        { "de": "die Blume", "it": "il fiore", "emoji": "🌸", "example_de": "Im Frühling blühen die Blumen.", "example_it": "In primavera sbocciano i fiori." },
-        { "de": "der Baum", "it": "l'albero", "emoji": "🌳", "example_de": "Der Baum ist sehr alt.", "example_it": "L'albero è molto vecchio." },
-        { "de": "das Tier", "it": "l'animale", "emoji": "🐾", "example_de": "Im Wald leben viele Tiere.", "example_it": "Nel bosco vivono molti animali." },
-        { "de": "der Vogel", "it": "l'uccello", "emoji": "🐦", "example_de": "Die Vögel singen am Morgen.", "example_it": "Gli uccelli cantano al mattino." }
+        {
+          "de": "der Wald",
+          "it": "il bosco / la foresta",
+          "emoji": "🌲",
+          "example_de": "Am Sonntag machen wir einen Spaziergang im Wald.",
+          "example_it": "Domenica facciamo una passeggiata nel bosco."
+        },
+        {
+          "de": "der Berg",
+          "it": "la montagna",
+          "emoji": "⛰️",
+          "example_de": "Die Berge in den Alpen sind sehr hoch.",
+          "example_it": "Le montagne delle Alpi sono molto alte."
+        },
+        {
+          "de": "der See",
+          "it": "il lago",
+          "emoji": "🏞️",
+          "example_de": "Im Sommer schwimmen wir oft im See.",
+          "example_it": "In estate nuotiamo spesso nel lago."
+        },
+        {
+          "de": "das Meer",
+          "it": "il mare",
+          "emoji": "🌊",
+          "example_de": "Wir fahren im Urlaub ans Meer.",
+          "example_it": "In vacanza andiamo al mare."
+        },
+        {
+          "de": "der Fluss",
+          "it": "il fiume",
+          "emoji": "🏞️",
+          "example_de": "Der Rhein ist der längste Fluss Deutschlands.",
+          "example_it": "Il Reno è il fiume più lungo della Germania."
+        },
+        {
+          "de": "die Wiese",
+          "it": "il prato",
+          "emoji": "🌿",
+          "example_de": "Die Kinder spielen auf der Wiese.",
+          "example_it": "I bambini giocano sul prato."
+        },
+        {
+          "de": "der Garten",
+          "it": "il giardino",
+          "emoji": "🌻",
+          "example_de": "Meine Großmutter hat einen schönen Garten.",
+          "example_it": "Mia nonna ha un bel giardino."
+        },
+        {
+          "de": "die Blume",
+          "it": "il fiore",
+          "emoji": "🌸",
+          "example_de": "Im Frühling blühen viele bunte Blumen.",
+          "example_it": "In primavera sbocciano molti fiori colorati."
+        }
+      ]
+    },
+    {
+      "name": "Espressioni",
+      "words": [
+        {
+          "de": "Es regnet.",
+          "it": "Piove.",
+          "emoji": "🌧️",
+          "example_de": "Es regnet schon seit drei Tagen.",
+          "example_it": "Piove già da tre giorni."
+        },
+        {
+          "de": "Es schneit.",
+          "it": "Nevica.",
+          "emoji": "🌨️",
+          "example_de": "Schau mal, es schneit draußen!",
+          "example_it": "Guarda, fuori nevica!"
+        },
+        {
+          "de": "Es ist sonnig.",
+          "it": "È soleggiato.",
+          "emoji": "☀️",
+          "example_de": "Heute ist es sonnig und warm.",
+          "example_it": "Oggi è soleggiato e caldo."
+        },
+        {
+          "de": "Es ist bewölkt.",
+          "it": "È nuvoloso.",
+          "emoji": "☁️",
+          "example_de": "Morgen ist es bewölkt, aber es regnet nicht.",
+          "example_it": "Domani è nuvoloso, ma non piove."
+        },
+        {
+          "de": "die Temperatur",
+          "it": "la temperatura",
+          "emoji": "🌡️",
+          "example_de": "Die Temperatur liegt heute bei 25 Grad.",
+          "example_it": "La temperatura oggi è di 25 gradi."
+        },
+        {
+          "de": "der Wetterbericht",
+          "it": "le previsioni del tempo",
+          "emoji": "📺",
+          "example_de": "Laut Wetterbericht wird es morgen regnen.",
+          "example_it": "Secondo le previsioni domani pioverà."
+        },
+        {
+          "de": "es friert",
+          "it": "gela",
+          "emoji": "🥶",
+          "example_de": "Heute Nacht friert es, pass auf Glatteis auf!",
+          "example_it": "Stanotte gela, attenzione al ghiaccio!"
+        },
+        {
+          "de": "es taut",
+          "it": "si scioglie / disgela",
+          "emoji": "💧",
+          "example_de": "Im März taut der Schnee langsam.",
+          "example_it": "A marzo la neve si scioglie lentamente."
+        }
       ]
     }
   ]

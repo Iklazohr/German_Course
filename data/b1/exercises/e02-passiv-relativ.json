@@ -1,90 +1,189 @@
 {
   "id": "b1-e02",
   "level": "b1",
-  "title": "Esercizi: Passivo e frasi relative",
+  "type": "exercise",
+  "title": "Esercizi: Passivo e relative",
   "exercises": [
     {
-      "type": "multiple-choice",
-      "question": "Qual è la forma passiva corretta di 'Man baut ein Haus'?",
-      "options": ["Ein Haus baut.", "Ein Haus wird gebaut.", "Ein Haus ist gebaut.", "Ein Haus hat gebaut."],
-      "correct": 1,
-      "explanation": "Il passivo presente (Vorgangspassiv) si forma con 'werden' + Partizip II: 'Ein Haus wird gebaut' (Una casa viene costruita)."
+      "type": "fill-blank",
+      "sentence": "Das Buch ___ von vielen Schülern gelesen.",
+      "blanks": [
+        "wird"
+      ],
+      "explanation": "Il passivo presente (Vorgangspassiv) si forma con 'werden' + Partizip II: 'wird gelesen' = viene letto."
     },
     {
       "type": "fill-blank",
       "sentence": "Das Auto ___ gestern repariert.",
-      "blanks": [{ "position": 0, "correct": ["wurde"], "hint": "Passivo al Präteritum: werden al passato" }],
-      "translation": "L'auto fu riparata ieri."
-    },
-    {
-      "type": "translation",
-      "direction": "it-to-de",
-      "source": "Il museo viene visitato da molti turisti.",
-      "acceptable": ["Das Museum wird von vielen Touristen besucht.", "Das Museum wird von vielen Touristen besucht"],
-      "hint": "Passivo presente: wird + Partizip II, agente con von + dativo"
-    },
-    {
-      "type": "matching",
-      "instruction": "Collega il tempo verbale alla forma passiva corretta di 'machen'.",
-      "pairs": [
-        { "left": "Presente", "right": "wird gemacht" },
-        { "left": "Präteritum", "right": "wurde gemacht" },
-        { "left": "Perfekt", "right": "ist gemacht worden" },
-        { "left": "Con modale", "right": "muss gemacht werden" }
-      ]
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Qual è la differenza tra 'Die Tür wird geöffnet' e 'Die Tür ist geöffnet'?",
-      "options": ["Nessuna differenza", "La prima descrive l'azione, la seconda lo stato risultante", "La prima è al presente, la seconda al passato", "La prima è formale, la seconda informale"],
-      "correct": 1,
-      "explanation": "'wird geöffnet' = Vorgangspassiv (l'azione di aprire è in corso). 'ist geöffnet' = Zustandspassiv (la porta è già aperta, stato risultante)."
+      "blanks": [
+        "wurde"
+      ],
+      "explanation": "Il passivo al Präteritum si forma con 'wurde' + Partizip II: 'wurde repariert' = fu riparato."
     },
     {
       "type": "fill-blank",
       "sentence": "Hier ___ nicht geraucht werden.",
-      "blanks": [{ "position": 0, "correct": ["darf"], "hint": "Verbo modale 'dürfen' per esprimere un divieto" }],
-      "translation": "Qui non si può fumare."
+      "blanks": [
+        "darf"
+      ],
+      "explanation": "Il passivo con verbo modale: modale coniugato + Partizip II + 'werden' all'infinito. 'Darf nicht geraucht werden' = non si può fumare."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è la forma passiva corretta di 'Man baut ein Haus'?",
+      "options": [
+        "Ein Haus baut.",
+        "Ein Haus wird gebaut.",
+        "Ein Haus ist gebaut.",
+        "Ein Haus hat gebaut."
+      ],
+      "correct": 1,
+      "explanation": "Il passivo presente si forma con 'werden' + Partizip II: 'Ein Haus wird gebaut' (Una casa viene costruita)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è la differenza tra 'Die Tür wird geöffnet' e 'Die Tür ist geöffnet'?",
+      "options": [
+        "Nessuna differenza.",
+        "La prima descrive l'azione, la seconda lo stato risultante.",
+        "La prima è al presente, la seconda al passato.",
+        "La prima è formale, la seconda informale."
+      ],
+      "correct": 1,
+      "explanation": "'wird geöffnet' = Vorgangspassiv (l'azione di aprire è in corso). 'ist geöffnet' = Zustandspassiv (la porta è già aperta, stato risultante)."
+    },
+    {
+      "type": "translation",
+      "sentence": "Il museo viene visitato da molti turisti.",
+      "answer": "Das Museum wird von vielen Touristen besucht.",
+      "hint": "Passivo presente: wird + Partizip II. L'agente si introduce con 'von' + dativo."
+    },
+    {
+      "type": "translation",
+      "sentence": "La lettera è stata scritta ieri.",
+      "answer": "Der Brief wurde gestern geschrieben.",
+      "hint": "Passivo al Präteritum: wurde + Partizip II."
+    },
+    {
+      "type": "reorder",
+      "words": [
+        "Das",
+        "Essen",
+        "wird",
+        "von",
+        "der",
+        "Mutter",
+        "gekocht",
+        "."
+      ],
+      "correct": "Das Essen wird von der Mutter gekocht ."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Presente passivo",
+          "right": "wird gemacht"
+        },
+        {
+          "left": "Präteritum passivo",
+          "right": "wurde gemacht"
+        },
+        {
+          "left": "Perfekt passivo",
+          "right": "ist gemacht worden"
+        },
+        {
+          "left": "Passivo con modale",
+          "right": "muss gemacht werden"
+        },
+        {
+          "left": "Zustandspassiv",
+          "right": "ist gemacht"
+        }
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Der Mann, ___ dort steht, ist mein Vater.'",
-      "options": ["den", "dem", "der", "dessen"],
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "dessen"
+      ],
       "correct": 2,
-      "explanation": "'Der Mann' è maschile. Nella frase relativa, il pronome è soggetto (chi sta lì?) → nominativo maschile = 'der'."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Das Buch, ___ ich lese, ist sehr spannend.",
-      "blanks": [{ "position": 0, "correct": ["das"], "hint": "Pronome relativo neutro accusativo (oggetto diretto)" }],
-      "translation": "Il libro che leggo è molto avvincente."
-    },
-    {
-      "type": "translation",
-      "direction": "it-to-de",
-      "source": "La donna a cui ho dato il libro era gentile.",
-      "acceptable": ["Die Frau, der ich das Buch gegeben habe, war nett."],
-      "hint": "Pronome relativo femminile dativo = 'der'"
+      "explanation": "'Der Mann' è maschile. Nella frase relativa il pronome è soggetto (chi sta lì?) → nominativo maschile = 'der'."
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Der Freund, mit ___ ich reise, heißt Thomas.'",
-      "options": ["der", "den", "dem", "dessen"],
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "dessen"
+      ],
       "correct": 2,
-      "explanation": "'Mit' regge il dativo. 'Der Freund' è maschile → dativo maschile = 'dem'. La preposizione va prima del pronome relativo."
+      "explanation": "'Mit' regge il dativo. 'Der Freund' è maschile → dativo maschile = 'dem'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das Buch, ___ ich lese, ist sehr spannend.",
+      "blanks": [
+        "das"
+      ],
+      "explanation": "'Das Buch' è neutro. Nella frase relativa è oggetto diretto → accusativo neutro = 'das'."
     },
     {
       "type": "fill-blank",
       "sentence": "Die Kollegin, ___ Büro neben meinem ist, kommt aus Spanien.",
-      "blanks": [{ "position": 0, "correct": ["deren"], "hint": "Pronome relativo genitivo femminile (il cui ufficio)" }],
-      "translation": "La collega il cui ufficio è accanto al mio viene dalla Spagna."
+      "blanks": [
+        "deren"
+      ],
+      "explanation": "'Die Kollegin' è femminile. 'Il cui ufficio' → genitivo femminile = 'deren'."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "masch. nominativo",
+          "right": "der"
+        },
+        {
+          "left": "femm. dativo",
+          "right": "der"
+        },
+        {
+          "left": "neutro accusativo",
+          "right": "das"
+        },
+        {
+          "left": "masch. accusativo",
+          "right": "den"
+        },
+        {
+          "left": "femm. genitivo",
+          "right": "deren"
+        }
+      ]
     },
     {
       "type": "reorder",
-      "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["Das", "ist", "der", "Film", ",", "den", "ich", "dir", "empfohlen", "habe", "."],
-      "correct": "Das ist der Film , den ich dir empfohlen habe .",
-      "translation": "Questo è il film che ti ho consigliato."
+      "words": [
+        "Das",
+        "ist",
+        "der",
+        "Film",
+        ",",
+        "den",
+        "ich",
+        "dir",
+        "empfohlen",
+        "habe",
+        "."
+      ],
+      "correct": "Das ist der Film , den ich dir empfohlen habe ."
     }
   ]
 }

@@ -1,0 +1,132 @@
+{
+  "id": "c1-e02",
+  "level": "c1",
+  "title": "Esercizi: Alternative al passivo e verbi modali soggettivi",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Qual e l'alternativa al passivo per: 'Das kann gemacht werden'?",
+      "options": [
+        "Das macht sich.",
+        "Das lässt sich machen.",
+        "Das ist machend.",
+        "Das hat sich gemacht."
+      ],
+      "correct": 1,
+      "explanation": "'Sich lassen + Infinitiv' esprime possibilita passiva: 'Das lässt sich machen' = Questo si puo fare / E fattibile."
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Die Aufgabe ist bis Freitag zu erledigen.",
+      "acceptable": [
+        "Il compito va sbrigato entro venerdi.",
+        "Il compito deve essere completato entro venerdi.",
+        "Il compito e da sbrigare entro venerdi.",
+        "L'incarico va completato entro venerdi."
+      ],
+      "hint": "'Sein + zu + Infinitiv' esprime obbligo: deve essere fatto."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das Problem lässt ___ nicht so einfach lösen.",
+      "blanks": [{ "position": 0, "correct": ["sich"], "hint": "Pronome riflessivo per la costruzione 'sich lassen + Infinitiv'" }],
+      "translation": "Il problema non si lascia risolvere cosi facilmente."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni verbo al corrispondente aggettivo in -bar.",
+      "pairs": [
+        { "left": "essen", "right": "essbar (commestibile)" },
+        { "left": "bezahlen", "right": "bezahlbar (accessibile)" },
+        { "left": "erreichen", "right": "erreichbar (raggiungibile)" },
+        { "left": "vorstellen", "right": "vorstellbar (immaginabile)" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa un verbo riflessivo con significato passivo?",
+      "options": [
+        "Ich wasche mich jeden Morgen.",
+        "Das Buch verkauft sich gut.",
+        "Er interessiert sich für Musik.",
+        "Wir treffen uns um acht."
+      ],
+      "correct": 1,
+      "explanation": "'Das Buch verkauft sich gut' ha significato passivo: il libro viene venduto bene. Il soggetto (Buch) non compie l'azione, la subisce."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Qui si parla tedesco.",
+      "acceptable": [
+        "Hier spricht man Deutsch.",
+        "Man spricht hier Deutsch."
+      ],
+      "hint": "Usa 'man' come soggetto generico per evitare il passivo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa esprime 'müssen' in uso soggettivo nella frase: 'Er muss krank sein'?",
+      "options": [
+        "Obbligo: deve ammalarsi",
+        "Alta certezza: dev'essere malato (ne sono quasi sicuro)",
+        "Possibilita: potrebbe essere malato",
+        "Sentito dire: dicono che sia malato"
+      ],
+      "correct": 1,
+      "explanation": "'Müssen' soggettivo esprime alta certezza (circa 95%): 'Er muss krank sein' = Dev'essere malato, ne sono quasi certo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das ___ stimmen — alle Quellen bestätigen es.",
+      "blanks": [{ "position": 0, "correct": ["dürfte"], "hint": "Verbo modale soggettivo per 'probabilmente'" }],
+      "translation": "Dovrebbe essere vero — tutte le fonti lo confermano."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni verbo modale soggettivo al suo significato.",
+      "pairs": [
+        { "left": "müssen (soggettivo)", "right": "alta certezza (quasi sicuro)" },
+        { "left": "sollen (soggettivo)", "right": "per sentito dire (si dice che)" },
+        { "left": "wollen (soggettivo)", "right": "affermazione propria (sostiene di)" },
+        { "left": "dürfte", "right": "probabilita (probabilmente)" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si forma il passato dei modali soggettivi? 'Deve essere stato malato' = ?",
+      "options": [
+        "Er hat krank sein müssen.",
+        "Er musste krank sein.",
+        "Er muss krank gewesen sein.",
+        "Er ist krank sein gemusst."
+      ],
+      "correct": 2,
+      "explanation": "Il passato dei modali soggettivi si forma: Modalverb (presente) + Partizip II + haben/sein: 'Er muss krank gewesen sein.'"
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Der Angeklagte will zur Tatzeit geschlafen haben.",
+      "acceptable": [
+        "L'imputato afferma di aver dormito al momento del fatto.",
+        "L'imputato sostiene di aver dormito al momento del crimine.",
+        "L'accusato sostiene di aver dormito al momento del fatto."
+      ],
+      "hint": "'Wollen' soggettivo = il soggetto afferma/sostiene qualcosa (con distanza critica del parlante)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual e la scala di certezza corretta dei modali soggettivi (dal piu sicuro al meno)?",
+      "options": [
+        "könnte > dürfte > müssen",
+        "müssen > könnte > dürfte",
+        "müssen > dürfte > könnte",
+        "dürfte > müssen > könnte"
+      ],
+      "correct": 2,
+      "explanation": "La scala corretta e: müssen (quasi certo, ~95%) > dürfte (probabile, ~75%) > könnte (possibile, ~50%)."
+    }
+  ]
+}

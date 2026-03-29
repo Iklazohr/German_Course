@@ -3,24 +3,67 @@
   "level": "a2",
   "type": "grammar",
   "title": "Congiunzioni coordinanti e subordinanti",
-  "subtitle": "Konjunktionen und Konnektoren",
+  "subtitle": "Koordinierende und subordinierende Konjunktionen",
   "sections": [
-    { "type": "intro", "content": "Le congiunzioni collegano frasi e idee. In tedesco è fondamentale sapere che tipo di congiunzione si usa, perché ogni tipo ha un effetto diverso sull'**ordine delle parole**. Ci sono tre categorie: **congiunzioni coordinanti** (nessun cambiamento), **congiunzioni subordinanti** (verbo alla fine) e **connettori avverbiali** (inversione)." },
-    { "type": "rule", "title": "Congiunzioni coordinanti (posizione 0)", "content": "Queste congiunzioni collegano due frasi principali e **non cambiano** l'ordine delle parole. Occupano la 'posizione 0' (non contano come primo elemento):\n\n**und, aber, oder, denn, sondern**", "table": { "headers": ["Congiunzione", "Significato", "Esempio"], "rows": [["und", "e", "Ich lerne Deutsch und ich lerne Italienisch."], ["aber", "ma, però", "Ich bin müde, aber ich muss arbeiten."], ["oder", "o, oppure", "Kommst du mit oder bleibst du zu Hause?"], ["denn", "perché, poiché", "Ich bleibe zu Hause, denn ich bin krank."], ["sondern", "ma, bensì (dopo negazione)", "Er trinkt nicht Kaffee, sondern Tee."]] } },
-    { "type": "rule", "title": "Differenza tra aber e sondern", "content": "**Aber** = ma (contrasto generico):\n*Das Restaurant ist teuer, **aber** gut.* (Il ristorante è caro, ma buono.)\n\n**Sondern** = ma/bensì (solo dopo una **negazione**, per **correggere**):\n*Das ist **nicht** rot, **sondern** blau.* (Non è rosso, **bensì** blu.)\n*Er kommt **nicht** aus Spanien, **sondern** aus Portugal.*\n\nRegola: usa *sondern* quando c'è *nicht/kein* nella prima frase e la seconda frase **corregge** la prima." },
-    { "type": "rule", "title": "Congiunzioni subordinanti (verbo alla fine)", "content": "Queste congiunzioni introducono una **frase subordinata** e mandano il verbo alla **fine**:", "table": { "headers": ["Congiunzione", "Significato", "Esempio"], "rows": [["weil", "perché", "..., weil ich keine Zeit habe."], ["dass", "che", "Ich weiß, dass du kommst."], ["wenn", "quando / se", "Wenn es regnet, bleibe ich zu Hause."], ["ob", "se (dubbio)", "Ich weiß nicht, ob er kommt."], ["obwohl", "sebbene, nonostante", "Er geht raus, obwohl es regnet."], ["als", "quando (passato, una volta)", "Als ich Kind war, spielte ich viel."], ["nachdem", "dopo che", "Nachdem ich gegessen habe, gehe ich spazieren."], ["bevor", "prima che/di", "Bevor du gehst, ruf mich an!"], ["während", "mentre", "Während ich koche, liest er die Zeitung."], ["bis", "finché", "Warte, bis ich fertig bin."]] } },
-    { "type": "rule", "title": "Connettori avverbiali (inversione)", "content": "Questi connettori occupano la **posizione 1** della seconda frase, causando l'**inversione** (il soggetto va dopo il verbo):", "table": { "headers": ["Connettore", "Significato", "Esempio"], "rows": [["deshalb / deswegen", "perciò, quindi", "Ich bin krank, deshalb bleibe ich zu Hause."], ["trotzdem", "tuttavia, nonostante ciò", "Es regnet, trotzdem geht er raus."], ["dann", "poi, allora", "Zuerst esse ich, dann gehe ich spazieren."], ["danach", "dopo di ciò", "Ich dusche mich, danach frühstücke ich."], ["außerdem", "inoltre", "Er ist nett, außerdem ist er lustig."], ["sonst", "altrimenti", "Beeil dich, sonst kommen wir zu spät."], ["zuerst", "prima, per prima cosa", "Zuerst lernen wir, dann spielen wir."]] } },
-    { "type": "rule", "title": "Riepilogo: effetto sull'ordine delle parole", "content": "Ecco un confronto diretto con la stessa idea espressa in tre modi diversi:\n\n**Causale:**\n- **denn** (coordinante): *Ich bleibe zu Hause, **denn** ich **bin** krank.* (Verbo in posizione 2 ✓)\n- **weil** (subordinante): *Ich bleibe zu Hause, **weil** ich krank **bin**.* (Verbo alla fine ✓)\n- **deshalb** (avverbiale): *Ich bin krank, **deshalb bleibe** ich zu Hause.* (Inversione ✓)\n\nTutte e tre le frasi significano: 'Resto a casa perché sono malato.' Ma la struttura grammaticale è diversa!" },
-    { "type": "tip", "content": "**Come scegliere tra denn, weil e deshalb?**\n\nTutti esprimono una causa, ma:\n- **denn**: la causa viene DOPO. Struttura semplice, buona per principianti.\n- **weil**: la causa viene DOPO (più comune di denn). Richiede verbo alla fine.\n- **deshalb**: la CONSEGUENZA viene dopo. Richiede inversione.\n\nNel parlato quotidiano, **weil** è il più usato. **Denn** suona un po' più formale. **Deshalb** è utile per variare.\n\n**Trucco:** Se non sei sicuro dell'ordine delle parole, usa *denn* — è la congiunzione causale più semplice perché non cambia nulla!" },
-    { "type": "examples", "title": "Esempi pratici", "content": "Frasi con diversi tipi di congiunzioni:", "items": [
-      { "de": "Ich möchte Deutsch lernen und ich besuche einen Kurs.", "it": "Voglio imparare il tedesco e frequento un corso." },
-      { "de": "Sie ist müde, aber sie geht trotzdem joggen.", "it": "È stanca, ma va a correre lo stesso." },
-      { "de": "Obwohl es kalt ist, gehen wir spazieren.", "it": "Nonostante faccia freddo, andiamo a passeggiare." },
-      { "de": "Ich weiß nicht, ob ich morgen kommen kann.", "it": "Non so se posso venire domani." },
-      { "de": "Nachdem wir gegessen haben, trinken wir Kaffee.", "it": "Dopo aver mangiato, beviamo un caffè." },
-      { "de": "Es ist nicht teuer, sondern billig.", "it": "Non è caro, bensì economico." },
-      { "de": "Zuerst dusche ich mich, danach frühstücke ich.", "it": "Prima mi faccio la doccia, poi faccio colazione." },
-      { "de": "Beeil dich, sonst verpassen wir den Zug!", "it": "Sbrigati, altrimenti perdiamo il treno!" }
-    ] }
+    {
+      "type": "intro",
+      "content": "In tedesco le congiunzioni collegano frasi e parti di frasi. Si dividono in due gruppi principali: le congiunzioni coordinanti (koordinierende Konjunktionen), che collegano frasi principali senza cambiare l'ordine delle parole, e le congiunzioni subordinanti (subordinierende Konjunktionen), che introducono frasi secondarie e mandano il verbo coniugato alla fine."
+    },
+    {
+      "type": "rule",
+      "title": "Congiunzioni coordinanti (und, aber, oder, denn, sondern)",
+      "content": "Le congiunzioni coordinanti collegano due frasi principali. L'ordine delle parole NON cambia (il verbo resta in seconda posizione in entrambe le frasi).\n\n| Congiunzione | Significato | Esempio |\n|---|---|---|\n| und | e | Ich lerne Deutsch **und** er lernt Spanisch. |\n| aber | ma, però | Ich möchte kommen, **aber** ich habe keine Zeit. |\n| oder | o, oppure | Gehst du ins Kino **oder** bleibst du zu Hause? |\n| denn | perché, poiché | Ich bleibe zu Hause, **denn** ich bin krank. |\n| sondern | ma, bensì (dopo negazione) | Er ist nicht dumm, **sondern** faul. |\n\nAttenzione: 'sondern' si usa solo dopo una negazione (nicht/kein) per contrapporre due idee."
+    },
+    {
+      "type": "rule",
+      "title": "Congiunzioni subordinanti (weil, dass, wenn, ob, als, obwohl)",
+      "content": "Le congiunzioni subordinanti introducono una frase secondaria (Nebensatz). Regola fondamentale: il verbo coniugato va alla FINE della frase secondaria.\n\n| Congiunzione | Significato | Uso |\n|---|---|---|\n| weil | perché | causa (il verbo va alla fine) |\n| dass | che | frasi dichiarative |\n| wenn | se / quando | condizione, eventi ripetuti, presente/futuro |\n| ob | se | domande indirette (sì/no) |\n| als | quando | evento unico nel passato |\n| obwohl | sebbene, nonostante | concessione |\n\nStruttura: Hauptsatz + , + Konjunktion + ... + Verb.\nEs.: Ich weiß, **dass** er Deutsch **spricht**.\n\nSe la secondaria viene prima: Nebensatz + , + Verb + Subjekt + ...\nEs.: **Weil** es **regnet**, bleibe ich zu Hause."
+    },
+    {
+      "type": "rule",
+      "title": "Differenza: denn vs weil",
+      "content": "Sia 'denn' che 'weil' significano 'perché', ma hanno una differenza grammaticale importante:\n\n**denn** (coordinante) → l'ordine delle parole NON cambia:\n• Ich bleibe zu Hause, denn ich **bin** krank.\n  (soggetto + verbo in seconda posizione)\n\n**weil** (subordinante) → il verbo va alla FINE:\n• Ich bleibe zu Hause, weil ich krank **bin**.\n  (verbo coniugato alla fine)\n\nNel parlato quotidiano 'weil' è molto più comune di 'denn'. 'Denn' si usa più nello scritto e in contesti formali."
+    },
+    {
+      "type": "tip",
+      "content": "Come ricordare la regola? Pensa alle congiunzioni subordinanti come a una calamita che attira il verbo alla fine della frase. Ogni volta che vedi 'weil', 'dass', 'wenn', 'ob', 'als' o 'obwohl', il verbo coniugato va alla fine!\n\nUn trucco pratico: le congiunzioni coordinanti principali formano l'acronimo ADUSO (Aber, Denn, Und, Sondern, Oder) — con queste il verbo resta al suo posto."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Ich lerne Deutsch, weil ich in Berlin arbeiten möchte.",
+          "it": "Studio tedesco perché voglio lavorare a Berlino."
+        },
+        {
+          "de": "Er weiß nicht, ob sie morgen kommt.",
+          "it": "Lui non sa se lei viene domani."
+        },
+        {
+          "de": "Wenn es regnet, nehme ich einen Regenschirm mit.",
+          "it": "Quando/Se piove, porto un ombrello."
+        },
+        {
+          "de": "Als ich Kind war, wohnte ich in Rom.",
+          "it": "Quando ero bambino, abitavo a Roma."
+        },
+        {
+          "de": "Ich bin müde, aber ich muss noch arbeiten.",
+          "it": "Sono stanco, ma devo ancora lavorare."
+        },
+        {
+          "de": "Er trinkt keinen Kaffee, sondern Tee.",
+          "it": "Non beve caffè, bensì tè."
+        },
+        {
+          "de": "Obwohl es kalt ist, gehe ich spazieren.",
+          "it": "Nonostante faccia freddo, vado a fare una passeggiata."
+        },
+        {
+          "de": "Ich glaube, dass er Recht hat.",
+          "it": "Credo che lui abbia ragione."
+        }
+      ]
+    }
   ]
 }

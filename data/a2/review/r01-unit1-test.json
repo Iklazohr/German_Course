@@ -1,91 +1,77 @@
 {
   "id": "a2-r01",
   "level": "a2",
-  "type": "exercise",
-  "title": "Test Unità 1",
-  "questions": [
+  "title": "Test Unità 1: Perfekt, Präteritum e vocabolario",
+  "exercises": [
     {
       "type": "multiple-choice",
-      "question": "Quale ausiliare si usa per 'reisen' (viaggiare) al Perfekt?",
-      "options": ["haben", "sein", "werden", "haben o sein"],
+      "question": "Qual è il Partizip II di 'trinken'?",
+      "options": ["getrinkt", "getrunken", "trinken", "getrunkt"],
       "correct": 1,
-      "explanation": "'Reisen' indica un cambiamento di luogo, quindi usa 'sein': Ich bin gereist."
+      "explanation": "'Trinken' è un verbo irregolare: trinken → getrunken (bevuto)."
     },
     {
       "type": "fill-blank",
-      "sentence": "Wir ___ letztes Jahr nach Italien ___.",
-      "blanks": ["sind", "geflogen"],
-      "explanation": "'Fliegen' (volare) indica movimento, quindi usa 'sein'. Il Partizip II di 'fliegen' è 'geflogen' (irregolare)."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Er ___ das Hotel schon ___.",
-      "blanks": ["hat", "gebucht"],
-      "explanation": "'Buchen' (prenotare) è un verbo transitivo e usa 'haben'. Il Partizip II è regolare: ge- + buch + -t = gebucht."
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Quale forma del Präteritum è corretta? 'Es ___ sehr kalt.'",
-      "options": ["wart", "war", "waren", "warst"],
-      "correct": 1,
-      "explanation": "Con 'es' (soggetto singolare terza persona) si usa 'war'. Es war = era/faceva."
+      "sentence": "Wir ___ gestern nach Hamburg gefahren.",
+      "blanks": [{ "position": 0, "correct": ["sind"], "hint": "fahren = movimento → ausiliare 'sein', prima persona plurale" }],
+      "translation": "Ieri siamo andati ad Amburgo."
     },
     {
       "type": "translation",
-      "sentence": "L'estate scorsa abbiamo viaggiato in Spagna.",
-      "answer": "Letzten Sommer sind wir nach Spanien gereist.",
-      "hint": "reisen → gereist (con sein); nach + paese"
-    },
-    {
-      "type": "translation",
-      "sentence": "Hai già fatto la valigia?",
-      "answer": "Hast du schon den Koffer gepackt?",
-      "hint": "packen → gepackt (con haben)"
-    },
-    {
-      "type": "reorder",
-      "words": ["im", "Hotel", "haben", "übernachtet", "wir"],
-      "correct": "Wir haben im Hotel übernachtet."
+      "direction": "it-to-de",
+      "source": "Ero molto stanco.",
+      "acceptable": ["Ich war sehr müde."],
+      "hint": "essere al Präteritum = war"
     },
     {
       "type": "matching",
+      "instruction": "Collega le parole tedesche alla traduzione italiana.",
       "pairs": [
-        {"left": "der Flughafen", "right": "l'aeroporto"},
-        {"left": "die Unterkunft", "right": "l'alloggio"},
-        {"left": "der Reisepass", "right": "il passaporto"},
-        {"left": "das Gepäck", "right": "il bagaglio"},
-        {"left": "die Abfahrt", "right": "la partenza"},
-        {"left": "die Ankunft", "right": "l'arrivo"}
+        { "left": "der Zug", "right": "il treno" },
+        { "left": "der Flughafen", "right": "l'aeroporto" },
+        { "left": "die Fahrkarte", "right": "il biglietto" },
+        { "left": "die Verspätung", "right": "il ritardo" }
       ]
     },
     {
-      "type": "fill-blank",
-      "sentence": "Als Kind ___ ich immer ans Meer.",
-      "blanks": ["fuhr"],
-      "explanation": "'Fuhr' è il Präteritum di 'fahren' (andare con un mezzo). Si usa il Präteritum per le narrazioni al passato, specialmente nello scritto."
-    },
-    {
       "type": "multiple-choice",
-      "question": "Quando si preferisce il Präteritum rispetto al Perfekt nel parlato?",
-      "options": [
-        "Sempre, è più elegante",
-        "Con i verbi 'sein', 'haben' e i verbi modali",
-        "Solo con i verbi regolari",
-        "Mai, si usa solo nello scritto"
-      ],
+      "question": "Come si dice 'Non avevo tempo' al Präteritum?",
+      "options": ["Ich habe keine Zeit gehabt.", "Ich hatte keine Zeit.", "Ich war keine Zeit.", "Ich bin keine Zeit."],
       "correct": 1,
-      "explanation": "Nel parlato si preferisce il Präteritum con 'sein' (war), 'haben' (hatte) e i verbi modali (konnte, musste, wollte...). Per gli altri verbi si usa di solito il Perfekt."
+      "explanation": "Haben al Präteritum: ich hatte. 'Ich hatte keine Zeit' = Non avevo tempo."
     },
     {
       "type": "fill-blank",
-      "sentence": "Ich ___ letzte Woche keine Zeit.",
-      "blanks": ["hatte"],
-      "explanation": "'Hatte' è il Präteritum di 'haben'. Con 'ich' si usa 'hatte'. Nel parlato si preferisce 'hatte' rispetto a 'habe gehabt'."
+      "sentence": "Er ___ als Kind viel Fußball gespielt.",
+      "blanks": [{ "position": 0, "correct": ["hat"], "hint": "spielen usa 'haben' come ausiliare" }],
+      "translation": "Da bambino ha giocato molto a calcio."
     },
     {
       "type": "reorder",
-      "words": ["gestern", "ist", "er", "spät", "angekommen"],
-      "correct": "Gestern ist er spät angekommen."
+      "instruction": "Metti le parole nell'ordine corretto:",
+      "words": ["nach", "Ich", "Berlin", "geflogen", "bin", "."],
+      "correct": "Ich bin nach Berlin geflogen .",
+      "translation": "Sono volato a Berlino."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dove si compra il pane fresco in Germania?",
+      "options": ["in der Metzgerei", "in der Bäckerei", "in der Drogerie", "in der Buchhandlung"],
+      "correct": 1,
+      "explanation": "Die Bäckerei = la panetteria, dove si compra il pane fresco."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Hai già mangiato?",
+      "acceptable": ["Hast du schon gegessen?"],
+      "hint": "essen → gegessen, ausiliare 'haben'"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Sie ___ gestern nicht kommen, weil sie arbeiten musste.",
+      "blanks": [{ "position": 0, "correct": ["konnte"], "hint": "Präteritum di 'können' (potere), terza persona singolare" }],
+      "translation": "Ieri non poteva venire perché doveva lavorare."
     }
   ]
 }

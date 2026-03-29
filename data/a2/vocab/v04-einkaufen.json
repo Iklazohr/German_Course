@@ -3,36 +3,189 @@
   "level": "a2",
   "type": "vocab",
   "title": "Fare acquisti",
-  "subtitle": "Einkaufen und Geschäfte",
+  "subtitle": "Einkaufen",
   "groups": [
     {
       "name": "Negozi",
       "words": [
-        { "de": "der Supermarkt", "it": "il supermercato", "emoji": "🛒", "example_de": "Ich gehe jeden Samstag in den Supermarkt.", "example_it": "Vado al supermercato ogni sabato." },
-        { "de": "die Bäckerei", "it": "la panetteria", "emoji": "🥖", "example_de": "In der Bäckerei kaufe ich frisches Brot.", "example_it": "In panetteria compro il pane fresco." },
-        { "de": "die Metzgerei", "it": "la macelleria", "emoji": "🥩", "example_de": "Das Fleisch aus der Metzgerei ist sehr gut.", "example_it": "La carne della macelleria è molto buona." },
-        { "de": "der Markt", "it": "il mercato", "emoji": "🏪", "example_de": "Auf dem Markt gibt es frisches Obst.", "example_it": "Al mercato c'è frutta fresca." },
-        { "de": "das Kaufhaus", "it": "il grande magazzino", "emoji": "🏬", "example_de": "Im Kaufhaus findet man alles.", "example_it": "Nel grande magazzino si trova di tutto." },
-        { "de": "die Buchhandlung", "it": "la libreria", "emoji": "📚", "example_de": "Ich habe das Buch in der Buchhandlung gekauft.", "example_it": "Ho comprato il libro in libreria." },
-        { "de": "die Drogerie", "it": "la drogheria / il drugstore", "emoji": "🧴", "example_de": "Shampoo kaufe ich in der Drogerie.", "example_it": "Lo shampoo lo compro in drogheria." },
-        { "de": "das Geschäft", "it": "il negozio", "emoji": "🏪", "example_de": "Das Geschäft ist von 9 bis 18 Uhr geöffnet.", "example_it": "Il negozio è aperto dalle 9 alle 18." }
+        {
+          "de": "der Supermarkt",
+          "it": "il supermercato",
+          "emoji": "🛒",
+          "example_de": "Ich gehe jeden Samstag in den Supermarkt.",
+          "example_it": "Ogni sabato vado al supermercato."
+        },
+        {
+          "de": "die Bäckerei",
+          "it": "il panificio / la panetteria",
+          "emoji": "🍞",
+          "example_de": "In der Bäckerei kaufe ich frisches Brot.",
+          "example_it": "Al panificio compro il pane fresco."
+        },
+        {
+          "de": "die Metzgerei",
+          "it": "la macelleria",
+          "emoji": "🥩",
+          "example_de": "Das Fleisch von der Metzgerei ist sehr gut.",
+          "example_it": "La carne della macelleria è molto buona."
+        },
+        {
+          "de": "das Kaufhaus",
+          "it": "il grande magazzino",
+          "emoji": "🏬",
+          "example_de": "Im Kaufhaus kann man fast alles kaufen.",
+          "example_it": "Al grande magazzino si può comprare quasi tutto."
+        },
+        {
+          "de": "der Markt",
+          "it": "il mercato",
+          "emoji": "🏪",
+          "example_de": "Am Mittwoch gibt es einen Markt auf dem Platz.",
+          "example_it": "Il mercoledì c'è un mercato in piazza."
+        },
+        {
+          "de": "die Drogerie",
+          "it": "la drogheria / il negozio di prodotti per la cura",
+          "emoji": "🧴",
+          "example_de": "In der Drogerie kaufe ich Shampoo und Seife.",
+          "example_it": "Alla drogheria compro shampoo e sapone."
+        },
+        {
+          "de": "das Einkaufszentrum",
+          "it": "il centro commerciale",
+          "emoji": "🏬",
+          "example_de": "Am Wochenende gehen wir ins Einkaufszentrum.",
+          "example_it": "Nel fine settimana andiamo al centro commerciale."
+        },
+        {
+          "de": "die Buchhandlung",
+          "it": "la libreria",
+          "emoji": "📚",
+          "example_de": "In der Buchhandlung habe ich einen tollen Roman gefunden.",
+          "example_it": "In libreria ho trovato un romanzo fantastico."
+        }
       ]
     },
     {
-      "name": "Fare acquisti",
+      "name": "Acquisti",
       "words": [
-        { "de": "kaufen", "it": "comprare", "emoji": "🛍️", "example_de": "Ich möchte ein neues Kleid kaufen.", "example_it": "Vorrei comprare un vestito nuovo." },
-        { "de": "verkaufen", "it": "vendere", "emoji": "💸", "example_de": "Er verkauft sein altes Auto.", "example_it": "Vende la sua vecchia auto." },
-        { "de": "bezahlen", "it": "pagare", "emoji": "💳", "example_de": "Kann ich mit Karte bezahlen?", "example_it": "Posso pagare con la carta?" },
-        { "de": "kosten", "it": "costare", "emoji": "💰", "example_de": "Wie viel kostet das?", "example_it": "Quanto costa?" },
-        { "de": "billig", "it": "economico, a buon mercato", "emoji": "🏷️", "example_de": "Das T-Shirt ist sehr billig.", "example_it": "La maglietta è molto economica." },
-        { "de": "teuer", "it": "caro, costoso", "emoji": "💎", "example_de": "Die Schuhe sind zu teuer.", "example_it": "Le scarpe sono troppo care." },
-        { "de": "der Preis", "it": "il prezzo", "emoji": "💲", "example_de": "Der Preis ist fair.", "example_it": "Il prezzo è giusto." },
-        { "de": "das Angebot", "it": "l'offerta", "emoji": "🔖", "example_de": "Diese Woche gibt es tolle Angebote.", "example_it": "Questa settimana ci sono ottime offerte." },
-        { "de": "die Kasse", "it": "la cassa", "emoji": "💰", "example_de": "Bitte zahlen Sie an der Kasse.", "example_it": "Per favore paghi alla cassa." },
-        { "de": "der Einkaufswagen", "it": "il carrello della spesa", "emoji": "🛒", "example_de": "Nimm bitte einen Einkaufswagen.", "example_it": "Prendi un carrello, per favore." },
-        { "de": "die Tüte", "it": "il sacchetto, la busta", "emoji": "🛍️", "example_de": "Brauchen Sie eine Tüte?", "example_it": "Ha bisogno di un sacchetto?" },
-        { "de": "umtauschen", "it": "cambiare, restituire", "emoji": "🔄", "example_de": "Kann ich das umtauschen?", "example_it": "Posso cambiarlo?" }
+        {
+          "de": "der Preis",
+          "it": "il prezzo",
+          "emoji": "💰",
+          "example_de": "Der Preis für diese Jacke ist zu hoch.",
+          "example_it": "Il prezzo di questa giacca è troppo alto."
+        },
+        {
+          "de": "das Angebot",
+          "it": "l'offerta",
+          "emoji": "🏷️",
+          "example_de": "Diese Woche gibt es ein tolles Angebot.",
+          "example_it": "Questa settimana c'è un'offerta fantastica."
+        },
+        {
+          "de": "die Kasse",
+          "it": "la cassa",
+          "emoji": "🧾",
+          "example_de": "Bitte zahlen Sie an der Kasse.",
+          "example_it": "Paghi alla cassa, per favore."
+        },
+        {
+          "de": "der Kassenbon",
+          "it": "lo scontrino",
+          "emoji": "🧾",
+          "example_de": "Bewahren Sie den Kassenbon gut auf.",
+          "example_it": "Conservi bene lo scontrino."
+        },
+        {
+          "de": "die Tüte",
+          "it": "la busta / il sacchetto",
+          "emoji": "🛍️",
+          "example_de": "Brauchen Sie eine Tüte?",
+          "example_it": "Ha bisogno di una busta?"
+        },
+        {
+          "de": "die Größe",
+          "it": "la taglia / la misura",
+          "emoji": "📏",
+          "example_de": "Welche Größe haben Sie?",
+          "example_it": "Che taglia ha?"
+        },
+        {
+          "de": "der Rabatt",
+          "it": "lo sconto",
+          "emoji": "💸",
+          "example_de": "Es gibt 20 Prozent Rabatt auf alle Schuhe.",
+          "example_it": "C'è il 20 per cento di sconto su tutte le scarpe."
+        },
+        {
+          "de": "das Sonderangebot",
+          "it": "l'offerta speciale",
+          "emoji": "⭐",
+          "example_de": "Die Tomaten sind heute im Sonderangebot.",
+          "example_it": "I pomodori sono in offerta speciale oggi."
+        }
+      ]
+    },
+    {
+      "name": "Azioni",
+      "words": [
+        {
+          "de": "kaufen",
+          "it": "comprare",
+          "emoji": "🛒",
+          "example_de": "Ich möchte ein neues Handy kaufen.",
+          "example_it": "Vorrei comprare un nuovo cellulare."
+        },
+        {
+          "de": "verkaufen",
+          "it": "vendere",
+          "emoji": "💵",
+          "example_de": "Er verkauft sein altes Auto.",
+          "example_it": "Vende la sua vecchia macchina."
+        },
+        {
+          "de": "bezahlen",
+          "it": "pagare",
+          "emoji": "💳",
+          "example_de": "Kann ich mit Karte bezahlen?",
+          "example_it": "Posso pagare con la carta?"
+        },
+        {
+          "de": "kosten",
+          "it": "costare",
+          "emoji": "💶",
+          "example_de": "Wie viel kostet dieses T-Shirt?",
+          "example_it": "Quanto costa questa maglietta?"
+        },
+        {
+          "de": "umtauschen",
+          "it": "cambiare / restituire",
+          "emoji": "🔄",
+          "example_de": "Kann ich diese Hose umtauschen?",
+          "example_it": "Posso cambiare questi pantaloni?"
+        },
+        {
+          "de": "anprobieren",
+          "it": "provare (un vestito)",
+          "emoji": "👗",
+          "example_de": "Darf ich dieses Kleid anprobieren?",
+          "example_it": "Posso provare questo vestito?"
+        },
+        {
+          "de": "auswählen",
+          "it": "scegliere",
+          "emoji": "👆",
+          "example_de": "Es ist schwer, ein Geschenk auszuwählen.",
+          "example_it": "È difficile scegliere un regalo."
+        },
+        {
+          "de": "bestellen",
+          "it": "ordinare",
+          "emoji": "📦",
+          "example_de": "Ich bestelle oft Bücher im Internet.",
+          "example_it": "Ordino spesso libri su internet."
+        }
       ]
     }
   ]

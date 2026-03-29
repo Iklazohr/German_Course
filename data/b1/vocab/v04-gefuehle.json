@@ -2,37 +2,46 @@
   "id": "b1-v04",
   "level": "b1",
   "type": "vocab",
-  "title": "Sentimenti ed emozioni",
+  "title": "Sentimenti e emozioni",
   "subtitle": "Gefühle und Emotionen",
   "groups": [
     {
-      "name": "Emozioni positive",
+      "name": "Positive",
       "words": [
-        { "de": "glücklich", "it": "felice", "emoji": "😊", "example_de": "Ich bin so glücklich, dich wiederzusehen!", "example_it": "Sono così felice di rivederti!" },
-        { "de": "froh", "it": "contento / lieto", "emoji": "😄", "example_de": "Ich bin froh, dass du da bist.", "example_it": "Sono contento che tu sia qui." },
-        { "de": "zufrieden", "it": "soddisfatto", "emoji": "😌", "example_de": "Mit meinem neuen Job bin ich sehr zufrieden.", "example_it": "Sono molto soddisfatto del mio nuovo lavoro." },
-        { "de": "begeistert", "it": "entusiasta", "emoji": "🤩", "example_de": "Die Kinder sind von dem Geschenk begeistert.", "example_it": "I bambini sono entusiasti del regalo." },
-        { "de": "stolz", "it": "orgoglioso", "emoji": "🏆", "example_de": "Ich bin stolz auf meine Tochter.", "example_it": "Sono orgoglioso di mia figlia." },
-        { "de": "dankbar", "it": "grato / riconoscente", "emoji": "🙏", "example_de": "Ich bin dir sehr dankbar für deine Hilfe.", "example_it": "Ti sono molto grato per il tuo aiuto." },
-        { "de": "verliebt", "it": "innamorato", "emoji": "❤️", "example_de": "Sie ist in ihn verliebt.", "example_it": "È innamorata di lui." },
-        { "de": "erleichtert", "it": "sollevato", "emoji": "😮‍💨", "example_de": "Ich bin erleichtert, dass alles gut gegangen ist.", "example_it": "Sono sollevato che sia andato tutto bene." },
-        { "de": "hoffnungsvoll", "it": "pieno di speranza", "emoji": "🌟", "example_de": "Wir blicken hoffnungsvoll in die Zukunft.", "example_it": "Guardiamo al futuro con speranza." },
-        { "de": "motiviert", "it": "motivato", "emoji": "💪", "example_de": "Nach dem Urlaub bin ich wieder motiviert.", "example_it": "Dopo le vacanze sono di nuovo motivato." }
+        { "de": "die Freude", "it": "la gioia", "emoji": "😊", "example_de": "Die Freude der Kinder war riesig.", "example_it": "La gioia dei bambini era enorme." },
+        { "de": "das Glück", "it": "la felicità / la fortuna", "emoji": "🍀", "example_de": "Zum Glück habe ich den Bus noch erreicht.", "example_it": "Per fortuna ho ancora preso l'autobus." },
+        { "de": "die Liebe", "it": "l'amore", "emoji": "❤️", "example_de": "Die Liebe zwischen ihnen ist sehr stark.", "example_it": "L'amore tra di loro è molto forte." },
+        { "de": "die Begeisterung", "it": "l'entusiasmo", "emoji": "🤩", "example_de": "Die Begeisterung des Publikums war groß.", "example_it": "L'entusiasmo del pubblico era grande." },
+        { "de": "die Zufriedenheit", "it": "la soddisfazione", "emoji": "😌", "example_de": "Er strahlt vor Zufriedenheit.", "example_it": "Lui risplende di soddisfazione." },
+        { "de": "die Hoffnung", "it": "la speranza", "emoji": "🌟", "example_de": "Die Hoffnung auf eine bessere Zukunft gibt uns Kraft.", "example_it": "La speranza di un futuro migliore ci dà forza." },
+        { "de": "das Vertrauen", "it": "la fiducia", "emoji": "🤝", "example_de": "Vertrauen ist die Basis jeder Beziehung.", "example_it": "La fiducia è la base di ogni relazione." },
+        { "de": "die Dankbarkeit", "it": "la gratitudine", "emoji": "🙏", "example_de": "Ich empfinde große Dankbarkeit für deine Hilfe.", "example_it": "Provo grande gratitudine per il tuo aiuto." }
       ]
     },
     {
-      "name": "Emozioni negative",
+      "name": "Negative",
       "words": [
-        { "de": "traurig", "it": "triste", "emoji": "😢", "example_de": "Sie ist traurig, weil ihr Hund krank ist.", "example_it": "È triste perché il suo cane è malato." },
-        { "de": "wütend", "it": "arrabbiato / furioso", "emoji": "😠", "example_de": "Er ist wütend auf seinen Bruder.", "example_it": "È arrabbiato con suo fratello." },
-        { "de": "ängstlich", "it": "ansioso / timoroso", "emoji": "😰", "example_de": "Vor Prüfungen bin ich immer ängstlich.", "example_it": "Prima degli esami sono sempre ansioso." },
-        { "de": "enttäuscht", "it": "deluso", "emoji": "😞", "example_de": "Ich bin von dem Film enttäuscht.", "example_it": "Sono deluso dal film." },
-        { "de": "eifersüchtig", "it": "geloso", "emoji": "😒", "example_de": "Er ist eifersüchtig auf ihren Erfolg.", "example_it": "È geloso del suo successo." },
-        { "de": "einsam", "it": "solo / solitario", "emoji": "😔", "example_de": "Seit dem Umzug fühle ich mich einsam.", "example_it": "Dal trasloco mi sento solo." },
-        { "de": "nervös", "it": "nervoso", "emoji": "😬", "example_de": "Vor dem Vorstellungsgespräch bin ich sehr nervös.", "example_it": "Prima del colloquio sono molto nervoso." },
-        { "de": "frustriert", "it": "frustrato", "emoji": "😤", "example_de": "Ich bin frustriert, weil nichts funktioniert.", "example_it": "Sono frustrato perché niente funziona." },
-        { "de": "gestresst", "it": "stressato", "emoji": "😫", "example_de": "Am Ende der Woche bin ich immer gestresst.", "example_it": "A fine settimana sono sempre stressato." },
-        { "de": "gelangweilt", "it": "annoiato", "emoji": "🥱", "example_de": "Die Schüler sind von dem Vortrag gelangweilt.", "example_it": "Gli studenti sono annoiati dalla conferenza." }
+        { "de": "die Angst", "it": "la paura", "emoji": "😰", "example_de": "Ich habe Angst vor Spinnen.", "example_it": "Ho paura dei ragni." },
+        { "de": "die Traurigkeit", "it": "la tristezza", "emoji": "😢", "example_de": "Die Traurigkeit in seinen Augen war sichtbar.", "example_it": "La tristezza nei suoi occhi era visibile." },
+        { "de": "der Ärger", "it": "la rabbia / l'irritazione", "emoji": "😤", "example_de": "Sein Ärger über die Verspätung war verständlich.", "example_it": "La sua rabbia per il ritardo era comprensibile." },
+        { "de": "die Enttäuschung", "it": "la delusione", "emoji": "😞", "example_de": "Die Enttäuschung war groß, als das Konzert abgesagt wurde.", "example_it": "La delusione è stata grande quando il concerto è stato cancellato." },
+        { "de": "die Eifersucht", "it": "la gelosia", "emoji": "💚", "example_de": "Eifersucht kann eine Beziehung zerstören.", "example_it": "La gelosia può distruggere una relazione." },
+        { "de": "die Einsamkeit", "it": "la solitudine", "emoji": "🌑", "example_de": "Viele alte Menschen leiden unter Einsamkeit.", "example_it": "Molte persone anziane soffrono di solitudine." },
+        { "de": "die Langeweile", "it": "la noia", "emoji": "😑", "example_de": "Vor Langeweile hat er ein Buch gelesen.", "example_it": "Per la noia ha letto un libro." },
+        { "de": "die Schuld", "it": "la colpa / il senso di colpa", "emoji": "😔", "example_de": "Er hatte ein starkes Gefühl der Schuld.", "example_it": "Aveva un forte senso di colpa." }
+      ]
+    },
+    {
+      "name": "Espressioni",
+      "words": [
+        { "de": "sich freuen", "it": "essere contento / rallegrarsi", "emoji": "😊", "example_de": "Ich freue mich auf die Ferien.", "example_it": "Non vedo l'ora delle vacanze." },
+        { "de": "sich ärgern", "it": "arrabbiarsi", "emoji": "😤", "example_de": "Er ärgert sich über den Lärm.", "example_it": "Si arrabbia per il rumore." },
+        { "de": "sich Sorgen machen", "it": "preoccuparsi", "emoji": "😟", "example_de": "Meine Mutter macht sich Sorgen um mich.", "example_it": "Mia madre si preoccupa per me." },
+        { "de": "Angst haben", "it": "avere paura", "emoji": "😰", "example_de": "Hast du Angst vor der Prüfung?", "example_it": "Hai paura dell'esame?" },
+        { "de": "sich verlieben", "it": "innamorarsi", "emoji": "💕", "example_de": "Sie hat sich in ihren Kollegen verliebt.", "example_it": "Si è innamorata del suo collega." },
+        { "de": "sich schämen", "it": "vergognarsi", "emoji": "😳", "example_de": "Er schämt sich für sein Verhalten.", "example_it": "Si vergogna del suo comportamento." },
+        { "de": "sich wundern", "it": "meravigliarsi / stupirsi", "emoji": "😲", "example_de": "Ich wundere mich über seine Reaktion.", "example_it": "Mi stupisco della sua reazione." },
+        { "de": "sich langweilen", "it": "annoiarsi", "emoji": "😑", "example_de": "Die Kinder langweilen sich im Unterricht.", "example_it": "I bambini si annoiano a lezione." }
       ]
     }
   ]

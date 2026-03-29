@@ -1,86 +1,142 @@
 {
   "id": "b1-r01",
   "level": "b1",
-  "title": "Test Unità 1: Konjunktiv II, discorso indiretto e vocabolario",
+  "type": "exercise",
+  "title": "Test Unità 1",
   "exercises": [
     {
-      "type": "fill-blank",
-      "sentence": "Wenn ich reich ___, ___ ich ein Haus am Meer kaufen.",
-      "blanks": [
-        { "position": 0, "correct": ["wäre"], "hint": "Konjunktiv II di 'sein'" },
-        { "position": 1, "correct": ["würde"], "hint": "würde + infinito" }
+      "type": "multiple-choice",
+      "question": "Qual è la forma corretta? 'Wenn ich mehr Zeit ___, würde ich Sport machen.'",
+      "options": [
+        "habe",
+        "hatte",
+        "hätte",
+        "würde haben"
       ],
-      "translation": "Se fossi ricco, comprerei una casa al mare."
+      "correct": 2,
+      "explanation": "'Haben' al Konjunktiv II = 'hätte'. Si usa la forma diretta, non 'würde haben'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wenn ich du ___, würde ich mich sofort bewerben.",
+      "blanks": [
+        "wäre"
+      ],
+      "explanation": "'Sein' al Konjunktiv II: ich wäre. 'Wenn ich du wäre' = se fossi te."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ Sie mir bitte helfen?",
+      "blanks": [
+        "Könnten"
+      ],
+      "explanation": "Forma cortese con il Konjunktiv II di 'können': 'Könnten Sie...' (Potrebbe Lei...)."
     },
     {
       "type": "multiple-choice",
-      "question": "Quale forma è corretta per esprimere cortesia: 'Vorrei un caffè, per favore'?",
-      "options": ["Ich will einen Kaffee.", "Ich hätte gern einen Kaffee.", "Ich habe gern einen Kaffee.", "Ich würde haben einen Kaffee."],
-      "correct": 1,
-      "explanation": "'Ich hätte gern...' è la forma cortese standard per ordinare. Si usa il Konjunktiv II di 'haben' (hätte) + 'gern'."
-    },
-    {
-      "type": "translation",
-      "direction": "it-to-de",
-      "source": "Dice che domani non può venire.",
-      "acceptable": ["Er sagt, dass er morgen nicht kommen kann.", "Sie sagt, dass sie morgen nicht kommen kann."],
-      "hint": "Discorso indiretto con dass + verbo alla fine"
+      "question": "Come si riporta indirettamente: Er sagt: 'Ich bin müde'?",
+      "options": [
+        "Er sagt, dass er müde ist.",
+        "Er sagt, dass ich müde bin.",
+        "Er sagt, dass er müde war.",
+        "Er sagt, dass sie müde sind."
+      ],
+      "correct": 0,
+      "explanation": "Nel discorso indiretto il pronome cambia da 'ich' a 'er'. Il verbo resta al presente perché il verbo introduttivo è al presente."
     },
     {
       "type": "fill-blank",
-      "sentence": "Er fragt, ___ wir morgen Zeit haben.",
-      "blanks": [{ "position": 0, "correct": ["ob"], "hint": "Congiunzione per domande sì/no indirette" }],
-      "translation": "Chiede se domani abbiamo tempo."
+      "sentence": "Sie fragt, ___ ich morgen kommen kann.",
+      "blanks": [
+        "ob"
+      ],
+      "explanation": "Per le domande sì/no indirette si usa la congiunzione 'ob' (se): 'Sie fragt, ob...'."
+    },
+    {
+      "type": "translation",
+      "sentence": "Se avessi più soldi, viaggerei per il mondo.",
+      "answer": "Wenn ich mehr Geld hätte, würde ich um die Welt reisen.",
+      "hint": "Wenn + hätte, würde + infinito alla fine"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cos'è 'das Vorstellungsgespräch'?",
+      "options": [
+        "La presentazione",
+        "Il colloquio di lavoro",
+        "La candidatura",
+        "Lo stipendio"
+      ],
+      "correct": 1,
+      "explanation": "'Das Vorstellungsgespräch' è il colloquio di lavoro (letteralmente: conversazione di presentazione)."
     },
     {
       "type": "matching",
-      "instruction": "Collega i termini lavorativi alla traduzione italiana.",
       "pairs": [
-        { "left": "die Bewerbung", "right": "la candidatura" },
-        { "left": "das Gehalt", "right": "lo stipendio" },
-        { "left": "die Beförderung", "right": "la promozione" },
-        { "left": "kündigen", "right": "licenziarsi" },
-        { "left": "die Überstunden", "right": "gli straordinari" }
+        {
+          "left": "die Bewerbung",
+          "right": "la candidatura"
+        },
+        {
+          "left": "das Gehalt",
+          "right": "lo stipendio"
+        },
+        {
+          "left": "die Beförderung",
+          "right": "la promozione"
+        },
+        {
+          "left": "kündigen",
+          "right": "licenziarsi"
+        },
+        {
+          "left": "die Überstunden",
+          "right": "gli straordinari"
+        }
       ]
     },
     {
-      "type": "multiple-choice",
-      "question": "Cosa significa 'zuverlässig'?",
-      "options": ["flessibile", "creativo", "affidabile", "resistente allo stress"],
-      "correct": 2,
-      "explanation": "'Zuverlässig' significa 'affidabile'. Man kann sich auf eine zuverlässige Person verlassen (ci si può fidare di una persona affidabile)."
+      "type": "fill-blank",
+      "sentence": "Er hat seinen Job ___, weil er unzufrieden war.",
+      "blanks": [
+        "gekündigt"
+      ],
+      "explanation": "'Kündigen' (licenziarsi/dare le dimissioni). Partizip II: gekündigt."
     },
     {
-      "type": "fill-blank",
-      "sentence": "___ ich doch besser Deutsch sprechen ___!",
-      "blanks": [
-        { "position": 0, "correct": ["Wenn"], "hint": "Congiunzione condizionale" },
-        { "position": 1, "correct": ["könnte"], "hint": "Konjunktiv II di 'können'" }
+      "type": "reorder",
+      "words": [
+        "Wenn",
+        "ich",
+        "Chef",
+        "wäre",
+        ",",
+        "würde",
+        "ich",
+        "die",
+        "Gehälter",
+        "erhöhen",
+        "."
       ],
-      "translation": "Se solo potessi parlare meglio tedesco!"
+      "correct": "Wenn ich Chef wäre , würde ich die Gehälter erhöhen ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa correttamente il discorso indiretto con una domanda?",
+      "options": [
+        "Er fragt, wo wohne ich.",
+        "Er fragt, wo ich wohne.",
+        "Er fragt, dass wo ich wohne.",
+        "Er fragt, ich wohne wo."
+      ],
+      "correct": 1,
+      "explanation": "Le domande con parola interrogativa si riportano con la stessa parola interrogativa + verbo alla fine: 'Er fragt, wo ich wohne.'"
     },
     {
       "type": "translation",
-      "direction": "it-to-de",
-      "source": "Al posto tuo, cercherei un nuovo lavoro.",
-      "acceptable": ["An deiner Stelle würde ich einen neuen Job suchen.", "An deiner Stelle würde ich eine neue Arbeit suchen."],
-      "hint": "An deiner Stelle + würde + infinito"
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Quale parola significa 'il cambiamento climatico'?",
-      "options": ["die Verschmutzung", "der Treibhauseffekt", "der Klimawandel", "die Nachhaltigkeit"],
-      "correct": 2,
-      "explanation": "'Der Klimawandel' = il cambiamento climatico. 'Klima' = clima, 'Wandel' = cambiamento."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Sie sagte, ___ sie eine neue Arbeit gefunden ___.",
-      "blanks": [
-        { "position": 0, "correct": ["dass"], "hint": "Congiunzione 'che'" },
-        { "position": 1, "correct": ["hat", "habe"], "hint": "Ausiliare di 'finden' (trovare)" }
-      ],
-      "translation": "Ha detto che ha trovato un nuovo lavoro."
+      "sentence": "Al posto tuo, accetterei l'offerta di lavoro.",
+      "answer": "An deiner Stelle würde ich das Jobangebot annehmen.",
+      "hint": "An deiner Stelle + würde + ich + ... + infinito"
     }
   ]
 }

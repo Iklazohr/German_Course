@@ -1,0 +1,154 @@
+{
+  "id": "b2-r02",
+  "level": "b2",
+  "type": "exercise",
+  "title": "Test finale B2",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale forma del Partizip I è corretta? 'Die ___ Kosten überraschen die Verbraucher.'",
+      "options": ["steigend", "steigende", "steigenden", "gestiegen"],
+      "correct": 2,
+      "explanation": "Con l'articolo determinativo 'die' (plurale, nominativo), il Partizip I prende la desinenza -en: 'die steigenden Kosten' (i costi in aumento). Il Partizip I indica un'azione in corso."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Der Sprecher erklärte, die Situation ___ unter Kontrolle.",
+      "blanks": [{ "position": 0, "correct": ["sei"], "hint": "Konjunktiv I di 'sein' - discorso indiretto giornalistico" }],
+      "translation": "Il portavoce ha dichiarato che la situazione è sotto controllo."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Più si studia, meglio si capisce la grammatica.",
+      "acceptable": ["Je mehr man lernt, desto besser versteht man die Grammatik.", "Je mehr man studiert, desto besser versteht man die Grammatik."],
+      "hint": "je ... desto + comparativo; studiare = lernen/studieren; capire = verstehen"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i termini economici tedeschi alla traduzione italiana.",
+      "pairs": [
+        { "left": "der Umsatz", "right": "il fatturato" },
+        { "left": "die Aktie", "right": "l'azione (titolo)" },
+        { "left": "der Gewinn", "right": "il profitto" },
+        { "left": "die Steuer", "right": "l'imposta / la tassa" },
+        { "left": "die Inflation", "right": "l'inflazione" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er hat ___ Deutsch ___ Französisch gelernt. Er spricht beide Sprachen fließend.",
+      "blanks": [
+        { "position": 0, "correct": ["sowohl"], "hint": "sia (prima parte del connettore doppio)" },
+        { "position": 1, "correct": ["als auch"], "hint": "che (seconda parte)" }
+      ],
+      "translation": "Ha imparato sia il tedesco che il francese. Parla entrambe le lingue correntemente."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale nominalizzazione è corretta per 'entscheiden' (decidere)?",
+      "options": ["die Entscheidkeit", "die Entscheidnis", "die Entscheidung", "die Entscheidheit"],
+      "correct": 2,
+      "explanation": "'entscheiden' → 'die Entscheidung' (la decisione). Il suffisso -ung è il più comune per trasformare verbi in sostantivi femminili."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die in der Zeitung ___ Nachricht hat viele Leser schockiert.",
+      "blanks": [{ "position": 0, "correct": ["veröffentlichte"], "hint": "Partizip II di 'veröffentlichen' come attributo esteso (la notizia pubblicata)" }],
+      "translation": "La notizia pubblicata sul giornale ha scioccato molti lettori."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Perché nel discorso indiretto si dice 'sie hätten' invece di 'sie haben'?",
+      "options": [
+        "Perché il Konjunktiv I 'sie haben' è identico all'indicativo, quindi si usa il Konjunktiv II",
+        "Perché il Konjunktiv II è più educato",
+        "Perché il Konjunktiv I di 'haben' non esiste al plurale",
+        "Perché 'hätten' è la forma standard del discorso indiretto"
+      ],
+      "correct": 0,
+      "explanation": "Alla terza persona plurale, il Konjunktiv I di 'haben' sarebbe 'sie haben', uguale all'indicativo. Per evitare ambiguità, si sostituisce con il Konjunktiv II: 'sie hätten'."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "La democrazia vive della partecipazione dei cittadini.",
+      "acceptable": ["Die Demokratie lebt von der Beteiligung der Bürger.", "Die Demokratie lebt von der Teilnahme der Bürger."],
+      "hint": "democrazia = die Demokratie; partecipazione = die Beteiligung; cittadini = die Bürger"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta con un attributo participiale esteso:",
+      "words": ["Das", "vom", "Bundestag", "verabschiedete", "Gesetz", "tritt", "morgen", "in", "Kraft", "."],
+      "correct": "Das vom Bundestag verabschiedete Gesetz tritt morgen in Kraft .",
+      "translation": "La legge approvata dal Bundestag entra in vigore domani."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ des schlechten Wetters fand die Demonstration trotzdem statt.",
+      "blanks": [{ "position": 0, "correct": ["Trotz"], "hint": "Nonostante - preposizione con genitivo" }],
+      "translation": "Nonostante il brutto tempo, la manifestazione ha avuto luogo ugualmente."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale espressione fissa contiene il Konjunktiv I?",
+      "options": [
+        "Ich würde gern mitkommen.",
+        "Es lebe die Freiheit!",
+        "Wenn ich Zeit hätte...",
+        "Er könnte uns helfen."
+      ],
+      "correct": 1,
+      "explanation": "'Es lebe die Freiheit!' (Viva la libertà!) è un'espressione fissa con il Konjunktiv I di 'leben' (lebe). Le altre frasi usano il Konjunktiv II (würde, hätte, könnte)."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega i connettori alla loro funzione.",
+      "pairs": [
+        { "left": "je ... desto", "right": "proporzionalità (più ... più)" },
+        { "left": "sowohl ... als auch", "right": "aggiunta (sia ... che)" },
+        { "left": "weder ... noch", "right": "negazione doppia (né ... né)" },
+        { "left": "zwar ... aber", "right": "concessione (è vero ... però)" },
+        { "left": "entweder ... oder", "right": "alternativa (o ... o)" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Laut einer Studie ___ 60% der Deutschen regelmäßig Sport.",
+      "blanks": [{ "position": 0, "correct": ["trieben", "treiben"], "hint": "Konjunktiv I/II di 'treiben' (Sport treiben = fare sport) - discorso indiretto" }],
+      "translation": "Secondo uno studio, il 60% dei tedeschi fa sport regolarmente."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Un disoccupato cerca lavoro da sei mesi.",
+      "acceptable": ["Ein Arbeitsloser sucht seit sechs Monaten einen Job.", "Ein Arbeitsloser sucht seit sechs Monaten Arbeit.", "Ein Arbeitsloser sucht seit einem halben Jahr eine Arbeit."],
+      "hint": "disoccupato (nominalizzazione) = ein Arbeitsloser; cercare = suchen; da sei mesi = seit sechs Monaten"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa correttamente 'nachdem' con il Plusquamperfekt?",
+      "options": [
+        "Nachdem er gegessen hat, ging er spazieren.",
+        "Nachdem er gegessen hatte, ging er spazieren.",
+        "Nachdem er aß, ging er spazieren.",
+        "Nachdem er essen hatte, ging er spazieren."
+      ],
+      "correct": 1,
+      "explanation": "'Nachdem' (dopo che) richiede un salto temporale: se la frase principale è al Präteritum (ging), la subordinata con 'nachdem' va al Plusquamperfekt (hatte gegessen). Anteriorità nel passato."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Bundeskanzlerin betonte, man ___ alle Maßnahmen ergreifen.",
+      "blanks": [{ "position": 0, "correct": ["werde"], "hint": "Konjunktiv I di 'werden' (futuro nel discorso indiretto)" }],
+      "translation": "La cancelliera ha sottolineato che verranno prese tutte le misure."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase con 'weder ... noch':",
+      "words": ["Er", "hat", "weder", "Zeit", "noch", "Geld", "für", "einen", "Urlaub", "."],
+      "correct": "Er hat weder Zeit noch Geld für einen Urlaub .",
+      "translation": "Non ha né tempo né soldi per una vacanza."
+    }
+  ]
+}

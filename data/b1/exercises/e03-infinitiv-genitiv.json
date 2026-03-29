@@ -1,92 +1,158 @@
 {
   "id": "b1-e03",
   "level": "b1",
-  "title": "Esercizi: Infinito con zu e genitivo",
+  "type": "exercise",
+  "title": "Esercizi: Infinito e genitivo",
   "exercises": [
     {
-      "type": "multiple-choice",
-      "question": "Quale frase è corretta?",
-      "options": ["Ich versuche Deutsch lernen.", "Ich versuche, Deutsch zu lernen.", "Ich versuche, Deutsch lernen zu.", "Ich versuche zu Deutsch lernen."],
-      "correct": 1,
-      "explanation": "Dopo 'versuchen' si usa zu + infinito. Il 'zu' va direttamente prima dell'infinito alla fine: 'Deutsch zu lernen'."
+      "type": "fill-blank",
+      "sentence": "Ich habe keine Lust, heute ___ arbeiten.",
+      "blanks": [
+        "zu"
+      ],
+      "explanation": "Dopo espressioni come 'Lust haben', 'Angst haben', 'anfangen' ecc. si usa la costruzione 'zu + Infinitiv'."
     },
     {
       "type": "fill-blank",
-      "sentence": "Es ist wichtig, jeden Tag Deutsch ___.",
-      "blanks": [{ "position": 0, "correct": ["zu lernen", "zu üben"], "hint": "zu + infinito dopo un aggettivo" }],
-      "translation": "È importante studiare/esercitarsi in tedesco ogni giorno."
+      "sentence": "Er versucht, das Problem ___ lösen.",
+      "blanks": [
+        "zu"
+      ],
+      "explanation": "Dopo verbi come 'versuchen' (provare), 'beginnen' (iniziare), 'hoffen' (sperare) si usa 'zu + Infinitiv'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Es ist wichtig, genug Wasser ___ trinken.",
+      "blanks": [
+        "zu"
+      ],
+      "explanation": "Dopo costruzioni impersonali come 'es ist wichtig', 'es ist möglich', 'es ist schön' si usa 'zu + Infinitiv'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Sie hat angefangen, Deutsch ___ .",
+      "blanks": [
+        "zu lernen"
+      ],
+      "explanation": "Con 'anfangen' si usa 'zu + Infinitiv'. Il 'zu' va direttamente prima dell'infinito alla fine della frase."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich habe vor, nächstes Jahr nach Deutschland ___ .",
+      "blanks": [
+        "zu reisen"
+      ],
+      "explanation": "'Vorhaben' (avere intenzione) richiede 'zu + Infinitiv': 'Ich habe vor, zu reisen' = ho intenzione di viaggiare."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dove si inserisce 'zu' nel verbo separabile 'aufstehen'?",
+      "options": [
+        "zu aufstehen",
+        "aufzustehen",
+        "aufstehen zu",
+        "auf zu stehen"
+      ],
+      "correct": 1,
+      "explanation": "Nei verbi separabili, 'zu' si inserisce tra il prefisso e il verbo: auf-zu-stehen → 'aufzustehen'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è corretta?",
+      "options": [
+        "Ich hoffe zu bestehen die Prüfung.",
+        "Ich hoffe, die Prüfung zu bestehen.",
+        "Ich hoffe, zu die Prüfung bestehen.",
+        "Ich hoffe die Prüfung bestehen zu."
+      ],
+      "correct": 1,
+      "explanation": "La frase infinitiva va separata con la virgola. L'infinito con 'zu' va alla fine: 'Ich hoffe, die Prüfung zu bestehen'."
     },
     {
       "type": "multiple-choice",
       "question": "Quale verbo NON richiede 'zu' prima dell'infinito?",
-      "options": ["versuchen", "können", "hoffen", "anfangen"],
-      "correct": 1,
-      "explanation": "I verbi modali (können, müssen, wollen, sollen, dürfen, mögen) si usano senza 'zu': 'Ich kann schwimmen' (non: 'Ich kann zu schwimmen')."
-    },
-    {
-      "type": "fill-blank",
-      "sentence": "Ich lerne Deutsch, ___ in Berlin ___ arbeiten.",
-      "blanks": [
-        { "position": 0, "correct": ["um"], "hint": "Congiunzione di scopo" },
-        { "position": 1, "correct": ["zu"], "hint": "Particella dell'infinito" }
+      "options": [
+        "versuchen",
+        "müssen",
+        "hoffen",
+        "anfangen"
       ],
-      "translation": "Studio tedesco per lavorare a Berlino."
+      "correct": 1,
+      "explanation": "I verbi modali (können, müssen, wollen, sollen, dürfen, mögen) si usano senza 'zu': 'Ich muss arbeiten' (non: 'Ich muss zu arbeiten')."
     },
     {
       "type": "translation",
-      "direction": "it-to-de",
-      "source": "È andato via senza salutare.",
-      "acceptable": ["Er ist weggegangen, ohne sich zu verabschieden.", "Er ging weg, ohne sich zu verabschieden."],
-      "hint": "ohne...zu + infinito = senza + infinito"
+      "sentence": "Ho deciso di imparare il tedesco.",
+      "answer": "Ich habe mich entschieden, Deutsch zu lernen.",
+      "hint": "sich entscheiden + virgola + ... + zu + infinito"
     },
     {
-      "type": "fill-blank",
-      "sentence": "Es ist schwer, früh ___.",
-      "blanks": [{ "position": 0, "correct": ["aufzustehen"], "hint": "Verbo separabile 'aufstehen': il zu va tra prefisso e radice" }],
-      "translation": "È difficile alzarsi presto."
+      "type": "translation",
+      "sentence": "È difficile alzarsi presto.",
+      "answer": "Es ist schwer, früh aufzustehen.",
+      "hint": "Es ist schwer + virgola + ... + verbo separabile con 'zu' inserito"
+    },
+    {
+      "type": "reorder",
+      "words": [
+        "Ich",
+        "versuche",
+        ",",
+        "mehr",
+        "Sport",
+        "zu",
+        "treiben",
+        "."
+      ],
+      "correct": "Ich versuche , mehr Sport zu treiben ."
     },
     {
       "type": "multiple-choice",
-      "question": "Qual è l'articolo genitivo corretto per 'der Mann'?",
-      "options": ["dem Mannes", "der Mann", "des Mannes", "den Mann"],
+      "question": "Quale articolo al genitivo completa la frase: 'Das Auto ___ Mannes ist rot'?",
+      "options": [
+        "der",
+        "dem",
+        "des",
+        "den"
+      ],
       "correct": 2,
-      "explanation": "Al genitivo, il maschile diventa 'des' + il sostantivo aggiunge -(e)s: 'des Mannes'."
+      "explanation": "Il genitivo maschile/neutro si forma con l'articolo 'des' + sostantivo con desinenza '-s' o '-es': 'des Mannes'."
     },
     {
-      "type": "fill-blank",
-      "sentence": "Das ist das Auto ___ Chefs.",
-      "blanks": [{ "position": 0, "correct": ["meines", "des"], "hint": "Articolo genitivo maschile" }],
-      "translation": "Questa è l'auto del (mio) capo."
-    },
-    {
-      "type": "matching",
-      "instruction": "Collega la preposizione genitiva alla traduzione corretta.",
-      "pairs": [
-        { "left": "wegen", "right": "a causa di" },
-        { "left": "trotz", "right": "nonostante" },
-        { "left": "während", "right": "durante" },
-        { "left": "anstatt", "right": "invece di" }
-      ]
+      "type": "multiple-choice",
+      "question": "Completa: 'Die Farbe ___ Blume ist schön.'",
+      "options": [
+        "der",
+        "die",
+        "den",
+        "des"
+      ],
+      "correct": 0,
+      "explanation": "Il genitivo femminile e plurale usa l'articolo 'der': 'der Blume' (del fiore, femminile)."
     },
     {
       "type": "fill-blank",
       "sentence": "___ des schlechten Wetters gehen wir spazieren.",
-      "blanks": [{ "position": 0, "correct": ["Trotz"], "hint": "Preposizione genitiva: 'nonostante'" }],
-      "translation": "Nonostante il brutto tempo andiamo a passeggio."
+      "blanks": [
+        "Trotz"
+      ],
+      "explanation": "'Trotz' (nonostante) è una preposizione che regge il genitivo: 'trotz des schlechten Wetters'."
     },
     {
-      "type": "translation",
-      "direction": "it-to-de",
-      "source": "A causa della pioggia resto a casa.",
-      "acceptable": ["Wegen des Regens bleibe ich zu Hause.", "Wegen des Regens bleibe ich zuhause."],
-      "hint": "wegen + genitivo (des Regens)"
+      "type": "fill-blank",
+      "sentence": "___ der Ferien fahren wir ans Meer.",
+      "blanks": [
+        "Während"
+      ],
+      "explanation": "'Während' (durante) è una preposizione che regge il genitivo: 'während der Ferien'."
     },
     {
-      "type": "multiple-choice",
-      "question": "Quale frase usa correttamente 'anstatt...zu'?",
-      "options": ["Anstatt lernen zu, spielt er.", "Anstatt zu lernen, spielt er.", "Anstatt er lernt, spielt er.", "Zu anstatt lernen, spielt er."],
-      "correct": 1,
-      "explanation": "La costruzione corretta è 'anstatt + zu + infinito': 'Anstatt zu lernen, spielt er' (Invece di studiare, gioca)."
+      "type": "fill-blank",
+      "sentence": "___ des Regens blieb er zu Hause.",
+      "blanks": [
+        "Wegen"
+      ],
+      "explanation": "'Wegen' (a causa di) è una preposizione che regge il genitivo: 'wegen des Regens'."
     }
   ]
 }
