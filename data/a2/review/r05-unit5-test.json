@@ -1,0 +1,118 @@
+{
+  "id": "a2-r05",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Test Unità 5: Aggettivi, domande indirette e media",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Das ist ein interessant___ Buch.",
+      "answer": "es",
+      "full_answer": "Das ist ein interessantes Buch.",
+      "hint": "Dopo articolo indeterminativo, nominativo neutro → -es"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Ich suche den billig___ Flug.",
+      "answer": "en",
+      "full_answer": "Ich suche den billigen Flug.",
+      "hint": "Dopo articolo determinativo, accusativo maschile → -en"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Frisch___ Brot schmeckt am besten.",
+      "answer": "es",
+      "full_answer": "Frisches Brot schmeckt am besten.",
+      "hint": "Senza articolo, nominativo neutro → -es (desinenza forte)"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la domanda indiretta corretta.",
+      "question": "'Wie spät ist es?' → Können Sie mir sagen, ___?",
+      "options": [
+        "wie spät ist es",
+        "wie spät es ist",
+        "ob es wie spät ist",
+        "es wie spät ist"
+      ],
+      "answer": "wie spät es ist",
+      "hint": "Nella domanda indiretta il verbo va alla fine."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la domanda indiretta corretta.",
+      "question": "'Hat er das Handy gekauft?' → Ich frage mich, ___.",
+      "options": [
+        "ob er hat das Handy gekauft",
+        "ob er das Handy gekauft hat",
+        "hat er ob das Handy gekauft",
+        "er ob das Handy gekauft hat"
+      ],
+      "answer": "ob er das Handy gekauft hat",
+      "hint": "Con Perfekt nella subordinata: participio + verbo ausiliare alla fine."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "question": "Leggo il giornale ogni mattina.",
+      "answer": "Ich lese jeden Morgen die Zeitung.",
+      "hint": "die Zeitung = il giornale"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando una domanda indiretta.",
+      "question": "Sai dove posso scaricare il film?",
+      "answer": "Weißt du, wo ich den Film herunterladen kann?",
+      "hint": "Verbo modale → kann va alla fine della subordinata"
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina il vocabolo tedesco alla traduzione italiana.",
+      "pairs": [
+        { "left": "die Nachricht", "right": "il messaggio / la notizia" },
+        { "left": "herunterladen", "right": "scaricare" },
+        { "left": "teilen", "right": "condividere" },
+        { "left": "die Webseite", "right": "il sito web" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il vocabolo corretto.",
+      "question": "Ich ___ gern Videos im Internet. (guardare)",
+      "answer": "schaue",
+      "full_answer": "Ich schaue gern Videos im Internet.",
+      "hint": "schauen = guardare, coniugato per 'ich'"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta.",
+      "words": ["Ich", "weiß", "nicht", ",", "ob", "er", "eine", "neue", "E-Mail", "geschrieben", "hat"],
+      "answer": "Ich weiß nicht, ob er eine neue E-Mail geschrieben hat.",
+      "hint": "Domanda indiretta con ob + Perfekt → hat alla fine"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Sie liest eine spannend___ Zeitschrift.",
+      "answer": "e",
+      "full_answer": "Sie liest eine spannende Zeitschrift.",
+      "hint": "Dopo articolo indeterminativo, accusativo femminile → -e"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Quale frase è corretta?",
+      "question": "Scegli la frase con l'aggettivo declinato correttamente.",
+      "options": [
+        "Er hat einen alten Computer.",
+        "Er hat einen alte Computer.",
+        "Er hat einen altes Computer.",
+        "Er hat einen alter Computer."
+      ],
+      "answer": "Er hat einen alten Computer.",
+      "hint": "Dopo articolo indeterminativo, accusativo maschile → -en"
+    }
+  ]
+}

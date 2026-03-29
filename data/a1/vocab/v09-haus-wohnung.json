@@ -1,0 +1,49 @@
+{
+  "id": "a1-v09",
+  "level": "a1",
+  "type": "vocab",
+  "title": "La casa e le stanze",
+  "subtitle": "Das Haus und die Zimmer",
+  "groups": [
+    {
+      "name": "Stanze",
+      "words": [
+        { "de": "die Küche", "it": "la cucina", "emoji": "🍳", "example_de": "Ich koche in der Küche.", "example_it": "Cucino in cucina." },
+        { "de": "das Schlafzimmer", "it": "la camera da letto", "emoji": "🛏️", "example_de": "Das Schlafzimmer ist oben.", "example_it": "La camera da letto è al piano di sopra." },
+        { "de": "das Badezimmer", "it": "il bagno", "emoji": "🚿", "example_de": "Das Badezimmer ist klein.", "example_it": "Il bagno è piccolo." },
+        { "de": "das Wohnzimmer", "it": "il soggiorno", "emoji": "🛋️", "example_de": "Wir sitzen im Wohnzimmer.", "example_it": "Siamo seduti in soggiorno." },
+        { "de": "das Kinderzimmer", "it": "la cameretta dei bambini", "emoji": "🧸", "example_de": "Die Kinder spielen im Kinderzimmer.", "example_it": "I bambini giocano nella cameretta." },
+        { "de": "der Flur", "it": "il corridoio", "emoji": "🚪", "example_de": "Die Schuhe stehen im Flur.", "example_it": "Le scarpe sono nel corridoio." },
+        { "de": "der Garten", "it": "il giardino", "emoji": "🌿", "example_de": "Der Garten ist sehr schön.", "example_it": "Il giardino è molto bello." },
+        { "de": "der Balkon", "it": "il balcone", "emoji": "🌅", "example_de": "Ich trinke Kaffee auf dem Balkon.", "example_it": "Bevo caffè sul balcone." },
+        { "de": "der Keller", "it": "la cantina", "emoji": "🏚️", "example_de": "Der Keller ist dunkel.", "example_it": "La cantina è buia." }
+      ]
+    },
+    {
+      "name": "Mobili",
+      "words": [
+        { "de": "der Tisch", "it": "il tavolo", "emoji": "🪑", "example_de": "Das Essen steht auf dem Tisch.", "example_it": "Il cibo è sul tavolo." },
+        { "de": "der Stuhl", "it": "la sedia", "emoji": "💺", "example_de": "Setz dich auf den Stuhl!", "example_it": "Siediti sulla sedia!" },
+        { "de": "das Bett", "it": "il letto", "emoji": "🛏️", "example_de": "Das Bett ist sehr bequem.", "example_it": "Il letto è molto comodo." },
+        { "de": "das Sofa", "it": "il divano", "emoji": "🛋️", "example_de": "Ich liege auf dem Sofa.", "example_it": "Sono sdraiato sul divano." },
+        { "de": "der Schrank", "it": "l'armadio", "emoji": "🗄️", "example_de": "Die Kleidung ist im Schrank.", "example_it": "I vestiti sono nell'armadio." },
+        { "de": "das Regal", "it": "lo scaffale", "emoji": "📚", "example_de": "Die Bücher stehen im Regal.", "example_it": "I libri sono sullo scaffale." },
+        { "de": "die Lampe", "it": "la lampada", "emoji": "💡", "example_de": "Mach bitte die Lampe an!", "example_it": "Accendi la lampada, per favore!" },
+        { "de": "der Spiegel", "it": "lo specchio", "emoji": "🪞", "example_de": "Der Spiegel hängt an der Wand.", "example_it": "Lo specchio è appeso alla parete." }
+      ]
+    },
+    {
+      "name": "Azioni in casa",
+      "words": [
+        { "de": "kochen", "it": "cucinare", "emoji": "👨‍🍳", "example_de": "Ich koche das Abendessen.", "example_it": "Cucino la cena." },
+        { "de": "putzen", "it": "pulire", "emoji": "🧹", "example_de": "Ich putze das Badezimmer.", "example_it": "Pulisco il bagno." },
+        { "de": "schlafen", "it": "dormire", "emoji": "😴", "example_de": "Ich schlafe acht Stunden.", "example_it": "Dormo otto ore." },
+        { "de": "duschen", "it": "fare la doccia", "emoji": "🚿", "example_de": "Ich dusche jeden Morgen.", "example_it": "Faccio la doccia ogni mattina." },
+        { "de": "aufräumen", "it": "riordinare", "emoji": "🧺", "example_de": "Ich räume mein Zimmer auf.", "example_it": "Riordino la mia stanza." },
+        { "de": "waschen", "it": "lavare", "emoji": "🫧", "example_de": "Ich wasche die Wäsche.", "example_it": "Lavo il bucato." },
+        { "de": "bügeln", "it": "stirare", "emoji": "👔", "example_de": "Ich bügle mein Hemd.", "example_it": "Stiro la mia camicia." },
+        { "de": "staubsaugen", "it": "passare l'aspirapolvere", "emoji": "🧹", "example_de": "Ich staubsauge den Teppich.", "example_it": "Passo l'aspirapolvere sul tappeto." }
+      ]
+    }
+  ]
+}

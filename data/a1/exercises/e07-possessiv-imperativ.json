@@ -1,0 +1,109 @@
+{
+  "id": "a1-e07",
+  "level": "a1",
+  "type": "exercise",
+  "title": "Esercizi: Possessivi e imperativo",
+  "exercises": [
+    {
+      "type": "select-article",
+      "instruction": "Scegli il possessivo corretto.",
+      "word": "_____ Mutter ist nett. (ich)",
+      "options": ["mein", "meine", "meinen", "meiner"],
+      "correct": "meine",
+      "explanation": "'Mutter' è femminile, quindi al nominativo: meine."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli il possessivo corretto.",
+      "word": "Ich sehe _____ Bruder. (du)",
+      "options": ["dein", "deine", "deinen", "deiner"],
+      "correct": "deinen",
+      "explanation": "'Bruder' è maschile e qui è all'accusativo: deinen."
+    },
+    {
+      "type": "select-article",
+      "instruction": "Scegli il possessivo corretto.",
+      "word": "_____ Haus ist groß. (wir)",
+      "options": ["unser", "unsere", "unseren", "unserem"],
+      "correct": "unser",
+      "explanation": "'Haus' è neutro, al nominativo il possessivo non ha desinenza: unser."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il possessivo corretto.",
+      "sentence": "Er liebt _____ Kinder. (sein)",
+      "answer": "seine",
+      "explanation": "'Kinder' è plurale, quindi: seine Kinder."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il possessivo corretto.",
+      "sentence": "Sie sucht _____ Tasche. (ihr - di lei)",
+      "answer": "ihre",
+      "explanation": "'Tasche' è femminile, all'accusativo femminile non cambia: ihre."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con il possessivo corretto.",
+      "sentence": "Habt _____ Bücher? (ihr - voi)",
+      "answer": "eure",
+      "explanation": "'Bücher' è plurale, 'euer' al plurale diventa 'eure'."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Qual è l'imperativo corretto di 'kommen' per 'du'?",
+      "options": ["Komm!", "Kommst!", "Kommen!", "Komme!"],
+      "correct": "Komm!",
+      "explanation": "L'imperativo per 'du' si forma con la radice del verbo: Komm!"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Qual è l'imperativo corretto di 'lesen' per 'du'?",
+      "options": ["Les!", "Lies!", "Lese!", "Liest!"],
+      "correct": "Lies!",
+      "explanation": "'Lesen' ha il cambio vocalico e→ie all'imperativo: Lies!"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Qual è l'imperativo corretto di 'sein' per 'Sie'?",
+      "options": ["Sind Sie!", "Sein Sie!", "Seien Sie!", "Sei Sie!"],
+      "correct": "Seien Sie!",
+      "explanation": "La forma formale di 'sein' all'imperativo è irregolare: Seien Sie!"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "Apri la finestra, per favore! (du)",
+      "answer": "Mach bitte das Fenster auf!",
+      "explanation": "'aufmachen' è separabile: Mach ... auf!"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "sentence": "La mia macchina è rossa.",
+      "answer": "Mein Auto ist rot.",
+      "explanation": "'Auto' è neutro, quindi: mein Auto (senza desinenza al nominativo)."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta.",
+      "words": ["bitte", "Sie", "langsam", "Sprechen"],
+      "answer": "Sprechen Sie bitte langsam!",
+      "explanation": "Imperativo formale: Verbo + Sie + resto della frase."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta.",
+      "words": ["deinen", "Nimm", "Mantel"],
+      "answer": "Nimm deinen Mantel!",
+      "explanation": "Imperativo du + accusativo maschile: deinen Mantel."
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Completa con l'imperativo corretto di 'aufstehen' per 'ihr'.",
+      "sentence": "_____ bitte _____!",
+      "answer": "Steht bitte auf!",
+      "explanation": "Verbo separabile all'imperativo ihr-Form: Steht ... auf!"
+    }
+  ]
+}

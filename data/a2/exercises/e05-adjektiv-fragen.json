@@ -1,0 +1,139 @@
+{
+  "id": "a2-e05",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: Aggettivi e domande indirette",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Der klein___ Hund spielt im Garten.",
+      "answer": "e",
+      "full_answer": "Der kleine Hund spielt im Garten.",
+      "hint": "Dopo articolo determinativo, nominativo maschile → -e"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Ich habe ein neu___ Buch gekauft.",
+      "answer": "es",
+      "full_answer": "Ich habe ein neues Buch gekauft.",
+      "hint": "Dopo articolo indeterminativo, accusativo neutro → -es"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Sie trinkt kalt___ Wasser.",
+      "answer": "es",
+      "full_answer": "Sie trinkt kaltes Wasser.",
+      "hint": "Senza articolo, accusativo neutro → -es (desinenza forte)"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Wir wohnen in einer groß___ Stadt.",
+      "answer": "en",
+      "full_answer": "Wir wohnen in einer großen Stadt.",
+      "hint": "Dopo articolo indeterminativo, dativo femminile → -en"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci la desinenza corretta dell'aggettivo.",
+      "question": "Die nett___ Kollegen helfen mir.",
+      "answer": "en",
+      "full_answer": "Die netten Kollegen helfen mir.",
+      "hint": "Dopo articolo determinativo, nominativo plurale → -en"
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la forma corretta della domanda indiretta.",
+      "question": "Domanda diretta: 'Wo wohnt Maria?' → Weißt du, ___?",
+      "options": [
+        "wo wohnt Maria",
+        "wo Maria wohnt",
+        "Maria wo wohnt",
+        "wohnt Maria wo"
+      ],
+      "answer": "wo Maria wohnt",
+      "hint": "Nella domanda indiretta il verbo va alla fine."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la forma corretta della domanda indiretta.",
+      "question": "Domanda diretta: 'Kommt er morgen?' → Ich weiß nicht, ___.",
+      "options": [
+        "ob kommt er morgen",
+        "ob er morgen kommt",
+        "er ob morgen kommt",
+        "dass er morgen kommt"
+      ],
+      "answer": "ob er morgen kommt",
+      "hint": "Domanda sì/no → si usa 'ob' e il verbo va alla fine."
+    },
+    {
+      "type": "multiple-choice",
+      "instruction": "Scegli la forma corretta della domanda indiretta.",
+      "question": "Domanda diretta: 'Wann fährt der Zug ab?' → Können Sie mir sagen, ___?",
+      "options": [
+        "wann fährt der Zug ab",
+        "wann der Zug fährt ab",
+        "wann der Zug abfährt",
+        "ob der Zug wann abfährt"
+      ],
+      "answer": "wann der Zug abfährt",
+      "hint": "Il verbo separabile si ricongiunge alla fine della subordinata."
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco usando una domanda indiretta.",
+      "question": "Non so se lei ha tempo.",
+      "answer": "Ich weiß nicht, ob sie Zeit hat.",
+      "hint": "Domanda sì/no → ob + ... + verbo alla fine"
+    },
+    {
+      "type": "translation",
+      "instruction": "Traduci in tedesco.",
+      "question": "Compro la giacca nera.",
+      "answer": "Ich kaufe die schwarze Jacke.",
+      "hint": "Articolo determinativo + accusativo femminile → desinenza -e"
+    },
+    {
+      "type": "matching",
+      "instruction": "Abbina la forma dell'aggettivo corretta al contesto.",
+      "pairs": [
+        { "left": "ein ___ Auto (schnell, Nom.)", "right": "schnelles" },
+        { "left": "der ___ Film (neu, Nom.)", "right": "neue" },
+        { "left": "mit ___ Freunden (gut, Dat. Pl.)", "right": "guten" },
+        { "left": "___ Kaffee (heiß, ohne Artikel, Nom.)", "right": "heißer" }
+      ]
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una domanda indiretta corretta.",
+      "words": ["Ich", "möchte", "wissen", ",", "wie", "du", "heißt"],
+      "answer": "Ich möchte wissen, wie du heißt.",
+      "hint": "Frase principale + virgola + W-Wort + soggetto + verbo alla fine"
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una domanda indiretta corretta.",
+      "words": ["Können", "Sie", "mir", "sagen", ",", "ob", "es", "hier", "ein", "Hotel", "gibt"],
+      "answer": "Können Sie mir sagen, ob es hier ein Hotel gibt?",
+      "hint": "Frase introduttiva cortese + ob + ... + verbo alla fine"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci 'ob' o la parola interrogativa corretta.",
+      "question": "Ich frage mich, ___ das Museum heute geöffnet ist.",
+      "answer": "ob",
+      "hint": "La domanda originale è: 'Ist das Museum heute geöffnet?' → domanda sì/no → ob"
+    },
+    {
+      "type": "fill-blank",
+      "instruction": "Inserisci 'ob' o la parola interrogativa corretta.",
+      "question": "Weißt du, ___ der Film anfängt?",
+      "answer": "wann",
+      "hint": "La domanda originale è: 'Wann fängt der Film an?' → si usa 'wann'"
+    }
+  ]
+}

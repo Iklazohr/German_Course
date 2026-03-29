@@ -9,6 +9,7 @@
 
 .card:hover {
     box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
 }
 
 .card-clickable {
@@ -28,6 +29,20 @@
     padding: 20px;
     margin-bottom: 12px;
     border-left: 4px solid var(--level-color, var(--primary));
+    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.level-card:hover {
+    transform: translateX(4px) translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.level-card .level-badge {
+    transition: transform 0.3s ease;
+}
+
+.level-card:hover .level-badge {
+    transform: scale(1.1);
 }
 
 .level-card .level-badge {
@@ -78,9 +93,23 @@
 .progress-bar-fill {
     height: 100%;
     border-radius: 3px;
-    background: var(--level-color, var(--primary));
-    transition: width 0.4s ease;
+    background: linear-gradient(90deg, var(--level-color, var(--primary)), color-mix(in srgb, var(--level-color, var(--primary)), white 25%));
+    transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
     min-width: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar-fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
 }
 
 .progress-text {
@@ -148,6 +177,7 @@
 
 .unit-header.open + .unit-lessons {
     display: block;
+    animation: fadeIn 0.3s ease;
 }
 
 /* ===== Lesson Items ===== */
@@ -167,6 +197,11 @@
 
 .lesson-item:hover {
     background: var(--surface-hover);
+    transform: translateX(4px);
+}
+
+.lesson-item {
+    transition: all 0.25s ease;
 }
 
 .lesson-item.locked {
@@ -490,11 +525,13 @@
 .vocab-card:hover {
     border-color: var(--primary);
     box-shadow: var(--shadow-sm);
+    transform: translateY(-2px);
 }
 
 .vocab-card.flipped {
     border-color: var(--primary);
     background: var(--primary-light);
+    animation: scaleIn 0.25s ease;
 }
 
 .vocab-emoji {
@@ -567,6 +604,30 @@
     padding: 16px;
     text-align: center;
     box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--success));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.stat-card:hover::before {
+    opacity: 1;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
 }
 
 .stat-value {
@@ -581,14 +642,43 @@
     margin-top: 2px;
 }
 
+/* Stat card icons */
+.stat-icon {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
 /* ===== Welcome Hero ===== */
 .hero {
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     color: #fff;
     border-radius: var(--radius-lg);
-    padding: 24px;
+    padding: 28px 24px;
     margin-bottom: 24px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 40%, rgba(255,255,255,0.1) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.hero::after {
+    content: "🇩🇪";
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 2rem;
+    opacity: 0.25;
+    animation: float 3s ease-in-out infinite;
 }
 
 .hero h2 {

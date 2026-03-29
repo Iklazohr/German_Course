@@ -1,0 +1,45 @@
+{
+  "id": "a1-g11",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Pronomi possessivi",
+  "subtitle": "Possessivpronomen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I pronomi possessivi in tedesco indicano a chi appartiene qualcosa. Come in italiano, cambiano a seconda del possessore. In tedesco, però, cambiano anche le desinenze in base al genere, numero e caso del sostantivo che accompagnano, esattamente come l'articolo indeterminativo 'ein'."
+    },
+    {
+      "type": "rule",
+      "title": "I pronomi possessivi per ogni persona",
+      "content": "ich → mein (mio/mia)\ndu → dein (tuo/tua)\ner → sein (suo/sua - di lui)\nsie → ihr (suo/sua - di lei)\nes → sein (suo/sua - di esso)\nwir → unser (nostro/nostra)\nihr → euer (vostro/vostra)\nsie/Sie → ihr/Ihr (loro/Suo formale)\n\nAttenzione: 'sein' si usa per possessori maschili e neutri, 'ihr' per possessori femminili e plurali."
+    },
+    {
+      "type": "rule",
+      "title": "Desinenze al nominativo e accusativo",
+      "content": "Le desinenze dei possessivi seguono lo stesso schema di 'ein/eine/ein':\n\nNOMINATIVO:\nMaschile: mein Vater (mio padre)\nFemminile: meine Mutter (mia madre)\nNeutro: mein Kind (mio figlio)\nPlurale: meine Kinder (i miei figli)\n\nACCUSATIVO:\nMaschile: meinen Vater (cambia solo il maschile!)\nFemminile: meine Mutter\nNeutro: mein Kind\nPlurale: meine Kinder\n\nQueste desinenze (-/e/e/-en/e/-/e) si applicano a tutti i possessivi: dein, sein, ihr, unser, euer, ihr."
+    },
+    {
+      "type": "tip",
+      "content": "Ricorda: solo il maschile accusativo cambia (aggiunge -en). Tutto il resto rimane uguale al nominativo! Nota speciale: quando 'euer' prende una desinenza, spesso perde la 'e' interna: euer → eure (non 'euere')."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Das ist mein Bruder.", "it": "Questo è mio fratello." },
+        { "de": "Wo ist deine Tasche?", "it": "Dov'è la tua borsa?" },
+        { "de": "Er liebt seine Frau.", "it": "Lui ama sua moglie." },
+        { "de": "Sie sucht ihren Schlüssel.", "it": "Lei cerca la sua chiave." },
+        { "de": "Unser Haus ist groß.", "it": "La nostra casa è grande." },
+        { "de": "Kennt ihr euren Lehrer?", "it": "Conoscete il vostro insegnante?" },
+        { "de": "Die Kinder lieben ihre Eltern.", "it": "I bambini amano i loro genitori." },
+        { "de": "Ich sehe meinen Hund.", "it": "Vedo il mio cane." }
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Confronto con l'italiano",
+      "content": "In italiano i possessivi concordano con l'oggetto posseduto (il mio libro, la mia casa). In tedesco funziona allo stesso modo per le desinenze, MA la radice del possessivo dipende dal possessore:\n\n'Il suo libro' (di lui) = sein Buch\n'Il suo libro' (di lei) = ihr Buch\n\nIn italiano non c'è questa distinzione! Inoltre in tedesco i possessivi non hanno mai l'articolo davanti (a differenza dell'italiano 'il mio'), tranne con i nomi di parentela al plurale."
+    }
+  ]
+}

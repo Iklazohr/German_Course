@@ -1,0 +1,47 @@
+{
+  "id": "b2-g06",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Combinazioni nome-verbo",
+  "subtitle": "Nomen-Verb-Verbindungen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le **Nomen-Verb-Verbindungen** (combinazioni nome-verbo) sono espressioni fisse in cui un sostantivo e un verbo formano un'unità di significato. A differenza dei Funktionsverbgefüge (che usano preposizioni), molte di queste combinazioni funzionano con il sostantivo all'**accusativo diretto** o con una **preposizione fissa**. Non si possono combinare liberamente: si dice *eine Entscheidung **treffen*** (prendere una decisione), mai *eine Entscheidung **machen***. Impararle come blocchi è essenziale per il livello B2."
+    },
+    {
+      "type": "rule",
+      "title": "Combinazioni con accusativo diretto",
+      "content": "Queste combinazioni prendono il sostantivo all'accusativo senza preposizione:\n\n- **eine Entscheidung treffen** → prendere una decisione\n- **eine Frage stellen** → fare una domanda\n- **einen Fehler machen** → fare un errore\n- **Rücksicht nehmen (auf + Akk.)** → avere riguardo per\n- **Bescheid geben** → informare, avvisare\n- **Abschied nehmen (von + Dat.)** → congedarsi da\n- **einen Beitrag leisten** → dare un contributo\n- **einen Antrag stellen** → presentare una domanda/richiesta\n- **eine Rolle spielen** → avere un ruolo\n- **Widerstand leisten** → opporre resistenza\n- **einen Eindruck machen** → fare un'impressione\n- **Kritik üben (an + Dat.)** → esercitare critica su"
+    },
+    {
+      "type": "rule",
+      "title": "Combinazioni con preposizione fissa",
+      "content": "Molte combinazioni nome-verbo richiedono una preposizione specifica:\n\n**Wert legen auf + Akk.** → dare importanza a\n*Sie legt großen Wert auf Pünktlichkeit.* (Dà molta importanza alla puntualità.)\n\n**sich Sorgen machen um + Akk.** → preoccuparsi per\n*Er macht sich Sorgen um seine Gesundheit.* (Si preoccupa per la sua salute.)\n\n**Einfluss nehmen auf + Akk.** → esercitare influenza su\n*Die Medien nehmen Einfluss auf die öffentliche Meinung.* (I media influenzano l'opinione pubblica.)\n\n**Bezug nehmen auf + Akk.** → fare riferimento a\n*Ich nehme Bezug auf Ihr Schreiben vom 15. März.* (Faccio riferimento alla Sua lettera del 15 marzo.)\n\n**Rücksicht nehmen auf + Akk.** → avere riguardo per\n*Bitte nehmen Sie Rücksicht auf die Nachbarn.* (Per favore, abbiate riguardo per i vicini.)\n\n**Angst haben vor + Dat.** → avere paura di\n*Viele haben Angst vor der Prüfung.* (Molti hanno paura dell'esame.)\n\n**Interesse haben an + Dat.** → avere interesse per\n*Er hat großes Interesse an Literatur.* (Ha grande interesse per la letteratura.)"
+    },
+    {
+      "type": "rule",
+      "title": "Riconoscere i modelli: quale verbo con quale sostantivo?",
+      "content": "Alcuni verbi si combinano con molti sostantivi diversi. Ecco i verbi più produttivi:\n\n**treffen:** eine Entscheidung, eine Wahl, eine Vereinbarung, Maßnahmen, Vorbereitungen\n\n**stellen:** eine Frage, einen Antrag, eine Forderung, eine Diagnose, eine Bedingung\n\n**nehmen:** Rücksicht, Abschied, Einfluss, Bezug, Stellung, Platz\n\n**machen:** einen Fehler, sich Sorgen, einen Vorschlag, Fortschritte, eine Erfahrung\n\n**leisten:** einen Beitrag, Widerstand, Hilfe, Arbeit\n\n**führen:** ein Gespräch, Krieg, ein Leben, Regie"
+    },
+    {
+      "type": "tip",
+      "content": "Impara queste combinazioni come **blocchi interi** (chunks), non parola per parola. Scrivi ogni espressione su un foglio con una frase d'esempio completa. Il verbo 'giusto' non si può indovinare dalla logica italiana: in italiano si 'fa' una domanda, in tedesco si 'pone' una domanda (eine Frage *stellen*). Solo la pratica e la memorizzazione funzionano!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Die Regierung hat wichtige Entscheidungen getroffen.", "it": "Il governo ha preso decisioni importanti." },
+        { "de": "Darf ich Ihnen eine Frage stellen?", "it": "Posso farLe una domanda?" },
+        { "de": "Jeder macht mal Fehler.", "it": "Tutti fanno errori qualche volta." },
+        { "de": "Bitte nehmen Sie Rücksicht auf ältere Menschen.", "it": "Per favore, abbiate riguardo per le persone anziane." },
+        { "de": "Er hat von seiner Familie Abschied genommen.", "it": "Si è congedato dalla sua famiglia." },
+        { "de": "Die Eltern legen großen Wert auf gute Bildung.", "it": "I genitori danno grande importanza a una buona istruzione." },
+        { "de": "Sie macht sich große Sorgen um ihre Tochter.", "it": "Si preoccupa molto per sua figlia." },
+        { "de": "Die Lobbyisten nehmen Einfluss auf die Politik.", "it": "I lobbisti esercitano influenza sulla politica." },
+        { "de": "Ich möchte einen Antrag auf Förderung stellen.", "it": "Vorrei presentare una domanda di finanziamento." },
+        { "de": "Die Kinder haben große Fortschritte gemacht.", "it": "I bambini hanno fatto grandi progressi." }
+      ]
+    }
+  ]
+}

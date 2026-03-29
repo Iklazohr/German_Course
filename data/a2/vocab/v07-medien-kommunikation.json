@@ -1,0 +1,49 @@
+{
+  "id": "a2-v07",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Media e comunicazione",
+  "subtitle": "Medien und Kommunikation",
+  "groups": [
+    {
+      "name": "Media",
+      "words": [
+        { "de": "die Zeitung, -en", "it": "il giornale", "emoji": "📰", "example_de": "Ich lese jeden Morgen die Zeitung.", "example_it": "Leggo il giornale ogni mattina." },
+        { "de": "das Fernsehen", "it": "la televisione", "emoji": "📺", "example_de": "Abends schauen wir Fernsehen.", "example_it": "La sera guardiamo la televisione." },
+        { "de": "das Radio, -s", "it": "la radio", "emoji": "📻", "example_de": "Im Auto höre ich immer Radio.", "example_it": "In macchina ascolto sempre la radio." },
+        { "de": "das Internet", "it": "internet", "emoji": "🌐", "example_de": "Ich suche die Informationen im Internet.", "example_it": "Cerco le informazioni su internet." },
+        { "de": "die Nachricht, -en", "it": "il messaggio / la notizia", "emoji": "📩", "example_de": "Hast du meine Nachricht gelesen?", "example_it": "Hai letto il mio messaggio?" },
+        { "de": "der Film, -e", "it": "il film", "emoji": "🎬", "example_de": "Wir haben gestern einen tollen Film gesehen.", "example_it": "Ieri abbiamo visto un film fantastico." },
+        { "de": "das Handy, -s", "it": "il cellulare", "emoji": "📱", "example_de": "Mein Handy ist kaputt.", "example_it": "Il mio cellulare è rotto." },
+        { "de": "der Computer, -", "it": "il computer", "emoji": "💻", "example_de": "Ich arbeite den ganzen Tag am Computer.", "example_it": "Lavoro tutto il giorno al computer." },
+        { "de": "die Zeitschrift, -en", "it": "la rivista", "emoji": "📖", "example_de": "Sie liest gern Modezeitschriften.", "example_it": "Le piace leggere riviste di moda." }
+      ]
+    },
+    {
+      "name": "Comunicazione",
+      "words": [
+        { "de": "telefonieren", "it": "telefonare", "emoji": "📞", "example_de": "Ich telefoniere gerade mit meiner Mutter.", "example_it": "Sto telefonando con mia madre." },
+        { "de": "schreiben, schrieb, geschrieben", "it": "scrivere", "emoji": "✍️", "example_de": "Er schreibt einen Brief an seinen Freund.", "example_it": "Scrive una lettera al suo amico." },
+        { "de": "lesen, las, gelesen", "it": "leggere", "emoji": "📖", "example_de": "Sie liest jeden Tag die Nachrichten.", "example_it": "Lei legge le notizie ogni giorno." },
+        { "de": "sprechen, sprach, gesprochen", "it": "parlare", "emoji": "🗣️", "example_de": "Wir sprechen über das Wetter.", "example_it": "Parliamo del tempo." },
+        { "de": "hören", "it": "ascoltare / sentire", "emoji": "👂", "example_de": "Hörst du die Musik?", "example_it": "Senti la musica?" },
+        { "de": "schicken", "it": "inviare / mandare", "emoji": "📤", "example_de": "Ich schicke dir eine E-Mail.", "example_it": "Ti mando una e-mail." },
+        { "de": "empfangen, empfing, empfangen", "it": "ricevere", "emoji": "📥", "example_de": "Wir haben dein Paket empfangen.", "example_it": "Abbiamo ricevuto il tuo pacco." },
+        { "de": "antworten", "it": "rispondere", "emoji": "💬", "example_de": "Bitte antworte auf meine Nachricht!", "example_it": "Per favore rispondi al mio messaggio!" }
+      ]
+    },
+    {
+      "name": "Social e Internet",
+      "words": [
+        { "de": "die Webseite, -n", "it": "il sito web", "emoji": "🌐", "example_de": "Diese Webseite ist sehr nützlich.", "example_it": "Questo sito web è molto utile." },
+        { "de": "die E-Mail, -s", "it": "la e-mail", "emoji": "📧", "example_de": "Ich habe dir eine E-Mail geschickt.", "example_it": "Ti ho mandato una e-mail." },
+        { "de": "der Chat, -s", "it": "la chat", "emoji": "💬", "example_de": "Wir schreiben im Chat miteinander.", "example_it": "Ci scriviamo in chat." },
+        { "de": "das Foto, -s", "it": "la foto", "emoji": "📷", "example_de": "Sie hat ein schönes Foto gemacht.", "example_it": "Ha fatto una bella foto." },
+        { "de": "das Video, -s", "it": "il video", "emoji": "🎥", "example_de": "Ich schaue gern Videos im Internet.", "example_it": "Mi piace guardare video su internet." },
+        { "de": "teilen", "it": "condividere", "emoji": "🔗", "example_de": "Kannst du den Link mit mir teilen?", "example_it": "Puoi condividere il link con me?" },
+        { "de": "suchen", "it": "cercare", "emoji": "🔍", "example_de": "Ich suche ein gutes Restaurant.", "example_it": "Cerco un buon ristorante." },
+        { "de": "herunterladen, lud herunter, heruntergeladen", "it": "scaricare", "emoji": "⬇️", "example_de": "Du kannst die App kostenlos herunterladen.", "example_it": "Puoi scaricare l'app gratuitamente." }
+      ]
+    }
+  ]
+}

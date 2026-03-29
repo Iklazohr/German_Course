@@ -1,0 +1,45 @@
+{
+  "id": "a2-g10",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Domande indirette",
+  "subtitle": "Indirekte Fragen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le domande indirette sono domande inserite all'interno di un'altra frase. In tedesco hanno una struttura diversa dalle domande dirette: il verbo coniugato va alla fine della frase subordinata. Esistono due tipi: domande indirette con 'ob' (quando la domanda diretta è una domanda sì/no) e domande indirette con una parola interrogativa (W-Wort)."
+    },
+    {
+      "type": "rule",
+      "title": "Con 'ob' (se): domande sì/no",
+      "content": "Quando la domanda diretta è una domanda a cui si risponde con sì o no, nella domanda indiretta si usa 'ob' (se). Il verbo coniugato va alla fine.\n\nDomanda diretta: Kommt er morgen? (Viene domani?)\nDomanda indiretta: Ich weiß nicht, ob er morgen kommt. (Non so se viene domani.)\n\nDomanda diretta: Hat sie das Buch gelesen? (Ha letto il libro?)\nDomanda indiretta: Ich frage mich, ob sie das Buch gelesen hat. (Mi chiedo se ha letto il libro.)"
+    },
+    {
+      "type": "rule",
+      "title": "Con parola interrogativa (W-Wort)",
+      "content": "Quando la domanda diretta inizia con una parola interrogativa (wer, was, wo, wann, warum, wie, etc.), la domanda indiretta mantiene la stessa parola interrogativa, ma il verbo va alla fine.\n\nDomanda diretta: Wann kommt der Zug? (Quando arriva il treno?)\nDomanda indiretta: Weißt du, wann der Zug kommt? (Sai quando arriva il treno?)\n\nDomanda diretta: Wo wohnt Maria? (Dove abita Maria?)\nDomanda indiretta: Ich möchte wissen, wo Maria wohnt. (Vorrei sapere dove abita Maria.)"
+    },
+    {
+      "type": "rule",
+      "title": "Il verbo va alla fine (come nella Nebensatz)",
+      "content": "Le domande indirette sono frasi subordinate (Nebensätze). Come in tutte le subordinate introdotte da una congiunzione, il verbo coniugato va alla fine della frase.\n\nStruttura: Hauptsatz + , + ob/W-Wort + soggetto + ... + verbo coniugato\n\nEsempio con verbo modale:\nDiretta: Kann ich hier parken? → Indiretta: Ich frage, ob ich hier parken kann.\n\nEsempio con Perfekt:\nDiretta: Was hat er gesagt? → Indiretta: Ich weiß nicht, was er gesagt hat.\n\nFrasi introduttive comuni: Ich weiß nicht, ... / Ich möchte wissen, ... / Können Sie mir sagen, ... / Ich frage mich, ... / Weißt du, ...?"
+    },
+    {
+      "type": "tip",
+      "content": "Le domande indirette sono molto utili per essere più cortesi in tedesco! Invece di chiedere direttamente 'Wo ist die Toilette?' (Dov'è il bagno?), è più educato dire 'Können Sie mir sagen, wo die Toilette ist?' (Può dirmi dov'è il bagno?). Ricorda: la domanda indiretta NON ha l'inversione soggetto-verbo, il verbo va sempre alla fine!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Ich weiß nicht, ob er kommt.", "it": "Non so se lui viene." },
+        { "de": "Können Sie mir sagen, wo der Bahnhof ist?", "it": "Può dirmi dov'è la stazione?" },
+        { "de": "Ich frage mich, warum sie nicht anruft.", "it": "Mi chiedo perché lei non chiama." },
+        { "de": "Weißt du, wann das Konzert beginnt?", "it": "Sai quando inizia il concerto?" },
+        { "de": "Er möchte wissen, wie viel das kostet.", "it": "Lui vorrebbe sapere quanto costa." },
+        { "de": "Ich bin nicht sicher, ob das richtig ist.", "it": "Non sono sicuro se è corretto." },
+        { "de": "Sag mir bitte, wo du wohnst.", "it": "Dimmi per favore dove abiti." },
+        { "de": "Ich habe keine Ahnung, wer das gemacht hat.", "it": "Non ho idea di chi l'abbia fatto." }
+      ]
+    }
+  ]
+}

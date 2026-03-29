@@ -1,0 +1,213 @@
+{
+  "id": "b1-v05",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Viaggi e vacanze",
+  "subtitle": "Reisen und Urlaub",
+  "groups": [
+    {
+      "name": "Pianificazione",
+      "words": [
+        {
+          "de": "der Urlaub",
+          "it": "la vacanza",
+          "emoji": "🏖️",
+          "example_de": "Wir fahren im Sommer in den Urlaub.",
+          "example_it": "Andiamo in vacanza d'estate."
+        },
+        {
+          "de": "das Reisebüro",
+          "it": "l'agenzia di viaggi",
+          "emoji": "✈️",
+          "example_de": "Ich habe die Reise im Reisebüro gebucht.",
+          "example_it": "Ho prenotato il viaggio in agenzia."
+        },
+        {
+          "de": "die Buchung",
+          "it": "la prenotazione",
+          "emoji": "📋",
+          "example_de": "Die Buchung wurde per E-Mail bestätigt.",
+          "example_it": "La prenotazione è stata confermata via e-mail."
+        },
+        {
+          "de": "die Pauschalreise",
+          "it": "il viaggio tutto compreso",
+          "emoji": "📦",
+          "example_de": "Eine Pauschalreise ist oft günstiger.",
+          "example_it": "Un viaggio tutto compreso è spesso più economico."
+        },
+        {
+          "de": "die Unterkunft",
+          "it": "l'alloggio",
+          "emoji": "🏨",
+          "example_de": "Wir suchen noch eine Unterkunft für drei Nächte.",
+          "example_it": "Cerchiamo ancora un alloggio per tre notti."
+        },
+        {
+          "de": "der Campingplatz",
+          "it": "il campeggio",
+          "emoji": "⛺",
+          "example_de": "Der Campingplatz liegt direkt am See.",
+          "example_it": "Il campeggio si trova direttamente sul lago."
+        },
+        {
+          "de": "die Ferienwohnung",
+          "it": "l'appartamento vacanze",
+          "emoji": "🏠",
+          "example_de": "Wir haben eine Ferienwohnung mit Meerblick gemietet.",
+          "example_it": "Abbiamo affittato un appartamento vacanze con vista mare."
+        },
+        {
+          "de": "das Visum",
+          "it": "il visto",
+          "emoji": "📄",
+          "example_de": "Für diese Reise braucht man ein Visum.",
+          "example_it": "Per questo viaggio serve un visto."
+        },
+        {
+          "de": "der Reiseführer",
+          "it": "la guida turistica",
+          "emoji": "📖",
+          "example_de": "Ich habe einen Reiseführer über Spanien gekauft.",
+          "example_it": "Ho comprato una guida turistica sulla Spagna."
+        }
+      ]
+    },
+    {
+      "name": "Destinazioni",
+      "words": [
+        {
+          "de": "der Strand",
+          "it": "la spiaggia",
+          "emoji": "🏖️",
+          "example_de": "Der Strand war wunderschön und sauber.",
+          "example_it": "La spiaggia era bellissima e pulita."
+        },
+        {
+          "de": "die Berge",
+          "it": "le montagne",
+          "emoji": "⛰️",
+          "example_de": "Im Winter fahren wir gern in die Berge.",
+          "example_it": "D'inverno ci piace andare in montagna."
+        },
+        {
+          "de": "der See",
+          "it": "il lago",
+          "emoji": "🏞️",
+          "example_de": "Wir haben am See gezeltet.",
+          "example_it": "Abbiamo campeggiato al lago."
+        },
+        {
+          "de": "die Insel",
+          "it": "l'isola",
+          "emoji": "🏝️",
+          "example_de": "Mallorca ist eine beliebte Insel.",
+          "example_it": "Maiorca è un'isola popolare."
+        },
+        {
+          "de": "die Sehenswürdigkeit",
+          "it": "l'attrazione turistica",
+          "emoji": "🏛️",
+          "example_de": "Das Brandenburger Tor ist eine berühmte Sehenswürdigkeit.",
+          "example_it": "La Porta di Brandeburgo è un'attrazione famosa."
+        },
+        {
+          "de": "das Museum",
+          "it": "il museo",
+          "emoji": "🖼️",
+          "example_de": "Wir haben drei Museen in Berlin besucht.",
+          "example_it": "Abbiamo visitato tre musei a Berlino."
+        },
+        {
+          "de": "die Altstadt",
+          "it": "il centro storico",
+          "emoji": "🏘️",
+          "example_de": "Die Altstadt von Heidelberg ist sehr romantisch.",
+          "example_it": "Il centro storico di Heidelberg è molto romantico."
+        },
+        {
+          "de": "der Nationalpark",
+          "it": "il parco nazionale",
+          "emoji": "🌲",
+          "example_de": "Im Nationalpark kann man wilde Tiere sehen.",
+          "example_it": "Nel parco nazionale si possono vedere animali selvatici."
+        },
+        {
+          "de": "die Küste",
+          "it": "la costa",
+          "emoji": "🌊",
+          "example_de": "Die Küste Kroatiens ist atemberaubend.",
+          "example_it": "La costa della Croazia è mozzafiato."
+        }
+      ]
+    },
+    {
+      "name": "Attività",
+      "words": [
+        {
+          "de": "wandern",
+          "it": "fare escursioni",
+          "emoji": "🥾",
+          "example_de": "Am Wochenende gehen wir in den Alpen wandern.",
+          "example_it": "Nel fine settimana andiamo a fare escursioni nelle Alpi."
+        },
+        {
+          "de": "besichtigen",
+          "it": "visitare / fare un giro turistico",
+          "emoji": "👀",
+          "example_de": "Wir möchten die Burg besichtigen.",
+          "example_it": "Vorremmo visitare il castello."
+        },
+        {
+          "de": "fotografieren",
+          "it": "fotografare",
+          "emoji": "📸",
+          "example_de": "Er fotografiert gern alte Gebäude.",
+          "example_it": "Gli piace fotografare edifici antichi."
+        },
+        {
+          "de": "schwimmen",
+          "it": "nuotare",
+          "emoji": "🏊",
+          "example_de": "Im Meer zu schwimmen macht mir großen Spaß.",
+          "example_it": "Nuotare nel mare mi diverte molto."
+        },
+        {
+          "de": "sonnenbaden",
+          "it": "prendere il sole",
+          "emoji": "☀️",
+          "example_de": "Sie liegt den ganzen Tag am Strand und sonnenbadet.",
+          "example_it": "Sta sdraiata tutto il giorno in spiaggia a prendere il sole."
+        },
+        {
+          "de": "tauchen",
+          "it": "fare immersioni",
+          "emoji": "🤿",
+          "example_de": "In Ägypten kann man wunderbar tauchen.",
+          "example_it": "In Egitto si possono fare immersioni meravigliose."
+        },
+        {
+          "de": "klettern",
+          "it": "arrampicarsi",
+          "emoji": "🧗",
+          "example_de": "Er klettert jedes Wochenende in den Bergen.",
+          "example_it": "Si arrampica ogni fine settimana in montagna."
+        },
+        {
+          "de": "segeln",
+          "it": "navigare a vela",
+          "emoji": "⛵",
+          "example_de": "Wir haben auf dem Bodensee gesegelt.",
+          "example_it": "Abbiamo navigato a vela sul Lago di Costanza."
+        },
+        {
+          "de": "zelten",
+          "it": "campeggiare",
+          "emoji": "🏕️",
+          "example_de": "Die Kinder lieben es, im Wald zu zelten.",
+          "example_it": "Ai bambini piace campeggiare nel bosco."
+        }
+      ]
+    }
+  ]
+}

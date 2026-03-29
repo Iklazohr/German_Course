@@ -1,0 +1,45 @@
+{
+  "id": "a1-g13",
+  "level": "a1",
+  "type": "grammar",
+  "title": "L'ora e il verbo \"haben\"",
+  "subtitle": "Die Uhrzeit und das Verb \"haben\"",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Saper dire e chiedere l'ora è fondamentale nella vita quotidiana. In tedesco esistono due modi per indicare l'ora: quello ufficiale (usato negli annunci, negli orari) e quello colloquiale (usato nella conversazione di tutti i giorni). In questa lezione impariamo anche il verbo 'haben' (avere), uno dei verbi più importanti del tedesco."
+    },
+    {
+      "type": "rule",
+      "title": "L'ora ufficiale (formale)",
+      "content": "Si usa il sistema delle 24 ore, come in italiano per gli orari ufficiali:\n\nEs ist dreizehn Uhr. = Sono le 13:00.\nEs ist vierzehn Uhr dreißig. = Sono le 14:30.\nEs ist zwanzig Uhr fünfundvierzig. = Sono le 20:45.\nEs ist null Uhr fünfzehn. = Sono le 00:15.\n\nStruttura: Es ist + ora + Uhr + minuti.\n\nPer chiedere l'ora:\nWie spät ist es? = Che ora è?\nWie viel Uhr ist es? = Che ore sono?"
+    },
+    {
+      "type": "rule",
+      "title": "L'ora colloquiale (informale)",
+      "content": "Nella conversazione quotidiana si usa il sistema delle 12 ore con espressioni specifiche:\n\n:00 → Uhr: Es ist drei Uhr. (Sono le tre.)\n:15 → Viertel nach: Es ist Viertel nach drei. (Sono le tre e un quarto.)\n:30 → halb + ORA SUCCESSIVA: Es ist halb vier. (Sono le tre e mezza!)\n:45 → Viertel vor: Es ist Viertel vor vier. (Sono le quattro meno un quarto.)\n\nATTENZIONE: 'halb vier' = 3:30 (NON 4:30)! In tedesco si guarda all'ora successiva per 'halb'. Questa è una differenza importante rispetto all'italiano!\n\nAltre espressioni:\nfünf nach drei = 3:05\nzehn nach drei = 3:10\nzwanzig nach drei = 3:20\nfünf vor halb vier = 3:25\nfünf nach halb vier = 3:35\nzehn vor vier = 3:50"
+    },
+    {
+      "type": "rule",
+      "title": "Il verbo 'haben' (avere) - Coniugazione al presente",
+      "content": "ich habe = io ho\ndu hast = tu hai\ner/sie/es hat = lui/lei ha\nwir haben = noi abbiamo\nihr habt = voi avete\nsie/Sie haben = loro hanno / Lei ha (formale)\n\n'Haben' è un verbo irregolare molto importante. Si usa per:\n- Possesso: Ich habe ein Auto. (Ho una macchina.)\n- Età: Ich habe 25 Jahre. / Ich bin 25 Jahre alt. (Ho 25 anni.)\n- Espressioni: Hunger haben (avere fame), Durst haben (avere sete), Zeit haben (avere tempo), Recht haben (avere ragione)"
+    },
+    {
+      "type": "tip",
+      "content": "Il trucco per 'halb': pensa sempre all'ora che viene DOPO. 'Halb drei' = metà strada verso le 3 = 2:30. Molti italiani sbagliano questo punto! Per il verbo 'haben': in tedesco si dice anche 'Ich bin 25 Jahre alt' (sono 25 anni vecchio) per l'età, diversamente dall'italiano dove si usa sempre 'avere'."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Wie spät ist es? – Es ist halb acht.", "it": "Che ora è? – Sono le sette e mezza." },
+        { "de": "Der Zug kommt um Viertel nach neun.", "it": "Il treno arriva alle nove e un quarto." },
+        { "de": "Ich habe heute keine Zeit.", "it": "Oggi non ho tempo." },
+        { "de": "Hast du Hunger?", "it": "Hai fame?" },
+        { "de": "Wir haben zwei Kinder.", "it": "Abbiamo due figli." },
+        { "de": "Er hat morgen um zehn Uhr einen Termin.", "it": "Lui ha un appuntamento domani alle dieci." },
+        { "de": "Habt ihr ein Wörterbuch?", "it": "Avete un dizionario?" },
+        { "de": "Es ist Viertel vor zwölf.", "it": "Sono le dodici meno un quarto." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "a1-g14",
+  "level": "a1",
+  "type": "grammar",
+  "title": "Preposizioni di tempo",
+  "subtitle": "Temporale Präpositionen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le preposizioni di tempo in tedesco seguono regole precise. Ogni tipo di indicazione temporale (ora, giorno, mese, stagione) richiede una preposizione specifica. A livello A1 è importante conoscere le preposizioni più comuni e sapere quando usarle."
+    },
+    {
+      "type": "rule",
+      "title": "Preposizioni temporali fondamentali",
+      "content": "UM + orario (a che ora):\num 8 Uhr = alle 8\num halb drei = alle 2:30\num Mitternacht = a mezzanotte\n\nAM + giorno della settimana / parte del giorno / data:\nam Montag = lunedì\nam Wochenende = nel fine settimana\nam Morgen = di mattina (ma: in der Nacht = di notte)\nam 3. März = il 3 marzo\n\nIM + mese / stagione:\nim Januar = a gennaio\nim Sommer = in estate\nim Winter = in inverno\n\nVON ... BIS + periodo (da ... a):\nvon Montag bis Freitag = da lunedì a venerdì\nvon 8 bis 12 Uhr = dalle 8 alle 12"
+    },
+    {
+      "type": "rule",
+      "title": "Altre preposizioni temporali importanti",
+      "content": "SEIT + dativo (da - per azioni che continuano):\nseit zwei Jahren = da due anni\nseit Montag = da lunedì\n\nVOR + dativo (fa - nel passato):\nvor einer Stunde = un'ora fa\nvor zwei Tagen = due giorni fa\n\nNACH + dativo (dopo):\nnach dem Essen = dopo il pasto\nnach der Schule = dopo la scuola\n\nAB + dativo (a partire da):\nab morgen = da domani\nab nächster Woche = dalla prossima settimana\n\nSenza preposizione: heute (oggi), morgen (domani), gestern (ieri), jetzt (adesso), bald (presto), oft (spesso), immer (sempre), nie (mai)"
+    },
+    {
+      "type": "tip",
+      "content": "Un trucco per ricordare: UM per l'ora (pensa all'orologio che gira 'intorno'), AM per i giorni (pensa 'a + il'), IM per mesi e stagioni (pensa 'in + il'). Attenzione: 'am Morgen' (di mattina) ma 'in der Nacht' (di notte) - la notte è un'eccezione!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Ich stehe um 7 Uhr auf.", "it": "Mi alzo alle 7." },
+        { "de": "Am Samstag gehe ich einkaufen.", "it": "Sabato vado a fare la spesa." },
+        { "de": "Im Dezember ist es kalt.", "it": "A dicembre fa freddo." },
+        { "de": "Ich arbeite von 9 bis 17 Uhr.", "it": "Lavoro dalle 9 alle 17." },
+        { "de": "Seit drei Monaten lerne ich Deutsch.", "it": "Studio tedesco da tre mesi." },
+        { "de": "Vor einer Woche war ich in Berlin.", "it": "Una settimana fa ero a Berlino." },
+        { "de": "Nach dem Frühstück gehe ich zur Arbeit.", "it": "Dopo la colazione vado al lavoro." },
+        { "de": "Ab morgen mache ich Sport.", "it": "Da domani faccio sport." }
+      ]
+    }
+  ]
+}

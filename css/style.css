@@ -176,13 +176,79 @@ body {
     padding: 16px;
     max-width: 800px;
     margin: 0 auto;
-    animation: fadeIn 0.2s ease;
+    animation: pageSlideIn 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes pageSlideIn {
+    from { opacity: 0; transform: translateY(16px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
+
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes bounceIn {
+    0% { opacity: 0; transform: scale(0.3); }
+    50% { transform: scale(1.05); }
+    70% { transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+@keyframes confetti {
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(-60px) rotate(360deg); opacity: 0; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes progressFill {
+    from { width: 0; }
+}
+
+/* Staggered children animation */
+.stagger-in > * {
+    animation: pageSlideIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+.stagger-in > *:nth-child(1) { animation-delay: 0s; }
+.stagger-in > *:nth-child(2) { animation-delay: 0.05s; }
+.stagger-in > *:nth-child(3) { animation-delay: 0.1s; }
+.stagger-in > *:nth-child(4) { animation-delay: 0.15s; }
+.stagger-in > *:nth-child(5) { animation-delay: 0.2s; }
+.stagger-in > *:nth-child(6) { animation-delay: 0.25s; }
+.stagger-in > *:nth-child(7) { animation-delay: 0.3s; }
+.stagger-in > *:nth-child(8) { animation-delay: 0.35s; }
+.stagger-in > *:nth-child(9) { animation-delay: 0.4s; }
+.stagger-in > *:nth-child(10) { animation-delay: 0.45s; }
 
 /* ===== Bottom Navigation ===== */
 #bottom-nav {

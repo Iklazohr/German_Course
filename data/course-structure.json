@@ -70,6 +70,52 @@
             { "id": "a1-v08", "type": "vocab", "file": "a1/vocab/v08-alltag.json", "title": "Vita quotidiana" },
             { "id": "a1-e06", "type": "exercise", "file": "a1/exercises/e06-verbi-speciali.json", "title": "Esercizi: Verbi speciali" }
           ],
+          "review": null
+        },
+        {
+          "id": "a1-u7",
+          "title": "Unità 7: Possessivi e imperativo",
+          "lessons": [
+            { "id": "a1-g11", "type": "grammar", "file": "a1/grammar/g11-possessivpronomen.json", "title": "Pronomi possessivi" },
+            { "id": "a1-g12", "type": "grammar", "file": "a1/grammar/g12-imperativ.json", "title": "L'imperativo" },
+            { "id": "a1-v09", "type": "vocab", "file": "a1/vocab/v09-haus-wohnung.json", "title": "La casa e le stanze" },
+            { "id": "a1-e07", "type": "exercise", "file": "a1/exercises/e07-possessiv-imperativ.json", "title": "Esercizi: Possessivi e imperativo" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a1-u8",
+          "title": "Unità 8: Tempo e routine",
+          "lessons": [
+            { "id": "a1-g13", "type": "grammar", "file": "a1/grammar/g13-uhrzeit-haben.json", "title": "L'ora e il verbo \"haben\"" },
+            { "id": "a1-g14", "type": "grammar", "file": "a1/grammar/g14-praeposition-zeit.json", "title": "Preposizioni di tempo" },
+            { "id": "a1-v10", "type": "vocab", "file": "a1/vocab/v10-tagesablauf.json", "title": "La routine quotidiana" },
+            { "id": "a1-v11", "type": "vocab", "file": "a1/vocab/v11-koerperteile.json", "title": "Parti del corpo" },
+            { "id": "a1-e08", "type": "exercise", "file": "a1/exercises/e08-zeit-routine.json", "title": "Esercizi: Tempo e routine" }
+          ],
+          "review": { "id": "a1-r08", "file": "a1/review/r08-unit8-test.json", "title": "Test Unità 8" }
+        },
+        {
+          "id": "a1-u9",
+          "title": "Unità 9: Orientamento e luoghi",
+          "lessons": [
+            { "id": "a1-g15", "type": "grammar", "file": "a1/grammar/g15-lokale-praepositionen.json", "title": "Preposizioni di luogo" },
+            { "id": "a1-g16", "type": "grammar", "file": "a1/grammar/g16-es-gibt.json", "title": "\"Es gibt\" e \"man\"" },
+            { "id": "a1-v12", "type": "vocab", "file": "a1/vocab/v12-stadt-orte.json", "title": "La città e i luoghi" },
+            { "id": "a1-v13", "type": "vocab", "file": "a1/vocab/v13-verkehrsmittel.json", "title": "Mezzi di trasporto" },
+            { "id": "a1-e09", "type": "exercise", "file": "a1/exercises/e09-orte-richtungen.json", "title": "Esercizi: Luoghi e direzioni" }
+          ],
+          "review": null
+        },
+        {
+          "id": "a1-u10",
+          "title": "Unità 10: Riepilogo A1",
+          "lessons": [
+            { "id": "a1-g17", "type": "grammar", "file": "a1/grammar/g17-werden-futur.json", "title": "Il verbo \"werden\" e cenni sul futuro" },
+            { "id": "a1-v14", "type": "vocab", "file": "a1/vocab/v14-schule-lernen.json", "title": "Scuola e apprendimento" },
+            { "id": "a1-v15", "type": "vocab", "file": "a1/vocab/v15-freizeit-sport.json", "title": "Tempo libero e sport" },
+            { "id": "a1-e10", "type": "exercise", "file": "a1/exercises/e10-riepilogo.json", "title": "Esercizi: Riepilogo generale" }
+          ],
           "review": { "id": "a1-r06", "file": "a1/review/r06-final-test.json", "title": "Test finale A1" }
         }
       ]
@@ -124,6 +170,29 @@
             { "id": "a2-v06", "type": "vocab", "file": "a2/vocab/v06-freizeit-hobby.json", "title": "Tempo libero e hobby" },
             { "id": "a2-e04", "type": "exercise", "file": "a2/exercises/e04-nebensaetze.json", "title": "Esercizi: Frasi complesse" }
           ],
+          "review": null
+        },
+        {
+          "id": "a2-u5",
+          "title": "Unità 5: Declinazione degli aggettivi",
+          "lessons": [
+            { "id": "a2-g09", "type": "grammar", "file": "a2/grammar/g09-adjektivdeklination.json", "title": "Declinazione degli aggettivi" },
+            { "id": "a2-g10", "type": "grammar", "file": "a2/grammar/g10-indirekte-fragen.json", "title": "Domande indirette" },
+            { "id": "a2-v07", "type": "vocab", "file": "a2/vocab/v07-medien-kommunikation.json", "title": "Media e comunicazione" },
+            { "id": "a2-e05", "type": "exercise", "file": "a2/exercises/e05-adjektiv-fragen.json", "title": "Esercizi: Aggettivi e domande indirette" }
+          ],
+          "review": { "id": "a2-r05", "file": "a2/review/r05-unit5-test.json", "title": "Test Unità 5" }
+        },
+        {
+          "id": "a2-u6",
+          "title": "Unità 6: Il futuro e le opinioni",
+          "lessons": [
+            { "id": "a2-g11", "type": "grammar", "file": "a2/grammar/g11-futur1.json", "title": "Il futuro con \"werden\"" },
+            { "id": "a2-g12", "type": "grammar", "file": "a2/grammar/g12-relativpronomen-intro.json", "title": "Introduzione ai pronomi relativi" },
+            { "id": "a2-v08", "type": "vocab", "file": "a2/vocab/v08-arbeit-buero.json", "title": "Lavoro e ufficio" },
+            { "id": "a2-v09", "type": "vocab", "file": "a2/vocab/v09-gefuehle-meinungen.json", "title": "Sentimenti e opinioni" },
+            { "id": "a2-e06", "type": "exercise", "file": "a2/exercises/e06-futur-relativ.json", "title": "Esercizi: Futuro e pronomi relativi" }
+          ],
           "review": { "id": "a2-r04", "file": "a2/review/r04-final-test.json", "title": "Test finale A2" }
         }
       ]
@@ -166,6 +235,30 @@
             { "id": "b1-v04", "type": "vocab", "file": "b1/vocab/v04-gefuehle.json", "title": "Sentimenti e emozioni" },
             { "id": "b1-e03", "type": "exercise", "file": "b1/exercises/e03-infinitiv-genitiv.json", "title": "Esercizi: Infinito e genitivo" }
           ],
+          "review": null
+        },
+        {
+          "id": "b1-u4",
+          "title": "Unità 4: Tempi verbali avanzati",
+          "lessons": [
+            { "id": "b1-g07", "type": "grammar", "file": "b1/grammar/g07-plusquamperfekt.json", "title": "Il Plusquamperfekt (trapassato)" },
+            { "id": "b1-g08", "type": "grammar", "file": "b1/grammar/g08-futur2.json", "title": "Il Futur II e le ipotesi" },
+            { "id": "b1-v05", "type": "vocab", "file": "b1/vocab/v05-reisen-urlaub.json", "title": "Viaggi e vacanze" },
+            { "id": "b1-v06", "type": "vocab", "file": "b1/vocab/v06-kultur-medien.json", "title": "Cultura e media" },
+            { "id": "b1-e04", "type": "exercise", "file": "b1/exercises/e04-plusquam-futur.json", "title": "Esercizi: Tempi verbali avanzati" }
+          ],
+          "review": { "id": "b1-r04", "file": "b1/review/r04-unit4-test.json", "title": "Test Unità 4" }
+        },
+        {
+          "id": "b1-u5",
+          "title": "Unità 5: Formazione delle parole",
+          "lessons": [
+            { "id": "b1-g09", "type": "grammar", "file": "b1/grammar/g09-wortbildung.json", "title": "Formazione delle parole composte" },
+            { "id": "b1-g10", "type": "grammar", "file": "b1/grammar/g10-n-deklination.json", "title": "La n-Deklination" },
+            { "id": "b1-v07", "type": "vocab", "file": "b1/vocab/v07-technik-internet.json", "title": "Tecnologia e internet" },
+            { "id": "b1-v08", "type": "vocab", "file": "b1/vocab/v08-gesellschaft.json", "title": "Società e convivenza" },
+            { "id": "b1-e05", "type": "exercise", "file": "b1/exercises/e05-wortbildung-ndekl.json", "title": "Esercizi: Parole composte e n-Deklination" }
+          ],
           "review": { "id": "b1-r03", "file": "b1/review/r03-final-test.json", "title": "Test finale B1" }
         }
       ]
@@ -197,6 +290,29 @@
             { "id": "b2-v03", "type": "vocab", "file": "b2/vocab/v03-wirtschaft.json", "title": "Economia e finanza" },
             { "id": "b2-e02", "type": "exercise", "file": "b2/exercises/e02-konnektoren-konj1.json", "title": "Esercizi: Connettori e Konjunktiv I" }
           ],
+          "review": null
+        },
+        {
+          "id": "b2-u3",
+          "title": "Unità 3: Espressioni funzionali",
+          "lessons": [
+            { "id": "b2-g05", "type": "grammar", "file": "b2/grammar/g05-funktionsverben.json", "title": "Verbi funzionali (Funktionsverbgefüge)" },
+            { "id": "b2-g06", "type": "grammar", "file": "b2/grammar/g06-nomen-verb.json", "title": "Combinazioni nome-verbo" },
+            { "id": "b2-v04", "type": "vocab", "file": "b2/vocab/v04-recht-justiz.json", "title": "Diritto e giustizia" },
+            { "id": "b2-v05", "type": "vocab", "file": "b2/vocab/v05-wissenschaft-forschung.json", "title": "Scienza e ricerca" },
+            { "id": "b2-e03", "type": "exercise", "file": "b2/exercises/e03-funktionsverben.json", "title": "Esercizi: Verbi funzionali" }
+          ],
+          "review": { "id": "b2-r03", "file": "b2/review/r03-unit3-test.json", "title": "Test Unità 3" }
+        },
+        {
+          "id": "b2-u4",
+          "title": "Unità 4: Coesione testuale",
+          "lessons": [
+            { "id": "b2-g07", "type": "grammar", "file": "b2/grammar/g07-textkohaesion.json", "title": "Coesione testuale e pronomi" },
+            { "id": "b2-g08", "type": "grammar", "file": "b2/grammar/g08-modalitaet.json", "title": "Esprimere modalità e sfumature" },
+            { "id": "b2-v06", "type": "vocab", "file": "b2/vocab/v06-psychologie-gesundheit.json", "title": "Psicologia e salute" },
+            { "id": "b2-e04", "type": "exercise", "file": "b2/exercises/e04-textkohaesion.json", "title": "Esercizi: Coesione e modalità" }
+          ],
           "review": { "id": "b2-r02", "file": "b2/review/r02-final-test.json", "title": "Test finale B2" }
         }
       ]
@@ -227,6 +343,30 @@
             { "id": "c1-v02", "type": "vocab", "file": "c1/vocab/v02-kultur-philosophie.json", "title": "Cultura e filosofia" },
             { "id": "c1-v03", "type": "vocab", "file": "c1/vocab/v03-idiome-redewendungen.json", "title": "Modi di dire e espressioni idiomatiche" },
             { "id": "c1-e02", "type": "exercise", "file": "c1/exercises/e02-passiversatz-modal.json", "title": "Esercizi: Stile avanzato" }
+          ],
+          "review": null
+        },
+        {
+          "id": "c1-u3",
+          "title": "Unità 3: Registro e stile",
+          "lessons": [
+            { "id": "c1-g05", "type": "grammar", "file": "c1/grammar/g05-register.json", "title": "Registri linguistici: formale e informale" },
+            { "id": "c1-g06", "type": "grammar", "file": "c1/grammar/g06-komplexe-syntax.json", "title": "Sintassi complessa e frasi incassate" },
+            { "id": "c1-v04", "type": "vocab", "file": "c1/vocab/v04-medizin-gesundheit.json", "title": "Medicina e salute" },
+            { "id": "c1-v05", "type": "vocab", "file": "c1/vocab/v05-umwelt-nachhaltigkeit.json", "title": "Ambiente e sostenibilità avanzato" },
+            { "id": "c1-e03", "type": "exercise", "file": "c1/exercises/e03-register-syntax.json", "title": "Esercizi: Registro e sintassi" }
+          ],
+          "review": null
+        },
+        {
+          "id": "c1-u4",
+          "title": "Unità 4: Scrittura accademica",
+          "lessons": [
+            { "id": "c1-g07", "type": "grammar", "file": "c1/grammar/g07-wissenschaftliches-schreiben.json", "title": "Scrittura accademica in tedesco" },
+            { "id": "c1-g08", "type": "grammar", "file": "c1/grammar/g08-stilmittel.json", "title": "Figure retoriche e mezzi stilistici" },
+            { "id": "c1-v06", "type": "vocab", "file": "c1/vocab/v06-literatur-textanalyse.json", "title": "Letteratura e analisi testuale" },
+            { "id": "c1-v07", "type": "vocab", "file": "c1/vocab/v07-berufswelt-formal.json", "title": "Mondo professionale formale" },
+            { "id": "c1-e04", "type": "exercise", "file": "c1/exercises/e04-schreiben-stilmittel.json", "title": "Esercizi: Scrittura e retorica" }
           ],
           "review": { "id": "c1-r02", "file": "c1/review/r02-final-test.json", "title": "Test finale C1" }
         }

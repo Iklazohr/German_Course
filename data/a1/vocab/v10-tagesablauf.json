@@ -1,0 +1,48 @@
+{
+  "id": "a1-v10",
+  "level": "a1",
+  "type": "vocab",
+  "title": "La routine quotidiana",
+  "subtitle": "Der Tagesablauf",
+  "groups": [
+    {
+      "name": "Mattina",
+      "words": [
+        { "de": "aufstehen", "it": "alzarsi", "emoji": "⏰", "example_de": "Ich stehe um 6 Uhr auf.", "example_it": "Mi alzo alle 6." },
+        { "de": "frühstücken", "it": "fare colazione", "emoji": "🍳", "example_de": "Ich frühstücke um halb sieben.", "example_it": "Faccio colazione alle sei e mezza." },
+        { "de": "sich anziehen", "it": "vestirsi", "emoji": "👔", "example_de": "Ich ziehe mich schnell an.", "example_it": "Mi vesto velocemente." },
+        { "de": "sich waschen", "it": "lavarsi", "emoji": "🧼", "example_de": "Ich wasche mich jeden Morgen.", "example_it": "Mi lavo ogni mattina." },
+        { "de": "Zähne putzen", "it": "lavarsi i denti", "emoji": "🪥", "example_de": "Ich putze mir die Zähne.", "example_it": "Mi lavo i denti." },
+        { "de": "duschen", "it": "fare la doccia", "emoji": "🚿", "example_de": "Ich dusche morgens.", "example_it": "Faccio la doccia di mattina." },
+        { "de": "zur Arbeit gehen", "it": "andare al lavoro", "emoji": "🏢", "example_de": "Ich gehe um 8 Uhr zur Arbeit.", "example_it": "Vado al lavoro alle 8." },
+        { "de": "der Wecker", "it": "la sveglia", "emoji": "🔔", "example_de": "Der Wecker klingelt um 6 Uhr.", "example_it": "La sveglia suona alle 6." }
+      ]
+    },
+    {
+      "name": "Giorno",
+      "words": [
+        { "de": "arbeiten", "it": "lavorare", "emoji": "💼", "example_de": "Ich arbeite von 9 bis 17 Uhr.", "example_it": "Lavoro dalle 9 alle 17." },
+        { "de": "das Mittagessen", "it": "il pranzo", "emoji": "🍽️", "example_de": "Das Mittagessen ist um 12 Uhr.", "example_it": "Il pranzo è alle 12." },
+        { "de": "Pause machen", "it": "fare una pausa", "emoji": "☕", "example_de": "Um 10 Uhr mache ich Pause.", "example_it": "Alle 10 faccio una pausa." },
+        { "de": "einkaufen", "it": "fare la spesa", "emoji": "🛒", "example_de": "Am Nachmittag kaufe ich ein.", "example_it": "Nel pomeriggio faccio la spesa." },
+        { "de": "der Nachmittag", "it": "il pomeriggio", "emoji": "☀️", "example_de": "Am Nachmittag habe ich frei.", "example_it": "Nel pomeriggio sono libero." },
+        { "de": "lernen", "it": "studiare", "emoji": "📚", "example_de": "Am Nachmittag lerne ich Deutsch.", "example_it": "Nel pomeriggio studio tedesco." },
+        { "de": "die Mittagspause", "it": "la pausa pranzo", "emoji": "🥪", "example_de": "Die Mittagspause dauert eine Stunde.", "example_it": "La pausa pranzo dura un'ora." },
+        { "de": "nach Hause gehen", "it": "andare a casa", "emoji": "🏠", "example_de": "Um 17 Uhr gehe ich nach Hause.", "example_it": "Alle 17 vado a casa." }
+      ]
+    },
+    {
+      "name": "Sera",
+      "words": [
+        { "de": "kochen", "it": "cucinare", "emoji": "👨‍🍳", "example_de": "Am Abend koche ich.", "example_it": "Di sera cucino." },
+        { "de": "fernsehen", "it": "guardare la TV", "emoji": "📺", "example_de": "Abends sehe ich fern.", "example_it": "Di sera guardo la TV." },
+        { "de": "das Abendessen", "it": "la cena", "emoji": "🍝", "example_de": "Das Abendessen ist um 19 Uhr.", "example_it": "La cena è alle 19." },
+        { "de": "schlafen gehen", "it": "andare a dormire", "emoji": "😴", "example_de": "Ich gehe um 23 Uhr schlafen.", "example_it": "Vado a dormire alle 23." },
+        { "de": "sich ausruhen", "it": "riposarsi", "emoji": "🛋️", "example_de": "Nach der Arbeit ruhe ich mich aus.", "example_it": "Dopo il lavoro mi riposo." },
+        { "de": "spazieren gehen", "it": "andare a passeggiare", "emoji": "🚶", "example_de": "Am Abend gehe ich spazieren.", "example_it": "Di sera vado a passeggiare." },
+        { "de": "lesen", "it": "leggere", "emoji": "📖", "example_de": "Vor dem Schlafen lese ich ein Buch.", "example_it": "Prima di dormire leggo un libro." },
+        { "de": "sich ausziehen", "it": "svestirsi", "emoji": "👕", "example_de": "Ich ziehe mich aus und gehe ins Bett.", "example_it": "Mi svesto e vado a letto." }
+      ]
+    }
+  ]
+}

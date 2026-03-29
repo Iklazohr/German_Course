@@ -1,0 +1,69 @@
+{
+  "id": "b1-g07",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Il Plusquamperfekt",
+  "subtitle": "Das Plusquamperfekt",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il Plusquamperfekt (trapassato prossimo) è il tempo verbale che indica un'azione avvenuta prima di un'altra azione nel passato. Proprio come in italiano diciamo 'Dopo che avevo mangiato, sono uscito', in tedesco usiamo il Plusquamperfekt per esprimere il passato nel passato. Questo tempo è fondamentale per raccontare eventi in ordine cronologico e per costruire frasi temporali complesse."
+    },
+    {
+      "type": "rule",
+      "title": "Formazione: hatte/war + Partizip II",
+      "content": "Il Plusquamperfekt si forma con l'ausiliare 'hatte' (avere) o 'war' (essere) al Präteritum + il Partizip II del verbo principale.\n\n• Con HABEN (hatte): ich hatte gemacht, du hattest gemacht, er/sie/es hatte gemacht, wir hatten gemacht, ihr hattet gemacht, sie/Sie hatten gemacht\n• Con SEIN (war): ich war gegangen, du warst gegangen, er/sie/es war gegangen, wir waren gegangen, ihr wart gegangen, sie/Sie waren gegangen\n\nLa scelta tra haben e sein segue le stesse regole del Perfekt: sein si usa con verbi di movimento (gehen, fahren, fliegen), cambiamento di stato (werden, sterben, aufwachen) e i verbi sein e bleiben."
+    },
+    {
+      "type": "rule",
+      "title": "Uso principale: l'azione precedente nel passato",
+      "content": "Il Plusquamperfekt si usa per indicare che un'azione è avvenuta PRIMA di un'altra azione passata. L'azione più recente si esprime con il Präteritum o il Perfekt.\n\nNachdem ich gegessen hatte, ging ich spazieren.\n(Dopo che avevo mangiato, andai a passeggiare.)\n\nSie war schon gegangen, als ich ankam.\n(Lei era già andata via quando io arrivai.)\n\nEr hatte das Buch gelesen, bevor er den Film sah.\n(Aveva letto il libro prima di vedere il film.)"
+    },
+    {
+      "type": "rule",
+      "title": "Congiunzioni temporali: nachdem, bevor, als",
+      "content": "Il Plusquamperfekt si usa spesso con congiunzioni temporali che introducono frasi subordinate:\n\n• NACHDEM (dopo che) + Plusquamperfekt → frase principale al Präteritum\n  Nachdem er aufgestanden war, frühstückte er.\n  (Dopo che si era alzato, fece colazione.)\n\n• BEVOR (prima che) → la frase con bevor ha il Präteritum, l'altra il Plusquamperfekt\n  Bevor sie abreiste, hatte sie alles gepackt.\n  (Prima di partire, aveva preparato tutto.)\n\n• ALS (quando) + Plusquamperfekt → per un evento singolo nel passato\n  Als ich angekommen war, rief ich dich an.\n  (Quando ero arrivato, ti ho chiamato.)\n\nAttenzione: nelle frasi subordinate il verbo coniugato (hatte/war) va alla fine!"
+    },
+    {
+      "type": "tip",
+      "content": "Confronto con il trapassato prossimo italiano: il Plusquamperfekt funziona esattamente come il trapassato prossimo italiano (avevo mangiato, ero andato). La differenza principale è nella posizione del verbo: in tedesco, nelle frasi subordinate, l'ausiliare hatte/war va alla fine della frase. Ricorda: nachdem + Plusquamperfekt è una combinazione molto frequente e quasi automatica in tedesco!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Nachdem ich die Prüfung bestanden hatte, feierte ich mit Freunden.",
+          "it": "Dopo che avevo superato l'esame, festeggiai con gli amici."
+        },
+        {
+          "de": "Er war schon eingeschlafen, als der Film anfing.",
+          "it": "Si era già addormentato quando il film iniziò."
+        },
+        {
+          "de": "Wir hatten das Hotel gebucht, bevor die Preise stiegen.",
+          "it": "Avevamo prenotato l'hotel prima che i prezzi salissero."
+        },
+        {
+          "de": "Nachdem sie den Brief geschrieben hatte, brachte sie ihn zur Post.",
+          "it": "Dopo che aveva scritto la lettera, la portò alla posta."
+        },
+        {
+          "de": "Ich hatte noch nie Sushi gegessen, bevor ich nach Japan reiste.",
+          "it": "Non avevo mai mangiato sushi prima di viaggiare in Giappone."
+        },
+        {
+          "de": "Als wir angekommen waren, hatte das Konzert schon begonnen.",
+          "it": "Quando eravamo arrivati, il concerto era già iniziato."
+        },
+        {
+          "de": "Nachdem der Regen aufgehört hatte, gingen wir spazieren.",
+          "it": "Dopo che la pioggia aveva smesso, andammo a passeggiare."
+        },
+        {
+          "de": "Sie hatte drei Jahre in Berlin gelebt, bevor sie nach München zog.",
+          "it": "Aveva vissuto tre anni a Berlino prima di trasferirsi a Monaco."
+        }
+      ]
+    }
+  ]
+}

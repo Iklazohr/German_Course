@@ -1,0 +1,47 @@
+{
+  "id": "b2-g05",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Verbi funzionali (Funktionsverbgefüge)",
+  "subtitle": "Funktionsverbgefüge (FVG)",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I **Funktionsverbgefüge** (FVG) sono combinazioni fisse di un **verbo funzionale** e un **sostantivo** (spesso con preposizione) in cui il significato principale è portato dal sostantivo, non dal verbo. Il verbo serve solo come supporto grammaticale. Ad esempio, *eine Entscheidung treffen* (prendere una decisione) invece del semplice verbo *entscheiden* (decidere). Queste strutture sono estremamente comuni nel tedesco formale, accademico, giuridico e giornalistico. Padroneggiarle è fondamentale per leggere e scrivere a livello B2."
+    },
+    {
+      "type": "rule",
+      "title": "I FVG più importanti",
+      "content": "Ecco i Funktionsverbgefüge più frequenti e utili:\n\n- **in Betracht ziehen** → prendere in considerazione\n- **in Frage kommen** → entrare in questione, essere possibile\n- **zur Verfügung stehen** → essere a disposizione\n- **zur Verfügung stellen** → mettere a disposizione\n- **zum Ausdruck bringen** → esprimere\n- **in Anspruch nehmen** → usufruire di, richiedere\n- **in Gang setzen** → mettere in moto, avviare\n- **in Kauf nehmen** → accettare (qualcosa di negativo)\n- **zur Kenntnis nehmen** → prendere atto di\n- **in Kraft treten** → entrare in vigore\n- **Bescheid geben/sagen** → informare, avvisare\n- **in Betrieb nehmen** → mettere in funzione"
+    },
+    {
+      "type": "rule",
+      "title": "Modelli con preposizioni",
+      "content": "I FVG seguono modelli preposizionali ricorrenti che facilitano la memorizzazione:\n\n**in + Accusativo** (movimento, cambiamento di stato):\n- in Betracht ziehen, in Gang setzen, in Kauf nehmen, in Betrieb nehmen\n\n**in + Dativo** (stato):\n- in Frage kommen, in Betrieb sein, in Kraft sein\n\n**zum / zur** (zu + dem / zu + der):\n- zum Ausdruck bringen, zur Verfügung stehen/stellen, zur Kenntnis nehmen, zum Abschluss bringen\n\n**unter + Dativo**:\n- unter Beweis stellen (dimostrare), unter Druck setzen (mettere sotto pressione)\n\n**auf + Accusativo**:\n- auf den Punkt bringen (riassumere), auf die Probe stellen (mettere alla prova)"
+    },
+    {
+      "type": "rule",
+      "title": "FVG vs. verbi semplici",
+      "content": "Ogni FVG ha un equivalente come verbo semplice, ma i due non sono intercambiabili nel registro:\n\n| FVG (formale) | Verbo semplice (neutro) | Traduzione |\n|---|---|---|\n| Kritik üben (an + Dat.) | kritisieren | criticare |\n| zum Ausdruck bringen | ausdrücken | esprimere |\n| in Betracht ziehen | berücksichtigen / bedenken | considerare |\n| zur Verfügung stellen | bereitstellen | mettere a disposizione |\n| in Anspruch nehmen | nutzen / benutzen | usufruire di |\n| in Gang setzen | starten / beginnen | avviare |\n| eine Frage stellen | fragen | chiedere |\n| in Kauf nehmen | akzeptieren / hinnehmen | accettare |\n\nI FVG sono preferiti nei testi formali perché conferiscono un tono più **preciso, distanziato e professionale**."
+    },
+    {
+      "type": "tip",
+      "content": "I Funktionsverbgefüge sono onnipresenti nel tedesco formale: giornali, testi accademici, leggi, relazioni aziendali. Impararli a memoria come blocchi fissi ti permetterà di leggere fluentemente questi testi e di scrivere in modo più sofisticato. Attenzione: nell'orale informale suonano troppo formali, quindi usa i verbi semplici nella conversazione quotidiana!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Die Regierung muss diese Option in Betracht ziehen.", "it": "Il governo deve prendere in considerazione questa opzione." },
+        { "de": "Für diese Stelle kommen nur erfahrene Bewerber in Frage.", "it": "Per questa posizione entrano in questione solo candidati esperti." },
+        { "de": "Der Computer steht allen Mitarbeitern zur Verfügung.", "it": "Il computer è a disposizione di tutti i dipendenti." },
+        { "de": "Die Firma stellt den Praktikanten ein Büro zur Verfügung.", "it": "L'azienda mette a disposizione degli stagisti un ufficio." },
+        { "de": "Er brachte seine Unzufriedenheit deutlich zum Ausdruck.", "it": "Ha espresso chiaramente la sua insoddisfazione." },
+        { "de": "Sie hat den kostenlosen Service in Anspruch genommen.", "it": "Ha usufruito del servizio gratuito." },
+        { "de": "Das neue Gesetz tritt am 1. Januar in Kraft.", "it": "La nuova legge entra in vigore il 1 gennaio." },
+        { "de": "Man muss gewisse Nachteile in Kauf nehmen.", "it": "Bisogna accettare certi svantaggi." },
+        { "de": "Bitte geben Sie uns rechtzeitig Bescheid.", "it": "Per favore avvisateci per tempo." },
+        { "de": "Der Direktor hat das Projekt in Gang gesetzt.", "it": "Il direttore ha avviato il progetto." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "a1-g12",
+  "level": "a1",
+  "type": "grammar",
+  "title": "L'imperativo",
+  "subtitle": "Der Imperativ",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "L'imperativo in tedesco si usa per dare ordini, istruzioni, consigli o inviti, proprio come in italiano. Esistono tre forme: per 'du' (informale singolare), 'ihr' (informale plurale) e 'Sie' (formale). La formazione è piuttosto regolare, con alcune eccezioni importanti."
+    },
+    {
+      "type": "rule",
+      "title": "Formazione dell'imperativo regolare",
+      "content": "1. du-Form (informale singolare): si usa la radice del verbo (senza desinenza). Il pronome 'du' si omette.\n   machen → Mach! (Fai!)\n   kommen → Komm! (Vieni!)\n   trinken → Trink! (Bevi!)\n\n2. ihr-Form (informale plurale): radice + t. Il pronome 'ihr' si omette.\n   machen → Macht! (Fate!)\n   kommen → Kommt! (Venite!)\n   trinken → Trinkt! (Bevete!)\n\n3. Sie-Form (formale): infinito + Sie. Il pronome 'Sie' si mantiene!\n   machen → Machen Sie! (Faccia!/Facciano!)\n   kommen → Kommen Sie! (Venga!/Vengano!)\n   trinken → Trinken Sie! (Beva!/Bevano!)"
+    },
+    {
+      "type": "rule",
+      "title": "Imperativi irregolari",
+      "content": "Verbi con cambio vocalico (e→i/ie): mantengono il cambio nella du-Form:\n   lesen → Lies! (Leggi!) - aber: Lest! / Lesen Sie!\n   sprechen → Sprich! (Parla!) - aber: Sprecht! / Sprechen Sie!\n   nehmen → Nimm! (Prendi!) - aber: Nehmt! / Nehmen Sie!\n\nVerbi con Umlaut (a→ä): NON prendono l'Umlaut all'imperativo:\n   fahren → Fahr! (non 'Fähr!')\n   schlafen → Schlaf! (non 'Schläf!')\n\nVerbi completamente irregolari:\n   sein → Sei! / Seid! / Seien Sie! (Sii!/Siate!/Sia!)\n   haben → Hab! / Habt! / Haben Sie! (Abbi!/Abbiate!/Abbia!)\n   werden → Werde! / Werdet! / Werden Sie! (Diventa!/Diventate!/Diventi!)"
+    },
+    {
+      "type": "tip",
+      "content": "Per i verbi separabili, il prefisso va alla fine della frase: 'aufstehen' → 'Steh auf!' (Alzati!), 'mitkommen' → 'Komm mit!' (Vieni con noi!). Ricorda anche che la forma 'du' può opzionalmente aggiungere una '-e' finale (Mach! o Mache!), ma nell'uso quotidiano si preferisce la forma breve."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Komm bitte her!", "it": "Vieni qui, per favore!" },
+        { "de": "Macht die Tür zu!", "it": "Chiudete la porta!" },
+        { "de": "Sprechen Sie bitte langsam!", "it": "Parli lentamente, per favore!" },
+        { "de": "Lies das Buch!", "it": "Leggi il libro!" },
+        { "de": "Sei ruhig!", "it": "Stai tranquillo!" },
+        { "de": "Steh auf!", "it": "Alzati!" },
+        { "de": "Nimm deine Tasche!", "it": "Prendi la tua borsa!" },
+        { "de": "Haben Sie Geduld!", "it": "Abbia pazienza!" }
+      ]
+    }
+  ]
+}

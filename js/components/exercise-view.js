@@ -133,18 +133,23 @@ export async function renderExercise(exerciseId) {
         const pct = Math.round((correctCount / total) * 100);
         let scoreClass, message;
 
+        let emoji;
         if (pct >= 90) {
             scoreClass = 'excellent';
             message = 'Eccellente! Ottimo lavoro!';
+            emoji = '🏆';
         } else if (pct >= 70) {
             scoreClass = 'good';
             message = 'Molto bene! Continua così!';
+            emoji = '⭐';
         } else if (pct >= 50) {
             scoreClass = 'needs-work';
             message = 'Non male, ma puoi migliorare!';
+            emoji = '💪';
         } else {
             scoreClass = 'poor';
             message = 'Rivedi la lezione e riprova!';
+            emoji = '📚';
         }
 
         store.completeLesson(exerciseId, pct);
@@ -155,6 +160,7 @@ export async function renderExercise(exerciseId) {
 
         const page = renderPage(`
             <div class="summary-card card">
+                <div class="summary-emoji">${emoji}</div>
                 <div class="summary-score ${scoreClass}">
                     ${pct}%
                     <span>${correctCount}/${total} corrette</span>

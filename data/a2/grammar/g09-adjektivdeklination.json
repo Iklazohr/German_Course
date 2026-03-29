@@ -1,0 +1,55 @@
+{
+  "id": "a2-g09",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Declinazione degli aggettivi",
+  "subtitle": "Adjektivdeklination",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "In tedesco gli aggettivi che precedono un sostantivo devono essere declinati, cioè prendono delle desinenze che dipendono dal genere, dal numero, dal caso e dal tipo di articolo che li precede. In italiano gli aggettivi concordano solo in genere e numero, ma in tedesco il sistema è più complesso. Esistono tre schemi principali: dopo articolo determinativo, dopo articolo indeterminativo e senza articolo."
+    },
+    {
+      "type": "rule",
+      "title": "Dopo articolo determinativo (der, die, das): desinenze -e / -en",
+      "content": "Dopo l'articolo determinativo, l'aggettivo prende la desinenza -e al nominativo singolare (tutti i generi) e all'accusativo singolare femminile e neutro. In tutti gli altri casi prende -en.\n\nNominativo: der große Mann / die kleine Frau / das neue Buch / die guten Kinder\nAccusativo: den großen Mann / die kleine Frau / das neue Buch / die guten Kinder\nDativo: dem großen Mann / der kleinen Frau / dem neuen Buch / den guten Kindern\nGenitivo: des großen Mannes / der kleinen Frau / des neuen Buches / der guten Kinder"
+    },
+    {
+      "type": "rule",
+      "title": "Dopo articolo indeterminativo (ein, eine, kein, mein...): desinenze -er / -e / -es / -en",
+      "content": "Dopo l'articolo indeterminativo, l'aggettivo deve compensare le informazioni che l'articolo non fornisce. Al nominativo maschile prende -er, al nominativo/accusativo neutro prende -es, al nominativo/accusativo femminile prende -e. In tutti gli altri casi prende -en.\n\nNominativo: ein großer Mann / eine kleine Frau / ein neues Buch / keine guten Kinder\nAccusativo: einen großen Mann / eine kleine Frau / ein neues Buch / keine guten Kinder\nDativo: einem großen Mann / einer kleinen Frau / einem neuen Buch / keinen guten Kindern\nGenitivo: eines großen Mannes / einer kleinen Frau / eines neuen Buches / keiner guten Kinder"
+    },
+    {
+      "type": "rule",
+      "title": "Senza articolo (declinazione forte)",
+      "content": "Quando non c'è articolo, l'aggettivo prende le desinenze 'forti', che sono simili a quelle dell'articolo determinativo stesso, perché l'aggettivo deve fornire tutte le informazioni grammaticali.\n\nNominativo: großer Mann / kleine Frau / neues Buch / gute Kinder\nAccusativo: großen Mann / kleine Frau / neues Buch / gute Kinder\nDativo: großem Mann / kleiner Frau / neuem Buch / guten Kindern\nGenitivo: großen Mannes / kleiner Frau / neuen Buches / guter Kinder"
+    },
+    {
+      "type": "rule",
+      "title": "Tabella riassuntiva delle desinenze",
+      "content": "DOPO ARTICOLO DETERMINATIVO (debole):\n          Masc.  Fem.  Neutro  Plur.\nNom.      -e     -e    -e      -en\nAcc.      -en    -e    -e      -en\nDat.      -en    -en   -en     -en\nGen.      -en    -en   -en     -en\n\nDOPO ARTICOLO INDETERMINATIVO (misto):\n          Masc.  Fem.  Neutro  Plur.\nNom.      -er    -e    -es     -en\nAcc.      -en    -e    -es     -en\nDat.      -en    -en   -en     -en\nGen.      -en    -en   -en     -en\n\nSENZA ARTICOLO (forte):\n          Masc.  Fem.  Neutro  Plur.\nNom.      -er    -e    -es     -e\nAcc.      -en    -e    -es     -e\nDat.      -em    -er   -em     -en\nGen.      -en    -er   -en     -er"
+    },
+    {
+      "type": "tip",
+      "content": "Un trucco utile: dopo l'articolo determinativo, le desinenze sono quasi tutte -en, tranne 5 casi (i 'cinque -e' al nominativo singolare e accusativo femminile/neutro). Dopo l'articolo indeterminativo, l'aggettivo prende la desinenza forte solo dove l'articolo non mostra il genere (nominativo maschile e nominativo/accusativo neutro). Memorizza prima la declinazione debole (dopo der/die/das), poi impara le eccezioni."
+    },
+    {
+      "type": "example",
+      "pairs": [
+        { "de": "Der alte Mann liest eine Zeitung.", "it": "Il vecchio uomo legge un giornale." },
+        { "de": "Ich kaufe das rote Kleid.", "it": "Compro il vestito rosso." },
+        { "de": "Sie trinkt kalten Kaffee.", "it": "Lei beve caffè freddo." },
+        { "de": "Ein kleines Kind spielt im Garten.", "it": "Un bambino piccolo gioca in giardino." },
+        { "de": "Wir wohnen in einem großen Haus.", "it": "Viviamo in una grande casa." },
+        { "de": "Frischer Orangensaft schmeckt gut.", "it": "Il succo d'arancia fresco è buono." },
+        { "de": "Die netten Nachbarn helfen uns.", "it": "I vicini gentili ci aiutano." },
+        { "de": "Er hat einen neuen Computer gekauft.", "it": "Ha comprato un computer nuovo." }
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Confronto con l'italiano",
+      "content": "In italiano gli aggettivi concordano solo in genere e numero: 'il libro nuovo', 'la casa nuova', 'i libri nuovi'. In tedesco, oltre al genere e al numero, bisogna considerare anche il caso (nominativo, accusativo, dativo, genitivo) e il tipo di determinante che precede l'aggettivo. Questo rende il sistema più complesso ma anche più regolare: una volta imparate le tabelle, le regole si applicano sempre allo stesso modo."
+    }
+  ]
+}

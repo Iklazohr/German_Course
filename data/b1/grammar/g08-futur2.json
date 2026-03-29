@@ -1,0 +1,64 @@
+{
+  "id": "b1-g08",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Il Futur II e le ipotesi",
+  "subtitle": "Das Futur II und Vermutungen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il Futur II (futuro anteriore) è un tempo verbale che in tedesco ha due funzioni principali: esprimere un'azione che sarà completata entro un certo momento nel futuro, oppure - molto più comunemente - formulare ipotesi e supposizioni su eventi passati. Mentre in italiano il futuro anteriore è abbastanza comune ('avrà già mangiato'), in tedesco il Futur II è usato soprattutto per esprimere supposizioni."
+    },
+    {
+      "type": "rule",
+      "title": "Formazione: werden + Partizip II + haben/sein",
+      "content": "Il Futur II si forma con tre elementi:\nwerden (coniugato) + Partizip II + haben o sein (all'infinito)\n\nCon HABEN:\nich werde gemacht haben\ndu wirst gemacht haben\ner/sie/es wird gemacht haben\nwir werden gemacht haben\nihr werdet gemacht haben\nsie/Sie werden gemacht haben\n\nCon SEIN:\nich werde gekommen sein\ndu wirst gekommen sein\ner/sie/es wird gekommen sein\nwir werden gekommen sein\nihr werdet gekommen sein\nsie/Sie werden gekommen sein\n\nEsempio: Er wird gekommen sein. (Sarà venuto. / Probabilmente è venuto.)"
+    },
+    {
+      "type": "rule",
+      "title": "Esprimere supposizioni sul passato",
+      "content": "L'uso più frequente del Futur II è esprimere ipotesi o supposizioni su qualcosa che è probabilmente accaduto nel passato. Spesso si accompagna con avverbi come 'wohl' (probabilmente), 'sicher' (sicuramente), 'wahrscheinlich' (probabilmente), 'vermutlich' (presumibilmente).\n\nEr wird wohl krank gewesen sein.\n(Sarà stato probabilmente malato.)\n\nSie wird den Bus verpasst haben.\n(Avrà perso l'autobus.)\n\nEs wird geregnet haben, die Straße ist nass.\n(Avrà piovuto, la strada è bagnata.)\n\nDer Chef wird das schon erfahren haben.\n(Il capo l'avrà già saputo.)"
+    },
+    {
+      "type": "tip",
+      "content": "Il Futur II è raramente usato per indicare un'azione realmente futura completata. Nella lingua parlata, i tedeschi preferiscono usare il Perfekt con indicatori temporali come 'bis morgen' (entro domani) o 'bis nächste Woche' (entro la prossima settimana). Ad esempio, invece di 'Bis morgen werde ich das Buch gelesen haben', si dice più spesso 'Bis morgen habe ich das Buch gelesen'. Il Futur II per le supposizioni, invece, è molto vivo nella lingua parlata e scritta!"
+    },
+    {
+      "type": "example",
+      "pairs": [
+        {
+          "de": "Er wird wohl den Zug verpasst haben.",
+          "it": "Avrà probabilmente perso il treno."
+        },
+        {
+          "de": "Sie wird sicher schon gegessen haben.",
+          "it": "Avrà sicuramente già mangiato."
+        },
+        {
+          "de": "Das wird nicht einfach gewesen sein.",
+          "it": "Non sarà stato facile."
+        },
+        {
+          "de": "Die Kinder werden wohl schon eingeschlafen sein.",
+          "it": "I bambini si saranno probabilmente già addormentati."
+        },
+        {
+          "de": "Er wird das Geld vergessen haben.",
+          "it": "Avrà dimenticato i soldi."
+        },
+        {
+          "de": "Bis nächste Woche werde ich die Arbeit beendet haben.",
+          "it": "Entro la prossima settimana avrò finito il lavoro."
+        },
+        {
+          "de": "Sie werden wahrscheinlich im Stau gestanden haben.",
+          "it": "Saranno probabilmente stati nel traffico."
+        },
+        {
+          "de": "Du wirst dich wohl geirrt haben.",
+          "it": "Ti sarai probabilmente sbagliato."
+        }
+      ]
+    }
+  ]
+}

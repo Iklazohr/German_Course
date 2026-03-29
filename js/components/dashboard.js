@@ -33,34 +33,40 @@ export async function renderDashboard() {
         }
     }
 
+    const accuracy = stats.totalExercises > 0 ? Math.round((stats.totalCorrect / stats.totalExercises) * 100) : 0;
+
     const page = renderPage(`
         <div class="hero">
-            <h2>Benvenuto!</h2>
+            <h2>Willkommen! 🇩🇪</h2>
             <p>Impara il tedesco passo dopo passo, dal livello A1 al C1</p>
             ${nextLesson ? `
                 <button class="btn btn-lg" style="background:#fff;color:var(--primary)" id="continue-btn">
-                    ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
+                    ${stats.completedLessons > 0 ? '📚 Continua a studiare' : '🚀 Inizia il corso'}
                 </button>
             ` : `
-                <p style="font-weight:600">Hai completato tutto il materiale disponibile!</p>
+                <p style="font-weight:600">🎉 Hai completato tutto il materiale disponibile!</p>
             `}
         </div>
 
-        <div class="stats-grid">
+        <div class="stats-grid stagger-in">
             <div class="stat-card">
+                <div class="stat-icon">🔥</div>
                 <div class="stat-value">${stats.streakDays}</div>
                 <div class="stat-label">Giorni di fila</div>
             </div>
             <div class="stat-card">
+                <div class="stat-icon">📖</div>
                 <div class="stat-value">${stats.completedLessons}</div>
                 <div class="stat-label">Lezioni completate</div>
             </div>
             <div class="stat-card">
+                <div class="stat-icon">✏️</div>
                 <div class="stat-value">${stats.totalExercises}</div>
                 <div class="stat-label">Esercizi svolti</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">${stats.totalExercises > 0 ? Math.round((stats.totalCorrect / stats.totalExercises) * 100) : 0}%</div>
+                <div class="stat-icon">🎯</div>
+                <div class="stat-value">${accuracy}%</div>
                 <div class="stat-label">Precisione</div>
             </div>
         </div>
@@ -81,7 +87,8 @@ export async function renderDashboard() {
             </div>
         ` : ''}
 
-        <div class="section-title">I livelli del corso</div>
+        <div class="section-title">📊 I livelli del corso</div>
+        <div class="stagger-in">
         ${course.levels.map(level => {
             const completion = store.getLevelCompletion(level.id, course);
             const totalLessons = level.units.reduce((sum, u) => sum + u.lessons.length + (u.review ? 1 : 0), 0);
@@ -102,6 +109,7 @@ export async function renderDashboard() {
                 </div>
             `;
         }).join('')}
+        </div>
     `);
 
     // Event listeners
