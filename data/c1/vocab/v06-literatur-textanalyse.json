@@ -1,0 +1,192 @@
+{
+  "id": "c1-v06",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Letteratura e analisi testuale",
+  "subtitle": "Literatur und Textanalyse",
+  "groups": [
+    {
+      "name": "Generi letterari",
+      "words": [
+        {
+          "de": "der Roman",
+          "it": "il romanzo",
+          "emoji": "📖",
+          "example_de": "Thomas Manns Roman 'Der Zauberberg' gilt als Meisterwerk der deutschen Literatur.",
+          "example_it": "Il romanzo 'La montagna incantata' di Thomas Mann è considerato un capolavoro della letteratura tedesca."
+        },
+        {
+          "de": "die Novelle",
+          "it": "la novella",
+          "emoji": "📕",
+          "example_de": "Die Novelle zeichnet sich durch eine unerhörte Begebenheit und eine straffe Handlung aus.",
+          "example_it": "La novella si caratterizza per un evento inaudito e una trama serrata."
+        },
+        {
+          "de": "die Kurzgeschichte",
+          "it": "il racconto breve",
+          "emoji": "📃",
+          "example_de": "Die Kurzgeschichte beginnt oft unvermittelt und endet offen.",
+          "example_it": "Il racconto breve inizia spesso in modo brusco e finisce con un finale aperto."
+        },
+        {
+          "de": "das Gedicht",
+          "it": "la poesia / il componimento poetico",
+          "emoji": "📝",
+          "example_de": "In diesem Gedicht verwendet Rilke eine komplexe Bildsprache.",
+          "example_it": "In questa poesia Rilke utilizza un linguaggio figurato complesso."
+        },
+        {
+          "de": "das Drama",
+          "it": "il dramma / l'opera teatrale",
+          "emoji": "🎭",
+          "example_de": "Brechts episches Drama bricht bewusst mit der Tradition des aristotelischen Theaters.",
+          "example_it": "Il dramma epico di Brecht rompe consapevolmente con la tradizione del teatro aristotelico."
+        },
+        {
+          "de": "der Essay",
+          "it": "il saggio",
+          "emoji": "✍️",
+          "example_de": "Der Essay verbindet wissenschaftliche Argumentation mit literarischem Stil.",
+          "example_it": "Il saggio combina argomentazione scientifica e stile letterario."
+        },
+        {
+          "de": "die Autobiografie",
+          "it": "l'autobiografia",
+          "emoji": "📔",
+          "example_de": "In seiner Autobiografie schildert der Autor seine Jugend im Nachkriegsdeutschland.",
+          "example_it": "Nella sua autobiografia l'autore descrive la sua giovinezza nella Germania del dopoguerra."
+        },
+        {
+          "de": "die Fabel",
+          "it": "la favola",
+          "emoji": "🦊",
+          "example_de": "Die Fabel vermittelt durch Tiergestalten eine moralische Lehre.",
+          "example_it": "La favola trasmette un insegnamento morale attraverso figure animali."
+        }
+      ]
+    },
+    {
+      "name": "Analisi testuale",
+      "words": [
+        {
+          "de": "der Erzähler",
+          "it": "il narratore",
+          "emoji": "🗣️",
+          "example_de": "Der Erzähler dieses Romans ist ein unzuverlässiger Ich-Erzähler.",
+          "example_it": "Il narratore di questo romanzo è un narratore in prima persona inattendibile."
+        },
+        {
+          "de": "die Perspektive",
+          "it": "la prospettiva / il punto di vista",
+          "emoji": "👁️",
+          "example_de": "Der Wechsel der Perspektive erzeugt Spannung und Mehrdeutigkeit.",
+          "example_it": "Il cambio di prospettiva genera tensione e ambiguità."
+        },
+        {
+          "de": "die Handlung",
+          "it": "la trama / l'azione",
+          "emoji": "📋",
+          "example_de": "Die Handlung spielt im Berlin der Weimarer Republik.",
+          "example_it": "La trama è ambientata nella Berlino della Repubblica di Weimar."
+        },
+        {
+          "de": "das Motiv",
+          "it": "il motivo / il tema ricorrente",
+          "emoji": "🔑",
+          "example_de": "Das Motiv der Reise durchzieht den gesamten Roman.",
+          "example_it": "Il motivo del viaggio attraversa l'intero romanzo."
+        },
+        {
+          "de": "das Symbol",
+          "it": "il simbolo",
+          "emoji": "🔮",
+          "example_de": "Der Spiegel fungiert in dieser Erzählung als Symbol der Selbsterkenntnis.",
+          "example_it": "Lo specchio funge in questo racconto da simbolo della conoscenza di sé."
+        },
+        {
+          "de": "die Metapher",
+          "it": "la metafora",
+          "emoji": "🌊",
+          "example_de": "Die Metapher des Flusses steht für den unaufhaltsamen Lauf der Zeit.",
+          "example_it": "La metafora del fiume rappresenta il corso inarrestabile del tempo."
+        },
+        {
+          "de": "das Stilmittel",
+          "it": "il mezzo stilistico / la figura retorica",
+          "emoji": "🎨",
+          "example_de": "Der Autor setzt zahlreiche Stilmittel ein, um die Atmosphäre zu verdichten.",
+          "example_it": "L'autore impiega numerosi mezzi stilistici per rendere più densa l'atmosfera."
+        },
+        {
+          "de": "die Textsorte",
+          "it": "il tipo di testo / il genere testuale",
+          "emoji": "📄",
+          "example_de": "Die Bestimmung der Textsorte ist der erste Schritt der Textanalyse.",
+          "example_it": "La determinazione del genere testuale è il primo passo dell'analisi del testo."
+        }
+      ]
+    },
+    {
+      "name": "Verbi per l'analisi",
+      "words": [
+        {
+          "de": "interpretieren",
+          "it": "interpretare",
+          "emoji": "🧐",
+          "example_de": "Diese Textstelle lässt sich auf verschiedene Weisen interpretieren.",
+          "example_it": "Questo passo del testo si può interpretare in diversi modi."
+        },
+        {
+          "de": "analysieren",
+          "it": "analizzare",
+          "emoji": "📊",
+          "example_de": "Wir analysieren die sprachlichen Mittel, die der Autor einsetzt.",
+          "example_it": "Analizziamo i mezzi linguistici impiegati dall'autore."
+        },
+        {
+          "de": "vergleichen",
+          "it": "confrontare / comparare",
+          "emoji": "⚖️",
+          "example_de": "Vergleichen Sie die Darstellung des Themas in beiden Werken.",
+          "example_it": "Confronti la trattazione del tema nelle due opere."
+        },
+        {
+          "de": "argumentieren",
+          "it": "argomentare",
+          "emoji": "💬",
+          "example_de": "Der Autor argumentiert überzeugend für eine Neubewertung des Werkes.",
+          "example_it": "L'autore argomenta in modo convincente a favore di una rivalutazione dell'opera."
+        },
+        {
+          "de": "zusammenfassen",
+          "it": "riassumere",
+          "emoji": "📝",
+          "example_de": "Fassen Sie den Inhalt der Kurzgeschichte in eigenen Worten zusammen.",
+          "example_it": "Riassuma il contenuto del racconto breve con parole proprie."
+        },
+        {
+          "de": "zitieren",
+          "it": "citare",
+          "emoji": "📌",
+          "example_de": "Zitieren Sie die relevanten Textstellen, um Ihre These zu belegen.",
+          "example_it": "Citi i passi del testo rilevanti per comprovare la sua tesi."
+        },
+        {
+          "de": "erörtern",
+          "it": "discutere / trattare (in modo argomentativo)",
+          "emoji": "🔎",
+          "example_de": "Erörtern Sie die Frage, ob der Protagonist als tragischer Held gelten kann.",
+          "example_it": "Discuta la questione se il protagonista possa essere considerato un eroe tragico."
+        },
+        {
+          "de": "beurteilen",
+          "it": "valutare / giudicare",
+          "emoji": "⭐",
+          "example_de": "Beurteilen Sie die Wirksamkeit der vom Autor eingesetzten Stilmittel.",
+          "example_it": "Valuti l'efficacia dei mezzi stilistici impiegati dall'autore."
+        }
+      ]
+    }
+  ]
+}
