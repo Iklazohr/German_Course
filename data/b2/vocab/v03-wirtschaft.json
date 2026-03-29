@@ -1,0 +1,41 @@
+{
+  "id": "b2-v03",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Economia e finanza",
+  "subtitle": "Wirtschaft und Finanzen",
+  "groups": [
+    {
+      "name": "Economia",
+      "words": [
+        { "de": "die Wirtschaft", "it": "l'economia", "emoji": "📊", "example_de": "Die deutsche Wirtschaft wächst langsam.", "example_it": "L'economia tedesca cresce lentamente." },
+        { "de": "das Unternehmen, -", "it": "l'azienda / l'impresa", "emoji": "🏢", "example_de": "Das Unternehmen hat 500 Mitarbeiter.", "example_it": "L'azienda ha 500 dipendenti." },
+        { "de": "der Umsatz, -sätze", "it": "il fatturato", "emoji": "💹", "example_de": "Der Umsatz ist im letzten Jahr gestiegen.", "example_it": "Il fatturato è aumentato l'anno scorso." },
+        { "de": "der Gewinn, -e", "it": "il profitto / il guadagno", "emoji": "💰", "example_de": "Das Unternehmen hat einen Gewinn von 2 Millionen Euro erzielt.", "example_it": "L'azienda ha realizzato un profitto di 2 milioni di euro." },
+        { "de": "der Verlust, -e", "it": "la perdita", "emoji": "📉", "example_de": "Die Firma hat große Verluste gemacht.", "example_it": "La ditta ha subito grandi perdite." },
+        { "de": "die Börse, -n", "it": "la borsa (valori)", "emoji": "📈", "example_de": "Die Börse hat heute stark reagiert.", "example_it": "La borsa ha reagito fortemente oggi." },
+        { "de": "die Aktie, -n", "it": "l'azione (titolo finanziario)", "emoji": "📊", "example_de": "Er hat Aktien von einem Technologieunternehmen gekauft.", "example_it": "Ha comprato azioni di un'azienda tecnologica." },
+        { "de": "die Inflation", "it": "l'inflazione", "emoji": "📈", "example_de": "Die Inflation liegt derzeit bei 3 Prozent.", "example_it": "L'inflazione è attualmente al 3 per cento." },
+        { "de": "die Arbeitslosigkeit", "it": "la disoccupazione", "emoji": "📉", "example_de": "Die Arbeitslosigkeit in Deutschland ist relativ niedrig.", "example_it": "La disoccupazione in Germania è relativamente bassa." },
+        { "de": "das Bruttoinlandsprodukt (BIP)", "it": "il prodotto interno lordo (PIL)", "emoji": "💹", "example_de": "Das Bruttoinlandsprodukt ist um 1,5% gewachsen.", "example_it": "Il prodotto interno lordo è cresciuto dell'1,5%." },
+        { "de": "der Export, -e", "it": "l'esportazione", "emoji": "🚢", "example_de": "Deutschland ist Weltmeister im Export.", "example_it": "La Germania è campione mondiale di esportazioni." },
+        { "de": "der Import, -e", "it": "l'importazione", "emoji": "📦", "example_de": "Der Import von Rohstoffen ist teurer geworden.", "example_it": "L'importazione di materie prime è diventata più costosa." }
+      ]
+    },
+    {
+      "name": "Finanza personale",
+      "words": [
+        { "de": "das Konto, Konten", "it": "il conto (bancario)", "emoji": "🏦", "example_de": "Ich möchte ein Konto eröffnen.", "example_it": "Vorrei aprire un conto." },
+        { "de": "die Überweisung, -en", "it": "il bonifico", "emoji": "💸", "example_de": "Ich mache die Überweisung sofort.", "example_it": "Faccio il bonifico subito." },
+        { "de": "die Rechnung, -en", "it": "la fattura / il conto", "emoji": "🧾", "example_de": "Können Sie mir bitte die Rechnung schicken?", "example_it": "Può mandarmi la fattura, per favore?" },
+        { "de": "die Steuern (Pl.) / die Steuer, -n", "it": "le tasse / l'imposta", "emoji": "🏛️", "example_de": "In Deutschland sind die Steuern relativ hoch.", "example_it": "In Germania le tasse sono relativamente alte." },
+        { "de": "sparen", "it": "risparmiare", "emoji": "💰", "example_de": "Wir sparen für eine Reise nach Japan.", "example_it": "Risparmiamo per un viaggio in Giappone." },
+        { "de": "investieren (in + Akk.)", "it": "investire (in)", "emoji": "📈", "example_de": "Er investiert in erneuerbare Energien.", "example_it": "Investe in energie rinnovabili." },
+        { "de": "die Schulden (Pl.)", "it": "i debiti", "emoji": "💳", "example_de": "Viele junge Leute haben Schulden.", "example_it": "Molti giovani hanno debiti." },
+        { "de": "die Versicherung, -en", "it": "l'assicurazione", "emoji": "🛡️", "example_de": "Eine Krankenversicherung ist in Deutschland Pflicht.", "example_it": "Un'assicurazione sanitaria è obbligatoria in Germania." },
+        { "de": "die Miete, -n", "it": "l'affitto", "emoji": "🏠", "example_de": "Die Miete in München ist sehr hoch.", "example_it": "L'affitto a Monaco è molto alto." },
+        { "de": "die Rate, -n", "it": "la rata", "emoji": "💳", "example_de": "Ich zahle das Auto in monatlichen Raten.", "example_it": "Pago la macchina in rate mensili." }
+      ]
+    }
+  ]
+}

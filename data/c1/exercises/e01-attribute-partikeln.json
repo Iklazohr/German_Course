@@ -1,0 +1,127 @@
+{
+  "id": "c1-e01",
+  "level": "c1",
+  "title": "Esercizi: Attributi estesi e particelle modali",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Qual e l'attributo esteso corretto per: 'der Plan, der von vielen Experten empfohlen wird'?",
+      "options": [
+        "der von vielen Experten empfohlene Plan",
+        "der empfohlene von vielen Experten Plan",
+        "der von vielen empfohlenen Experten Plan",
+        "der Plan von vielen Experten empfohlene"
+      ],
+      "correct": 0,
+      "explanation": "L'attributo esteso si forma mettendo tutta l'informazione tra l'articolo e il sostantivo, con il participio (empfohlene) subito prima del sostantivo (Plan)."
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Die in der letzten Sitzung beschlossenen Maßnahmen treten sofort in Kraft.",
+      "acceptable": [
+        "I provvedimenti decisi nell'ultima riunione entrano immediatamente in vigore.",
+        "Le misure decise nell'ultima riunione entrano subito in vigore.",
+        "Le misure deliberate nell'ultima seduta entrano immediatamente in vigore."
+      ],
+      "hint": "Identifica l'attributo esteso: 'in der letzten Sitzung beschlossenen' si riferisce a 'Maßnahmen'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das vor drei Jahren ___ Unternehmen ist heute Marktführer.",
+      "blanks": [{ "position": 0, "correct": ["gegründete"], "hint": "Partizip II di 'gründen', declinato" }],
+      "translation": "L'azienda fondata tre anni fa e oggi leader di mercato."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale participio si usa per un'azione IN CORSO in un attributo esteso?",
+      "options": [
+        "Partizip II (gegründet, geschrieben...)",
+        "Partizip I (steigend, wachsend...)",
+        "Infinito (steigen, wachsen...)",
+        "Forma base del verbo"
+      ],
+      "correct": 1,
+      "explanation": "Il Partizip I (Infinitiv + -d) si usa per azioni in corso o simultanee: 'die steigenden Preise' (i prezzi in aumento)."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Forma l'attributo esteso corretto:",
+      "words": ["die", "ständig", "steigenden", "Energiepreise", "immer"],
+      "correct": "die immer ständig steigenden Energiepreise",
+      "translation": "I prezzi dell'energia in costante e continuo aumento."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni proposizione relativa al corrispondente attributo esteso.",
+      "pairs": [
+        { "left": "Der Bericht, der kürzlich veröffentlicht wurde", "right": "der kürzlich veröffentlichte Bericht" },
+        { "left": "Die Kosten, die ständig steigen", "right": "die ständig steigenden Kosten" },
+        { "left": "Das Projekt, das von der EU finanziert wird", "right": "das von der EU finanzierte Projekt" },
+        { "left": "Die Debatte, die seit Monaten andauert", "right": "die seit Monaten andauernde Debatte" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa esprime la particella 'doch' nella frase: 'Komm doch mit!'?",
+      "options": [
+        "Una domanda",
+        "Una negazione",
+        "Persuasione / incoraggiamento (dai, vieni!)",
+        "Incertezza"
+      ],
+      "correct": 2,
+      "explanation": "'Doch' in questa frase ha funzione di persuasione e incoraggiamento: 'Dai, vieni con noi!'"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Können Sie mir ___ helfen?",
+      "blanks": [{ "position": 0, "correct": ["mal"], "hint": "Particella che ammorbidisce la richiesta" }],
+      "translation": "Potrebbe darmi una mano? (tono amichevole)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale particella modale esprime rassegnazione ('non ci si puo fare niente')?",
+      "options": [
+        "doch",
+        "mal",
+        "eben / halt",
+        "denn"
+      ],
+      "correct": 2,
+      "explanation": "'Eben' e 'halt' esprimono rassegnazione e accettazione di una realta: 'Das ist eben so.' (Le cose stanno cosi.)"
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni particella modale alla sua funzione principale.",
+      "pairs": [
+        { "left": "denn", "right": "interesse / curiosita nelle domande" },
+        { "left": "ja", "right": "conoscenza condivisa / sorpresa" },
+        { "left": "wohl", "right": "supposizione / probabilita" },
+        { "left": "schon", "right": "rassicurazione / concessione" }
+      ]
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Ma cos'e successo? (con interesse e sorpresa)",
+      "acceptable": [
+        "Was ist denn passiert?",
+        "Was ist denn geschehen?"
+      ],
+      "hint": "Usa la particella 'denn' per esprimere curiosita e interesse nella domanda."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase suona piu naturale in tedesco parlato?",
+      "options": [
+        "Das ist toll!",
+        "Das ist ja toll!",
+        "Das ist sehr toll!",
+        "Toll ist das!"
+      ],
+      "correct": 1,
+      "explanation": "'Das ist ja toll!' con la particella 'ja' esprime sorpresa ed e molto piu naturale nel parlato. Senza 'ja', la frase suona piatta e 'da manuale'."
+    }
+  ]
+}

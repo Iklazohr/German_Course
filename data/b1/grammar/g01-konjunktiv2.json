@@ -1,0 +1,87 @@
+{
+  "id": "b1-g01",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Il Konjunktiv II",
+  "subtitle": "Der Konjunktiv II",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il **Konjunktiv II** è il modo verbale tedesco usato per esprimere **desideri**, **situazioni ipotetiche**, **consigli** e **cortesia**. Corrisponde in gran parte al condizionale italiano (vorrei, farei, potrei). È fondamentale nella comunicazione quotidiana: per fare richieste educate (*Könnten Sie mir helfen?*), esprimere desideri (*Ich wünschte, ich hätte mehr Zeit*) e costruire frasi condizionali (*Wenn ich reich wäre...*)."
+    },
+    {
+      "type": "rule",
+      "title": "La forma principale: würde + infinito",
+      "content": "La forma più comune e versatile del Konjunktiv II si costruisce con **würde** (coniugato) + **infinito** del verbo principale alla fine della frase. Questa forma funziona come il condizionale italiano 'farei, direi, andrei'.",
+      "table": {
+        "headers": ["Persona", "würde", "Esempio", "Traduzione"],
+        "rows": [
+          ["ich", "würde", "Ich würde gern reisen.", "Viaggerei volentieri."],
+          ["du", "würdest", "Du würdest das verstehen.", "Lo capiresti."],
+          ["er/sie/es", "würde", "Er würde kommen.", "Lui verrebbe."],
+          ["wir", "würden", "Wir würden helfen.", "Noi aiuteremmo."],
+          ["ihr", "würdet", "Ihr würdet lachen.", "Voi ridereste."],
+          ["sie/Sie", "würden", "Sie würden arbeiten.", "Loro lavorerebbero."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Konjunktiv II irregolare: le forme dirette",
+      "content": "Alcuni verbi molto comuni usano la propria forma diretta del Konjunktiv II invece di *würde + infinito*. Queste forme sono obbligatorie e vanno memorizzate:",
+      "table": {
+        "headers": ["Infinito", "Konjunktiv II", "Esempio", "Traduzione"],
+        "rows": [
+          ["sein", "wäre", "Ich wäre froh.", "Sarei contento."],
+          ["haben", "hätte", "Ich hätte Zeit.", "Avrei tempo."],
+          ["können", "könnte", "Ich könnte helfen.", "Potrei aiutare."],
+          ["müssen", "müsste", "Ich müsste gehen.", "Dovrei andare."],
+          ["sollen", "sollte", "Du solltest lernen.", "Dovresti studiare."],
+          ["dürfen", "dürfte", "Dürfte ich fragen?", "Potrei chiedere?"],
+          ["kommen", "käme", "Er käme gern.", "Verrebbe volentieri."],
+          ["gehen", "ginge", "Das ginge auch.", "Andrebbe bene anche così."],
+          ["wissen", "wüsste", "Ich wüsste es nicht.", "Non lo saprei."],
+          ["geben", "gäbe", "Es gäbe ein Problem.", "Ci sarebbe un problema."],
+          ["brauchen", "bräuchte", "Ich bräuchte Hilfe.", "Avrei bisogno di aiuto."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Frasi condizionali con wenn",
+      "content": "Le frasi condizionali (periodo ipotetico) si costruiscono con **wenn** (se) + Konjunktiv II. Nella frase con *wenn*, il verbo va alla fine. Nella frase principale si usa *würde + infinito* o una forma diretta del Konjunktiv II.",
+      "table": {
+        "headers": ["Struttura", "Esempio tedesco", "Traduzione"],
+        "rows": [
+          ["Wenn + sogg. + ... + verbo, würde + sogg. + ... + infinito", "Wenn ich reich wäre, würde ich eine Weltreise machen.", "Se fossi ricco, farei un giro del mondo."],
+          ["Hauptsatz, wenn + sogg. + ... + verbo", "Ich würde dir helfen, wenn ich könnte.", "Ti aiuterei, se potessi."],
+          ["Con verbi irregolari", "Wenn ich Zeit hätte, käme ich mit.", "Se avessi tempo, verrei anch'io."],
+          ["Desiderio irrealizzabile", "Wenn ich doch fliegen könnte!", "Se solo potessi volare!"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Quando usare würde e quando la forma diretta?**\n\n- **Sempre la forma diretta** per: *sein* (wäre), *haben* (hätte) e i verbi modali (könnte, müsste, sollte, dürfte)\n- **Meglio la forma diretta** per: *kommen* (käme), *gehen* (ginge), *wissen* (wüsste), *geben* (gäbe)\n- **Meglio würde + infinito** per tutti gli altri verbi: *würde kaufen, würde spielen, würde arbeiten*\n- Nella lingua parlata, *würde + infinito* si sta diffondendo sempre di più, ma evita *würde sein* o *würde haben* — suonano molto innaturali!"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Ich hätte gern einen Kaffee.", "it": "Vorrei un caffè. (forma cortese)" },
+        { "de": "Könnten Sie das bitte wiederholen?", "it": "Potrebbe ripetere, per favore?" },
+        { "de": "Wenn ich besser Deutsch sprechen könnte, würde ich in Berlin arbeiten.", "it": "Se parlassi meglio tedesco, lavorerei a Berlino." },
+        { "de": "An deiner Stelle würde ich zum Arzt gehen.", "it": "Al posto tuo, andrei dal medico." },
+        { "de": "Es wäre schön, wenn du kommen könntest.", "it": "Sarebbe bello se potessi venire." },
+        { "de": "Ich wünschte, ich hätte mehr Freizeit.", "it": "Vorrei avere più tempo libero." },
+        { "de": "Was würdest du tun, wenn du im Lotto gewinnen würdest?", "it": "Cosa faresti se vincessi alla lotteria?" },
+        { "de": "Wir sollten uns beeilen.", "it": "Dovremmo sbrigarci." }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Confronto con il condizionale italiano",
+      "content": "Il Konjunktiv II corrisponde sia al **condizionale presente** che al **congiuntivo imperfetto** italiano:\n\n- *Ich würde kommen* = **Verrei** (condizionale)\n- *Wenn ich könnte* = **Se potessi** (congiuntivo imperfetto)\n\nIn italiano il periodo ipotetico usa congiuntivo + condizionale: *Se avessi tempo, verrei*. In tedesco entrambe le parti usano il Konjunktiv II: *Wenn ich Zeit hätte, würde ich kommen*.\n\nAttenzione: per la cortesia, il tedesco usa il Konjunktiv II dove l'italiano usa spesso il condizionale: *Könnten Sie...?* = *Potrebbe...?*"
+    }
+  ]
+}

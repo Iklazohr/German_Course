@@ -1,0 +1,136 @@
+{
+  "id": "c1-g02",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Particelle modali",
+  "subtitle": "Modalpartikeln",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le **Modalpartikeln** (particelle modali) sono paroline apparentemente insignificanti — *doch, mal, ja, eben, halt, wohl, denn, schon* — che pero cambiano radicalmente il **tono** e la **sfumatura emotiva** di una frase. Sono praticamente **intraducibili** in italiano con una singola parola, perche trasmettono atteggiamenti: sorpresa, rassegnazione, insistenza, cortesia, presupposti condivisi. Sono cio che rende il tedesco parlato **naturale**: senza di esse, si suona come un libro di grammatica. Padroneggiarle e il segno di una competenza linguistica davvero avanzata."
+    },
+    {
+      "type": "rule",
+      "title": "doch — enfasi, contraddizione, persuasione",
+      "content": "**Doch** e forse la particella piu versatile. Puo esprimere **contraddizione** (ma si!), **enfasi** (dai!), **persuasione** (su, forza!) o richiamare qualcosa di **noto**. Il significato esatto dipende dal contesto e dall'intonazione.",
+      "table": {
+        "headers": ["Funzione", "Esempio", "Sfumatura / Traduzione"],
+        "rows": [
+          ["Contraddizione", "Das ist doch Unsinn!", "Ma e un'assurdita! (contraddico cio che dici)"],
+          ["Persuasione", "Komm doch mit!", "Dai, vieni con noi!"],
+          ["Richiamo a noto", "Du weißt doch, dass er krank ist.", "Lo sai bene che e malato."],
+          ["Sorpresa/enfasi", "Das ist doch Peter!", "Ma quello e Peter! (non me l'aspettavo)"],
+          ["Rimprovero leggero", "Sei doch nicht so laut!", "Non essere cosi rumoroso, dai!"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "mal — ammorbidire richieste",
+      "content": "**Mal** (forma breve di *einmal*) rende richieste e imperativi piu **morbidi, informali e amichevoli**. Senza *mal*, un imperativo puo suonare brusco; con *mal*, diventa una richiesta gentile e rilassata.",
+      "table": {
+        "headers": ["Senza mal", "Con mal", "Effetto"],
+        "rows": [
+          ["Schau!", "Schau mal!", "Guarda un po'! (piu amichevole)"],
+          ["Können Sie mir helfen?", "Können Sie mir mal helfen?", "Potrebbe darmi una mano? (piu informale)"],
+          ["Warte!", "Warte mal!", "Aspetta un attimo!"],
+          ["Hör zu!", "Hör mal zu!", "Senti un po'!"],
+          ["Probier das!", "Probier das mal!", "Prova un po' questo!"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "ja — conoscenza condivisa, sorpresa",
+      "content": "**Ja** come particella modale (non come 'si') indica che qualcosa e **noto a entrambi gli interlocutori** o esprime **sorpresa**. E molto frequente nella conversazione quotidiana.",
+      "table": {
+        "headers": ["Funzione", "Esempio", "Sfumatura / Traduzione"],
+        "rows": [
+          ["Conoscenza condivisa", "Du weißt ja, dass ich morgen fliege.", "Sai bene che domani parto in aereo."],
+          ["Sorpresa", "Das ist ja toll!", "Ma e fantastico! (non me l'aspettavo)"],
+          ["Sorpresa negativa", "Das ist ja furchtbar!", "Ma e terribile!"],
+          ["Ovvieta", "Er ist ja Arzt.", "Dopotutto / d'altronde e medico."],
+          ["Avvertimento", "Sei ja vorsichtig!", "Mi raccomando, stai attento!"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "eben / halt — rassegnazione, accettazione",
+      "content": "**Eben** e **halt** esprimono **rassegnazione**, **accettazione** di una realta che non si puo cambiare. Sono quasi sinonimi; *halt* e leggermente piu colloquiale e piu tipico della Germania meridionale e dell'Austria.",
+      "table": {
+        "headers": ["Esempio", "Sfumatura / Traduzione"],
+        "rows": [
+          ["Das ist eben so.", "Le cose stanno cosi. (non ci si puo fare niente)"],
+          ["Da kann man halt nichts machen.", "Non ci si puo fare niente, pazienza."],
+          ["Er ist eben ein Perfektionist.", "E un perfezionista, che ci vuoi fare."],
+          ["Dann bleiben wir halt zu Hause.", "E allora restiamo a casa, pazienza."],
+          ["So ist das Leben eben.", "Cosi e la vita, che vuoi farci."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "wohl — supposizione, probabilita",
+      "content": "**Wohl** esprime una **supposizione** o **ipotesi** del parlante. Indica che non si e del tutto certi, ma si ritiene probabile qualcosa. Corrisponde a 'probabilmente', 'credo', 'immagino'.",
+      "table": {
+        "headers": ["Esempio", "Sfumatura / Traduzione"],
+        "rows": [
+          ["Er ist wohl krank.", "Sara malato, immagino."],
+          ["Das wird wohl stimmen.", "Sara vero, probabilmente."],
+          ["Sie hat wohl den Zug verpasst.", "Avra perso il treno, suppongo."],
+          ["Das ist wohl das Beste.", "Sara la cosa migliore, credo."],
+          ["Du hast wohl recht.", "Avrai ragione, immagino."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "denn — nelle domande, interesse genuino",
+      "content": "**Denn** nelle domande mostra **interesse genuino**, **curiosita** o leggera **sorpresa**. Rende la domanda piu naturale e meno da interrogatorio. Senza *denn*, una domanda puo suonare fredda o troppo diretta.",
+      "table": {
+        "headers": ["Senza denn", "Con denn", "Effetto"],
+        "rows": [
+          ["Was machst du hier?", "Was machst du denn hier?", "Ma cosa ci fai qui? (sorpresa + interesse)"],
+          ["Wie heißen Sie?", "Wie heißen Sie denn?", "E Lei come si chiama? (interesse amichevole)"],
+          ["Was ist passiert?", "Was ist denn passiert?", "Ma cos'e successo? (preoccupazione)"],
+          ["Hast du Zeit?", "Hast du denn Zeit?", "Ma hai tempo? (non ero sicuro)"],
+          ["Wo warst du?", "Wo warst du denn?", "Ma dove eri? (curiosita)"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "schon — rassicurazione, concessione",
+      "content": "**Schon** come particella modale esprime **rassicurazione** ('andra tutto bene') o **concessione** ('e vero, pero...'). Non va confuso con *schon* avverbio temporale ('gia').",
+      "table": {
+        "headers": ["Funzione", "Esempio", "Sfumatura / Traduzione"],
+        "rows": [
+          ["Rassicurazione", "Das wird schon klappen.", "Andra bene, vedrai."],
+          ["Rassicurazione", "Schon gut.", "Va bene cosi, non preoccuparti."],
+          ["Concessione", "Das stimmt schon, aber...", "E vero, per carita, pero..."],
+          ["Rassicurazione", "Du wirst das schon schaffen.", "Ce la farai, stai tranquillo."],
+          ["Enfasi retorica", "Wer macht das schon?", "Chi lo fa, in fondo? (nessuno)"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Le particelle modali non cambiano il significato letterale della frase, ma ne cambiano drasticamente il tono!**\n\n- *Komm mit!* = Vieni con noi! (neutro/brusco)\n- *Komm doch mit!* = Dai, vieni con noi! (persuasivo)\n- *Komm mal mit!* = Vieni un attimo con me! (rilassato)\n\nConsigli per impararle:\n1. **Non tradurre** — impara il *sentimento* che trasmettono\n2. **Ascolta** molto tedesco parlato (film, podcast, conversazioni)\n3. **Inizia con 2-3 particelle** e usale fino a quando diventano naturali\n4. **Attenzione alla posizione**: le particelle modali stanno nel Mittelfeld (campo centrale), mai in posizione 1\n5. In una frase possono comparire anche **piu particelle insieme**: *Komm doch mal mit!*"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Das habe ich dir doch gesagt!", "it": "Ma te l'avevo detto! (lo sapevi gia)" },
+        { "de": "Kannst du mir mal kurz helfen?", "it": "Mi puoi dare una mano un attimo?" },
+        { "de": "Das ist ja unglaublich!", "it": "Ma e incredibile! (non me l'aspettavo)" },
+        { "de": "Es regnet. Da kann man eben nichts machen.", "it": "Piove. Non ci si puo fare niente, pazienza." },
+        { "de": "Er wird wohl nicht mehr kommen.", "it": "Non verra piu, suppongo." },
+        { "de": "Wo hast du denn das her?", "it": "Ma da dove l'hai preso? (sono curioso)" },
+        { "de": "Das wird schon wieder.", "it": "Passera, vedrai. (rassicurazione)" },
+        { "de": "Mach dir doch keine Sorgen!", "it": "Ma non preoccuparti! (dai, rilassati)" }
+      ]
+    }
+  ]
+}

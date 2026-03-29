@@ -1,0 +1,25 @@
+{
+  "id": "a2-g05",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Comparativo e superlativo",
+  "subtitle": "Komparativ und Superlativ",
+  "sections": [
+    { "type": "intro", "content": "In tedesco, come in italiano, gli aggettivi possono essere usati al grado **comparativo** (più... di) e **superlativo** (il più...). A differenza dell'italiano che usa 'più' + aggettivo, il tedesco aggiunge **suffissi** all'aggettivo stesso, in modo simile all'inglese (-er, -est)." },
+    { "type": "rule", "title": "Il comparativo: aggettivo + -er + als", "content": "Per formare il comparativo si aggiunge **-er** all'aggettivo. 'Di' si traduce con **als**:\n\n**aggettivo + -er + als**\n\nGli aggettivi monosillabici con a, o, u spesso prendono l'**Umlaut**:", "table": { "headers": ["Positivo", "Comparativo", "Esempio"], "rows": [["schnell (veloce)", "schneller", "Das Auto ist schneller als das Fahrrad."], ["klein (piccolo)", "kleiner", "Mein Haus ist kleiner als dein Haus."], ["billig (economico)", "billiger", "Das Buch ist billiger als der Film."], ["alt (vecchio)", "älter ¹", "Mein Bruder ist älter als ich."], ["groß (grande)", "größer ¹", "Berlin ist größer als München."], ["jung (giovane)", "jünger ¹", "Sie ist jünger als er."], ["warm (caldo)", "wärmer ¹", "Heute ist es wärmer als gestern."], ["kalt (freddo)", "kälter ¹", "Im Winter ist es kälter als im Herbst."]] } },
+    { "type": "rule", "title": "Il superlativo: am + aggettivo + -sten", "content": "Il superlativo ha due forme:\n\n1. **Predicativo** (dopo il verbo): **am + aggettivo + -(e)sten**\n2. **Attributivo** (prima del nome): **der/die/das + aggettivo + -(e)ste** (+ desinenza del caso)\n\nAnche qui, gli aggettivi monosillabici con a, o, u prendono spesso l'Umlaut:", "table": { "headers": ["Positivo", "Superlativo (am...)", "Superlativo (der/die/das...)", "Significato"], "rows": [["schnell", "am schnellsten", "der schnellste", "il più veloce"], ["klein", "am kleinsten", "der kleinste", "il più piccolo"], ["alt", "am ältesten", "der älteste", "il più vecchio"], ["groß", "am größten", "der größte", "il più grande"], ["jung", "am jüngsten", "der jüngste", "il più giovane"], ["kurz", "am kürzesten", "der kürzeste", "il più corto"], ["interessant", "am interessantesten", "der interessanteste", "il più interessante"]] } },
+    { "type": "rule", "title": "Forme irregolari", "content": "Alcuni aggettivi hanno forme **completamente irregolari** al comparativo e superlativo. Vanno imparati a memoria:", "table": { "headers": ["Positivo", "Comparativo", "Superlativo", "Significato"], "rows": [["gut (buono)", "besser", "am besten / der beste", "buono-migliore-il migliore"], ["viel (molto)", "mehr", "am meisten / der meiste", "molto-di più-il più"], ["gern (volentieri)", "lieber", "am liebsten / der liebste", "volentieri-preferibilmente-più volentieri"], ["hoch (alto)", "höher", "am höchsten / der höchste", "alto-più alto-il più alto"], ["nah (vicino)", "näher", "am nächsten / der nächste", "vicino-più vicino-il più vicino"], ["viel (molti pl.)", "mehr", "die meisten", "molti-più-i più/la maggior parte"]] } },
+    { "type": "rule", "title": "Comparativo di uguaglianza: so ... wie", "content": "Per dire 'così... come' (uguaglianza) si usa **so + aggettivo + wie**:\n\n- *Ich bin **so** groß **wie** du.* (Sono alto come te.)\n- *Berlin ist **nicht so** warm **wie** Rom.* (Berlino non è calda come Roma.)\n- *Er ist **(genau)so** alt **wie** ich.* (Ha (esattamente) la mia stessa età.)" },
+    { "type": "tip", "content": "**Quando aggiungere -e- prima di -sten?**\nSi aggiunge **-esten** (invece di -sten) quando l'aggettivo finisce in **-d, -t, -s, -ß, -sch, -z**:\n- *kalt → am kält**esten*** (il più freddo)\n- *kurz → am kürz**esten*** (il più corto)\n- *hübsch → am hübsch**esten*** (il più carino)\n\nEccezione: *groß → am größ**ten*** (non größesten)" },
+    { "type": "examples", "title": "Esempi pratici", "content": "Frasi con comparativi e superlativi:", "items": [
+      { "de": "Deutsch ist schwieriger als Englisch.", "it": "Il tedesco è più difficile dell'inglese." },
+      { "de": "Anna ist die beste Schülerin in der Klasse.", "it": "Anna è la migliore studentessa della classe." },
+      { "de": "Ich trinke lieber Tee als Kaffee.", "it": "Preferisco bere tè piuttosto che caffè." },
+      { "de": "Der Mount Everest ist am höchsten.", "it": "Il Monte Everest è il più alto." },
+      { "de": "Mein Auto fährt genauso schnell wie dein Auto.", "it": "La mia auto va veloce come la tua." },
+      { "de": "Welche Stadt gefällt dir am besten?", "it": "Quale città ti piace di più?" },
+      { "de": "Im Sommer sind die Tage länger als im Winter.", "it": "In estate i giorni sono più lunghi che in inverno." },
+      { "de": "Das ist das interessanteste Buch, das ich je gelesen habe.", "it": "Questo è il libro più interessante che abbia mai letto." }
+    ] }
+  ]
+}

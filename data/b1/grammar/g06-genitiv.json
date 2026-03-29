@@ -1,0 +1,92 @@
+{
+  "id": "b1-g06",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Il caso genitivo",
+  "subtitle": "Der Genitiv",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il **genitivo** (Genitiv) è il quarto caso tedesco e indica principalmente il **possesso** o l'**appartenenza**: *das Auto **des Mannes*** (l'auto dell'uomo). Corrisponde alla preposizione italiana 'di'. Anche se nella lingua parlata viene spesso sostituito dal dativo con *von*, il genitivo resta essenziale nella lingua scritta, formale e in combinazione con certe preposizioni."
+    },
+    {
+      "type": "rule",
+      "title": "Gli articoli al genitivo",
+      "content": "Al genitivo, gli articoli determinativi e indeterminativi cambiano così:",
+      "table": {
+        "headers": ["", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Art. determinativo", "des", "der", "des", "der"],
+          ["Art. indeterminativo", "eines", "einer", "eines", "— (keiner)"],
+          ["Possessivo (mein)", "meines", "meiner", "meines", "meiner"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Desinenze dei sostantivi maschili e neutri",
+      "content": "I sostantivi **maschili** e **neutri** aggiungono la desinenza **-(e)s** al genitivo. I femminili e i plurali restano invariati:",
+      "table": {
+        "headers": ["Regola", "Nominativo", "Genitivo", "Traduzione"],
+        "rows": [
+          ["Sost. di 2+ sillabe: -s", "der Vater", "des Vaters", "del padre"],
+          ["Sost. di 1 sillaba: -es", "der Mann", "des Mannes", "dell'uomo"],
+          ["Sost. neutro: -es", "das Kind", "des Kindes", "del bambino"],
+          ["Sost. neutro: -s", "das Auto", "des Autos", "dell'auto"],
+          ["Femminile: invariato", "die Frau", "der Frau", "della donna"],
+          ["Plurale: invariato", "die Kinder", "der Kinder", "dei bambini"],
+          ["Nomi propri: -s (senza art.)", "Peter", "Peters Auto", "l'auto di Peter"],
+          ["N-Deklination: -(e)n", "der Student", "des Studenten", "dello studente"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Preposizioni con il genitivo",
+      "content": "Queste preposizioni importanti reggono il genitivo:",
+      "table": {
+        "headers": ["Preposizione", "Significato", "Esempio", "Traduzione"],
+        "rows": [
+          ["wegen", "a causa di", "Wegen des Regens bleibe ich zu Hause.", "A causa della pioggia resto a casa."],
+          ["trotz", "nonostante", "Trotz des schlechten Wetters gehen wir spazieren.", "Nonostante il brutto tempo andiamo a passeggio."],
+          ["während", "durante", "Während des Unterrichts darf man nicht telefonieren.", "Durante la lezione non si può telefonare."],
+          ["anstatt / statt", "invece di", "Anstatt eines Kaffees trinke ich Tee.", "Invece di un caffè bevo tè."],
+          ["innerhalb", "entro / dentro", "Innerhalb eines Monats muss er antworten.", "Entro un mese deve rispondere."],
+          ["außerhalb", "fuori da", "Außerhalb der Stadt gibt es viel Natur.", "Fuori dalla città c'è molta natura."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "L'alternativa con von + dativo",
+      "content": "Nella lingua parlata, il genitivo viene spesso sostituito da **von + dativo**. Nella lingua scritta e formale, il genitivo è preferito:",
+      "table": {
+        "headers": ["Genitivo (formale/scritto)", "von + Dativo (informale/parlato)", "Traduzione"],
+        "rows": [
+          ["das Haus des Nachbarn", "das Haus von dem Nachbarn", "la casa del vicino"],
+          ["die Meinung der Experten", "die Meinung von den Experten", "l'opinione degli esperti"],
+          ["der Anfang des Films", "der Anfang von dem Film", "l'inizio del film"],
+          ["die Hauptstadt Deutschlands", "die Hauptstadt von Deutschland", "la capitale della Germania"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Regola per -(e)s:**\n- Sostantivi monosillabici: preferisci **-es** (*des Mannes, des Kindes, des Buches*)\n- Sostantivi polisillabici: usa **-s** (*des Vaters, des Lehrers, des Autos*)\n- Sostantivi che finiscono in -s, -ß, -z, -x: **-es** obbligatorio (*des Hauses, des Fußes*)\n\n**Attenzione ai nomi propri:** In tedesco i nomi propri prendono solo -s senza articolo: *Marias Buch* (il libro di Maria), *Deutschlands Geschichte* (la storia della Germania). Se il nome finisce in -s, si usa l'apostrofo: *Hans' Auto*.\n\n**Nella lingua parlata** le preposizioni *wegen* e *trotz* si usano spesso con il dativo: *wegen dem Regen* (invece di *wegen des Regens*). Nella lingua scritta, usa sempre il genitivo!"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Die Farbe des Himmels ist heute wunderschön.", "it": "Il colore del cielo è bellissimo oggi." },
+        { "de": "Das ist das Büro meines Chefs.", "it": "Questo è l'ufficio del mio capo." },
+        { "de": "Trotz der Kälte gehen die Kinder draußen spielen.", "it": "Nonostante il freddo, i bambini vanno a giocare fuori." },
+        { "de": "Während des Sommers reisen viele Deutsche nach Italien.", "it": "Durante l'estate molti tedeschi viaggiano in Italia." },
+        { "de": "Der Titel des Buches ist mir entfallen.", "it": "Il titolo del libro mi è sfuggito." },
+        { "de": "Wegen eines Unfalls war die Straße gesperrt.", "it": "A causa di un incidente la strada era bloccata." },
+        { "de": "Die Ergebnisse der Studie sind überraschend.", "it": "I risultati dello studio sono sorprendenti." },
+        { "de": "Innerhalb der nächsten Woche müssen wir uns entscheiden.", "it": "Entro la prossima settimana dobbiamo decidere." }
+      ]
+    }
+  ]
+}

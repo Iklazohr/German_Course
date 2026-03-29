@@ -1,0 +1,91 @@
+{
+  "id": "a2-r01",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Test Unità 1",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale ausiliare si usa per 'reisen' (viaggiare) al Perfekt?",
+      "options": ["haben", "sein", "werden", "haben o sein"],
+      "correct": 1,
+      "explanation": "'Reisen' indica un cambiamento di luogo, quindi usa 'sein': Ich bin gereist."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir ___ letztes Jahr nach Italien ___.",
+      "blanks": ["sind", "geflogen"],
+      "explanation": "'Fliegen' (volare) indica movimento, quindi usa 'sein'. Il Partizip II di 'fliegen' è 'geflogen' (irregolare)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er ___ das Hotel schon ___.",
+      "blanks": ["hat", "gebucht"],
+      "explanation": "'Buchen' (prenotare) è un verbo transitivo e usa 'haben'. Il Partizip II è regolare: ge- + buch + -t = gebucht."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale forma del Präteritum è corretta? 'Es ___ sehr kalt.'",
+      "options": ["wart", "war", "waren", "warst"],
+      "correct": 1,
+      "explanation": "Con 'es' (soggetto singolare terza persona) si usa 'war'. Es war = era/faceva."
+    },
+    {
+      "type": "translation",
+      "sentence": "L'estate scorsa abbiamo viaggiato in Spagna.",
+      "answer": "Letzten Sommer sind wir nach Spanien gereist.",
+      "hint": "reisen → gereist (con sein); nach + paese"
+    },
+    {
+      "type": "translation",
+      "sentence": "Hai già fatto la valigia?",
+      "answer": "Hast du schon den Koffer gepackt?",
+      "hint": "packen → gepackt (con haben)"
+    },
+    {
+      "type": "reorder",
+      "words": ["im", "Hotel", "haben", "übernachtet", "wir"],
+      "correct": "Wir haben im Hotel übernachtet."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "der Flughafen", "right": "l'aeroporto"},
+        {"left": "die Unterkunft", "right": "l'alloggio"},
+        {"left": "der Reisepass", "right": "il passaporto"},
+        {"left": "das Gepäck", "right": "il bagaglio"},
+        {"left": "die Abfahrt", "right": "la partenza"},
+        {"left": "die Ankunft", "right": "l'arrivo"}
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Als Kind ___ ich immer ans Meer.",
+      "blanks": ["fuhr"],
+      "explanation": "'Fuhr' è il Präteritum di 'fahren' (andare con un mezzo). Si usa il Präteritum per le narrazioni al passato, specialmente nello scritto."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quando si preferisce il Präteritum rispetto al Perfekt nel parlato?",
+      "options": [
+        "Sempre, è più elegante",
+        "Con i verbi 'sein', 'haben' e i verbi modali",
+        "Solo con i verbi regolari",
+        "Mai, si usa solo nello scritto"
+      ],
+      "correct": 1,
+      "explanation": "Nel parlato si preferisce il Präteritum con 'sein' (war), 'haben' (hatte) e i verbi modali (konnte, musste, wollte...). Per gli altri verbi si usa di solito il Perfekt."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich ___ letzte Woche keine Zeit.",
+      "blanks": ["hatte"],
+      "explanation": "'Hatte' è il Präteritum di 'haben'. Con 'ich' si usa 'hatte'. Nel parlato si preferisce 'hatte' rispetto a 'habe gehabt'."
+    },
+    {
+      "type": "reorder",
+      "words": ["gestern", "ist", "er", "spät", "angekommen"],
+      "correct": "Gestern ist er spät angekommen."
+    }
+  ]
+}

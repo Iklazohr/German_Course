@@ -1,0 +1,27 @@
+{
+  "id": "a2-g03",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Il caso dativo",
+  "subtitle": "Der Dativ",
+  "sections": [
+    { "type": "intro", "content": "Il **Dativ** (dativo) è il terzo caso tedesco. Indica il **complemento di termine** (a chi? a che cosa?) e si usa dopo certi verbi, preposizioni e per indicare il destinatario di un'azione. In italiano corrisponde spesso a 'a me', 'a te', 'a lui' ecc. o ai pronomi indiretti 'mi', 'ti', 'gli', 'le'." },
+    { "type": "rule", "title": "Articoli al dativo", "content": "Gli articoli cambiano forma al dativo. Nota il pattern: **dem** per maschile e neutro, **der** per femminile, **den + -n** per plurale:", "table": { "headers": ["Genere", "Nominativo", "Accusativo", "Dativo"], "rows": [["Maschile", "der / ein", "den / einen", "dem / einem"], ["Femminile", "die / eine", "die / eine", "der / einer"], ["Neutro", "das / ein", "das / ein", "dem / einem"], ["Plurale", "die / —", "die / —", "den (+n) / —"]] } },
+    { "type": "rule", "title": "Importante: plurale con -n al dativo", "content": "Al dativo plurale, i sostantivi che **non** finiscono già in -n o -s prendono una **-n** aggiuntiva:\n\n- *die Kinder* → *den Kinder**n*** (ai bambini)\n- *die Freunde* → *den Freunde**n*** (agli amici)\n- *die Bücher* → *den Bücher**n*** (ai libri)\n- *die Autos* → *den Autos* (alle auto — già finisce in -s)" },
+    { "type": "rule", "title": "Pronomi personali al dativo", "content": "I pronomi personali hanno forme specifiche al dativo:", "table": { "headers": ["Nominativo", "Accusativo", "Dativo", "Significato dativo"], "rows": [["ich", "mich", "mir", "a me"], ["du", "dich", "dir", "a te"], ["er", "ihn", "ihm", "a lui"], ["sie", "sie", "ihr", "a lei"], ["es", "es", "ihm", "a esso"], ["wir", "uns", "uns", "a noi"], ["ihr", "euch", "euch", "a voi"], ["sie/Sie", "sie/Sie", "ihnen/Ihnen", "a loro/a Lei"]] } },
+    { "type": "rule", "title": "Verbi che reggono il dativo", "content": "Alcuni verbi tedeschi richiedono il **dativo** (non l'accusativo!) per il loro complemento. Questi vanno memorizzati:", "table": { "headers": ["Verbo", "Significato", "Esempio"], "rows": [["helfen", "aiutare", "Ich helfe dir. (Ti aiuto.)"], ["gefallen", "piacere", "Das Buch gefällt mir. (Il libro mi piace.)"], ["gehören", "appartenere", "Das gehört mir. (Questo è mio.)"], ["danken", "ringraziare", "Ich danke Ihnen. (La ringrazio.)"], ["antworten", "rispondere", "Antworte mir! (Rispondimi!)"], ["gratulieren", "congratularsi", "Ich gratuliere dir! (Mi congratulo con te!)"], ["folgen", "seguire", "Folgen Sie mir! (Mi segua!)"], ["glauben", "credere a qcn.", "Ich glaube dir. (Ti credo.)"], ["fehlen", "mancare", "Du fehlst mir. (Mi manchi.)"], ["schmecken", "avere buon sapore", "Das schmeckt mir. (Mi piace/È buono.)"]] } },
+    { "type": "rule", "title": "Struttura: dativo + accusativo", "content": "Molti verbi hanno sia un complemento al **dativo** (a chi?) che uno all'**accusativo** (che cosa?). L'ordine è: **dativo prima dell'accusativo**:\n\n- *Ich gebe **dem Mann** (dat.) **das Buch** (acc.)* — Do il libro all'uomo\n- *Sie schenkt **ihrer Mutter** (dat.) **Blumen** (acc.)* — Regala fiori a sua madre\n\nSe si usano pronomi, l'ordine cambia: **accusativo prima del dativo**:\n- *Ich gebe **es** (acc.) **ihm** (dat.)* — Glielo do" },
+    { "type": "tip", "content": "**Come ricordare i verbi con dativo?** Molti di questi verbi descrivono azioni 'dirette verso qualcuno' senza un oggetto diretto: *aiutare qualcuno* (helfen), *piacere a qualcuno* (gefallen), *rispondere a qualcuno* (antworten). In italiano spesso usiamo 'a' con questi verbi: 'piace **a** me' → *gefällt **mir***." },
+    { "type": "examples", "title": "Esempi pratici", "content": "Frasi con il dativo:", "items": [
+      { "de": "Ich schenke meiner Freundin eine Tasche.", "it": "Regalo una borsa alla mia amica." },
+      { "de": "Kannst du mir bitte helfen?", "it": "Puoi aiutarmi per favore?" },
+      { "de": "Wie gefällt dir das Kleid?", "it": "Come ti piace il vestito?" },
+      { "de": "Das Auto gehört meinem Vater.", "it": "L'auto appartiene a mio padre." },
+      { "de": "Ich danke dir für alles.", "it": "Ti ringrazio per tutto." },
+      { "de": "Er gibt dem Kind einen Apfel.", "it": "Dà una mela al bambino." },
+      { "de": "Die Lehrerin erklärt den Schülern die Grammatik.", "it": "L'insegnante spiega la grammatica agli studenti." },
+      { "de": "Du fehlst mir sehr.", "it": "Mi manchi molto." }
+    ] },
+    { "type": "comparison", "title": "Confronto con l'italiano", "content": "Il dativo tedesco corrisponde al **complemento di termine** italiano:\n\n- *mir* = a me / mi\n- *dir* = a te / ti\n- *ihm/ihr* = a lui/lei / gli/le\n\n**Differenze:**\n- In italiano il complemento di termine è spesso implicito (*mi piace*), in tedesco l'ordine è diverso: *Es gefällt **mir*** (piace **a me**)\n- In tedesco anche gli **articoli** cambiano al dativo (dem, der, dem, den), mentre in italiano usiamo la preposizione 'a' + articolo (al, alla, ai)\n- Attenzione: *helfen* (aiutare) regge il dativo in tedesco! *Ich helfe **dir*** (non *dich*)" }
+  ]
+}

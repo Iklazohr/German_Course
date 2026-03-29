@@ -1,0 +1,39 @@
+{
+  "id": "b1-v01",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Lavoro e professione",
+  "subtitle": "Arbeit und Beruf",
+  "groups": [
+    {
+      "name": "Il mondo del lavoro",
+      "words": [
+        { "de": "die Bewerbung", "it": "la candidatura / la domanda di lavoro", "emoji": "📄", "example_de": "Ich habe meine Bewerbung abgeschickt.", "example_it": "Ho inviato la mia candidatura." },
+        { "de": "das Vorstellungsgespräch", "it": "il colloquio di lavoro", "emoji": "🤝", "example_de": "Morgen habe ich ein Vorstellungsgespräch.", "example_it": "Domani ho un colloquio di lavoro." },
+        { "de": "der Lebenslauf", "it": "il curriculum vitae", "emoji": "📋", "example_de": "Mein Lebenslauf ist zwei Seiten lang.", "example_it": "Il mio curriculum è lungo due pagine." },
+        { "de": "das Gehalt", "it": "lo stipendio", "emoji": "💰", "example_de": "Das Gehalt wird am Ende des Monats bezahlt.", "example_it": "Lo stipendio viene pagato a fine mese." },
+        { "de": "die Beförderung", "it": "la promozione", "emoji": "📈", "example_de": "Sie hat eine Beförderung bekommen.", "example_it": "Ha ottenuto una promozione." },
+        { "de": "kündigen", "it": "licenziarsi / dare le dimissioni", "emoji": "🚪", "example_de": "Er hat seinen Job gekündigt.", "example_it": "Ha dato le dimissioni dal lavoro." },
+        { "de": "die Überstunden", "it": "gli straordinari", "emoji": "⏰", "example_de": "Ich muss heute Überstunden machen.", "example_it": "Oggi devo fare gli straordinari." },
+        { "de": "der Kollege", "it": "il collega", "emoji": "👨‍💼", "example_de": "Mein Kollege hilft mir bei dem Projekt.", "example_it": "Il mio collega mi aiuta con il progetto." },
+        { "de": "die Abteilung", "it": "il reparto / la divisione", "emoji": "🏢", "example_de": "Ich arbeite in der Marketing-Abteilung.", "example_it": "Lavoro nel reparto marketing." },
+        { "de": "der Chef", "it": "il capo", "emoji": "👔", "example_de": "Mein Chef ist sehr streng.", "example_it": "Il mio capo è molto severo." },
+        { "de": "die Erfahrung", "it": "l'esperienza", "emoji": "⭐", "example_de": "Für diese Stelle braucht man viel Erfahrung.", "example_it": "Per questa posizione serve molta esperienza." },
+        { "de": "die Ausbildung", "it": "la formazione professionale", "emoji": "🎓", "example_de": "Er macht eine Ausbildung als Mechaniker.", "example_it": "Sta facendo una formazione come meccanico." }
+      ]
+    },
+    {
+      "name": "Competenze",
+      "words": [
+        { "de": "die Teamarbeit", "it": "il lavoro di squadra", "emoji": "🤝", "example_de": "Teamarbeit ist in unserem Unternehmen sehr wichtig.", "example_it": "Il lavoro di squadra è molto importante nella nostra azienda." },
+        { "de": "die Verantwortung", "it": "la responsabilità", "emoji": "⚖️", "example_de": "In dieser Position hat man viel Verantwortung.", "example_it": "In questa posizione si ha molta responsabilità." },
+        { "de": "die Kommunikation", "it": "la comunicazione", "emoji": "💬", "example_de": "Gute Kommunikation ist der Schlüssel zum Erfolg.", "example_it": "Una buona comunicazione è la chiave del successo." },
+        { "de": "flexibel", "it": "flessibile", "emoji": "🔄", "example_de": "Wir suchen flexible Mitarbeiter.", "example_it": "Cerchiamo collaboratori flessibili." },
+        { "de": "zuverlässig", "it": "affidabile", "emoji": "✅", "example_de": "Er ist ein zuverlässiger Mitarbeiter.", "example_it": "È un collaboratore affidabile." },
+        { "de": "kreativ", "it": "creativo", "emoji": "🎨", "example_de": "Für diesen Job muss man kreativ sein.", "example_it": "Per questo lavoro bisogna essere creativi." },
+        { "de": "selbstständig", "it": "autonomo / indipendente", "emoji": "🦁", "example_de": "Sie arbeitet sehr selbstständig.", "example_it": "Lavora in modo molto autonomo." },
+        { "de": "belastbar", "it": "resistente allo stress", "emoji": "💪", "example_de": "In stressigen Situationen bin ich sehr belastbar.", "example_it": "In situazioni stressanti sono molto resistente." }
+      ]
+    }
+  ]
+}

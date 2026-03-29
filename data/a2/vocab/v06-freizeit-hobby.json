@@ -1,0 +1,39 @@
+{
+  "id": "a2-v06",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Tempo libero e hobby",
+  "subtitle": "Freizeit und Hobbys",
+  "groups": [
+    {
+      "name": "Sport e attività",
+      "words": [
+        { "de": "schwimmen", "it": "nuotare", "emoji": "🏊", "example_de": "Ich gehe gern schwimmen.", "example_it": "Mi piace andare a nuotare." },
+        { "de": "laufen", "it": "correre", "emoji": "🏃", "example_de": "Er läuft jeden Morgen 5 Kilometer.", "example_it": "Ogni mattina corre 5 chilometri." },
+        { "de": "Rad fahren", "it": "andare in bicicletta", "emoji": "🚴", "example_de": "Am Wochenende fahre ich gern Rad.", "example_it": "Nel fine settimana mi piace andare in bici." },
+        { "de": "wandern", "it": "fare escursioni", "emoji": "🥾", "example_de": "Wir wandern gern in den Bergen.", "example_it": "Ci piace fare escursioni in montagna." },
+        { "de": "Fußball spielen", "it": "giocare a calcio", "emoji": "⚽", "example_de": "Die Kinder spielen im Park Fußball.", "example_it": "I bambini giocano a calcio al parco." },
+        { "de": "Tennis spielen", "it": "giocare a tennis", "emoji": "🎾", "example_de": "Spielst du gern Tennis?", "example_it": "Ti piace giocare a tennis?" },
+        { "de": "Ski fahren", "it": "sciare", "emoji": "⛷️", "example_de": "Im Winter fahren wir Ski in Österreich.", "example_it": "In inverno andiamo a sciare in Austria." },
+        { "de": "tanzen", "it": "ballare", "emoji": "💃", "example_de": "Sie tanzt gern Salsa.", "example_it": "Le piace ballare la salsa." },
+        { "de": "klettern", "it": "arrampicarsi", "emoji": "🧗", "example_de": "Er klettert in der Kletterhalle.", "example_it": "Si arrampica nella palestra di arrampicata." },
+        { "de": "Yoga machen", "it": "fare yoga", "emoji": "🧘", "example_de": "Ich mache jeden Morgen Yoga.", "example_it": "Faccio yoga ogni mattina." }
+      ]
+    },
+    {
+      "name": "Hobby",
+      "words": [
+        { "de": "lesen", "it": "leggere", "emoji": "📖", "example_de": "Ich lese gern Romane.", "example_it": "Mi piace leggere romanzi." },
+        { "de": "kochen", "it": "cucinare", "emoji": "👨‍🍳", "example_de": "Am Wochenende koche ich gern.", "example_it": "Nel fine settimana mi piace cucinare." },
+        { "de": "malen", "it": "dipingere", "emoji": "🎨", "example_de": "Sie malt wunderschöne Bilder.", "example_it": "Dipinge quadri bellissimi." },
+        { "de": "Musik hören", "it": "ascoltare musica", "emoji": "🎵", "example_de": "Ich höre gern Musik beim Joggen.", "example_it": "Mi piace ascoltare musica mentre corro." },
+        { "de": "Gitarre spielen", "it": "suonare la chitarra", "emoji": "🎸", "example_de": "Er spielt seit fünf Jahren Gitarre.", "example_it": "Suona la chitarra da cinque anni." },
+        { "de": "fotografieren", "it": "fotografare", "emoji": "📷", "example_de": "Sie fotografiert gern Landschaften.", "example_it": "Le piace fotografare paesaggi." },
+        { "de": "reisen", "it": "viaggiare", "emoji": "✈️", "example_de": "Wir reisen gern nach Südamerika.", "example_it": "Ci piace viaggiare in Sudamerica." },
+        { "de": "Filme schauen", "it": "guardare film", "emoji": "🎬", "example_de": "Am Abend schauen wir einen Film.", "example_it": "La sera guardiamo un film." },
+        { "de": "im Garten arbeiten", "it": "fare giardinaggio", "emoji": "🌱", "example_de": "Mein Opa arbeitet gern im Garten.", "example_it": "A mio nonno piace fare giardinaggio." },
+        { "de": "Videospiele spielen", "it": "giocare ai videogiochi", "emoji": "🎮", "example_de": "Er spielt am Computer Videospiele.", "example_it": "Gioca ai videogiochi al computer." }
+      ]
+    }
+  ]
+}

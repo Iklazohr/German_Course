@@ -1,0 +1,110 @@
+{
+  "id": "a2-e01",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: I tempi del passato",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale ausiliare si usa con il verbo 'gehen' al Perfekt?",
+      "options": ["haben", "sein", "werden", "können"],
+      "correct": 1,
+      "explanation": "I verbi di movimento (gehen, kommen, fahren, laufen...) usano 'sein' come ausiliare al Perfekt."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è corretta?",
+      "options": [
+        "Ich habe gestern ins Kino gegangen.",
+        "Ich bin gestern ins Kino gegangen.",
+        "Ich bin gestern ins Kino gegangt.",
+        "Ich habe gestern ins Kino gegangt."
+      ],
+      "correct": 1,
+      "explanation": "'Gehen' è un verbo di movimento, quindi richiede 'sein'. Il Partizip II di 'gehen' è 'gegangen' (irregolare)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale ausiliare si usa con 'essen' al Perfekt?",
+      "options": ["sein", "haben", "werden", "sein o haben"],
+      "correct": 1,
+      "explanation": "'Essen' è un verbo transitivo (si mangia qualcosa), quindi usa 'haben': Ich habe gegessen."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir ___ gestern nach Berlin gefahren.",
+      "blanks": ["sind"],
+      "explanation": "'Fahren' indica un movimento da un luogo a un altro, quindi si usa 'sein' come ausiliare."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er hat den ganzen Tag ___.",
+      "blanks": ["geschlafen"],
+      "explanation": "Il Partizip II di 'schlafen' (dormire) è 'geschlafen' (verbo forte: schlafen → schlief → geschlafen)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Hast du schon die Hausaufgaben ___?",
+      "blanks": ["gemacht"],
+      "explanation": "Il Partizip II di 'machen' (fare) è 'gemacht' (verbo regolare: ge- + mach + -t)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Sie ___ ein neues Buch gekauft.",
+      "blanks": ["hat"],
+      "explanation": "'Kaufen' è un verbo transitivo (si compra qualcosa), quindi richiede l'ausiliare 'haben'. Con 'sie' (lei) si usa 'hat'."
+    },
+    {
+      "type": "translation",
+      "sentence": "Ieri sono andato al supermercato.",
+      "answer": "Gestern bin ich in den Supermarkt gegangen.",
+      "hint": "gehen → gegangen (con sein)"
+    },
+    {
+      "type": "translation",
+      "sentence": "Abbiamo mangiato una pizza.",
+      "answer": "Wir haben eine Pizza gegessen.",
+      "hint": "essen → gegessen (con haben)"
+    },
+    {
+      "type": "translation",
+      "sentence": "Da bambino giocavo sempre a calcio.",
+      "answer": "Als Kind spielte ich immer Fußball.",
+      "hint": "Usa il Präteritum per le descrizioni nel passato"
+    },
+    {
+      "type": "reorder",
+      "words": ["habe", "ich", "einen", "Film", "gesehen", "gestern"],
+      "correct": "Gestern habe ich einen Film gesehen."
+    },
+    {
+      "type": "reorder",
+      "words": ["du", "nach", "bist", "Hause", "wann", "gekommen"],
+      "correct": "Wann bist du nach Hause gekommen?"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "schreiben", "right": "geschrieben"},
+        {"left": "trinken", "right": "getrunken"},
+        {"left": "lesen", "right": "gelesen"},
+        {"left": "sprechen", "right": "gesprochen"},
+        {"left": "nehmen", "right": "genommen"},
+        {"left": "finden", "right": "gefunden"}
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale forma del Präteritum è corretta per 'sein' con 'ich'?",
+      "options": ["ich bin", "ich war", "ich wart", "ich seid"],
+      "correct": 1,
+      "explanation": "Il Präteritum di 'sein' con 'ich' è 'ich war'. Il Präteritum di 'sein' e 'haben' si usa molto nel parlato, a differenza degli altri verbi."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Als ich klein ___, ___ ich viele Bücher.",
+      "blanks": ["war", "las"],
+      "explanation": "'War' è il Präteritum di 'sein' (ich war = io ero). 'Las' è il Präteritum di 'lesen' (ich las = io leggevo). Per le narrazioni al passato si preferisce il Präteritum."
+    }
+  ]
+}

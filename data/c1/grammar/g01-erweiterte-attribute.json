@@ -1,0 +1,99 @@
+{
+  "id": "c1-g01",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Attributi estesi",
+  "subtitle": "Erweiterte Attribute",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Gli **erweiterte Attribute** (attributi estesi) sono una delle strutture piu caratteristiche del tedesco formale e accademico. Si tratta di lunghe costruzioni aggettivali o participiali che si inseriscono **tra l'articolo e il sostantivo**, condensando in una sola frase informazioni che in italiano richiederebbero una proposizione relativa. Sono onnipresenti nei testi scientifici, giuridici e giornalistici. Padroneggiare questa struttura e fondamentale per leggere e scrivere ad alto livello."
+    },
+    {
+      "type": "rule",
+      "title": "La struttura fondamentale",
+      "content": "L'attributo esteso si colloca tra l'articolo (o altro determinante) e il sostantivo. Il nucleo e un **participio** o **aggettivo** che si declina normalmente e si trova immediatamente prima del sostantivo. Tutto cio che sta tra l'articolo e il participio/aggettivo e l'informazione estesa.",
+      "table": {
+        "headers": ["Struttura", "Esempio tedesco", "Traduzione italiana"],
+        "rows": [
+          ["Articolo + informazione estesa + participio/aggettivo + sostantivo", "der von vielen Experten empfohlene Plan", "il piano raccomandato da molti esperti"],
+          ["", "die in der letzten Sitzung beschlossene Maßnahme", "il provvedimento deciso nell'ultima riunione"],
+          ["", "das seit Jahren andauernde Problem", "il problema che persiste da anni"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Conversione: proposizione relativa -> attributo esteso",
+      "content": "Ogni attributo esteso corrisponde a una proposizione relativa e viceversa. Saper convertire dall'una all'altra forma e essenziale. Il verbo della relativa diventa participio e si posiziona subito prima del sostantivo; il pronome relativo scompare.",
+      "table": {
+        "headers": ["Proposizione relativa", "Attributo esteso", "Traduzione"],
+        "rows": [
+          ["Der Plan, der von vielen Experten empfohlen wird, ...", "der von vielen Experten empfohlene Plan", "il piano raccomandato da molti esperti"],
+          ["Die Ergebnisse, die gestern veröffentlicht wurden, ...", "die gestern veröffentlichten Ergebnisse", "i risultati pubblicati ieri"],
+          ["Das Buch, das viel diskutiert wird, ...", "das viel diskutierte Buch", "il libro molto discusso"],
+          ["Die Kosten, die ständig steigen, ...", "die ständig steigenden Kosten", "i costi in continuo aumento"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Con Partizip I (participio presente)",
+      "content": "Il **Partizip I** (Infinitiv + -d: *steigend, wachsend, laufend*) si usa per azioni **in corso** o **simultanee**. Corrisponde al participio presente italiano o a una relativa con verbo al presente/attivo.",
+      "table": {
+        "headers": ["Partizip I", "Esempio", "Traduzione"],
+        "rows": [
+          ["steigend", "die immer weiter steigenden Preise", "i prezzi sempre piu in aumento"],
+          ["wachsend", "die ständig wachsende Nachfrage", "la domanda in continua crescita"],
+          ["laufend", "die gerade laufenden Verhandlungen", "le trattative attualmente in corso"],
+          ["kommend", "die in den kommenden Wochen stattfindenden Wahlen", "le elezioni che si terranno nelle prossime settimane"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Con Partizip II (participio passato)",
+      "content": "Il **Partizip II** si usa per azioni **completate** o **passive**. E la forma piu frequente negli attributi estesi. Corrisponde al participio passato italiano o a una relativa passiva.",
+      "table": {
+        "headers": ["Partizip II", "Esempio", "Traduzione"],
+        "rows": [
+          ["gegründet", "das vor drei Jahren gegründete Unternehmen", "l'azienda fondata tre anni fa"],
+          ["veröffentlicht", "der kürzlich veröffentlichte Bericht", "il rapporto recentemente pubblicato"],
+          ["anerkannt", "die international anerkannte Universität", "l'universita riconosciuta a livello internazionale"],
+          ["betroffen", "die von der Krise betroffenen Länder", "i paesi colpiti dalla crisi"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Attributi estesi su piu livelli",
+      "content": "Nel tedesco accademico si incontrano attributi estesi molto complessi, con informazioni annidate su piu livelli. Queste strutture possono sembrare intimidatorie ma si analizzano sempre partendo dal sostantivo finale e procedendo a ritroso.",
+      "table": {
+        "headers": ["Esempio complesso", "Analisi", "Traduzione"],
+        "rows": [
+          ["der von dem seit langem bekannten Professor geschriebene Artikel", "Articolo <- scritto <- dal professore <- noto da tempo", "l'articolo scritto dal professore noto da tempo"],
+          ["die auf der gestern stattgefundenen Konferenz vorgestellten Ergebnisse", "Risultati <- presentati <- alla conferenza <- svoltasi ieri", "i risultati presentati alla conferenza svoltasi ieri"],
+          ["das von den an der Studie beteiligten Forschern entwickelte Modell", "Modello <- sviluppato <- dai ricercatori <- coinvolti nello studio", "il modello sviluppato dai ricercatori coinvolti nello studio"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Come decifrare un attributo esteso complesso:**\n\n1. **Trova il sostantivo** alla fine del blocco (dopo l'ultimo aggettivo/participio declinato)\n2. **Trova l'articolo** all'inizio del blocco\n3. **Identifica il participio/aggettivo** immediatamente prima del sostantivo — questo e il nucleo della descrizione\n4. **Leggi a ritroso** tutto cio che sta tra l'articolo e il participio: sono le informazioni aggiuntive\n5. **Ricostruisci come relativa** se necessario: *der ... empfohlene Plan* -> *der Plan, der ... empfohlen wird*\n\nConsiglio pratico: nei tuoi testi, se l'attributo esteso supera le 5-6 parole, valuta se una proposizione relativa non sia piu chiara!"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Die in der Studie verwendeten Methoden sind umstritten.", "it": "I metodi utilizzati nello studio sono controversi." },
+        { "de": "Der von der Regierung vorgelegte Gesetzentwurf wurde abgelehnt.", "it": "Il disegno di legge presentato dal governo e stato respinto." },
+        { "de": "Die seit Monaten andauernde Debatte hat zu keinem Ergebnis geführt.", "it": "Il dibattito in corso da mesi non ha portato a nessun risultato." },
+        { "de": "Das von internationalen Experten gelobte Bildungssystem wird reformiert.", "it": "Il sistema educativo lodato da esperti internazionali verra riformato." },
+        { "de": "Die für das nächste Jahr geplanten Investitionen betragen 5 Millionen Euro.", "it": "Gli investimenti previsti per il prossimo anno ammontano a 5 milioni di euro." },
+        { "de": "Der im 18. Jahrhundert erbaute Dom zieht jährlich tausende Touristen an.", "it": "La cattedrale costruita nel XVIII secolo attira migliaia di turisti ogni anno." },
+        { "de": "Die ständig wachsende Zahl der Studierenden stellt die Universität vor Herausforderungen.", "it": "Il numero sempre crescente di studenti pone l'universita di fronte a sfide." },
+        { "de": "Ein auf jahrelanger Forschung basierendes Ergebnis lässt sich nicht leicht widerlegen.", "it": "Un risultato basato su anni di ricerca non si lascia confutare facilmente." }
+      ]
+    }
+  ]
+}

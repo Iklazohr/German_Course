@@ -1,0 +1,107 @@
+{
+  "id": "b2-g01",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Participi come aggettivi",
+  "subtitle": "Partizipien als Adjektive",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "In tedesco, i **participi** (sia il Partizip I che il Partizip II) possono essere usati come **aggettivi** davanti ai sostantivi. Questa è una struttura molto comune, soprattutto nel tedesco **scritto e formale** (giornali, testi accademici, documenti ufficiali). Padroneggiare questa costruzione è essenziale per il livello B2, perché permette di esprimere concetti complessi in modo compatto e elegante. In italiano usiamo spesso frasi relative ('il ragazzo che ride'), mentre il tedesco preferisce l'aggettivo participiale ('der lachende Junge')."
+    },
+    {
+      "type": "rule",
+      "title": "Partizip I (Participio presente): formazione",
+      "content": "Il **Partizip I** si forma aggiungendo **-d** all'infinito del verbo:\n\n**Infinito + d = Partizip I**\n\nEsprime un'azione **in corso, simultanea** all'azione principale (come il gerundio/participio presente italiano).",
+      "table": {
+        "headers": ["Infinito", "Partizip I", "Significato"],
+        "rows": [
+          ["lachen", "lachend", "ridente / che ride"],
+          ["spielen", "spielend", "che gioca"],
+          ["schlafen", "schlafend", "dormiente / che dorme"],
+          ["wachsen", "wachsend", "crescente / che cresce"],
+          ["fliegen", "fliegend", "volante / che vola"],
+          ["brennen", "brennend", "ardente / che brucia"],
+          ["faszinieren", "faszinierend", "affascinante"],
+          ["überraschen", "überraschend", "sorprendente"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Partizip II come aggettivo",
+      "content": "Il **Partizip II** (participio passato), che già conosci dal Perfekt, può essere usato come aggettivo. Esprime un'azione **completata** o uno **stato risultante**.\n\nRicorda la formazione:\n- Verbi regolari: **ge- + radice + -t** (gemacht, gekocht)\n- Verbi irregolari: **ge- + radice modificata + -en** (geschrieben, gefunden)\n- Verbi con prefisso inseparabile: **senza ge-** (geöffnet, geschlossen, verloren)",
+      "table": {
+        "headers": ["Partizip II", "Come aggettivo", "Significato"],
+        "rows": [
+          ["geschlossen", "die geschlossene Tür", "la porta chiusa"],
+          ["geöffnet", "das geöffnete Fenster", "la finestra aperta"],
+          ["gebrochen", "der gebrochene Arm", "il braccio rotto"],
+          ["verloren", "das verlorene Kind", "il bambino perduto"],
+          ["geschrieben", "der geschriebene Brief", "la lettera scritta"],
+          ["gekocht", "das gekochte Ei", "l'uovo bollito"],
+          ["verboten", "das verbotene Buch", "il libro proibito"],
+          ["erwartet", "das erwartete Ergebnis", "il risultato atteso"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Declinazione: i participi si declinano come aggettivi!",
+      "content": "Quando un participio è usato come aggettivo attributivo (cioè **davanti al sostantivo**), segue le normali regole di **declinazione dell'aggettivo** (con articolo determinativo, indeterminativo o senza articolo).",
+      "table": {
+        "headers": ["Tipo di articolo", "Esempio", "Traduzione"],
+        "rows": [
+          ["Articolo determinativo", "der lachende Mann", "l'uomo che ride"],
+          ["Articolo determinativo", "die geöffnete Tür", "la porta aperta"],
+          ["Articolo determinativo", "das spielende Kind", "il bambino che gioca"],
+          ["Articolo indeterminativo", "ein lachendes Kind", "un bambino che ride"],
+          ["Articolo indeterminativo", "eine geschlossene Tür", "una porta chiusa"],
+          ["Senza articolo", "kalter, brennender Kaffee", "caffè freddo e bollente"],
+          ["Plurale con articolo det.", "die spielenden Kinder", "i bambini che giocano"],
+          ["Plurale senza articolo", "spielende Kinder", "bambini che giocano"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Attributi participiali estesi (erweiterte Partizipialattribute)",
+      "content": "Una caratteristica tipica del tedesco formale/scritto è l'**attributo participiale esteso**: tra l'articolo e il sostantivo si inseriscono molte informazioni, creando frasi molto compatte.\n\nLa struttura è:\n**Articolo + (informazioni aggiuntive) + participio declinato + sostantivo**\n\nQuesto corrisponde in italiano a una lunga frase relativa.",
+      "table": {
+        "headers": ["Tedesco (compatto)", "Italiano (frase relativa)"],
+        "rows": [
+          ["der seit drei Tagen kranke Mann", "l'uomo che è malato da tre giorni"],
+          ["die im Garten spielenden Kinder", "i bambini che giocano in giardino"],
+          ["das von meiner Mutter gekochte Essen", "il cibo cucinato da mia madre"],
+          ["der gestern Abend angekommene Zug", "il treno arrivato ieri sera"],
+          ["die in der Zeitung veröffentlichte Nachricht", "la notizia pubblicata sul giornale"],
+          ["der seit Wochen erwartete Brief", "la lettera attesa da settimane"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Attenzione!** Gli attributi participiali estesi sono **molto comuni nel tedesco scritto** (giornali, testi accademici, documenti legali), ma **rari nel parlato**. Nella lingua parlata si preferiscono le frasi relative: *Der Mann, der seit drei Tagen krank ist* (anziché *der seit drei Tagen kranke Mann*). Al livello B2, devi saper **riconoscere e comprendere** queste strutture, e iniziare a **produrle** almeno in forma semplice.\n\n**Trucco per capirli:** Leggi dall'articolo al sostantivo. Tutto ciò che sta in mezzo descrive il sostantivo. Il participio è sempre l'ultimo elemento prima del sostantivo."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "content": "Partizip I e II come aggettivi in frasi complete:",
+      "items": [
+        { "de": "Das weinende Kind sucht seine Mutter.", "it": "Il bambino che piange cerca sua madre." },
+        { "de": "Die geschlossene Bank öffnet um 9 Uhr.", "it": "La banca chiusa apre alle 9." },
+        { "de": "Der ankommende Zug hat Verspätung.", "it": "Il treno in arrivo è in ritardo." },
+        { "de": "Die gekochten Kartoffeln sind fertig.", "it": "Le patate bollite sono pronte." },
+        { "de": "Ein bellender Hund beißt nicht.", "it": "Can che abbaia non morde." },
+        { "de": "Die von Studenten organisierte Demonstration war friedlich.", "it": "La manifestazione organizzata dagli studenti è stata pacifica." },
+        { "de": "Der seit Monaten vermisste Hund wurde gefunden.", "it": "Il cane scomparso da mesi è stato ritrovato." },
+        { "de": "Die am Telefon sprechende Frau ist meine Chefin.", "it": "La donna che parla al telefono è la mia capa." }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Confronto con l'italiano",
+      "content": "In italiano usiamo il participio come aggettivo soprattutto con il **participio passato** (porta chiusa, libro scritto, uovo cotto). Il **participio presente** come aggettivo è meno comune e limitato a forme fisse (acqua corrente, stella cadente).\n\nIn tedesco, **entrambi i participi** sono usati liberamente come aggettivi:\n\n- *il ragazzo che ride* → **der lachende Junge** (Partizip I)\n- *la porta chiusa* → **die geschlossene Tür** (Partizip II)\n\n**Differenza fondamentale:**\n- **Partizip I** = azione in corso (chi fa l'azione): *der lesende Student* = lo studente che legge\n- **Partizip II** = azione completata/subita: *das gelesene Buch* = il libro letto\n\nNota: il tedesco **declina** sempre il participio-aggettivo (*der lachend**e** Mann, ein lachend**es** Kind*), mentre in italiano il participio passato si accorda solo in genere e numero (*la porta chius**a**, i libri scritt**i***)."
+    }
+  ]
+}

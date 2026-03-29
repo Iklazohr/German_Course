@@ -1,0 +1,105 @@
+{
+  "id": "a2-e03",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: Comparativi e riflessivi",
+  "questions": [
+    {
+      "type": "fill-blank",
+      "sentence": "Berlin ist ___ als München.",
+      "blanks": ["größer"],
+      "explanation": "Il comparativo di 'groß' (grande) è 'größer'. Nota l'Umlaut: groß → größer. Si aggiunge '-er' e la vocale prende l'Umlaut."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Dieses Restaurant ist ___ als das andere.",
+      "blanks": ["besser"],
+      "explanation": "Il comparativo di 'gut' (buono) è 'besser' (migliore). È una forma irregolare: gut → besser → am besten."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Im Winter regnet es ___ als im Sommer.",
+      "blanks": ["mehr"],
+      "explanation": "Il comparativo di 'viel' (molto) è 'mehr' (di più). Forma irregolare: viel → mehr → am meisten."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Mein Auto fährt ___ als dein Auto.",
+      "blanks": ["schneller"],
+      "explanation": "Il comparativo di 'schnell' (veloce) è 'schneller'. Si aggiunge semplicemente '-er': schnell → schneller."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è il superlativo corretto di 'gern'?",
+      "options": ["am gernsten", "am liebsten", "am gerner", "am mehrsten"],
+      "correct": 1,
+      "explanation": "'Gern' ha forme irregolari: gern → lieber → am liebsten. 'Am liebsten' significa 'più volentieri di tutto'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase con il superlativo è corretta?",
+      "options": [
+        "Der Everest ist der höchste Berg der Welt.",
+        "Der Everest ist der höher Berg der Welt.",
+        "Der Everest ist der höheste Berg der Welt.",
+        "Der Everest ist der am höchsten Berg der Welt."
+      ],
+      "correct": 0,
+      "explanation": "Il superlativo attributivo (prima del nome) usa la forma 'höchst-' + desinenza dell'aggettivo: 'der höchste Berg'. hoch → höher → höchst-."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich wasche ___ jeden Morgen.",
+      "blanks": ["mich"],
+      "explanation": "Il pronome riflessivo per 'ich' all'accusativo è 'mich'. 'Sich waschen' (lavarsi) richiede l'accusativo riflessivo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er fühlt ___ heute nicht gut.",
+      "blanks": ["sich"],
+      "explanation": "Il pronome riflessivo per 'er/sie/es' è 'sich'. 'Sich fühlen' (sentirsi) è un verbo riflessivo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir freuen ___ auf den Urlaub.",
+      "blanks": ["uns"],
+      "explanation": "Il pronome riflessivo per 'wir' è 'uns'. 'Sich freuen auf' (non vedere l'ora di) è un verbo riflessivo con preposizione."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Interessiert ihr ___ für Kunst?",
+      "blanks": ["euch"],
+      "explanation": "Il pronome riflessivo per 'ihr' è 'euch'. 'Sich interessieren für' (interessarsi di) regge l'accusativo riflessivo."
+    },
+    {
+      "type": "translation",
+      "sentence": "Mia sorella è più alta di me.",
+      "answer": "Meine Schwester ist größer als ich.",
+      "hint": "Il comparativo di 'groß' è 'größer'; 'di' nel comparativo = 'als'"
+    },
+    {
+      "type": "translation",
+      "sentence": "Mi lavo i denti tre volte al giorno.",
+      "answer": "Ich putze mir dreimal am Tag die Zähne.",
+      "hint": "sich die Zähne putzen — riflessivo al dativo (mir)"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "sich freuen auf", "right": "non vedere l'ora di"},
+        {"left": "sich interessieren für", "right": "interessarsi di"},
+        {"left": "sich fühlen", "right": "sentirsi"},
+        {"left": "sich treffen", "right": "incontrarsi"},
+        {"left": "sich erinnern an", "right": "ricordarsi di"},
+        {"left": "sich entschuldigen", "right": "scusarsi"}
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale pronome riflessivo completa la frase: 'Du musst ___ beeilen!'?",
+      "options": ["mich", "dich", "sich", "uns"],
+      "correct": 1,
+      "explanation": "Con 'du' il pronome riflessivo è 'dich'. 'Sich beeilen' significa 'sbrigarsi'."
+    }
+  ]
+}

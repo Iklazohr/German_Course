@@ -1,0 +1,206 @@
+{
+  "id": "a2-v03",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Salute e corpo umano",
+  "subtitle": "Gesundheit und Körper",
+  "groups": [
+    {
+      "name": "Il corpo",
+      "words": [
+        {
+          "de": "der Kopf",
+          "it": "la testa",
+          "emoji": "😀",
+          "example_de": "Mir tut der Kopf weh.",
+          "example_it": "Mi fa male la testa."
+        },
+        {
+          "de": "das Auge",
+          "it": "l'occhio",
+          "emoji": "👁️",
+          "example_de": "Sie hat blaue Augen.",
+          "example_it": "Ha gli occhi azzurri."
+        },
+        {
+          "de": "die Nase",
+          "it": "il naso",
+          "emoji": "👃",
+          "example_de": "Meine Nase läuft seit gestern.",
+          "example_it": "Mi cola il naso da ieri."
+        },
+        {
+          "de": "der Mund",
+          "it": "la bocca",
+          "emoji": "👄",
+          "example_de": "Öffnen Sie bitte den Mund.",
+          "example_it": "Apra la bocca, per favore."
+        },
+        {
+          "de": "das Ohr",
+          "it": "l'orecchio",
+          "emoji": "👂",
+          "example_de": "Ich habe Schmerzen im rechten Ohr.",
+          "example_it": "Ho dolore all'orecchio destro."
+        },
+        {
+          "de": "der Arm",
+          "it": "il braccio",
+          "emoji": "💪",
+          "example_de": "Er hat sich den Arm gebrochen.",
+          "example_it": "Si è rotto il braccio."
+        },
+        {
+          "de": "das Bein",
+          "it": "la gamba",
+          "emoji": "🦵",
+          "example_de": "Nach dem Sport tut mir das Bein weh.",
+          "example_it": "Dopo lo sport mi fa male la gamba."
+        },
+        {
+          "de": "die Hand",
+          "it": "la mano",
+          "emoji": "✋",
+          "example_de": "Wasch dir bitte die Hände!",
+          "example_it": "Lavati le mani, per favore!"
+        },
+        {
+          "de": "der Fuß",
+          "it": "il piede",
+          "emoji": "🦶",
+          "example_de": "Ich gehe jeden Tag zu Fuß zur Schule.",
+          "example_it": "Ogni giorno vado a scuola a piedi."
+        },
+        {
+          "de": "der Rücken",
+          "it": "la schiena",
+          "emoji": "🔙",
+          "example_de": "Ich habe seit Wochen Rückenschmerzen.",
+          "example_it": "Ho mal di schiena da settimane."
+        }
+      ]
+    },
+    {
+      "name": "Malattie",
+      "words": [
+        {
+          "de": "die Erkältung",
+          "it": "il raffreddore",
+          "emoji": "🤧",
+          "example_de": "Ich habe eine starke Erkältung.",
+          "example_it": "Ho un forte raffreddore."
+        },
+        {
+          "de": "das Fieber",
+          "it": "la febbre",
+          "emoji": "🌡️",
+          "example_de": "Das Kind hat 39 Grad Fieber.",
+          "example_it": "Il bambino ha 39 gradi di febbre."
+        },
+        {
+          "de": "der Husten",
+          "it": "la tosse",
+          "emoji": "😷",
+          "example_de": "Seit drei Tagen habe ich starken Husten.",
+          "example_it": "Da tre giorni ho una forte tosse."
+        },
+        {
+          "de": "die Kopfschmerzen",
+          "it": "il mal di testa",
+          "emoji": "🤕",
+          "example_de": "Ich habe heute schreckliche Kopfschmerzen.",
+          "example_it": "Oggi ho un terribile mal di testa."
+        },
+        {
+          "de": "die Allergie",
+          "it": "l'allergia",
+          "emoji": "🤧",
+          "example_de": "Ich habe eine Allergie gegen Pollen.",
+          "example_it": "Ho un'allergia al polline."
+        },
+        {
+          "de": "die Grippe",
+          "it": "l'influenza",
+          "emoji": "🤒",
+          "example_de": "Im Winter haben viele Leute die Grippe.",
+          "example_it": "In inverno molte persone hanno l'influenza."
+        },
+        {
+          "de": "der Durchfall",
+          "it": "la diarrea",
+          "emoji": "🤢",
+          "example_de": "Er hat Durchfall und kann nicht zur Arbeit gehen.",
+          "example_it": "Ha la diarrea e non può andare al lavoro."
+        },
+        {
+          "de": "die Übelkeit",
+          "it": "la nausea",
+          "emoji": "🤮",
+          "example_de": "Nach der langen Busfahrt hatte ich Übelkeit.",
+          "example_it": "Dopo il lungo viaggio in autobus avevo la nausea."
+        }
+      ]
+    },
+    {
+      "name": "Dal medico",
+      "words": [
+        {
+          "de": "der Arzt",
+          "it": "il medico",
+          "emoji": "👨‍⚕️",
+          "example_de": "Ich muss morgen zum Arzt gehen.",
+          "example_it": "Domani devo andare dal medico."
+        },
+        {
+          "de": "die Apotheke",
+          "it": "la farmacia",
+          "emoji": "💊",
+          "example_de": "Die Apotheke ist gleich um die Ecke.",
+          "example_it": "La farmacia è proprio dietro l'angolo."
+        },
+        {
+          "de": "das Rezept",
+          "it": "la ricetta medica",
+          "emoji": "📋",
+          "example_de": "Der Arzt hat mir ein Rezept für Tabletten gegeben.",
+          "example_it": "Il medico mi ha dato una ricetta per delle compresse."
+        },
+        {
+          "de": "das Krankenhaus",
+          "it": "l'ospedale",
+          "emoji": "🏥",
+          "example_de": "Er liegt seit einer Woche im Krankenhaus.",
+          "example_it": "È ricoverato in ospedale da una settimana."
+        },
+        {
+          "de": "die Untersuchung",
+          "it": "la visita medica / l'esame",
+          "emoji": "🩺",
+          "example_de": "Die Untersuchung beim Arzt hat 30 Minuten gedauert.",
+          "example_it": "La visita dal medico è durata 30 minuti."
+        },
+        {
+          "de": "das Medikament",
+          "it": "il farmaco / la medicina",
+          "emoji": "💊",
+          "example_de": "Nehmen Sie das Medikament dreimal täglich.",
+          "example_it": "Prenda il farmaco tre volte al giorno."
+        },
+        {
+          "de": "die Sprechstunde",
+          "it": "l'orario di visita / la consultazione",
+          "emoji": "🕐",
+          "example_de": "Die Sprechstunde ist von 8 bis 12 Uhr.",
+          "example_it": "L'orario di visita è dalle 8 alle 12."
+        },
+        {
+          "de": "der Termin",
+          "it": "l'appuntamento",
+          "emoji": "📅",
+          "example_de": "Ich habe einen Termin beim Zahnarzt.",
+          "example_it": "Ho un appuntamento dal dentista."
+        }
+      ]
+    }
+  ]
+}

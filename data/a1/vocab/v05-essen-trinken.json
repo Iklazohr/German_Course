@@ -8,40 +8,40 @@
     {
       "name": "Alimenti",
       "words": [
-        { "de": "das Brot", "it": "il pane", "example_de": "Ich kaufe Brot.", "example_it": "Compro del pane." },
-        { "de": "das Brötchen", "it": "il panino", "example_de": "Zum Frühstück esse ich ein Brötchen.", "example_it": "A colazione mangio un panino." },
-        { "de": "der Käse", "it": "il formaggio", "example_de": "Ich mag Käse sehr.", "example_it": "Mi piace molto il formaggio." },
-        { "de": "die Wurst", "it": "l'insaccato / il würstel", "example_de": "Deutsche Wurst ist lecker.", "example_it": "I würstel tedeschi sono buoni." },
-        { "de": "das Fleisch", "it": "la carne", "example_de": "Ich esse kein Fleisch.", "example_it": "Non mangio carne." },
-        { "de": "der Fisch", "it": "il pesce", "example_de": "Freitags essen wir Fisch.", "example_it": "Il venerdì mangiamo pesce." },
-        { "de": "das Ei / die Eier", "it": "l'uovo / le uova", "example_de": "Zum Frühstück ein Ei.", "example_it": "Per colazione un uovo." },
-        { "de": "der Reis", "it": "il riso", "example_de": "Reis mit Gemüse.", "example_it": "Riso con verdure." },
-        { "de": "die Kartoffel", "it": "la patata", "example_de": "Deutsche lieben Kartoffeln.", "example_it": "I tedeschi amano le patate." },
-        { "de": "das Gemüse", "it": "la verdura", "example_de": "Gemüse ist gesund.", "example_it": "La verdura è sana." },
-        { "de": "das Obst", "it": "la frutta", "example_de": "Ich esse gern Obst.", "example_it": "Mi piace mangiare la frutta." },
-        { "de": "der Apfel", "it": "la mela", "example_de": "Ein Apfel am Tag.", "example_it": "Una mela al giorno." }
+        { "de": "das Brot", "it": "il pane", "emoji": "🍞", "example_de": "Ich kaufe Brot.", "example_it": "Compro del pane." },
+        { "de": "das Brötchen", "it": "il panino", "emoji": "🥖", "example_de": "Zum Frühstück esse ich ein Brötchen.", "example_it": "A colazione mangio un panino." },
+        { "de": "der Käse", "it": "il formaggio", "emoji": "🧀", "example_de": "Ich mag Käse sehr.", "example_it": "Mi piace molto il formaggio." },
+        { "de": "die Wurst", "it": "l'insaccato / il würstel", "emoji": "🌭", "example_de": "Deutsche Wurst ist lecker.", "example_it": "I würstel tedeschi sono buoni." },
+        { "de": "das Fleisch", "it": "la carne", "emoji": "🥩", "example_de": "Ich esse kein Fleisch.", "example_it": "Non mangio carne." },
+        { "de": "der Fisch", "it": "il pesce", "emoji": "🐟", "example_de": "Freitags essen wir Fisch.", "example_it": "Il venerdì mangiamo pesce." },
+        { "de": "das Ei / die Eier", "it": "l'uovo / le uova", "emoji": "🥚", "example_de": "Zum Frühstück ein Ei.", "example_it": "Per colazione un uovo." },
+        { "de": "der Reis", "it": "il riso", "emoji": "🍚", "example_de": "Reis mit Gemüse.", "example_it": "Riso con verdure." },
+        { "de": "die Kartoffel", "it": "la patata", "emoji": "🥔", "example_de": "Deutsche lieben Kartoffeln.", "example_it": "I tedeschi amano le patate." },
+        { "de": "das Gemüse", "it": "la verdura", "emoji": "🥦", "example_de": "Gemüse ist gesund.", "example_it": "La verdura è sana." },
+        { "de": "das Obst", "it": "la frutta", "emoji": "🍎", "example_de": "Ich esse gern Obst.", "example_it": "Mi piace mangiare la frutta." },
+        { "de": "der Apfel", "it": "la mela", "emoji": "🍏", "example_de": "Ein Apfel am Tag.", "example_it": "Una mela al giorno." }
       ]
     },
     {
       "name": "Bevande",
       "words": [
-        { "de": "das Wasser", "it": "l'acqua", "example_de": "Ein Glas Wasser, bitte.", "example_it": "Un bicchiere d'acqua, per favore." },
-        { "de": "der Kaffee", "it": "il caffè", "example_de": "Ich trinke morgens Kaffee.", "example_it": "La mattina bevo caffè." },
-        { "de": "der Tee", "it": "il tè", "example_de": "Möchten Sie Tee?", "example_it": "Desidera del tè?" },
-        { "de": "die Milch", "it": "il latte", "example_de": "Kaffee mit Milch.", "example_it": "Caffè con latte." },
-        { "de": "der Saft", "it": "il succo", "example_de": "Orangensaft, bitte.", "example_it": "Succo d'arancia, per favore." },
-        { "de": "das Bier", "it": "la birra", "example_de": "Ein Bier, bitte!", "example_it": "Una birra, per favore!" },
-        { "de": "der Wein", "it": "il vino", "example_de": "Ein Glas Rotwein.", "example_it": "Un bicchiere di vino rosso." }
+        { "de": "das Wasser", "it": "l'acqua", "emoji": "💧", "example_de": "Ein Glas Wasser, bitte.", "example_it": "Un bicchiere d'acqua, per favore." },
+        { "de": "der Kaffee", "it": "il caffè", "emoji": "☕", "example_de": "Ich trinke morgens Kaffee.", "example_it": "La mattina bevo caffè." },
+        { "de": "der Tee", "it": "il tè", "emoji": "🍵", "example_de": "Möchten Sie Tee?", "example_it": "Desidera del tè?" },
+        { "de": "die Milch", "it": "il latte", "emoji": "🥛", "example_de": "Kaffee mit Milch.", "example_it": "Caffè con latte." },
+        { "de": "der Saft", "it": "il succo", "emoji": "🧃", "example_de": "Orangensaft, bitte.", "example_it": "Succo d'arancia, per favore." },
+        { "de": "das Bier", "it": "la birra", "emoji": "🍺", "example_de": "Ein Bier, bitte!", "example_it": "Una birra, per favore!" },
+        { "de": "der Wein", "it": "il vino", "emoji": "🍷", "example_de": "Ein Glas Rotwein.", "example_it": "Un bicchiere di vino rosso." }
       ]
     },
     {
       "name": "Al ristorante",
       "words": [
-        { "de": "die Speisekarte", "it": "il menu", "example_de": "Die Speisekarte, bitte.", "example_it": "Il menu, per favore." },
-        { "de": "bestellen", "it": "ordinare", "example_de": "Ich möchte bestellen.", "example_it": "Vorrei ordinare." },
-        { "de": "die Rechnung", "it": "il conto", "example_de": "Die Rechnung, bitte!", "example_it": "Il conto, per favore!" },
-        { "de": "lecker", "it": "buono/gustoso", "example_de": "Das Essen ist sehr lecker!", "example_it": "Il cibo è molto buono!" },
-        { "de": "Guten Appetit!", "it": "Buon appetito!", "example_de": "Guten Appetit!", "example_it": "Buon appetito!" }
+        { "de": "die Speisekarte", "it": "il menu", "emoji": "📋", "example_de": "Die Speisekarte, bitte.", "example_it": "Il menu, per favore." },
+        { "de": "bestellen", "it": "ordinare", "emoji": "🙋‍♂️", "example_de": "Ich möchte bestellen.", "example_it": "Vorrei ordinare." },
+        { "de": "die Rechnung", "it": "il conto", "emoji": "🧾", "example_de": "Die Rechnung, bitte!", "example_it": "Il conto, per favore!" },
+        { "de": "lecker", "it": "buono/gustoso", "emoji": "😋", "example_de": "Das Essen ist sehr lecker!", "example_it": "Il cibo è molto buono!" },
+        { "de": "Guten Appetit!", "it": "Buon appetito!", "emoji": "🍽️", "example_de": "Guten Appetit!", "example_it": "Buon appetito!" }
       ]
     }
   ]

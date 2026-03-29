@@ -8,46 +8,46 @@
     {
       "name": "Da 0 a 12",
       "words": [
-        { "de": "null", "it": "zero", "example_de": "Die Temperatur ist null Grad.", "example_it": "La temperatura è zero gradi." },
-        { "de": "eins", "it": "uno", "example_de": "Ich habe eins.", "example_it": "Ne ho uno." },
-        { "de": "zwei", "it": "due", "example_de": "Ich habe zwei Kinder.", "example_it": "Ho due figli." },
-        { "de": "drei", "it": "tre", "example_de": "Drei Kaffee, bitte.", "example_it": "Tre caffè, per favore." },
-        { "de": "vier", "it": "quattro", "example_de": "Ein Tisch für vier Personen.", "example_it": "Un tavolo per quattro persone." },
-        { "de": "fünf", "it": "cinque", "example_de": "Ich habe fünf Finger.", "example_it": "Ho cinque dita." },
-        { "de": "sechs", "it": "sei", "example_de": "Es ist sechs Uhr.", "example_it": "Sono le sei." },
-        { "de": "sieben", "it": "sette", "example_de": "Eine Woche hat sieben Tage.", "example_it": "Una settimana ha sette giorni." },
-        { "de": "acht", "it": "otto", "example_de": "Ich komme um acht.", "example_it": "Arrivo alle otto." },
-        { "de": "neun", "it": "nove", "example_de": "Neun plus eins ist zehn.", "example_it": "Nove più uno fa dieci." },
-        { "de": "zehn", "it": "dieci", "example_de": "Ich habe zehn Euro.", "example_it": "Ho dieci euro." },
-        { "de": "elf", "it": "undici", "example_de": "Es ist elf Uhr.", "example_it": "Sono le undici." },
-        { "de": "zwölf", "it": "dodici", "example_de": "Ein Jahr hat zwölf Monate.", "example_it": "Un anno ha dodici mesi." }
+        { "de": "null", "it": "zero", "emoji": "0️⃣", "example_de": "Die Temperatur ist null Grad.", "example_it": "La temperatura è zero gradi." },
+        { "de": "eins", "it": "uno", "emoji": "1️⃣", "example_de": "Ich habe eins.", "example_it": "Ne ho uno." },
+        { "de": "zwei", "it": "due", "emoji": "2️⃣", "example_de": "Ich habe zwei Kinder.", "example_it": "Ho due figli." },
+        { "de": "drei", "it": "tre", "emoji": "3️⃣", "example_de": "Drei Kaffee, bitte.", "example_it": "Tre caffè, per favore." },
+        { "de": "vier", "it": "quattro", "emoji": "4️⃣", "example_de": "Ein Tisch für vier Personen.", "example_it": "Un tavolo per quattro persone." },
+        { "de": "fünf", "it": "cinque", "emoji": "5️⃣", "example_de": "Ich habe fünf Finger.", "example_it": "Ho cinque dita." },
+        { "de": "sechs", "it": "sei", "emoji": "6️⃣", "example_de": "Es ist sechs Uhr.", "example_it": "Sono le sei." },
+        { "de": "sieben", "it": "sette", "emoji": "7️⃣", "example_de": "Eine Woche hat sieben Tage.", "example_it": "Una settimana ha sette giorni." },
+        { "de": "acht", "it": "otto", "emoji": "8️⃣", "example_de": "Ich komme um acht.", "example_it": "Arrivo alle otto." },
+        { "de": "neun", "it": "nove", "emoji": "9️⃣", "example_de": "Neun plus eins ist zehn.", "example_it": "Nove più uno fa dieci." },
+        { "de": "zehn", "it": "dieci", "emoji": "🔟", "example_de": "Ich habe zehn Euro.", "example_it": "Ho dieci euro." },
+        { "de": "elf", "it": "undici", "emoji": "⚽", "example_de": "Es ist elf Uhr.", "example_it": "Sono le undici." },
+        { "de": "zwölf", "it": "dodici", "emoji": "🕛", "example_de": "Ein Jahr hat zwölf Monate.", "example_it": "Un anno ha dodici mesi." }
       ]
     },
     {
       "name": "Da 13 a 20",
       "words": [
-        { "de": "dreizehn", "it": "tredici", "example_de": "Er ist dreizehn Jahre alt.", "example_it": "Ha tredici anni." },
-        { "de": "vierzehn", "it": "quattordici", "example_de": "In vierzehn Tagen.", "example_it": "Fra quattordici giorni." },
-        { "de": "fünfzehn", "it": "quindici", "example_de": "Fünfzehn Minuten Pause.", "example_it": "Quindici minuti di pausa." },
-        { "de": "sechzehn", "it": "sedici", "example_de": "Sie ist sechzehn.", "example_it": "Lei ha sedici anni." },
-        { "de": "siebzehn", "it": "diciassette", "example_de": "Nummer siebzehn.", "example_it": "Numero diciassette." },
-        { "de": "achtzehn", "it": "diciotto", "example_de": "Mit achtzehn ist man erwachsen.", "example_it": "A diciotto anni si è adulti." },
-        { "de": "neunzehn", "it": "diciannove", "example_de": "Neunzehn Euro, bitte.", "example_it": "Diciannove euro, per favore." },
-        { "de": "zwanzig", "it": "venti", "example_de": "Ich bin zwanzig Jahre alt.", "example_it": "Ho vent'anni." }
+        { "de": "dreizehn", "it": "tredici", "emoji": "🔢", "example_de": "Er ist dreizehn Jahre alt.", "example_it": "Ha tredici anni." },
+        { "de": "vierzehn", "it": "quattordici", "emoji": "🔢", "example_de": "In vierzehn Tagen.", "example_it": "Fra quattordici giorni." },
+        { "de": "fünfzehn", "it": "quindici", "emoji": "🔢", "example_de": "Fünfzehn Minuten Pause.", "example_it": "Quindici minuti di pausa." },
+        { "de": "sechzehn", "it": "sedici", "emoji": "🔢", "example_de": "Sie ist sechzehn.", "example_it": "Lei ha sedici anni." },
+        { "de": "siebzehn", "it": "diciassette", "emoji": "🔢", "example_de": "Nummer siebzehn.", "example_it": "Numero diciassette." },
+        { "de": "achtzehn", "it": "diciotto", "emoji": "🎂", "example_de": "Mit achtzehn ist man erwachsen.", "example_it": "A diciotto anni si è adulti." },
+        { "de": "neunzehn", "it": "diciannove", "emoji": "🔢", "example_de": "Neunzehn Euro, bitte.", "example_it": "Diciannove euro, per favore." },
+        { "de": "zwanzig", "it": "venti", "emoji": "🔢", "example_de": "Ich bin zwanzig Jahre alt.", "example_it": "Ho vent'anni." }
       ]
     },
     {
       "name": "Decine e numeri composti",
       "words": [
-        { "de": "einundzwanzig (21)", "it": "ventuno", "example_de": "Einundzwanzig plus neun ist dreißig.", "example_it": "Ventuno più nove fa trenta." },
-        { "de": "dreißig (30)", "it": "trenta", "example_de": "Dreißig Tage hat der Monat.", "example_it": "Il mese ha trenta giorni." },
-        { "de": "vierzig (40)", "it": "quaranta", "example_de": "Er ist vierzig Jahre alt.", "example_it": "Ha quarant'anni." },
-        { "de": "fünfzig (50)", "it": "cinquanta", "example_de": "Fünfzig Prozent.", "example_it": "Cinquanta per cento." },
-        { "de": "sechzig (60)", "it": "sessanta", "example_de": "Eine Stunde hat sechzig Minuten.", "example_it": "Un'ora ha sessanta minuti." },
-        { "de": "siebzig (70)", "it": "settanta", "example_de": "Meine Oma ist siebzig.", "example_it": "Mia nonna ha settant'anni." },
-        { "de": "achtzig (80)", "it": "ottanta", "example_de": "Achtzig Kilometer pro Stunde.", "example_it": "Ottanta chilometri all'ora." },
-        { "de": "neunzig (90)", "it": "novanta", "example_de": "Neunzig Punkte.", "example_it": "Novanta punti." },
-        { "de": "hundert (100)", "it": "cento", "example_de": "Hundert Prozent richtig!", "example_it": "Cento per cento corretto!" }
+        { "de": "einundzwanzig (21)", "it": "ventuno", "emoji": "🔢", "example_de": "Einundzwanzig plus neun ist dreißig.", "example_it": "Ventuno più nove fa trenta." },
+        { "de": "dreißig (30)", "it": "trenta", "emoji": "🔢", "example_de": "Dreißig Tage hat der Monat.", "example_it": "Il mese ha trenta giorni." },
+        { "de": "vierzig (40)", "it": "quaranta", "emoji": "🔢", "example_de": "Er ist vierzig Jahre alt.", "example_it": "Ha quarant'anni." },
+        { "de": "fünfzig (50)", "it": "cinquanta", "emoji": "🔢", "example_de": "Fünfzig Prozent.", "example_it": "Cinquanta per cento." },
+        { "de": "sechzig (60)", "it": "sessanta", "emoji": "🔢", "example_de": "Eine Stunde hat sechzig Minuten.", "example_it": "Un'ora ha sessanta minuti." },
+        { "de": "siebzig (70)", "it": "settanta", "emoji": "🔢", "example_de": "Meine Oma ist siebzig.", "example_it": "Mia nonna ha settant'anni." },
+        { "de": "achtzig (80)", "it": "ottanta", "emoji": "🔢", "example_de": "Achtzig Kilometer pro Stunde.", "example_it": "Ottanta chilometri all'ora." },
+        { "de": "neunzig (90)", "it": "novanta", "emoji": "🔢", "example_de": "Neunzig Punkte.", "example_it": "Novanta punti." },
+        { "de": "hundert (100)", "it": "cento", "emoji": "💯", "example_de": "Hundert Prozent richtig!", "example_it": "Cento per cento corretto!" }
       ]
     }
   ]

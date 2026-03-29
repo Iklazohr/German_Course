@@ -1,0 +1,125 @@
+{
+  "id": "b2-g02",
+  "level": "b2",
+  "type": "grammar",
+  "title": "La nominalizzazione",
+  "subtitle": "Nominalisierung",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "La **Nominalisierung** (nominalizzazione) è il processo di trasformare **verbi e aggettivi in sostantivi**. È una caratteristica fondamentale del tedesco, molto più sviluppata che in italiano. I tedeschi adorano i sostantivi! Questa tendenza è talmente marcata che esiste persino un termine per descriverla: *Nominalstil* (stile nominale). Padroneggiarla è essenziale per capire testi formali, giornalistici e accademici, e per esprimersi in modo più sofisticato."
+    },
+    {
+      "type": "rule",
+      "title": "Verbi → Sostantivi con articolo neutro",
+      "content": "Qualsiasi **infinito** di un verbo può diventare un sostantivo semplicemente aggiungendo l'articolo **das** e scrivendo la prima lettera in maiuscolo. Il significato corrisponde al gerundio o all'azione stessa.\n\n**das + Infinito (maiuscolo) = sostantivo neutro**",
+      "table": {
+        "headers": ["Verbo", "Sostantivo", "Significato"],
+        "rows": [
+          ["schlafen", "das Schlafen", "il dormire / il sonno"],
+          ["lesen", "das Lesen", "il leggere / la lettura"],
+          ["essen", "das Essen", "il mangiare / il cibo / il pasto"],
+          ["rauchen", "das Rauchen", "il fumare / il fumo"],
+          ["lernen", "das Lernen", "l'apprendimento"],
+          ["wandern", "das Wandern", "l'escursionismo"],
+          ["schwimmen", "das Schwimmen", "il nuoto"],
+          ["laufen", "das Laufen", "la corsa"],
+          ["kochen", "das Kochen", "il cucinare / la cucina"],
+          ["einkaufen", "das Einkaufen", "la spesa / lo shopping"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Aggettivi → Sostantivi (persone)",
+      "content": "Gli **aggettivi** possono diventare sostantivi per indicare **persone** con quella caratteristica. Si usano con l'articolo determinativo o indeterminativo e si **declinano come aggettivi** (non come normali sostantivi!).\n\nCon articolo determinativo: **der/die + aggettivo con desinenza -e**\nCon articolo indeterminativo: **ein + aggettivo con desinenza -er (m.) / -e (f.)**",
+      "table": {
+        "headers": ["Aggettivo", "Maschile", "Femminile", "Significato"],
+        "rows": [
+          ["krank", "der Kranke / ein Kranker", "die Kranke / eine Kranke", "il/la malato/a"],
+          ["deutsch", "der Deutsche / ein Deutscher", "die Deutsche / eine Deutsche", "il/la tedesco/a"],
+          ["arbeitslos", "der Arbeitslose / ein Arbeitsloser", "die Arbeitslose / eine Arbeitslose", "il/la disoccupato/a"],
+          ["angestellt", "der Angestellte / ein Angestellter", "die Angestellte / eine Angestellte", "l'impiegato/a"],
+          ["verwandt", "der Verwandte / ein Verwandter", "die Verwandte / eine Verwandte", "il/la parente"],
+          ["erwachsen", "der Erwachsene / ein Erwachsener", "die Erwachsene / eine Erwachsene", "l'adulto/a"],
+          ["bekannt", "der Bekannte / ein Bekannter", "die Bekannte / eine Bekannte", "il/la conoscente"],
+          ["fremd", "der Fremde / ein Fremder", "die Fremde / eine Fremde", "lo/la straniero/a"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Suffissi comuni per la nominalizzazione",
+      "content": "Esistono **suffissi specifici** che trasformano verbi e aggettivi in sostantivi. Ognuno ha un genere grammaticale fisso:\n\n**Da verbi:**\n- **-ung** (femminile): il suffisso più produttivo!\n- **-er** (maschile): chi compie l'azione\n- **-nis** (neutro, a volte femminile): risultato/stato\n\n**Da aggettivi:**\n- **-heit** (femminile): dopo consonante o dittongo\n- **-keit** (femminile): dopo -lich, -ig, -bar, -sam\n- **-igkeit** (femminile): dopo -los, -haft",
+      "table": {
+        "headers": ["Suffisso", "Da", "Sostantivo", "Significato"],
+        "rows": [
+          ["-ung", "erfahren", "die Erfahrung", "l'esperienza"],
+          ["-ung", "bilden", "die Bildung", "l'istruzione/formazione"],
+          ["-ung", "entscheiden", "die Entscheidung", "la decisione"],
+          ["-ung", "bedeuten", "die Bedeutung", "il significato"],
+          ["-ung", "vorstellen", "die Vorstellung", "la presentazione/idea"],
+          ["-ung", "wohnen", "die Wohnung", "l'appartamento"],
+          ["-heit", "frei", "die Freiheit", "la libertà"],
+          ["-heit", "gesund", "die Gesundheit", "la salute"],
+          ["-heit", "dumm", "die Dummheit", "la stupidità"],
+          ["-heit", "schön", "die Schönheit", "la bellezza"],
+          ["-keit", "möglich", "die Möglichkeit", "la possibilità"],
+          ["-keit", "schwierig", "die Schwierigkeit", "la difficoltà"],
+          ["-keit", "wichtig", "die Wichtigkeit", "l'importanza"],
+          ["-keit", "höflich", "die Höflichkeit", "la cortesia"],
+          ["-igkeit", "arbeitslos", "die Arbeitslosigkeit", "la disoccupazione"],
+          ["-igkeit", "abhängig", "die Abhängigkeit", "la dipendenza"],
+          ["-nis", "erleben", "das Erlebnis", "l'esperienza/avventura"],
+          ["-nis", "erkennen", "die Erkenntnis", "la conoscenza/consapevolezza"],
+          ["-er", "lesen", "der Leser", "il lettore"],
+          ["-er", "arbeiten", "der Arbeiter", "il lavoratore"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Attenzione: gli aggettivi nominalizzati si declinano!",
+      "content": "A differenza dei normali sostantivi, gli **aggettivi nominalizzati** mantengono la **declinazione dell'aggettivo**. Questo significa che le desinenze cambiano a seconda dell'articolo e del caso!\n\nQuesto è uno degli errori più frequenti al livello B2.",
+      "table": {
+        "headers": ["Caso", "Con der/die", "Con ein/eine", "Esempio"],
+        "rows": [
+          ["Nominativo m.", "der Deutsche", "ein Deutscher", "Der Deutsche kommt aus Berlin."],
+          ["Accusativo m.", "den Deutschen", "einen Deutschen", "Ich kenne einen Deutschen."],
+          ["Dativo m.", "dem Deutschen", "einem Deutschen", "Ich helfe dem Deutschen."],
+          ["Genitivo m.", "des Deutschen", "eines Deutschen", "Das Auto des Deutschen."],
+          ["Nominativo f.", "die Deutsche", "eine Deutsche", "Die Deutsche spricht gut."],
+          ["Accusativo f.", "die Deutsche", "eine Deutsche", "Ich sehe die Deutsche."],
+          ["Dativo f.", "der Deutschen", "einer Deutschen", "Ich schreibe der Deutschen."],
+          ["Plurale nom.", "die Deutschen", "Deutsche", "Die Deutschen trinken Bier."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Perché la nominalizzazione è così importante?**\n\nIl tedesco formale usa massicciamente lo *Nominalstil*. Confronta:\n- Parlato: *Weil er krank war, konnte er nicht arbeiten.* (Siccome era malato, non poteva lavorare.)\n- Scritto: *Wegen seiner Krankheit konnte er nicht arbeiten.* (A causa della sua malattia...)\n\nIl *Nominalstil* è più compatto e tipico di:\n- **Giornali e notiziari** 📰\n- **Testi accademici e scientifici** 📚\n- **Documenti legali e burocratici** 📋\n- **Testi tecnici** ⚙️\n\n**Trucco:** Quando leggi un testo formale tedesco e trovi un sostantivo sconosciuto, prova a cercare il verbo o l'aggettivo di base. Spesso il significato diventa chiaro: *Entscheidung* → *entscheiden* (decidere) → decisione!"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "content": "La nominalizzazione in contesti reali:",
+      "items": [
+        { "de": "Das Lesen ist mein liebstes Hobby.", "it": "La lettura è il mio hobby preferito." },
+        { "de": "Rauchen verboten! (= Das Rauchen ist verboten.)", "it": "Vietato fumare!" },
+        { "de": "Der Kranke muss im Bett bleiben.", "it": "Il malato deve restare a letto." },
+        { "de": "Die Arbeitslose sucht seit Monaten einen Job.", "it": "La disoccupata cerca un lavoro da mesi." },
+        { "de": "Die Entscheidung der Regierung war überraschend.", "it": "La decisione del governo è stata sorprendente." },
+        { "de": "Zur Verbesserung der Gesundheit sollte man Sport treiben.", "it": "Per il miglioramento della salute si dovrebbe fare sport." },
+        { "de": "Die Möglichkeit eines Fehlers besteht immer.", "it": "La possibilità di un errore esiste sempre." },
+        { "de": "Beim Kochen höre ich gern Musik.", "it": "Mentre cucino mi piace ascoltare musica." },
+        { "de": "Ich habe nichts Neues gehört.", "it": "Non ho sentito niente di nuovo." },
+        { "de": "Er hat etwas Wichtiges gesagt.", "it": "Ha detto qualcosa di importante." }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Confronto con l'italiano",
+      "content": "Anche l'italiano ha la nominalizzazione, ma il tedesco la usa **molto più frequentemente**:\n\n**Somiglianze:**\n- Verbi → sostantivi: *mangiare → il mangiare* / *essen → das Essen*\n- Suffisso -zione corrisponde spesso a -ung: *decisione → Entscheidung*\n- Suffisso -tà corrisponde spesso a -heit/-keit: *libertà → Freiheit*\n\n**Differenze importanti:**\n1. In tedesco QUALSIASI infinito può diventare sostantivo con *das*. In italiano questo è più limitato.\n2. Gli aggettivi nominalizzati tedeschi si **declinano** (der Kranke, den Kranken, dem Kranken). In italiano no ('il malato' resta invariato per caso).\n3. Il tedesco formale preferisce nettamente la nominalizzazione alla frase verbale. L'italiano formale lo fa meno.\n4. *etwas/nichts + aggettivo nominalizzato* (neutro, maiuscolo): *etwas Neues* = qualcosa di nuovo, *nichts Besonderes* = niente di speciale."
+    }
+  ]
+}

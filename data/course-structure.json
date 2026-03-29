@@ -82,34 +82,49 @@
       "units": [
         {
           "id": "a2-u1",
-          "title": "Unità 1: Il passato",
+          "title": "Unità 1: Raccontare al passato",
           "lessons": [
             { "id": "a2-g01", "type": "grammar", "file": "a2/grammar/g01-perfekt.json", "title": "Il Perfekt (passato prossimo)" },
+            { "id": "a2-g02", "type": "grammar", "file": "a2/grammar/g02-praeteritum.json", "title": "Il Präteritum (imperfetto)" },
             { "id": "a2-v01", "type": "vocab", "file": "a2/vocab/v01-reisen.json", "title": "Viaggi e trasporti" },
-            { "id": "a2-e01", "type": "exercise", "file": "a2/exercises/e01-perfekt.json", "title": "Esercizi: Il Perfekt" }
+            { "id": "a2-e01", "type": "exercise", "file": "a2/exercises/e01-perfekt.json", "title": "Esercizi: I tempi del passato" }
           ],
-          "review": null
+          "review": { "id": "a2-r01", "file": "a2/review/r01-unit1-test.json", "title": "Test Unità 1" }
         },
         {
           "id": "a2-u2",
-          "title": "Unità 2: Dativo e preposizioni",
+          "title": "Unità 2: Il dativo",
           "lessons": [
-            { "id": "a2-g02", "type": "grammar", "file": "a2/grammar/g02-dativ.json", "title": "Il dativo" },
-            { "id": "a2-g03", "type": "grammar", "file": "a2/grammar/g03-praepositionen.json", "title": "Preposizioni" },
+            { "id": "a2-g03", "type": "grammar", "file": "a2/grammar/g03-dativ.json", "title": "Il dativo" },
+            { "id": "a2-g04", "type": "grammar", "file": "a2/grammar/g04-praepositionen.json", "title": "Preposizioni con accusativo e dativo" },
             { "id": "a2-v02", "type": "vocab", "file": "a2/vocab/v02-wohnung.json", "title": "Casa e arredamento" },
-            { "id": "a2-e02", "type": "exercise", "file": "a2/exercises/e02-dativ.json", "title": "Esercizi: Dativo" }
+            { "id": "a2-e02", "type": "exercise", "file": "a2/exercises/e02-dativ.json", "title": "Esercizi: Dativo e preposizioni" }
+          ],
+          "review": { "id": "a2-r02", "file": "a2/review/r02-unit2-test.json", "title": "Test Unità 2" }
+        },
+        {
+          "id": "a2-u3",
+          "title": "Unità 3: Descrivere e confrontare",
+          "lessons": [
+            { "id": "a2-g05", "type": "grammar", "file": "a2/grammar/g05-komparativ-superlativ.json", "title": "Comparativo e superlativo" },
+            { "id": "a2-g06", "type": "grammar", "file": "a2/grammar/g06-reflexive-verben.json", "title": "Verbi riflessivi" },
+            { "id": "a2-v03", "type": "vocab", "file": "a2/vocab/v03-gesundheit.json", "title": "Salute e corpo umano" },
+            { "id": "a2-v04", "type": "vocab", "file": "a2/vocab/v04-einkaufen.json", "title": "Fare acquisti" },
+            { "id": "a2-e03", "type": "exercise", "file": "a2/exercises/e03-komparativ-reflexiv.json", "title": "Esercizi: Comparativi e riflessivi" }
           ],
           "review": null
         },
         {
-          "id": "a2-u3",
-          "title": "Unità 3: Frasi complesse",
+          "id": "a2-u4",
+          "title": "Unità 4: Frasi complesse",
           "lessons": [
-            { "id": "a2-g04", "type": "grammar", "file": "a2/grammar/g04-nebensaetze.json", "title": "Frasi secondarie" },
-            { "id": "a2-v03", "type": "vocab", "file": "a2/vocab/v03-gesundheit.json", "title": "Salute e corpo" },
-            { "id": "a2-e03", "type": "exercise", "file": "a2/exercises/e03-nebensaetze.json", "title": "Esercizi: Frasi secondarie" }
+            { "id": "a2-g07", "type": "grammar", "file": "a2/grammar/g07-nebensaetze.json", "title": "Frasi secondarie (weil, dass, wenn)" },
+            { "id": "a2-g08", "type": "grammar", "file": "a2/grammar/g08-konjunktionen.json", "title": "Congiunzioni coordinanti e subordinanti" },
+            { "id": "a2-v05", "type": "vocab", "file": "a2/vocab/v05-wetter-natur.json", "title": "Tempo atmosferico e natura" },
+            { "id": "a2-v06", "type": "vocab", "file": "a2/vocab/v06-freizeit-hobby.json", "title": "Tempo libero e hobby" },
+            { "id": "a2-e04", "type": "exercise", "file": "a2/exercises/e04-nebensaetze.json", "title": "Esercizi: Frasi complesse" }
           ],
-          "review": null
+          "review": { "id": "a2-r04", "file": "a2/review/r04-final-test.json", "title": "Test finale A2" }
         }
       ]
     },
@@ -121,14 +136,37 @@
       "units": [
         {
           "id": "b1-u1",
-          "title": "Unità 1: Passivo e Konjunktiv",
+          "title": "Unità 1: Esprimere opinioni",
           "lessons": [
-            { "id": "b1-g01", "type": "grammar", "file": "b1/grammar/g01-passiv.json", "title": "La forma passiva" },
-            { "id": "b1-g02", "type": "grammar", "file": "b1/grammar/g02-konjunktiv2.json", "title": "Il Konjunktiv II" },
-            { "id": "b1-v01", "type": "vocab", "file": "b1/vocab/v01-arbeit.json", "title": "Lavoro e carriera" },
-            { "id": "b1-e01", "type": "exercise", "file": "b1/exercises/e01-passiv-konj.json", "title": "Esercizi: Passivo e Konjunktiv" }
+            { "id": "b1-g01", "type": "grammar", "file": "b1/grammar/g01-konjunktiv2.json", "title": "Il Konjunktiv II (condizionale)" },
+            { "id": "b1-g02", "type": "grammar", "file": "b1/grammar/g02-indirekte-rede.json", "title": "Il discorso indiretto" },
+            { "id": "b1-v01", "type": "vocab", "file": "b1/vocab/v01-arbeit-beruf.json", "title": "Lavoro e carriera" },
+            { "id": "b1-e01", "type": "exercise", "file": "b1/exercises/e01-konjunktiv.json", "title": "Esercizi: Konjunktiv II" }
+          ],
+          "review": { "id": "b1-r01", "file": "b1/review/r01-unit1-test.json", "title": "Test Unità 1" }
+        },
+        {
+          "id": "b1-u2",
+          "title": "Unità 2: La forma passiva",
+          "lessons": [
+            { "id": "b1-g03", "type": "grammar", "file": "b1/grammar/g03-passiv.json", "title": "La forma passiva" },
+            { "id": "b1-g04", "type": "grammar", "file": "b1/grammar/g04-relativsaetze.json", "title": "Frasi relative" },
+            { "id": "b1-v02", "type": "vocab", "file": "b1/vocab/v02-umwelt.json", "title": "Ambiente e sostenibilità" },
+            { "id": "b1-e02", "type": "exercise", "file": "b1/exercises/e02-passiv-relativ.json", "title": "Esercizi: Passivo e relative" }
           ],
           "review": null
+        },
+        {
+          "id": "b1-u3",
+          "title": "Unità 3: Strutture avanzate",
+          "lessons": [
+            { "id": "b1-g05", "type": "grammar", "file": "b1/grammar/g05-infinitiv-zu.json", "title": "Infinito con \"zu\"" },
+            { "id": "b1-g06", "type": "grammar", "file": "b1/grammar/g06-genitiv.json", "title": "Il genitivo" },
+            { "id": "b1-v03", "type": "vocab", "file": "b1/vocab/v03-bildung.json", "title": "Istruzione e formazione" },
+            { "id": "b1-v04", "type": "vocab", "file": "b1/vocab/v04-gefuehle.json", "title": "Sentimenti e emozioni" },
+            { "id": "b1-e03", "type": "exercise", "file": "b1/exercises/e03-infinitiv-genitiv.json", "title": "Esercizi: Infinito e genitivo" }
+          ],
+          "review": { "id": "b1-r03", "file": "b1/review/r03-final-test.json", "title": "Test finale B1" }
         }
       ]
     },
@@ -140,13 +178,26 @@
       "units": [
         {
           "id": "b2-u1",
-          "title": "Unità 1: Stile e registro",
+          "title": "Unità 1: Stile formale",
           "lessons": [
-            { "id": "b2-g01", "type": "grammar", "file": "b2/grammar/g01-partizip.json", "title": "Participi come aggettivi" },
-            { "id": "b2-v01", "type": "vocab", "file": "b2/vocab/v01-medien.json", "title": "Media e tecnologia" },
-            { "id": "b2-e01", "type": "exercise", "file": "b2/exercises/e01-partizip.json", "title": "Esercizi: Participi" }
+            { "id": "b2-g01", "type": "grammar", "file": "b2/grammar/g01-partizip-adjektiv.json", "title": "Participi come aggettivi" },
+            { "id": "b2-g02", "type": "grammar", "file": "b2/grammar/g02-nominalisierung.json", "title": "Nominalizzazione dei verbi" },
+            { "id": "b2-v01", "type": "vocab", "file": "b2/vocab/v01-medien-technik.json", "title": "Media e tecnologia" },
+            { "id": "b2-e01", "type": "exercise", "file": "b2/exercises/e01-partizip-nominal.json", "title": "Esercizi: Participi e nominalizzazione" }
           ],
           "review": null
+        },
+        {
+          "id": "b2-u2",
+          "title": "Unità 2: Argomentare",
+          "lessons": [
+            { "id": "b2-g03", "type": "grammar", "file": "b2/grammar/g03-konnektoren.json", "title": "Connettori avanzati" },
+            { "id": "b2-g04", "type": "grammar", "file": "b2/grammar/g04-konjunktiv1.json", "title": "Il Konjunktiv I" },
+            { "id": "b2-v02", "type": "vocab", "file": "b2/vocab/v02-politik-gesellschaft.json", "title": "Politica e società" },
+            { "id": "b2-v03", "type": "vocab", "file": "b2/vocab/v03-wirtschaft.json", "title": "Economia e finanza" },
+            { "id": "b2-e02", "type": "exercise", "file": "b2/exercises/e02-konnektoren-konj1.json", "title": "Esercizi: Connettori e Konjunktiv I" }
+          ],
+          "review": { "id": "b2-r02", "file": "b2/review/r02-final-test.json", "title": "Test finale B2" }
         }
       ]
     },
@@ -158,13 +209,26 @@
       "units": [
         {
           "id": "c1-u1",
-          "title": "Unità 1: Strutture avanzate",
+          "title": "Unità 1: Lingua accademica",
           "lessons": [
-            { "id": "c1-g01", "type": "grammar", "file": "c1/grammar/g01-nominalisierung.json", "title": "Nominalizzazione" },
-            { "id": "c1-v01", "type": "vocab", "file": "c1/vocab/v01-wissenschaft.json", "title": "Scienze e accademia" },
-            { "id": "c1-e01", "type": "exercise", "file": "c1/exercises/e01-nominalisierung.json", "title": "Esercizi: Nominalizzazione" }
+            { "id": "c1-g01", "type": "grammar", "file": "c1/grammar/g01-erweiterte-attribute.json", "title": "Attributi estesi" },
+            { "id": "c1-g02", "type": "grammar", "file": "c1/grammar/g02-modalpartikeln.json", "title": "Particelle modali" },
+            { "id": "c1-v01", "type": "vocab", "file": "c1/vocab/v01-wissenschaft.json", "title": "Scienze e ricerca" },
+            { "id": "c1-e01", "type": "exercise", "file": "c1/exercises/e01-attribute-partikeln.json", "title": "Esercizi: Attributi e particelle" }
           ],
           "review": null
+        },
+        {
+          "id": "c1-u2",
+          "title": "Unità 2: Padronanza stilistica",
+          "lessons": [
+            { "id": "c1-g03", "type": "grammar", "file": "c1/grammar/g03-passiversatz.json", "title": "Alternative al passivo" },
+            { "id": "c1-g04", "type": "grammar", "file": "c1/grammar/g04-subjektive-modalverben.json", "title": "Verbi modali soggettivi" },
+            { "id": "c1-v02", "type": "vocab", "file": "c1/vocab/v02-kultur-philosophie.json", "title": "Cultura e filosofia" },
+            { "id": "c1-v03", "type": "vocab", "file": "c1/vocab/v03-idiome-redewendungen.json", "title": "Modi di dire e espressioni idiomatiche" },
+            { "id": "c1-e02", "type": "exercise", "file": "c1/exercises/e02-passiversatz-modal.json", "title": "Esercizi: Stile avanzato" }
+          ],
+          "review": { "id": "c1-r02", "file": "c1/review/r02-final-test.json", "title": "Test finale C1" }
         }
       ]
     }

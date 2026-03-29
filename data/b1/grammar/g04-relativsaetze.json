@@ -1,0 +1,75 @@
+{
+  "id": "b1-g04",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Le frasi relative",
+  "subtitle": "Relativsätze",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Le **frasi relative** (Relativsätze) servono a descrivere o specificare un sostantivo in modo più dettagliato. Come in italiano ('il libro **che** ho letto', 'la donna **che** vive qui'), in tedesco si usano **pronomi relativi** che introducono una frase subordinata con il verbo alla fine. La particolarità del tedesco è che il pronome relativo cambia in base al **genere**, **numero** e **caso**."
+    },
+    {
+      "type": "rule",
+      "title": "I pronomi relativi = articoli determinativi (nella maggior parte dei casi)",
+      "content": "I pronomi relativi tedeschi sono quasi identici agli articoli determinativi. Il genere e il numero dipendono dal sostantivo a cui si riferiscono, il **caso** dipende dalla funzione nella frase relativa. Il verbo va sempre alla **fine** della frase relativa.",
+      "table": {
+        "headers": ["", "Maschile", "Femminile", "Neutro", "Plurale"],
+        "rows": [
+          ["Nominativo", "der", "die", "das", "die"],
+          ["Accusativo", "den", "die", "das", "die"],
+          ["Dativo", "dem", "der", "dem", "denen"],
+          ["Genitivo", "dessen", "deren", "dessen", "deren"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Pronomi relativi nei vari casi",
+      "content": "Il caso del pronome relativo dipende dalla sua funzione **dentro** la frase relativa:",
+      "table": {
+        "headers": ["Caso", "Funzione", "Esempio", "Traduzione"],
+        "rows": [
+          ["Nominativo", "soggetto della relativa", "Der Mann, der dort steht, ist mein Vater.", "L'uomo che sta lì è mio padre."],
+          ["Accusativo", "oggetto diretto della relativa", "Das Buch, das ich lese, ist spannend.", "Il libro che leggo è avvincente."],
+          ["Dativo", "oggetto indiretto della relativa", "Die Frau, der ich geholfen habe, war nett.", "La donna che ho aiutato era gentile."],
+          ["Genitivo", "possesso nella relativa", "Der Mann, dessen Auto rot ist, wohnt hier.", "L'uomo la cui auto è rossa abita qui."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Frasi relative con preposizioni",
+      "content": "Quando nella frase relativa c'è una preposizione, questa va **davanti** al pronome relativo. Il caso del pronome è determinato dalla preposizione:",
+      "table": {
+        "headers": ["Preposizione + Caso", "Esempio", "Traduzione"],
+        "rows": [
+          ["mit + dativo", "Der Freund, mit dem ich reise, heißt Thomas.", "L'amico con cui viaggio si chiama Thomas."],
+          ["für + accusativo", "Das Projekt, für das ich arbeite, ist wichtig.", "Il progetto per cui lavoro è importante."],
+          ["an + dativo", "Die Uni, an der ich studiere, ist groß.", "L'università dove studio è grande."],
+          ["in + dativo", "Die Stadt, in der ich wohne, ist klein.", "La città in cui vivo è piccola."],
+          ["auf + accusativo", "Das Konzert, auf das ich mich freue, ist morgen.", "Il concerto a cui non vedo l'ora è domani."],
+          ["über + accusativo", "Das Thema, über das wir sprechen, ist wichtig.", "L'argomento di cui parliamo è importante."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Ordine delle parole nella frase relativa:**\n1. La frase relativa è sempre separata dalla frase principale da una **virgola**\n2. Il pronome relativo è sempre la **prima parola** della frase relativa (o dopo la preposizione)\n3. Il verbo coniugato va sempre alla **fine** della frase relativa\n4. La frase relativa viene subito **dopo** il sostantivo che descrive\n\n**Esempio di analisi:** *Die Frau, **die** in Berlin **wohnt**, ist Ärztin.*\n- *die* = pronome relativo femminile nominativo (soggetto della relativa)\n- *wohnt* = verbo alla fine\n\n**Attenzione:** Non confondere *das* (pronome relativo neutro) con *dass* (congiunzione 'che')!"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Das ist der Film, den ich dir empfohlen habe.", "it": "Questo è il film che ti ho consigliato." },
+        { "de": "Kennst du die Frau, die gerade angekommen ist?", "it": "Conosci la donna che è appena arrivata?" },
+        { "de": "Das Kind, dem ich das Buch gegeben habe, war glücklich.", "it": "Il bambino a cui ho dato il libro era felice." },
+        { "de": "Die Kollegin, deren Büro neben meinem ist, kommt aus Italien.", "it": "La collega il cui ufficio è accanto al mio viene dall'Italia." },
+        { "de": "Der Zug, auf den wir warten, hat Verspätung.", "it": "Il treno che aspettiamo è in ritardo." },
+        { "de": "Das Restaurant, in dem wir gestern gegessen haben, war ausgezeichnet.", "it": "Il ristorante in cui abbiamo mangiato ieri era eccellente." },
+        { "de": "Alles, was er sagt, ist richtig.", "it": "Tutto ciò che dice è giusto." },
+        { "de": "Das ist etwas, worüber ich nachdenken muss.", "it": "Questa è una cosa su cui devo riflettere." }
+      ]
+    }
+  ]
+}

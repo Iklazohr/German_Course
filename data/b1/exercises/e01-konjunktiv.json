@@ -1,0 +1,105 @@
+{
+  "id": "b1-e01",
+  "level": "b1",
+  "type": "exercise",
+  "title": "Esercizi: Konjunktiv II",
+  "questions": [
+    {
+      "type": "fill-blank",
+      "sentence": "Wenn ich mehr Zeit hätte, ___ ich mehr Sport treiben.",
+      "blanks": ["würde"],
+      "explanation": "Il Konjunktiv II si forma con 'würde' + infinito per i verbi regolari: 'würde ... treiben' = farei sport."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wenn ich reich ___, würde ich eine Weltreise machen.",
+      "blanks": ["wäre"],
+      "explanation": "'Sein' ha una forma propria al Konjunktiv II: ich wäre, du wärst, er/sie wäre, wir wären, ihr wärt, sie wären."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "An deiner Stelle ___ ich zum Arzt gehen.",
+      "blanks": ["würde"],
+      "explanation": "'An deiner Stelle würde ich...' (Al posto tuo io...) è un'espressione comune per dare consigli con il Konjunktiv II."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual è la forma corretta del Konjunktiv II di 'haben' per 'ich'?",
+      "options": ["ich würde haben", "ich hätte", "ich habe", "ich hatte"],
+      "correct": 1,
+      "explanation": "'Haben' ha una forma propria al Konjunktiv II: ich hätte, du hättest, er hätte. Non si usa 'würde haben'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase esprime un desiderio irrealizzabile?",
+      "options": ["Ich gehe morgen schwimmen.", "Wenn ich doch fliegen könnte!", "Ich bin gestern geflogen.", "Ich will nächste Woche fliegen."],
+      "correct": 1,
+      "explanation": "'Wenn ich doch fliegen könnte!' (Se solo potessi volare!) usa 'wenn...doch' + Konjunktiv II per esprimere un desiderio irrealizzabile."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Wenn es nicht so kalt ___, würden wir spazieren gehen.'",
+      "options": ["ist", "war", "wäre", "würde"],
+      "correct": 2,
+      "explanation": "Nella frase condizionale con 'wenn', il verbo 'sein' si coniuga al Konjunktiv II: 'wäre' (fosse)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Ich ___ gern ein neues Auto kaufen.' Quale forma è corretta?",
+      "options": ["würde", "wäre", "hätte", "könnte"],
+      "correct": 0,
+      "explanation": "Per esprimere un desiderio con un verbo regolare come 'kaufen', si usa 'würde' + infinito: 'Ich würde gern kaufen' (comprerei volentieri)."
+    },
+    {
+      "type": "translation",
+      "sentence": "Se avessi più soldi, comprerei una casa grande.",
+      "answer": "Wenn ich mehr Geld hätte, würde ich ein großes Haus kaufen.",
+      "hint": "Wenn + soggetto + ... + hätte, würde + soggetto + ... + infinito"
+    },
+    {
+      "type": "translation",
+      "sentence": "Potrebbe aiutarmi, per favore?",
+      "answer": "Könnten Sie mir bitte helfen?",
+      "hint": "Forma cortese con Konjunktiv II di 'können' + Lei (Sie)"
+    },
+    {
+      "type": "translation",
+      "sentence": "Se fossi te, studierei di più.",
+      "answer": "Wenn ich du wäre, würde ich mehr lernen.",
+      "hint": "Wenn + ich + du + wäre, würde + ich + ... + infinito"
+    },
+    {
+      "type": "reorder",
+      "words": ["ich", "Wenn", "hätte", "Zeit", ",", "würde", "ich", "kommen", "."],
+      "correct": "Wenn ich Zeit hätte , würde ich kommen ."
+    },
+    {
+      "type": "reorder",
+      "words": ["du", "Könntest", "mir", "bitte", "helfen", "?"],
+      "correct": "Könntest du mir bitte helfen ?"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        { "left": "sein → ich ...", "right": "wäre" },
+        { "left": "haben → ich ...", "right": "hätte" },
+        { "left": "können → ich ...", "right": "könnte" },
+        { "left": "müssen → ich ...", "right": "müsste" },
+        { "left": "wissen → ich ...", "right": "wüsste" },
+        { "left": "dürfen → ich ...", "right": "dürfte" }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wenn ich besser Deutsch sprechen ___, würde ich in Deutschland arbeiten.",
+      "blanks": ["könnte"],
+      "explanation": "'Können' al Konjunktiv II: ich könnte, du könntest, er könnte. Significa 'potessi/potrebbe'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wenn er das ___, würde er es anders machen.",
+      "blanks": ["wüsste"],
+      "explanation": "'Wissen' al Konjunktiv II: ich wüsste, du wüsstest, er wüsste. Significa 'sapessi/sapesse'."
+    }
+  ]
+}

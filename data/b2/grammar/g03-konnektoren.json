@@ -1,0 +1,105 @@
+{
+  "id": "b2-g03",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Connettori avanzati",
+  "subtitle": "Fortgeschrittene Konnektoren",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Al livello B2, è fondamentale saper collegare frasi e idee in modo sofisticato. I **Konnektoren** (connettori) sono parole o espressioni che collegano frasi indicando relazioni logiche: causa, conseguenza, contrasto, condizione, tempo, ecc. In tedesco, il tipo di connettore determina la **posizione del verbo**, quindi è essenziale conoscerne non solo il significato ma anche l'effetto sulla struttura della frase. Distinguiamo tre tipi principali: connettori **doppi**, congiunzioni **subordinanti** e **avverbi di frase**."
+    },
+    {
+      "type": "rule",
+      "title": "Connettori doppi (zweiteilige Konnektoren)",
+      "content": "I connettori doppi sono formati da **due parti** che lavorano insieme. Sono molto eleganti e frequenti nel tedesco scritto e parlato formale.",
+      "table": {
+        "headers": ["Connettore", "Significato", "Esempio tedesco", "Traduzione"],
+        "rows": [
+          ["sowohl ... als auch", "sia ... sia / che", "Er spricht sowohl Deutsch als auch Englisch.", "Parla sia tedesco che inglese."],
+          ["weder ... noch", "né ... né", "Sie trinkt weder Kaffee noch Tee.", "Non beve né caffè né tè."],
+          ["entweder ... oder", "o ... o", "Entweder kommst du mit, oder du bleibst hier.", "O vieni con noi, o resti qui."],
+          ["nicht nur ... sondern auch", "non solo ... ma anche", "Er ist nicht nur intelligent, sondern auch fleißig.", "Non è solo intelligente, ma anche diligente."],
+          ["je ... desto/umso", "più ... più (quanto più ... tanto più)", "Je mehr ich lerne, desto besser verstehe ich.", "Più studio, meglio capisco."],
+          ["zwar ... aber", "è vero che ... però / certo ... ma", "Er ist zwar nett, aber etwas langweilig.", "È vero che è simpatico, ma un po' noioso."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Congiunzioni subordinanti avanzate (Nebensatz-Konnektoren)",
+      "content": "Le congiunzioni subordinanti mandano il verbo coniugato alla **fine della frase subordinata** (Nebensatz). Al livello B2 si aggiungono molte nuove congiunzioni a quelle già note (weil, dass, wenn, als, ob).\n\n**Struttura: Hauptsatz + Konnektor + ... + Verb (alla fine)**\nOppure: **Konnektor + ... + Verb, + Hauptsatz (verbo al primo posto)**",
+      "table": {
+        "headers": ["Congiunzione", "Significato", "Esempio"],
+        "rows": [
+          ["obwohl", "sebbene, nonostante", "Obwohl es regnet, geht er spazieren. (Sebbene piova, va a passeggio.)"],
+          ["falls", "nel caso in cui, se (eventualità)", "Falls du Hilfe brauchst, ruf mich an. (Se hai bisogno di aiuto, chiamami.)"],
+          ["sofern", "a condizione che, purché", "Sofern das Wetter gut ist, fahren wir. (Purché il tempo sia bello, partiamo.)"],
+          ["sobald", "non appena", "Sobald ich ankomme, rufe ich dich an. (Non appena arrivo, ti chiamo.)"],
+          ["seitdem", "da quando", "Seitdem er hier wohnt, ist er glücklicher. (Da quando abita qui, è più felice.)"],
+          ["nachdem", "dopo che", "Nachdem er gegessen hatte, ging er. (Dopo che ebbe mangiato, se ne andò.)"],
+          ["bevor", "prima che/di", "Bevor du gehst, räum bitte auf. (Prima di andare, metti in ordine.)"],
+          ["indem", "facendo qualcosa / nel modo in cui", "Man lernt, indem man übt. (Si impara facendo pratica.)"],
+          ["damit", "affinché, perché (scopo)", "Ich erkläre es nochmal, damit du es verstehst. (Lo spiego di nuovo affinché tu capisca.)"],
+          ["während", "mentre / mentre invece", "Während ich koche, liest du. (Mentre io cucino, tu leggi.)"],
+          ["ohne dass", "senza che", "Er ging, ohne dass jemand es bemerkte. (Se ne andò senza che nessuno lo notasse.)"],
+          ["anstatt dass", "invece di (+ frase)", "Anstatt dass er hilft, sitzt er nur da. (Invece di aiutare, sta solo seduto lì.)"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Avverbi di frase (Satzadverbien / Konnektoradverbien)",
+      "content": "Gli avverbi di frase collegano due frasi principali. **Attenzione all'ordine delle parole!** L'avverbio occupa la **posizione 1** (o un'altra posizione nella frase), e il verbo resta in **posizione 2** (inversione soggetto-verbo).\n\n**Struttura: Satz 1. Adverb + Verb + Subjekt + ...**\nOppure: **Satz 1. Subjekt + Verb + Adverb + ...**",
+      "table": {
+        "headers": ["Avverbio", "Significato", "Esempio"],
+        "rows": [
+          ["allerdings", "tuttavia, però", "Das Restaurant ist gut. Allerdings ist es teuer. (Però è caro.)"],
+          ["dennoch / trotzdem", "tuttavia, ciononostante", "Es regnete. Dennoch gingen wir spazieren. (Ciononostante andammo a passeggio.)"],
+          ["folglich", "di conseguenza", "Er hat nicht gelernt. Folglich hat er die Prüfung nicht bestanden. (Di conseguenza non ha superato l'esame.)"],
+          ["hingegen / dagegen", "invece, al contrario", "Er mag Fisch. Sie hingegen isst nur Fleisch. (Lei invece mangia solo carne.)"],
+          ["inzwischen / mittlerweile", "nel frattempo", "Ruf du an. Inzwischen koche ich. (Nel frattempo cucino.)"],
+          ["jedenfalls", "in ogni caso", "Ich weiß nicht, ob er kommt. Jedenfalls bin ich bereit. (In ogni caso sono pronto.)"],
+          ["schließlich", "alla fine, dopotutto", "Schließlich hat er doch Recht gehabt. (Alla fine aveva ragione.)"],
+          ["immerhin", "almeno, quantomeno", "Es ist kalt, aber immerhin regnet es nicht. (Almeno non piove.)"],
+          ["außerdem", "inoltre", "Er ist klug. Außerdem ist er sehr nett. (Inoltre è molto simpatico.)"],
+          ["deshalb / deswegen / daher / darum", "perciò, per questo", "Ich war müde. Deshalb bin ich früh ins Bett gegangen. (Perciò sono andato a letto presto.)"],
+          ["stattdessen", "al posto di ciò, invece", "Ich wollte lesen. Stattdessen habe ich ferngesehen. (Invece ho guardato la TV.)"],
+          ["nämlich", "infatti, cioè", "Ich kann nicht kommen. Ich bin nämlich krank. (Infatti sono malato.)"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Ordine delle parole: riepilogo per tipo di connettore",
+      "content": "La differenza cruciale tra i tre tipi di connettori è l'**effetto sull'ordine delle parole**:\n\n**1. Congiunzioni coordinanti** (und, aber, oder, denn, sondern): **posizione 0** → non cambiano l'ordine\n→ *Er ist müde, denn er hat lange gearbeitet.* (Verb in posizione 2)\n\n**2. Congiunzioni subordinanti** (weil, obwohl, falls, damit...): verbo alla **fine**\n→ *Er ist müde, weil er lange gearbeitet hat.* (Verb alla fine)\n\n**3. Avverbi di frase** (deshalb, trotzdem, allerdings...): **posizione 1** → inversione\n→ *Er hat lange gearbeitet. Deshalb ist er müde.* (Inversione: Verb-Subjekt)",
+      "table": {
+        "headers": ["Tipo", "Posizione verbo", "Esempio"],
+        "rows": [
+          ["Coordinante (aber)", "Posizione 2 normale", "Er ist nett, aber er ist langweilig."],
+          ["Subordinante (obwohl)", "Fine della frase", "Er geht raus, obwohl es regnet."],
+          ["Avverbio (trotzdem)", "Posizione 2 con inversione", "Es regnet. Trotzdem geht er raus."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Suggerimenti per il livello B2:**\n\n1. **je ... desto/umso** è una struttura molto amata nei testi tedeschi. Dopo *je* il verbo va alla fine, dopo *desto/umso* il verbo va in posizione 2 con inversione: *Je **mehr** man übt, desto **besser** wird man.*\n\n2. **nämlich** non va mai all'inizio della frase! Si posiziona dopo il verbo: *Ich kann nicht kommen. Ich bin **nämlich** krank.* (NON: *Nämlich bin ich krank.*)\n\n3. **obwohl** vs. **trotzdem**: stesso significato (sebbene/tuttavia) ma struttura diversa! *Obwohl* è subordinante (verbo alla fine), *trotzdem* è avverbio (inversione).\n\n4. Per il B2, cerca di variare i connettori! Non usare sempre *aber* e *weil*. Prova *allerdings*, *dennoch*, *folglich*, *da* (= weil, più elegante)."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici con diversi connettori",
+      "content": "Frasi complesse con connettori di livello B2:",
+      "items": [
+        { "de": "Sowohl die Schüler als auch die Lehrer waren begeistert.", "it": "Sia gli alunni che gli insegnanti erano entusiasti." },
+        { "de": "Je länger man wartet, desto schwieriger wird es.", "it": "Più si aspetta, più diventa difficile." },
+        { "de": "Er hat sich beworben, obwohl er wenig Erfahrung hatte.", "it": "Si è candidato, sebbene avesse poca esperienza." },
+        { "de": "Falls Sie Fragen haben, wenden Sie sich bitte an uns.", "it": "Nel caso avesse domande, si rivolga a noi." },
+        { "de": "Sobald die Ergebnisse vorliegen, informieren wir Sie.", "it": "Non appena i risultati saranno disponibili, La informeremo." },
+        { "de": "Man kann Deutsch lernen, indem man viel liest und hört.", "it": "Si può imparare il tedesco leggendo e ascoltando molto." },
+        { "de": "Die Wirtschaft wächst. Allerdings steigt auch die Inflation.", "it": "L'economia cresce. Tuttavia aumenta anche l'inflazione." },
+        { "de": "Er wollte Arzt werden. Stattdessen wurde er Lehrer.", "it": "Voleva diventare medico. Invece è diventato insegnante." }
+      ]
+    }
+  ]
+}

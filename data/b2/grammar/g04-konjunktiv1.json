@@ -1,0 +1,101 @@
+{
+  "id": "b2-g04",
+  "level": "b2",
+  "type": "grammar",
+  "title": "Konjunktiv I: il discorso indiretto",
+  "subtitle": "Konjunktiv I und indirekte Rede",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il **Konjunktiv I** è un modo verbale usato principalmente per riportare il **discorso indiretto** (*indirekte Rede*) nel tedesco formale e scritto. Lo troverai costantemente in articoli di giornale, notiziari televisivi, testi accademici e comunicati ufficiali. Il giornalista che riporta le parole di un politico, uno scienziato o un testimone usa il Konjunktiv I per segnalare che sta riferendo ciò che **qualcun altro ha detto**, senza prendere posizione sulla veridicità. È un tratto distintivo del tedesco formale che non ha un equivalente diretto in italiano."
+    },
+    {
+      "type": "rule",
+      "title": "Formazione del Konjunktiv I",
+      "content": "Il Konjunktiv I si forma dalla **radice dell'infinito** + le desinenze del congiuntivo:\n\n**Radice dell'infinito + -e, -est, -e, -en, -et, -en**\n\nLa radice è sempre quella dell'infinito, senza eccezioni (a differenza del Konjunktiv II). L'unica eccezione totale è **sein**.",
+      "table": {
+        "headers": ["Persona", "haben", "sein", "kommen", "wissen"],
+        "rows": [
+          ["ich", "habe*", "sei", "komme*", "wisse"],
+          ["du", "habest", "sei(e)st", "kommest", "wissest"],
+          ["er/sie/es", "habe", "sei", "komme", "wisse"],
+          ["wir", "haben*", "seien", "kommen*", "wissen*"],
+          ["ihr", "habet", "seiet", "kommet", "wisset"],
+          ["sie/Sie", "haben*", "seien", "kommen*", "wissen*"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Quando il Konjunktiv I è uguale all'indicativo → usa il Konjunktiv II!",
+      "content": "Le forme contrassegnate con * nella tabella precedente sono **identiche** all'indicativo presente. In questi casi, per distinguere il discorso indiretto dall'affermazione diretta, si usa il **Konjunktiv II** al loro posto.\n\nQuesto è il motivo per cui nella pratica le forme più usate sono quelle della **terza persona singolare** (er/sie/es), dove il Konjunktiv I è quasi sempre distinguibile.\n\n**Regola pratica:**\n1. Konjunktiv I se è diverso dall'indicativo → *er komme, er habe, er sei, er wisse*\n2. Konjunktiv II se il Konj. I = indicativo → *ich käme* (non *ich komme*), *sie hätten* (non *sie haben*)\n3. *würde* + infinito come ultima risorsa se anche il Konj. II è ambiguo",
+      "table": {
+        "headers": ["Persona", "Indicativo", "Konjunktiv I", "Soluzione se identici"],
+        "rows": [
+          ["ich", "ich habe", "ich habe (=!)", "→ ich hätte (Konj. II)"],
+          ["er/sie/es", "er hat", "er habe (diverso!)", "→ er habe (OK!)"],
+          ["wir", "wir haben", "wir haben (=!)", "→ wir hätten (Konj. II)"],
+          ["sie (pl.)", "sie kommen", "sie kommen (=!)", "→ sie kämen (Konj. II)"],
+          ["er/sie/es", "er ist", "er sei (diverso!)", "→ er sei (OK!)"],
+          ["er/sie/es", "er weiß", "er wisse (diverso!)", "→ er wisse (OK!)"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Uso nel discorso indiretto giornalistico",
+      "content": "Nei giornali e nei notiziari tedeschi, il Konjunktiv I è lo strumento standard per riportare dichiarazioni altrui. Il giornalista usa verbi come *sagen, erklären, berichten, betonen, meinen, behaupten* seguiti da una frase al Konjunktiv I (spesso introdotta da una virgola, con o senza *dass*).\n\n**Con dass:** verbo alla fine → *Der Minister sagte, dass er zufrieden **sei**.*\n**Senza dass:** ordine normale → *Der Minister sagte, er **sei** zufrieden.*\n\nLa versione **senza dass** è più comune nello stile giornalistico.",
+      "table": {
+        "headers": ["Discorso diretto", "Discorso indiretto (Konj. I)", "Traduzione"],
+        "rows": [
+          ["\"Ich bin zufrieden.\"", "Er sagte, er sei zufrieden.", "Ha detto di essere soddisfatto."],
+          ["\"Wir haben keine Zeit.\"", "Sie sagten, sie hätten keine Zeit.", "Hanno detto di non avere tempo."],
+          ["\"Es wird Reformen geben.\"", "Er erklärte, es werde Reformen geben.", "Ha dichiarato che ci saranno riforme."],
+          ["\"Die Lage ist ernst.\"", "Die Expertin betonte, die Lage sei ernst.", "L'esperta ha sottolineato che la situazione è grave."],
+          ["\"Ich weiß nichts davon.\"", "Er behauptete, er wisse nichts davon.", "Ha affermato di non saperne nulla."],
+          ["\"Wir können das schaffen.\"", "Sie meinte, sie könnten das schaffen.", "Ha detto che ce la possono fare."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Espressioni fisse con il Konjunktiv I",
+      "content": "Il Konjunktiv I sopravvive anche in alcune **espressioni fisse e formule** che si usano anche nella lingua parlata:\n\n- **Es lebe...!** = Viva...! (*Es lebe die Freiheit!* = Viva la libertà!)\n- **Man nehme...** = Si prenda... (nelle ricette classiche: *Man nehme 200g Mehl...* = Si prendano 200g di farina...)\n- **Gott sei Dank!** = Grazie a Dio!\n- **Wie dem auch sei...** = Comunque sia...\n- **Es sei denn, (dass)...** = A meno che...\n- **Seien wir ehrlich!** = Siamo onesti!\n- **Möge er in Frieden ruhen.** = Che possa riposare in pace.\n- **Hoch lebe das Geburtstagskind!** = Lunga vita al festeggiato!",
+      "table": {
+        "headers": ["Espressione", "Significato", "Contesto"],
+        "rows": [
+          ["Es lebe der König!", "Viva il re!", "Esclamazione formale / storica"],
+          ["Gott sei Dank!", "Grazie a Dio!", "Quotidiano, anche parlato"],
+          ["Man nehme drei Eier.", "Si prendano tre uova.", "Ricette tradizionali"],
+          ["Wie dem auch sei", "Comunque sia", "Discorso formale"],
+          ["Es sei denn, du kommst mit.", "A meno che tu non venga.", "Condizione / eccezione"],
+          ["Koste es, was es wolle!", "Costi quel che costi!", "Determinazione"]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Il Konjunktiv I nel parlato quotidiano:** nella lingua **parlata**, il Konjunktiv I è quasi completamente sostituito dall'indicativo o dal Konjunktiv II. Un tedesco direbbe normalmente:\n- *Er hat gesagt, er ist müde.* (indicativo) oppure\n- *Er hat gesagt, er wäre müde.* (Konjunktiv II)\n\ninvece di: *Er sagte, er sei müde.* (Konjunktiv I, stile scritto)\n\n**Dove lo troverai:** giornali (Spiegel, Zeit, FAZ), notiziari TV (Tagesschau), testi accademici, comunicati stampa, verbali di riunioni.\n\n**Trucco per riconoscerlo:** se leggi un articolo di giornale e vedi *sei, habe, werde, könne, wolle, müsse, wisse* dopo un verbo come *sagen/erklären/berichten*, è Konjunktiv I = discorso indiretto!\n\n**Attenzione:** la forma *sei* è di gran lunga la più frequente, perché *sein* è l'unico verbo il cui Konjunktiv I è completamente diverso dall'indicativo in tutte le persone."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici: stile giornalistico",
+      "content": "Frasi tipiche da articoli di giornale e notiziari:",
+      "items": [
+        { "de": "Der Bundeskanzler erklärte, die Wirtschaft sei auf einem guten Weg.", "it": "Il cancelliere federale ha dichiarato che l'economia è sulla buona strada." },
+        { "de": "Die Polizei teilte mit, der Verdächtige sei festgenommen worden.", "it": "La polizia ha comunicato che il sospettato è stato arrestato." },
+        { "de": "Laut einer Studie seien 40% der Jugendlichen gestresst.", "it": "Secondo uno studio, il 40% dei giovani sarebbe stressato." },
+        { "de": "Der Sprecher betonte, man werde alle Maßnahmen ergreifen.", "it": "Il portavoce ha sottolineato che verranno prese tutte le misure." },
+        { "de": "Die Zeugin sagte aus, sie habe den Unfall beobachtet.", "it": "La testimone ha dichiarato di aver osservato l'incidente." },
+        { "de": "Der Trainer meinte, seine Mannschaft habe gut gespielt.", "it": "L'allenatore ha detto che la sua squadra ha giocato bene." },
+        { "de": "Es hieß, die Verhandlungen seien gescheitert.", "it": "Si è detto che le trattative sono fallite." },
+        { "de": "Nach Angaben der Regierung gebe es keinen Grund zur Sorge.", "it": "Secondo il governo, non ci sarebbe motivo di preoccupazione." }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Confronto con l'italiano",
+      "content": "L'italiano usa il **congiuntivo** e il **condizionale** nel discorso indiretto, ma con funzioni diverse:\n\n**In tedesco** il Konjunktiv I segnala semplicemente che si riportano parole altrui, **senza giudizio** sulla veridicità.\n**In italiano** il congiuntivo nel discorso indiretto può indicare dubbio o incertezza.\n\nConfronto:\n- Tedesco: *Er sagt, er **sei** krank.* (riporta una dichiarazione)\n- Italiano: *Dice che **è** malato.* (indicativo, lo accettiamo come vero) / *Dice che **sia** malato.* (congiuntivo, forse non ci crediamo)\n\nIn tedesco il Konjunktiv I è **neutro** - non implica dubbio. Il giornalista lo usa per mantenere la distanza professionale.\n\n**Attenzione al tempo!** Nel discorso indiretto tedesco, il tempo del Konjunktiv riflette il tempo dell'affermazione originale:\n- Presente → Konjunktiv I presente: *er sei, er habe*\n- Passato → Konjunktiv I passato: *er sei gewesen, er habe gehabt*\n- Futuro → Konjunktiv I di werden: *er werde kommen*\n\nIn italiano, invece, si applica la 'concordanza dei tempi' che spesso richiede il cambiamento del tempo verbale."
+    }
+  ]
+}

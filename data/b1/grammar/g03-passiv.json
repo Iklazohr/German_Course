@@ -1,0 +1,92 @@
+{
+  "id": "b1-g03",
+  "level": "b1",
+  "type": "grammar",
+  "title": "La forma passiva",
+  "subtitle": "Das Passiv",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "La **forma passiva** (das Passiv) si usa quando l'attenzione è sull'**azione** o sul **risultato**, non su chi compie l'azione. In tedesco il passivo è molto più frequente che in italiano, specialmente nella lingua scritta, nei testi tecnici e nella comunicazione formale. Esempio: *Das Buch wird gelesen* (Il libro viene letto) — l'importante è che il libro viene letto, non chi lo legge."
+    },
+    {
+      "type": "rule",
+      "title": "Vorgangspassiv: werden + Partizip II",
+      "content": "Il passivo d'azione (Vorgangspassiv) descrive un'azione in corso e si forma con il verbo **werden** (coniugato) + **Partizip II** del verbo principale alla fine della frase.",
+      "table": {
+        "headers": ["Attivo", "Passivo", "Traduzione"],
+        "rows": [
+          ["Der Koch kocht die Suppe.", "Die Suppe wird gekocht.", "La zuppa viene cucinata."],
+          ["Man baut ein Haus.", "Ein Haus wird gebaut.", "Una casa viene costruita."],
+          ["Jemand repariert das Auto.", "Das Auto wird repariert.", "L'auto viene riparata."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Il passivo nei diversi tempi verbali",
+      "content": "Il passivo si può coniugare in tutti i tempi verbali. Il verbo *werden* cambia tempo, il Partizip II resta invariato:",
+      "table": {
+        "headers": ["Tempo", "Forma", "Esempio", "Traduzione"],
+        "rows": [
+          ["Presente", "wird + Partizip II", "Das Haus wird gebaut.", "La casa viene costruita."],
+          ["Präteritum", "wurde + Partizip II", "Das Haus wurde gebaut.", "La casa fu/veniva costruita."],
+          ["Perfekt", "ist + Partizip II + worden", "Das Haus ist gebaut worden.", "La casa è stata costruita."],
+          ["Plusquamperfekt", "war + Partizip II + worden", "Das Haus war gebaut worden.", "La casa era stata costruita."],
+          ["Futur I", "wird + Partizip II + werden", "Das Haus wird gebaut werden.", "La casa verrà costruita."],
+          ["Con modale", "Modalverb + Partizip II + werden", "Das Haus muss gebaut werden.", "La casa deve essere costruita."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "L'agente: von + dativo",
+      "content": "Se si vuole indicare chi compie l'azione, si usa **von + dativo**. Lo strumento o mezzo si indica con **durch + accusativo** o **mit + dativo**:",
+      "table": {
+        "headers": ["Tipo", "Struttura", "Esempio", "Traduzione"],
+        "rows": [
+          ["Agente (persona)", "von + dativo", "Das Buch wird von dem Autor geschrieben.", "Il libro viene scritto dall'autore."],
+          ["Causa/mezzo", "durch + accusativo", "Die Stadt wurde durch ein Erdbeben zerstört.", "La città fu distrutta da un terremoto."],
+          ["Strumento", "mit + dativo", "Der Brief wurde mit der Hand geschrieben.", "La lettera fu scritta a mano."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Zustandspassiv: sein + Partizip II",
+      "content": "Il **Zustandspassiv** (passivo di stato) descrive il **risultato** di un'azione già conclusa. Si forma con **sein** + Partizip II:",
+      "table": {
+        "headers": ["Vorgangspassiv (azione)", "Zustandspassiv (stato)", "Differenza"],
+        "rows": [
+          ["Die Tür wird geöffnet.", "Die Tür ist geöffnet.", "La porta viene aperta. / La porta è aperta."],
+          ["Das Auto wird repariert.", "Das Auto ist repariert.", "L'auto viene riparata. / L'auto è riparata."],
+          ["Der Tisch wird gedeckt.", "Der Tisch ist gedeckt.", "La tavola viene apparecchiata. / La tavola è apparecchiata."],
+          ["Das Geschäft wird geschlossen.", "Das Geschäft ist geschlossen.", "Il negozio viene chiuso. / Il negozio è chiuso."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Quando usare il passivo?**\n- Quando l'agente è sconosciuto: *Mein Fahrrad wurde gestohlen.* (La mia bici è stata rubata.)\n- Quando l'agente non è importante: *Hier wird Deutsch gesprochen.* (Qui si parla tedesco.)\n- In istruzioni e regolamenti: *Es darf nicht geraucht werden.* (Non si può fumare.)\n- Nei testi scientifici e formali\n\n**Attenzione:** Non tutti i verbi possono formare il passivo. I verbi intransitivi senza oggetto diretto (come *schlafen, gehen, bleiben*) non hanno un passivo normale."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "In Deutschland wird viel Bier getrunken.", "it": "In Germania si beve molta birra." },
+        { "de": "Die E-Mail wurde gestern geschickt.", "it": "La mail è stata inviata ieri." },
+        { "de": "Der Patient ist schon operiert worden.", "it": "Il paziente è già stato operato." },
+        { "de": "Das Museum wird von vielen Touristen besucht.", "it": "Il museo viene visitato da molti turisti." },
+        { "de": "Hier darf nicht geparkt werden.", "it": "Qui non si può parcheggiare." },
+        { "de": "Das Problem muss sofort gelöst werden.", "it": "Il problema deve essere risolto subito." },
+        { "de": "Die Rechnung ist schon bezahlt.", "it": "Il conto è già pagato. (Zustandspassiv)" },
+        { "de": "Das Fenster war geöffnet.", "it": "La finestra era aperta. (Zustandspassiv)" }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Confronto con il si passivante italiano",
+      "content": "L'italiano usa spesso il **si passivante** dove il tedesco usa il passivo:\n\n- *Qui si parla tedesco* = **Hier wird Deutsch gesprochen.**\n- *Si vendono biglietti* = **Tickets werden verkauft.**\n- *Si dice che...* = **Es wird gesagt, dass...**\n\nIn tedesco, il **man** + attivo è un'alternativa comune al passivo:\n- *Man spricht hier Deutsch.* = *Hier wird Deutsch gesprochen.*\n\nL'italiano non distingue tra passivo d'azione e di stato come il tedesco: *La porta è aperta* può essere sia azione che stato, mentre in tedesco *Die Tür wird geöffnet* (azione) ≠ *Die Tür ist geöffnet* (stato)."
+    }
+  ]
+}

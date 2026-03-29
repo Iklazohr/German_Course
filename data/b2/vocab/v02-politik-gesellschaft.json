@@ -1,0 +1,41 @@
+{
+  "id": "b2-v02",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Politica e società",
+  "subtitle": "Politik und Gesellschaft",
+  "groups": [
+    {
+      "name": "Politica",
+      "words": [
+        { "de": "die Regierung, -en", "it": "il governo", "emoji": "🏛️", "example_de": "Die Regierung hat ein neues Gesetz verabschiedet.", "example_it": "Il governo ha approvato una nuova legge." },
+        { "de": "der Bundestag", "it": "il Bundestag (parlamento federale tedesco)", "emoji": "🏛️", "example_de": "Der Bundestag hat über den Haushalt abgestimmt.", "example_it": "Il Bundestag ha votato sul bilancio." },
+        { "de": "die Wahl, -en", "it": "l'elezione / la scelta", "emoji": "🗳️", "example_de": "Die nächsten Wahlen finden im September statt.", "example_it": "Le prossime elezioni si terranno a settembre." },
+        { "de": "der Kandidat, -en / die Kandidatin, -nen", "it": "il/la candidato/a", "emoji": "👤", "example_de": "Es gibt drei Kandidaten für das Amt.", "example_it": "Ci sono tre candidati per la carica." },
+        { "de": "die Partei, -en", "it": "il partito (politico)", "emoji": "🏴", "example_de": "Welche Partei wählst du?", "example_it": "Quale partito voti?" },
+        { "de": "das Gesetz, -e", "it": "la legge", "emoji": "📜", "example_de": "Dieses Gesetz schützt die Umwelt.", "example_it": "Questa legge protegge l'ambiente." },
+        { "de": "die Demokratie, -n", "it": "la democrazia", "emoji": "🗽", "example_de": "Die Demokratie lebt von der Beteiligung der Bürger.", "example_it": "La democrazia vive della partecipazione dei cittadini." },
+        { "de": "die Verfassung, -en", "it": "la costituzione", "emoji": "📜", "example_de": "Die Verfassung garantiert Grundrechte.", "example_it": "La costituzione garantisce diritti fondamentali." },
+        { "de": "der Bundeskanzler, - / die Bundeskanzlerin, -nen", "it": "il/la cancelliere federale", "emoji": "👔", "example_de": "Der Bundeskanzler hat eine Rede gehalten.", "example_it": "Il cancelliere federale ha tenuto un discorso." },
+        { "de": "das Grundgesetz", "it": "la Legge Fondamentale (costituzione tedesca)", "emoji": "📕", "example_de": "Das Grundgesetz wurde 1949 verabschiedet.", "example_it": "La Legge Fondamentale è stata approvata nel 1949." },
+        { "de": "die Opposition", "it": "l'opposizione", "emoji": "⚔️", "example_de": "Die Opposition kritisiert den Vorschlag der Regierung.", "example_it": "L'opposizione critica la proposta del governo." },
+        { "de": "abstimmen (über + Akk.)", "it": "votare (su qualcosa)", "emoji": "🗳️", "example_de": "Das Parlament stimmt morgen über das neue Gesetz ab.", "example_it": "Il parlamento voterà domani sulla nuova legge." }
+      ]
+    },
+    {
+      "name": "Società",
+      "words": [
+        { "de": "die Gleichberechtigung", "it": "la parità di diritti / l'uguaglianza", "emoji": "⚖️", "example_de": "Die Gleichberechtigung von Mann und Frau ist im Grundgesetz verankert.", "example_it": "La parità tra uomo e donna è sancita nella Legge Fondamentale." },
+        { "de": "die Integration", "it": "l'integrazione", "emoji": "🤝", "example_de": "Integration erfordert Anstrengungen von beiden Seiten.", "example_it": "L'integrazione richiede sforzi da entrambe le parti." },
+        { "de": "die Migration", "it": "la migrazione", "emoji": "🌍", "example_de": "Migration ist ein globales Phänomen.", "example_it": "La migrazione è un fenomeno globale." },
+        { "de": "die Diskriminierung, -en", "it": "la discriminazione", "emoji": "🚫", "example_de": "Diskriminierung aufgrund der Herkunft ist verboten.", "example_it": "La discriminazione in base all'origine è vietata." },
+        { "de": "das Vorurteil, -e", "it": "il pregiudizio", "emoji": "😤", "example_de": "Wir müssen Vorurteile abbauen.", "example_it": "Dobbiamo eliminare i pregiudizi." },
+        { "de": "die Toleranz", "it": "la tolleranza", "emoji": "🕊️", "example_de": "Toleranz ist die Grundlage einer offenen Gesellschaft.", "example_it": "La tolleranza è la base di una società aperta." },
+        { "de": "die Vielfalt", "it": "la diversità / la varietà", "emoji": "🌈", "example_de": "Kulturelle Vielfalt bereichert die Gesellschaft.", "example_it": "La diversità culturale arricchisce la società." },
+        { "de": "der Bürger, - / die Bürgerin, -nen", "it": "il/la cittadino/a", "emoji": "👥", "example_de": "Jeder Bürger hat das Recht zu wählen.", "example_it": "Ogni cittadino ha il diritto di votare." },
+        { "de": "die Menschenrechte (Pl.)", "it": "i diritti umani", "emoji": "✊", "example_de": "Die Menschenrechte müssen weltweit respektiert werden.", "example_it": "I diritti umani devono essere rispettati in tutto il mondo." },
+        { "de": "ehrenamtlich", "it": "volontario / a titolo gratuito", "emoji": "🤲", "example_de": "Sie arbeitet ehrenamtlich bei einer Hilfsorganisation.", "example_it": "Lavora come volontaria in un'organizzazione umanitaria." }
+      ]
+    }
+  ]
+}

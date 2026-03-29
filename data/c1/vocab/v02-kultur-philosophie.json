@@ -1,0 +1,53 @@
+{
+  "id": "c1-v02",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Cultura e filosofia",
+  "subtitle": "Kultur und Philosophie",
+  "groups": [
+    {
+      "name": "Arte e cultura",
+      "words": [
+        { "de": "die Kunst", "it": "l'arte", "emoji": "🎨", "example_de": "Die Kunst des 20. Jahrhunderts bricht mit traditionellen Formen.", "example_it": "L'arte del XX secolo rompe con le forme tradizionali." },
+        { "de": "das Gemälde", "it": "il dipinto, il quadro", "emoji": "🖼️", "example_de": "Dieses Gemälde von Caspar David Friedrich gehört zur Epoche der Romantik.", "example_it": "Questo dipinto di Caspar David Friedrich appartiene all'epoca del Romanticismo." },
+        { "de": "die Skulptur", "it": "la scultura", "emoji": "🗿", "example_de": "Die Skulptur aus Marmor steht im Zentrum des Museums.", "example_it": "La scultura di marmo si trova al centro del museo." },
+        { "de": "die Ausstellung", "it": "la mostra, l'esposizione", "emoji": "🏛️", "example_de": "Die Ausstellung zeitgenössischer Kunst war ein großer Erfolg.", "example_it": "La mostra d'arte contemporanea e stata un grande successo." },
+        { "de": "das Museum", "it": "il museo", "emoji": "🏛️", "example_de": "Das Deutsche Museum in München ist eines der größten Technikmuseen der Welt.", "example_it": "Il Deutsches Museum di Monaco e uno dei piu grandi musei della tecnica al mondo." },
+        { "de": "die Literatur", "it": "la letteratura", "emoji": "📚", "example_de": "Die deutsche Literatur hat mit Goethe und Schiller Weltgeltung erlangt.", "example_it": "La letteratura tedesca ha raggiunto fama mondiale con Goethe e Schiller." },
+        { "de": "der Roman", "it": "il romanzo", "emoji": "📖", "example_de": "In seinem neuesten Roman setzt sich der Autor mit der deutschen Teilung auseinander.", "example_it": "Nel suo ultimo romanzo l'autore affronta il tema della divisione tedesca." },
+        { "de": "das Gedicht", "it": "la poesia", "emoji": "📜", "example_de": "Rilkes Gedichte zeichnen sich durch eine besondere Bildsprache aus.", "example_it": "Le poesie di Rilke si distinguono per un linguaggio figurativo particolare." },
+        { "de": "die Aufführung", "it": "la rappresentazione, lo spettacolo", "emoji": "🎭", "example_de": "Die Aufführung von Brechts 'Dreigroschenoper' war ausverkauft.", "example_it": "La rappresentazione dell'Opera da tre soldi di Brecht era esaurita." },
+        { "de": "der Regisseur", "it": "il regista", "emoji": "🎬", "example_de": "Der Regisseur inszenierte das Stück auf völlig neue Weise.", "example_it": "Il regista ha messo in scena il pezzo in un modo completamente nuovo." },
+        { "de": "das Meisterwerk", "it": "il capolavoro", "emoji": "⭐", "example_de": "Beethovens Neunte Symphonie gilt als ein Meisterwerk der Musikgeschichte.", "example_it": "La Nona Sinfonia di Beethoven e considerata un capolavoro della storia della musica." },
+        { "de": "die Epoche", "it": "l'epoca", "emoji": "📅", "example_de": "Die Epoche der Aufklärung hat das europäische Denken grundlegend verändert.", "example_it": "L'epoca dell'Illuminismo ha cambiato radicalmente il pensiero europeo." }
+      ]
+    },
+    {
+      "name": "Filosofia e pensiero",
+      "words": [
+        { "de": "die Philosophie", "it": "la filosofia", "emoji": "🤔", "example_de": "Die deutsche Philosophie hat die westliche Geistesgeschichte stark geprägt.", "example_it": "La filosofia tedesca ha fortemente influenzato la storia del pensiero occidentale." },
+        { "de": "die Ethik", "it": "l'etica", "emoji": "⚖️", "example_de": "Die Ethik der künstlichen Intelligenz wird zunehmend diskutiert.", "example_it": "L'etica dell'intelligenza artificiale viene discussa sempre di piu." },
+        { "de": "die Erkenntnis", "it": "la conoscenza, l'intuizione", "emoji": "💡", "example_de": "Die Erkenntnis, dass die Erde rund ist, setzte sich erst langsam durch.", "example_it": "La consapevolezza che la Terra e rotonda si e affermata solo lentamente." },
+        { "de": "die Wahrheit", "it": "la verita", "emoji": "✅", "example_de": "Was ist Wahrheit? Diese Frage beschäftigt Philosophen seit der Antike.", "example_it": "Cos'e la verita? Questa domanda impegna i filosofi fin dall'antichita." },
+        { "de": "die Freiheit", "it": "la liberta", "emoji": "🕊️", "example_de": "Kant definierte Freiheit als Autonomie der Vernunft.", "example_it": "Kant defini la liberta come autonomia della ragione." },
+        { "de": "die Gerechtigkeit", "it": "la giustizia", "emoji": "⚖️", "example_de": "Die Frage nach sozialer Gerechtigkeit bleibt aktuell.", "example_it": "La questione della giustizia sociale rimane attuale." },
+        { "de": "das Bewusstsein", "it": "la coscienza, la consapevolezza", "emoji": "🧠", "example_de": "Das Bewusstsein für Umweltprobleme ist in den letzten Jahren gewachsen.", "example_it": "La consapevolezza dei problemi ambientali e cresciuta negli ultimi anni." },
+        { "de": "die Vernunft", "it": "la ragione", "emoji": "💭", "example_de": "Kants 'Kritik der reinen Vernunft' ist ein Meilenstein der Philosophie.", "example_it": "La 'Critica della ragion pura' di Kant e una pietra miliare della filosofia." },
+        { "de": "der Zweifel", "it": "il dubbio", "emoji": "❓", "example_de": "Der methodische Zweifel war Descartes' Ausgangspunkt.", "example_it": "Il dubbio metodico e stato il punto di partenza di Cartesio." },
+        { "de": "die Existenz", "it": "l'esistenza", "emoji": "🌍", "example_de": "Die Frage nach dem Sinn der Existenz steht im Zentrum des Existentialismus.", "example_it": "La domanda sul senso dell'esistenza e al centro dell'esistenzialismo." },
+        { "de": "der Sinn", "it": "il senso, il significato", "emoji": "💫", "example_de": "Die Suche nach dem Sinn des Lebens ist ein universelles Thema.", "example_it": "La ricerca del senso della vita e un tema universale." },
+        { "de": "die Aufklärung", "it": "l'Illuminismo", "emoji": "💡", "example_de": "Die Aufklärung betonte die Bedeutung von Vernunft und individueller Freiheit.", "example_it": "L'Illuminismo sottolineo l'importanza della ragione e della liberta individuale." }
+      ]
+    },
+    {
+      "name": "Espressioni colte",
+      "words": [
+        { "de": "infrage stellen", "it": "mettere in discussione", "emoji": "❓", "example_de": "Der Wissenschaftler stellt die bisherigen Annahmen infrage.", "example_it": "Lo scienziato mette in discussione le ipotesi finora accettate." },
+        { "de": "zum Ausdruck bringen", "it": "esprimere, manifestare", "emoji": "🗣️", "example_de": "Der Künstler bringt in seinen Werken eine tiefe Sehnsucht zum Ausdruck.", "example_it": "L'artista esprime nelle sue opere una profonda nostalgia." },
+        { "de": "in Betracht ziehen", "it": "prendere in considerazione", "emoji": "🤔", "example_de": "Man sollte auch alternative Erklärungen in Betracht ziehen.", "example_it": "Si dovrebbero prendere in considerazione anche spiegazioni alternative." },
+        { "de": "sich auseinandersetzen mit", "it": "confrontarsi con, approfondire", "emoji": "📖", "example_de": "In diesem Seminar setzen wir uns mit Hegels Dialektik auseinander.", "example_it": "In questo seminario ci confrontiamo con la dialettica di Hegel." },
+        { "de": "auf den Punkt bringen", "it": "andare al nocciolo, sintetizzare", "emoji": "🎯", "example_de": "Er kann komplexe Sachverhalte auf den Punkt bringen.", "example_it": "Riesce a sintetizzare questioni complesse andando al nocciolo." }
+      ]
+    }
+  ]
+}

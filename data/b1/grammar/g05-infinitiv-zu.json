@@ -1,0 +1,82 @@
+{
+  "id": "b1-g05",
+  "level": "b1",
+  "type": "grammar",
+  "title": "L'infinito con zu",
+  "subtitle": "Der Infinitiv mit zu",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "In tedesco, molti verbi, aggettivi e sostantivi richiedono un complemento all'infinito introdotto da **zu**. Questa costruzione corrisponde all'italiano 'di + infinito' o 'a + infinito': *Ich versuche, pünktlich **zu** kommen* (Cerco di arrivare puntuale). È una struttura fondamentale e molto frequente a livello B1."
+    },
+    {
+      "type": "rule",
+      "title": "Quando si usa zu + infinito",
+      "content": "L'infinito con *zu* si usa in tre contesti principali:",
+      "table": {
+        "headers": ["Contesto", "Esempio", "Traduzione"],
+        "rows": [
+          ["Dopo certi verbi", "Ich versuche, Deutsch zu lernen.", "Cerco di imparare il tedesco."],
+          ["Dopo aggettivi", "Es ist wichtig, pünktlich zu sein.", "È importante essere puntuali."],
+          ["Dopo sostantivi", "Ich habe die Möglichkeit, in Berlin zu arbeiten.", "Ho la possibilità di lavorare a Berlino."],
+          ["Dopo verbi: anfangen", "Er fängt an, das Buch zu lesen.", "Comincia a leggere il libro."],
+          ["Dopo verbi: aufhören", "Hör auf, so laut zu sprechen!", "Smettila di parlare così forte!"],
+          ["Dopo verbi: vergessen", "Vergiss nicht, die Tür abzuschließen!", "Non dimenticare di chiudere la porta a chiave!"],
+          ["Dopo verbi: hoffen", "Wir hoffen, Sie bald wiederzusehen.", "Speriamo di rivederLa presto."],
+          ["Dopo verbi: sich freuen", "Ich freue mich, dich kennenzulernen.", "Sono contento di conoscerti."],
+          ["Dopo verbi: vorhaben", "Ich habe vor, nächstes Jahr umzuziehen.", "Ho intenzione di trasferirmi l'anno prossimo."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Verbi SENZA zu: modali, lassen, sehen, hören",
+      "content": "Alcuni verbi importanti usano l'infinito **senza** zu. Questi vanno memorizzati:",
+      "table": {
+        "headers": ["Categoria", "Verbi", "Esempio", "Traduzione"],
+        "rows": [
+          ["Verbi modali", "können, müssen, wollen, sollen, dürfen, mögen", "Ich kann gut schwimmen.", "So nuotare bene."],
+          ["lassen", "lassen (fare/lasciare fare)", "Ich lasse mein Auto reparieren.", "Faccio riparare la mia auto."],
+          ["Verbi di percezione", "sehen (vedere)", "Ich sehe die Kinder spielen.", "Vedo i bambini giocare."],
+          ["Verbi di percezione", "hören (sentire)", "Ich höre ihn singen.", "Lo sento cantare."],
+          ["Verbi di movimento", "gehen (andare)", "Wir gehen einkaufen.", "Andiamo a fare la spesa."],
+          ["bleiben", "bleiben (restare)", "Er bleibt sitzen.", "Resta seduto."],
+          ["werden", "werden (futuro)", "Ich werde morgen kommen.", "Verrò domani."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Costruzioni speciali: um...zu, ohne...zu, anstatt...zu",
+      "content": "Tre importanti costruzioni con zu hanno significati specifici:",
+      "table": {
+        "headers": ["Costruzione", "Significato", "Esempio", "Traduzione"],
+        "rows": [
+          ["um...zu + infinito", "per/allo scopo di", "Ich lerne Deutsch, um in Deutschland zu arbeiten.", "Studio tedesco per lavorare in Germania."],
+          ["ohne...zu + infinito", "senza + infinito", "Er ging weg, ohne sich zu verabschieden.", "Se ne andò senza salutare."],
+          ["anstatt...zu + infinito", "invece di + infinito", "Anstatt zu lernen, spielt er Videospiele.", "Invece di studiare, gioca ai videogiochi."],
+          ["um...zu (altro esempio)", "per/allo scopo di", "Sie spart Geld, um ein Haus zu kaufen.", "Risparmia soldi per comprare una casa."],
+          ["ohne...zu (altro esempio)", "senza + infinito", "Sie hat die Prüfung bestanden, ohne viel zu lernen.", "Ha superato l'esame senza studiare molto."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Verbi separabili con zu:** Quando un verbo separabile ha *zu*, questo si inserisce **tra** il prefisso e la radice del verbo, tutto scritto come una sola parola:\n- *aufstehen* → **aufzustehen** (*Es ist schwer, früh aufzustehen.* = È difficile alzarsi presto.)\n- *anfangen* → **anzufangen** (*Er hat vergessen, anzufangen.* = Ha dimenticato di cominciare.)\n- *einkaufen* → **einzukaufen** (*Vergiss nicht, einzukaufen!* = Non dimenticare di fare la spesa!)\n- *mitnehmen* → **mitzunehmen** (*Denk daran, den Regenschirm mitzunehmen!* = Ricordati di portare l'ombrello!)\n\n**La virgola** prima della costruzione con *zu* è obbligatoria con *um, ohne, anstatt* e facoltativa negli altri casi (ma consigliata per chiarezza)."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Ich habe keine Lust, heute zu arbeiten.", "it": "Non ho voglia di lavorare oggi." },
+        { "de": "Es ist schwierig, eine neue Sprache zu lernen.", "it": "È difficile imparare una nuova lingua." },
+        { "de": "Er hat beschlossen, nach München umzuziehen.", "it": "Ha deciso di trasferirsi a Monaco." },
+        { "de": "Ich bin froh, dich wiederzusehen.", "it": "Sono contento di rivederti." },
+        { "de": "Wir haben die Absicht, ein neues Projekt zu starten.", "it": "Abbiamo l'intenzione di iniziare un nuovo progetto." },
+        { "de": "Sie ging ins Bett, ohne das Licht auszumachen.", "it": "Andò a letto senza spegnere la luce." },
+        { "de": "Um fit zu bleiben, geht er jeden Tag joggen.", "it": "Per restare in forma, va a correre ogni giorno." },
+        { "de": "Anstatt sich zu beschweren, sollte er eine Lösung suchen.", "it": "Invece di lamentarsi, dovrebbe cercare una soluzione." }
+      ]
+    }
+  ]
+}

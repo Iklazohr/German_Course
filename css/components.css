@@ -497,6 +497,12 @@
     background: var(--primary-light);
 }
 
+.vocab-emoji {
+    font-size: 1.75rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
 .vocab-de {
     font-weight: 600;
     flex: 1;

@@ -1,0 +1,104 @@
+{
+  "id": "c1-g03",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Alternative al passivo",
+  "subtitle": "Passiversatzformen",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il tedesco dispone di numerose strutture che esprimono un **significato passivo** senza ricorrere alla costruzione *werden + Partizip II*. Queste **Passiversatzformen** (alternative al passivo) sono molto apprezzate nel tedesco accademico e formale, perche rendono il testo piu **elegante, conciso e vario**. Conoscerle permette di evitare la ripetizione eccessiva del passivo e di raggiungere uno stile piu naturale e sofisticato."
+    },
+    {
+      "type": "rule",
+      "title": "man — il soggetto generico",
+      "content": "**Man** (si, uno) e il modo piu semplice per evitare il passivo. La frase resta all'attivo ma senza un soggetto specifico. E molto comune sia nel parlato che nello scritto.",
+      "table": {
+        "headers": ["Passivo con werden", "Alternativa con man", "Traduzione"],
+        "rows": [
+          ["Hier wird Deutsch gesprochen.", "Hier spricht man Deutsch.", "Qui si parla tedesco."],
+          ["Das Formular muss ausgefüllt werden.", "Man muss das Formular ausfüllen.", "Bisogna compilare il modulo."],
+          ["Es wurde viel diskutiert.", "Man hat viel diskutiert.", "Si e discusso molto."],
+          ["Das Problem kann gelöst werden.", "Man kann das Problem lösen.", "Si puo risolvere il problema."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "sich lassen + infinito — possibilita",
+      "content": "**Sich lassen + Infinitiv** esprime che qualcosa **puo essere fatto** (possibilita passiva). Corrisponde a *kann + Partizip II + werden* ma suona piu elegante. E molto frequente nel tedesco accademico.",
+      "table": {
+        "headers": ["Passivo con werden", "Alternativa con sich lassen", "Traduzione"],
+        "rows": [
+          ["Das kann gemacht werden.", "Das lässt sich machen.", "Si puo fare. / E fattibile."],
+          ["Das Problem kann nicht gelöst werden.", "Das Problem lässt sich nicht lösen.", "Il problema non si riesce a risolvere."],
+          ["Die Ergebnisse können leicht erklären werden.", "Die Ergebnisse lassen sich leicht erklären.", "I risultati si spiegano facilmente."],
+          ["Es konnte nicht vermieden werden.", "Es ließ sich nicht vermeiden.", "Non si e potuto evitare."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "sein + zu + infinito — obbligo o possibilita",
+      "content": "**Sein + zu + Infinitiv** esprime **obbligo** (deve essere fatto) o **possibilita** (puo essere fatto), a seconda del contesto. Il significato si capisce dalla frase: contesti con *unbedingt, sofort* suggeriscono obbligo; contesti con *leicht, kaum, schwer* suggeriscono possibilita.",
+      "table": {
+        "headers": ["Esempio", "Significato", "Equivalente passivo"],
+        "rows": [
+          ["Die Aufgabe ist bis morgen zu lösen.", "Obbligo: deve essere risolta", "Die Aufgabe muss bis morgen gelöst werden."],
+          ["Die Frist ist unbedingt einzuhalten.", "Obbligo: va assolutamente rispettata", "Die Frist muss unbedingt eingehalten werden."],
+          ["Die Schrift ist kaum zu lesen.", "Possibilita: si riesce a malapena a leggere", "Die Schrift kann kaum gelesen werden."],
+          ["Der Unterschied ist leicht zu erkennen.", "Possibilita: si riconosce facilmente", "Der Unterschied kann leicht erkannt werden."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Aggettivi in -bar — possibilita come aggettivo",
+      "content": "Gli aggettivi che terminano in **-bar** (derivati da verbi) esprimono che qualcosa **puo essere** fatto. Corrispondono al suffisso italiano **-bile**. Sono estremamente produttivi: quasi ogni verbo transitivo puo formare un aggettivo in *-bar*.",
+      "table": {
+        "headers": ["Verbo", "Aggettivo in -bar", "Traduzione", "Esempio"],
+        "rows": [
+          ["machen", "machbar", "fattibile", "Der Plan ist durchaus machbar."],
+          ["lesen", "lesbar", "leggibile", "Der Text ist gut lesbar."],
+          ["essen", "essbar", "commestibile", "Sind diese Pilze essbar?"],
+          ["erreichen", "erreichbar", "raggiungibile", "Das Ziel ist erreichbar."],
+          ["vorstellen", "vorstellbar", "immaginabile", "Das ist kaum vorstellbar."],
+          ["bezahlen", "bezahlbar", "accessibile (prezzo)", "Die Miete ist noch bezahlbar."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Verbi riflessivi con significato passivo",
+      "content": "Alcuni verbi usati in forma **riflessiva** assumono un significato passivo. Il soggetto grammaticale subisce l'azione anziche compierla. Questa costruzione e idiomatica e va imparata caso per caso.",
+      "table": {
+        "headers": ["Forma riflessiva", "Equivalente passivo", "Traduzione"],
+        "rows": [
+          ["Das Buch verkauft sich gut.", "Das Buch wird gut verkauft.", "Il libro si vende bene."],
+          ["Die Tür öffnete sich langsam.", "Die Tür wurde langsam geöffnet.", "La porta si apri lentamente."],
+          ["Das erklärt sich von selbst.", "Das wird von selbst erklärt.", "Si spiega da se."],
+          ["Das Problem hat sich gelöst.", "Das Problem ist gelöst worden.", "Il problema si e risolto."],
+          ["Der Stoff liest sich flüssig.", "Der Stoff kann flüssig gelesen werden.", "Il testo si legge in modo scorrevole."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Nel tedesco accademico e formale, le Passiversatzformen sono fortemente preferite rispetto al passivo semplice!**\n\nRiassunto delle equivalenze:\n- **man + attivo** = forma piu semplice e diretta\n- **sich lassen + Infinitiv** = elegante, indica possibilita\n- **sein + zu + Infinitiv** = formale, indica obbligo o possibilita\n- **Aggettivo in -bar** = conciso, indica possibilita\n- **Riflessivo** = idiomatico, caso per caso\n\nConsiglio stilistico: **varia le forme!** Un testo che usa solo *werden-Passiv* risulta monotono. Alternare tra passivo e le sue alternative e segno di maturita stilistica."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "In Deutschland trinkt man viel Bier.", "it": "In Germania si beve molta birra." },
+        { "de": "Das lässt sich leider nicht ändern.", "it": "Purtroppo non si puo cambiare." },
+        { "de": "Die Arbeit ist bis Freitag abzugeben.", "it": "Il lavoro va consegnato entro venerdi." },
+        { "de": "Dieses Ergebnis ist reproduzierbar.", "it": "Questo risultato e riproducibile." },
+        { "de": "Die Tür schließt sich automatisch.", "it": "La porta si chiude automaticamente." },
+        { "de": "Das Phänomen lässt sich durch mehrere Faktoren erklären.", "it": "Il fenomeno si spiega con diversi fattori." },
+        { "de": "Der Fehler ist kaum zu erkennen.", "it": "L'errore e quasi impossibile da individuare." },
+        { "de": "Man sollte diese Aspekte nicht unterschätzen.", "it": "Non si dovrebbero sottovalutare questi aspetti." }
+      ]
+    }
+  ]
+}

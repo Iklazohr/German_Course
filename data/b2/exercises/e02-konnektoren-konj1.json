@@ -1,0 +1,115 @@
+{
+  "id": "b2-e02",
+  "level": "b2",
+  "title": "Esercizi: Connettori avanzati e Konjunktiv I",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Completa: '___ mehr man übt, ___ besser wird man.'",
+      "options": ["Je ... desto", "Sowohl ... als auch", "Weder ... noch", "Entweder ... oder"],
+      "correct": 0,
+      "explanation": "'Je ... desto' significa 'più ... più' (quanto più ... tanto più). Dopo 'je' il verbo va alla fine, dopo 'desto' c'è l'inversione: Je mehr man übt, desto besser wird man."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er spricht ___ Deutsch ___ Englisch. Er ist wirklich sprachbegabt!",
+      "blanks": [
+        { "position": 0, "correct": ["sowohl"], "hint": "sia (prima parte del connettore doppio)" },
+        { "position": 1, "correct": ["als auch"], "hint": "sia/che (seconda parte del connettore doppio)" }
+      ],
+      "translation": "Parla sia tedesco che inglese. È davvero portato per le lingue!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è grammaticalmente corretta con 'obwohl'?",
+      "options": [
+        "Obwohl es regnet, er geht spazieren.",
+        "Obwohl regnet es, geht er spazieren.",
+        "Obwohl es regnet, geht er spazieren.",
+        "Obwohl es regnet, er spazieren geht."
+      ],
+      "correct": 2,
+      "explanation": "'Obwohl' è una congiunzione subordinante: il verbo va alla fine della subordinata (obwohl es regnet). La frase principale che segue ha il verbo in posizione 1 con inversione (geht er)."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega ogni connettore al suo significato italiano.",
+      "pairs": [
+        { "left": "allerdings", "right": "tuttavia, però" },
+        { "left": "folglich", "right": "di conseguenza" },
+        { "left": "hingegen", "right": "invece, al contrario" },
+        { "left": "immerhin", "right": "almeno, quantomeno" },
+        { "left": "schließlich", "right": "alla fine, dopotutto" }
+      ]
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto per formare una frase con 'damit':",
+      "words": ["Ich", "erkläre", "es", "nochmal", ",", "damit", "du", "es", "verstehst", "."],
+      "correct": "Ich erkläre es nochmal , damit du es verstehst .",
+      "translation": "Lo spiego di nuovo affinché tu capisca."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è nello stile giornalistico corretto con il Konjunktiv I?",
+      "options": [
+        "Der Minister sagte, er ist zufrieden.",
+        "Der Minister sagte, er sei zufrieden.",
+        "Der Minister sagte, er wäre zufrieden.",
+        "Der Minister sagte, er war zufrieden."
+      ],
+      "correct": 1,
+      "explanation": "Nel discorso indiretto formale/giornalistico si usa il Konjunktiv I: 'er sei' (da 'sein'). 'Er ist' sarebbe indicativo (informale), 'er wäre' sarebbe Konjunktiv II (parlato colloquiale)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die Polizei teilte mit, der Verdächtige ___ festgenommen worden.",
+      "blanks": [{ "position": 0, "correct": ["sei"], "hint": "Konjunktiv I di 'sein' - terza persona singolare" }],
+      "translation": "La polizia ha comunicato che il sospettato è stato arrestato."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Perché si usa 'hätten' invece di 'haben' nel discorso indiretto: 'Sie sagten, sie ___ keine Zeit'?",
+      "options": [
+        "Perché 'hätten' è più educato",
+        "Perché il Konjunktiv I 'haben' è identico all'indicativo, quindi si usa il Konjunktiv II",
+        "Perché il Konjunktiv I non esiste per 'haben'",
+        "Perché si tratta di una condizione irreale"
+      ],
+      "correct": 1,
+      "explanation": "Alla terza persona plurale, il Konjunktiv I di 'haben' sarebbe 'sie haben', identico all'indicativo. Per evitare ambiguità, si usa il Konjunktiv II: 'sie hätten'. Regola: quando Konj. I = indicativo → si usa Konj. II."
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Zwar ist das Restaurant teuer, aber das Essen ist ausgezeichnet.",
+      "acceptable": ["È vero che il ristorante è caro, ma il cibo è eccellente.", "Certo, il ristorante è caro, ma il cibo è eccellente.", "Il ristorante è sì caro, ma il cibo è eccellente."],
+      "hint": "zwar ... aber = è vero che ... però / certo ... ma"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale espressione fissa usa il Konjunktiv I?",
+      "options": [
+        "Ich hätte gern ein Bier.",
+        "Wenn ich reich wäre, würde ich reisen.",
+        "Gott sei Dank!",
+        "Könnten Sie mir helfen?"
+      ],
+      "correct": 2,
+      "explanation": "'Gott sei Dank!' (Grazie a Dio!) usa il Konjunktiv I di 'sein' (sei) in un'espressione fissa. Le altre opzioni usano il Konjunktiv II (hätte, wäre, könnten)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er wollte Medizin studieren. ___ wurde er Ingenieur.",
+      "blanks": [{ "position": 0, "correct": ["Stattdessen"], "hint": "al posto di ciò / invece - avverbio di frase" }],
+      "translation": "Voleva studiare medicina. Invece è diventato ingegnere."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Riordina le parole per formare una frase corretta con 'sobald':",
+      "words": ["Sobald", "ich", "ankomme", ",", "rufe", "ich", "dich", "an", "."],
+      "correct": "Sobald ich ankomme , rufe ich dich an .",
+      "translation": "Non appena arrivo, ti chiamo."
+    }
+  ]
+}

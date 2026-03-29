@@ -1,0 +1,192 @@
+{
+  "id": "a2-v02",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Casa e arredamento",
+  "subtitle": "Wohnung und Einrichtung",
+  "groups": [
+    {
+      "name": "Stanze",
+      "words": [
+        {
+          "de": "die Küche",
+          "it": "la cucina",
+          "emoji": "🍳",
+          "example_de": "Ich koche jeden Abend in der Küche.",
+          "example_it": "Cucino ogni sera in cucina."
+        },
+        {
+          "de": "das Schlafzimmer",
+          "it": "la camera da letto",
+          "emoji": "🛏️",
+          "example_de": "Das Schlafzimmer ist groß und hell.",
+          "example_it": "La camera da letto è grande e luminosa."
+        },
+        {
+          "de": "das Wohnzimmer",
+          "it": "il soggiorno",
+          "emoji": "🛋️",
+          "example_de": "Wir sehen abends im Wohnzimmer fern.",
+          "example_it": "La sera guardiamo la TV in soggiorno."
+        },
+        {
+          "de": "das Badezimmer",
+          "it": "il bagno",
+          "emoji": "🚿",
+          "example_de": "Das Badezimmer hat eine große Badewanne.",
+          "example_it": "Il bagno ha una grande vasca da bagno."
+        },
+        {
+          "de": "der Flur",
+          "it": "il corridoio / l'ingresso",
+          "emoji": "🚪",
+          "example_de": "Die Jacken hängen im Flur.",
+          "example_it": "Le giacche sono appese nel corridoio."
+        },
+        {
+          "de": "der Keller",
+          "it": "la cantina / il seminterrato",
+          "emoji": "📦",
+          "example_de": "Die alten Sachen sind im Keller.",
+          "example_it": "Le cose vecchie sono in cantina."
+        },
+        {
+          "de": "der Balkon",
+          "it": "il balcone",
+          "emoji": "🌿",
+          "example_de": "Im Sommer frühstücke ich auf dem Balkon.",
+          "example_it": "In estate faccio colazione sul balcone."
+        },
+        {
+          "de": "das Arbeitszimmer",
+          "it": "lo studio",
+          "emoji": "💻",
+          "example_de": "Ich arbeite von zu Hause im Arbeitszimmer.",
+          "example_it": "Lavoro da casa nello studio."
+        }
+      ]
+    },
+    {
+      "name": "Mobili e oggetti",
+      "words": [
+        {
+          "de": "der Tisch",
+          "it": "il tavolo",
+          "emoji": "🪑",
+          "example_de": "Das Essen steht auf dem Tisch.",
+          "example_it": "Il cibo è sul tavolo."
+        },
+        {
+          "de": "der Stuhl",
+          "it": "la sedia",
+          "emoji": "💺",
+          "example_de": "Bitte setzen Sie sich auf den Stuhl.",
+          "example_it": "Si sieda sulla sedia, per favore."
+        },
+        {
+          "de": "das Bett",
+          "it": "il letto",
+          "emoji": "🛏️",
+          "example_de": "Das Bett ist sehr bequem.",
+          "example_it": "Il letto è molto comodo."
+        },
+        {
+          "de": "der Schrank",
+          "it": "l'armadio",
+          "emoji": "🗄️",
+          "example_de": "Die Kleidung ist im Schrank.",
+          "example_it": "I vestiti sono nell'armadio."
+        },
+        {
+          "de": "das Regal",
+          "it": "lo scaffale",
+          "emoji": "📚",
+          "example_de": "Die Bücher stehen im Regal.",
+          "example_it": "I libri sono sullo scaffale."
+        },
+        {
+          "de": "die Lampe",
+          "it": "la lampada",
+          "emoji": "💡",
+          "example_de": "Mach bitte die Lampe an!",
+          "example_it": "Accendi la lampada, per favore!"
+        },
+        {
+          "de": "der Teppich",
+          "it": "il tappeto",
+          "emoji": "🟫",
+          "example_de": "Der Teppich im Wohnzimmer ist weich und warm.",
+          "example_it": "Il tappeto in soggiorno è morbido e caldo."
+        },
+        {
+          "de": "der Spiegel",
+          "it": "lo specchio",
+          "emoji": "🪞",
+          "example_de": "Ich schaue jeden Morgen in den Spiegel.",
+          "example_it": "Ogni mattina mi guardo allo specchio."
+        }
+      ]
+    },
+    {
+      "name": "Nella casa",
+      "words": [
+        {
+          "de": "die Miete",
+          "it": "l'affitto",
+          "emoji": "💰",
+          "example_de": "Die Miete für die Wohnung ist 800 Euro.",
+          "example_it": "L'affitto per l'appartamento è di 800 euro."
+        },
+        {
+          "de": "der Vermieter",
+          "it": "il proprietario / il locatore",
+          "emoji": "🔑",
+          "example_de": "Der Vermieter ist sehr freundlich.",
+          "example_it": "Il proprietario è molto gentile."
+        },
+        {
+          "de": "die Wohnung",
+          "it": "l'appartamento",
+          "emoji": "🏢",
+          "example_de": "Wir haben eine neue Wohnung gefunden.",
+          "example_it": "Abbiamo trovato un nuovo appartamento."
+        },
+        {
+          "de": "das Stockwerk",
+          "it": "il piano",
+          "emoji": "🏗️",
+          "example_de": "Wir wohnen im dritten Stockwerk.",
+          "example_it": "Abitiamo al terzo piano."
+        },
+        {
+          "de": "der Aufzug",
+          "it": "l'ascensore",
+          "emoji": "🛗",
+          "example_de": "Nehmen wir den Aufzug oder die Treppe?",
+          "example_it": "Prendiamo l'ascensore o le scale?"
+        },
+        {
+          "de": "der Schlüssel",
+          "it": "la chiave",
+          "emoji": "🔑",
+          "example_de": "Ich habe meinen Schlüssel verloren.",
+          "example_it": "Ho perso la mia chiave."
+        },
+        {
+          "de": "einziehen",
+          "it": "trasferirsi (in una casa)",
+          "emoji": "📥",
+          "example_de": "Nächste Woche ziehen wir in die neue Wohnung ein.",
+          "example_it": "La prossima settimana ci trasferiamo nel nuovo appartamento."
+        },
+        {
+          "de": "umziehen",
+          "it": "traslocare",
+          "emoji": "📦",
+          "example_de": "Wir ziehen nächsten Monat nach Hamburg um.",
+          "example_it": "Il mese prossimo traslochiamo ad Amburgo."
+        }
+      ]
+    }
+  ]
+}

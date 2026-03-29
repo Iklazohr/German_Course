@@ -1,0 +1,114 @@
+{
+  "id": "a2-e02",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: Dativo e preposizioni",
+  "questions": [
+    {
+      "type": "fill-blank",
+      "sentence": "Ich gebe ___ Frau die Blumen.",
+      "blanks": ["der"],
+      "explanation": "'Frau' è femminile. Al dativo, l'articolo determinativo femminile 'die' diventa 'der'. 'Geben' regge l'accusativo (cosa?) e il dativo (a chi?)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er hilft ___ Kind bei den Hausaufgaben.",
+      "blanks": ["dem"],
+      "explanation": "'Kind' è neutro. Al dativo, l'articolo determinativo neutro 'das' diventa 'dem'. Il verbo 'helfen' regge sempre il dativo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Wir wohnen seit drei Jahren in ___ Stadt.",
+      "blanks": ["der"],
+      "explanation": "'In' con significato di stato in luogo regge il dativo. 'Stadt' è femminile, quindi 'die' diventa 'der' al dativo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das Buch gehört ___ Lehrer.",
+      "blanks": ["dem"],
+      "explanation": "'Gehören' (appartenere) regge il dativo. 'Lehrer' è maschile, quindi 'der' diventa 'dem' al dativo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale preposizione regge SEMPRE il dativo?",
+      "options": ["in", "auf", "mit", "über"],
+      "correct": 2,
+      "explanation": "'Mit' (con) regge sempre il dativo. 'In', 'auf' e 'über' sono Wechselpräpositionen e possono reggere dativo o accusativo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Ich fahre ___ dem Bus.' Quale preposizione è corretta?",
+      "options": ["mit", "bei", "von", "aus"],
+      "correct": 0,
+      "explanation": "'Mit dem Bus fahren' significa 'andare in autobus'. 'Mit' indica il mezzo di trasporto e regge il dativo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa correttamente il dativo?",
+      "options": [
+        "Ich helfe der Mann.",
+        "Ich helfe dem Mann.",
+        "Ich helfe den Mann.",
+        "Ich helfe des Mannes."
+      ],
+      "correct": 1,
+      "explanation": "'Helfen' regge il dativo. 'Mann' è maschile: al dativo 'der' diventa 'dem'. 'Dem Mann' è la forma corretta."
+    },
+    {
+      "type": "translation",
+      "sentence": "Il libro piace a mia madre.",
+      "answer": "Das Buch gefällt meiner Mutter.",
+      "hint": "gefallen + dativo (a chi piace?) — meine → meiner al dativo femminile"
+    },
+    {
+      "type": "translation",
+      "sentence": "Vado dal dottore con mio fratello.",
+      "answer": "Ich gehe mit meinem Bruder zum Arzt.",
+      "hint": "mit + dativo; zu + dem = zum"
+    },
+    {
+      "type": "translation",
+      "sentence": "Dopo il lavoro vado a casa.",
+      "answer": "Nach der Arbeit gehe ich nach Hause.",
+      "hint": "nach + dativo; 'Arbeit' è femminile"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "mit", "right": "sempre dativo"},
+        {"left": "aus", "right": "sempre dativo"},
+        {"left": "bei", "right": "sempre dativo"},
+        {"left": "in", "right": "dativo o accusativo"},
+        {"left": "auf", "right": "dativo o accusativo"},
+        {"left": "für", "right": "sempre accusativo"}
+      ]
+    },
+    {
+      "type": "reorder",
+      "words": ["meinem", "ich", "Freund", "helfe", "gern"],
+      "correct": "Ich helfe meinem Freund gern."
+    },
+    {
+      "type": "reorder",
+      "words": ["dem", "die", "auf", "Katze", "Tisch", "sitzt"],
+      "correct": "Die Katze sitzt auf dem Tisch."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Nach ___ Essen gehen wir spazieren.",
+      "blanks": ["dem"],
+      "explanation": "'Nach' regge sempre il dativo. 'Essen' (il pasto) è neutro, quindi 'das' diventa 'dem' al dativo."
+    },
+    {
+      "type": "select-article",
+      "words": [
+        {"word": "Tisch (dativo)", "article": "dem"},
+        {"word": "Lampe (dativo)", "article": "der"},
+        {"word": "Buch (dativo)", "article": "dem"},
+        {"word": "Kinder (dativo pl.)", "article": "den"},
+        {"word": "Freund (dativo)", "article": "dem"},
+        {"word": "Schule (dativo)", "article": "der"}
+      ]
+    }
+  ]
+}

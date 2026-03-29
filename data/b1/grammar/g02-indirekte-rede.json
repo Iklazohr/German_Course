@@ -1,0 +1,88 @@
+{
+  "id": "b1-g02",
+  "level": "b1",
+  "type": "grammar",
+  "title": "Il discorso indiretto",
+  "subtitle": "Die indirekte Rede",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "Il **discorso indiretto** (indirekte Rede) serve a riportare ciò che qualcuno ha detto, senza citarlo direttamente. In tedesco si usa spesso il **Konjunktiv I** nella lingua scritta e formale, mentre nella lingua parlata si preferisce la costruzione con **dass** (che) + indicativo. È fondamentale per raccontare, riferire notizie e riassumere conversazioni."
+    },
+    {
+      "type": "rule",
+      "title": "Riportare con dass (che)",
+      "content": "Il modo più semplice e comune per il discorso indiretto: si usa un verbo introduttivo (*sagen, erzählen, meinen, berichten*) + **dass** + frase con il verbo alla fine.",
+      "table": {
+        "headers": ["Discorso diretto", "Discorso indiretto con dass", "Traduzione"],
+        "rows": [
+          ["Er sagt: \"Ich bin müde.\"", "Er sagt, dass er müde ist.", "Dice che è stanco."],
+          ["Sie sagte: \"Ich habe Hunger.\"", "Sie sagte, dass sie Hunger hat.", "Ha detto che ha fame."],
+          ["Er meint: \"Das Wetter wird besser.\"", "Er meint, dass das Wetter besser wird.", "Ritiene che il tempo migliorerà."],
+          ["Sie erzählt: \"Ich bin nach Berlin gefahren.\"", "Sie erzählt, dass sie nach Berlin gefahren ist.", "Racconta di essere andata a Berlino."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Riportare senza dass (Konjunktiv I)",
+      "content": "Nella lingua scritta, giornalistica e formale, si può omettere *dass* e usare il **Konjunktiv I**. Il verbo torna in seconda posizione. Questa forma si trova nei giornali, nei testi accademici e nei discorsi formali.",
+      "table": {
+        "headers": ["Persona", "sein (Konj. I)", "haben (Konj. I)", "können (Konj. I)"],
+        "rows": [
+          ["ich", "sei", "habe", "könne"],
+          ["du", "seist", "habest", "könnest"],
+          ["er/sie/es", "sei", "habe", "könne"],
+          ["wir", "seien", "haben*", "können*"],
+          ["ihr", "seiet", "habet", "könnet"],
+          ["sie/Sie", "seien", "haben*", "können*"]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Cambio dei tempi verbali",
+      "content": "Quando si passa dal discorso diretto a quello indiretto, i tempi verbali possono cambiare, soprattutto se il verbo introduttivo è al passato:",
+      "table": {
+        "headers": ["Diretto", "Indiretto (con dass)", "Esempio"],
+        "rows": [
+          ["Presente → Presente", "Se il verbo intro è al presente", "Er sagt, dass er kommt."],
+          ["Presente → Passato", "Se il verbo intro è al passato", "Er sagte, dass er kam / kommen würde."],
+          ["Perfekt → Plusquamperfekt", "Il passato si sposta al trapassato", "Er sagte, dass er gekommen war."],
+          ["Futuro → würde + Infinitiv", "Il futuro diventa condizionale", "Er sagte, dass er kommen würde."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Riportare domande: ob e parole interrogative",
+      "content": "Per riportare domande si usano costruzioni diverse a seconda del tipo di domanda:",
+      "table": {
+        "headers": ["Tipo", "Struttura", "Esempio diretto", "Esempio indiretto"],
+        "rows": [
+          ["Domanda sì/no", "fragen + ob + verbo alla fine", "\"Kommst du morgen?\"", "Er fragt, ob ich morgen komme."],
+          ["Domanda con W-Wort", "fragen + W-Wort + verbo alla fine", "\"Wo wohnst du?\"", "Er fragt, wo ich wohne."],
+          ["Domanda con wann", "fragen + wann + verbo alla fine", "\"Wann fängt der Film an?\"", "Sie fragt, wann der Film anfängt."],
+          ["Domanda con warum", "fragen + warum + verbo alla fine", "\"Warum lernst du Deutsch?\"", "Er fragt, warum ich Deutsch lerne."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Nella lingua parlata** si usa quasi sempre *dass* + indicativo. Il Konjunktiv I è importante per la comprensione scritta (giornali, notizie), ma nella conversazione quotidiana puoi tranquillamente usare *dass*.\n\n**Attenzione ai pronomi!** Nel passaggio al discorso indiretto, i pronomi cambiano prospettiva:\n- *\"**Ich** bin müde\"* → Er sagt, dass **er** müde ist.\n- *\"**Du** musst kommen\"* → Sie sagt, dass **ich** kommen muss.\n\n*Le forme con asterisco nella tabella del Konjunktiv I sono identiche all'indicativo: in questi casi si sostituiscono con il Konjunktiv II (hätten, könnten)."
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Er sagt, dass er morgen nicht kommen kann.", "it": "Dice che domani non può venire." },
+        { "de": "Sie hat erzählt, dass sie eine neue Arbeit gefunden hat.", "it": "Ha raccontato di aver trovato un nuovo lavoro." },
+        { "de": "Der Lehrer fragt, ob alle die Hausaufgaben gemacht haben.", "it": "Il professore chiede se tutti hanno fatto i compiti." },
+        { "de": "Er fragte mich, wo ich wohne.", "it": "Mi ha chiesto dove abito." },
+        { "de": "Die Zeitung berichtet, der Minister sei zurückgetreten.", "it": "Il giornale riporta che il ministro si sia dimesso." },
+        { "de": "Sie meinte, sie hätte keine Zeit.", "it": "Ha detto che non avrebbe avuto tempo." },
+        { "de": "Er wollte wissen, wann wir ankommen.", "it": "Voleva sapere quando arriviamo." }
+      ]
+    }
+  ]
+}

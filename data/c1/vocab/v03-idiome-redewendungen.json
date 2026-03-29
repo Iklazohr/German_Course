@@ -1,0 +1,34 @@
+{
+  "id": "c1-v03",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Modi di dire e espressioni idiomatiche",
+  "subtitle": "Redewendungen und Idiome",
+  "groups": [
+    {
+      "name": "Modi di dire comuni",
+      "words": [
+        { "de": "den Nagel auf den Kopf treffen", "it": "colpire nel segno, azzeccarci", "emoji": "🔨", "example_de": "Mit deiner Analyse hast du den Nagel auf den Kopf getroffen.", "example_it": "Con la tua analisi hai colpito nel segno." },
+        { "de": "um den heißen Brei herumreden", "it": "girarci intorno, menare il can per l'aia", "emoji": "🫕", "example_de": "Hör auf, um den heißen Brei herumzureden, und sag mir die Wahrheit!", "example_it": "Smettila di girarci intorno e dimmi la verita!" },
+        { "de": "jemandem auf die Nerven gehen", "it": "dare sui nervi a qualcuno", "emoji": "😤", "example_de": "Dieser ständige Lärm geht mir wirklich auf die Nerven.", "example_it": "Questo rumore continuo mi da davvero sui nervi." },
+        { "de": "die Daumen drücken", "it": "incrociare le dita, fare il tifo", "emoji": "🤞", "example_de": "Ich drücke dir die Daumen für deine Prüfung morgen!", "example_it": "Incrocio le dita per il tuo esame di domani!" },
+        { "de": "ins Fettnäpfchen treten", "it": "fare una gaffe", "emoji": "😬", "example_de": "Mit seiner Bemerkung über ihr Alter ist er voll ins Fettnäpfchen getreten.", "example_it": "Con la sua osservazione sull'eta di lei ha fatto una bella gaffe." },
+        { "de": "Schwein haben", "it": "avere fortuna (colloquiale)", "emoji": "🐷", "example_de": "Da hast du aber Schwein gehabt, dass der Zug Verspätung hatte!", "example_it": "Hai avuto proprio fortuna che il treno era in ritardo!" },
+        { "de": "den Faden verlieren", "it": "perdere il filo (del discorso)", "emoji": "🧵", "example_de": "Entschuldigung, ich habe gerade den Faden verloren. Wo war ich?", "example_it": "Scusate, ho perso il filo. Dov'ero rimasto?" },
+        { "de": "auf dem Holzweg sein", "it": "essere fuori strada, sbagliarsi", "emoji": "🪵", "example_de": "Wenn du glaubst, dass ich das akzeptiere, bist du auf dem Holzweg.", "example_it": "Se credi che io l'accetti, sei fuori strada." }
+      ]
+    },
+    {
+      "name": "Espressioni idiomatiche",
+      "words": [
+        { "de": "Es liegt mir auf der Zunge.", "it": "Ce l'ho sulla punta della lingua.", "emoji": "👅", "example_de": "Wie heißt er noch mal? Es liegt mir auf der Zunge!", "example_it": "Come si chiama? Ce l'ho sulla punta della lingua!" },
+        { "de": "Das ist nicht mein Bier.", "it": "Non sono affari miei.", "emoji": "🍺", "example_de": "Was die Nachbarn machen, ist nicht mein Bier.", "example_it": "Quello che fanno i vicini non sono affari miei." },
+        { "de": "Tomaten auf den Augen haben", "it": "non vedere l'ovvio", "emoji": "🍅", "example_de": "Das Schild steht direkt vor dir! Hast du Tomaten auf den Augen?", "example_it": "Il cartello e proprio davanti a te! Sei cieco?" },
+        { "de": "die Kirche im Dorf lassen", "it": "non esagerare, mantenere le proporzioni", "emoji": "⛪", "example_de": "Es war nur ein kleiner Fehler — lass mal die Kirche im Dorf!", "example_it": "Era solo un piccolo errore — non esageriamo!" },
+        { "de": "aus einer Mücke einen Elefanten machen", "it": "fare di una mosca un elefante", "emoji": "🐘", "example_de": "Du machst aus einer Mücke einen Elefanten. So schlimm war es nicht.", "example_it": "Stai facendo di una mosca un elefante. Non era cosi grave." },
+        { "de": "jemandem Honig ums Maul schmieren", "it": "adulare qualcuno", "emoji": "🍯", "example_de": "Er schmiert dem Chef ständig Honig ums Maul, um befördert zu werden.", "example_it": "Adula continuamente il capo per ottenere una promozione." },
+        { "de": "Öl ins Feuer gießen", "it": "gettare benzina sul fuoco", "emoji": "🔥", "example_de": "Mit deinem Kommentar hast du nur Öl ins Feuer gegossen.", "example_it": "Con il tuo commento hai solo gettato benzina sul fuoco." }
+      ]
+    }
+  ]
+}

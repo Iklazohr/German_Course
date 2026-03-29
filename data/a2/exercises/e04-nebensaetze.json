@@ -1,0 +1,107 @@
+{
+  "id": "a2-e04",
+  "level": "a2",
+  "type": "exercise",
+  "title": "Esercizi: Frasi complesse",
+  "questions": [
+    {
+      "type": "reorder",
+      "words": ["ich", "weil", "müde", "bin", "gehe", "ins Bett", "ich"],
+      "correct": "Ich gehe ins Bett, weil ich müde bin."
+    },
+    {
+      "type": "reorder",
+      "words": ["regnet", "wenn", "bleibe", "es", "ich", "zu Hause"],
+      "correct": "Wenn es regnet, bleibe ich zu Hause."
+    },
+    {
+      "type": "reorder",
+      "words": ["dass", "glaube", "er", "ich", "kommt", "morgen"],
+      "correct": "Ich glaube, dass er morgen kommt."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "blanks": ["weil"],
+      "explanation": "'Weil' (perché) introduce una frase causale subordinata. Il verbo coniugato 'möchte' va alla fine della frase secondaria."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er fragt, ___ du morgen Zeit hast.",
+      "blanks": ["ob"],
+      "explanation": "'Ob' (se) si usa per le domande indirette sì/no. 'Er fragt, ob...' = 'Chiede se...'. Il verbo 'hast' va alla fine."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ich weiß, ___ sie sehr klug ist.",
+      "blanks": ["dass"],
+      "explanation": "'Dass' (che) introduce una frase dichiarativa subordinata. 'Ich weiß, dass...' = 'So che...'. Il verbo 'ist' va alla fine."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ ich ein Kind war, habe ich in Rom gewohnt.",
+      "blanks": ["Als"],
+      "explanation": "'Als' (quando) si usa per eventi unici o periodi nel passato. 'Als ich ein Kind war' = 'Quando ero bambino'. Non confondere con 'wenn' (per il presente o eventi ripetuti)."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ du Hunger hast, können wir etwas essen.",
+      "blanks": ["Wenn"],
+      "explanation": "'Wenn' (se/quando) si usa per condizioni e situazioni presenti o ripetute. 'Wenn du Hunger hast' = 'Se hai fame'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dove va il verbo coniugato nella frase secondaria introdotta da 'weil'?",
+      "options": [
+        "In seconda posizione, come sempre",
+        "All'inizio della frase",
+        "Alla fine della frase secondaria",
+        "Subito dopo 'weil'"
+      ],
+      "correct": 2,
+      "explanation": "Nelle frasi subordinate (con weil, dass, wenn, ob, als...) il verbo coniugato va sempre alla fine della frase secondaria. Questa è una regola fondamentale del tedesco."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale congiunzione si usa per un evento unico nel passato?",
+      "options": ["wenn", "als", "weil", "dass"],
+      "correct": 1,
+      "explanation": "'Als' si usa per eventi o periodi unici nel passato (es. 'Als ich 10 war...'). 'Wenn' si usa per eventi ripetuti nel passato, per il presente e per il futuro."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase è grammaticalmente corretta?",
+      "options": [
+        "Weil ich bin krank, bleibe ich zu Hause.",
+        "Weil ich krank bin, bleibe ich zu Hause.",
+        "Weil ich krank bin, ich bleibe zu Hause.",
+        "Ich bleibe zu Hause, weil ich krank bin nicht."
+      ],
+      "correct": 1,
+      "explanation": "Nella subordinata con 'weil', il verbo 'bin' va alla fine. Quando la subordinata viene prima, la principale inizia con il verbo (inversione): '...bin, bleibe ich...'."
+    },
+    {
+      "type": "translation",
+      "sentence": "So che lui parla tedesco molto bene.",
+      "answer": "Ich weiß, dass er sehr gut Deutsch spricht.",
+      "hint": "dass + verbo alla fine della secondaria"
+    },
+    {
+      "type": "translation",
+      "sentence": "Quando piove, resto a casa.",
+      "answer": "Wenn es regnet, bleibe ich zu Hause.",
+      "hint": "wenn + verbo alla fine; nella principale dopo la virgola: verbo-soggetto"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        {"left": "weil", "right": "perché (causale)"},
+        {"left": "dass", "right": "che (dichiarativa)"},
+        {"left": "wenn", "right": "se / quando (presente)"},
+        {"left": "ob", "right": "se (domanda indiretta)"},
+        {"left": "als", "right": "quando (passato unico)"},
+        {"left": "obwohl", "right": "sebbene / nonostante"}
+      ]
+    }
+  ]
+}

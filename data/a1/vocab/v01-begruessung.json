@@ -8,43 +8,43 @@
     {
       "name": "Saluti formali",
       "words": [
-        { "de": "Guten Morgen", "it": "Buongiorno (mattina)", "example_de": "Guten Morgen, Herr Müller!", "example_it": "Buongiorno, signor Müller!" },
-        { "de": "Guten Tag", "it": "Buongiorno", "example_de": "Guten Tag! Wie geht es Ihnen?", "example_it": "Buongiorno! Come sta?" },
-        { "de": "Guten Abend", "it": "Buonasera", "example_de": "Guten Abend, Frau Schmidt.", "example_it": "Buonasera, signora Schmidt." },
-        { "de": "Auf Wiedersehen", "it": "Arrivederci", "example_de": "Auf Wiedersehen und danke!", "example_it": "Arrivederci e grazie!" },
-        { "de": "Gute Nacht", "it": "Buonanotte", "example_de": "Gute Nacht! Schlaf gut!", "example_it": "Buonanotte! Dormi bene!" }
+        { "de": "Guten Morgen", "it": "Buongiorno (mattina)", "emoji": "🌅", "example_de": "Guten Morgen, Herr Müller!", "example_it": "Buongiorno, signor Müller!" },
+        { "de": "Guten Tag", "it": "Buongiorno", "emoji": "☀️", "example_de": "Guten Tag! Wie geht es Ihnen?", "example_it": "Buongiorno! Come sta?" },
+        { "de": "Guten Abend", "it": "Buonasera", "emoji": "🌆", "example_de": "Guten Abend, Frau Schmidt.", "example_it": "Buonasera, signora Schmidt." },
+        { "de": "Auf Wiedersehen", "it": "Arrivederci", "emoji": "👋", "example_de": "Auf Wiedersehen und danke!", "example_it": "Arrivederci e grazie!" },
+        { "de": "Gute Nacht", "it": "Buonanotte", "emoji": "🌙", "example_de": "Gute Nacht! Schlaf gut!", "example_it": "Buonanotte! Dormi bene!" }
       ]
     },
     {
       "name": "Saluti informali",
       "words": [
-        { "de": "Hallo", "it": "Ciao", "example_de": "Hallo! Wie geht's?", "example_it": "Ciao! Come stai?" },
-        { "de": "Hi", "it": "Ciao (molto informale)", "example_de": "Hi! Was machst du?", "example_it": "Ciao! Cosa fai?" },
-        { "de": "Tschüss", "it": "Ciao (congedo)", "example_de": "Tschüss! Bis morgen!", "example_it": "Ciao! A domani!" },
-        { "de": "Bis bald", "it": "A presto", "example_de": "Tschüss, bis bald!", "example_it": "Ciao, a presto!" },
-        { "de": "Bis morgen", "it": "A domani", "example_de": "Bis morgen in der Schule!", "example_it": "A domani a scuola!" }
+        { "de": "Hallo", "it": "Ciao", "emoji": "👋", "example_de": "Hallo! Wie geht's?", "example_it": "Ciao! Come stai?" },
+        { "de": "Hi", "it": "Ciao (molto informale)", "emoji": "✌️", "example_de": "Hi! Was machst du?", "example_it": "Ciao! Cosa fai?" },
+        { "de": "Tschüss", "it": "Ciao (congedo)", "emoji": "🫡", "example_de": "Tschüss! Bis morgen!", "example_it": "Ciao! A domani!" },
+        { "de": "Bis bald", "it": "A presto", "emoji": "🔜", "example_de": "Tschüss, bis bald!", "example_it": "Ciao, a presto!" },
+        { "de": "Bis morgen", "it": "A domani", "emoji": "🌅", "example_de": "Bis morgen in der Schule!", "example_it": "A domani a scuola!" }
       ]
     },
     {
       "name": "Presentarsi",
       "words": [
-        { "de": "Ich heiße...", "it": "Mi chiamo...", "example_de": "Ich heiße Anna.", "example_it": "Mi chiamo Anna." },
-        { "de": "Wie heißen Sie?", "it": "Come si chiama? (formale)", "example_de": "Guten Tag, wie heißen Sie?", "example_it": "Buongiorno, come si chiama?" },
-        { "de": "Wie heißt du?", "it": "Come ti chiami?", "example_de": "Hallo! Wie heißt du?", "example_it": "Ciao! Come ti chiami?" },
-        { "de": "Freut mich!", "it": "Piacere!", "example_de": "Ich bin Marco. Freut mich!", "example_it": "Sono Marco. Piacere!" },
-        { "de": "Woher kommen Sie?", "it": "Da dove viene?", "example_de": "Woher kommen Sie? Aus Italien?", "example_it": "Da dove viene? Dall'Italia?" },
-        { "de": "Ich komme aus...", "it": "Vengo da...", "example_de": "Ich komme aus Rom.", "example_it": "Vengo da Roma." }
+        { "de": "Ich heiße...", "it": "Mi chiamo...", "emoji": "🏷️", "example_de": "Ich heiße Anna.", "example_it": "Mi chiamo Anna." },
+        { "de": "Wie heißen Sie?", "it": "Come si chiama? (formale)", "emoji": "❓", "example_de": "Guten Tag, wie heißen Sie?", "example_it": "Buongiorno, come si chiama?" },
+        { "de": "Wie heißt du?", "it": "Come ti chiami?", "emoji": "🙋", "example_de": "Hallo! Wie heißt du?", "example_it": "Ciao! Come ti chiami?" },
+        { "de": "Freut mich!", "it": "Piacere!", "emoji": "🤝", "example_de": "Ich bin Marco. Freut mich!", "example_it": "Sono Marco. Piacere!" },
+        { "de": "Woher kommen Sie?", "it": "Da dove viene?", "emoji": "🌍", "example_de": "Woher kommen Sie? Aus Italien?", "example_it": "Da dove viene? Dall'Italia?" },
+        { "de": "Ich komme aus...", "it": "Vengo da...", "emoji": "📍", "example_de": "Ich komme aus Rom.", "example_it": "Vengo da Roma." }
       ]
     },
     {
       "name": "Come stai?",
       "words": [
-        { "de": "Wie geht es Ihnen?", "it": "Come sta? (formale)", "example_de": "Guten Tag! Wie geht es Ihnen?", "example_it": "Buongiorno! Come sta?" },
-        { "de": "Wie geht's?", "it": "Come stai? (informale)", "example_de": "Hey, wie geht's?", "example_it": "Ehi, come stai?" },
-        { "de": "Gut, danke!", "it": "Bene, grazie!", "example_de": "Mir geht's gut, danke!", "example_it": "Sto bene, grazie!" },
-        { "de": "Nicht so gut", "it": "Non tanto bene", "example_de": "Mir geht's nicht so gut.", "example_it": "Non sto tanto bene." },
-        { "de": "Danke", "it": "Grazie", "example_de": "Danke schön!", "example_it": "Grazie mille!" },
-        { "de": "Bitte", "it": "Prego / Per favore", "example_de": "Ein Kaffee, bitte.", "example_it": "Un caffè, per favore." }
+        { "de": "Wie geht es Ihnen?", "it": "Come sta? (formale)", "emoji": "🎩", "example_de": "Guten Tag! Wie geht es Ihnen?", "example_it": "Buongiorno! Come sta?" },
+        { "de": "Wie geht's?", "it": "Come stai? (informale)", "emoji": "😊", "example_de": "Hey, wie geht's?", "example_it": "Ehi, come stai?" },
+        { "de": "Gut, danke!", "it": "Bene, grazie!", "emoji": "👍", "example_de": "Mir geht's gut, danke!", "example_it": "Sto bene, grazie!" },
+        { "de": "Nicht so gut", "it": "Non tanto bene", "emoji": "😕", "example_de": "Mir geht's nicht so gut.", "example_it": "Non sto tanto bene." },
+        { "de": "Danke", "it": "Grazie", "emoji": "🙏", "example_de": "Danke schön!", "example_it": "Grazie mille!" },
+        { "de": "Bitte", "it": "Prego / Per favore", "emoji": "🤲", "example_de": "Ein Kaffee, bitte.", "example_it": "Un caffè, per favore." }
       ]
     }
   ]

@@ -1,0 +1,56 @@
+{
+  "id": "b2-v01",
+  "level": "b2",
+  "type": "vocab",
+  "title": "Media e tecnologia",
+  "subtitle": "Medien und Technik",
+  "groups": [
+    {
+      "name": "Media",
+      "words": [
+        { "de": "die Nachricht, -en", "it": "la notizia", "emoji": "📰", "example_de": "Hast du die Nachrichten heute gesehen?", "example_it": "Hai visto le notizie oggi?" },
+        { "de": "die Zeitung, -en", "it": "il giornale", "emoji": "🗞️", "example_de": "Ich lese jeden Morgen die Zeitung.", "example_it": "Leggo il giornale ogni mattina." },
+        { "de": "die Zeitschrift, -en", "it": "la rivista", "emoji": "📖", "example_de": "Diese Zeitschrift erscheint monatlich.", "example_it": "Questa rivista esce mensilmente." },
+        { "de": "der Bericht, -e", "it": "il rapporto / il servizio", "emoji": "📋", "example_de": "Der Bericht über die Wirtschaftslage war sehr informativ.", "example_it": "Il servizio sulla situazione economica era molto informativo." },
+        { "de": "die Schlagzeile, -n", "it": "il titolo (di giornale)", "emoji": "📰", "example_de": "Die Schlagzeile hat alle überrascht.", "example_it": "Il titolo ha sorpreso tutti." },
+        { "de": "die Meldung, -en", "it": "la comunicazione / la notizia breve", "emoji": "📢", "example_de": "Eine aktuelle Meldung aus dem Ausland.", "example_it": "Una notizia attuale dall'estero." },
+        { "de": "die Quelle, -n", "it": "la fonte", "emoji": "🔍", "example_de": "Man sollte immer die Quelle überprüfen.", "example_it": "Si dovrebbe sempre verificare la fonte." },
+        { "de": "die Meinungsfreiheit", "it": "la libertà di opinione", "emoji": "🗽", "example_de": "Die Meinungsfreiheit ist ein Grundrecht.", "example_it": "La libertà di opinione è un diritto fondamentale." },
+        { "de": "die Zensur", "it": "la censura", "emoji": "🚫", "example_de": "In manchen Ländern gibt es strenge Zensur.", "example_it": "In alcuni paesi c'è una censura severa." },
+        { "de": "die Pressekonferenz, -en", "it": "la conferenza stampa", "emoji": "🎤", "example_de": "Der Minister gab eine Pressekonferenz.", "example_it": "Il ministro ha tenuto una conferenza stampa." },
+        { "de": "die Fake News (Pl.)", "it": "le notizie false", "emoji": "⚠️", "example_de": "Fake News verbreiten sich schnell im Internet.", "example_it": "Le notizie false si diffondono rapidamente su internet." },
+        { "de": "der Journalist, -en / die Journalistin, -nen", "it": "il/la giornalista", "emoji": "👨‍💻", "example_de": "Die Journalistin hat einen preisgekrönten Artikel geschrieben.", "example_it": "La giornalista ha scritto un articolo premiato." }
+      ]
+    },
+    {
+      "name": "Tecnologia",
+      "words": [
+        { "de": "die künstliche Intelligenz (KI)", "it": "l'intelligenza artificiale (IA)", "emoji": "🤖", "example_de": "Künstliche Intelligenz verändert unsere Arbeitswelt.", "example_it": "L'intelligenza artificiale sta cambiando il nostro mondo del lavoro." },
+        { "de": "das Smartphone, -s", "it": "lo smartphone", "emoji": "📱", "example_de": "Fast jeder besitzt heutzutage ein Smartphone.", "example_it": "Quasi tutti oggigiorno possiedono uno smartphone." },
+        { "de": "die App, -s", "it": "l'applicazione / la app", "emoji": "📲", "example_de": "Diese App hilft beim Deutschlernen.", "example_it": "Questa app aiuta a imparare il tedesco." },
+        { "de": "die Daten (Pl.)", "it": "i dati", "emoji": "💾", "example_de": "Persönliche Daten muss man schützen.", "example_it": "I dati personali vanno protetti." },
+        { "de": "der Algorithmus, die Algorithmen", "it": "l'algoritmo", "emoji": "🧮", "example_de": "Der Algorithmus bestimmt, welche Inhalte du siehst.", "example_it": "L'algoritmo determina quali contenuti vedi." },
+        { "de": "die Cloud, -s", "it": "il cloud", "emoji": "☁️", "example_de": "Ich speichere meine Fotos in der Cloud.", "example_it": "Salvo le mie foto nel cloud." },
+        { "de": "das Passwort, -wörter", "it": "la password", "emoji": "🔒", "example_de": "Verwende ein sicheres Passwort!", "example_it": "Usa una password sicura!" },
+        { "de": "der Datenschutz", "it": "la protezione dei dati / la privacy", "emoji": "🛡️", "example_de": "In Deutschland ist der Datenschutz sehr wichtig.", "example_it": "In Germania la protezione dei dati è molto importante." },
+        { "de": "die Software", "it": "il software", "emoji": "💻", "example_de": "Die Software muss regelmäßig aktualisiert werden.", "example_it": "Il software deve essere aggiornato regolarmente." },
+        { "de": "das Update, -s", "it": "l'aggiornamento", "emoji": "🔄", "example_de": "Es gibt ein neues Update für dein Handy.", "example_it": "C'è un nuovo aggiornamento per il tuo cellulare." },
+        { "de": "herunterladen (lädt herunter, lud herunter, hat heruntergeladen)", "it": "scaricare", "emoji": "⬇️", "example_de": "Ich habe die Datei heruntergeladen.", "example_it": "Ho scaricato il file." },
+        { "de": "hochladen (lädt hoch, lud hoch, hat hochgeladen)", "it": "caricare (online)", "emoji": "⬆️", "example_de": "Sie hat das Video auf YouTube hochgeladen.", "example_it": "Ha caricato il video su YouTube." }
+      ]
+    },
+    {
+      "name": "Social Media",
+      "words": [
+        { "de": "das soziale Netzwerk, -e", "it": "il social network", "emoji": "🌐", "example_de": "Soziale Netzwerke beeinflussen die öffentliche Meinung.", "example_it": "I social network influenzano l'opinione pubblica." },
+        { "de": "der Follower, -", "it": "il follower / il seguace", "emoji": "👥", "example_de": "Sie hat über eine Million Follower.", "example_it": "Ha più di un milione di follower." },
+        { "de": "teilen", "it": "condividere", "emoji": "🔗", "example_de": "Er hat den Artikel auf Facebook geteilt.", "example_it": "Ha condiviso l'articolo su Facebook." },
+        { "de": "liken", "it": "mettere like / mettere mi piace", "emoji": "👍", "example_de": "Über 500 Leute haben meinen Beitrag geliked.", "example_it": "Più di 500 persone hanno messo like al mio post." },
+        { "de": "der Kommentar, -e", "it": "il commento", "emoji": "💬", "example_de": "Die Kommentare unter dem Video waren sehr kritisch.", "example_it": "I commenti sotto il video erano molto critici." },
+        { "de": "der Influencer, - / die Influencerin, -nen", "it": "l'influencer", "emoji": "📸", "example_de": "Viele Influencer verdienen Geld mit Werbung.", "example_it": "Molti influencer guadagnano con la pubblicità." },
+        { "de": "viral gehen", "it": "diventare virale", "emoji": "🚀", "example_de": "Das Video ist innerhalb weniger Stunden viral gegangen.", "example_it": "Il video è diventato virale nel giro di poche ore." },
+        { "de": "der Hashtag, -s", "it": "l'hashtag", "emoji": "#️⃣", "example_de": "Welchen Hashtag soll ich verwenden?", "example_it": "Quale hashtag dovrei usare?" }
+      ]
+    }
+  ]
+}

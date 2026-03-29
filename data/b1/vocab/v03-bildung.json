@@ -1,0 +1,37 @@
+{
+  "id": "b1-v03",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Istruzione e formazione",
+  "subtitle": "Bildung und Ausbildung",
+  "groups": [
+    {
+      "name": "Istruzione",
+      "words": [
+        { "de": "die Schule", "it": "la scuola", "emoji": "🏫", "example_de": "Meine Kinder gehen in die Schule.", "example_it": "I miei figli vanno a scuola." },
+        { "de": "die Universität", "it": "l'università", "emoji": "🎓", "example_de": "Sie studiert an der Universität München.", "example_it": "Studia all'università di Monaco." },
+        { "de": "das Studium", "it": "gli studi universitari", "emoji": "📚", "example_de": "Mein Studium dauert sechs Semester.", "example_it": "I miei studi durano sei semestri." },
+        { "de": "der Abschluss", "it": "il diploma / la laurea", "emoji": "🎓", "example_de": "Nach dem Abschluss suche ich eine Arbeit.", "example_it": "Dopo la laurea cerco un lavoro." },
+        { "de": "die Prüfung", "it": "l'esame", "emoji": "📝", "example_de": "Nächste Woche habe ich eine schwere Prüfung.", "example_it": "La prossima settimana ho un esame difficile." },
+        { "de": "das Zeugnis", "it": "la pagella / il certificato", "emoji": "📜", "example_de": "Er hat ein sehr gutes Zeugnis bekommen.", "example_it": "Ha ricevuto una pagella molto buona." },
+        { "de": "das Stipendium", "it": "la borsa di studio", "emoji": "🎯", "example_de": "Sie hat ein Stipendium für ein Auslandssemester bekommen.", "example_it": "Ha ottenuto una borsa di studio per un semestre all'estero." },
+        { "de": "die Vorlesung", "it": "la lezione universitaria", "emoji": "🎤", "example_de": "Die Vorlesung beginnt um 9 Uhr.", "example_it": "La lezione universitaria inizia alle 9." },
+        { "de": "das Seminar", "it": "il seminario", "emoji": "👥", "example_de": "Im Seminar diskutieren wir aktuelle Themen.", "example_it": "Nel seminario discutiamo temi attuali." },
+        { "de": "die Bibliothek", "it": "la biblioteca", "emoji": "📚", "example_de": "Ich lerne am liebsten in der Bibliothek.", "example_it": "Preferisco studiare in biblioteca." },
+        { "de": "die Forschung", "it": "la ricerca", "emoji": "🔬", "example_de": "Die Forschung in diesem Bereich macht Fortschritte.", "example_it": "La ricerca in questo campo fa progressi." },
+        { "de": "die Note", "it": "il voto", "emoji": "📊", "example_de": "Ich habe eine gute Note in Mathematik.", "example_it": "Ho un buon voto in matematica." }
+      ]
+    },
+    {
+      "name": "Verbi",
+      "words": [
+        { "de": "studieren", "it": "studiare (all'università)", "emoji": "📖", "example_de": "Er studiert Medizin in Heidelberg.", "example_it": "Studia medicina a Heidelberg." },
+        { "de": "lernen", "it": "studiare / imparare", "emoji": "✏️", "example_de": "Ich lerne jeden Tag zwei Stunden Deutsch.", "example_it": "Studio tedesco due ore al giorno." },
+        { "de": "bestehen", "it": "superare (un esame)", "emoji": "✅", "example_de": "Sie hat die Prüfung mit einer Eins bestanden.", "example_it": "Ha superato l'esame con il massimo dei voti." },
+        { "de": "durchfallen", "it": "essere bocciato", "emoji": "❌", "example_de": "Leider ist er bei der Prüfung durchgefallen.", "example_it": "Purtroppo è stato bocciato all'esame." },
+        { "de": "sich einschreiben", "it": "iscriversi", "emoji": "📝", "example_de": "Ich habe mich an der Universität eingeschrieben.", "example_it": "Mi sono iscritto all'università." },
+        { "de": "promovieren", "it": "fare il dottorato", "emoji": "🎓", "example_de": "Sie promoviert in Physik.", "example_it": "Sta facendo il dottorato in fisica." }
+      ]
+    }
+  ]
+}

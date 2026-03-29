@@ -1,0 +1,78 @@
+{
+  "id": "b1-r03",
+  "level": "b1",
+  "title": "Test finale B1: Tutte le unità",
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "sentence": "Das Buch ___ von vielen Menschen gelesen.",
+      "blanks": [{ "position": 0, "correct": ["wird"], "hint": "Passivo presente: werden + Partizip II" }],
+      "translation": "Il libro viene letto da molte persone."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Completa: 'Die Stadt, in ___ ich wohne, ist sehr schön.'",
+      "options": ["die", "der", "dem", "den"],
+      "correct": 1,
+      "explanation": "'Die Stadt' è femminile. 'In' + dativo (luogo statico) → dativo femminile = 'der'. La frase relativa: 'in der ich wohne'."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Studio tedesco per lavorare in Germania.",
+      "acceptable": ["Ich lerne Deutsch, um in Deutschland zu arbeiten."],
+      "hint": "um...zu + infinito per esprimere lo scopo"
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "___ des Regens sind wir zu Hause geblieben.",
+      "blanks": [{ "position": 0, "correct": ["Wegen"], "hint": "Preposizione genitiva: 'a causa di'" }],
+      "translation": "A causa della pioggia siamo rimasti a casa."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega le emozioni tedesche alla traduzione italiana.",
+      "pairs": [
+        { "left": "begeistert", "right": "entusiasta" },
+        { "left": "enttäuscht", "right": "deluso" },
+        { "left": "eifersüchtig", "right": "geloso" },
+        { "left": "erleichtert", "right": "sollevato" },
+        { "left": "gestresst", "right": "stressato" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa correttamente il Zustandspassiv?",
+      "options": ["Das Fenster wird geöffnet.", "Das Fenster ist geöffnet.", "Das Fenster hat geöffnet.", "Das Fenster ist geöffnet worden."],
+      "correct": 1,
+      "explanation": "'Das Fenster ist geöffnet' = Zustandspassiv (la finestra è aperta — stato risultante). 'wird geöffnet' = Vorgangspassiv (azione). 'ist geöffnet worden' = Perfekt del passivo."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Er hat beschlossen, nach Berlin ___.",
+      "blanks": [{ "position": 0, "correct": ["umzuziehen"], "hint": "Verbo separabile 'umziehen' con zu" }],
+      "translation": "Ha deciso di trasferirsi a Berlino."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "Nonostante il brutto tempo, siamo andati a passeggio.",
+      "acceptable": ["Trotz des schlechten Wetters sind wir spazieren gegangen.", "Trotz des schlechten Wetters haben wir einen Spaziergang gemacht."],
+      "hint": "trotz + genitivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cosa significa 'die Nachhaltigkeit'?",
+      "options": ["la deforestazione", "l'inquinamento", "la sostenibilità", "il riciclaggio"],
+      "correct": 2,
+      "explanation": "'Die Nachhaltigkeit' = la sostenibilità. Da 'nachhaltig' (sostenibile, duraturo)."
+    },
+    {
+      "type": "reorder",
+      "instruction": "Metti le parole nell'ordine corretto per una frase condizionale:",
+      "words": ["Wenn", "ich", "Zeit", "hätte", ",", "würde", "ich", "mehr", "Sport", "machen", "."],
+      "correct": "Wenn ich Zeit hätte , würde ich mehr Sport machen .",
+      "translation": "Se avessi tempo, farei più sport."
+    }
+  ]
+}

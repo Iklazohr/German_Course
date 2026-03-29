@@ -1,0 +1,58 @@
+{
+  "id": "c1-v01",
+  "level": "c1",
+  "type": "vocab",
+  "title": "Scienza e mondo accademico",
+  "subtitle": "Wissenschaft und Akademie",
+  "groups": [
+    {
+      "name": "Ricerca scientifica",
+      "words": [
+        { "de": "die Forschung", "it": "la ricerca", "emoji": "🔬", "example_de": "Die Forschung auf diesem Gebiet hat in den letzten Jahren enorme Fortschritte gemacht.", "example_it": "La ricerca in questo campo ha fatto enormi progressi negli ultimi anni." },
+        { "de": "die Studie", "it": "lo studio (ricerca)", "emoji": "📊", "example_de": "Eine aktuelle Studie belegt den Zusammenhang zwischen Schlafmangel und Stress.", "example_it": "Uno studio recente dimostra il nesso tra mancanza di sonno e stress." },
+        { "de": "die Hypothese", "it": "l'ipotesi", "emoji": "💡", "example_de": "Die Hypothese konnte durch die Experimente bestätigt werden.", "example_it": "L'ipotesi e stata confermata dagli esperimenti." },
+        { "de": "das Experiment", "it": "l'esperimento", "emoji": "🧪", "example_de": "Das Experiment wurde unter kontrollierten Bedingungen durchgeführt.", "example_it": "L'esperimento e stato condotto in condizioni controllate." },
+        { "de": "die Methode", "it": "il metodo", "emoji": "📐", "example_de": "Die angewandte Methode ist in der Fachwelt umstritten.", "example_it": "Il metodo applicato e controverso nel mondo accademico." },
+        { "de": "das Ergebnis", "it": "il risultato", "emoji": "📈", "example_de": "Die Ergebnisse der Studie sind vielversprechend.", "example_it": "I risultati dello studio sono promettenti." },
+        { "de": "die Analyse", "it": "l'analisi", "emoji": "🔍", "example_de": "Eine gründliche Analyse der Daten ist unerlässlich.", "example_it": "Un'analisi approfondita dei dati e indispensabile." },
+        { "de": "der Beweis", "it": "la prova, la dimostrazione", "emoji": "✅", "example_de": "Es gibt keinen wissenschaftlichen Beweis für diese Behauptung.", "example_it": "Non esiste alcuna prova scientifica per questa affermazione." },
+        { "de": "die Theorie", "it": "la teoria", "emoji": "📖", "example_de": "Diese Theorie wurde bereits im 19. Jahrhundert entwickelt.", "example_it": "Questa teoria e stata sviluppata gia nel XIX secolo." },
+        { "de": "die Statistik", "it": "la statistica", "emoji": "📊", "example_de": "Laut Statistik steigt die Lebenserwartung stetig.", "example_it": "Secondo le statistiche, l'aspettativa di vita aumenta costantemente." },
+        { "de": "der Durchbruch", "it": "la svolta, la scoperta decisiva", "emoji": "🎯", "example_de": "Der Durchbruch in der Krebsforschung gelang erst vor Kurzem.", "example_it": "La svolta nella ricerca sul cancro e avvenuta solo di recente." },
+        { "de": "die Peer-Review", "it": "la revisione tra pari", "emoji": "📝", "example_de": "Der Artikel hat ein strenges Peer-Review-Verfahren durchlaufen.", "example_it": "L'articolo ha superato un rigoroso processo di revisione tra pari." }
+      ]
+    },
+    {
+      "name": "Verbi accademici",
+      "words": [
+        { "de": "untersuchen", "it": "esaminare, indagare", "emoji": "🔬", "example_de": "Wir untersuchen den Einfluss sozialer Medien auf das Lernverhalten.", "example_it": "Esaminiamo l'influenza dei social media sul comportamento di apprendimento." },
+        { "de": "nachweisen", "it": "dimostrare, provare", "emoji": "✅", "example_de": "Die Forscher konnten einen kausalen Zusammenhang nachweisen.", "example_it": "I ricercatori hanno potuto dimostrare un nesso causale." },
+        { "de": "widerlegen", "it": "confutare", "emoji": "❌", "example_de": "Die neue Studie widerlegt die bisherige Annahme.", "example_it": "Il nuovo studio confuta l'ipotesi precedente." },
+        { "de": "bestätigen", "it": "confermare", "emoji": "✅", "example_de": "Die Ergebnisse bestätigen unsere Ausgangshypothese.", "example_it": "I risultati confermano la nostra ipotesi iniziale." },
+        { "de": "veröffentlichen", "it": "pubblicare", "emoji": "📢", "example_de": "Der Artikel wurde in einer renommierten Fachzeitschrift veröffentlicht.", "example_it": "L'articolo e stato pubblicato in una rivista specializzata rinomata." },
+        { "de": "zitieren", "it": "citare", "emoji": "📎", "example_de": "In wissenschaftlichen Texten muss man alle Quellen korrekt zitieren.", "example_it": "Nei testi scientifici bisogna citare correttamente tutte le fonti." },
+        { "de": "zusammenfassen", "it": "riassumere", "emoji": "📋", "example_de": "Lassen Sie mich die wichtigsten Punkte zusammenfassen.", "example_it": "Mi permetta di riassumere i punti piu importanti." },
+        { "de": "analysieren", "it": "analizzare", "emoji": "🔍", "example_de": "Die Daten wurden mit verschiedenen statistischen Verfahren analysiert.", "example_it": "I dati sono stati analizzati con diversi metodi statistici." },
+        { "de": "auswerten", "it": "valutare, elaborare (dati)", "emoji": "📊", "example_de": "Die Fragebögen werden anonym ausgewertet.", "example_it": "I questionari vengono elaborati in forma anonima." },
+        { "de": "argumentieren", "it": "argomentare", "emoji": "💬", "example_de": "Der Autor argumentiert überzeugend für eine Reform des Systems.", "example_it": "L'autore argomenta in modo convincente a favore di una riforma del sistema." },
+        { "de": "hinterfragen", "it": "mettere in discussione", "emoji": "❓", "example_de": "Man sollte die Ergebnisse kritisch hinterfragen.", "example_it": "Si dovrebbero mettere criticamente in discussione i risultati." },
+        { "de": "diskutieren", "it": "discutere", "emoji": "🗣️", "example_de": "Dieses Thema wird seit Jahren kontrovers diskutiert.", "example_it": "Questo tema viene discusso in modo controverso da anni." }
+      ]
+    },
+    {
+      "name": "Testo accademico",
+      "words": [
+        { "de": "die Einleitung", "it": "l'introduzione", "emoji": "📖", "example_de": "In der Einleitung wird die Fragestellung der Arbeit vorgestellt.", "example_it": "Nell'introduzione viene presentata la domanda di ricerca del lavoro." },
+        { "de": "die These", "it": "la tesi", "emoji": "💡", "example_de": "Die zentrale These des Autors ist umstritten.", "example_it": "La tesi centrale dell'autore e controversa." },
+        { "de": "das Argument", "it": "l'argomento (di un ragionamento)", "emoji": "💬", "example_de": "Seine Argumente sind gut belegt.", "example_it": "I suoi argomenti sono ben documentati." },
+        { "de": "der Schluss", "it": "la conclusione", "emoji": "🔚", "example_de": "Im Schluss werden die Ergebnisse zusammengefasst und bewertet.", "example_it": "Nella conclusione i risultati vengono riassunti e valutati." },
+        { "de": "die Quelle", "it": "la fonte", "emoji": "📚", "example_de": "Die Quelle muss zuverlässig und aktuell sein.", "example_it": "La fonte deve essere affidabile e attuale." },
+        { "de": "die Fußnote", "it": "la nota a pie di pagina", "emoji": "📝", "example_de": "Weitere Erläuterungen finden sich in den Fußnoten.", "example_it": "Ulteriori spiegazioni si trovano nelle note a pie di pagina." },
+        { "de": "das Zitat", "it": "la citazione", "emoji": "💬", "example_de": "Direkte Zitate müssen in Anführungszeichen stehen.", "example_it": "Le citazioni dirette devono essere tra virgolette." },
+        { "de": "das Fazit", "it": "il bilancio, le conclusioni", "emoji": "✅", "example_de": "Das Fazit der Studie fällt positiv aus.", "example_it": "Il bilancio dello studio e positivo." },
+        { "de": "der Überblick", "it": "la panoramica", "emoji": "🗺️", "example_de": "Der Artikel bietet einen guten Überblick über den aktuellen Forschungsstand.", "example_it": "L'articolo offre una buona panoramica sullo stato attuale della ricerca." },
+        { "de": "die Zusammenfassung", "it": "il riassunto", "emoji": "📋", "example_de": "Bitte lesen Sie zuerst die Zusammenfassung am Ende des Artikels.", "example_it": "Per favore, leggete prima il riassunto alla fine dell'articolo." }
+      ]
+    }
+  ]
+}

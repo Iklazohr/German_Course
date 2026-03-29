@@ -139,6 +139,7 @@ function renderVocabLesson(data, lessonId, levelId, nextLessonId, nextLessonType
             <div class="vocab-grid">
                 ${group.words.map((word, i) => `
                     <div class="vocab-card" data-idx="${i}">
+                        ${word.emoji ? `<div class="vocab-emoji">${word.emoji}</div>` : ''}
                         <div style="flex:1">
                             <div class="vocab-de">${word.de}</div>
                             <div class="vocab-it">${word.it}</div>

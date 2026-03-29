@@ -1,0 +1,192 @@
+{
+  "id": "a2-v01",
+  "level": "a2",
+  "type": "vocab",
+  "title": "Viaggi e trasporti",
+  "subtitle": "Reisen und Verkehr",
+  "groups": [
+    {
+      "name": "Mezzi di trasporto",
+      "words": [
+        {
+          "de": "der Zug",
+          "it": "il treno",
+          "emoji": "🚂",
+          "example_de": "Der Zug nach Berlin fährt um 10 Uhr ab.",
+          "example_it": "Il treno per Berlino parte alle 10."
+        },
+        {
+          "de": "das Flugzeug",
+          "it": "l'aereo",
+          "emoji": "✈️",
+          "example_de": "Wir fliegen mit dem Flugzeug nach Spanien.",
+          "example_it": "Voliamo in Spagna con l'aereo."
+        },
+        {
+          "de": "der Bus",
+          "it": "l'autobus",
+          "emoji": "🚌",
+          "example_de": "Der Bus kommt alle zehn Minuten.",
+          "example_it": "L'autobus passa ogni dieci minuti."
+        },
+        {
+          "de": "das Schiff",
+          "it": "la nave",
+          "emoji": "🚢",
+          "example_de": "Das Schiff fährt über das Mittelmeer.",
+          "example_it": "La nave attraversa il Mediterraneo."
+        },
+        {
+          "de": "das Fahrrad",
+          "it": "la bicicletta",
+          "emoji": "🚲",
+          "example_de": "Ich fahre jeden Tag mit dem Fahrrad zur Arbeit.",
+          "example_it": "Ogni giorno vado al lavoro in bicicletta."
+        },
+        {
+          "de": "das Auto",
+          "it": "l'automobile / la macchina",
+          "emoji": "🚗",
+          "example_de": "Wir fahren mit dem Auto in den Urlaub.",
+          "example_it": "Andiamo in vacanza in macchina."
+        },
+        {
+          "de": "die Straßenbahn",
+          "it": "il tram",
+          "emoji": "🚊",
+          "example_de": "Die Straßenbahn hält direkt vor dem Museum.",
+          "example_it": "Il tram si ferma proprio davanti al museo."
+        },
+        {
+          "de": "die U-Bahn",
+          "it": "la metropolitana",
+          "emoji": "🚇",
+          "example_de": "Die U-Bahn ist das schnellste Verkehrsmittel in der Stadt.",
+          "example_it": "La metropolitana è il mezzo di trasporto più veloce in città."
+        }
+      ]
+    },
+    {
+      "name": "In viaggio",
+      "words": [
+        {
+          "de": "der Koffer",
+          "it": "la valigia",
+          "emoji": "🧳",
+          "example_de": "Mein Koffer ist sehr schwer.",
+          "example_it": "La mia valigia è molto pesante."
+        },
+        {
+          "de": "der Reisepass",
+          "it": "il passaporto",
+          "emoji": "🛂",
+          "example_de": "Vergiss deinen Reisepass nicht!",
+          "example_it": "Non dimenticare il tuo passaporto!"
+        },
+        {
+          "de": "die Fahrkarte",
+          "it": "il biglietto",
+          "emoji": "🎫",
+          "example_de": "Ich habe die Fahrkarte online gekauft.",
+          "example_it": "Ho comprato il biglietto online."
+        },
+        {
+          "de": "der Flughafen",
+          "it": "l'aeroporto",
+          "emoji": "✈️",
+          "example_de": "Wir müssen zwei Stunden vor dem Flug am Flughafen sein.",
+          "example_it": "Dobbiamo essere in aeroporto due ore prima del volo."
+        },
+        {
+          "de": "der Bahnhof",
+          "it": "la stazione ferroviaria",
+          "emoji": "🚉",
+          "example_de": "Der Bahnhof liegt im Zentrum der Stadt.",
+          "example_it": "La stazione si trova nel centro della città."
+        },
+        {
+          "de": "das Hotel",
+          "it": "l'albergo / l'hotel",
+          "emoji": "🏨",
+          "example_de": "Das Hotel hat ein sehr gutes Restaurant.",
+          "example_it": "L'hotel ha un ristorante molto buono."
+        },
+        {
+          "de": "die Unterkunft",
+          "it": "l'alloggio",
+          "emoji": "🏠",
+          "example_de": "Wir suchen eine günstige Unterkunft für das Wochenende.",
+          "example_it": "Cerchiamo un alloggio economico per il fine settimana."
+        },
+        {
+          "de": "die Buchung",
+          "it": "la prenotazione",
+          "emoji": "📋",
+          "example_de": "Die Buchung wurde per E-Mail bestätigt.",
+          "example_it": "La prenotazione è stata confermata via e-mail."
+        }
+      ]
+    },
+    {
+      "name": "Azioni di viaggio",
+      "words": [
+        {
+          "de": "reisen",
+          "it": "viaggiare",
+          "emoji": "🌍",
+          "example_de": "Im Sommer reisen wir nach Italien.",
+          "example_it": "In estate viaggiamo in Italia."
+        },
+        {
+          "de": "fliegen",
+          "it": "volare",
+          "emoji": "🛫",
+          "example_de": "Morgen fliegen wir nach London.",
+          "example_it": "Domani voliamo a Londra."
+        },
+        {
+          "de": "abfahren",
+          "it": "partire",
+          "emoji": "🚀",
+          "example_de": "Der Zug fährt um 9 Uhr ab.",
+          "example_it": "Il treno parte alle 9."
+        },
+        {
+          "de": "ankommen",
+          "it": "arrivare",
+          "emoji": "📍",
+          "example_de": "Wir kommen um 15 Uhr in München an.",
+          "example_it": "Arriviamo a Monaco alle 15."
+        },
+        {
+          "de": "umsteigen",
+          "it": "cambiare (mezzo)",
+          "emoji": "🔄",
+          "example_de": "In Frankfurt müssen wir umsteigen.",
+          "example_it": "A Francoforte dobbiamo cambiare."
+        },
+        {
+          "de": "buchen",
+          "it": "prenotare",
+          "emoji": "📝",
+          "example_de": "Ich möchte ein Zimmer für zwei Nächte buchen.",
+          "example_it": "Vorrei prenotare una camera per due notti."
+        },
+        {
+          "de": "packen",
+          "it": "fare le valigie",
+          "emoji": "🧳",
+          "example_de": "Hast du schon deinen Koffer gepackt?",
+          "example_it": "Hai già fatto la valigia?"
+        },
+        {
+          "de": "übernachten",
+          "it": "pernottare",
+          "emoji": "🌙",
+          "example_de": "Wir übernachten in einer Pension.",
+          "example_it": "Pernottiamo in una pensione."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "b1-v02",
+  "level": "b1",
+  "type": "vocab",
+  "title": "Ambiente e sostenibilità",
+  "subtitle": "Umwelt und Nachhaltigkeit",
+  "groups": [
+    {
+      "name": "Ambiente",
+      "words": [
+        { "de": "die Umwelt", "it": "l'ambiente", "emoji": "🌍", "example_de": "Wir müssen die Umwelt schützen.", "example_it": "Dobbiamo proteggere l'ambiente." },
+        { "de": "die Natur", "it": "la natura", "emoji": "🌿", "example_de": "In der Natur fühle ich mich frei.", "example_it": "Nella natura mi sento libero." },
+        { "de": "das Klima", "it": "il clima", "emoji": "🌡️", "example_de": "Das Klima verändert sich immer schneller.", "example_it": "Il clima sta cambiando sempre più velocemente." },
+        { "de": "die Verschmutzung", "it": "l'inquinamento", "emoji": "🏭", "example_de": "Die Verschmutzung der Flüsse ist ein großes Problem.", "example_it": "L'inquinamento dei fiumi è un grande problema." },
+        { "de": "der Müll", "it": "i rifiuti / la spazzatura", "emoji": "🗑️", "example_de": "Wir produzieren zu viel Müll.", "example_it": "Produciamo troppi rifiuti." },
+        { "de": "die Energie", "it": "l'energia", "emoji": "⚡", "example_de": "Wir sollten weniger Energie verbrauchen.", "example_it": "Dovremmo consumare meno energia." },
+        { "de": "die Ressource", "it": "la risorsa", "emoji": "💎", "example_de": "Natürliche Ressourcen sind begrenzt.", "example_it": "Le risorse naturali sono limitate." },
+        { "de": "das Recycling", "it": "il riciclaggio", "emoji": "♻️", "example_de": "In Deutschland ist Recycling sehr wichtig.", "example_it": "In Germania il riciclaggio è molto importante." }
+      ]
+    },
+    {
+      "name": "Sostenibilità",
+      "words": [
+        { "de": "erneuerbar", "it": "rinnovabile", "emoji": "🔄", "example_de": "Erneuerbare Energien sind die Zukunft.", "example_it": "Le energie rinnovabili sono il futuro." },
+        { "de": "nachhaltig", "it": "sostenibile", "emoji": "🌱", "example_de": "Wir brauchen eine nachhaltige Entwicklung.", "example_it": "Abbiamo bisogno di uno sviluppo sostenibile." },
+        { "de": "umweltfreundlich", "it": "ecologico / rispettoso dell'ambiente", "emoji": "🌱", "example_de": "Dieses Produkt ist besonders umweltfreundlich.", "example_it": "Questo prodotto è particolarmente ecologico." },
+        { "de": "die Solarenergie", "it": "l'energia solare", "emoji": "☀️", "example_de": "Immer mehr Häuser nutzen Solarenergie.", "example_it": "Sempre più case usano l'energia solare." },
+        { "de": "das Elektroauto", "it": "l'auto elettrica", "emoji": "🔋", "example_de": "Ein Elektroauto produziert keine Abgase.", "example_it": "Un'auto elettrica non produce gas di scarico." },
+        { "de": "der Klimawandel", "it": "il cambiamento climatico", "emoji": "🌡️", "example_de": "Der Klimawandel ist eine globale Herausforderung.", "example_it": "Il cambiamento climatico è una sfida globale." },
+        { "de": "die Erderwärmung", "it": "il riscaldamento globale", "emoji": "🔥", "example_de": "Die Erderwärmung hat schwere Folgen.", "example_it": "Il riscaldamento globale ha conseguenze gravi." },
+        { "de": "der CO2-Ausstoß", "it": "le emissioni di CO2", "emoji": "💨", "example_de": "Der CO2-Ausstoß muss reduziert werden.", "example_it": "Le emissioni di CO2 devono essere ridotte." }
+      ]
+    },
+    {
+      "name": "Azioni",
+      "words": [
+        { "de": "schützen", "it": "proteggere", "emoji": "🛡️", "example_de": "Wir müssen die Natur schützen.", "example_it": "Dobbiamo proteggere la natura." },
+        { "de": "trennen", "it": "differenziare / separare", "emoji": "🗂️", "example_de": "In Deutschland muss man den Müll trennen.", "example_it": "In Germania bisogna fare la raccolta differenziata." },
+        { "de": "sparen", "it": "risparmiare", "emoji": "💧", "example_de": "Wir müssen Wasser und Strom sparen.", "example_it": "Dobbiamo risparmiare acqua e corrente." },
+        { "de": "vermeiden", "it": "evitare", "emoji": "🚫", "example_de": "Man sollte Plastiktüten vermeiden.", "example_it": "Si dovrebbero evitare i sacchetti di plastica." },
+        { "de": "verschmutzen", "it": "inquinare", "emoji": "🏭", "example_de": "Fabriken verschmutzen die Luft.", "example_it": "Le fabbriche inquinano l'aria." },
+        { "de": "recyceln", "it": "riciclare", "emoji": "♻️", "example_de": "Wir recyceln Papier, Glas und Plastik.", "example_it": "Ricicliamo carta, vetro e plastica." },
+        { "de": "verbrauchen", "it": "consumare", "emoji": "📊", "example_de": "Wir verbrauchen zu viel Energie.", "example_it": "Consumiamo troppa energia." },
+        { "de": "reduzieren", "it": "ridurre", "emoji": "📉", "example_de": "Wir müssen unseren Energieverbrauch reduzieren.", "example_it": "Dobbiamo ridurre il nostro consumo energetico." }
+      ]
+    }
+  ]
+}

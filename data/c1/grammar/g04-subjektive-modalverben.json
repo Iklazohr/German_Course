@@ -1,0 +1,115 @@
+{
+  "id": "c1-g04",
+  "level": "c1",
+  "type": "grammar",
+  "title": "Verbi modali soggettivi",
+  "subtitle": "Subjektive Bedeutung der Modalverben",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "I verbi modali tedeschi (*müssen, können, dürfen, sollen, wollen, mögen*) hanno, oltre al loro significato **oggettivo** (dovere, potere, volere...), anche un uso **soggettivo**: esprimono l'**opinione, la supposizione o l'atteggiamento del parlante** rispetto a un fatto. In questo uso, il verbo modale non descrive un'azione reale, ma il **grado di probabilita** o la **fonte dell'informazione** secondo chi parla. Questa distinzione e fondamentale a livello C1 ed e molto frequente nei testi giornalistici e accademici."
+    },
+    {
+      "type": "rule",
+      "title": "müssen — alta certezza (quasi sicuramente)",
+      "content": "**Müssen** in uso soggettivo esprime che il parlante e **quasi certo** di qualcosa, sulla base di indizi o ragionamento logico. Non significa 'dovere' ma 'deve essere cosi, sicuramente'.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Er muss krank sein.", "Sono quasi sicuro che e malato.", "Dev'essere malato. (ne sono quasi certo)"],
+          ["Sie muss den Brief bekommen haben.", "Sicuramente ha ricevuto la lettera.", "Deve aver ricevuto la lettera."],
+          ["Das muss ein Fehler sein.", "E sicuramente un errore.", "Dev'essere un errore."],
+          ["Er muss sehr reich sein.", "Tutto indica che e molto ricco.", "Dev'essere molto ricco."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "dürfte — probabilita (probabilmente)",
+      "content": "**Dürfte** (Konjunktiv II di *dürfen*) in uso soggettivo esprime una **supposizione probabile**, con un grado di certezza leggermente inferiore a *müssen*. E molto usato nel tedesco formale e giornalistico.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Das dürfte stimmen.", "Probabilmente e vero.", "Dovrebbe essere vero. / Sara probabilmente vero."],
+          ["Es dürfte schwierig werden.", "Sara probabilmente difficile.", "Sara probabilmente difficile."],
+          ["Er dürfte gegen 18 Uhr ankommen.", "Arrivera probabilmente verso le 18.", "Dovrebbe arrivare verso le 18."],
+          ["Das dürfte kein Problem sein.", "Probabilmente non sara un problema.", "Non dovrebbe essere un problema."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "könnte — possibilita (forse, e possibile che)",
+      "content": "**Könnte** (Konjunktiv II di *können*) esprime una **mera possibilita**, senza particolare convinzione. Il parlante considera qualcosa possibile ma non probabile.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Sie könnte recht haben.", "E possibile che abbia ragione.", "Potrebbe avere ragione."],
+          ["Es könnte regnen.", "E possibile che piova.", "Potrebbe piovere."],
+          ["Das könnte ein Missverständnis sein.", "Forse e un malinteso.", "Potrebbe essere un malinteso."],
+          ["Er könnte es vergessen haben.", "E possibile che l'abbia dimenticato.", "Potrebbe averlo dimenticato."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "sollen — per sentito dire (si dice che)",
+      "content": "**Sollen** in uso soggettivo indica che il parlante **riporta informazioni di seconda mano**, senza garantirne la veridicita. E la forma standard per il 'sentito dire' ed e onnipresente nel giornalismo.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Er soll sehr reich sein.", "Si dice che sia molto ricco.", "A quanto si dice, e molto ricco."],
+          ["Das Restaurant soll ausgezeichnet sein.", "Dicono che il ristorante sia eccellente.", "Il ristorante sarebbe eccellente, a quanto si dice."],
+          ["Sie soll die beste Chirurgin der Stadt sein.", "Dicono che sia la miglior chirurga della citta.", "Sarebbe la miglior chirurga della citta."],
+          ["Der Film soll enttäuschend sein.", "Ho sentito dire che il film e deludente.", "A quanto pare il film e deludente."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "wollen — affermazione propria (qualcuno sostiene che)",
+      "content": "**Wollen** in uso soggettivo indica che il **soggetto della frase afferma qualcosa di se stesso**, ma il parlante ne **dubita** o non garantisce la veridicita. Esprime scetticismo o distanza critica.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Sie will das nicht gesagt haben.", "Lei sostiene di non averlo detto.", "Afferma di non averlo detto. (ma io dubito)"],
+          ["Er will nichts davon gewusst haben.", "Lui dice di non aver saputo nulla.", "Dice di non aver saputo nulla. (sara vero?)"],
+          ["Sie will eine berühmte Sängerin gewesen sein.", "Sostiene di essere stata una cantante famosa.", "Afferma di essere stata una cantante famosa."],
+          ["Er will den Unfall nicht gesehen haben.", "Dice di non aver visto l'incidente.", "Sostiene di non aver visto l'incidente."]
+        ]
+      }
+    },
+    {
+      "type": "rule",
+      "title": "mögen / mag — concessione (puo darsi, ammettiamo pure)",
+      "content": "**Mögen** (soprattutto nella forma *mag*) esprime una **concessione**: il parlante ammette che qualcosa puo essere vero, spesso per poi contraddirlo con un *aber*.",
+      "table": {
+        "headers": ["Esempio", "Significato soggettivo", "Traduzione"],
+        "rows": [
+          ["Das mag sein.", "Puo darsi. / Ammettiamolo.", "Puo darsi."],
+          ["Das mag stimmen, aber...", "Sara anche vero, pero...", "Sara anche vero, pero..."],
+          ["Er mag recht haben.", "Forse ha ragione, concediamoglielo.", "Puo anche avere ragione."],
+          ["Es mögen 500 Leute da gewesen sein.", "Saranno state 500 persone, piu o meno.", "C'erano forse 500 persone."]
+        ]
+      }
+    },
+    {
+      "type": "tip",
+      "content": "**Come formare il passato dei modali soggettivi:**\n\nPer esprimere supposizioni al passato, si usa: **Modalverb + Partizip II + haben/sein**\n\n- *Er muss krank gewesen sein.* = Dev'essere stato malato.\n- *Sie dürfte es vergessen haben.* = Probabilmente l'ha dimenticato.\n- *Er soll sehr erfolgreich gewesen sein.* = Si dice che sia stato molto di successo.\n- *Sie will das nicht gewusst haben.* = Sostiene di non averlo saputo.\n\n**Scala di certezza (dal piu sicuro al meno sicuro):**\n1. **müssen** — quasi certo (95%)\n2. **dürfte** — probabile (75%)\n3. **könnte/mag** — possibile (50%)\n\n**Fonte dell'informazione:**\n- **sollen** — riferito da altri\n- **wollen** — affermato dal soggetto stesso (con distanza critica)"
+    },
+    {
+      "type": "examples",
+      "title": "Esempi pratici",
+      "items": [
+        { "de": "Er muss den Zug verpasst haben — er ist nie so spät.", "it": "Deve aver perso il treno — non fa mai cosi tardi." },
+        { "de": "Das dürfte die beste Lösung sein.", "it": "Dovrebbe essere la soluzione migliore." },
+        { "de": "Sie könnte die Nachricht noch nicht gelesen haben.", "it": "Potrebbe non aver ancora letto il messaggio." },
+        { "de": "Der Präsident soll morgen eine wichtige Rede halten.", "it": "Si dice che il presidente terra un discorso importante domani." },
+        { "de": "Der Angeklagte will zur Tatzeit geschlafen haben.", "it": "L'imputato afferma di aver dormito al momento del fatto." },
+        { "de": "Das mag kompliziert klingen, aber es ist eigentlich ganz einfach.", "it": "Potra sembrare complicato, ma in realta e abbastanza semplice." },
+        { "de": "Die Verhandlungen dürften noch einige Wochen dauern.", "it": "Le trattative dureranno probabilmente ancora qualche settimana." },
+        { "de": "Er muss das Haus um sechs verlassen haben — die Nachbarin hat ihn gesehen.", "it": "Deve aver lasciato casa alle sei — la vicina l'ha visto." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "b2-e01",
+  "level": "b2",
+  "title": "Esercizi: Participi come aggettivi e Nominalizzazione",
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Quale forma è corretta? 'Das ___ Kind sucht seine Mutter.' (Il bambino che piange cerca sua madre.)",
+      "options": ["weinend", "weinende", "weinendes", "geweinte"],
+      "correct": 1,
+      "explanation": "Con l'articolo determinativo 'das' (neutro, nominativo), il Partizip I 'weinend' prende la desinenza -e → 'das weinende Kind'. Il Partizip I (infinito + d) esprime un'azione in corso."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Die ___ Tür muss repariert werden.",
+      "blanks": [{ "position": 0, "correct": ["gebrochene", "zerbrochene"], "hint": "rotto/a - usa il Partizip II di 'brechen' o 'zerbrechen' con desinenza aggettivale" }],
+      "translation": "La porta rotta deve essere riparata."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega il participio tedesco alla traduzione italiana corretta.",
+      "pairs": [
+        { "left": "der lachende Mann", "right": "l'uomo che ride" },
+        { "left": "die geschlossene Tür", "right": "la porta chiusa" },
+        { "left": "das schlafende Kind", "right": "il bambino che dorme" },
+        { "left": "der geschriebene Brief", "right": "la lettera scritta" },
+        { "left": "die ankommenden Züge", "right": "i treni in arrivo" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Come si forma il Partizip I del verbo 'faszinieren'?",
+      "options": ["fasziniert", "faszinierend", "gefasziniert", "faszinierende"],
+      "correct": 1,
+      "explanation": "Il Partizip I si forma: infinito + d → faszinieren + d = faszinierend. 'Faszinierend' significa 'affascinante'. Nota: 'fasziniert' è il Partizip II (affascinato)."
+    },
+    {
+      "type": "translation",
+      "direction": "it-to-de",
+      "source": "La notizia pubblicata sul giornale era falsa.",
+      "acceptable": ["Die in der Zeitung veröffentlichte Nachricht war falsch.", "Die veröffentlichte Nachricht in der Zeitung war falsch."],
+      "hint": "pubblicato = veröffentlicht (Partizip II), giornale = Zeitung, falso = falsch"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale frase usa correttamente un aggettivo nominalizzato?",
+      "options": [
+        "Der Kranker muss zum Arzt.",
+        "Der Kranke muss zum Arzt.",
+        "Der Krank muss zum Arzt.",
+        "Der Kranken muss zum Arzt."
+      ],
+      "correct": 1,
+      "explanation": "L'aggettivo nominalizzato con articolo determinativo maschile nominativo prende la desinenza -e: 'der Kranke'. Si declina come un aggettivo, non come un sostantivo normale."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Das ___ ist mein liebstes Hobby.",
+      "blanks": [{ "position": 0, "correct": ["Lesen", "Schwimmen", "Wandern", "Kochen", "Malen"], "hint": "Inserisci un infinito nominalizzato (con la maiuscola): leggere, nuotare, camminare..." }],
+      "translation": "Il/La ... è il mio hobby preferito."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quale suffisso trasforma il verbo 'entscheiden' in un sostantivo femminile?",
+      "options": ["-heit", "-ung", "-keit", "-nis"],
+      "correct": 1,
+      "explanation": "entscheiden → die Entscheidung (la decisione). Il suffisso -ung è il più produttivo per trasformare verbi in sostantivi femminili."
+    },
+    {
+      "type": "matching",
+      "instruction": "Collega il verbo o aggettivo al sostantivo nominalizzato corretto.",
+      "pairs": [
+        { "left": "frei → die ...", "right": "Freiheit" },
+        { "left": "möglich → die ...", "right": "Möglichkeit" },
+        { "left": "erfahren → die ...", "right": "Erfahrung" },
+        { "left": "gesund → die ...", "right": "Gesundheit" },
+        { "left": "arbeitslos → die ...", "right": "Arbeitslosigkeit" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Ich habe nichts ___ gehört.' - Quale forma è corretta? (Non ho sentito niente di nuovo.)",
+      "options": ["Neu", "Neues", "Neue", "Neuem"],
+      "correct": 1,
+      "explanation": "Dopo 'nichts', 'etwas', 'viel', 'wenig', l'aggettivo nominalizzato è neutro e prende la desinenza -es: nichts Neues, etwas Wichtiges, viel Gutes."
+    },
+    {
+      "type": "translation",
+      "direction": "de-to-it",
+      "source": "Die von Studenten organisierte Demonstration war friedlich.",
+      "acceptable": ["La manifestazione organizzata dagli studenti è stata pacifica.", "La manifestazione organizzata da studenti è stata pacifica.", "La dimostrazione organizzata dagli studenti è stata pacifica."],
+      "hint": "Questo è un attributo participiale esteso: 'von Studenten organisierte' descrive 'Demonstration'."
+    },
+    {
+      "type": "fill-blank",
+      "sentence": "Ein ___ sucht seit Monaten einen Job.",
+      "blanks": [{ "position": 0, "correct": ["Arbeitsloser"], "hint": "disoccupato - aggettivo nominalizzato maschile con articolo indeterminativo (ein + desinenza -er)" }],
+      "translation": "Un disoccupato cerca un lavoro da mesi."
+    }
+  ]
+}

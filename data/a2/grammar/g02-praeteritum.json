@@ -1,0 +1,27 @@
+{
+  "id": "a2-g02",
+  "level": "a2",
+  "type": "grammar",
+  "title": "Il Präteritum",
+  "subtitle": "Das Präteritum (einfache Vergangenheit)",
+  "sections": [
+    { "type": "intro", "content": "Il **Präteritum** è il tempo passato usato principalmente nella **lingua scritta**, nei **racconti**, nelle **notizie** e nella **narrativa**. Nel parlato si usa quasi solo con i verbi *haben*, *sein* e i verbi modali. Corrisponde sia all'imperfetto che al passato remoto italiano." },
+    { "type": "rule", "title": "Verbi regolari: desinenze in -te", "content": "I verbi regolari (deboli) formano il Präteritum aggiungendo **-te** alla radice, poi le desinenze personali:", "table": { "headers": ["Persona", "machen (fare)", "spielen (giocare)", "arbeiten (lavorare)"], "rows": [["ich", "machte", "spielte", "arbeitete"], ["du", "machtest", "spieltest", "arbeitetest"], ["er/sie/es", "machte", "spielte", "arbeitete"], ["wir", "machten", "spielten", "arbeiteten"], ["ihr", "machtet", "spieltet", "arbeitetet"], ["sie/Sie", "machten", "spielten", "arbeiteten"]] } },
+    { "type": "rule", "title": "Verbi irregolari: cambio di vocale", "content": "I verbi irregolari (forti) cambiano la **vocale della radice** e hanno desinenze diverse (senza -te):", "table": { "headers": ["Infinito", "Präteritum (ich/er)", "Significato"], "rows": [["gehen", "ging", "andare"], ["kommen", "kam", "venire"], ["fahren", "fuhr", "andare (con mezzo)"], ["sehen", "sah", "vedere"], ["essen", "aß", "mangiare"], ["trinken", "trank", "bere"], ["schreiben", "schrieb", "scrivere"], ["lesen", "las", "leggere"], ["sprechen", "sprach", "parlare"], ["nehmen", "nahm", "prendere"], ["geben", "gab", "dare"], ["finden", "fand", "trovare"]] } },
+    { "type": "rule", "title": "Coniugazione dei verbi irregolari", "content": "Le desinenze del Präteritum per i verbi irregolari:", "table": { "headers": ["Persona", "gehen (andare)", "kommen (venire)", "schreiben (scrivere)"], "rows": [["ich", "ging", "kam", "schrieb"], ["du", "gingst", "kamst", "schriebst"], ["er/sie/es", "ging", "kam", "schrieb"], ["wir", "gingen", "kamen", "schrieben"], ["ihr", "gingt", "kamt", "schriebt"], ["sie/Sie", "gingen", "kamen", "schrieben"]] } },
+    { "type": "rule", "title": "hatte e war: i più usati", "content": "I verbi **haben** e **sein** al Präteritum sono di gran lunga i più usati anche nel parlato. Impara queste forme a memoria!", "table": { "headers": ["Persona", "haben → hatte", "sein → war"], "rows": [["ich", "hatte", "war"], ["du", "hattest", "warst"], ["er/sie/es", "hatte", "war"], ["wir", "hatten", "waren"], ["ihr", "hattet", "wart"], ["sie/Sie", "hatten", "waren"]] } },
+    { "type": "rule", "title": "Verbi modali al Präteritum", "content": "Anche i verbi modali si usano comunemente al Präteritum nel parlato:", "table": { "headers": ["Infinito", "Präteritum (ich)", "Significato"], "rows": [["können", "konnte", "potevo"], ["müssen", "musste", "dovevo"], ["wollen", "wollte", "volevo"], ["sollen", "sollte", "dovevo (consiglio)"], ["dürfen", "durfte", "avevo il permesso"], ["mögen", "mochte", "mi piaceva"]] } },
+    { "type": "tip", "content": "**Quando usare il Präteritum vs il Perfekt?**\n\n- **Parlato quotidiano**: usa il **Perfekt** → *Ich habe gegessen* (Ho mangiato)\n- **Con haben/sein/modali**: usa il **Präteritum** anche nel parlato → *Ich war müde* (Ero stanco), *Ich hatte Hunger* (Avevo fame), *Ich konnte nicht kommen* (Non potevo venire)\n- **Testi scritti, racconti, notizie**: usa il **Präteritum** → *Er ging nach Hause* (Andò a casa)\n\nRegola pratica: nel parlato, usa il Präteritum solo per *war*, *hatte* e i modali!" },
+    { "type": "examples", "title": "Esempi pratici", "content": "Frasi al Präteritum:", "items": [
+      { "de": "Ich war gestern in Berlin.", "it": "Ieri ero a Berlino." },
+      { "de": "Wir hatten viel Spaß.", "it": "Ci siamo divertiti molto." },
+      { "de": "Er konnte nicht schlafen.", "it": "Non riusciva a dormire." },
+      { "de": "Sie musste früh aufstehen.", "it": "Doveva alzarsi presto." },
+      { "de": "Als Kind wollte ich Arzt werden.", "it": "Da bambino volevo diventare medico." },
+      { "de": "Es war einmal ein König...", "it": "C'era una volta un re..." },
+      { "de": "Ich hatte keine Zeit.", "it": "Non avevo tempo." },
+      { "de": "Wir waren sehr müde.", "it": "Eravamo molto stanchi." }
+    ] },
+    { "type": "comparison", "title": "Confronto con l'italiano", "content": "In italiano esistono l'imperfetto e il passato remoto come tempi separati. In tedesco, il Präteritum copre **entrambi** i significati:\n\n- *Er ging* può significare sia 'andava' (imperfetto) che 'andò' (passato remoto)\n- Il contesto chiarisce il significato\n\n**Attenzione:** In italiano si usa il passato prossimo nel parlato del Nord e il passato remoto nel Sud. In tedesco la distinzione è più semplice: **parlato → Perfekt**, **scritto → Präteritum** (con le eccezioni di haben, sein e i modali)." }
+  ]
+}

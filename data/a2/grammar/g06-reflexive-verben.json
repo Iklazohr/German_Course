@@ -1,0 +1,25 @@
+{
+  "id": "a2-g06",
+  "level": "a2",
+  "type": "grammar",
+  "title": "I verbi riflessivi",
+  "subtitle": "Reflexive Verben",
+  "sections": [
+    { "type": "intro", "content": "I **verbi riflessivi** sono verbi in cui l'azione ricade sul soggetto stesso. Come in italiano (*mi lavo*, *si siede*), anche in tedesco si usano con un **pronome riflessivo** (*sich waschen*, *sich setzen*). Il pronome riflessivo in tedesco può essere all'**accusativo** o al **dativo**, a seconda del verbo." },
+    { "type": "rule", "title": "Pronomi riflessivi all'accusativo", "content": "La maggior parte dei verbi riflessivi usa il pronome riflessivo all'**accusativo**:", "table": { "headers": ["Persona", "Pronome riflessivo (Acc.)", "Esempio con sich freuen"], "rows": [["ich", "mich", "Ich freue mich."], ["du", "dich", "Du freust dich."], ["er/sie/es", "sich", "Er freut sich."], ["wir", "uns", "Wir freuen uns."], ["ihr", "euch", "Ihr freut euch."], ["sie/Sie", "sich", "Sie freuen sich."]] } },
+    { "type": "rule", "title": "Verbi riflessivi comuni (accusativo)", "content": "Ecco i verbi riflessivi più importanti con pronome all'accusativo:", "table": { "headers": ["Verbo", "Significato", "Esempio"], "rows": [["sich freuen (auf/über)", "essere contento (di)", "Ich freue mich auf den Urlaub."], ["sich fühlen", "sentirsi", "Ich fühle mich gut."], ["sich setzen", "sedersi", "Bitte setzen Sie sich!"], ["sich waschen", "lavarsi", "Ich wasche mich jeden Morgen."], ["sich anziehen", "vestirsi", "Sie zieht sich schnell an."], ["sich ausziehen", "svestirsi", "Er zieht sich aus."], ["sich duschen", "farsi la doccia", "Ich dusche mich um 7 Uhr."], ["sich erinnern (an)", "ricordarsi (di)", "Ich erinnere mich an dich."], ["sich interessieren (für)", "interessarsi (di/a)", "Sie interessiert sich für Kunst."], ["sich treffen (mit)", "incontrarsi (con)", "Wir treffen uns um 8 Uhr."], ["sich beeilen", "sbrigarsi", "Beeil dich!"], ["sich vorstellen", "presentarsi", "Darf ich mich vorstellen?"]] } },
+    { "type": "rule", "title": "Pronomi riflessivi al dativo", "content": "Quando il verbo ha già un **complemento oggetto all'accusativo**, il pronome riflessivo va al **dativo**. Le forme sono uguali all'accusativo tranne per *ich* (**mir** invece di mich) e *du* (**dir** invece di dich):", "table": { "headers": ["Persona", "Riflessivo Acc.", "Riflessivo Dat.", "Esempio dativo"], "rows": [["ich", "mich", "mir", "Ich wasche mir die Hände."], ["du", "dich", "dir", "Du wäschst dir die Hände."], ["er/sie/es", "sich", "sich", "Er wäscht sich die Hände."], ["wir", "uns", "uns", "Wir waschen uns die Hände."], ["ihr", "euch", "euch", "Ihr wascht euch die Hände."], ["sie/Sie", "sich", "sich", "Sie waschen sich die Hände."]] } },
+    { "type": "rule", "title": "Accusativo vs dativo riflessivo", "content": "La regola è semplice:\n\n- **Solo pronome riflessivo** (nessun altro oggetto) → **Accusativo**\n  *Ich wasche **mich**.* (Mi lavo.)\n\n- **Pronome riflessivo + complemento oggetto** → **Dativo**\n  *Ich wasche **mir** die Hände.* (Mi lavo le mani.)\n\nAltri esempi al dativo:\n- *Ich putze **mir** die Zähne.* (Mi lavo i denti.)\n- *Ich bestelle **mir** einen Kaffee.* (Mi ordino un caffè.)\n- *Ich kaufe **mir** ein neues Kleid.* (Mi compro un vestito nuovo.)\n- *Kannst du **dir** das vorstellen?* (Riesci a immaginartelo?)" },
+    { "type": "tip", "content": "**Posizione del pronome riflessivo:**\n\n- Nella frase principale: subito **dopo il verbo coniugato**\n  *Ich freue **mich** auf das Wochenende.*\n\n- Nella frase subordinata: subito **dopo il soggetto**\n  *..., weil ich **mich** auf das Wochenende freue.*\n\n- Con verbi separabili, il pronome sta comunque dopo il verbo coniugato:\n  *Ich ziehe **mich** an.* (Mi vesto.)\n\n**Attenzione:** Non tutti i verbi riflessivi italiani sono riflessivi anche in tedesco e viceversa! Ad esempio: *sich erinnern* (ricordarsi) è riflessivo in entrambe le lingue, ma *sich treffen* (incontrarsi) in tedesco è riflessivo mentre in italiano il 'si' ha valore reciproco." },
+    { "type": "examples", "title": "Esempi pratici", "content": "Frasi con verbi riflessivi:", "items": [
+      { "de": "Ich freue mich auf die Party.", "it": "Non vedo l'ora della festa. / Sono contento per la festa." },
+      { "de": "Setz dich bitte!", "it": "Siediti per favore!" },
+      { "de": "Er fühlt sich heute nicht gut.", "it": "Oggi non si sente bene." },
+      { "de": "Wir interessieren uns für Geschichte.", "it": "Ci interessiamo di storia." },
+      { "de": "Erinnerst du dich an unseren Urlaub?", "it": "Ti ricordi della nostra vacanza?" },
+      { "de": "Ich muss mich beeilen.", "it": "Devo sbrigarmi." },
+      { "de": "Sie putzt sich die Zähne.", "it": "Si lava i denti." },
+      { "de": "Wir treffen uns morgen um 10 Uhr.", "it": "Ci incontriamo domani alle 10." }
+    ] }
+  ]
+}
