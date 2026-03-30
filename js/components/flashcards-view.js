@@ -1,6 +1,6 @@
 // ===== Flashcards View =====
 
-import { renderPage, setHeaderTitle, showBackButton, shuffleArray } from '../renderer.js';
+import { renderPage, setHeaderTitle, showBackButton, shuffleArray, restartAnimations } from '../renderer.js';
 import { navigate } from '../router.js';
 import { store } from '../store.js';
 import { playCorrect, playCardFlip, playClick } from '../audio.js';
@@ -246,25 +246,18 @@ export async function renderFlashcardDeck(deckId) {
         // Reset transition direction after enter animation plays
         const mainCard = page.querySelector('#fc-main-card');
         if (transitionDir) {
-            // Force animation to trigger via double rAF
-            mainCard.style.animation = 'none';
-            requestAnimationFrame(() => requestAnimationFrame(() => {
-                mainCard.style.animation = '';
-            }));
+            restartAnimations(mainCard);
             const cleanup = () => {
                 mainCard.classList.remove('card-enter-left', 'card-enter-right');
                 transitionDir = null;
             };
             mainCard.addEventListener('animationend', cleanup, { once: true });
-            // Fallback if animationend doesn't fire
             setTimeout(cleanup, 400);
         }
 
         // Event listeners
         mainCard.addEventListener('click', () => {
-            // Remove any lingering enter animation before flipping
             mainCard.classList.remove('card-enter-left', 'card-enter-right');
-            mainCard.style.animation = '';
             isFlipped = !isFlipped;
             mainCard.classList.add('flipping');
             mainCard.classList.toggle('flipped', isFlipped);

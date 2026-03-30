@@ -4,15 +4,20 @@ const main = () => document.getElementById('app-main');
 
 export function renderPage(html) {
     const container = main();
-    container.innerHTML = `<div class="page will-animate">${html}</div>`;
+    container.innerHTML = `<div class="page">${html}</div>`;
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Double rAF: browser paints initial state, then removing class triggers animations
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-        page.classList.remove('will-animate');
-    }));
+    // Force-restart CSS animations for desktop Chrome compatibility
+    restartAnimations(page);
     return page;
+}
+
+export function restartAnimations(el) {
+    for (const a of el.getAnimations({ subtree: true })) {
+        a.cancel();
+        a.play();
+    }
 }
 
 export function setHeaderTitle(title) {

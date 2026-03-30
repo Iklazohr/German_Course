@@ -98,12 +98,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 
-/* ===== Animation trigger helper ===== */
-.will-animate,
-.will-animate * {
-    animation: none !important;
-}
-
 /* ===== Animations ===== */
 @keyframes pageIn {
     from { transform: translateY(6px); }
