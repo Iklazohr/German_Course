@@ -1,0 +1,32 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "SETUP_FIREBASE.md",
+      "README.md"
+    ],
+    "headers": [
+      {
+        "source": "**/*.js",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=3600" }]
+      },
+      {
+        "source": "**/*.css",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=3600" }]
+      },
+      {
+        "source": "**/*.json",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=1800" }]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
