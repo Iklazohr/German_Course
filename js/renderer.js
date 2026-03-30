@@ -8,11 +8,13 @@ export function renderPage(html) {
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Force-restart CSS animations: set none → reflow → clear override
+    // Force-restart CSS animations on targeted elements only
     const els = [page, ...page.querySelectorAll('.exercise-page, .lesson-section, .mc-option, .matching-item, .summary-card, .fc-hero')];
-    els.forEach(el => { el.style.animation = 'none'; });
-    void page.offsetHeight;
-    els.forEach(el => { el.style.animation = ''; });
+    els.forEach(el => {
+        el.style.animation = 'none';
+        void el.offsetHeight;
+        el.style.animation = '';
+    });
     return page;
 }
 
