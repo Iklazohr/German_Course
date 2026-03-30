@@ -328,7 +328,6 @@
 .reorder-word:hover {
     background: var(--primary);
     color: #fff;
-    transform: translateY(-2px);
 }
 
 .reorder-word.placed {
@@ -515,14 +514,13 @@
 }
 
 .summary-card .summary-emoji {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 8px;
-    animation: bounceIn 0.6s ease;
 }
 
 .summary-score {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin: 0 auto 24px;
     display: flex;
@@ -531,22 +529,6 @@
     justify-content: center;
     font-size: 2.5rem;
     font-weight: 700;
-    animation: bounceIn 0.5s ease;
-    position: relative;
-}
-
-.summary-score::after {
-    content: "";
-    position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    border: 2px dashed currentColor;
-    opacity: 0.3;
-    animation: spin 8s linear infinite;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
 }
 
 .summary-score.excellent {

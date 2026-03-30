@@ -6,16 +6,16 @@ import { store } from '../store.js';
 import { playCorrect } from '../audio.js';
 
 const FLASHCARD_DECKS = [
-    { id: 'a1-nomen', level: 'a1', type: 'nomen', file: 'flashcards/a1-nomen.json', icon: '📦', label: 'Sostantivi' },
-    { id: 'a1-verben', level: 'a1', type: 'verben', file: 'flashcards/a1-verben.json', icon: '⚡', label: 'Verbi' },
-    { id: 'a2-nomen', level: 'a2', type: 'nomen', file: 'flashcards/a2-nomen.json', icon: '📦', label: 'Sostantivi' },
-    { id: 'a2-verben', level: 'a2', type: 'verben', file: 'flashcards/a2-verben.json', icon: '⚡', label: 'Verbi' },
-    { id: 'b1-nomen', level: 'b1', type: 'nomen', file: 'flashcards/b1-nomen.json', icon: '📦', label: 'Sostantivi' },
-    { id: 'b1-verben', level: 'b1', type: 'verben', file: 'flashcards/b1-verben.json', icon: '⚡', label: 'Verbi' },
-    { id: 'b2-nomen', level: 'b2', type: 'nomen', file: 'flashcards/b2-nomen.json', icon: '📦', label: 'Sostantivi' },
-    { id: 'b2-verben', level: 'b2', type: 'verben', file: 'flashcards/b2-verben.json', icon: '⚡', label: 'Verbi' },
-    { id: 'c1-nomen', level: 'c1', type: 'nomen', file: 'flashcards/c1-nomen.json', icon: '📦', label: 'Sostantivi' },
-    { id: 'c1-verben', level: 'c1', type: 'verben', file: 'flashcards/c1-verben.json', icon: '⚡', label: 'Verbi' },
+    { id: 'a1-nomen', level: 'a1', type: 'nomen', file: 'flashcards/a1-nomen.json', label: 'Sostantivi' },
+    { id: 'a1-verben', level: 'a1', type: 'verben', file: 'flashcards/a1-verben.json', label: 'Verbi' },
+    { id: 'a2-nomen', level: 'a2', type: 'nomen', file: 'flashcards/a2-nomen.json', label: 'Sostantivi' },
+    { id: 'a2-verben', level: 'a2', type: 'verben', file: 'flashcards/a2-verben.json', label: 'Verbi' },
+    { id: 'b1-nomen', level: 'b1', type: 'nomen', file: 'flashcards/b1-nomen.json', label: 'Sostantivi' },
+    { id: 'b1-verben', level: 'b1', type: 'verben', file: 'flashcards/b1-verben.json', label: 'Verbi' },
+    { id: 'b2-nomen', level: 'b2', type: 'nomen', file: 'flashcards/b2-nomen.json', label: 'Sostantivi' },
+    { id: 'b2-verben', level: 'b2', type: 'verben', file: 'flashcards/b2-verben.json', label: 'Verbi' },
+    { id: 'c1-nomen', level: 'c1', type: 'nomen', file: 'flashcards/c1-nomen.json', label: 'Sostantivi' },
+    { id: 'c1-verben', level: 'c1', type: 'verben', file: 'flashcards/c1-verben.json', label: 'Verbi' },
 ];
 
 const LEVEL_NAMES = {
@@ -57,7 +57,6 @@ export async function renderFlashcards() {
 
     const page = renderPage(`
         <div class="fc-hero">
-            <div class="fc-hero-icon">🃏</div>
             <h2>Flashcards</h2>
             <p>Impara nomi con articoli e verbi con coniugazione</p>
         </div>
@@ -73,7 +72,7 @@ export async function renderFlashcards() {
                                 const knownCount = progress.known.length;
                                 return `
                                     <div class="fc-deck-card card card-clickable" data-deck="${deck.id}" style="border-top: 3px solid ${LEVEL_COLORS[level]}">
-                                        <div class="fc-deck-icon">${deck.icon}</div>
+                                        <div class="fc-deck-icon" style="background:${LEVEL_COLORS_LIGHT[deck.level]};color:${LEVEL_COLORS[deck.level]};width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em">${deck.type === 'nomen' ? 'N' : 'V'}</div>
                                         <div class="fc-deck-info">
                                             <div class="fc-deck-label">${deck.label}</div>
                                             <div class="fc-deck-level" style="color: ${LEVEL_COLORS[level]}">${level.toUpperCase()}</div>

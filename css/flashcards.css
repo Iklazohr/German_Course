@@ -3,17 +3,11 @@
 /* Hero */
 .fc-hero {
     text-align: center;
-    padding: 32px 16px 24px;
-}
-
-.fc-hero-icon {
-    font-size: 48px;
-    margin-bottom: 8px;
-    animation: float 3s ease-in-out infinite;
+    padding: 24px 16px 20px;
 }
 
 .fc-hero h2 {
-    font-size: 1.6em;
+    font-size: 1.35em;
     font-weight: 700;
     margin: 0 0 4px;
 }
@@ -21,7 +15,7 @@
 .fc-hero p {
     color: var(--text-secondary);
     margin: 0;
-    font-size: 0.95em;
+    font-size: 0.9em;
 }
 
 /* Level Groups */
@@ -59,12 +53,11 @@
 }
 
 .fc-deck-card:hover {
-    transform: translateY(-4px);
     box-shadow: var(--shadow-md);
 }
 
 .fc-deck-icon {
-    font-size: 32px;
+    flex-shrink: 0;
 }
 
 .fc-deck-info {
@@ -419,8 +412,7 @@
 }
 
 .fc-action-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-sm);
+    border-color: var(--text-secondary);
 }
 
 .fc-btn-known.active {

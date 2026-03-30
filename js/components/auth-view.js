@@ -153,9 +153,7 @@ async function renderLoggedIn(user) {
 
         <!-- Friends Section -->
         <div class="card" style="padding:24px;margin-bottom:16px">
-            <h3 style="margin:0 0 16px;display:flex;align-items:center;gap:8px">
-                <span>👥</span> Amici
-            </h3>
+            <h3 style="margin:0 0 16px">Amici</h3>
 
             <div class="friend-add-section" style="margin-bottom:20px">
                 <p class="text-secondary" style="font-size:0.85rem;margin-bottom:8px">Aggiungi un amico tramite nickname:</p>

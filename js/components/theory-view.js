@@ -5,7 +5,7 @@ import { store } from '../store.js';
 import { navigate } from '../router.js';
 import { getTypeName } from './dashboard.js';
 
-const LEVEL_ICONS = { a1: '🌱', a2: '🌿', b1: '🌳', b2: '🔥', c1: '🎓' };
+const LEVEL_ICONS = { a1: 'A1', a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1' };
 
 export async function renderTheory() {
     setHeaderTitle('Teoria');
@@ -42,7 +42,6 @@ export async function renderTheory() {
     function render() {
         const page = renderPage(`
             <div class="theory-hero">
-                <div class="theory-hero-icon">📖</div>
                 <h2>Libreria di Teoria</h2>
                 <p>${totalCompleted} / ${totalTheory} lezioni completate</p>
                 <div class="fc-progress-bar" style="max-width:300px;margin:12px auto 0">
@@ -61,9 +60,8 @@ export async function renderTheory() {
 
             ${currentFilter === 'favorites' && totalFavorites === 0 ? `
                 <div class="theory-empty">
-                    <div class="theory-empty-icon">⭐</div>
                     <h3>Nessun preferito</h3>
-                    <p>Tocca la stella ☆ accanto a una lezione per aggiungerla ai preferiti!</p>
+                    <p>Tocca la stella accanto a una lezione per aggiungerla ai preferiti.</p>
                 </div>
             ` : `
                 <div class="theory-levels stagger-in" id="theory-list">
