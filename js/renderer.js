@@ -4,31 +4,35 @@ const main = () => document.getElementById('app-main');
 
 export function renderPage(html) {
     const container = main();
-    container.innerHTML = `<div class="page">${html}</div>`;
+    container.innerHTML = `<div class="page" style="visibility:hidden">${html}</div>`;
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Apply animations via JS style attribute (always triggers on any browser)
-    page.style.animation = 'pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
-    page.querySelectorAll('.exercise-page').forEach(el => {
-        el.style.animation = 'exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1)';
-    });
-    page.querySelectorAll('.lesson-section').forEach((el, i) => {
-        const d = Math.min(i * 0.06, 0.36);
-        el.style.animation = `slideInUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) ${d}s both`;
-    });
-    page.querySelectorAll('.mc-option').forEach((el, i) => {
-        el.style.animation = `slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.05}s both`;
-    });
-    page.querySelectorAll('.matching-item').forEach(el => {
-        el.style.animation = 'popIn 0.3s ease both';
-    });
-    page.querySelectorAll('.summary-card').forEach(el => {
-        el.style.animation = 'popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1)';
-    });
-    page.querySelectorAll('.fc-hero').forEach(el => {
-        el.style.animation = 'fadeIn 0.5s ease';
-    });
+    // rAF + setTimeout: guarantees browser has painted before animations are set.
+    // Elements hidden via visibility:hidden → animations start from opacity:0 → no flash.
+    requestAnimationFrame(() => setTimeout(() => {
+        page.style.visibility = '';
+        page.style.animation = 'pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
+        page.querySelectorAll('.exercise-page').forEach(el => {
+            el.style.animation = 'exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1)';
+        });
+        page.querySelectorAll('.lesson-section').forEach((el, i) => {
+            const d = Math.min(i * 0.06, 0.36);
+            el.style.animation = `slideInUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) ${d}s both`;
+        });
+        page.querySelectorAll('.mc-option').forEach((el, i) => {
+            el.style.animation = `slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.05}s both`;
+        });
+        page.querySelectorAll('.matching-item').forEach(el => {
+            el.style.animation = 'popIn 0.3s ease both';
+        });
+        page.querySelectorAll('.summary-card').forEach(el => {
+            el.style.animation = 'popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1)';
+        });
+        page.querySelectorAll('.fc-hero').forEach(el => {
+            el.style.animation = 'fadeIn 0.5s ease';
+        });
+    }, 0));
     return page;
 }
 
