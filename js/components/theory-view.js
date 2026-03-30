@@ -35,11 +35,16 @@ export async function renderTheory() {
 
     const totalTheory = levels.reduce((s, l) => s + l.theoryLessons.length, 0);
     const totalCompleted = levels.reduce((s, l) => s + l.completedCount, 0);
-    const totalFavorites = levels.reduce((s, l) => s + l.theoryLessons.filter(x => x.favorite).length, 0);
 
     let currentFilter = 'all';
 
     function render() {
+        // Re-read favorites from store each render
+        levels.forEach(level => {
+            level.theoryLessons.forEach(l => { l.favorite = store.isFavorite(l.id); });
+        });
+        const totalFavorites = levels.reduce((s, l) => s + l.theoryLessons.filter(x => x.favorite).length, 0);
+
         const page = renderPage(`
             <div class="theory-hero">
                 <h2>Libreria di Teoria</h2>
@@ -51,7 +56,7 @@ export async function renderTheory() {
 
             <div class="theory-filters" id="theory-filters">
                 <button class="fc-filter-btn ${currentFilter === 'all' ? 'active' : ''}" data-filter="all">Tutte</button>
-                <button class="fc-filter-btn ${currentFilter === 'favorites' ? 'active' : ''}" data-filter="favorites">⭐ Preferiti${totalFavorites > 0 ? ` (${totalFavorites})` : ''}</button>
+                <button class="fc-filter-btn ${currentFilter === 'favorites' ? 'active' : ''}" data-filter="favorites">Preferiti${totalFavorites > 0 ? ` (${totalFavorites})` : ''}</button>
                 <button class="fc-filter-btn ${currentFilter === 'grammar' ? 'active' : ''}" data-filter="grammar">Grammatica</button>
                 <button class="fc-filter-btn ${currentFilter === 'vocab' ? 'active' : ''}" data-filter="vocab">Vocabolario</button>
                 <button class="fc-filter-btn ${currentFilter === 'completed' ? 'active' : ''}" data-filter="completed">Completate</button>
@@ -118,12 +123,8 @@ export async function renderTheory() {
         page.querySelectorAll('.theory-fav-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 e.stopPropagation();
-                const lessonId = btn.dataset.fav;
-                store.toggleFavorite(lessonId);
-                // Update the button immediately
-                const isNowFav = store.isFavorite(lessonId);
-                btn.classList.toggle('active', isNowFav);
-                btn.textContent = isNowFav ? '★' : '☆';
+                store.toggleFavorite(btn.dataset.fav);
+                render();
             });
         });
 

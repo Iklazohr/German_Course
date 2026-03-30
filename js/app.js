@@ -122,7 +122,7 @@ if ('serviceWorker' in navigator) {
             banner.id = 'update-banner';
             banner.innerHTML = `
                 <div class="update-banner-content">
-                    <span>🔄 Nuova versione disponibile!</span>
+                    <span>Nuova versione disponibile</span>
                     <button id="update-btn">Aggiorna</button>
                     <button id="update-dismiss" class="update-dismiss">✕</button>
                 </div>
@@ -154,10 +154,17 @@ if ('serviceWorker' in navigator) {
 
     // When the new SW takes over, reload
     let refreshing = false;
-    navigator.serviceWorker.addEventListener('controllerchange', () => {
+    function doReload() {
         if (!refreshing) {
             refreshing = true;
             window.location.reload();
+        }
+    }
+    navigator.serviceWorker.addEventListener('controllerchange', doReload);
+    // Fallback: SW sends message after activating
+    navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data && event.data.type === 'SW_ACTIVATED') {
+            doReload();
         }
     });
 }

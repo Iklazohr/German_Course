@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v11';
+const CACHE_NAME = 'tedesco-facile-v12';
 
 // Listen for skip waiting message from the app
 self.addEventListener('message', (event) => {
@@ -12,7 +12,6 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => {
-                // Cache what we can, don't fail if some assets are missing
                 return cache.addAll([
                     './',
                     './index.html',
@@ -34,10 +33,9 @@ self.addEventListener('install', (event) => {
                 ]).catch(() => {});
             })
     );
-    // NO self.skipWaiting() here - let the app control when to activate
 });
 
-// Activate: delete old caches and claim clients
+// Activate: delete old caches, claim clients, and notify them to reload
 self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys()
@@ -46,6 +44,10 @@ self.addEventListener('activate', (event) => {
                     .map(key => caches.delete(key))
             ))
             .then(() => self.clients.claim())
+            .then(() => self.clients.matchAll())
+            .then(clients => {
+                clients.forEach(client => client.postMessage({ type: 'SW_ACTIVATED' }));
+            })
     );
 });
 
