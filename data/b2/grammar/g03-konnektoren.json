@@ -100,6 +100,36 @@
         { "de": "Die Wirtschaft wächst. Allerdings steigt auch die Inflation.", "it": "L'economia cresce. Tuttavia aumenta anche l'inflazione." },
         { "de": "Er wollte Arzt werden. Stattdessen wurde er Lehrer.", "it": "Voleva diventare medico. Invece è diventato insegnante." }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Panoramica: tipi di connettori e posizione del verbo",
+      "description": "Tabella riepilogativa di tutti i tipi di connettori con il loro effetto sull'ordine delle parole.",
+      "table": {
+        "headers": ["Tipo", "Connettore", "Posizione del verbo", "Esempio"],
+        "rows": [
+          ["Coordinante (Pos. 0)", "und, aber, oder, denn, sondern", "Posizione 2 (normale)", "Er ist müde, denn er hat gearbeitet."],
+          ["Subordinante", "weil, obwohl, dass, wenn, falls, damit, indem, sobald, nachdem, bevor, während, seitdem", "Fine della frase subordinata", "Er geht raus, obwohl es regnet."],
+          ["Avverbio di frase", "deshalb, trotzdem, allerdings, folglich, dennoch, hingegen, außerdem, stattdessen", "Posizione 2 (con inversione)", "Es regnet. Trotzdem geht er raus."],
+          ["Connettore doppio", "sowohl...als auch, weder...noch, entweder...oder, je...desto, zwar...aber", "Dipende dalla struttura", "Je mehr man übt, desto besser wird man."],
+          ["Infinitivo", "um...zu, ohne...zu, anstatt...zu", "Infinito alla fine", "Er arbeitet, um Geld zu verdienen."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Non confondere *deshalb* e *weil*! Hanno lo stesso significato (perciò / perché) ma strutture completamente diverse:\n\n- **weil** = congiunzione subordinante → verbo alla **fine**: *Ich bleibe zu Hause, **weil** es **regnet**.* (Resto a casa perché piove.)\n- **deshalb** = avverbio di frase → verbo in **posizione 2** con inversione: *Es regnet. **Deshalb bleibe** ich zu Hause.* (Piove. Perciò resto a casa.)\n\nErrore tipico: *~~Deshalb es regnet, bleibe ich zu Hause.~~* (SBAGLIATO! *deshalb* non manda il verbo alla fine!)\n\nLo stesso vale per le coppie: *obwohl* (subordinante) vs. *trotzdem* (avverbio), *damit* (subordinante, scopo) vs. *deshalb* (avverbio, conseguenza)."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "I connettori si dividono in tre categorie principali: coordinanti (posizione 0), subordinanti (verbo alla fine) e avverbi di frase (inversione).",
+        "La scelta del connettore determina automaticamente la posizione del verbo nella frase.",
+        "I connettori doppi (sowohl...als auch, je...desto, ecc.) aggiungono eleganza e precisione al discorso.",
+        "Al livello B2, è fondamentale variare i connettori: usa *allerdings* invece di *aber*, *folglich* invece di *deshalb*, *dennoch* invece di *trotzdem*.",
+        "*nämlich* non va mai in prima posizione! Si colloca dopo il verbo: *Ich bin nämlich krank.*"
+      ]
     }
   ]
 }

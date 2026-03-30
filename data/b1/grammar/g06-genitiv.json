@@ -87,6 +87,43 @@
         { "de": "Die Ergebnisse der Studie sind überraschend.", "it": "I risultati dello studio sono sorprendenti." },
         { "de": "Innerhalb der nächsten Woche müssen wir uns entscheiden.", "it": "Entro la prossima settimana dobbiamo decidere." }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Preposizioni con il genitivo",
+      "description": "Tutte le preposizioni più importanti che reggono il genitivo, con esempi.",
+      "table": {
+        "headers": ["Preposizione", "Significato", "Esempio", "Traduzione"],
+        "rows": [
+          ["wegen", "a causa di", "Wegen des Staus kam ich zu spät.", "A causa dell'ingorgo sono arrivato tardi."],
+          ["trotz", "nonostante", "Trotz der Hitze gingen wir wandern.", "Nonostante il caldo siamo andati a fare un'escursione."],
+          ["während", "durante", "Während des Films hat er geschlafen.", "Durante il film ha dormito."],
+          ["anstatt / statt", "invece di", "Statt eines Geschenks gab er Geld.", "Invece di un regalo ha dato soldi."],
+          ["innerhalb", "entro / all'interno di", "Innerhalb eines Jahres hat er Deutsch gelernt.", "Entro un anno ha imparato il tedesco."],
+          ["außerhalb", "fuori da / al di fuori di", "Außerhalb der Öffnungszeiten ist das Büro geschlossen.", "Fuori dall'orario di apertura l'ufficio è chiuso."],
+          ["oberhalb", "al di sopra di", "Oberhalb des Dorfes liegt ein See.", "Al di sopra del paese c'è un lago."],
+          ["unterhalb", "al di sotto di", "Unterhalb des Berges gibt es einen Parkplatz.", "Al di sotto della montagna c'è un parcheggio."],
+          ["aufgrund", "a causa di / in base a", "Aufgrund des Wetters fällt das Spiel aus.", "A causa del tempo la partita è annullata."],
+          ["infolge", "in seguito a", "Infolge des Unfalls wurde die Straße gesperrt.", "In seguito all'incidente la strada è stata chiusa."],
+          ["laut", "secondo", "Laut des Berichts steigen die Preise.", "Secondo il rapporto i prezzi aumentano."],
+          ["mithilfe", "con l'aiuto di", "Mithilfe eines Wörterbuchs kann man es übersetzen.", "Con l'aiuto di un dizionario si può tradurre."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Genitivo vs Dativo — errori da evitare:\n\n1. **Nella lingua parlata** molti tedeschi usano il dativo al posto del genitivo con *wegen* e *trotz*: *wegen dem Regen* invece di *wegen des Regens*. Nella lingua scritta e negli esami, usa **sempre il genitivo** con queste preposizioni!\n2. **Non dimenticare la desinenza -(e)s** sui sostantivi maschili e neutri: *des Mann**es***, *des Kind**es***, *des Auto**s***. Senza questa desinenza la frase è grammaticalmente scorretta.\n3. **I sostantivi della N-Deklination** al genitivo prendono **-(e)n**, non -(e)s: *des Student**en***, *des Kolleg**en***, *des Herz**ens***.\n4. **Non confondere *während* (preposizione + genitivo) con *während* (congiunzione + frase):** *Während des Essens* (durante il pasto) vs. *Während ich esse* (mentre mangio).\n5. **Il genitivo sta sempre DOPO il sostantivo** che determina (tranne con i nomi propri): *das Auto **des Mannes*** — ma ***Peters** Auto*."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il genitivo indica possesso e appartenenza: *das Auto des Mannes* (l'auto dell'uomo). Corrisponde a 'di' in italiano.",
+        "Gli articoli al genitivo: **des** (masch./neutro), **der** (femm./plurale). I sostantivi maschili e neutri aggiungono **-(e)s**.",
+        "Le preposizioni principali con il genitivo sono: *wegen, trotz, während, (an)statt, innerhalb, außerhalb, aufgrund*.",
+        "Nella lingua parlata il genitivo viene spesso sostituito da **von + dativo**, ma nella lingua scritta e formale il genitivo è preferito.",
+        "I nomi propri prendono solo **-s** senza articolo: *Marias Buch, Deutschlands Geschichte*. Se finiscono in -s, si usa l'apostrofo: *Hans' Auto*."
+      ]
     }
   ]
 }

@@ -61,6 +61,42 @@
           "it": "Informale: Controlla i numeri. — Formale: Potrebbe cortesemente verificare i numeri? — Accademico: Una verifica dei dati appare opportuna."
         }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Equivalenti formale / informale / accademico",
+      "description": "Tabella di corrispondenze rapide tra i tre registri principali del tedesco, utile come riferimento veloce.",
+      "table": {
+        "headers": ["Informale", "Formale", "Accademico", "Italiano"],
+        "rows": [
+          ["Ich find das gut.", "Ich halte das für positiv.", "Dies ist als positiv zu bewerten.", "Lo trovo positivo."],
+          ["Das geht nicht.", "Das ist leider nicht möglich.", "Dies erweist sich als nicht realisierbar.", "Non e possibile."],
+          ["Was meinst du?", "Was meinen Sie dazu?", "Wie ist Ihre Einschätzung?", "Cosa ne pensi?"],
+          ["Ich hab 'ne Frage.", "Ich hätte eine Frage.", "Es stellt sich die Frage, ob...", "Ho una domanda."],
+          ["Guck mal!", "Sehen Sie sich das an.", "Es sei auf Folgendes hingewiesen.", "Guarda!"],
+          ["Tschüss!", "Auf Wiedersehen.", "Mit freundlichen Grüßen", "Ciao! / Arrivederci"],
+          ["krass / echt cool", "beeindruckend / bemerkenswert", "von erheblicher Bedeutung", "forte / notevole"],
+          ["Was soll das?", "Könnten Sie das erläutern?", "Dies bedarf einer Erläuterung.", "Che significa?"],
+          ["Kein Plan.", "Das weiß ich leider nicht.", "Hierzu liegen keine Erkenntnisse vor.", "Non lo so."],
+          ["Ich mach das.", "Ich werde mich darum kümmern.", "Die Durchführung wird übernommen.", "Lo faccio io."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con i registri linguistici:\n\n1. **Mescolare i registri**: non usare 'krass' in una presentazione accademica, ne 'Es sei darauf hingewiesen' in una chat con amici.\n2. **Duzen troppo presto**: usare il 'du' con persone che non lo hanno offerto e una grave gaffe sociale in Germania. In caso di dubbio, usare sempre 'Sie'.\n3. **Iper-formalita con i giovani**: in ambienti informali, un eccesso di 'Sie' e linguaggio formale puo creare distanza indesiderata.\n4. **Nominalstil eccessivo**: lo stile nominale (tipico dell'accademico) diventa illeggibile se ogni verbo viene nominalizzato. Es.: *Die Durchführung der Überprüfung der Umsetzung...* e troppo!\n5. **E-mail: attenzione al registro**: iniziare con 'Hallo Herr/Frau X' e neutro-formale; 'Sehr geehrte/r' e molto formale; 'Hi' o 'Hey' solo se c'e gia confidenza."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il tedesco distingue nettamente tre registri: informale (parlato quotidiano), formale (professionale, scritto) e accademico (scientifico, istituzionale).",
+        "La scelta du/Sie e il marcatore sociale piu importante: sbagliare registro puo creare imbarazzo.",
+        "Il registro formale predilige passivo, nominalizzazioni e Konjunktiv II per cortesia.",
+        "Il registro informale usa particelle modali, contrazioni, ellissi e interiezioni.",
+        "Il registro accademico si distingue per attributi estesi, Funktionsverbgefüge, connettori sofisticati e stile impersonale.",
+        "In caso di dubbio, in tedesco e sempre meglio essere troppo formali che troppo informali."
+      ]
     }
   ]
 }

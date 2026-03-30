@@ -53,6 +53,45 @@
         { "de": "der Überblick", "it": "la panoramica", "emoji": "🗺️", "example_de": "Der Artikel bietet einen guten Überblick über den aktuellen Forschungsstand.", "example_it": "L'articolo offre una buona panoramica sullo stato attuale della ricerca." },
         { "de": "die Zusammenfassung", "it": "il riassunto", "emoji": "📋", "example_de": "Bitte lesen Sie zuerst die Zusammenfassung am Ende des Artikels.", "example_it": "Per favore, leggete prima il riassunto alla fine dell'articolo." }
       ]
+    },
+    {
+      "name": "Statistica e dati",
+      "words": [
+        { "de": "die Stichprobe", "it": "il campione (statistico)", "emoji": "🎲", "example_de": "Die Stichprobe umfasste 500 zufällig ausgewählte Teilnehmer.", "example_it": "Il campione comprendeva 500 partecipanti selezionati casualmente." },
+        { "de": "die Korrelation", "it": "la correlazione", "emoji": "📈", "example_de": "Es besteht eine signifikante Korrelation zwischen den beiden Variablen.", "example_it": "Esiste una correlazione significativa tra le due variabili." },
+        { "de": "der Mittelwert", "it": "la media, il valore medio", "emoji": "📊", "example_de": "Der Mittelwert der Ergebnisse liegt bei 7,3.", "example_it": "La media dei risultati e di 7,3." },
+        { "de": "die Abweichung", "it": "la deviazione, lo scarto", "emoji": "↔️", "example_de": "Die Standardabweichung zeigt die Streuung der Daten.", "example_it": "La deviazione standard indica la dispersione dei dati." },
+        { "de": "die Variable", "it": "la variabile", "emoji": "🔤", "example_de": "Die unabhängige Variable wurde systematisch verändert.", "example_it": "La variabile indipendente e stata modificata sistematicamente." },
+        { "de": "die Erhebung", "it": "la rilevazione, il sondaggio", "emoji": "📋", "example_de": "Die Datenerhebung erfolgte mittels standardisierter Fragebögen.", "example_it": "La rilevazione dei dati e avvenuta tramite questionari standardizzati." },
+        { "de": "die Signifikanz", "it": "la significativita (statistica)", "emoji": "⭐", "example_de": "Die statistische Signifikanz wurde bei einem p-Wert von 0,05 festgelegt.", "example_it": "La significativita statistica e stata fissata a un valore p di 0,05." },
+        { "de": "die Auswertung", "it": "l'elaborazione, la valutazione dei dati", "emoji": "🔍", "example_de": "Die Auswertung der Daten ergab überraschende Ergebnisse.", "example_it": "L'elaborazione dei dati ha prodotto risultati sorprendenti." }
+      ]
+    },
+    {
+      "name": "Etica della ricerca",
+      "words": [
+        { "de": "die Einwilligung", "it": "il consenso (informato)", "emoji": "✍️", "example_de": "Alle Teilnehmer gaben ihre schriftliche Einwilligung.", "example_it": "Tutti i partecipanti hanno dato il loro consenso scritto." },
+        { "de": "die Anonymisierung", "it": "l'anonimizzazione", "emoji": "🔒", "example_de": "Die Anonymisierung der Daten ist gesetzlich vorgeschrieben.", "example_it": "L'anonimizzazione dei dati e prescritta dalla legge." },
+        { "de": "das Plagiat", "it": "il plagio", "emoji": "🚫", "example_de": "Plagiat ist ein schwerer Verstoß gegen die wissenschaftliche Ethik.", "example_it": "Il plagio e una grave violazione dell'etica scientifica." },
+        { "de": "die Fälschung", "it": "la falsificazione", "emoji": "❌", "example_de": "Die Fälschung von Forschungsdaten führt zum Ausschluss aus der Wissenschaft.", "example_it": "La falsificazione dei dati di ricerca porta all'esclusione dal mondo scientifico." },
+        { "de": "die Transparenz", "it": "la trasparenza", "emoji": "🔍", "example_de": "Transparenz in der Forschung stärkt das Vertrauen der Öffentlichkeit.", "example_it": "La trasparenza nella ricerca rafforza la fiducia del pubblico." },
+        { "de": "der Interessenkonflikt", "it": "il conflitto di interessi", "emoji": "⚠️", "example_de": "Mögliche Interessenkonflikte müssen offengelegt werden.", "example_it": "I possibili conflitti di interessi devono essere dichiarati." },
+        { "de": "die Vertraulichkeit", "it": "la riservatezza", "emoji": "🤫", "example_de": "Die Vertraulichkeit der Patientendaten muss gewährleistet sein.", "example_it": "La riservatezza dei dati dei pazienti deve essere garantita." },
+        { "de": "die Ethikkommission", "it": "il comitato etico", "emoji": "⚖️", "example_de": "Das Projekt wurde von der Ethikkommission genehmigt.", "example_it": "Il progetto e stato approvato dal comitato etico." }
+      ]
+    },
+    {
+      "name": "Peer review",
+      "words": [
+        { "de": "die Begutachtung", "it": "la valutazione, la revisione", "emoji": "📝", "example_de": "Die Begutachtung des Manuskripts dauerte drei Monate.", "example_it": "La revisione del manoscritto e durata tre mesi." },
+        { "de": "der Gutachter", "it": "il revisore, il referee", "emoji": "👤", "example_de": "Die anonymen Gutachter empfahlen grundlegende Überarbeitungen.", "example_it": "I revisori anonimi hanno raccomandato modifiche sostanziali." },
+        { "de": "die Fachzeitschrift", "it": "la rivista specializzata", "emoji": "📰", "example_de": "Der Artikel erschien in einer renommierten Fachzeitschrift.", "example_it": "L'articolo e apparso in una rivista specializzata rinomata." },
+        { "de": "die Überarbeitung", "it": "la revisione, la rielaborazione", "emoji": "🔄", "example_de": "Nach der Überarbeitung wurde das Paper erneut eingereicht.", "example_it": "Dopo la rielaborazione, il paper e stato nuovamente presentato." },
+        { "de": "die Ablehnung", "it": "il rifiuto, il rigetto", "emoji": "🚫", "example_de": "Die Ablehnung des Manuskripts war sachlich begründet.", "example_it": "Il rifiuto del manoscritto era motivato in modo oggettivo." },
+        { "de": "die Annahme", "it": "l'accettazione", "emoji": "✅", "example_de": "Die Annahme zur Veröffentlichung erfolgte nach zwei Revisionsrunden.", "example_it": "L'accettazione per la pubblicazione e avvenuta dopo due cicli di revisione." },
+        { "de": "das Manuskript", "it": "il manoscritto", "emoji": "📄", "example_de": "Das Manuskript muss den Formatierungsrichtlinien der Zeitschrift entsprechen.", "example_it": "Il manoscritto deve rispettare le linee guida di formattazione della rivista." },
+        { "de": "die Reproduzierbarkeit", "it": "la riproducibilita", "emoji": "🔁", "example_de": "Die Reproduzierbarkeit der Ergebnisse ist ein Grundprinzip der Wissenschaft.", "example_it": "La riproducibilita dei risultati e un principio fondamentale della scienza." }
+      ]
     }
   ]
 }

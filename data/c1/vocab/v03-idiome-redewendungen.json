@@ -43,6 +43,45 @@
         { "de": "Schmetterlinge im Bauch haben", "it": "avere le farfalle nello stomaco", "emoji": "🦋", "example_de": "Jedes Mal, wenn ich sie sehe, habe ich Schmetterlinge im Bauch.", "example_it": "Ogni volta che la vedo, ho le farfalle nello stomaco." },
         { "de": "sich etwas zu Herzen nehmen", "it": "prendere a cuore qualcosa", "emoji": "❤️", "example_de": "Nimm dir die Kritik nicht so zu Herzen — sie war konstruktiv gemeint.", "example_it": "Non prendere la critica cosi a cuore — era intesa in modo costruttivo." }
       ]
+    },
+    {
+      "name": "Espressioni con animali",
+      "words": [
+        { "de": "da liegt der Hund begraben", "it": "qui sta il problema, il nocciolo della questione", "emoji": "🐕", "example_de": "Die Kosten sind zu hoch — da liegt der Hund begraben.", "example_it": "I costi sono troppo alti — qui sta il nocciolo della questione." },
+        { "de": "einen Bärenhunger haben", "it": "avere una fame da lupo", "emoji": "🐻", "example_de": "Nach der langen Wanderung hatte ich einen Bärenhunger.", "example_it": "Dopo la lunga escursione avevo una fame da lupo." },
+        { "de": "mit jemandem ein Hühnchen rupfen", "it": "avere un conto in sospeso con qualcuno", "emoji": "🐔", "example_de": "Mit dir habe ich noch ein Hühnchen zu rupfen!", "example_it": "Con te ho ancora un conto in sospeso!" },
+        { "de": "die Katze im Sack kaufen", "it": "comprare a scatola chiusa", "emoji": "🐱", "example_de": "Kauf nie die Katze im Sack — informiere dich vorher!", "example_it": "Non comprare mai a scatola chiusa — informati prima!" },
+        { "de": "bekannt sein wie ein bunter Hund", "it": "essere conosciuto da tutti", "emoji": "🐕‍🦺", "example_de": "In unserem Dorf ist er bekannt wie ein bunter Hund.", "example_it": "Nel nostro paese e conosciuto da tutti." },
+        { "de": "einen Kater haben", "it": "avere i postumi della sbornia", "emoji": "🐈", "example_de": "Nach der Party hatte er einen furchtbaren Kater.", "example_it": "Dopo la festa aveva dei terribili postumi della sbornia." },
+        { "de": "auf keinen grünen Zweig kommen", "it": "non riuscire a combinare nulla, non avere successo", "emoji": "🐛", "example_de": "Mit dieser Einstellung wirst du auf keinen grünen Zweig kommen.", "example_it": "Con questo atteggiamento non combinerai mai nulla." },
+        { "de": "den Stier bei den Hörnern packen", "it": "prendere il toro per le corna", "emoji": "🐂", "example_de": "Wir müssen den Stier bei den Hörnern packen und das Problem direkt angehen.", "example_it": "Dobbiamo prendere il toro per le corna e affrontare il problema direttamente." }
+      ]
+    },
+    {
+      "name": "Espressioni con colori",
+      "words": [
+        { "de": "ins Blaue fahren", "it": "andare senza meta, alla ventura", "emoji": "🔵", "example_de": "Am Wochenende fahren wir einfach ins Blaue.", "example_it": "Nel fine settimana andiamo semplicemente alla ventura." },
+        { "de": "blaumachen", "it": "marinare la scuola/il lavoro", "emoji": "🔵", "example_de": "Heute hat er wieder blaugemacht — er war gar nicht krank.", "example_it": "Oggi ha marinato di nuovo il lavoro — non era affatto malato." },
+        { "de": "sich grün und blau ärgern", "it": "arrabbiarsi moltissimo", "emoji": "🟢", "example_de": "Er hat sich grün und blau geärgert, als er die Nachricht hörte.", "example_it": "Si e arrabbiato moltissimo quando ha sentito la notizia." },
+        { "de": "rot sehen", "it": "vedere rosso, infuriarsi", "emoji": "🔴", "example_de": "Wenn er so etwas hört, sieht er rot.", "example_it": "Quando sente una cosa del genere, vede rosso." },
+        { "de": "eine weiße Weste haben", "it": "avere la fedina penale pulita, essere irreprensibile", "emoji": "⚪", "example_de": "Der Politiker behauptet, eine weiße Weste zu haben.", "example_it": "Il politico afferma di essere irreprensibile." },
+        { "de": "jemandem das Gelbe vom Ei sein", "it": "essere il massimo, l'ideale", "emoji": "🟡", "example_de": "Die Lösung ist nicht gerade das Gelbe vom Ei.", "example_it": "La soluzione non e propriamente l'ideale." },
+        { "de": "alles durch die rosarote Brille sehen", "it": "vedere tutto rosa, essere ottimisti", "emoji": "🩷", "example_de": "Frisch verliebt sieht man alles durch die rosarote Brille.", "example_it": "Da appena innamorati si vede tutto rosa." },
+        { "de": "schwarz auf weiß", "it": "nero su bianco, per iscritto", "emoji": "⬛", "example_de": "Ich habe es schwarz auf weiß — hier ist der Vertrag.", "example_it": "Ce l'ho nero su bianco — ecco il contratto." }
+      ]
+    },
+    {
+      "name": "Espressioni del mondo del lavoro",
+      "words": [
+        { "de": "die Fäden in der Hand halten", "it": "tenere le redini, dirigere", "emoji": "🧶", "example_de": "Die Projektleiterin hält alle Fäden in der Hand.", "example_it": "La responsabile del progetto tiene tutte le redini." },
+        { "de": "unter Druck stehen", "it": "essere sotto pressione", "emoji": "💨", "example_de": "Vor der Deadline stehen wir alle unter enormem Druck.", "example_it": "Prima della scadenza siamo tutti sotto un'enorme pressione." },
+        { "de": "den Karren aus dem Dreck ziehen", "it": "togliere le castagne dal fuoco, rimediare", "emoji": "🛞", "example_de": "Jetzt muss ich wieder den Karren aus dem Dreck ziehen.", "example_it": "Adesso devo di nuovo togliere le castagne dal fuoco." },
+        { "de": "etwas auf die Beine stellen", "it": "mettere in piedi qualcosa, organizzare", "emoji": "🦿", "example_de": "Das Team hat in kurzer Zeit ein beeindruckendes Projekt auf die Beine gestellt.", "example_it": "Il team ha messo in piedi un progetto impressionante in poco tempo." },
+        { "de": "am Ball bleiben", "it": "restare aggiornato, non mollare", "emoji": "⚽", "example_de": "In dieser Branche muss man am Ball bleiben.", "example_it": "In questo settore bisogna restare aggiornati." },
+        { "de": "jemandem den Rücken freihalten", "it": "coprire le spalle a qualcuno", "emoji": "🛡️", "example_de": "Mein Kollege hält mir den Rücken frei, damit ich das Projekt abschließen kann.", "example_it": "Il mio collega mi copre le spalle, cosi posso concludere il progetto." },
+        { "de": "auf der Strecke bleiben", "it": "restare indietro, essere sacrificato", "emoji": "🏁", "example_de": "Bei so viel Arbeit bleibt die Freizeit auf der Strecke.", "example_it": "Con cosi tanto lavoro, il tempo libero viene sacrificato." },
+        { "de": "jemanden ins Boot holen", "it": "coinvolgere qualcuno, portare a bordo", "emoji": "🚣", "example_de": "Wir sollten die Marketingabteilung mit ins Boot holen.", "example_it": "Dovremmo coinvolgere il reparto marketing." }
+      ]
     }
   ]
 }

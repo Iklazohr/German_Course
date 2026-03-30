@@ -42,6 +42,63 @@
         { "de": "Bitte geben Sie uns rechtzeitig Bescheid.", "it": "Per favore avvisateci per tempo." },
         { "de": "Der Direktor hat das Projekt in Gang gesetzt.", "it": "Il direttore ha avviato il progetto." }
       ]
+    },
+    {
+      "type": "examples",
+      "title": "FVG in contesti formali",
+      "content": "Esempi di Funktionsverbgefüge in testi giornalistici e accademici:",
+      "items": [
+        { "de": "Die Maßnahme wurde unter Beweis gestellt.", "it": "La misura è stata dimostrata." },
+        { "de": "Der Chef setzt seine Mitarbeiter ständig unter Druck.", "it": "Il capo mette costantemente sotto pressione i suoi collaboratori." },
+        { "de": "Die Opposition übt scharfe Kritik an der Regierung.", "it": "L'opposizione esercita una critica aspra nei confronti del governo." },
+        { "de": "Das neue Gesetz wird am 1. März in Kraft treten.", "it": "La nuova legge entrerà in vigore il 1 marzo." },
+        { "de": "Der Vertrag wurde zum Abschluss gebracht.", "it": "Il contratto è stato portato a termine." },
+        { "de": "Man muss diese Faktoren in Betracht ziehen.", "it": "Bisogna prendere in considerazione questi fattori." }
+      ]
+    },
+    {
+      "type": "tip",
+      "content": "**Come memorizzare i FVG:** Raggruppali per verbo funzionale! I verbi più comuni nei FVG sono: **stellen** (zur Verfügung stellen, unter Beweis stellen, in Frage stellen), **bringen** (zum Ausdruck bringen, zum Abschluss bringen, in Gang bringen), **nehmen** (in Anspruch nehmen, in Kauf nehmen, zur Kenntnis nehmen), **setzen** (in Gang setzen, unter Druck setzen, in Kraft setzen), **kommen** (in Frage kommen, in Betracht kommen, zum Einsatz kommen). Imparali come blocchi fissi, non parola per parola!"
+    },
+    {
+      "type": "quick-table",
+      "title": "I FVG più frequenti con i loro equivalenti semplici",
+      "description": "Tabella riepilogativa dei Funktionsverbgefüge più importanti per il livello B2.",
+      "table": {
+        "headers": ["FVG (formale)", "Verbo semplice", "Traduzione italiana"],
+        "rows": [
+          ["eine Entscheidung treffen", "entscheiden", "prendere una decisione"],
+          ["in Betracht ziehen", "berücksichtigen", "prendere in considerazione"],
+          ["zur Verfügung stehen", "verfügbar sein", "essere a disposizione"],
+          ["zur Verfügung stellen", "bereitstellen", "mettere a disposizione"],
+          ["zum Ausdruck bringen", "ausdrücken", "esprimere"],
+          ["in Anspruch nehmen", "nutzen", "usufruire di"],
+          ["in Kauf nehmen", "akzeptieren", "accettare (qualcosa di negativo)"],
+          ["in Kraft treten", "gültig werden", "entrare in vigore"],
+          ["Kritik üben (an + Dat.)", "kritisieren", "criticare"],
+          ["unter Druck setzen", "drängen", "mettere sotto pressione"],
+          ["in Gang setzen", "starten", "avviare / mettere in moto"],
+          ["zur Kenntnis nehmen", "erfahren / beachten", "prendere atto di"],
+          ["in Frage stellen", "bezweifeln", "mettere in discussione"],
+          ["Bescheid geben", "informieren", "informare / avvisare"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Non confondere FVG con significati simili ma preposizioni diverse:\n\n- **zur Verfügung *stehen*** = essere a disposizione (stato) vs. **zur Verfügung *stellen*** = mettere a disposizione (azione)\n- **in Frage *kommen*** = entrare in questione, essere possibile vs. **in Frage *stellen*** = mettere in discussione, dubitare\n- **in Kraft *treten*** = entrare in vigore (intransitivo) vs. **in Kraft *setzen*** = mettere in vigore (transitivo)\n\nIl verbo funzionale cambia il significato! Inoltre, non usare i FVG nel parlato informale: dire *Ich möchte eine Entscheidung treffen* tra amici suona troppo formale. Meglio: *Ich muss mich entscheiden.*"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "I Funktionsverbgefüge (FVG) sono combinazioni fisse di verbo funzionale + sostantivo (spesso con preposizione).",
+        "Il significato principale è portato dal sostantivo, il verbo serve solo come supporto grammaticale.",
+        "Sono tipici del tedesco formale: giornali, testi accademici, documenti legali, relazioni aziendali.",
+        "Ogni FVG ha un equivalente come verbo semplice, ma i due non sono intercambiabili nel registro.",
+        "Memorizzali come blocchi fissi raggruppandoli per verbo funzionale (stellen, bringen, nehmen, setzen, kommen).",
+        "Attenzione alle coppie con verbi diversi: *zur Verfügung stehen* (stato) vs. *zur Verfügung stellen* (azione)."
+      ]
     }
   ]
 }

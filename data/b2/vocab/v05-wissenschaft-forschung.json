@@ -47,6 +47,30 @@
         { "de": "analysieren", "it": "analizzare", "emoji": "📊", "example_de": "Die Wissenschaftler analysieren die gesammelten Daten.", "example_it": "Gli scienziati analizzano i dati raccolti." },
         { "de": "auswerten", "it": "valutare / elaborare (dati)", "emoji": "📈", "example_de": "Die Ergebnisse werden gerade ausgewertet.", "example_it": "I risultati sono in fase di elaborazione." }
       ]
+    },
+    {
+      "name": "Metodo scientifico",
+      "words": [
+        { "de": "die Beobachtung, -en", "it": "l'osservazione", "emoji": "👁️", "example_de": "Die Beobachtung der Tiere dauerte drei Monate.", "example_it": "L'osservazione degli animali è durata tre mesi." },
+        { "de": "die Variable, -n", "it": "la variabile", "emoji": "🔢", "example_de": "Die unabhängige Variable wurde systematisch verändert.", "example_it": "La variabile indipendente è stata modificata sistematicamente." },
+        { "de": "die Kontrollgruppe, -n", "it": "il gruppo di controllo", "emoji": "👥", "example_de": "Die Kontrollgruppe erhielt ein Placebo.", "example_it": "Il gruppo di controllo ha ricevuto un placebo." },
+        { "de": "die Reproduzierbarkeit", "it": "la riproducibilità", "emoji": "🔄", "example_de": "Die Reproduzierbarkeit der Ergebnisse ist entscheidend.", "example_it": "La riproducibilità dei risultati è fondamentale." },
+        { "de": "die Schlussfolgerung, -en", "it": "la conclusione", "emoji": "🎯", "example_de": "Welche Schlussfolgerung ziehen Sie aus den Daten?", "example_it": "Quale conclusione trae dai dati?" },
+        { "de": "die Fehlerquote, -n", "it": "il margine di errore", "emoji": "📉", "example_de": "Die Fehlerquote lag unter einem Prozent.", "example_it": "Il margine di errore era inferiore all'uno per cento." },
+        { "de": "überprüfen", "it": "verificare / controllare", "emoji": "✅", "example_de": "Die Hypothese muss noch überprüft werden.", "example_it": "L'ipotesi deve ancora essere verificata." }
+      ]
+    },
+    {
+      "name": "Pubblicazioni accademiche",
+      "words": [
+        { "de": "die Abhandlung, -en", "it": "il trattato / la dissertazione", "emoji": "📖", "example_de": "Er hat eine Abhandlung über Quantenphysik geschrieben.", "example_it": "Ha scritto un trattato sulla fisica quantistica." },
+        { "de": "der Lehrstuhl, -stühle", "it": "la cattedra (universitaria)", "emoji": "🎓", "example_de": "Sie hat den Lehrstuhl für Biologie übernommen.", "example_it": "Ha assunto la cattedra di biologia." },
+        { "de": "das Symposium, Symposien", "it": "il simposio / il convegno", "emoji": "🎤", "example_de": "Das Symposium findet in Berlin statt.", "example_it": "Il simposio si tiene a Berlino." },
+        { "de": "die Fußnote, -n", "it": "la nota a piè di pagina", "emoji": "📝", "example_de": "Die Quelle ist in der Fußnote angegeben.", "example_it": "La fonte è indicata nella nota a piè di pagina." },
+        { "de": "das Plagiat, -e", "it": "il plagio", "emoji": "🚫", "example_de": "Plagiat ist ein schweres akademisches Vergehen.", "example_it": "Il plagio è una grave infrazione accademica." },
+        { "de": "begutachten", "it": "valutare / esaminare (da esperti)", "emoji": "🔎", "example_de": "Der Artikel wird von zwei Experten begutachtet.", "example_it": "L'articolo viene valutato da due esperti." },
+        { "de": "die Forschungsförderung", "it": "il finanziamento della ricerca", "emoji": "💰", "example_de": "Die Forschungsförderung wurde um 20% erhöht.", "example_it": "Il finanziamento della ricerca è stato aumentato del 20%." }
+      ]
     }
   ]
 }

@@ -102,6 +102,39 @@
       "type": "comparison",
       "title": "Confronto con l'italiano",
       "content": "In italiano usiamo il participio come aggettivo soprattutto con il **participio passato** (porta chiusa, libro scritto, uovo cotto). Il **participio presente** come aggettivo è meno comune e limitato a forme fisse (acqua corrente, stella cadente).\n\nIn tedesco, **entrambi i participi** sono usati liberamente come aggettivi:\n\n- *il ragazzo che ride* → **der lachende Junge** (Partizip I)\n- *la porta chiusa* → **die geschlossene Tür** (Partizip II)\n\n**Differenza fondamentale:**\n- **Partizip I** = azione in corso (chi fa l'azione): *der lesende Student* = lo studente che legge\n- **Partizip II** = azione completata/subita: *das gelesene Buch* = il libro letto\n\nNota: il tedesco **declina** sempre il participio-aggettivo (*der lachend**e** Mann, ein lachend**es** Kind*), mentre in italiano il participio passato si accorda solo in genere e numero (*la porta chius**a**, i libri scritt**i***)."
+    },
+    {
+      "type": "quick-table",
+      "title": "Partizip I vs. Partizip II come aggettivi",
+      "description": "Confronto rapido tra i due participi usati come aggettivi attributivi.",
+      "table": {
+        "headers": ["Aspetto", "Partizip I", "Partizip II"],
+        "rows": [
+          ["Formazione", "Infinito + -d (lachend)", "ge- + radice + -t/-en (gelacht, geschrieben)"],
+          ["Significato", "Azione in corso / attiva", "Azione completata / passiva"],
+          ["Esempio", "der lesende Student", "das gelesene Buch"],
+          ["Traduzione", "lo studente che legge", "il libro letto"],
+          ["Equivalente italiano", "participio presente (raro)", "participio passato (comune)"],
+          ["Transitivi", "chi compie l'azione", "l'oggetto che subisce l'azione"],
+          ["Intransitivi", "azione in corso (der schlafende Hund)", "azione completata (der eingeschlafene Hund)"],
+          ["Registro", "comune sia nel parlato che nello scritto", "comune sia nel parlato che nello scritto"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Non confondere l'uso attributivo (davanti al sostantivo) con l'uso predicativo (dopo *sein*). Come aggettivo predicativo, il participio **non si declina**: *Das Kind ist lachend* (non *lachende*). Inoltre, il Partizip I di verbi transitivi ha significato **attivo** (*der lesende Mann* = l'uomo che legge), mentre il Partizip II ha significato **passivo** (*das gelesene Buch* = il libro che è stato letto). Scambiare i due cambia completamente il significato!"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il Partizip I (infinito + -d) esprime un'azione in corso: *der spielende Hund* = il cane che gioca.",
+        "Il Partizip II (ge- + -t/-en) esprime un'azione completata o subita: *die geöffnete Tür* = la porta aperta.",
+        "Entrambi i participi si declinano come normali aggettivi (con articolo determinativo, indeterminativo o senza articolo).",
+        "Gli attributi participiali estesi (erweiterte Partizipialattribute) sono tipici del tedesco scritto formale.",
+        "Per comprendere un attributo esteso, cerca il participio subito prima del sostantivo: tutto ciò che sta tra l'articolo e il participio descrive il sostantivo."
+      ]
     }
   ]
 }

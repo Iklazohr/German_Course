@@ -49,6 +49,30 @@
         { "de": "das Wohlbefinden", "it": "il benessere", "emoji": "😊", "example_de": "Regelmäßige Bewegung fördert das Wohlbefinden.", "example_it": "L'attività fisica regolare favorisce il benessere." },
         { "de": "die Achtsamkeit", "it": "la consapevolezza / la mindfulness", "emoji": "🌸", "example_de": "Achtsamkeit kann Stress reduzieren.", "example_it": "La mindfulness può ridurre lo stress." }
       ]
+    },
+    {
+      "name": "Salute mentale",
+      "words": [
+        { "de": "die psychische Erkrankung, -en", "it": "la malattia mentale / psichica", "emoji": "🧠", "example_de": "Psychische Erkrankungen werden oft stigmatisiert.", "example_it": "Le malattie mentali sono spesso stigmatizzate." },
+        { "de": "die Essstörung, -en", "it": "il disturbo alimentare", "emoji": "🍽️", "example_de": "Essstörungen betreffen vor allem junge Menschen.", "example_it": "I disturbi alimentari colpiscono soprattutto i giovani." },
+        { "de": "die Sucht, Süchte", "it": "la dipendenza", "emoji": "⛓️", "example_de": "Spielsucht ist eine anerkannte psychische Erkrankung.", "example_it": "La dipendenza dal gioco è una malattia psichica riconosciuta." },
+        { "de": "die Panikattacke, -n", "it": "l'attacco di panico", "emoji": "😱", "example_de": "Sie hatte ihre erste Panikattacke mit 18 Jahren.", "example_it": "Ha avuto il suo primo attacco di panico a 18 anni." },
+        { "de": "die Schlafstörung, -en", "it": "il disturbo del sonno", "emoji": "🌙", "example_de": "Schlafstörungen können viele Ursachen haben.", "example_it": "I disturbi del sonno possono avere molte cause." },
+        { "de": "die Belastbarkeit", "it": "la resistenza allo stress / la capacità di sopportazione", "emoji": "💪", "example_de": "Die Belastbarkeit hat ihre Grenzen.", "example_it": "La resistenza allo stress ha i suoi limiti." },
+        { "de": "überfordert", "it": "sopraffatto / sovraccarico", "emoji": "😩", "example_de": "Viele Eltern fühlen sich überfordert.", "example_it": "Molti genitori si sentono sopraffatti." }
+      ]
+    },
+    {
+      "name": "Terapia e trattamento",
+      "words": [
+        { "de": "die Psychotherapie", "it": "la psicoterapia", "emoji": "🛋️", "example_de": "Eine Psychotherapie kann mehrere Monate dauern.", "example_it": "Una psicoterapia può durare diversi mesi." },
+        { "de": "die Sitzung, -en", "it": "la seduta", "emoji": "🕐", "example_de": "Die Sitzung beim Therapeuten dauert 50 Minuten.", "example_it": "La seduta dallo psicoterapeuta dura 50 minuti." },
+        { "de": "das Medikament, -e", "it": "il farmaco / il medicinale", "emoji": "💊", "example_de": "Der Arzt hat ein neues Medikament verschrieben.", "example_it": "Il medico ha prescritto un nuovo farmaco." },
+        { "de": "die Heilung", "it": "la guarigione", "emoji": "🌟", "example_de": "Die Heilung ist ein langer Prozess.", "example_it": "La guarigione è un processo lungo." },
+        { "de": "die Selbsthilfegruppe, -n", "it": "il gruppo di auto-aiuto", "emoji": "🤝", "example_de": "In der Selbsthilfegruppe tauschen sich Betroffene aus.", "example_it": "Nel gruppo di auto-aiuto le persone coinvolte si confrontano." },
+        { "de": "die Rehabilitation", "it": "la riabilitazione", "emoji": "🏥", "example_de": "Nach der Operation folgt eine Rehabilitation.", "example_it": "Dopo l'operazione segue una riabilitazione." },
+        { "de": "verschreiben", "it": "prescrivere", "emoji": "📝", "example_de": "Der Arzt hat ihr Antidepressiva verschrieben.", "example_it": "Il medico le ha prescritto degli antidepressivi." }
+      ]
     }
   ]
 }

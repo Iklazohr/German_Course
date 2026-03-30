@@ -61,6 +61,44 @@
           "it": "Rifacendosi alla teoria del capitale di Bourdieu, nel prosieguo si esaminerà in che misura il capitale culturale influenzi l'accesso all'istruzione superiore."
         }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Frasi accademiche essenziali per ogni sezione del testo",
+      "description": "Espressioni chiave organizzate per la sezione del testo accademico in cui si utilizzano.",
+      "table": {
+        "headers": ["Sezione", "Espressione tedesca", "Traduzione italiana"],
+        "rows": [
+          ["Introduzione", "Die vorliegende Arbeit befasst sich mit...", "Il presente lavoro si occupa di..."],
+          ["Introduzione", "Ziel der Untersuchung ist es, ... zu ...", "Obiettivo dell'indagine e ..."],
+          ["Introduzione", "Im Folgenden soll untersucht werden, inwieweit...", "Nel prosieguo si esaminera in che misura..."],
+          ["Stato dell'arte", "Bisherige Forschungen haben gezeigt, dass...", "Le ricerche finora condotte hanno dimostrato che..."],
+          ["Stato dell'arte", "Es besteht weitgehend Einigkeit darüber, dass...", "Vi e ampio consenso sul fatto che..."],
+          ["Metodo", "Für die Untersuchung wurde folgende Methode gewählt...", "Per l'indagine e stato scelto il seguente metodo..."],
+          ["Risultati", "Aus den Daten geht hervor, dass...", "Dai dati emerge che..."],
+          ["Risultati", "Die Ergebnisse bestätigen / widerlegen die Hypothese.", "I risultati confermano / confutano l'ipotesi."],
+          ["Discussione", "Dem ist jedoch entgegenzuhalten, dass...", "A cio si puo tuttavia obiettare che..."],
+          ["Discussione", "Dies steht im Widerspruch zu...", "Cio e in contraddizione con..."],
+          ["Conclusione", "Zusammenfassend lässt sich feststellen, dass...", "Riassumendo si puo constatare che..."],
+          ["Conclusione", "Es bleibt festzuhalten, dass...", "Resta da constatare che..."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni nella scrittura accademica tedesca:\n\n1. **Uso eccessivo di 'ich'**: lo stile accademico tedesco e impersonale. Evitate 'Ich denke, dass...' e preferite 'Es ist anzunehmen, dass...' o 'Man kann davon ausgehen, dass...'.\n2. **Affermazioni troppo categoriche**: non scrivete 'Das beweist, dass...' (Cio dimostra che...) ma piuttosto 'Die Ergebnisse deuten darauf hin, dass...' (I risultati indicano che...). L'hedging e fondamentale!\n3. **Mancanza di connettori**: ogni passaggio logico deve essere segnalato. Non saltate da un'idea all'altra senza 'Darüber hinaus', 'Demgegenüber', 'Folglich', ecc.\n4. **Konjunktiv I dimenticato**: nel discorso indiretto accademico si usa il Konjunktiv I: 'Müller behauptet, die These *sei* widerlegt' (non 'ist').\n5. **Registro troppo colloquiale**: evitate particelle modali (ja, doch, halt), contrazioni ('ne, hab) e interiezioni nel testo accademico."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "La scrittura accademica tedesca si caratterizza per oggettivita, impersonalita e rigore argomentativo.",
+        "L'hedging (attenuazione) e essenziale: si usano espressioni come 'Es scheint, dass...', 'Die Ergebnisse deuten darauf hin, dass...'.",
+        "Per citare fonti: 'Laut + Dat.', 'X zufolge', 'Wie X betont/feststellt', 'In Anlehnung an + Akk.'.",
+        "I connettori strutturano l'argomentazione: sequenza (erstens, zweitens), aggiunta (darüber hinaus), contrasto (demgegenüber), causa (aufgrund), conseguenza (folglich).",
+        "Si evita il riferimento diretto all'autore usando passivo, 'man', 'es' impersonale e costruzioni con 'lassen'.",
+        "Il Konjunktiv I e obbligatorio nel discorso indiretto accademico."
+      ]
     }
   ]
 }

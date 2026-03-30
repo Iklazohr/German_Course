@@ -94,6 +94,37 @@
         { "de": "Die ständig wachsende Zahl der Studierenden stellt die Universität vor Herausforderungen.", "it": "Il numero sempre crescente di studenti pone l'universita di fronte a sfide." },
         { "de": "Ein auf jahrelanger Forschung basierendes Ergebnis lässt sich nicht leicht widerlegen.", "it": "Un risultato basato su anni di ricerca non si lascia confutare facilmente." }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Come 'spacchettare' un attributo esteso",
+      "description": "Schema per convertire un attributo esteso in una frase relativa e viceversa. Parti sempre dal sostantivo finale e risali verso l'articolo.",
+      "table": {
+        "headers": ["Passo", "Azione", "Esempio"],
+        "rows": [
+          ["1", "Trova articolo + sostantivo", "der ... Plan"],
+          ["2", "Il participio diventa verbo nella relativa", "empfohlene -> empfohlen wird / der Plan, der ... empfohlen wird"],
+          ["3", "Le informazioni tra articolo e participio diventano il corpo della relativa", "von vielen Experten -> der Plan, der von vielen Experten empfohlen wird"],
+          ["4", "Partizip I -> relativa attiva al presente", "die steigenden Preise -> die Preise, die steigen"],
+          ["5", "Partizip II -> relativa passiva", "die veröffentlichten Ergebnisse -> die Ergebnisse, die veröffentlicht wurden"],
+          ["6", "Aggettivo semplice -> relativa con sein", "das wichtige Thema -> das Thema, das wichtig ist"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con gli attributi estesi:\n\n1. **Declinazione sbagliata del participio**: il participio deve concordare in genere, numero e caso con il sostantivo. Es.: *die von Experten empfohlene**n** Maßnahme**n*** (plurale accusativo!).\n2. **Ordine errato**: le informazioni aggiuntive vanno SEMPRE tra l'articolo e il participio, mai dopo il sostantivo.\n3. **Attributi troppo lunghi**: evitate di superare le 6-7 parole tra articolo e sostantivo nei vostri testi. Altrimenti usate una proposizione relativa.\n4. **Confusione Partizip I / Partizip II**: Partizip I = azione in corso (*die wachsende Nachfrage* - la domanda che cresce); Partizip II = azione completata o passiva (*die abgeschlossene Studie* - lo studio concluso)."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Gli attributi estesi si collocano tra articolo e sostantivo e condensano un'intera proposizione relativa.",
+        "Il Partizip I (steigend, wachsend) esprime azioni in corso; il Partizip II (veröffentlicht, gegründet) esprime azioni completate o passive.",
+        "Per decifrare un attributo esteso complesso, parti dal sostantivo e risali a ritroso verso l'articolo.",
+        "Per convertire: il participio diventa verbo coniugato, si aggiunge un pronome relativo e le informazioni formano il corpo della relativa.",
+        "Sono tipici del tedesco formale, accademico e giornalistico. Usali con moderazione nei tuoi testi."
+      ]
     }
   ]
 }

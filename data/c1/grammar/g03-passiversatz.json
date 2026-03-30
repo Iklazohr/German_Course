@@ -99,6 +99,36 @@
         { "de": "Der Fehler ist kaum zu erkennen.", "it": "L'errore e quasi impossibile da individuare." },
         { "de": "Man sollte diese Aspekte nicht unterschätzen.", "it": "Non si dovrebbero sottovalutare questi aspetti." }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Le 5 alternative al passivo a confronto",
+      "description": "Confronto sinottico di tutte le Passiversatzformen con la stessa frase di partenza: 'Das Problem kann gelöst werden.' (Il problema puo essere risolto.)",
+      "table": {
+        "headers": ["Forma alternativa", "Struttura", "Esempio", "Registro / Note"],
+        "rows": [
+          ["man + attivo", "man + verbo attivo", "Man kann das Problem lösen.", "Universale, semplice, parlato e scritto"],
+          ["sich lassen + Infinitiv", "Soggetto + lässt sich + Infinitiv", "Das Problem lässt sich lösen.", "Elegante, accademico, indica possibilita"],
+          ["sein + zu + Infinitiv", "Soggetto + ist + zu + Infinitiv", "Das Problem ist zu lösen.", "Formale, puo indicare obbligo O possibilita"],
+          ["Aggettivo in -bar", "Soggetto + ist + Agg. in -bar", "Das Problem ist lösbar.", "Conciso, indica possibilita, stile nominale"],
+          ["Verbo riflessivo", "Soggetto + verbo riflessivo", "Das Problem löst sich (von selbst).", "Idiomatico, caso per caso, non sempre applicabile"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con le alternative al passivo:\n\n1. **sein + zu + Infinitiv: obbligo o possibilita?** Dipende dal contesto. Con *unbedingt, sofort, dringend* = obbligo; con *leicht, kaum, schwer, gut* = possibilita. Es.: *Die Arbeit ist sofort zu erledigen* (obbligo) vs. *Das Ergebnis ist leicht zu erkennen* (possibilita).\n2. **sich lassen NON funziona con tutti i verbi**: funziona solo con verbi che hanno un significato passivo logico. *Das lässt sich machen* (ok), ma non *Er lässt sich krank* (sbagliato!).\n3. **Non tutti i verbi formano aggettivi in -bar**: funziona solo con verbi transitivi. *essbar, machbar, lesbar* (ok), ma non *schlafbar* o *gehbar* (sbagliato!).\n4. **Variare le forme!** Un testo che usa solo *man* risulta monotono. Alterna le diverse alternative per uno stile maturo."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il tedesco offre 5 principali alternative al passivo con werden: man, sich lassen, sein + zu + Infinitiv, aggettivi in -bar e verbi riflessivi.",
+        "Queste forme sono preferite nel tedesco accademico e formale per rendere il testo piu elegante e vario.",
+        "La scelta tra le forme dipende dal registro (formale/informale), dal significato (possibilita/obbligo) e dallo stile desiderato.",
+        "sein + zu + Infinitiv puo esprimere sia obbligo che possibilita: il contesto disambigua.",
+        "La variazione stilistica tra passivo e le sue alternative e segno di maturita linguistica a livello C1."
+      ]
     }
   ]
 }

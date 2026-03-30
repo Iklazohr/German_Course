@@ -43,6 +43,36 @@
         { "de": "sich wundern", "it": "meravigliarsi / stupirsi", "emoji": "😲", "example_de": "Ich wundere mich über seine Reaktion.", "example_it": "Mi stupisco della sua reazione." },
         { "de": "sich langweilen", "it": "annoiarsi", "emoji": "😑", "example_de": "Die Kinder langweilen sich im Unterricht.", "example_it": "I bambini si annoiano a lezione." }
       ]
+    },
+    {
+      "name": "Emozioni complesse",
+      "words": [
+        { "de": "die Sehnsucht", "it": "la nostalgia / il desiderio ardente", "emoji": "💫", "example_de": "Er hat Sehnsucht nach seiner Heimat.", "example_it": "Ha nostalgia della sua patria." },
+        { "de": "die Eifersucht", "it": "la gelosia", "emoji": "💚", "example_de": "Eifersucht ist ein schlechter Ratgeber.", "example_it": "La gelosia è una cattiva consigliera." },
+        { "de": "das Mitgefühl", "it": "la compassione / l'empatia", "emoji": "🤲", "example_de": "Sie zeigt viel Mitgefühl für andere.", "example_it": "Mostra molta compassione per gli altri." },
+        { "de": "die Verzweiflung", "it": "la disperazione", "emoji": "😩", "example_de": "In seiner Verzweiflung wusste er nicht weiter.", "example_it": "Nella sua disperazione non sapeva come andare avanti." },
+        { "de": "die Erleichterung", "it": "il sollievo", "emoji": "😮‍💨", "example_de": "Nach der Prüfung fühlte ich große Erleichterung.", "example_it": "Dopo l'esame ho provato grande sollievo." },
+        { "de": "der Neid", "it": "l'invidia", "emoji": "👀", "example_de": "Neid ist ein schlechtes Gefühl.", "example_it": "L'invidia è un brutto sentimento." },
+        { "de": "die Scham", "it": "la vergogna", "emoji": "😳", "example_de": "Er wurde rot vor Scham.", "example_it": "È diventato rosso per la vergogna." },
+        { "de": "die Gelassenheit", "it": "la serenità / la calma interiore", "emoji": "🧘", "example_de": "Mit den Jahren hat sie mehr Gelassenheit gewonnen.", "example_it": "Con gli anni ha acquisito più serenità." },
+        { "de": "die Reue", "it": "il rimorso / il pentimento", "emoji": "😔", "example_de": "Er empfindet Reue für seine Taten.", "example_it": "Prova rimorso per le sue azioni." },
+        { "de": "die Bewunderung", "it": "l'ammirazione", "emoji": "🌟", "example_de": "Ich habe große Bewunderung für ihren Mut.", "example_it": "Ho grande ammirazione per il suo coraggio." }
+      ]
+    },
+    {
+      "name": "Relazioni interpersonali",
+      "words": [
+        { "de": "sich vertragen", "it": "andare d'accordo / riconciliarsi", "emoji": "🤝", "example_de": "Nach dem Streit haben sie sich wieder vertragen.", "example_it": "Dopo il litigio si sono riconciliati." },
+        { "de": "sich streiten", "it": "litigare", "emoji": "😡", "example_de": "Die Geschwister streiten sich oft.", "example_it": "I fratelli litigano spesso." },
+        { "de": "jemanden vermissen", "it": "sentire la mancanza di qualcuno", "emoji": "💔", "example_de": "Ich vermisse meine Familie sehr.", "example_it": "Sento molto la mancanza della mia famiglia." },
+        { "de": "sich versöhnen", "it": "fare pace / riconciliarsi", "emoji": "🕊️", "example_de": "Sie haben sich nach einem langen Streit versöhnt.", "example_it": "Si sono riconciliati dopo un lungo litigio." },
+        { "de": "vertrauen", "it": "fidarsi", "emoji": "🔐", "example_de": "Ich vertraue dir vollkommen.", "example_it": "Mi fido completamente di te." },
+        { "de": "enttäuschen", "it": "deludere", "emoji": "😞", "example_de": "Du hast mich sehr enttäuscht.", "example_it": "Mi hai deluso molto." },
+        { "de": "unterstützen", "it": "sostenere / supportare", "emoji": "🫂", "example_de": "Meine Freunde unterstützen mich immer.", "example_it": "I miei amici mi sostengono sempre." },
+        { "de": "sich entschuldigen", "it": "scusarsi", "emoji": "🙇", "example_de": "Er hat sich bei ihr entschuldigt.", "example_it": "Si è scusato con lei." },
+        { "de": "respektieren", "it": "rispettare", "emoji": "🙏", "example_de": "Man muss die Meinung anderer respektieren.", "example_it": "Bisogna rispettare l'opinione degli altri." },
+        { "de": "die Freundschaft", "it": "l'amicizia", "emoji": "👫", "example_de": "Unsere Freundschaft ist mir sehr wichtig.", "example_it": "La nostra amicizia è molto importante per me." }
+      ]
     }
   ]
 }

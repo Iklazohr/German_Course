@@ -43,6 +43,45 @@
         { "de": "verbrauchen", "it": "consumare", "emoji": "📊", "example_de": "Wir verbrauchen zu viel Energie.", "example_it": "Consumiamo troppa energia." },
         { "de": "reduzieren", "it": "ridurre", "emoji": "📉", "example_de": "Wir müssen unseren Energieverbrauch reduzieren.", "example_it": "Dobbiamo ridurre il nostro consumo energetico." }
       ]
+    },
+    {
+      "name": "Energia rinnovabile",
+      "words": [
+        { "de": "die Windenergie", "it": "l'energia eolica", "emoji": "💨", "example_de": "Windenergie ist in Norddeutschland sehr verbreitet.", "example_it": "L'energia eolica è molto diffusa nella Germania del Nord." },
+        { "de": "das Windrad", "it": "la pala eolica", "emoji": "🌀", "example_de": "Auf dem Feld stehen viele Windräder.", "example_it": "Nel campo ci sono molte pale eoliche." },
+        { "de": "die Solarzelle", "it": "la cella solare / il pannello solare", "emoji": "☀️", "example_de": "Wir haben Solarzellen auf dem Dach installiert.", "example_it": "Abbiamo installato pannelli solari sul tetto." },
+        { "de": "die Wasserkraft", "it": "l'energia idroelettrica", "emoji": "💧", "example_de": "Wasserkraft ist eine der ältesten Energiequellen.", "example_it": "L'energia idroelettrica è una delle fonti energetiche più antiche." },
+        { "de": "die Energiewende", "it": "la transizione energetica", "emoji": "🔄", "example_de": "Die Energiewende ist ein wichtiges Ziel in Deutschland.", "example_it": "La transizione energetica è un obiettivo importante in Germania." },
+        { "de": "das Kraftwerk", "it": "la centrale elettrica", "emoji": "🏭", "example_de": "Das alte Kohlekraftwerk wird geschlossen.", "example_it": "La vecchia centrale a carbone viene chiusa." },
+        { "de": "der Strom", "it": "la corrente elettrica", "emoji": "⚡", "example_de": "Unser Strom kommt aus erneuerbaren Quellen.", "example_it": "La nostra corrente proviene da fonti rinnovabili." },
+        { "de": "die Energiequelle", "it": "la fonte energetica", "emoji": "🔋", "example_de": "Wir brauchen neue Energiequellen.", "example_it": "Abbiamo bisogno di nuove fonti energetiche." }
+      ]
+    },
+    {
+      "name": "Rifiuti e riciclo",
+      "words": [
+        { "de": "der Abfall", "it": "il rifiuto / lo scarto", "emoji": "🗑️", "example_de": "Bitte werfen Sie den Abfall in die richtige Tonne.", "example_it": "Per favore getti il rifiuto nel bidone giusto." },
+        { "de": "die Mülltrennung", "it": "la raccolta differenziata", "emoji": "🗂️", "example_de": "In Deutschland ist die Mülltrennung sehr streng.", "example_it": "In Germania la raccolta differenziata è molto rigorosa." },
+        { "de": "der Plastikmüll", "it": "i rifiuti di plastica", "emoji": "🥤", "example_de": "Plastikmüll ist ein großes Problem für die Meere.", "example_it": "I rifiuti di plastica sono un grande problema per i mari." },
+        { "de": "die Verpackung", "it": "l'imballaggio / la confezione", "emoji": "📦", "example_de": "Wir sollten weniger Verpackung verwenden.", "example_it": "Dovremmo usare meno imballaggi." },
+        { "de": "der Restmüll", "it": "i rifiuti indifferenziati", "emoji": "⬛", "example_de": "Der Restmüll kommt in die schwarze Tonne.", "example_it": "I rifiuti indifferenziati vanno nel bidone nero." },
+        { "de": "das Pfand", "it": "la cauzione / il vuoto a rendere", "emoji": "🍾", "example_de": "In Deutschland gibt es Pfand auf Flaschen.", "example_it": "In Germania c'è la cauzione sulle bottiglie." },
+        { "de": "die Deponie", "it": "la discarica", "emoji": "🏔️", "example_de": "Immer weniger Müll landet auf der Deponie.", "example_it": "Sempre meno rifiuti finiscono in discarica." },
+        { "de": "wiederverwenden", "it": "riutilizzare", "emoji": "🔁", "example_de": "Man kann viele Materialien wiederverwenden.", "example_it": "Si possono riutilizzare molti materiali." }
+      ]
+    },
+    {
+      "name": "Cambiamento climatico",
+      "words": [
+        { "de": "der Treibhauseffekt", "it": "l'effetto serra", "emoji": "🌡️", "example_de": "Der Treibhauseffekt erwärmt die Erde.", "example_it": "L'effetto serra riscalda la Terra." },
+        { "de": "die Überschwemmung", "it": "l'alluvione / l'inondazione", "emoji": "🌊", "example_de": "Überschwemmungen werden durch den Klimawandel häufiger.", "example_it": "Le alluvioni diventano più frequenti a causa del cambiamento climatico." },
+        { "de": "die Dürre", "it": "la siccità", "emoji": "🏜️", "example_de": "Die Dürre hat die Ernte zerstört.", "example_it": "La siccità ha distrutto il raccolto." },
+        { "de": "das Treibhausgas", "it": "il gas serra", "emoji": "💨", "example_de": "Wir müssen die Treibhausgase reduzieren.", "example_it": "Dobbiamo ridurre i gas serra." },
+        { "de": "schmelzen", "it": "sciogliersi / fondere", "emoji": "🧊", "example_de": "Die Gletscher schmelzen immer schneller.", "example_it": "I ghiacciai si sciolgono sempre più velocemente." },
+        { "de": "der Meeresspiegel", "it": "il livello del mare", "emoji": "🌊", "example_de": "Der Meeresspiegel steigt jedes Jahr.", "example_it": "Il livello del mare sale ogni anno." },
+        { "de": "die Naturkatastrophe", "it": "la catastrofe naturale", "emoji": "⛈️", "example_de": "Naturkatastrophen nehmen weltweit zu.", "example_it": "Le catastrofi naturali aumentano in tutto il mondo." },
+        { "de": "klimaneutral", "it": "a impatto climatico zero", "emoji": "🌿", "example_de": "Bis 2045 will Deutschland klimaneutral sein.", "example_it": "Entro il 2045 la Germania vuole essere a impatto climatico zero." }
+      ]
     }
   ]
 }

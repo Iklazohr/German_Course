@@ -82,6 +82,42 @@
       "type": "comparison",
       "title": "Confronto con il condizionale italiano",
       "content": "Il Konjunktiv II corrisponde sia al **condizionale presente** che al **congiuntivo imperfetto** italiano:\n\n- *Ich würde kommen* = **Verrei** (condizionale)\n- *Wenn ich könnte* = **Se potessi** (congiuntivo imperfetto)\n\nIn italiano il periodo ipotetico usa congiuntivo + condizionale: *Se avessi tempo, verrei*. In tedesco entrambe le parti usano il Konjunktiv II: *Wenn ich Zeit hätte, würde ich kommen*.\n\nAttenzione: per la cortesia, il tedesco usa il Konjunktiv II dove l'italiano usa spesso il condizionale: *Könnten Sie...?* = *Potrebbe...?*"
+    },
+    {
+      "type": "quick-table",
+      "title": "Forme del Konjunktiv II dei verbi più comuni",
+      "description": "Tabella rapida con le forme del Konjunktiv II che devi assolutamente conoscere.",
+      "table": {
+        "headers": ["Infinito", "ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+        "rows": [
+          ["sein", "wäre", "wär(e)st", "wäre", "wären", "wär(e)t", "wären"],
+          ["haben", "hätte", "hättest", "hätte", "hätten", "hättet", "hätten"],
+          ["werden", "würde", "würdest", "würde", "würden", "würdet", "würden"],
+          ["können", "könnte", "könntest", "könnte", "könnten", "könntet", "könnten"],
+          ["müssen", "müsste", "müsstest", "müsste", "müssten", "müsstet", "müssten"],
+          ["dürfen", "dürfte", "dürftest", "dürfte", "dürften", "dürftet", "dürften"],
+          ["sollen", "sollte", "solltest", "sollte", "sollten", "solltet", "sollten"],
+          ["wissen", "wüsste", "wüsstest", "wüsste", "wüssten", "wüsstet", "wüssten"],
+          ["kommen", "käme", "kämest", "käme", "kämen", "kämet", "kämen"],
+          ["gehen", "ginge", "gingest", "ginge", "gingen", "ginget", "gingen"],
+          ["geben", "gäbe", "gäbest", "gäbe", "gäben", "gäbet", "gäben"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con il Konjunktiv II:\n\n1. **Non dire *würde sein* o *würde haben*!** Usa sempre le forme dirette: *wäre* e *hätte*. Dire *Ich würde glücklich sein* suona molto innaturale; di' *Ich wäre glücklich*.\n2. **Non confondere *sollte* (Konjunktiv II) con *sollte* (Präteritum).** In pratica le forme coincidono, ma il significato dipende dal contesto: *Du solltest mehr lernen* = Dovresti studiare di più (consiglio, Konj. II).\n3. **Non usare il Konjunktiv II con *wenn* per condizioni reali!** Per le condizioni reali usa l'indicativo: *Wenn es regnet, bleibe ich zu Hause* (Se piove, resto a casa). Il Konjunktiv II è solo per situazioni irreali: *Wenn es regnen würde, würde ich zu Hause bleiben* (Se piovesse, resterei a casa).\n4. **Nella frase con *wenn*, il verbo coniugato va alla fine!** *Wenn ich Zeit **hätte*** — non *Wenn ich hätte Zeit*."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il Konjunktiv II si usa per desideri, ipotesi, consigli e cortesia — corrisponde al condizionale e al congiuntivo italiano.",
+        "La forma più versatile è **würde + infinito**, ma per *sein*, *haben* e i verbi modali usa sempre le forme dirette (wäre, hätte, könnte, ecc.).",
+        "Le frasi condizionali si costruiscono con **wenn + Konjunktiv II** (verbo alla fine) nella subordinata e **Konjunktiv II** nella principale.",
+        "Le costruzioni speciali come *um...zu*, *ohne...zu* e *anstatt...zu* non richiedono il Konjunktiv II.",
+        "Nella lingua parlata *würde + infinito* è sempre più diffuso, ma evita *würde sein/haben* — suonano innaturali."
+      ]
     }
   ]
 }

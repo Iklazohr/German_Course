@@ -87,6 +87,37 @@
       "type": "comparison",
       "title": "Confronto con il si passivante italiano",
       "content": "L'italiano usa spesso il **si passivante** dove il tedesco usa il passivo:\n\n- *Qui si parla tedesco* = **Hier wird Deutsch gesprochen.**\n- *Si vendono biglietti* = **Tickets werden verkauft.**\n- *Si dice che...* = **Es wird gesagt, dass...**\n\nIn tedesco, il **man** + attivo è un'alternativa comune al passivo:\n- *Man spricht hier Deutsch.* = *Hier wird Deutsch gesprochen.*\n\nL'italiano non distingue tra passivo d'azione e di stato come il tedesco: *La porta è aperta* può essere sia azione che stato, mentre in tedesco *Die Tür wird geöffnet* (azione) ≠ *Die Tür ist geöffnet* (stato)."
+    },
+    {
+      "type": "quick-table",
+      "title": "Vorgangspassiv vs Zustandspassiv a confronto",
+      "description": "Confronto diretto tra il passivo d'azione (werden + Partizip II) e il passivo di stato (sein + Partizip II).",
+      "table": {
+        "headers": ["Situazione", "Vorgangspassiv (azione)", "Zustandspassiv (risultato)", "Spiegazione"],
+        "rows": [
+          ["Porta", "Die Tür wird geöffnet.", "Die Tür ist geöffnet.", "Qualcuno la sta aprendo vs. è già aperta."],
+          ["Lettera", "Der Brief wird geschrieben.", "Der Brief ist geschrieben.", "Qualcuno la sta scrivendo vs. è già scritta."],
+          ["Cibo", "Das Essen wird gekocht.", "Das Essen ist gekocht.", "Qualcuno lo sta cucinando vs. è già cotto."],
+          ["Negozio", "Das Geschäft wird geschlossen.", "Das Geschäft ist geschlossen.", "Stanno chiudendo il negozio vs. è già chiuso."],
+          ["Problema", "Das Problem wird gelöst.", "Das Problem ist gelöst.", "Stanno risolvendo il problema vs. è già risolto."],
+          ["Auto", "Das Auto wird gewaschen.", "Das Auto ist gewaschen.", "Stanno lavando l'auto vs. è già lavata."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con il passivo tedesco:\n\n1. **Non confondere *worden* e *geworden*!** Nel Perfekt passivo si usa **worden** (senza *ge-*): *Das Haus ist gebaut **worden*** (La casa è stata costruita). La forma *geworden* si usa solo con il verbo *werden* nel senso di 'diventare': *Er ist Arzt **geworden*** (È diventato medico).\n2. **Non tutti i verbi possono formare il passivo.** I verbi intransitivi senza complemento oggetto (come *schlafen, gehen, ankommen*) non hanno un passivo personale. Esiste però il passivo impersonale: *Es wurde viel getanzt* (Si è ballato molto).\n3. **Attenzione alla differenza tra Zustandspassiv e Perfekt di *sein*!** *Die Tür ist geöffnet* (Zustandspassiv: la porta è aperta) non è la stessa cosa di *Die Tür ist geöffnet worden* (Perfekt passivo: la porta è stata aperta).\n4. **L'agente si indica con *von* (persona), *durch* (causa) o *mit* (strumento)** — non sono intercambiabili!"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Il **Vorgangspassiv** (werden + Partizip II) descrive un'azione in corso: *Das Haus wird gebaut* (La casa viene costruita).",
+        "Il **Zustandspassiv** (sein + Partizip II) descrive il risultato di un'azione conclusa: *Das Haus ist gebaut* (La casa è costruita).",
+        "Il passivo si coniuga in tutti i tempi: Presente (*wird gebaut*), Präteritum (*wurde gebaut*), Perfekt (*ist gebaut worden*), con modali (*muss gebaut werden*).",
+        "L'agente si esprime con **von + dativo** (persona), **durch + accusativo** (causa) o **mit + dativo** (strumento).",
+        "Il passivo tedesco corrisponde spesso al *si passivante* italiano: *Hier wird Deutsch gesprochen* = Qui si parla tedesco."
+      ]
     }
   ]
 }

@@ -34,6 +34,36 @@
         { "de": "selbstständig", "it": "autonomo / indipendente", "emoji": "🦁", "example_de": "Sie arbeitet sehr selbstständig.", "example_it": "Lavora in modo molto autonomo." },
         { "de": "belastbar", "it": "resistente allo stress", "emoji": "💪", "example_de": "In stressigen Situationen bin ich sehr belastbar.", "example_it": "In situazioni stressanti sono molto resistente." }
       ]
+    },
+    {
+      "name": "Colloquio di lavoro",
+      "words": [
+        { "de": "sich vorstellen", "it": "presentarsi", "emoji": "🙋", "example_de": "Können Sie sich bitte kurz vorstellen?", "example_it": "Può presentarsi brevemente?" },
+        { "de": "die Stärke", "it": "il punto di forza", "emoji": "💎", "example_de": "Was sind Ihre größten Stärken?", "example_it": "Quali sono i suoi punti di forza più grandi?" },
+        { "de": "die Schwäche", "it": "il punto debole", "emoji": "🔗", "example_de": "Jeder hat seine Schwächen.", "example_it": "Ognuno ha i suoi punti deboli." },
+        { "de": "die Gehaltsvorstellung", "it": "l'aspettativa salariale", "emoji": "💶", "example_de": "Was sind Ihre Gehaltsvorstellungen?", "example_it": "Quali sono le sue aspettative salariali?" },
+        { "de": "der Bewerber", "it": "il candidato", "emoji": "👤", "example_de": "Es gibt viele Bewerber für diese Stelle.", "example_it": "Ci sono molti candidati per questa posizione." },
+        { "de": "die Stelle", "it": "il posto di lavoro / la posizione", "emoji": "📌", "example_de": "Die Stelle ist ab sofort verfügbar.", "example_it": "La posizione è disponibile da subito." },
+        { "de": "einstellen", "it": "assumere", "emoji": "✅", "example_de": "Die Firma hat zwanzig neue Mitarbeiter eingestellt.", "example_it": "L'azienda ha assunto venti nuovi collaboratori." },
+        { "de": "die Qualifikation", "it": "la qualifica", "emoji": "🏅", "example_de": "Welche Qualifikationen bringen Sie mit?", "example_it": "Quali qualifiche porta con sé?" },
+        { "de": "die Stellenanzeige", "it": "l'annuncio di lavoro", "emoji": "📰", "example_de": "Ich habe die Stellenanzeige im Internet gefunden.", "example_it": "Ho trovato l'annuncio di lavoro su Internet." },
+        { "de": "das Anschreiben", "it": "la lettera di presentazione", "emoji": "✉️", "example_de": "Ein gutes Anschreiben ist sehr wichtig.", "example_it": "Una buona lettera di presentazione è molto importante." }
+      ]
+    },
+    {
+      "name": "Contratto e condizioni",
+      "words": [
+        { "de": "der Arbeitsvertrag", "it": "il contratto di lavoro", "emoji": "📝", "example_de": "Ich habe meinen Arbeitsvertrag unterschrieben.", "example_it": "Ho firmato il mio contratto di lavoro." },
+        { "de": "die Vollzeit", "it": "il tempo pieno", "emoji": "⏰", "example_de": "Ich arbeite Vollzeit, also 40 Stunden pro Woche.", "example_it": "Lavoro a tempo pieno, cioè 40 ore a settimana." },
+        { "de": "die Teilzeit", "it": "il part-time / il tempo parziale", "emoji": "⏳", "example_de": "Viele Mütter arbeiten in Teilzeit.", "example_it": "Molte madri lavorano part-time." },
+        { "de": "der Urlaub", "it": "le ferie / la vacanza", "emoji": "🏖️", "example_de": "In Deutschland hat man mindestens 20 Tage Urlaub.", "example_it": "In Germania si hanno almeno 20 giorni di ferie." },
+        { "de": "die Probezeit", "it": "il periodo di prova", "emoji": "🔍", "example_de": "Die Probezeit dauert sechs Monate.", "example_it": "Il periodo di prova dura sei mesi." },
+        { "de": "die Krankenversicherung", "it": "l'assicurazione sanitaria", "emoji": "🏥", "example_de": "Die Krankenversicherung ist in Deutschland Pflicht.", "example_it": "L'assicurazione sanitaria è obbligatoria in Germania." },
+        { "de": "die Kündigung", "it": "il licenziamento / le dimissioni", "emoji": "📄", "example_de": "Er hat seine Kündigung eingereicht.", "example_it": "Ha presentato le sue dimissioni." },
+        { "de": "die Rente", "it": "la pensione", "emoji": "👴", "example_de": "Er geht nächstes Jahr in Rente.", "example_it": "Va in pensione l'anno prossimo." },
+        { "de": "das Arbeitsamt", "it": "l'ufficio di collocamento", "emoji": "🏛️", "example_de": "Nach der Kündigung bin ich zum Arbeitsamt gegangen.", "example_it": "Dopo il licenziamento sono andato all'ufficio di collocamento." },
+        { "de": "der Mindestlohn", "it": "il salario minimo", "emoji": "💵", "example_de": "Der Mindestlohn wurde erhöht.", "example_it": "Il salario minimo è stato aumentato." }
+      ]
     }
   ]
 }

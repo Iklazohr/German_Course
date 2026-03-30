@@ -36,6 +36,39 @@
         { "de": "die Miete, -n", "it": "l'affitto", "emoji": "🏠", "example_de": "Die Miete in München ist sehr hoch.", "example_it": "L'affitto a Monaco è molto alto." },
         { "de": "die Rate, -n", "it": "la rata", "emoji": "💳", "example_de": "Ich zahle das Auto in monatlichen Raten.", "example_it": "Pago la macchina in rate mensili." }
       ]
+    },
+    {
+      "name": "Borsa e investimenti",
+      "words": [
+        { "de": "der Aktienkurs, -e", "it": "la quotazione azionaria", "emoji": "📈", "example_de": "Der Aktienkurs ist heute um 5% gestiegen.", "example_it": "La quotazione azionaria è salita del 5% oggi." },
+        { "de": "die Dividende, -n", "it": "il dividendo", "emoji": "💰", "example_de": "Die Aktionäre erhalten eine Dividende von 2 Euro pro Aktie.", "example_it": "Gli azionisti ricevono un dividendo di 2 euro per azione." },
+        { "de": "der Anleger, -", "it": "l'investitore", "emoji": "👤", "example_de": "Viele Anleger sind verunsichert.", "example_it": "Molti investitori sono preoccupati." },
+        { "de": "das Wertpapier, -e", "it": "il titolo (finanziario)", "emoji": "📜", "example_de": "Wertpapiere können an der Börse gehandelt werden.", "example_it": "I titoli possono essere negoziati in borsa." },
+        { "de": "der Zinssatz, -sätze", "it": "il tasso di interesse", "emoji": "📊", "example_de": "Die Zentralbank hat den Zinssatz gesenkt.", "example_it": "La banca centrale ha abbassato il tasso di interesse." },
+        { "de": "die Rendite, -n", "it": "il rendimento", "emoji": "💹", "example_de": "Die Rendite dieser Anlage ist sehr attraktiv.", "example_it": "Il rendimento di questo investimento è molto attraente." }
+      ]
+    },
+    {
+      "name": "Commercio internazionale",
+      "words": [
+        { "de": "das Handelsabkommen, -", "it": "l'accordo commerciale", "emoji": "📋", "example_de": "Die EU hat ein neues Handelsabkommen abgeschlossen.", "example_it": "L'UE ha concluso un nuovo accordo commerciale." },
+        { "de": "der Zoll, Zölle", "it": "il dazio / la dogana", "emoji": "🏗️", "example_de": "Die USA haben neue Zölle auf Stahl eingeführt.", "example_it": "Gli USA hanno introdotto nuovi dazi sull'acciaio." },
+        { "de": "die Lieferkette, -n", "it": "la catena di approvvigionamento", "emoji": "🔗", "example_de": "Die Pandemie hat die globalen Lieferketten gestört.", "example_it": "La pandemia ha interrotto le catene di approvvigionamento globali." },
+        { "de": "die Handelsbilanz, -en", "it": "la bilancia commerciale", "emoji": "⚖️", "example_de": "Deutschland hat eine positive Handelsbilanz.", "example_it": "La Germania ha una bilancia commerciale positiva." },
+        { "de": "der Wechselkurs, -e", "it": "il tasso di cambio", "emoji": "💱", "example_de": "Der Wechselkurs zwischen Euro und Dollar schwankt.", "example_it": "Il tasso di cambio tra euro e dollaro oscilla." },
+        { "de": "die Sanktion, -en", "it": "la sanzione", "emoji": "🚫", "example_de": "Die EU hat neue Sanktionen gegen das Land verhängt.", "example_it": "L'UE ha imposto nuove sanzioni contro il paese." }
+      ]
+    },
+    {
+      "name": "Startup e innovazione",
+      "words": [
+        { "de": "das Start-up, -s", "it": "la startup", "emoji": "🚀", "example_de": "Berlin ist bekannt für seine Start-up-Szene.", "example_it": "Berlino è nota per la sua scena startup." },
+        { "de": "der Gründer, - / die Gründerin, -nen", "it": "il fondatore / la fondatrice", "emoji": "💡", "example_de": "Die Gründerin hat das Unternehmen mit 25 Jahren gegründet.", "example_it": "La fondatrice ha fondato l'azienda a 25 anni." },
+        { "de": "die Finanzierung, -en", "it": "il finanziamento", "emoji": "💸", "example_de": "Das Start-up sucht eine neue Finanzierung.", "example_it": "La startup cerca un nuovo finanziamento." },
+        { "de": "das Risikokapital", "it": "il capitale di rischio (venture capital)", "emoji": "📊", "example_de": "Risikokapital ist für viele Start-ups unverzichtbar.", "example_it": "Il venture capital è indispensabile per molte startup." },
+        { "de": "die Innovation, -en", "it": "l'innovazione", "emoji": "✨", "example_de": "Innovation ist der Schlüssel zum wirtschaftlichen Erfolg.", "example_it": "L'innovazione è la chiave del successo economico." },
+        { "de": "die Digitalisierung", "it": "la digitalizzazione", "emoji": "💻", "example_de": "Die Digitalisierung verändert alle Branchen.", "example_it": "La digitalizzazione sta trasformando tutti i settori." }
+      ]
     }
   ]
 }

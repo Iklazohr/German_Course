@@ -77,6 +77,45 @@
         { "de": "Um fit zu bleiben, geht er jeden Tag joggen.", "it": "Per restare in forma, va a correre ogni giorno." },
         { "de": "Anstatt sich zu beschweren, sollte er eine Lösung suchen.", "it": "Invece di lamentarsi, dovrebbe cercare una soluzione." }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Verbi che richiedono zu + infinito",
+      "description": "I verbi più importanti che richiedono la costruzione con zu + infinito, raggruppati per significato.",
+      "table": {
+        "headers": ["Categoria", "Verbo", "Esempio", "Traduzione"],
+        "rows": [
+          ["Intenzione", "vorhaben", "Ich habe vor, umzuziehen.", "Ho intenzione di trasferirmi."],
+          ["Intenzione", "planen", "Wir planen, ein Haus zu kaufen.", "Pianifichiamo di comprare una casa."],
+          ["Intenzione", "beschließen", "Er beschloss, Deutsch zu lernen.", "Decise di imparare il tedesco."],
+          ["Tentativo", "versuchen", "Ich versuche, pünktlich zu kommen.", "Cerco di arrivare puntuale."],
+          ["Tentativo", "sich bemühen", "Sie bemüht sich, nett zu sein.", "Si sforza di essere gentile."],
+          ["Inizio/fine", "anfangen", "Es fängt an zu regnen.", "Comincia a piovere."],
+          ["Inizio/fine", "aufhören", "Hör auf zu reden!", "Smettila di parlare!"],
+          ["Sentimento", "sich freuen", "Ich freue mich, dich zu sehen.", "Sono contento di vederti."],
+          ["Sentimento", "hoffen", "Wir hoffen, dich wiederzusehen.", "Speriamo di rivederti."],
+          ["Sentimento", "sich fürchten", "Er fürchtet sich, allein zu sein.", "Ha paura di stare solo."],
+          ["Obbligo/consiglio", "raten", "Ich rate dir, mehr zu schlafen.", "Ti consiglio di dormire di più."],
+          ["Obbligo/consiglio", "bitten", "Ich bitte dich, leise zu sein.", "Ti chiedo di stare in silenzio."],
+          ["Dimenticanza", "vergessen", "Vergiss nicht, einzukaufen!", "Non dimenticare di fare la spesa!"],
+          ["Dimenticanza", "sich erinnern", "Erinnerst du dich, das gesagt zu haben?", "Ti ricordi di averlo detto?"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con l'infinito con zu:\n\n1. **L'ordine delle parole!** Nella costruzione con zu, l'infinito va sempre **alla fine**: *Ich versuche, jeden Tag Deutsch **zu lernen*** — non *Ich versuche, zu lernen jeden Tag Deutsch*.\n2. **Verbi separabili: zu va in mezzo!** Con i verbi separabili, *zu* si inserisce tra prefisso e radice, tutto attaccato: *auf**zu**stehen*, *ein**zu**kaufen*, *mit**zu**nehmen*. Non scrivere *zu aufstehen*!\n3. **Non usare zu con i verbi modali!** *Ich kann schwimmen* (non *Ich kann zu schwimmen*). Lo stesso vale per *lassen, sehen, hören, gehen, bleiben*.\n4. **La virgola è obbligatoria** con *um...zu*, *ohne...zu* e *(an)statt...zu*. Negli altri casi è facoltativa ma consigliata.\n5. **Non confondere *um...zu* con *damit*!** Usa *um...zu* quando il soggetto è lo stesso; usa *damit* quando i soggetti sono diversi: *Ich lerne, **um** die Prüfung **zu** bestehen* vs. *Ich erkläre es, **damit** du es verstehst*."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "L'infinito con **zu** si usa dopo molti verbi (versuchen, hoffen, anfangen...), aggettivi (wichtig, schwer...) e sostantivi (die Möglichkeit, die Absicht...).",
+        "I verbi modali, *lassen*, i verbi di percezione (*sehen, hören*) e i verbi di movimento (*gehen*) usano l'infinito **senza** zu.",
+        "Con i verbi separabili, *zu* si inserisce tra il prefisso e la radice: *aufzustehen, mitzunehmen, einzukaufen*.",
+        "Le tre costruzioni speciali **um...zu** (per), **ohne...zu** (senza) e **(an)statt...zu** (invece di) richiedono sempre la virgola.",
+        "Usa *um...zu* quando il soggetto è lo stesso nella frase principale e nell'infinitiva; altrimenti usa *damit + verbo coniugato*."
+      ]
     }
   ]
 }

@@ -36,6 +36,39 @@
         { "de": "die Menschenrechte (Pl.)", "it": "i diritti umani", "emoji": "✊", "example_de": "Die Menschenrechte müssen weltweit respektiert werden.", "example_it": "I diritti umani devono essere rispettati in tutto il mondo." },
         { "de": "ehrenamtlich", "it": "volontario / a titolo gratuito", "emoji": "🤲", "example_de": "Sie arbeitet ehrenamtlich bei einer Hilfsorganisation.", "example_it": "Lavora come volontaria in un'organizzazione umanitaria." }
       ]
+    },
+    {
+      "name": "Democrazia",
+      "words": [
+        { "de": "die Gewaltenteilung", "it": "la separazione dei poteri", "emoji": "⚖️", "example_de": "Die Gewaltenteilung ist ein Grundprinzip der Demokratie.", "example_it": "La separazione dei poteri è un principio fondamentale della democrazia." },
+        { "de": "das Wahlrecht", "it": "il diritto di voto", "emoji": "🗳️", "example_de": "Das allgemeine Wahlrecht wurde erst im 20. Jahrhundert eingeführt.", "example_it": "Il suffragio universale è stato introdotto solo nel XX secolo." },
+        { "de": "der Rechtsstaat", "it": "lo stato di diritto", "emoji": "🏛️", "example_de": "Ein Rechtsstaat schützt die Bürger vor Willkür.", "example_it": "Uno stato di diritto protegge i cittadini dall'arbitrio." },
+        { "de": "die Volksabstimmung, -en", "it": "il referendum", "emoji": "🗳️", "example_de": "Die Volksabstimmung über das Gesetz findet im Juni statt.", "example_it": "Il referendum sulla legge si terrà a giugno." },
+        { "de": "die Koalition, -en", "it": "la coalizione", "emoji": "🤝", "example_de": "Die Koalition aus drei Parteien ist instabil.", "example_it": "La coalizione di tre partiti è instabile." },
+        { "de": "der Abgeordnete, -n", "it": "il deputato / il parlamentare", "emoji": "👔", "example_de": "Die Abgeordneten debattieren über die Reform.", "example_it": "I parlamentari discutono della riforma." }
+      ]
+    },
+    {
+      "name": "Diritti civili",
+      "words": [
+        { "de": "die Meinungsfreiheit", "it": "la libertà di opinione", "emoji": "🗽", "example_de": "Die Meinungsfreiheit ist im Grundgesetz garantiert.", "example_it": "La libertà di opinione è garantita dalla Legge Fondamentale." },
+        { "de": "die Versammlungsfreiheit", "it": "la libertà di riunione", "emoji": "👥", "example_de": "Die Versammlungsfreiheit erlaubt friedliche Demonstrationen.", "example_it": "La libertà di riunione consente manifestazioni pacifiche." },
+        { "de": "die Religionsfreiheit", "it": "la libertà di religione", "emoji": "🕊️", "example_de": "Die Religionsfreiheit ist ein fundamentales Menschenrecht.", "example_it": "La libertà di religione è un diritto umano fondamentale." },
+        { "de": "die Pressefreiheit", "it": "la libertà di stampa", "emoji": "📰", "example_de": "Ohne Pressefreiheit gibt es keine echte Demokratie.", "example_it": "Senza libertà di stampa non esiste una vera democrazia." },
+        { "de": "das Asylrecht", "it": "il diritto d'asilo", "emoji": "🏠", "example_de": "Das Asylrecht schützt politisch Verfolgte.", "example_it": "Il diritto d'asilo protegge i perseguitati politici." },
+        { "de": "die Petition, -en", "it": "la petizione", "emoji": "📝", "example_de": "Tausende Bürger haben die Petition unterschrieben.", "example_it": "Migliaia di cittadini hanno firmato la petizione." }
+      ]
+    },
+    {
+      "name": "Immigrazione",
+      "words": [
+        { "de": "der Flüchtling, -e", "it": "il rifugiato", "emoji": "🌍", "example_de": "Viele Flüchtlinge suchen Schutz in Europa.", "example_it": "Molti rifugiati cercano protezione in Europa." },
+        { "de": "das Aufenthaltsrecht", "it": "il diritto di soggiorno", "emoji": "📄", "example_de": "Er hat ein unbefristetes Aufenthaltsrecht erhalten.", "example_it": "Ha ottenuto un diritto di soggiorno illimitato." },
+        { "de": "die Abschiebung, -en", "it": "l'espulsione / il rimpatrio forzato", "emoji": "✈️", "example_de": "Die Abschiebung wurde vom Gericht gestoppt.", "example_it": "L'espulsione è stata fermata dal tribunale." },
+        { "de": "die Einbürgerung", "it": "la naturalizzazione", "emoji": "🇩🇪", "example_de": "Nach acht Jahren kann man die Einbürgerung beantragen.", "example_it": "Dopo otto anni si può richiedere la naturalizzazione." },
+        { "de": "der Migrationshintergrund", "it": "il background migratorio", "emoji": "🌐", "example_de": "In Deutschland haben viele Menschen einen Migrationshintergrund.", "example_it": "In Germania molte persone hanno un background migratorio." },
+        { "de": "die Willkommenskultur", "it": "la cultura dell'accoglienza", "emoji": "🤗", "example_de": "Die Willkommenskultur war 2015 ein großes Thema.", "example_it": "La cultura dell'accoglienza è stata un grande tema nel 2015." }
+      ]
     }
   ]
 }

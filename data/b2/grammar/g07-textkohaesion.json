@@ -47,6 +47,53 @@
         { "de": "Wir brauchen insbesondere mehr Forschung zu diesem Thema.", "it": "Abbiamo bisogno in particolare di più ricerca su questo tema." },
         { "de": "Er macht immer denselben Fehler, stattdessen sollte er eine neue Strategie versuchen.", "it": "Fa sempre lo stesso errore; al posto di ciò dovrebbe provare una nuova strategia." }
       ]
+    },
+    {
+      "type": "examples",
+      "title": "Avverbi pronominali in contesto",
+      "content": "Esempi di da(r)- e wo(r)- in frasi complesse:",
+      "items": [
+        { "de": "Das Thema ist komplex. Darüber muss noch diskutiert werden.", "it": "L'argomento è complesso. Se ne deve ancora discutere." },
+        { "de": "Er hat eine neue Stelle. Darauf hat er lange gewartet.", "it": "Ha un nuovo posto di lavoro. Lo aspettava da tempo." },
+        { "de": "Worüber sprecht ihr? – Wir sprechen darüber, wie man das Problem lösen kann.", "it": "Di cosa parlate? – Parliamo di come si possa risolvere il problema." },
+        { "de": "Die Firma investiert in Forschung. Davon profitieren alle Mitarbeiter.", "it": "L'azienda investe nella ricerca. Ne beneficiano tutti i dipendenti." },
+        { "de": "Es geht darum, eine nachhaltige Lösung zu finden.", "it": "Si tratta di trovare una soluzione sostenibile." },
+        { "de": "Das Ergebnis war unerwartet. Daraus ergeben sich neue Fragen.", "it": "Il risultato era inaspettato. Da ciò derivano nuove domande." }
+      ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Parole di riferimento (Verweismittel) a colpo d'occhio",
+      "description": "Tabella riepilogativa degli strumenti di coesione testuale più importanti.",
+      "table": {
+        "headers": ["Strumento", "Funzione", "Esempio"],
+        "rows": [
+          ["da(r)- + preposizione", "Riferimento a cose/idee già menzionate", "dafür, dagegen, darüber, daran, darauf"],
+          ["wo(r)- + preposizione", "Domanda su cose/idee", "wofür?, wogegen?, worüber?, woran?"],
+          ["dieser / diese / dieses", "Riferimento a qualcosa di appena menzionato", "Diese Studie zeigt, dass..."],
+          ["jener / jene / jenes", "Riferimento a qualcosa di più lontano", "diese Methode ... jene Methode"],
+          ["derselbe / dieselbe / dasselbe", "Identità (lo stesso)", "Er macht immer denselben Fehler."],
+          ["solch-", "Qualità (tale/i)", "Solche Probleme sind häufig."],
+          ["Ersterer ... Letzterer", "Il primo ... il secondo", "Erstere ist teurer, Letztere praktischer."],
+          ["es (anticipatorio)", "Introduce frasi subordinate", "Es ist wichtig, dass wir handeln."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Gli avverbi pronominali con da(r)- si usano solo per **cose e concetti**, mai per **persone**! Per le persone si usa la preposizione + pronome personale:\n\n- *Ich denke **daran**.* (Ci penso – a una cosa/un'idea)\n- *Ich denke **an ihn**.* (Penso a lui – a una persona)\n- *Ich freue mich **darauf**.* (Non vedo l'ora – di un evento)\n- *Ich freue mich **auf sie**.* (Non vedo l'ora di vedere lei – una persona)\n\nErrore tipico: *~~Ich denke **daran** meine Mutter~~* → Corretto: *Ich denke **an** meine Mutter.*"
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Gli avverbi pronominali (da(r)- + preposizione) sostituiscono preposizione + pronome per cose e idee, mai per persone.",
+        "Il pronome anticipatorio *es* introduce frasi subordinate e infinitive: *Es ist wichtig, dass...*",
+        "I connettori testuali (allerdings, dennoch, folglich, insbesondere) strutturano il testo e guidano il lettore.",
+        "Le parole di riferimento (dieser, jener, solch-, derselbe, Ersterer/Letzterer) evitano ripetizioni e creano coesione.",
+        "Per migliorare la scrittura: varia la posizione iniziale delle frasi, usa avverbi pronominali e connettori testuali.",
+        "Ricorda: *nämlich* non va mai in prima posizione, e *da(r)-* si usa solo per cose, non per persone."
+      ]
     }
   ]
 }

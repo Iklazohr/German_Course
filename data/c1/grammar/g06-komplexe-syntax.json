@@ -61,6 +61,39 @@
           "it": "A condizione che tutti i soggetti coinvolti, il cui consenso è necessario, approvino la proposta, il progetto, che è in fase di pianificazione già da due anni, potrebbe finalmente iniziare."
         }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Strutture sintattiche complesse a colpo d'occhio",
+      "description": "Le principali strutture della sintassi complessa tedesca con schema, esempio e posizione del verbo.",
+      "table": {
+        "headers": ["Struttura", "Schema", "Posizione del verbo", "Esempio"],
+        "rows": [
+          ["Hauptsatz (principale)", "Sogg + V2 + ...", "Posizione 2", "Der Minister hat eine Erklärung abgegeben."],
+          ["Nebensatz (subordinata)", "Congiunzione + ... + V-finale", "Finale", "..., weil er versprochen hat, dass..."],
+          ["Relativsatz (relativa)", "Pronome rel. + ... + V-finale", "Finale", "..., der an der Uni forscht, ..."],
+          ["Subordinata in pos. 1", "Nebensatz + V2 + Sogg", "V2 nella principale", "Dass er kommt, weiß ich."],
+          ["je... desto", "je + ... + V-finale, desto + V2", "Finale / V2", "Je mehr man liest, desto besser versteht man."],
+          ["Parenthesi / Einschub", "Hauptsatz, – Einschub –, ... + V", "Invariata", "Er hat – wie erwartet – nichts gesagt."],
+          ["Infinitivsatz", "... , zu + Infinitiv", "Infinito finale", "Es ist schwierig, eine Lösung zu finden."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con la sintassi complessa:\n\n1. **Verbo in posizione sbagliata nella subordinata**: in ogni Nebensatz il verbo coniugato va in posizione FINALE. Es.: *weil er hat versprochen* e SBAGLIATO; corretto: *weil er versprochen hat*.\n2. **Dimenticare l'inversione dopo una subordinata in posizione 1**: se il Nebensatz occupa la posizione 1, il verbo della principale va subito dopo (V2). Es.: *Dass er kommt, ich weiß* e SBAGLIATO; corretto: *Dass er kommt, weiß ich.*\n3. **je... desto: ordine dei verbi**: dopo 'je' il verbo va in fondo; dopo 'desto/umso' il verbo va in seconda posizione. Es.: *Je mehr man lernt, desto besser versteht man.*\n4. **Troppe subordinate annidate**: piu di 3 livelli di annidamento rendono la frase illeggibile. Spezzate in frasi piu brevi!\n5. **Virgole dimenticate**: in tedesco la virgola prima di ogni subordinata e OBBLIGATORIA, non opzionale come in italiano."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "La sintassi complessa tedesca si basa su subordinate annidate, ciascuna con il verbo in posizione finale.",
+        "Le costruzioni correlative (je...desto, sowohl...als auch, weder...noch, zwar...aber) collegano elementi in rapporti logici.",
+        "Le inserzioni parentetiche (apposizioni, relative incidentali, commenti) interrompono la frase senza modificarne la struttura.",
+        "La topicalizzazione (spostamento in posizione 1) serve a enfatizzare un elemento: il verbo resta in V2.",
+        "Per decifrare frasi complesse: trova i verbi coniugati, identifica le congiunzioni, ricostruisci la gerarchia.",
+        "Nella produzione scritta, evita piu di 2-3 livelli di annidamento per mantenere la leggibilita."
+      ]
     }
   ]
 }

@@ -49,6 +49,30 @@
         { "de": "ermitteln", "it": "indagare", "emoji": "🔎", "example_de": "Die Polizei ermittelt in alle Richtungen.", "example_it": "La polizia indaga in tutte le direzioni." },
         { "de": "klagen (gegen + Akk.)", "it": "fare causa (contro)", "emoji": "📄", "example_de": "Er klagt gegen seinen ehemaligen Arbeitgeber.", "example_it": "Fa causa contro il suo ex datore di lavoro." }
       ]
+    },
+    {
+      "name": "Procedimento penale",
+      "words": [
+        { "de": "die Anklage, -n", "it": "l'accusa / l'atto d'accusa", "emoji": "📋", "example_de": "Die Anklage wurde vor dem Landgericht erhoben.", "example_it": "L'atto d'accusa è stato presentato davanti al tribunale regionale." },
+        { "de": "die Verhandlung, -en", "it": "il processo / l'udienza", "emoji": "🏛️", "example_de": "Die Verhandlung beginnt um 9 Uhr.", "example_it": "L'udienza inizia alle 9." },
+        { "de": "der Verdächtige, -n", "it": "il sospettato", "emoji": "🔍", "example_de": "Der Verdächtige wurde vernommen.", "example_it": "Il sospettato è stato interrogato." },
+        { "de": "die Berufung, -en", "it": "l'appello", "emoji": "⚖️", "example_de": "Der Angeklagte hat Berufung gegen das Urteil eingelegt.", "example_it": "L'imputato ha presentato appello contro la sentenza." },
+        { "de": "die Untersuchungshaft", "it": "la custodia cautelare", "emoji": "🔒", "example_de": "Er sitzt seit drei Monaten in Untersuchungshaft.", "example_it": "È in custodia cautelare da tre mesi." },
+        { "de": "die Geschworenen (Pl.)", "it": "i giurati", "emoji": "👥", "example_de": "Die Geschworenen haben den Angeklagten für schuldig befunden.", "example_it": "I giurati hanno dichiarato colpevole l'imputato." },
+        { "de": "das Plädoyer, -s", "it": "l'arringa", "emoji": "🗣️", "example_de": "Das Plädoyer des Verteidigers dauerte zwei Stunden.", "example_it": "L'arringa del difensore è durata due ore." }
+      ]
+    },
+    {
+      "name": "Diritto civile",
+      "words": [
+        { "de": "der Vertrag, Verträge", "it": "il contratto", "emoji": "📄", "example_de": "Der Vertrag muss von beiden Parteien unterschrieben werden.", "example_it": "Il contratto deve essere firmato da entrambe le parti." },
+        { "de": "die Haftung", "it": "la responsabilità (civile)", "emoji": "⚖️", "example_de": "Die Haftung für den Schaden liegt beim Hersteller.", "example_it": "La responsabilità per il danno è del produttore." },
+        { "de": "der Schadensersatz", "it": "il risarcimento danni", "emoji": "💰", "example_de": "Sie fordert Schadensersatz in Höhe von 10.000 Euro.", "example_it": "Chiede un risarcimento danni di 10.000 euro." },
+        { "de": "das Sorgerecht", "it": "la custodia (dei figli)", "emoji": "👨‍👩‍👧", "example_de": "Nach der Scheidung teilen sie sich das Sorgerecht.", "example_it": "Dopo il divorzio condividono la custodia dei figli." },
+        { "de": "die Scheidung, -en", "it": "il divorzio", "emoji": "💔", "example_de": "Die Scheidung wurde nach einem Jahr rechtskräftig.", "example_it": "Il divorzio è diventato definitivo dopo un anno." },
+        { "de": "das Erbrecht", "it": "il diritto successorio / il diritto ereditario", "emoji": "📜", "example_de": "Das Erbrecht regelt die Verteilung des Nachlasses.", "example_it": "Il diritto successorio regola la distribuzione dell'eredità." },
+        { "de": "der Mietvertrag, -verträge", "it": "il contratto di locazione", "emoji": "🏠", "example_de": "Der Mietvertrag läuft über drei Jahre.", "example_it": "Il contratto di locazione ha una durata di tre anni." }
+      ]
     }
   ]
 }

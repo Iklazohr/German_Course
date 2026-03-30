@@ -48,6 +48,45 @@
         { "de": "sich auseinandersetzen mit", "it": "confrontarsi con, approfondire", "emoji": "📖", "example_de": "In diesem Seminar setzen wir uns mit Hegels Dialektik auseinander.", "example_it": "In questo seminario ci confrontiamo con la dialettica di Hegel." },
         { "de": "auf den Punkt bringen", "it": "andare al nocciolo, sintetizzare", "emoji": "🎯", "example_de": "Er kann komplexe Sachverhalte auf den Punkt bringen.", "example_it": "Riesce a sintetizzare questioni complesse andando al nocciolo." }
       ]
+    },
+    {
+      "name": "Correnti filosofiche",
+      "words": [
+        { "de": "der Idealismus", "it": "l'idealismo", "emoji": "💭", "example_de": "Der deutsche Idealismus erreichte mit Hegel seinen Höhepunkt.", "example_it": "L'idealismo tedesco raggiunse il suo apice con Hegel." },
+        { "de": "der Existenzialismus", "it": "l'esistenzialismo", "emoji": "🌑", "example_de": "Der Existenzialismus betont die Freiheit und Verantwortung des Individuums.", "example_it": "L'esistenzialismo sottolinea la liberta e la responsabilita dell'individuo." },
+        { "de": "der Rationalismus", "it": "il razionalismo", "emoji": "🧠", "example_de": "Der Rationalismus setzt die Vernunft als Hauptquelle der Erkenntnis voraus.", "example_it": "Il razionalismo presuppone la ragione come fonte principale della conoscenza." },
+        { "de": "der Empirismus", "it": "l'empirismo", "emoji": "🔬", "example_de": "Der Empirismus geht davon aus, dass alle Erkenntnis aus der Erfahrung stammt.", "example_it": "L'empirismo parte dal presupposto che ogni conoscenza derivi dall'esperienza." },
+        { "de": "die Dialektik", "it": "la dialettica", "emoji": "🔄", "example_de": "Hegels Dialektik beschreibt den Prozess von These, Antithese und Synthese.", "example_it": "La dialettica di Hegel descrive il processo di tesi, antitesi e sintesi." },
+        { "de": "der Nihilismus", "it": "il nichilismo", "emoji": "🕳️", "example_de": "Nietzsche setzte sich intensiv mit dem Nihilismus auseinander.", "example_it": "Nietzsche si confronto intensamente con il nichilismo." },
+        { "de": "die Phänomenologie", "it": "la fenomenologia", "emoji": "👁️", "example_de": "Die Phänomenologie Husserls untersucht die Strukturen des Bewusstseins.", "example_it": "La fenomenologia di Husserl indaga le strutture della coscienza." },
+        { "de": "der Materialismus", "it": "il materialismo", "emoji": "⚙️", "example_de": "Der historische Materialismus bildet die Grundlage der marxistischen Theorie.", "example_it": "Il materialismo storico costituisce la base della teoria marxista." }
+      ]
+    },
+    {
+      "name": "Estetica e arte",
+      "words": [
+        { "de": "die Ästhetik", "it": "l'estetica", "emoji": "🎨", "example_de": "Die Ästhetik beschäftigt sich mit dem Wesen des Schönen.", "example_it": "L'estetica si occupa dell'essenza del bello." },
+        { "de": "das Erhabene", "it": "il sublime", "emoji": "🏔️", "example_de": "Kant unterschied zwischen dem Schönen und dem Erhabenen.", "example_it": "Kant distinse tra il bello e il sublime." },
+        { "de": "der Geschmack", "it": "il gusto (estetico)", "emoji": "🎭", "example_de": "Über Geschmack lässt sich nicht streiten — oder doch?", "example_it": "Sul gusto non si discute — o forse si?" },
+        { "de": "die Avantgarde", "it": "l'avanguardia", "emoji": "🚀", "example_de": "Die Avantgarde des frühen 20. Jahrhunderts brach mit allen Konventionen.", "example_it": "L'avanguardia del primo Novecento ruppe con tutte le convenzioni." },
+        { "de": "das Gesamtkunstwerk", "it": "l'opera d'arte totale", "emoji": "🎶", "example_de": "Wagner strebte mit seinen Opern das Gesamtkunstwerk an.", "example_it": "Wagner aspirava all'opera d'arte totale con le sue opere liriche." },
+        { "de": "die Wahrnehmung", "it": "la percezione", "emoji": "👁️", "example_de": "Kunst verändert unsere Wahrnehmung der Wirklichkeit.", "example_it": "L'arte modifica la nostra percezione della realta." },
+        { "de": "die Interpretation", "it": "l'interpretazione", "emoji": "🔍", "example_de": "Die Interpretation eines Kunstwerks ist immer subjektiv.", "example_it": "L'interpretazione di un'opera d'arte e sempre soggettiva." },
+        { "de": "der Zeitgeist", "it": "lo spirito del tempo", "emoji": "🕰️", "example_de": "Jede Epoche hat ihren eigenen Zeitgeist, der sich in der Kunst widerspiegelt.", "example_it": "Ogni epoca ha il proprio spirito del tempo, che si riflette nell'arte." }
+      ]
+    },
+    {
+      "name": "Pensiero critico",
+      "words": [
+        { "de": "die Auseinandersetzung", "it": "il confronto, la discussione critica", "emoji": "⚔️", "example_de": "Die kritische Auseinandersetzung mit dem Text ist unerlässlich.", "example_it": "Il confronto critico con il testo e indispensabile." },
+        { "de": "der Trugschluss", "it": "il ragionamento fallace, il sofisma", "emoji": "❌", "example_de": "Dieser Trugschluss beruht auf einer falschen Verallgemeinerung.", "example_it": "Questo ragionamento fallace si basa su una generalizzazione errata." },
+        { "de": "die Prämisse", "it": "la premessa", "emoji": "📌", "example_de": "Die Prämissen dieses Arguments sind fragwürdig.", "example_it": "Le premesse di questo argomento sono discutibili." },
+        { "de": "die Schlussfolgerung", "it": "la conclusione, la deduzione", "emoji": "🎯", "example_de": "Die Schlussfolgerung ergibt sich logisch aus den Prämissen.", "example_it": "La conclusione deriva logicamente dalle premesse." },
+        { "de": "das Vorurteil", "it": "il pregiudizio", "emoji": "🚧", "example_de": "Kritisches Denken hilft, Vorurteile zu erkennen und zu überwinden.", "example_it": "Il pensiero critico aiuta a riconoscere e superare i pregiudizi." },
+        { "de": "die Reflexion", "it": "la riflessione", "emoji": "🪞", "example_de": "Philosophische Reflexion erfordert Geduld und intellektuelle Demut.", "example_it": "La riflessione filosofica richiede pazienza e umilta intellettuale." },
+        { "de": "der Standpunkt", "it": "il punto di vista", "emoji": "📍", "example_de": "Man sollte verschiedene Standpunkte berücksichtigen, bevor man urteilt.", "example_it": "Si dovrebbero considerare diversi punti di vista prima di giudicare." },
+        { "de": "die Objektivität", "it": "l'oggettivita", "emoji": "⚖️", "example_de": "Absolute Objektivität ist in den Geisteswissenschaften kaum erreichbar.", "example_it": "L'oggettivita assoluta e difficilmente raggiungibile nelle scienze umane." }
+      ]
     }
   ]
 }

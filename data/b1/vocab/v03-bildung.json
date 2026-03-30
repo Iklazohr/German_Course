@@ -43,6 +43,45 @@
         { "de": "forschen", "it": "fare ricerca", "emoji": "🔬", "example_de": "Sie forscht im Bereich Biologie.", "example_it": "Fa ricerca nel campo della biologia." },
         { "de": "unterrichten", "it": "insegnare", "emoji": "👩‍🏫", "example_de": "Frau Müller unterrichtet Deutsch und Englisch.", "example_it": "La signora Müller insegna tedesco e inglese." }
       ]
+    },
+    {
+      "name": "Università",
+      "words": [
+        { "de": "die Vorlesung", "it": "la lezione universitaria", "emoji": "🎤", "example_de": "Die Vorlesung beginnt um neun Uhr.", "example_it": "La lezione universitaria inizia alle nove." },
+        { "de": "das Semester", "it": "il semestre", "emoji": "📅", "example_de": "Das Wintersemester beginnt im Oktober.", "example_it": "Il semestre invernale inizia in ottobre." },
+        { "de": "der Professor", "it": "il professore universitario", "emoji": "👨‍🏫", "example_de": "Der Professor hält eine Vorlesung über Philosophie.", "example_it": "Il professore tiene una lezione di filosofia." },
+        { "de": "das Seminar", "it": "il seminario", "emoji": "📖", "example_de": "Im Seminar diskutieren wir in kleinen Gruppen.", "example_it": "Nel seminario discutiamo in piccoli gruppi." },
+        { "de": "die Bibliothek", "it": "la biblioteca", "emoji": "📚", "example_de": "Ich lerne am liebsten in der Bibliothek.", "example_it": "Preferisco studiare in biblioteca." },
+        { "de": "die Mensa", "it": "la mensa universitaria", "emoji": "🍽️", "example_de": "Das Essen in der Mensa ist günstig.", "example_it": "Il cibo alla mensa è economico." },
+        { "de": "der Studiengang", "it": "il corso di laurea", "emoji": "🎓", "example_de": "Welchen Studiengang hast du gewählt?", "example_it": "Quale corso di laurea hai scelto?" },
+        { "de": "die Hausarbeit", "it": "la tesina / l'elaborato", "emoji": "✍️", "example_de": "Ich muss bis Freitag eine Hausarbeit abgeben.", "example_it": "Devo consegnare una tesina entro venerdì." }
+      ]
+    },
+    {
+      "name": "Esami e voti",
+      "words": [
+        { "de": "die Prüfung", "it": "l'esame", "emoji": "📝", "example_de": "Morgen habe ich eine schwere Prüfung.", "example_it": "Domani ho un esame difficile." },
+        { "de": "die Klausur", "it": "l'esame scritto", "emoji": "📄", "example_de": "Die Klausur dauert zwei Stunden.", "example_it": "L'esame scritto dura due ore." },
+        { "de": "die mündliche Prüfung", "it": "l'esame orale", "emoji": "🗣️", "example_de": "Ich bin nervös vor der mündlichen Prüfung.", "example_it": "Sono nervoso per l'esame orale." },
+        { "de": "die Abschlussarbeit", "it": "la tesi di laurea", "emoji": "📑", "example_de": "Sie schreibt ihre Abschlussarbeit über Linguistik.", "example_it": "Sta scrivendo la sua tesi di laurea in linguistica." },
+        { "de": "der Notendurchschnitt", "it": "la media dei voti", "emoji": "📊", "example_de": "Mein Notendurchschnitt liegt bei 1,8.", "example_it": "La mia media dei voti è 1,8." },
+        { "de": "die Nachhilfe", "it": "le ripetizioni", "emoji": "👩‍🏫", "example_de": "Er gibt Nachhilfe in Mathematik.", "example_it": "Dà ripetizioni di matematica." },
+        { "de": "pauken", "it": "sgobbare / studiare intensamente", "emoji": "📖", "example_de": "Vor der Prüfung muss ich richtig pauken.", "example_it": "Prima dell'esame devo sgobbare davvero." },
+        { "de": "der Spickzettel", "it": "il bigliettino (per copiare)", "emoji": "📋", "example_de": "Spickzettel sind natürlich verboten!", "example_it": "I bigliettini ovviamente sono vietati!" }
+      ]
+    },
+    {
+      "name": "Formazione professionale",
+      "words": [
+        { "de": "der Azubi", "it": "l'apprendista", "emoji": "🔧", "example_de": "Als Azubi verdient man nicht viel.", "example_it": "Come apprendista non si guadagna molto." },
+        { "de": "der Betrieb", "it": "l'azienda / l'impresa", "emoji": "🏭", "example_de": "Er macht seine Ausbildung in einem großen Betrieb.", "example_it": "Fa la sua formazione in una grande azienda." },
+        { "de": "die Berufsschule", "it": "la scuola professionale", "emoji": "🏫", "example_de": "Azubis gehen auch zur Berufsschule.", "example_it": "Gli apprendisti vanno anche alla scuola professionale." },
+        { "de": "das Praktikum", "it": "il tirocinio / lo stage", "emoji": "💼", "example_de": "Ich mache ein Praktikum bei einer Bank.", "example_it": "Faccio un tirocinio presso una banca." },
+        { "de": "die Weiterbildung", "it": "la formazione continua", "emoji": "📈", "example_de": "Die Firma bietet viele Weiterbildungen an.", "example_it": "L'azienda offre molti corsi di formazione continua." },
+        { "de": "die Umschulung", "it": "la riqualificazione professionale", "emoji": "🔄", "example_de": "Nach der Umschulung arbeitet er als Programmierer.", "example_it": "Dopo la riqualificazione lavora come programmatore." },
+        { "de": "der Meister", "it": "il maestro artigiano", "emoji": "🏆", "example_de": "Nach der Ausbildung kann man den Meister machen.", "example_it": "Dopo la formazione si può diventare maestro artigiano." },
+        { "de": "die Lehrstelle", "it": "il posto da apprendista", "emoji": "📌", "example_de": "Er sucht eine Lehrstelle als Elektriker.", "example_it": "Cerca un posto da apprendista come elettricista." }
+      ]
     }
   ]
 }

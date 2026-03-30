@@ -131,6 +131,43 @@
         { "de": "Das wird schon wieder.", "it": "Passera, vedrai. (rassicurazione)" },
         { "de": "Mach dir doch keine Sorgen!", "it": "Ma non preoccuparti! (dai, rilassati)" }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Tutte le particelle modali a colpo d'occhio",
+      "description": "Panoramica delle principali particelle modali tedesche con la loro funzione, il contesto d'uso e un esempio tipico.",
+      "table": {
+        "headers": ["Particella", "Funzione principale", "Tipo di frase", "Esempio"],
+        "rows": [
+          ["doch", "Contraddizione, persuasione, richiamo a noto", "Affermativa, imperativa", "Komm doch mit!"],
+          ["mal", "Ammorbidire richieste", "Imperativa, interrogativa", "Schau mal!"],
+          ["ja", "Conoscenza condivisa, sorpresa", "Affermativa", "Das ist ja toll!"],
+          ["eben / halt", "Rassegnazione, accettazione", "Affermativa", "Das ist eben so."],
+          ["wohl", "Supposizione, probabilita", "Affermativa", "Er ist wohl krank."],
+          ["denn", "Interesse genuino, curiosita", "Interrogativa", "Was machst du denn hier?"],
+          ["schon", "Rassicurazione, concessione", "Affermativa", "Das wird schon klappen."],
+          ["eigentlich", "Curiosita genuina, cambio di argomento", "Interrogativa", "Was machst du eigentlich beruflich?"],
+          ["etwa", "Timore, domanda incredula", "Interrogativa", "Hast du etwa gelogen?"],
+          ["bloß / nur", "Urgenza, enfasi nelle domande e negli imperativi", "Imperativa, interrogativa", "Hör bloß auf damit!"],
+          ["ruhig", "Incoraggiamento, permesso", "Imperativa", "Du kannst ruhig bleiben."]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni con le particelle modali:\n\n1. **Non abusarne!** Una frase con troppe particelle modali suona innaturale: *Komm doch mal eben halt schon mit!* e decisamente troppo.\n2. **Non usarle nello scritto formale**: le particelle modali appartengono al registro parlato e informale. In una tesina accademica o in una lettera formale, evitale.\n3. **Non tradurre letteralmente**: 'ja' non e 'si', 'doch' non e 'pero', 'mal' non e 'una volta'. Impara il sentimento che trasmettono.\n4. **Posizione sbagliata**: le particelle modali stanno SEMPRE nel Mittelfeld, mai in posizione 1 (*Doch komm mit!* e sbagliato!).\n5. **Confusione tra funzione avverbiale e modale**: 'schon' come avverbio = 'gia'; come particella modale = rassicurazione. Il contesto chiarisce tutto."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Le particelle modali non cambiano il significato letterale della frase, ma ne modificano il tono emotivo.",
+        "Sono essenziali per un tedesco parlato naturale: senza di esse si suona come un libro di grammatica.",
+        "Le piu importanti: doch (contraddizione/persuasione), mal (ammorbidire), ja (noto/sorpresa), eben/halt (rassegnazione), wohl (ipotesi), denn (curiosita), schon (rassicurazione).",
+        "Si posizionano nel Mittelfeld (campo centrale) della frase, mai in posizione 1.",
+        "Appartengono al registro informale e parlato. Vanno evitate nello scritto accademico e formale.",
+        "Il modo migliore per impararle e l'esposizione al tedesco parlato autentico: film, podcast, conversazioni."
+      ]
     }
   ]
 }

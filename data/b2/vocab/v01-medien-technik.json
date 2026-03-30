@@ -49,7 +49,36 @@
         { "de": "der Kommentar, -e", "it": "il commento", "emoji": "💬", "example_de": "Die Kommentare unter dem Video waren sehr kritisch.", "example_it": "I commenti sotto il video erano molto critici." },
         { "de": "der Influencer, - / die Influencerin, -nen", "it": "l'influencer", "emoji": "📸", "example_de": "Viele Influencer verdienen Geld mit Werbung.", "example_it": "Molti influencer guadagnano con la pubblicità." },
         { "de": "viral gehen", "it": "diventare virale", "emoji": "🚀", "example_de": "Das Video ist innerhalb weniger Stunden viral gegangen.", "example_it": "Il video è diventato virale nel giro di poche ore." },
-        { "de": "der Hashtag, -s", "it": "l'hashtag", "emoji": "#️⃣", "example_de": "Welchen Hashtag soll ich verwenden?", "example_it": "Quale hashtag dovrei usare?" }
+        { "de": "der Hashtag, -s", "it": "l'hashtag", "emoji": "#️⃣", "example_de": "Welchen Hashtag soll ich verwenden?", "example_it": "Quale hashtag dovrei usare?" },
+        { "de": "der Beitrag, Beiträge", "it": "il post / il contributo", "emoji": "📝", "example_de": "Ihr Beitrag hat viele Reaktionen ausgelöst.", "example_it": "Il suo post ha suscitato molte reazioni." },
+        { "de": "der Shitstorm, -s", "it": "l'ondata di critiche online", "emoji": "🌪️", "example_de": "Das Unternehmen geriet in einen Shitstorm.", "example_it": "L'azienda è stata travolta da un'ondata di critiche online." },
+        { "de": "die Reichweite", "it": "la portata / la copertura", "emoji": "📡", "example_de": "Die Reichweite des Beitrags war enorm.", "example_it": "La portata del post è stata enorme." },
+        { "de": "das Profil, -e", "it": "il profilo", "emoji": "👤", "example_de": "Er hat sein Profil aktualisiert.", "example_it": "Ha aggiornato il suo profilo." },
+        { "de": "der Datenmissbrauch", "it": "l'abuso di dati", "emoji": "⚠️", "example_de": "Datenmissbrauch in sozialen Netzwerken ist ein ernstes Problem.", "example_it": "L'abuso di dati nei social network è un problema serio." }
+      ]
+    },
+    {
+      "name": "Intelligenza artificiale",
+      "words": [
+        { "de": "das maschinelle Lernen", "it": "l'apprendimento automatico (machine learning)", "emoji": "🧠", "example_de": "Maschinelles Lernen wird in vielen Bereichen eingesetzt.", "example_it": "Il machine learning viene impiegato in molti settori." },
+        { "de": "das neuronale Netz, -e", "it": "la rete neurale", "emoji": "🔗", "example_de": "Neuronale Netze können Bilder erkennen.", "example_it": "Le reti neurali possono riconoscere le immagini." },
+        { "de": "der Chatbot, -s", "it": "il chatbot", "emoji": "💬", "example_de": "Der Chatbot beantwortet Kundenanfragen automatisch.", "example_it": "Il chatbot risponde automaticamente alle richieste dei clienti." },
+        { "de": "die Automatisierung", "it": "l'automazione", "emoji": "⚙️", "example_de": "Die Automatisierung verändert den Arbeitsmarkt.", "example_it": "L'automazione sta cambiando il mercato del lavoro." },
+        { "de": "die Spracherkennung", "it": "il riconoscimento vocale", "emoji": "🎙️", "example_de": "Die Spracherkennung funktioniert immer besser.", "example_it": "Il riconoscimento vocale funziona sempre meglio." },
+        { "de": "die Gesichtserkennung", "it": "il riconoscimento facciale", "emoji": "👁️", "example_de": "Gesichtserkennung wird am Flughafen eingesetzt.", "example_it": "Il riconoscimento facciale viene usato in aeroporto." },
+        { "de": "der Roboter, -", "it": "il robot", "emoji": "🤖", "example_de": "Roboter übernehmen immer mehr Aufgaben in der Industrie.", "example_it": "I robot assumono sempre più compiti nell'industria." }
+      ]
+    },
+    {
+      "name": "Sicurezza digitale",
+      "words": [
+        { "de": "der Hackerangriff, -e", "it": "l'attacco hacker", "emoji": "💻", "example_de": "Der Hackerangriff hat Millionen Nutzerdaten betroffen.", "example_it": "L'attacco hacker ha coinvolto milioni di dati degli utenti." },
+        { "de": "die Verschlüsselung", "it": "la crittografia", "emoji": "🔐", "example_de": "Eine starke Verschlüsselung schützt Ihre Daten.", "example_it": "Una crittografia forte protegge i vostri dati." },
+        { "de": "die Firewall, -s", "it": "il firewall", "emoji": "🧱", "example_de": "Die Firewall blockiert verdächtige Zugriffe.", "example_it": "Il firewall blocca gli accessi sospetti." },
+        { "de": "der Virus, Viren", "it": "il virus (informatico)", "emoji": "🦠", "example_de": "Ein Virus hat meinen Computer infiziert.", "example_it": "Un virus ha infettato il mio computer." },
+        { "de": "das Phishing", "it": "il phishing", "emoji": "🎣", "example_de": "Vorsicht vor Phishing-E-Mails!", "example_it": "Attenzione alle e-mail di phishing!" },
+        { "de": "die Zwei-Faktor-Authentifizierung", "it": "l'autenticazione a due fattori", "emoji": "🔑", "example_de": "Aktivieren Sie die Zwei-Faktor-Authentifizierung für mehr Sicherheit.", "example_it": "Attivate l'autenticazione a due fattori per maggiore sicurezza." },
+        { "de": "die Sicherheitslücke, -n", "it": "la falla di sicurezza", "emoji": "🕳️", "example_de": "Die Sicherheitslücke wurde schnell geschlossen.", "example_it": "La falla di sicurezza è stata chiusa rapidamente." }
       ]
     }
   ]
