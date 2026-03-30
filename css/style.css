@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: env(safe-area-inset-top, 0) max(env(safe-area-inset-right, 0), 16px) 0 max(env(safe-area-inset-left, 0), 16px);
     z-index: 100;
 }
 
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 
 /* ===== Main Content ===== */
 #app-main {
-    padding-top: var(--header-height);
+    padding-top: calc(var(--header-height) + env(safe-area-inset-top, 0));
     padding-bottom: calc(var(--bottom-nav-height) + 16px);
     min-height: 100vh;
     min-height: 100dvh;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
         height: 100vh; height: 100dvh;
         flex-direction: column;
         justify-content: flex-start;
-        padding: calc(var(--header-height) + 16px) 8px 16px;
+        padding: calc(var(--header-height) + env(safe-area-inset-top, 0) + 16px) 8px 16px;
         border-top: none;
         border-right: 1px solid var(--border);
         backdrop-filter: none;
