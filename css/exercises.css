@@ -1,8 +1,6 @@
 /* ===== Exercise Container ===== */
 .exercise-page {
     padding-bottom: 100px;
-}
-.entered .exercise-page {
     animation: exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -113,16 +111,14 @@
     color: var(--text);
     transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
     -webkit-tap-highlight-color: transparent;
-}
-
-.entered .mc-option {
     animation: slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
-.entered .mc-option:nth-child(1) { animation-delay: 0s; }
-.entered .mc-option:nth-child(2) { animation-delay: 0.05s; }
-.entered .mc-option:nth-child(3) { animation-delay: 0.1s; }
-.entered .mc-option:nth-child(4) { animation-delay: 0.15s; }
-.entered .mc-option:nth-child(5) { animation-delay: 0.2s; }
+
+.mc-option:nth-child(1) { animation-delay: 0s; }
+.mc-option:nth-child(2) { animation-delay: 0.05s; }
+.mc-option:nth-child(3) { animation-delay: 0.1s; }
+.mc-option:nth-child(4) { animation-delay: 0.15s; }
+.mc-option:nth-child(5) { animation-delay: 0.2s; }
 
 .mc-option:hover {
     border-color: var(--primary);
@@ -283,9 +279,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.entered .matching-item {
     animation: popIn 0.3s ease both;
 }
 
@@ -594,8 +587,6 @@
 .summary-card {
     text-align: center;
     padding: 32px 24px;
-}
-.entered .summary-card {
     animation: popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 

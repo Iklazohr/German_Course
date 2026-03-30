@@ -8,11 +8,11 @@ export function renderPage(html) {
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Double rAF: browser paints once without .entered (page invisible via opacity:0),
-    // then .entered is added, triggering all child CSS animations reliably on desktop
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-        page.classList.add('entered');
-    }));
+    // Force-restart CSS animations: set none → reflow → clear override
+    const els = [page, ...page.querySelectorAll('.exercise-page, .lesson-section, .mc-option, .matching-item, .summary-card, .fc-hero')];
+    els.forEach(el => { el.style.animation = 'none'; });
+    void page.offsetHeight;
+    els.forEach(el => { el.style.animation = ''; });
     return page;
 }
 

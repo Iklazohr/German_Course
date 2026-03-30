@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 
 /* ===== Animations ===== */
 @keyframes pageIn {
-    from { opacity: 0; transform: translateY(6px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { transform: translateY(6px); }
+    to { transform: translateY(0); }
 }
 
 @keyframes fadeIn {
@@ -239,10 +239,6 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     padding: 16px;
     max-width: 800px;
     margin: 0 auto;
-    opacity: 0;
-}
-.page.entered {
-    opacity: 1;
     animation: pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 

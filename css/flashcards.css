@@ -8,8 +8,6 @@
     color: white;
     border-radius: var(--radius-lg);
     margin: 0 16px 8px;
-}
-.entered .fc-hero {
     animation: fadeIn 0.5s ease;
 }
 
