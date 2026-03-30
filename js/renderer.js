@@ -8,12 +8,26 @@ export function renderPage(html) {
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Force-restart CSS animations on targeted elements only
-    const els = [page, ...page.querySelectorAll('.exercise-page, .lesson-section, .mc-option, .matching-item, .summary-card, .fc-hero')];
-    els.forEach(el => {
-        el.style.animation = 'none';
-        void el.offsetHeight;
-        el.style.animation = '';
+    // Apply animations via JS style attribute (always triggers on any browser)
+    page.style.animation = 'pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
+    page.querySelectorAll('.exercise-page').forEach(el => {
+        el.style.animation = 'exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1)';
+    });
+    page.querySelectorAll('.lesson-section').forEach((el, i) => {
+        const d = Math.min(i * 0.06, 0.36);
+        el.style.animation = `slideInUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) ${d}s both`;
+    });
+    page.querySelectorAll('.mc-option').forEach((el, i) => {
+        el.style.animation = `slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.05}s both`;
+    });
+    page.querySelectorAll('.matching-item').forEach(el => {
+        el.style.animation = 'popIn 0.3s ease both';
+    });
+    page.querySelectorAll('.summary-card').forEach(el => {
+        el.style.animation = 'popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1)';
+    });
+    page.querySelectorAll('.fc-hero').forEach(el => {
+        el.style.animation = 'fadeIn 0.5s ease';
     });
     return page;
 }
