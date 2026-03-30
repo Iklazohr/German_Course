@@ -137,6 +137,14 @@ export async function renderExercise(exerciseId) {
                 }
             }
         });
+
+        // Enter key triggers check/advance
+        page.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !checkBtn.disabled) {
+                e.preventDefault();
+                checkBtn.click();
+            }
+        });
     }
 
     function showSummary() {
