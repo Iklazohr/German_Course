@@ -109,9 +109,21 @@ async function init() {
 
 init();
 
-// Register service worker
+// Register service worker with auto-update
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+    navigator.serviceWorker.register('./sw.js').then(reg => {
+        // Check for updates every 60 seconds
+        setInterval(() => reg.update(), 60000);
+    }).catch(() => {});
+
+    // When a new service worker takes over, reload the page
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+        }
+    });
 }
 
 // Expose for settings changes

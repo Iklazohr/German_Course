@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v6';
+const CACHE_NAME = 'tedesco-facile-v7';
 const SHELL_ASSETS = [
     './',
     './index.html',
@@ -34,6 +34,7 @@ const SHELL_ASSETS = [
     './data/course-structure.json'
 ];
 
+// Install: cache assets, then activate immediately
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -42,6 +43,7 @@ self.addEventListener('install', (event) => {
     );
 });
 
+// Activate: delete old caches, claim clients immediately
 self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys()
@@ -53,26 +55,26 @@ self.addEventListener('activate', (event) => {
     );
 });
 
+// Fetch: network-first for everything (with cache fallback for offline)
 self.addEventListener('fetch', (event) => {
+    // Skip non-GET requests
+    if (event.request.method !== 'GET') return;
+
+    // Skip external requests (Firebase, CDN, etc.)
     const url = new URL(event.request.url);
+    if (url.origin !== self.location.origin) return;
 
-    // For JSON data files, use network-first strategy
-    if (url.pathname.includes('/data/') && url.pathname.endsWith('.json')) {
-        event.respondWith(
-            fetch(event.request)
-                .then(response => {
-                    const clone = response.clone();
-                    caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-                    return response;
-                })
-                .catch(() => caches.match(event.request))
-        );
-        return;
-    }
-
-    // For app shell, use cache-first strategy
     event.respondWith(
-        caches.match(event.request)
-            .then(cached => cached || fetch(event.request))
+        fetch(event.request)
+            .then(response => {
+                // Cache the fresh response
+                const clone = response.clone();
+                caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+                return response;
+            })
+            .catch(() => {
+                // Offline: serve from cache
+                return caches.match(event.request);
+            })
     );
 });
