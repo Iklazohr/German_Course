@@ -3,7 +3,7 @@
 import { renderPage, setHeaderTitle, showBackButton, shuffleArray } from '../renderer.js';
 import { navigate } from '../router.js';
 import { store } from '../store.js';
-import { playSound } from '../audio.js';
+import { playCorrect } from '../audio.js';
 
 const FLASHCARD_DECKS = [
     { id: 'a1-nomen', level: 'a1', type: 'nomen', file: 'flashcards/a1-nomen.json', icon: '📦', label: 'Sostantivi' },
@@ -251,7 +251,7 @@ export async function renderFlashcardDeck(deckId) {
         page.querySelector('#fc-mark-known').addEventListener('click', () => {
             knownSet.add(card.de);
             saveFlashcardProgress(deckId, { known: [...knownSet], index: currentIndex });
-            playSound('correct');
+            playCorrect();
             currentIndex++;
             renderCard();
         });
