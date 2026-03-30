@@ -1,38 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v7';
-const SHELL_ASSETS = [
-    './',
-    './index.html',
-    './manifest.json',
-    './css/style.css',
-    './css/components.css',
-    './css/exercises.css',
-    './css/flashcards.css',
-    './js/app.js',
-    './js/store.js',
-    './js/router.js',
-    './js/renderer.js',
-    './js/components/dashboard.js',
-    './js/components/levels-view.js',
-    './js/components/lesson-view.js',
-    './js/components/exercise-view.js',
-    './js/components/progress-view.js',
-    './js/components/settings-view.js',
-    './js/exercises/multiple-choice.js',
-    './js/exercises/fill-blanks.js',
-    './js/exercises/matching.js',
-    './js/exercises/translation.js',
-    './js/exercises/reorder.js',
-    './js/exercises/select-article.js',
-    './js/audio.js',
-    './js/auth.js',
-    './js/sync.js',
-    './js/firebase-config.js',
-    './js/components/auth-view.js',
-    './js/components/flashcards-view.js',
-    './js/components/theory-view.js',
-    './js/friends.js',
-    './data/course-structure.json'
-];
+const CACHE_NAME = 'tedesco-facile-v8';
 
 // Listen for skip waiting message from the app
 self.addEventListener('message', (event) => {
@@ -41,16 +7,37 @@ self.addEventListener('message', (event) => {
     }
 });
 
-// Install: cache assets, wait for user to accept update
+// Install: cache assets but DON'T skipWaiting - wait for user to accept
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => cache.addAll(SHELL_ASSETS))
-            .then(() => self.skipWaiting())
+            .then(cache => {
+                // Cache what we can, don't fail if some assets are missing
+                return cache.addAll([
+                    './',
+                    './index.html',
+                    './manifest.json',
+                    './css/style.css',
+                    './css/components.css',
+                    './css/exercises.css',
+                    './css/flashcards.css',
+                    './js/app.js',
+                    './js/store.js',
+                    './js/router.js',
+                    './js/renderer.js',
+                    './js/audio.js',
+                    './js/auth.js',
+                    './js/sync.js',
+                    './js/friends.js',
+                    './js/firebase-config.js',
+                    './data/course-structure.json'
+                ]).catch(() => {});
+            })
     );
+    // NO self.skipWaiting() here - let the app control when to activate
 });
 
-// Activate: delete old caches, claim clients immediately
+// Activate: delete old caches and claim clients
 self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys()
@@ -62,26 +49,20 @@ self.addEventListener('activate', (event) => {
     );
 });
 
-// Fetch: network-first for everything (with cache fallback for offline)
+// Fetch: network-first for everything (cache as offline fallback)
 self.addEventListener('fetch', (event) => {
-    // Skip non-GET requests
     if (event.request.method !== 'GET') return;
 
-    // Skip external requests (Firebase, CDN, etc.)
     const url = new URL(event.request.url);
     if (url.origin !== self.location.origin) return;
 
     event.respondWith(
         fetch(event.request)
             .then(response => {
-                // Cache the fresh response
                 const clone = response.clone();
                 caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
                 return response;
             })
-            .catch(() => {
-                // Offline: serve from cache
-                return caches.match(event.request);
-            })
+            .catch(() => caches.match(event.request))
     );
 });
