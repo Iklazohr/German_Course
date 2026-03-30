@@ -63,9 +63,9 @@ export function handleRoute() {
         const isActive =
             (route === 'home' && (path === '/' || path === '')) ||
             (route === 'levels' && path.startsWith('/level')) ||
+            (route === 'theory' && path === '/theory') ||
             (route === 'flashcards' && path.startsWith('/flashcards')) ||
-            (route === 'progress' && path === '/progress') ||
-            (route === 'settings' && path === '/settings');
+            (route === 'progress' && path === '/progress');
         item.classList.toggle('active', isActive);
     });
 }

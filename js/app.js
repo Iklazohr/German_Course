@@ -10,6 +10,7 @@ import { renderProgress } from './components/progress-view.js';
 import { renderSettings } from './components/settings-view.js';
 import { renderAuthPage } from './components/auth-view.js';
 import { renderFlashcards, renderFlashcardDeck } from './components/flashcards-view.js';
+import { renderTheory } from './components/theory-view.js';
 import { initAuth, onAuthChange, getCurrentUser } from './auth.js';
 import { isFirebaseConfigured } from './firebase-config.js';
 import { setAudioEnabled } from './audio.js';
@@ -62,6 +63,11 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
     applySettings();
 });
 
+// Settings button click
+document.getElementById('settings-btn')?.addEventListener('click', () => {
+    navigate('/settings');
+});
+
 // Auth indicator click
 document.getElementById('auth-indicator')?.addEventListener('click', () => {
     navigate('/account');
@@ -73,6 +79,7 @@ addRoute('/levels', () => renderLevels());
 addRoute('/level/:id', (params) => renderLevel(params.id));
 addRoute('/lesson/:id', (params) => renderLesson(params.id));
 addRoute('/exercise/:id', (params) => renderExercise(params.id));
+addRoute('/theory', () => renderTheory());
 addRoute('/flashcards', () => renderFlashcards());
 addRoute('/flashcards/:id', (params) => renderFlashcardDeck(params.id));
 addRoute('/progress', () => renderProgress());
