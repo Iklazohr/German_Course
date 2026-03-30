@@ -156,7 +156,22 @@ export const store = {
         }
 
         state.lastActiveDate = today;
+
+        // Track active dates
+        if (!state.activeDates) state.activeDates = [];
+        if (!state.activeDates.includes(today)) {
+            state.activeDates.push(today);
+            // Keep last 365 days
+            if (state.activeDates.length > 365) {
+                state.activeDates = state.activeDates.slice(-365);
+            }
+        }
+
         saveState(state);
+    },
+
+    getActiveDates() {
+        return state.activeDates || [];
     },
 
     getCurrentLesson() {

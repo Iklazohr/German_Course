@@ -354,6 +354,154 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 
 .update-dismiss:hover { color: #fff; }
 
+/* ===== Streak Calendar Modal ===== */
+.streak-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    animation: fadeIn 0.2s ease;
+}
+
+.streak-modal-content {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    animation: popIn 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.streak-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.streak-modal-streak {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--text);
+}
+
+.streak-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+    border-radius: var(--radius-sm);
+    transition: background var(--transition), color var(--transition);
+}
+
+.streak-modal-close:hover {
+    background: var(--surface-hover);
+    color: var(--text);
+}
+
+.cal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.cal-nav-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    transition: background var(--transition), color var(--transition);
+}
+
+.cal-nav-btn:hover {
+    background: var(--surface-hover);
+    color: var(--text);
+}
+
+.cal-month-label {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text);
+}
+
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    text-align: center;
+}
+
+.cal-day-name {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    padding: 4px 0;
+    text-transform: uppercase;
+}
+
+.cal-day {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin: 0 auto;
+}
+
+.cal-day.empty {
+    visibility: hidden;
+}
+
+.cal-day.active {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 2px 8px var(--primary-glow);
+}
+
+.cal-day.today:not(.active) {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.cal-day.today.active {
+    box-shadow: 0 2px 8px var(--primary-glow), 0 0 0 2px rgba(255,255,255,0.5) inset;
+}
+
+.cal-footer {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    font-weight: 500;
+}
+
+.streak-badge {
+    cursor: pointer;
+}
+
 /* ===== Utilities ===== */
 .text-center { text-align: center; }
 .text-secondary { color: var(--text-secondary); }

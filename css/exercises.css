@@ -1,7 +1,21 @@
 /* ===== Exercise Container ===== */
 .exercise-page {
     padding-bottom: 100px;
-    animation: pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    animation: exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.exercise-page.exercise-exit {
+    animation: exerciseExit 0.3s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+@keyframes exerciseEnter {
+    from { opacity: 0; transform: translateX(60px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes exerciseExit {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(-60px); }
 }
 
 .exercise-header {

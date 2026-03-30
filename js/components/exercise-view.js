@@ -123,8 +123,18 @@ export async function renderExercise(exerciseId) {
                 if (userCorrect) correctCount++;
                 checkBtn.textContent = 'Avanti';
             } else if (answered) {
-                currentIdx++;
-                showExercise(currentIdx);
+                // Animate exercise out, then show next
+                const exercisePage = page.querySelector('.exercise-page');
+                if (exercisePage) {
+                    exercisePage.classList.add('exercise-exit');
+                    exercisePage.addEventListener('animationend', () => {
+                        currentIdx++;
+                        showExercise(currentIdx);
+                    }, { once: true });
+                } else {
+                    currentIdx++;
+                    showExercise(currentIdx);
+                }
             }
         });
     }

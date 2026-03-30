@@ -68,6 +68,92 @@ document.getElementById('settings-btn')?.addEventListener('click', () => {
     navigate('/settings');
 });
 
+// Streak badge click — open calendar
+document.getElementById('streak-badge')?.addEventListener('click', () => {
+    showStreakCalendar();
+});
+
+function showStreakCalendar() {
+    // Remove existing
+    document.getElementById('streak-modal')?.remove();
+
+    const activeDates = new Set(store.getActiveDates());
+    const stats = store.getStats();
+    const now = new Date();
+    let viewYear = now.getFullYear();
+    let viewMonth = now.getMonth();
+
+    const modal = document.createElement('div');
+    modal.id = 'streak-modal';
+    modal.className = 'streak-modal-overlay';
+    document.body.appendChild(modal);
+
+    function renderCalendar() {
+        const firstDay = new Date(viewYear, viewMonth, 1).getDay();
+        const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+        const monthName = new Date(viewYear, viewMonth).toLocaleDateString('it-IT', { month: 'long', year: 'numeric' });
+        const today = new Date().toISOString().split('T')[0];
+
+        // Count active days this month
+        let monthActive = 0;
+        for (let d = 1; d <= daysInMonth; d++) {
+            const ds = `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+            if (activeDates.has(ds)) monthActive++;
+        }
+
+        const dayNames = ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab', 'Dom'];
+        // Adjust firstDay: JS uses 0=Sun, we want 0=Mon
+        const startOffset = (firstDay + 6) % 7;
+
+        let daysHtml = dayNames.map(d => `<div class="cal-day-name">${d}</div>`).join('');
+        for (let i = 0; i < startOffset; i++) daysHtml += '<div class="cal-day empty"></div>';
+        for (let d = 1; d <= daysInMonth; d++) {
+            const ds = `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+            const isActive = activeDates.has(ds);
+            const isToday = ds === today;
+            daysHtml += `<div class="cal-day${isActive ? ' active' : ''}${isToday ? ' today' : ''}">${d}</div>`;
+        }
+
+        modal.innerHTML = `
+            <div class="streak-modal-content">
+                <div class="streak-modal-header">
+                    <div class="streak-modal-streak">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:var(--warning)"><path d="M12 23c-3.6 0-8-3.17-8-8.5C4 9.83 8.26 4.77 11.34 2.23a1 1 0 011.32 0C15.74 4.77 20 9.83 20 14.5c0 5.33-4.4 8.5-8 8.5z"/></svg>
+                        <span>${stats.streakDays} ${stats.streakDays === 1 ? 'giorno' : 'giorni'} di fila</span>
+                    </div>
+                    <button class="streak-modal-close" id="streak-close">&times;</button>
+                </div>
+                <div class="cal-nav">
+                    <button class="cal-nav-btn" id="cal-prev">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="cal-month-label">${monthName.charAt(0).toUpperCase() + monthName.slice(1)}</div>
+                    <button class="cal-nav-btn" id="cal-next">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+                <div class="cal-grid">${daysHtml}</div>
+                <div class="cal-footer">${monthActive} ${monthActive === 1 ? 'giorno attivo' : 'giorni attivi'} questo mese</div>
+            </div>
+        `;
+
+        modal.querySelector('#streak-close').addEventListener('click', () => modal.remove());
+        modal.addEventListener('click', (e) => { if (e.target === modal) modal.remove(); });
+        modal.querySelector('#cal-prev').addEventListener('click', () => {
+            viewMonth--;
+            if (viewMonth < 0) { viewMonth = 11; viewYear--; }
+            renderCalendar();
+        });
+        modal.querySelector('#cal-next').addEventListener('click', () => {
+            viewMonth++;
+            if (viewMonth > 11) { viewMonth = 0; viewYear++; }
+            renderCalendar();
+        });
+    }
+
+    renderCalendar();
+}
+
 // Auth indicator click
 document.getElementById('auth-indicator')?.addEventListener('click', () => {
     navigate('/account');
