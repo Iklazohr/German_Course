@@ -24,12 +24,13 @@
 
 .exercise-progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--primary), var(--success));
+    background: var(--primary);
     border-radius: 4px;
     transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .exercise-count {
+    font-family: var(--font-body);
     font-size: 0.8125rem;
     color: var(--text-secondary);
     font-weight: 600;
@@ -37,25 +38,30 @@
 }
 
 .exercise-question {
+    font-family: var(--font-body);
     font-size: 1.0625rem;
     font-weight: 600;
+    color: var(--text);
     margin-bottom: 8px;
     line-height: 1.5;
 }
 
 .exercise-instruction {
+    font-family: var(--font-body);
     font-size: 0.875rem;
     color: var(--text-secondary);
     margin-bottom: 16px;
 }
 
 .exercise-translation {
+    font-family: var(--font-body);
     font-size: 0.8125rem;
     color: var(--text-secondary);
     font-style: italic;
     margin-bottom: 16px;
     padding: 8px 12px;
     background: var(--surface-hover);
+    border: 1px solid var(--border);
     border-radius: var(--radius-sm);
 }
 
@@ -72,11 +78,13 @@
     gap: 12px;
     padding: 14px 16px;
     background: var(--surface);
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
     cursor: pointer;
+    font-family: var(--font-body);
     font-size: 0.9375rem;
-    transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+    color: var(--text);
+    transition: border-color 0.2s ease, background-color 0.2s ease;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -120,10 +128,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-body);
     font-weight: 600;
     font-size: 0.8125rem;
     flex-shrink: 0;
-    transition: all var(--transition);
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 .mc-option.selected .mc-marker {
@@ -146,6 +155,7 @@
 
 /* ===== Fill in the Blank ===== */
 .fill-sentence {
+    font-family: var(--font-body);
     font-size: 1.125rem;
     line-height: 2;
     margin-bottom: 16px;
@@ -153,6 +163,7 @@
     background: var(--surface);
     border-radius: var(--radius-md);
     border: 1px solid var(--border);
+    color: var(--text);
 }
 
 .fill-blank-input {
@@ -162,18 +173,19 @@
     border: 2px dashed var(--primary);
     border-radius: var(--radius-sm);
     background: var(--primary-light);
+    font-family: inherit;
     font-size: 1rem;
     font-weight: 600;
     color: var(--text);
     text-align: center;
     outline: none;
-    transition: all var(--transition);
-    font-family: inherit;
+    transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .fill-blank-input:focus {
     border-style: solid;
-    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
 }
 
 .fill-blank-input.correct {
@@ -204,12 +216,14 @@
 .matching-item {
     padding: 12px 14px;
     background: var(--surface);
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
+    font-family: var(--font-body);
     font-size: 0.875rem;
+    color: var(--text);
     cursor: pointer;
     text-align: center;
-    transition: all var(--transition);
+    transition: border-color 0.2s ease, background-color 0.2s ease;
     -webkit-tap-highlight-color: transparent;
     min-height: 48px;
     display: flex;
@@ -219,12 +233,12 @@
 
 .matching-item:hover {
     border-color: var(--primary);
+    background: var(--primary-light);
 }
 
 .matching-item.selected {
     border-color: var(--primary);
     background: var(--primary-light);
-    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
 }
 
 .matching-item.matched {
@@ -254,28 +268,30 @@
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     margin-bottom: 16px;
+    font-family: var(--font-body);
     font-size: 1.0625rem;
     font-weight: 500;
+    color: var(--text);
 }
 
 .translation-input {
     width: 100%;
     min-height: 80px;
     padding: 14px;
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
-    font-size: 1rem;
     font-family: inherit;
+    font-size: 1rem;
     color: var(--text);
     background: var(--surface);
     resize: vertical;
     outline: none;
-    transition: border-color var(--transition);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .translation-input:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
 }
 
 .translation-input.correct {
@@ -293,10 +309,13 @@
     margin-top: 12px;
     padding: 10px 14px;
     background: var(--warning-light);
+    border: 1px solid var(--warning);
     border-radius: var(--radius-sm);
+    font-family: var(--font-body);
     font-size: 0.8125rem;
     color: var(--text);
     cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 /* ===== Reorder Exercise ===== */
@@ -315,13 +334,15 @@
 .reorder-word {
     padding: 8px 16px;
     background: var(--primary-light);
-    border: 2px solid var(--primary);
+    border: 1px solid var(--primary);
     border-radius: var(--radius-xl);
+    font-family: var(--font-body);
     font-size: 0.9375rem;
     font-weight: 500;
+    color: var(--text);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: all var(--transition);
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     user-select: none;
 }
 
@@ -333,8 +354,7 @@
 .reorder-word.placed {
     background: var(--surface-hover);
     border-color: var(--border);
-    color: var(--text-secondary);
-    transform: scale(0.95);
+    color: var(--text-tertiary);
     opacity: 0.5;
 }
 
@@ -345,7 +365,7 @@
     min-height: 56px;
     padding: 16px;
     background: var(--surface-hover);
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
 }
 
@@ -383,8 +403,10 @@
 }
 
 .article-noun {
+    font-family: var(--font-body);
     font-size: 1.0625rem;
     font-weight: 600;
+    color: var(--text);
     min-width: 100px;
 }
 
@@ -397,13 +419,15 @@
 
 .article-btn {
     padding: 8px 16px;
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     background: var(--surface);
+    font-family: var(--font-body);
     font-size: 0.875rem;
     font-weight: 600;
+    color: var(--text);
     cursor: pointer;
-    transition: all var(--transition);
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -439,7 +463,9 @@
     margin-top: 16px;
     padding: 14px 16px;
     border-radius: var(--radius-md);
+    font-family: var(--font-body);
     font-size: 0.9375rem;
+    color: var(--text);
     animation: slideUp 0.25s ease;
 }
 
@@ -451,7 +477,6 @@
 .feedback-correct {
     background: var(--success-light);
     border: 1px solid var(--success);
-    color: var(--text);
 }
 
 .feedback-correct .feedback-title {
@@ -527,6 +552,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-heading);
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -534,39 +560,43 @@
 .summary-score.excellent {
     background: var(--success-light);
     color: var(--success);
-    border: 4px solid var(--success);
+    border: 3px solid var(--success);
 }
 
 .summary-score.good {
     background: var(--primary-light);
     color: var(--primary);
-    border: 4px solid var(--primary);
+    border: 3px solid var(--primary);
 }
 
 .summary-score.needs-work {
     background: var(--warning-light);
     color: #e37400;
-    border: 4px solid var(--warning);
+    border: 3px solid var(--warning);
 }
 
 .summary-score.poor {
     background: var(--error-light);
     color: var(--error);
-    border: 4px solid var(--error);
+    border: 3px solid var(--error);
 }
 
 .summary-score span {
+    font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 500;
 }
 
 .summary-message {
+    font-family: var(--font-heading);
     font-size: 1.25rem;
     font-weight: 600;
+    color: var(--text);
     margin-bottom: 8px;
 }
 
 .summary-detail {
+    font-family: var(--font-body);
     color: var(--text-secondary);
     margin-bottom: 24px;
 }

@@ -7,12 +7,15 @@
 }
 
 .fc-hero h2 {
+    font-family: var(--font-heading);
     font-size: 1.35em;
     font-weight: 700;
+    color: var(--text);
     margin: 0 0 4px;
 }
 
 .fc-hero p {
+    font-family: var(--font-body);
     color: var(--text-secondary);
     margin: 0;
     font-size: 0.9em;
@@ -30,8 +33,10 @@
 }
 
 .fc-level-title {
+    font-family: var(--font-heading);
     font-size: 1.05em;
     font-weight: 700;
+    color: var(--text);
     margin: 0 0 12px 4px;
 }
 
@@ -49,11 +54,16 @@
     padding: 20px 12px 16px;
     text-align: center;
     position: relative;
-    transition: transform var(--transition), box-shadow var(--transition);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .fc-deck-card:hover {
-    box-shadow: var(--shadow-md);
+    border-color: var(--primary);
+    background: var(--primary-light);
 }
 
 .fc-deck-icon {
@@ -67,8 +77,10 @@
 }
 
 .fc-deck-label {
+    font-family: var(--font-body);
     font-weight: 600;
     font-size: 0.95em;
+    color: var(--text);
 }
 
 .fc-deck-level {
@@ -120,14 +132,16 @@
 .fc-empty-icon {
     font-size: 56px;
     margin-bottom: 16px;
-    animation: bounceIn 0.6s;
 }
 
 .fc-empty-state h3 {
+    font-family: var(--font-heading);
     margin: 0 0 8px;
+    color: var(--text);
 }
 
 .fc-empty-state p {
+    font-family: var(--font-body);
     color: var(--text-secondary);
     margin: 0 0 20px;
 }
@@ -148,6 +162,7 @@
 }
 
 .fc-counter {
+    font-family: var(--font-body);
     font-weight: 700;
     font-size: 1em;
     color: var(--text-secondary);
@@ -156,7 +171,8 @@
 .fc-filters {
     display: flex;
     gap: 4px;
-    background: var(--bg-secondary, var(--bg));
+    background: var(--bg);
+    border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     padding: 3px;
 }
@@ -166,11 +182,17 @@
     border: none;
     padding: 6px 12px;
     border-radius: 6px;
+    font-family: var(--font-body);
     font-size: 0.8em;
     font-weight: 600;
     color: var(--text-secondary);
     cursor: pointer;
-    transition: all var(--transition);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.fc-filter-btn:hover {
+    background: var(--surface-hover);
+    color: var(--text);
 }
 
 .fc-filter-btn.active {
@@ -195,6 +217,7 @@
 
 .fc-progress-text {
     text-align: center;
+    font-family: var(--font-body);
     font-size: 0.8em;
     color: var(--text-tertiary);
     margin: 4px 0 12px;
@@ -233,45 +256,50 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    background: var(--surface);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 32px 24px;
-    background: var(--surface);
     overflow-y: auto;
 }
 
 .fc-card-front {
-    border-bottom: 4px solid var(--level-color, var(--primary));
+    border-bottom: 3px solid var(--level-color, var(--primary));
 }
 
 .fc-card-back {
     transform: rotateY(180deg);
-    border-top: 4px solid var(--level-color, var(--primary));
+    border-top: 3px solid var(--level-color, var(--primary));
     justify-content: flex-start;
     padding-top: 24px;
 }
 
 /* Front card elements */
 .fc-article {
+    font-family: var(--font-heading);
     font-size: 1.3em;
     font-weight: 700;
     margin-bottom: 4px;
     text-transform: lowercase;
+    color: var(--text-secondary);
 }
 
 .fc-word {
+    font-family: var(--font-heading);
     font-size: 2em;
     font-weight: 800;
     text-align: center;
     line-height: 1.2;
     margin-bottom: 8px;
     word-break: break-word;
+    color: var(--text);
 }
 
 .fc-verb-type {
+    font-family: var(--font-body);
     font-size: 0.8em;
     font-weight: 600;
     color: var(--text-tertiary);
@@ -281,6 +309,7 @@
 }
 
 .fc-hint {
+    font-family: var(--font-body);
     font-size: 0.8em;
     color: var(--text-tertiary);
     margin-top: 16px;
@@ -289,13 +318,16 @@
 
 /* Back card elements */
 .fc-back-article {
+    font-family: var(--font-heading);
     font-size: 1.4em;
     font-weight: 800;
     margin-bottom: 8px;
     text-align: center;
+    color: var(--text);
 }
 
 .fc-back-plural {
+    font-family: var(--font-body);
     font-size: 0.95em;
     color: var(--text-secondary);
     margin-bottom: 12px;
@@ -303,6 +335,7 @@
 }
 
 .fc-back-translation {
+    font-family: var(--font-body);
     font-size: 1.3em;
     font-weight: 700;
     color: var(--primary);
@@ -311,6 +344,7 @@
 }
 
 .fc-back-example {
+    font-family: var(--font-body);
     font-size: 0.88em;
     color: var(--text-secondary);
     font-style: italic;
@@ -324,6 +358,7 @@
 }
 
 .fc-back-category {
+    font-family: var(--font-body);
     font-size: 0.75em;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -333,17 +368,20 @@
 }
 
 .fc-back-note {
+    font-family: var(--font-body);
     font-size: 0.82em;
     color: var(--warning);
     margin-top: 10px;
     padding: 8px 12px;
-    background: color-mix(in srgb, var(--warning) 10%, transparent);
+    background: var(--warning-light);
+    border: 1px solid var(--warning);
     border-radius: var(--radius-sm);
     width: 100%;
     text-align: left;
 }
 
 .fc-back-perfekt, .fc-back-praeteritum {
+    font-family: var(--font-body);
     font-size: 0.88em;
     margin-top: 6px;
     width: 100%;
@@ -367,6 +405,7 @@
 }
 
 .fc-conj-pron {
+    font-family: var(--font-body);
     padding: 5px 10px 5px 0;
     font-weight: 600;
     color: var(--text-secondary);
@@ -376,9 +415,11 @@
 }
 
 .fc-conj-form {
+    font-family: var(--font-body);
     padding: 5px 0 5px 10px;
     font-weight: 700;
     font-size: 0.95em;
+    color: var(--text);
 }
 
 /* Action buttons */
@@ -396,11 +437,12 @@
     align-items: center;
     gap: 4px;
     padding: 12px 16px;
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
     background: var(--surface);
     cursor: pointer;
-    transition: all var(--transition);
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    font-family: var(--font-body);
     font-size: 0.75em;
     font-weight: 600;
     color: var(--text-secondary);
@@ -412,18 +454,20 @@
 }
 
 .fc-action-btn:hover {
-    border-color: var(--text-secondary);
+    border-color: var(--primary);
+    background: var(--primary-light);
+    color: var(--primary);
 }
 
 .fc-btn-known.active {
     border-color: var(--success);
-    background: color-mix(in srgb, var(--success) 10%, var(--surface));
+    background: var(--success-light);
     color: var(--success);
 }
 
 .fc-btn-unknown.active {
     border-color: var(--error);
-    background: color-mix(in srgb, var(--error) 10%, var(--surface));
+    background: var(--error-light);
     color: var(--error);
 }
 
@@ -434,8 +478,10 @@
 }
 
 .fc-shuffle-btn {
+    font-family: var(--font-body);
     font-size: 0.9em;
     padding: 8px 20px;
+    cursor: pointer;
 }
 
 /* Responsive */

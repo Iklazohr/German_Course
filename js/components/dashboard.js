@@ -48,7 +48,7 @@ export async function renderDashboard() {
             `}
         </div>
 
-        <div class="stats-grid stagger-in">
+        <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-value">${stats.streakDays}</div>
                 <div class="stat-label">Giorni di fila</div>
@@ -84,7 +84,6 @@ export async function renderDashboard() {
         ` : ''}
 
         <div class="section-title">I livelli del corso</div>
-        <div class="stagger-in">
         ${course.levels.map(level => {
             const completion = store.getLevelCompletion(level.id, course);
             const totalLessons = level.units.reduce((sum, u) => sum + u.lessons.length + (u.review ? 1 : 0), 0);
@@ -105,7 +104,6 @@ export async function renderDashboard() {
                 </div>
             `;
         }).join('')}
-        </div>
     `);
 
     // Event listeners

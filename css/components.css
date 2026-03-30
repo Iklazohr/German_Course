@@ -1,24 +1,27 @@
 /* ===== Theory Library ===== */
 .theory-hero {
     text-align: center;
-    padding: 24px 16px 20px;
+    padding: 28px 16px 24px;
+    background: var(--primary);
+    color: #fff;
 }
 
 .theory-hero h2 {
-    font-size: 1.35em;
+    font-family: var(--font-heading);
+    font-size: 1.4em;
     font-weight: 700;
     margin: 0 0 4px;
 }
 
 .theory-hero p {
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.85);
     margin: 0;
     font-size: 0.9em;
 }
 
 .theory-filters {
     display: flex;
-    gap: 4px;
+    gap: 6px;
     padding: 0 16px 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -54,6 +57,7 @@
 
 .theory-level-title {
     flex: 1;
+    font-family: var(--font-heading);
     font-size: 0.95em;
     color: var(--level-color, var(--primary));
 }
@@ -67,7 +71,8 @@
 .theory-lesson-list {
     background: var(--surface);
     border-radius: 0 0 var(--radius-md) var(--radius-md);
-    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    border-top: none;
     overflow: hidden;
 }
 
@@ -75,7 +80,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 14px 14px;
+    padding: 14px;
     cursor: pointer;
     transition: background var(--transition);
     border-bottom: 1px solid var(--border);
@@ -86,7 +91,7 @@
 }
 
 .theory-lesson-item:hover {
-    background: var(--bg);
+    background: var(--surface-hover);
 }
 
 .theory-lesson-item.completed {
@@ -147,16 +152,16 @@
     color: var(--text-tertiary);
     padding: 4px 6px;
     line-height: 1;
-    transition: transform 0.2s, color 0.2s;
+    transition: color 0.2s;
     flex-shrink: 0;
 }
 
 .theory-fav-btn:hover {
-    color: #f9ab00;
+    color: var(--warning);
 }
 
 .theory-fav-btn.active {
-    color: #f9ab00;
+    color: var(--warning);
 }
 
 .theory-empty {
@@ -165,6 +170,7 @@
 }
 
 .theory-empty h3 {
+    font-family: var(--font-heading);
     margin: 0 0 8px;
 }
 
@@ -183,13 +189,10 @@
 .card {
     background: var(--surface);
     border-radius: var(--radius-md);
+    border: 1px solid var(--border);
     box-shadow: var(--shadow-sm);
     padding: 16px;
-    transition: box-shadow var(--transition), transform var(--transition);
-}
-
-.card-clickable:hover {
-    box-shadow: var(--shadow-md);
+    transition: box-shadow var(--transition);
 }
 
 .card-clickable {
@@ -197,8 +200,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.card-clickable:active {
-    transform: scale(0.98);
+.card-clickable:hover {
+    box-shadow: var(--shadow-md);
 }
 
 /* ===== Level Cards ===== */
@@ -209,7 +212,7 @@
     padding: 20px;
     margin-bottom: 12px;
     border-left: 4px solid var(--level-color, var(--primary));
-    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: box-shadow var(--transition);
 }
 
 .level-card:hover {
@@ -225,6 +228,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-heading);
     font-size: 1.25rem;
     font-weight: 700;
     flex-shrink: 0;
@@ -236,6 +240,7 @@
 }
 
 .level-card .level-title {
+    font-family: var(--font-heading);
     font-size: 1.0625rem;
     font-weight: 600;
     margin-bottom: 2px;
@@ -287,6 +292,7 @@
     padding: 14px 16px;
     background: var(--surface);
     border-radius: var(--radius-md);
+    border: 1px solid var(--border);
     box-shadow: var(--shadow-sm);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -313,6 +319,7 @@
 
 .unit-header .unit-title {
     flex: 1;
+    font-family: var(--font-heading);
     font-weight: 600;
     font-size: 0.9375rem;
 }
@@ -334,7 +341,6 @@
 
 .unit-header.open + .unit-lessons {
     display: block;
-    animation: fadeIn 0.3s ease;
 }
 
 /* ===== Lesson Items ===== */
@@ -373,23 +379,23 @@
 }
 
 .lesson-icon.grammar {
-    background: #e8f0fe;
-    color: #1a73e8;
+    background: var(--primary-light);
+    color: var(--primary);
 }
 
 .lesson-icon.vocab {
-    background: #e6f4ea;
-    color: #34a853;
+    background: var(--success-light);
+    color: var(--success);
 }
 
 .lesson-icon.exercise {
-    background: #fef7e0;
-    color: #f9ab00;
+    background: var(--warning-light);
+    color: var(--warning);
 }
 
 .lesson-icon.review {
-    background: #fce8e6;
-    color: #ea4335;
+    background: var(--error-light);
+    color: var(--error);
 }
 
 .lesson-icon.completed {
@@ -425,11 +431,12 @@
     gap: 8px;
     padding: 12px 24px;
     border: none;
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
     font-size: 0.9375rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all var(--transition);
+    transition: background var(--transition), color var(--transition), box-shadow var(--transition);
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     line-height: 1.4;
@@ -447,6 +454,10 @@
 .btn-success {
     background: var(--success);
     color: #fff;
+}
+
+.btn-success:hover {
+    background: #1aab4e;
 }
 
 .btn-outline {
@@ -490,7 +501,7 @@
 
 .badge-warning {
     background: var(--warning-light);
-    color: #e37400;
+    color: #b47300;
 }
 
 .badge-error {
@@ -508,6 +519,7 @@
 }
 
 .lesson-header h2 {
+    font-family: var(--font-heading);
     font-size: 1.375rem;
     font-weight: 700;
     margin-bottom: 4px;
@@ -536,6 +548,7 @@
 }
 
 .section-rule h3 {
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 8px;
@@ -557,8 +570,8 @@
     line-height: 1.6;
 }
 
-.section-tip strong::first-child,
-.section-tip b::first-child {
+.section-tip strong:first-child,
+.section-tip b:first-child {
     font-weight: 600;
 }
 
@@ -569,6 +582,7 @@
 }
 
 .section-comparison h3 {
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 8px;
@@ -589,6 +603,7 @@
 }
 
 .section-quick-table h3 {
+    font-family: var(--font-heading);
     font-size: 1.0625rem;
     font-weight: 700;
     margin-bottom: 8px;
@@ -612,8 +627,8 @@
     line-height: 1.6;
 }
 
-.section-warning strong::first-child,
-.section-warning b::first-child {
+.section-warning strong:first-child,
+.section-warning b:first-child {
     font-weight: 600;
 }
 
@@ -626,6 +641,7 @@
 }
 
 .section-summary h3 {
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 700;
     color: var(--success);
@@ -646,7 +662,7 @@
 }
 
 .summary-list li::before {
-    content: "✓";
+    content: "\2713";
     position: absolute;
     left: 0;
     color: var(--success);
@@ -721,6 +737,7 @@
 }
 
 .vocab-group-title {
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 12px;
@@ -744,7 +761,7 @@
     border: 1px solid var(--border);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: all var(--transition);
+    transition: border-color var(--transition), background var(--transition);
 }
 
 .vocab-card:hover {
@@ -823,21 +840,25 @@
 .stat-card {
     background: var(--surface);
     border-radius: var(--radius-md);
-    padding: 16px;
+    padding: 20px 16px;
     text-align: center;
     border: 1px solid var(--border);
 }
 
 .stat-value {
-    font-size: 1.75rem;
+    font-family: var(--font-heading);
+    font-size: 2rem;
     font-weight: 700;
     color: var(--primary);
+    line-height: 1.2;
 }
 
 .stat-label {
     font-size: 0.75rem;
     color: var(--text-secondary);
-    margin-top: 2px;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 /* ===== Welcome Hero ===== */
@@ -845,26 +866,28 @@
     background: var(--primary);
     color: #fff;
     border-radius: var(--radius-lg);
-    padding: 28px 24px;
+    padding: 32px 24px;
     margin-bottom: 24px;
     text-align: center;
 }
 
 .hero h2 {
-    font-size: 1.4rem;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .hero p {
     opacity: 0.85;
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     margin-bottom: 16px;
 }
 
 /* ===== Section Headers ===== */
 .section-title {
-    font-size: 1.0625rem;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 12px;
 }
@@ -902,6 +925,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-heading);
     font-weight: 700;
     font-size: 0.875rem;
 }
@@ -973,7 +997,7 @@
     top: 0; left: 0; right: 0; bottom: 0;
     background: var(--border);
     border-radius: 14px;
-    transition: var(--transition);
+    transition: background var(--transition);
 }
 
 .toggle-slider::before {
@@ -985,7 +1009,7 @@
     bottom: 3px;
     background: #fff;
     border-radius: 50%;
-    transition: var(--transition);
+    transition: transform var(--transition);
 }
 
 .toggle input:checked + .toggle-slider {
@@ -1014,7 +1038,7 @@
     font-weight: 500;
     color: var(--text-secondary);
     cursor: pointer;
-    transition: all var(--transition);
+    transition: background var(--transition), color var(--transition);
 }
 
 .select-btn.active {
@@ -1069,9 +1093,9 @@
     width: 100%;
     padding: 12px 16px;
     border: 2px solid var(--border);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
     font-size: 0.9375rem;
-    font-family: inherit;
+    font-family: var(--font-body);
     color: var(--text);
     background: var(--surface);
     margin-bottom: 10px;
@@ -1092,41 +1116,6 @@
     margin-bottom: 16px;
 }
 
-.auth-divider {
-    display: flex;
-    align-items: center;
-    margin: 16px 0;
-    color: var(--text-tertiary);
-    font-size: 0.8125rem;
-}
-
-.auth-divider::before,
-.auth-divider::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-}
-
-.auth-divider span {
-    padding: 0 12px;
-}
-
-.auth-google-btn {
-    background: var(--surface);
-    color: var(--text);
-    border: 2px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.auth-google-btn:hover {
-    background: var(--surface-hover);
-    border-color: var(--text-tertiary);
-}
-
 .auth-link {
     background: none;
     border: none;
@@ -1135,10 +1124,11 @@
     cursor: pointer;
     padding: 8px;
     margin-top: 8px;
+    transition: color var(--transition);
 }
 
 .auth-link:hover {
-    text-decoration: underline;
+    color: var(--primary-dark);
 }
 
 /* ===== Friends ===== */
@@ -1192,7 +1182,7 @@
     cursor: pointer;
     padding: 6px;
     border-radius: 50%;
-    transition: all var(--transition);
+    transition: background var(--transition), color var(--transition);
     flex-shrink: 0;
 }
 

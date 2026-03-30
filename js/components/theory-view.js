@@ -69,7 +69,7 @@ export async function renderTheory() {
                     <p>Tocca la stella accanto a una lezione per aggiungerla ai preferiti.</p>
                 </div>
             ` : `
-                <div class="theory-levels stagger-in" id="theory-list">
+                <div class="theory-levels" id="theory-list">
                     ${levels.map(level => {
                         const filtered = level.theoryLessons.filter(l => matchFilter(l, currentFilter));
                         if (filtered.length === 0) return '';

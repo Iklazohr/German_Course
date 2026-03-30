@@ -60,7 +60,7 @@ export async function renderFlashcards() {
             <h2>Flashcards</h2>
             <p>Impara nomi con articoli e verbi con coniugazione</p>
         </div>
-        <div class="fc-levels stagger-in">
+        <div class="fc-levels">
             ${levels.map(level => {
                 const decks = FLASHCARD_DECKS.filter(d => d.level === level);
                 return `
