@@ -100,7 +100,7 @@ export async function renderFlashcardDeck(deckId) {
     const deckMeta = FLASHCARD_DECKS.find(d => d.id === deckId);
     if (!deckMeta) { navigate('/flashcards'); return; }
 
-    setHeaderTitle(`${deckMeta.icon} ${deckMeta.label} ${deckMeta.level.toUpperCase()}`);
+    setHeaderTitle(`${deckMeta.label} ${deckMeta.level.toUpperCase()}`);
     showBackButton(true, () => navigate('/flashcards'));
 
     // Show loading
@@ -133,6 +133,18 @@ export async function renderFlashcardDeck(deckId) {
     let shuffledCards = shuffleArray(cards);
     let knownSet = new Set(progress.known);
     let mode = 'all'; // 'all', 'unknown', 'known'
+    let transitionDir = null; // 'left', 'right', or null
+
+    function animateCardTransition(direction, callback) {
+        const cardEl = page.querySelector('#fc-main-card');
+        if (!cardEl) { callback(); return; }
+        const exitClass = direction === 'left' ? 'card-exit-left' : 'card-exit-right';
+        cardEl.classList.add(exitClass);
+        cardEl.addEventListener('animationend', () => {
+            transitionDir = direction;
+            callback();
+        }, { once: true });
+    }
 
     function getFilteredCards() {
         if (mode === 'unknown') return shuffledCards.filter(c => !knownSet.has(c.de));
@@ -189,7 +201,7 @@ export async function renderFlashcardDeck(deckId) {
             <div class="fc-progress-text">${knownSet.size} / ${cards.length} sapute</div>
 
             <div class="fc-card-container">
-                <div class="fc-card ${isFlipped ? 'flipped' : ''}" id="fc-main-card" style="--level-color: ${levelColor}">
+                <div class="fc-card ${isFlipped ? 'flipped' : ''} ${transitionDir === 'left' ? 'card-enter-left' : transitionDir === 'right' ? 'card-enter-right' : ''}" id="fc-main-card" style="--level-color: ${levelColor}">
                     <div class="fc-card-front">
                         ${isNomen ? `
                             <div class="fc-article" style="color: ${articleColor}">${card.article}</div>
@@ -231,29 +243,44 @@ export async function renderFlashcardDeck(deckId) {
             </div>
         `;
 
+        // Reset transition direction after enter animation plays
+        const mainCard = page.querySelector('#fc-main-card');
+        if (transitionDir) {
+            mainCard.addEventListener('animationend', () => {
+                mainCard.classList.remove('card-enter-left', 'card-enter-right');
+                transitionDir = null;
+            }, { once: true });
+        }
+
         // Event listeners
-        page.querySelector('#fc-main-card').addEventListener('click', () => {
+        mainCard.addEventListener('click', () => {
             isFlipped = !isFlipped;
-            page.querySelector('#fc-main-card').classList.toggle('flipped', isFlipped);
+            mainCard.classList.toggle('flipped', isFlipped);
             playCardFlip();
         });
 
         page.querySelector('#fc-next').addEventListener('click', () => {
-            currentIndex++;
-            renderCard();
+            animateCardTransition('left', () => {
+                currentIndex++;
+                renderCard();
+            });
         });
 
         page.querySelector('#fc-prev').addEventListener('click', () => {
-            currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1;
-            renderCard();
+            animateCardTransition('right', () => {
+                currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1;
+                renderCard();
+            });
         });
 
         page.querySelector('#fc-mark-known').addEventListener('click', () => {
             knownSet.add(card.de);
             saveFlashcardProgress(deckId, { known: [...knownSet], index: currentIndex });
             playCorrect();
-            currentIndex++;
-            renderCard();
+            animateCardTransition('left', () => {
+                currentIndex++;
+                renderCard();
+            });
         });
 
         page.querySelector('#fc-mark-unknown').addEventListener('click', () => {
@@ -284,11 +311,12 @@ export async function renderFlashcardDeck(deckId) {
                 page.querySelector('#fc-main-card')?.classList.toggle('flipped', isFlipped);
                 playCardFlip();
             } else if (e.key === 'ArrowRight') {
-                currentIndex++;
-                renderCard();
+                animateCardTransition('left', () => { currentIndex++; renderCard(); });
             } else if (e.key === 'ArrowLeft') {
-                currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1;
-                renderCard();
+                animateCardTransition('right', () => {
+                    currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1;
+                    renderCard();
+                });
             }
         };
         document.addEventListener('keydown', keyHandler);
@@ -301,8 +329,14 @@ export async function renderFlashcardDeck(deckId) {
         cardEl.addEventListener('touchend', (e) => {
             const dx = e.changedTouches[0].clientX - touchStartX;
             if (Math.abs(dx) > 60) {
-                if (dx < 0) { currentIndex++; renderCard(); }
-                else { currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1; renderCard(); }
+                if (dx < 0) {
+                    animateCardTransition('left', () => { currentIndex++; renderCard(); });
+                } else {
+                    animateCardTransition('right', () => {
+                        currentIndex = currentIndex <= 0 ? getFilteredCards().length - 1 : currentIndex - 1;
+                        renderCard();
+                    });
+                }
             }
         }, { passive: true });
     }

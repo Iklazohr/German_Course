@@ -241,6 +241,8 @@
     justify-content: center;
     -webkit-user-select: none;
     user-select: none;
+    position: relative;
+    overflow: hidden;
 }
 
 .fc-card {
@@ -256,6 +258,43 @@
 
 .fc-card.flipped {
     transform: rotateY(180deg);
+}
+
+/* Deck transition: card slides out and new one slides in */
+.fc-card.card-exit-left {
+    animation: cardExitLeft 0.3s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+.fc-card.card-exit-right {
+    animation: cardExitRight 0.3s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+.fc-card.card-enter-left {
+    animation: cardEnterLeft 0.35s cubic-bezier(0, 0, 0.2, 1) forwards;
+}
+
+.fc-card.card-enter-right {
+    animation: cardEnterRight 0.35s cubic-bezier(0, 0, 0.2, 1) forwards;
+}
+
+@keyframes cardExitLeft {
+    0% { transform: translateX(0) scale(1); opacity: 1; }
+    100% { transform: translateX(-120%) scale(0.85) rotate(-5deg); opacity: 0; }
+}
+
+@keyframes cardExitRight {
+    0% { transform: translateX(0) scale(1); opacity: 1; }
+    100% { transform: translateX(120%) scale(0.85) rotate(5deg); opacity: 0; }
+}
+
+@keyframes cardEnterLeft {
+    0% { transform: translateX(80%) scale(0.9) rotate(3deg); opacity: 0; }
+    100% { transform: translateX(0) scale(1) rotate(0); opacity: 1; }
+}
+
+@keyframes cardEnterRight {
+    0% { transform: translateX(-80%) scale(0.9) rotate(-3deg); opacity: 0; }
+    100% { transform: translateX(0) scale(1) rotate(0); opacity: 1; }
 }
 
 .fc-card-front, .fc-card-back {
