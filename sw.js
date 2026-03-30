@@ -34,7 +34,14 @@ const SHELL_ASSETS = [
     './data/course-structure.json'
 ];
 
-// Install: cache assets, then activate immediately
+// Listen for skip waiting message from the app
+self.addEventListener('message', (event) => {
+    if (event.data && event.data.type === 'SKIP_WAITING') {
+        self.skipWaiting();
+    }
+});
+
+// Install: cache assets, wait for user to accept update
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)

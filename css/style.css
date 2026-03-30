@@ -302,6 +302,67 @@ body {
     border-radius: 3px;
 }
 
+/* ===== Update Banner ===== */
+#update-banner {
+    position: fixed;
+    bottom: calc(var(--bottom-nav-height) + 8px);
+    left: 12px;
+    right: 12px;
+    z-index: 200;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.update-banner-content {
+    background: var(--primary);
+    color: #fff;
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.update-banner-content span {
+    flex: 1;
+}
+
+#update-btn {
+    background: #fff;
+    color: var(--primary);
+    border: none;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 0.85em;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#update-btn:hover {
+    background: rgba(255,255,255,0.9);
+}
+
+.update-dismiss {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.update-dismiss:hover {
+    color: #fff;
+}
+
 /* ===== Utilities ===== */
 .text-center { text-align: center; }
 .text-secondary { color: var(--text-secondary); }

@@ -109,14 +109,48 @@ async function init() {
 
 init();
 
-// Register service worker with auto-update
+// Register service worker with update banner
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').then(reg => {
         // Check for updates every 60 seconds
         setInterval(() => reg.update(), 60000);
+
+        // When a new SW is found waiting, show update banner
+        const showUpdateBanner = () => {
+            if (document.getElementById('update-banner')) return;
+            const banner = document.createElement('div');
+            banner.id = 'update-banner';
+            banner.innerHTML = `
+                <div class="update-banner-content">
+                    <span>🔄 Nuova versione disponibile!</span>
+                    <button id="update-btn">Aggiorna</button>
+                    <button id="update-dismiss" class="update-dismiss">✕</button>
+                </div>
+            `;
+            document.body.appendChild(banner);
+
+            banner.querySelector('#update-btn').addEventListener('click', () => {
+                if (reg.waiting) {
+                    reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+                }
+            });
+            banner.querySelector('#update-dismiss').addEventListener('click', () => {
+                banner.remove();
+            });
+        };
+
+        if (reg.waiting) showUpdateBanner();
+        reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    showUpdateBanner();
+                }
+            });
+        });
     }).catch(() => {});
 
-    // When a new service worker takes over, reload the page
+    // When the new SW takes over, reload
     let refreshing = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
         if (!refreshing) {
