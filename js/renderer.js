@@ -4,13 +4,15 @@ const main = () => document.getElementById('app-main');
 
 export function renderPage(html) {
     const container = main();
-    container.innerHTML = '';
-    // Force reflow so browser sees new content as fresh — ensures CSS animations trigger
-    void container.offsetHeight;
-    container.innerHTML = `<div class="page">${html}</div>`;
+    container.innerHTML = `<div class="page will-animate">${html}</div>`;
     container.scrollTop = 0;
     window.scrollTo(0, 0);
-    return container.querySelector('.page');
+    const page = container.querySelector('.page');
+    // Double rAF: browser paints initial state, then removing class triggers animations
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+        page.classList.remove('will-animate');
+    }));
+    return page;
 }
 
 export function setHeaderTitle(title) {
