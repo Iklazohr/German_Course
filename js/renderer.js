@@ -22,9 +22,11 @@ export function renderPage(html) {
         });
         page.querySelectorAll('.mc-option').forEach((el, i) => {
             el.style.animation = `slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.05}s both`;
+            el.addEventListener('animationend', () => { el.style.animation = ''; }, { once: true });
         });
         page.querySelectorAll('.matching-item').forEach(el => {
             el.style.animation = 'popIn 0.3s ease both';
+            el.addEventListener('animationend', () => { el.style.animation = ''; }, { once: true });
         });
         page.querySelectorAll('.summary-card').forEach(el => {
             el.style.animation = 'popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1)';
