@@ -216,9 +216,10 @@
 }
 
 .fill-blank-input {
-    display: inline-block;
-    min-width: 120px;
-    padding: 4px 12px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
     border: 2px dashed var(--primary);
     border-radius: var(--radius-sm);
     background: var(--primary-light);
