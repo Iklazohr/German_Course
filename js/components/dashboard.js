@@ -37,31 +37,33 @@ export async function renderDashboard() {
 
     const page = renderPage(`
         <div class="hero">
-            <h2>Willkommen!</h2>
-            <p>Impara il tedesco passo dopo passo, dal livello A1 al C1</p>
+            <div class="hero-badge">Corso A1–C1</div>
+            <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
+            <p>Il metodo facile per parlare tedesco con sicurezza</p>
             ${nextLesson ? `
-                <button class="btn btn-lg" style="background:#fff;color:var(--primary)" id="continue-btn">
+                <button class="btn btn-lg hero-cta" id="continue-btn">
                     ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </button>
             ` : `
-                <p style="font-weight:600">Hai completato tutto il materiale disponibile!</p>
+                <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
             `}
         </div>
 
         <div class="stats-grid">
-            <div class="stat-card">
+            <div class="stat-card" style="animation-delay: 0s">
                 <div class="stat-value">${stats.streakDays}</div>
                 <div class="stat-label">Giorni di fila</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="animation-delay: 0.1s">
                 <div class="stat-value">${stats.completedLessons}</div>
                 <div class="stat-label">Lezioni completate</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="animation-delay: 0.2s">
                 <div class="stat-value">${stats.totalExercises}</div>
                 <div class="stat-label">Esercizi svolti</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="animation-delay: 0.3s">
                 <div class="stat-value">${accuracy}%</div>
                 <div class="stat-label">Precisione</div>
             </div>
@@ -83,7 +85,7 @@ export async function renderDashboard() {
             </div>
         ` : ''}
 
-        <div class="section-title">I livelli del corso</div>
+        <div class="section-title">Il tuo percorso</div>
         ${course.levels.map(level => {
             const completion = store.getLevelCompletion(level.id, course);
             const totalLessons = level.units.reduce((sum, u) => sum + u.lessons.length + (u.review ? 1 : 0), 0);
