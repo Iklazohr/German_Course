@@ -71,7 +71,8 @@
         { "de": "die Heilung", "it": "la guarigione", "emoji": "🌟", "example_de": "Die Heilung ist ein langer Prozess.", "example_it": "La guarigione è un processo lungo." },
         { "de": "die Selbsthilfegruppe, -n", "it": "il gruppo di auto-aiuto", "emoji": "🤝", "example_de": "In der Selbsthilfegruppe tauschen sich Betroffene aus.", "example_it": "Nel gruppo di auto-aiuto le persone coinvolte si confrontano." },
         { "de": "die Rehabilitation", "it": "la riabilitazione", "emoji": "🏥", "example_de": "Nach der Operation folgt eine Rehabilitation.", "example_it": "Dopo l'operazione segue una riabilitazione." },
-        { "de": "verschreiben", "it": "prescrivere", "emoji": "📝", "example_de": "Der Arzt hat ihr Antidepressiva verschrieben.", "example_it": "Il medico le ha prescritto degli antidepressivi." }
+        { "de": "verschreiben", "it": "prescrivere", "emoji": "📝", "example_de": "Der Arzt hat ihr Antidepressiva verschrieben.", "example_it": "Il medico le ha prescritto degli antidepressivi." },
+        { "de": "die Genesung", "it": "la convalescenza / la guarigione", "emoji": "🌱", "example_de": "Wir wünschen Ihnen eine schnelle Genesung.", "example_it": "Le auguriamo una pronta guarigione." }
       ]
     }
   ]

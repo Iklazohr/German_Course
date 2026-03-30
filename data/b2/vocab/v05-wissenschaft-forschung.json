@@ -69,7 +69,10 @@
         { "de": "die Fußnote, -n", "it": "la nota a piè di pagina", "emoji": "📝", "example_de": "Die Quelle ist in der Fußnote angegeben.", "example_it": "La fonte è indicata nella nota a piè di pagina." },
         { "de": "das Plagiat, -e", "it": "il plagio", "emoji": "🚫", "example_de": "Plagiat ist ein schweres akademisches Vergehen.", "example_it": "Il plagio è una grave infrazione accademica." },
         { "de": "begutachten", "it": "valutare / esaminare (da esperti)", "emoji": "🔎", "example_de": "Der Artikel wird von zwei Experten begutachtet.", "example_it": "L'articolo viene valutato da due esperti." },
-        { "de": "die Forschungsförderung", "it": "il finanziamento della ricerca", "emoji": "💰", "example_de": "Die Forschungsförderung wurde um 20% erhöht.", "example_it": "Il finanziamento della ricerca è stato aumentato del 20%." }
+        { "de": "die Forschungsförderung", "it": "il finanziamento della ricerca", "emoji": "💰", "example_de": "Die Forschungsförderung wurde um 20% erhöht.", "example_it": "Il finanziamento della ricerca è stato aumentato del 20%." },
+        { "de": "der Sammelband, -bände", "it": "la raccolta / il volume collettaneo", "emoji": "📚", "example_de": "Der Sammelband enthält Beiträge von verschiedenen Autoren.", "example_it": "Il volume collettaneo contiene contributi di vari autori." },
+        { "de": "die Danksagung, -en", "it": "i ringraziamenti (in un testo accademico)", "emoji": "🙏", "example_de": "In der Danksagung bedankt sich der Autor bei seinen Kollegen.", "example_it": "Nei ringraziamenti l'autore ringrazia i suoi colleghi." },
+        { "de": "die Rezension, -en", "it": "la recensione (accademica)", "emoji": "📝", "example_de": "Die Rezension des Buches erschien in einer Fachzeitschrift.", "example_it": "La recensione del libro è apparsa in una rivista specializzata." }
       ]
     }
   ]

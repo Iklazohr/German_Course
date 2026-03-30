@@ -67,7 +67,12 @@
         { "de": "die Abschiebung, -en", "it": "l'espulsione / il rimpatrio forzato", "emoji": "✈️", "example_de": "Die Abschiebung wurde vom Gericht gestoppt.", "example_it": "L'espulsione è stata fermata dal tribunale." },
         { "de": "die Einbürgerung", "it": "la naturalizzazione", "emoji": "🇩🇪", "example_de": "Nach acht Jahren kann man die Einbürgerung beantragen.", "example_it": "Dopo otto anni si può richiedere la naturalizzazione." },
         { "de": "der Migrationshintergrund", "it": "il background migratorio", "emoji": "🌐", "example_de": "In Deutschland haben viele Menschen einen Migrationshintergrund.", "example_it": "In Germania molte persone hanno un background migratorio." },
-        { "de": "die Willkommenskultur", "it": "la cultura dell'accoglienza", "emoji": "🤗", "example_de": "Die Willkommenskultur war 2015 ein großes Thema.", "example_it": "La cultura dell'accoglienza è stata un grande tema nel 2015." }
+        { "de": "die Willkommenskultur", "it": "la cultura dell'accoglienza", "emoji": "🤗", "example_de": "Die Willkommenskultur war 2015 ein großes Thema.", "example_it": "La cultura dell'accoglienza è stata un grande tema nel 2015." },
+        { "de": "der Integrationskurs, -e", "it": "il corso di integrazione", "emoji": "📚", "example_de": "Alle Neuankömmlinge müssen einen Integrationskurs besuchen.", "example_it": "Tutti i nuovi arrivati devono frequentare un corso di integrazione." },
+        { "de": "die Aufenthaltserlaubnis, -se", "it": "il permesso di soggiorno", "emoji": "🪪", "example_de": "Die Aufenthaltserlaubnis muss jährlich verlängert werden.", "example_it": "Il permesso di soggiorno deve essere rinnovato annualmente." },
+        { "de": "die Zuwanderung", "it": "l'immigrazione", "emoji": "🚶", "example_de": "Die Zuwanderung qualifizierter Fachkräfte wird gefördert.", "example_it": "L'immigrazione di lavoratori qualificati viene incentivata." },
+        { "de": "das Visum, Visa", "it": "il visto", "emoji": "📋", "example_de": "Für die Einreise braucht man ein Visum.", "example_it": "Per l'ingresso nel paese serve un visto." },
+        { "de": "die Staatsbürgerschaft", "it": "la cittadinanza", "emoji": "🏳️", "example_de": "Er hat die deutsche Staatsbürgerschaft beantragt.", "example_it": "Ha richiesto la cittadinanza tedesca." }
       ]
     }
   ]

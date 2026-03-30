@@ -66,6 +66,45 @@
           "it": "Litote: 'La reazione del pubblico non è stata propriamente entusiastica.' (= Il pubblico era deluso.)"
         }
       ]
+    },
+    {
+      "type": "quick-table",
+      "title": "Figure retoriche: panoramica rapida",
+      "description": "Tutte le principali figure retoriche tedesche con definizione, esempio e effetto comunicativo.",
+      "table": {
+        "headers": ["Figura retorica", "Definizione", "Esempio tedesco", "Effetto"],
+        "rows": [
+          ["Metapher", "Trasferimento di significato a un altro ambito", "Er hat ein Herz aus Stein.", "Rende l'immagine vivida e concreta"],
+          ["Vergleich", "Paragone esplicito con 'wie'", "Sie ist schnell wie der Wind.", "Chiarisce tramite somiglianza"],
+          ["Ironie", "Si dice il contrario di cio che si intende", "Na, das hast du toll gemacht!", "Effetto critico o comico"],
+          ["Litotes / Untertreibung", "Negazione del contrario per affermare", "nicht unerheblich = sehr erheblich", "Attenuazione elegante"],
+          ["Euphemismus", "Espressione attenuata per concetti sgradevoli", "freisetzen = entlassen", "Addolcisce la realta"],
+          ["Hyperbel", "Esagerazione per enfatizzare", "Ich habe dir das tausendmal gesagt!", "Intensifica l'espressione"],
+          ["Alliteration", "Ripetizione del suono iniziale", "Milch macht müde Männer munter.", "Ritmo, memorabilita"],
+          ["Anapher", "Ripetizione a inizio frase", "Ich habe einen Traum. Ich habe die Vision.", "Enfasi, ritmo oratorio"],
+          ["Rhetorische Frage", "Domanda che non attende risposta", "Wer will schon in Armut leben?", "Coinvolgimento, persuasione"],
+          ["Parallelismus", "Struttura sintattica ripetuta", "Reden ist Silber, Schweigen ist Gold.", "Equilibrio, memorabilita"],
+          ["Antithese", "Contrapposizione di opposti", "Der Geist ist willig, das Fleisch ist schwach.", "Contrasto drammatico"],
+          ["Personifikation", "Attribuzione di qualita umane a cose", "Die Sonne lacht.", "Vivacita, immediatezza"],
+          ["Klimax", "Gradazione ascendente", "Er kam, sah und siegte.", "Tensione crescente"]
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "content": "**Attenzione!** Errori comuni nell'analisi e nell'uso delle figure retoriche:\n\n1. **Confondere metafora e similitudine**: la metafora e diretta ('Er ist ein Löwe'), la similitudine usa 'wie' ('Er ist wie ein Löwe'). Nella Textanalyse, questa distinzione e fondamentale!\n2. **Ironia difficile da riconoscere nello scritto**: senza intonazione, l'ironia tedesca puo essere molto sottile. Cercate indizi nel contesto e nel contrasto tra cio che viene detto e la situazione.\n3. **Non esagerare con le figure retoriche**: nella propria produzione scritta, usarle con moderazione. Un testo sovraccarico di metafore e iperboli risulta artificiale.\n4. **Nella Textanalyse, collegare sempre la figura all'effetto**: non basta identificare una metafora; bisogna spiegare PERCHE l'autore la usa e QUALE effetto produce sul lettore."
+    },
+    {
+      "type": "summary",
+      "title": "Riepilogo",
+      "points": [
+        "Le figure retoriche (Stilmittel) sono strumenti per l'analisi letteraria e per una comunicazione sofisticata.",
+        "Le piu frequenti nel tedesco: Metapher, Ironie, Euphemismus, Hyperbel, Alliteration, Anapher, rhetorische Frage.",
+        "Molte iperboli tedesche sono composte lessicalizzate: todmüde, steinreich, blitzschnell, eiskalt.",
+        "L'ironia e la litote sono particolarmente frequenti nel tedesco colto e giornalistico.",
+        "Gli eufemismi dominano il linguaggio politico e burocratico: freisetzen, bildungsfern, Kollateralschaden.",
+        "Nella Textanalyse: identificare la figura, descriverla, spiegarne l'effetto e collegarla all'interpretazione complessiva."
+      ]
     }
   ]
 }

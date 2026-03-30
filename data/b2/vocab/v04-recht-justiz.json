@@ -71,7 +71,8 @@
         { "de": "das Sorgerecht", "it": "la custodia (dei figli)", "emoji": "👨‍👩‍👧", "example_de": "Nach der Scheidung teilen sie sich das Sorgerecht.", "example_it": "Dopo il divorzio condividono la custodia dei figli." },
         { "de": "die Scheidung, -en", "it": "il divorzio", "emoji": "💔", "example_de": "Die Scheidung wurde nach einem Jahr rechtskräftig.", "example_it": "Il divorzio è diventato definitivo dopo un anno." },
         { "de": "das Erbrecht", "it": "il diritto successorio / il diritto ereditario", "emoji": "📜", "example_de": "Das Erbrecht regelt die Verteilung des Nachlasses.", "example_it": "Il diritto successorio regola la distribuzione dell'eredità." },
-        { "de": "der Mietvertrag, -verträge", "it": "il contratto di locazione", "emoji": "🏠", "example_de": "Der Mietvertrag läuft über drei Jahre.", "example_it": "Il contratto di locazione ha una durata di tre anni." }
+        { "de": "der Mietvertrag, -verträge", "it": "il contratto di locazione", "emoji": "🏠", "example_de": "Der Mietvertrag läuft über drei Jahre.", "example_it": "Il contratto di locazione ha una durata di tre anni." },
+        { "de": "das Testament, -e", "it": "il testamento", "emoji": "📜", "example_de": "Er hat sein Testament beim Notar hinterlegt.", "example_it": "Ha depositato il suo testamento dal notaio." }
       ]
     }
   ]

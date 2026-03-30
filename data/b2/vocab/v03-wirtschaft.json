@@ -67,7 +67,13 @@
         { "de": "die Finanzierung, -en", "it": "il finanziamento", "emoji": "💸", "example_de": "Das Start-up sucht eine neue Finanzierung.", "example_it": "La startup cerca un nuovo finanziamento." },
         { "de": "das Risikokapital", "it": "il capitale di rischio (venture capital)", "emoji": "📊", "example_de": "Risikokapital ist für viele Start-ups unverzichtbar.", "example_it": "Il venture capital è indispensabile per molte startup." },
         { "de": "die Innovation, -en", "it": "l'innovazione", "emoji": "✨", "example_de": "Innovation ist der Schlüssel zum wirtschaftlichen Erfolg.", "example_it": "L'innovazione è la chiave del successo economico." },
-        { "de": "die Digitalisierung", "it": "la digitalizzazione", "emoji": "💻", "example_de": "Die Digitalisierung verändert alle Branchen.", "example_it": "La digitalizzazione sta trasformando tutti i settori." }
+        { "de": "die Digitalisierung", "it": "la digitalizzazione", "emoji": "💻", "example_de": "Die Digitalisierung verändert alle Branchen.", "example_it": "La digitalizzazione sta trasformando tutti i settori." },
+        { "de": "das Geschäftsmodell, -e", "it": "il modello di business", "emoji": "📋", "example_de": "Das Geschäftsmodell muss überarbeitet werden.", "example_it": "Il modello di business deve essere rivisto." },
+        { "de": "die Marktlücke, -n", "it": "la nicchia di mercato", "emoji": "🎯", "example_de": "Sie haben eine profitable Marktlücke entdeckt.", "example_it": "Hanno scoperto una nicchia di mercato redditizia." },
+        { "de": "skalieren", "it": "scalare (un business)", "emoji": "📈", "example_de": "Das Unternehmen versucht, sein Geschäft zu skalieren.", "example_it": "L'azienda cerca di scalare il proprio business." },
+        { "de": "der Wettbewerb", "it": "la concorrenza / la competizione", "emoji": "🏆", "example_de": "Der Wettbewerb auf dem Markt ist hart.", "example_it": "La concorrenza sul mercato è dura." },
+        { "de": "die Nachhaltigkeit", "it": "la sostenibilità", "emoji": "♻️", "example_de": "Nachhaltigkeit wird für Investoren immer wichtiger.", "example_it": "La sostenibilità diventa sempre più importante per gli investitori." },
+        { "de": "der Börsengang, -gänge", "it": "la quotazione in borsa (IPO)", "emoji": "🔔", "example_de": "Der Börsengang des Unternehmens war ein großer Erfolg.", "example_it": "La quotazione in borsa dell'azienda è stata un grande successo." }
       ]
     }
   ]
