@@ -46,10 +46,6 @@ export async function renderDashboard() {
             ` : `
                 <p style="font-weight:600">🎉 Hai completato tutto il materiale disponibile!</p>
             `}
-            <button class="share-btn" id="share-btn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-                Condividi
-            </button>
         </div>
 
         <div class="stats-grid stagger-in">
@@ -136,26 +132,6 @@ export async function renderDashboard() {
             navigate(route);
         });
     }
-
-    page.querySelector('#share-btn')?.addEventListener('click', async () => {
-        const shareData = {
-            title: 'Tedesco Facile',
-            text: 'Impara il tedesco dall\'italiano con questo corso gratuito da A1 a C1!',
-            url: 'https://german-course-1cc9b.web.app'
-        };
-        try {
-            if (navigator.share) {
-                await navigator.share(shareData);
-            } else {
-                await navigator.clipboard.writeText(shareData.url);
-                const btn = page.querySelector('#share-btn');
-                btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Link copiato!';
-                setTimeout(() => {
-                    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Condividi';
-                }, 2000);
-            }
-        } catch {}
-    });
 
     page.querySelectorAll('.level-card').forEach(card => {
         card.addEventListener('click', () => {

@@ -20,6 +20,9 @@ export function renderAuthPage() {
     } else {
         renderLoginForm();
     }
+
+    // Share button (always visible)
+    addShareButton();
 }
 
 function renderNotConfigured() {
@@ -316,6 +319,43 @@ async function loadFriendsList(page) {
     } catch (err) {
         listEl.innerHTML = `<p class="text-secondary" style="text-align:center">Errore nel caricamento amici.</p>`;
     }
+}
+
+function addShareButton() {
+    const main = document.getElementById('app-main');
+    const page = main?.querySelector('.page');
+    if (!page) return;
+
+    const shareCard = document.createElement('div');
+    shareCard.className = 'card';
+    shareCard.style.cssText = 'text-align:center;padding:24px;margin-bottom:16px';
+    shareCard.innerHTML = `
+        <h3 style="margin:0 0 8px;display:flex;align-items:center;justify-content:center;gap:8px">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Condividi l'app
+        </h3>
+        <p class="text-secondary" style="font-size:0.85rem;margin-bottom:14px">Fai conoscere Tedesco Facile ai tuoi amici!</p>
+        <button class="btn btn-primary btn-block" id="btn-share">Condividi Tedesco Facile</button>
+    `;
+    page.appendChild(shareCard);
+
+    shareCard.querySelector('#btn-share').addEventListener('click', async () => {
+        const shareData = {
+            title: 'Tedesco Facile',
+            text: 'Impara il tedesco dall\'italiano con questo corso gratuito da A1 a C1!',
+            url: 'https://german-course-1cc9b.web.app'
+        };
+        const btn = shareCard.querySelector('#btn-share');
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                await navigator.clipboard.writeText(shareData.url);
+                btn.textContent = '✓ Link copiato!';
+                setTimeout(() => { btn.textContent = 'Condividi Tedesco Facile'; }, 2000);
+            }
+        } catch {}
+    });
 }
 
 function getErrorMessage(code) {
