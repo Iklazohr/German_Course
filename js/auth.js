@@ -60,14 +60,6 @@ export async function signInWithEmail(email, password) {
     return result.user;
 }
 
-export async function signInWithGoogle() {
-    if (!auth) throw new Error('Auth non inizializzato');
-    const { GoogleAuthProvider, signInWithPopup } = await import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js');
-    const provider = new GoogleAuthProvider();
-    const result = await signInWithPopup(auth, provider);
-    return result.user;
-}
-
 export async function signOut() {
     if (!auth) return;
     const { signOut: fbSignOut } = await import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js');

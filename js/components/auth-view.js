@@ -1,8 +1,9 @@
 import { renderPage, setHeaderTitle, showBackButton } from '../renderer.js';
-import { getCurrentUser, signUpWithEmail, signInWithEmail, signInWithGoogle, signOut, resetPassword } from '../auth.js';
+import { getCurrentUser, signUpWithEmail, signInWithEmail, signOut, resetPassword } from '../auth.js';
 import { isFirebaseConfigured } from '../firebase-config.js';
 import { store } from '../store.js';
 import { navigate } from '../router.js';
+import { setNickname, getNickname, searchUserByNickname, addFriend, removeFriend, getFriends, getFriendProgress } from '../friends.js';
 
 export function renderAuthPage() {
     setHeaderTitle('Account');
@@ -26,12 +27,8 @@ function renderNotConfigured() {
         <div class="card" style="text-align:center;padding:32px 24px">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" stroke-width="1.5" style="margin-bottom:16px"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
             <h3 style="margin-bottom:8px">Account non disponibile</h3>
-            <p class="text-secondary" style="font-size:0.875rem;margin-bottom:16px">
-                Il sistema di account richiede la configurazione di Firebase.
+            <p class="text-secondary" style="font-size:0.875rem">
                 I tuoi progressi vengono salvati localmente su questo dispositivo.
-            </p>
-            <p class="text-secondary" style="font-size:0.8125rem">
-                Per attivare gli account, segui le istruzioni nel file <strong>SETUP_FIREBASE.md</strong> del repository.
             </p>
         </div>
     `);
@@ -43,7 +40,7 @@ function renderLoginForm() {
             <div class="card" style="padding:28px 24px;text-align:center">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5" style="margin-bottom:12px"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                 <h2 style="margin-bottom:4px">Accedi o Registrati</h2>
-                <p class="text-secondary" style="font-size:0.875rem;margin-bottom:24px">Sincronizza i progressi su tutti i dispositivi</p>
+                <p class="text-secondary" style="font-size:0.875rem;margin-bottom:24px">Sincronizza i progressi e aggiungi amici</p>
 
                 <div id="auth-error" class="auth-error hidden"></div>
 
@@ -53,15 +50,6 @@ function renderLoginForm() {
 
                     <button class="btn btn-primary btn-block" id="btn-login">Accedi</button>
                     <button class="btn btn-outline btn-block" id="btn-signup">Crea account</button>
-
-                    <div class="auth-divider">
-                        <span>oppure</span>
-                    </div>
-
-                    <button class="btn btn-block auth-google-btn" id="btn-google">
-                        <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
-                        Accedi con Google
-                    </button>
 
                     <button class="auth-link" id="btn-forgot">Password dimenticata?</button>
                 </div>
@@ -73,13 +61,15 @@ function renderLoginForm() {
     const passEl = page.querySelector('#auth-password');
     const errorEl = page.querySelector('#auth-error');
 
-    function showError(msg) {
+    function showError(msg, isSuccess) {
         errorEl.textContent = msg;
         errorEl.classList.remove('hidden');
+        errorEl.style.color = isSuccess ? 'var(--success)' : '';
     }
 
     function clearError() {
         errorEl.classList.add('hidden');
+        errorEl.style.color = '';
     }
 
     page.querySelector('#btn-login').addEventListener('click', async () => {
@@ -107,19 +97,7 @@ function renderLoginForm() {
             await signUpWithEmail(email, pass);
             await store.forceSyncToCloud();
             if (typeof window.applySettings === 'function') window.applySettings();
-            navigate('/');
-        } catch (err) {
-            showError(getErrorMessage(err.code));
-        }
-    });
-
-    page.querySelector('#btn-google').addEventListener('click', async () => {
-        clearError();
-        try {
-            await signInWithGoogle();
-            await store.syncFromCloud();
-            if (typeof window.applySettings === 'function') window.applySettings();
-            navigate('/');
+            renderAuthPage(); // Reload to show nickname setup
         } catch (err) {
             showError(getErrorMessage(err.code));
         }
@@ -131,33 +109,101 @@ function renderLoginForm() {
         if (!email) { showError('Inserisci la tua email per resettare la password.'); return; }
         try {
             await resetPassword(email);
-            showError('Email di reset inviata! Controlla la tua casella.');
-            errorEl.style.color = 'var(--success)';
+            showError('Email di reset inviata! Controlla la tua casella.', true);
         } catch (err) {
             showError(getErrorMessage(err.code));
         }
     });
 }
 
-function renderLoggedIn(user) {
-    const page = renderPage(`
-        <div class="card" style="text-align:center;padding:28px 24px">
-            <div class="auth-avatar-large">${(user.email || 'U')[0].toUpperCase()}</div>
-            <h3 style="margin:12px 0 4px">${user.displayName || 'Studente'}</h3>
-            <p class="text-secondary" style="font-size:0.875rem;margin-bottom:20px">${user.email}</p>
+async function renderLoggedIn(user) {
+    const currentNickname = await getNickname();
+    const stats = store.getStats();
 
-            <div class="badge badge-success" style="margin-bottom:20px">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px"><polyline points="20 6 9 17 4 12"/></svg>
-                Progressi sincronizzati
-            </div>
+    const page = renderPage(`
+        <div class="card" style="text-align:center;padding:28px 24px;margin-bottom:16px">
+            <div class="auth-avatar-large">${(currentNickname || user.email || 'U')[0].toUpperCase()}</div>
+            <h3 style="margin:12px 0 4px">${currentNickname || 'Imposta un nickname'}</h3>
+            <p class="text-secondary" style="font-size:0.875rem;margin-bottom:16px">${user.email}</p>
+
+            ${!currentNickname ? `
+                <div class="nickname-setup" style="margin-bottom:16px">
+                    <p class="text-secondary" style="font-size:0.85rem;margin-bottom:10px">Scegli un nickname per farti trovare dagli amici:</p>
+                    <div style="display:flex;gap:8px">
+                        <input type="text" id="nickname-input" class="auth-input" placeholder="Il tuo nickname" maxlength="20" style="margin:0;flex:1">
+                        <button class="btn btn-primary" id="btn-set-nickname">Salva</button>
+                    </div>
+                    <div id="nickname-error" class="auth-error hidden" style="margin-top:8px"></div>
+                </div>
+            ` : `
+                <div class="badge badge-success" style="margin-bottom:16px">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px"><polyline points="20 6 9 17 4 12"/></svg>
+                    Progressi sincronizzati
+                </div>
+            `}
 
             <div style="display:flex;flex-direction:column;gap:10px">
                 <button class="btn btn-outline btn-block" id="btn-sync">Sincronizza ora</button>
                 <button class="btn btn-block" id="btn-logout" style="background:var(--error);color:#fff">Esci</button>
             </div>
         </div>
+
+        <!-- Friends Section -->
+        <div class="card" style="padding:24px;margin-bottom:16px">
+            <h3 style="margin:0 0 16px;display:flex;align-items:center;gap:8px">
+                <span>👥</span> Amici
+            </h3>
+
+            <div class="friend-add-section" style="margin-bottom:20px">
+                <p class="text-secondary" style="font-size:0.85rem;margin-bottom:8px">Aggiungi un amico tramite nickname:</p>
+                <div style="display:flex;gap:8px">
+                    <input type="text" id="friend-search" class="auth-input" placeholder="Nickname amico" style="margin:0;flex:1">
+                    <button class="btn btn-primary" id="btn-add-friend">Aggiungi</button>
+                </div>
+                <div id="friend-error" class="auth-error hidden" style="margin-top:8px"></div>
+                <div id="friend-success" class="auth-error hidden" style="margin-top:8px;color:var(--success)"></div>
+            </div>
+
+            <div id="friends-list">
+                <div class="fc-loading" style="min-height:100px"><div class="fc-spinner"></div></div>
+            </div>
+        </div>
     `);
 
+    // Nickname setup
+    if (!currentNickname) {
+        page.querySelector('#btn-set-nickname')?.addEventListener('click', async () => {
+            const input = page.querySelector('#nickname-input');
+            const errEl = page.querySelector('#nickname-error');
+            const nick = input.value.trim().toLowerCase();
+
+            if (!nick || nick.length < 3) {
+                errEl.textContent = 'Il nickname deve avere almeno 3 caratteri.';
+                errEl.classList.remove('hidden');
+                return;
+            }
+            if (!/^[a-z0-9_]+$/.test(nick)) {
+                errEl.textContent = 'Solo lettere, numeri e underscore.';
+                errEl.classList.remove('hidden');
+                return;
+            }
+
+            try {
+                const result = await setNickname(nick);
+                if (result.success) {
+                    renderAuthPage(); // Reload
+                } else {
+                    errEl.textContent = result.error;
+                    errEl.classList.remove('hidden');
+                }
+            } catch {
+                errEl.textContent = 'Errore. Riprova.';
+                errEl.classList.remove('hidden');
+            }
+        });
+    }
+
+    // Sync
     page.querySelector('#btn-sync').addEventListener('click', async () => {
         const btn = page.querySelector('#btn-sync');
         btn.textContent = 'Sincronizzazione...';
@@ -166,16 +212,110 @@ function renderLoggedIn(user) {
         await store.forceSyncToCloud();
         btn.textContent = 'Sincronizzato!';
         if (typeof window.applySettings === 'function') window.applySettings();
-        setTimeout(() => {
-            btn.textContent = 'Sincronizza ora';
-            btn.disabled = false;
-        }, 2000);
+        setTimeout(() => { btn.textContent = 'Sincronizza ora'; btn.disabled = false; }, 2000);
     });
 
+    // Logout
     page.querySelector('#btn-logout').addEventListener('click', async () => {
         await signOut();
         renderAuthPage();
     });
+
+    // Add friend
+    page.querySelector('#btn-add-friend').addEventListener('click', async () => {
+        const input = page.querySelector('#friend-search');
+        const errEl = page.querySelector('#friend-error');
+        const succEl = page.querySelector('#friend-success');
+        errEl.classList.add('hidden');
+        succEl.classList.add('hidden');
+
+        const nick = input.value.trim().toLowerCase();
+        if (!nick) { errEl.textContent = 'Inserisci un nickname.'; errEl.classList.remove('hidden'); return; }
+
+        if (nick === currentNickname) {
+            errEl.textContent = 'Non puoi aggiungere te stesso!';
+            errEl.classList.remove('hidden');
+            return;
+        }
+
+        try {
+            const result = await addFriend(nick);
+            if (result.success) {
+                succEl.textContent = `${nick} aggiunto agli amici!`;
+                succEl.classList.remove('hidden');
+                input.value = '';
+                loadFriendsList(page);
+            } else {
+                errEl.textContent = result.error;
+                errEl.classList.remove('hidden');
+            }
+        } catch {
+            errEl.textContent = 'Errore. Riprova.';
+            errEl.classList.remove('hidden');
+        }
+    });
+
+    // Load friends
+    loadFriendsList(page);
+}
+
+async function loadFriendsList(page) {
+    const listEl = page.querySelector('#friends-list');
+    try {
+        const friends = await getFriends();
+
+        if (!friends || friends.length === 0) {
+            listEl.innerHTML = `
+                <div style="text-align:center;padding:16px;color:var(--text-tertiary)">
+                    <p>Nessun amico ancora.</p>
+                    <p style="font-size:0.85em">Aggiungi amici tramite il loro nickname!</p>
+                </div>
+            `;
+            return;
+        }
+
+        // Load progress for each friend
+        const friendsData = await Promise.all(friends.map(async (f) => {
+            const progress = await getFriendProgress(f.uid);
+            return { ...f, progress };
+        }));
+
+        listEl.innerHTML = friendsData.map(friend => {
+            const p = friend.progress || {};
+            const completedLessons = p.completedLessons || 0;
+            const streak = p.streakDays || 0;
+            const exercises = p.totalExercises || 0;
+            const accuracy = exercises > 0 ? Math.round((p.totalCorrect || 0) / exercises * 100) : 0;
+
+            return `
+                <div class="friend-card" data-uid="${friend.uid}">
+                    <div class="friend-avatar">${(friend.nickname || '?')[0].toUpperCase()}</div>
+                    <div class="friend-info">
+                        <div class="friend-name">${friend.nickname}</div>
+                        <div class="friend-stats">
+                            🔥 ${streak} · 📖 ${completedLessons} lezioni · 🎯 ${accuracy}%
+                        </div>
+                    </div>
+                    <button class="friend-remove-btn" data-nick="${friend.nickname}" title="Rimuovi">✕</button>
+                </div>
+            `;
+        }).join('');
+
+        // Remove friend buttons
+        listEl.querySelectorAll('.friend-remove-btn').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                e.stopPropagation();
+                const nick = btn.dataset.nick;
+                if (confirm(`Rimuovere ${nick} dagli amici?`)) {
+                    await removeFriend(nick);
+                    loadFriendsList(page);
+                }
+            });
+        });
+
+    } catch (err) {
+        listEl.innerHTML = `<p class="text-secondary" style="text-align:center">Errore nel caricamento amici.</p>`;
+    }
 }
 
 function getErrorMessage(code) {
@@ -188,7 +328,6 @@ function getErrorMessage(code) {
         case 'auth/email-already-in-use': return 'Questa email è già registrata. Prova ad accedere.';
         case 'auth/weak-password': return 'Password troppo debole (minimo 6 caratteri).';
         case 'auth/too-many-requests': return 'Troppi tentativi. Riprova più tardi.';
-        case 'auth/popup-closed-by-user': return 'Finestra chiusa. Riprova.';
         default: return 'Errore. Riprova più tardi.';
     }
 }

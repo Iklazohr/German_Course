@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v5';
+const CACHE_NAME = 'tedesco-facile-v6';
 const SHELL_ASSETS = [
     './',
     './index.html',
@@ -30,6 +30,7 @@ const SHELL_ASSETS = [
     './js/components/auth-view.js',
     './js/components/flashcards-view.js',
     './js/components/theory-view.js',
+    './js/friends.js',
     './data/course-structure.json'
 ];
 

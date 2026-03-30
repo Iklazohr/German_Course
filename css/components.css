@@ -1245,3 +1245,63 @@
 .auth-link:hover {
     text-decoration: underline;
 }
+
+/* ===== Friends ===== */
+.friend-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.friend-card:last-child {
+    border-bottom: none;
+}
+
+.friend-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.friend-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.friend-name {
+    font-weight: 700;
+    font-size: 0.95em;
+}
+
+.friend-stats {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.friend-remove-btn {
+    background: none;
+    border: none;
+    color: var(--text-tertiary);
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    transition: all var(--transition);
+    flex-shrink: 0;
+}
+
+.friend-remove-btn:hover {
+    background: var(--error-light);
+    color: var(--error);
+}
