@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     top: 0;
     left: 0;
     right: 0;
-    height: var(--header-height);
+    min-height: var(--header-height);
     background: var(--surface-glass);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -174,10 +174,12 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     font-family: var(--font-heading);
     font-size: 1.1rem;
     font-weight: 700;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     letter-spacing: -0.02em;
+    line-height: 1.3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .header-right {
@@ -207,12 +209,6 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 }
 
 .hidden { display: none !important; }
-
-/* Theme toggle icons */
-[data-theme="dark"] .sun-icon { display: block; }
-[data-theme="dark"] .moon-icon { display: none; }
-.sun-icon { display: none; }
-.moon-icon { display: block; }
 
 /* Streak badge - gamified */
 .streak-badge {

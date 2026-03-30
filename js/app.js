@@ -47,26 +47,12 @@ function updateAuthIndicator() {
         indicator.innerHTML = `<span class="auth-avatar">${initial}</span>`;
         indicator.classList.remove('hidden');
         indicator.title = user.email || 'Account';
-    } else if (isFirebaseConfigured()) {
+    } else {
         indicator.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
         indicator.classList.remove('hidden');
-        indicator.title = 'Accedi';
-    } else {
-        indicator.classList.add('hidden');
+        indicator.title = 'Account';
     }
 }
-
-// Theme toggle
-document.getElementById('theme-toggle').addEventListener('click', () => {
-    const settings = store.getSettings();
-    store.saveSetting('darkMode', !settings.darkMode);
-    applySettings();
-});
-
-// Settings button click
-document.getElementById('settings-btn')?.addEventListener('click', () => {
-    navigate('/settings');
-});
 
 // Streak badge click — open calendar
 document.getElementById('streak-badge')?.addEventListener('click', () => {
