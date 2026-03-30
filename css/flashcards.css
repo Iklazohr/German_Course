@@ -27,6 +27,8 @@
 /* Level Groups */
 .fc-levels {
     padding: 0 16px 24px;
+    max-width: 540px;
+    margin: 0 auto;
 }
 
 .fc-level-group {
@@ -477,6 +479,7 @@
     .fc-deck-grid {
         grid-template-columns: repeat(2, 1fr);
         max-width: 500px;
+        margin: 0 auto;
     }
 
     .fc-card {
