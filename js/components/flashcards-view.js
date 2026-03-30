@@ -1,6 +1,6 @@
 // ===== Flashcards View =====
 
-import { renderPage, setHeaderTitle, showBackButton, shuffleArray, restartAnimations } from '../renderer.js';
+import { renderPage, setHeaderTitle, showBackButton, shuffleArray } from '../renderer.js';
 import { navigate } from '../router.js';
 import { store } from '../store.js';
 import { playCorrect, playCardFlip, playClick } from '../audio.js';
@@ -246,7 +246,6 @@ export async function renderFlashcardDeck(deckId) {
         // Reset transition direction after enter animation plays
         const mainCard = page.querySelector('#fc-main-card');
         if (transitionDir) {
-            restartAnimations(mainCard);
             const cleanup = () => {
                 mainCard.classList.remove('card-enter-left', 'card-enter-right');
                 transitionDir = null;

@@ -8,16 +8,12 @@ export function renderPage(html) {
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // Force-restart CSS animations for desktop Chrome compatibility
-    restartAnimations(page);
+    // Double rAF: browser paints once without .entered (page invisible via opacity:0),
+    // then .entered is added, triggering all child CSS animations reliably on desktop
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+        page.classList.add('entered');
+    }));
     return page;
-}
-
-export function restartAnimations(el) {
-    for (const a of el.getAnimations({ subtree: true })) {
-        a.cancel();
-        a.play();
-    }
 }
 
 export function setHeaderTitle(title) {
