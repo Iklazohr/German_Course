@@ -133,6 +133,8 @@ if ('serviceWorker' in navigator) {
                 if (reg.waiting) {
                     reg.waiting.postMessage({ type: 'SKIP_WAITING' });
                 }
+                // Fallback: reload after a short delay if controllerchange doesn't fire
+                setTimeout(() => window.location.reload(), 1500);
             });
             banner.querySelector('#update-dismiss').addEventListener('click', () => {
                 banner.remove();
