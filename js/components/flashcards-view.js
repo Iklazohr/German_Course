@@ -255,6 +255,7 @@ export async function renderFlashcardDeck(deckId) {
         // Event listeners
         mainCard.addEventListener('click', () => {
             isFlipped = !isFlipped;
+            mainCard.classList.add('flipping');
             mainCard.classList.toggle('flipped', isFlipped);
             playCardFlip();
         });
@@ -308,7 +309,8 @@ export async function renderFlashcardDeck(deckId) {
             if (e.key === ' ' || e.key === 'Enter') {
                 e.preventDefault();
                 isFlipped = !isFlipped;
-                page.querySelector('#fc-main-card')?.classList.toggle('flipped', isFlipped);
+                const el = page.querySelector('#fc-main-card');
+                if (el) { el.classList.add('flipping'); el.classList.toggle('flipped', isFlipped); }
                 playCardFlip();
             } else if (e.key === 'ArrowRight') {
                 animateCardTransition('left', () => { currentIndex++; renderCard(); });

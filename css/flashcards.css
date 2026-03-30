@@ -235,25 +235,26 @@
 .fc-card-container {
     perspective: 1200px;
     padding: 8px 16px 16px;
-    min-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     -webkit-user-select: none;
     user-select: none;
     position: relative;
-    overflow: hidden;
 }
 
 .fc-card {
     width: 100%;
     max-width: 420px;
-    min-height: 280px;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+}
+
+/* Flip: use class-driven transition only when flipping */
+.fc-card.flipping {
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .fc-card.flipped {
@@ -262,44 +263,42 @@
 
 /* Deck transition: card slides out and new one slides in */
 .fc-card.card-exit-left {
-    animation: cardExitLeft 0.3s cubic-bezier(0.4, 0, 1, 1) forwards;
+    animation: cardExitLeft 0.3s cubic-bezier(0.4, 0, 1, 1) forwards !important;
 }
 
 .fc-card.card-exit-right {
-    animation: cardExitRight 0.3s cubic-bezier(0.4, 0, 1, 1) forwards;
+    animation: cardExitRight 0.3s cubic-bezier(0.4, 0, 1, 1) forwards !important;
 }
 
 .fc-card.card-enter-left {
-    animation: cardEnterLeft 0.35s cubic-bezier(0, 0, 0.2, 1) forwards;
+    animation: cardEnterLeft 0.35s cubic-bezier(0, 0, 0.2, 1) both;
 }
 
 .fc-card.card-enter-right {
-    animation: cardEnterRight 0.35s cubic-bezier(0, 0, 0.2, 1) forwards;
+    animation: cardEnterRight 0.35s cubic-bezier(0, 0, 0.2, 1) both;
 }
 
 @keyframes cardExitLeft {
     0% { transform: translateX(0) scale(1); opacity: 1; }
-    100% { transform: translateX(-120%) scale(0.85) rotate(-5deg); opacity: 0; }
+    100% { transform: translateX(-80%) scale(0.9) rotate(-4deg); opacity: 0; }
 }
 
 @keyframes cardExitRight {
     0% { transform: translateX(0) scale(1); opacity: 1; }
-    100% { transform: translateX(120%) scale(0.85) rotate(5deg); opacity: 0; }
+    100% { transform: translateX(80%) scale(0.9) rotate(4deg); opacity: 0; }
 }
 
 @keyframes cardEnterLeft {
-    0% { transform: translateX(80%) scale(0.9) rotate(3deg); opacity: 0; }
-    100% { transform: translateX(0) scale(1) rotate(0); opacity: 1; }
+    0% { transform: translateX(60%) scale(0.92); opacity: 0; }
+    100% { transform: translateX(0) scale(1); opacity: 1; }
 }
 
 @keyframes cardEnterRight {
-    0% { transform: translateX(-80%) scale(0.9) rotate(-3deg); opacity: 0; }
-    100% { transform: translateX(0) scale(1) rotate(0); opacity: 1; }
+    0% { transform: translateX(-60%) scale(0.92); opacity: 0; }
+    100% { transform: translateX(0) scale(1); opacity: 1; }
 }
 
 .fc-card-front, .fc-card-back {
-    position: absolute;
-    inset: 0;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     border-radius: var(--radius-lg);
@@ -310,21 +309,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 32px 24px;
-    overflow-y: auto;
+    padding: 28px 20px;
 }
 
 .fc-card-front {
     border-bottom: 3px solid var(--level-color, var(--primary));
     box-shadow: var(--shadow-md), 0 4px 20px rgba(79, 70, 229, 0.08);
+    min-height: 220px;
 }
 
 .fc-card-back {
+    position: absolute;
+    inset: 0;
     transform: rotateY(180deg);
     border-top: 3px solid var(--level-color, var(--primary));
     justify-content: flex-start;
-    padding-top: 24px;
+    padding-top: 20px;
     box-shadow: var(--shadow-md), 0 4px 20px rgba(79, 70, 229, 0.08);
+    overflow-y: auto;
 }
 
 /* Front card elements */
@@ -370,37 +372,37 @@
 /* Back card elements */
 .fc-back-article {
     font-family: var(--font-heading);
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     text-align: center;
     color: var(--text);
 }
 
 .fc-back-plural {
     font-family: var(--font-body);
-    font-size: 0.95em;
+    font-size: 0.85em;
     color: var(--text-secondary);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     font-style: italic;
 }
 
 .fc-back-translation {
     font-family: var(--font-body);
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .fc-back-example {
     font-family: var(--font-body);
-    font-size: 0.88em;
+    font-size: 0.82em;
     color: var(--text-secondary);
     font-style: italic;
-    margin-top: 12px;
-    padding: 10px 14px;
+    margin-top: 8px;
+    padding: 8px 12px;
     background: var(--bg);
     border-radius: var(--radius-sm);
     border-left: 3px solid var(--primary);
@@ -410,20 +412,20 @@
 
 .fc-back-category {
     font-family: var(--font-body);
-    font-size: 0.75em;
+    font-size: 0.7em;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--text-tertiary);
-    margin-top: 12px;
+    margin-top: 8px;
     font-weight: 600;
 }
 
 .fc-back-note {
     font-family: var(--font-body);
-    font-size: 0.82em;
+    font-size: 0.78em;
     color: var(--warning);
-    margin-top: 10px;
-    padding: 8px 12px;
+    margin-top: 8px;
+    padding: 6px 10px;
     background: var(--warning-light);
     border: 1px solid var(--warning);
     border-radius: var(--radius-sm);
@@ -433,8 +435,8 @@
 
 .fc-back-perfekt, .fc-back-praeteritum {
     font-family: var(--font-body);
-    font-size: 0.88em;
-    margin-top: 6px;
+    font-size: 0.82em;
+    margin-top: 4px;
     width: 100%;
     text-align: left;
     color: var(--text-secondary);
@@ -444,7 +446,7 @@
 .fc-conj-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 8px 0 12px;
+    margin: 4px 0 8px;
 }
 
 .fc-conj-table tr {
@@ -461,17 +463,17 @@
 
 .fc-conj-pron {
     font-family: var(--font-body);
-    padding: 6px 10px 6px 0;
+    padding: 4px 8px 4px 0;
     font-weight: 600;
     color: var(--text-secondary);
-    font-size: 0.88em;
+    font-size: 0.82em;
     width: 40%;
     text-align: right;
 }
 
 .fc-conj-form {
     font-family: var(--font-body);
-    padding: 6px 0 6px 10px;
+    padding: 4px 0 4px 8px;
     font-weight: 700;
     font-size: 0.95em;
     color: var(--text);

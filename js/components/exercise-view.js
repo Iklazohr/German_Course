@@ -127,10 +127,10 @@ export async function renderExercise(exerciseId) {
                 const exercisePage = page.querySelector('.exercise-page');
                 if (exercisePage) {
                     exercisePage.classList.add('exercise-exit');
-                    exercisePage.addEventListener('animationend', () => {
+                    setTimeout(() => {
                         currentIdx++;
                         showExercise(currentIdx);
-                    }, { once: true });
+                    }, 250);
                 } else {
                     currentIdx++;
                     showExercise(currentIdx);
