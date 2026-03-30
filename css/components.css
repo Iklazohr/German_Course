@@ -143,6 +143,46 @@
     margin-top: 2px;
 }
 
+.theory-fav-btn {
+    background: none;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: var(--text-tertiary);
+    padding: 4px 6px;
+    line-height: 1;
+    transition: transform 0.2s, color 0.2s;
+    flex-shrink: 0;
+}
+
+.theory-fav-btn:hover {
+    transform: scale(1.2);
+}
+
+.theory-fav-btn.active {
+    color: #f9ab00;
+}
+
+.theory-empty {
+    text-align: center;
+    padding: 48px 24px;
+}
+
+.theory-empty-icon {
+    font-size: 56px;
+    margin-bottom: 12px;
+}
+
+.theory-empty h3 {
+    margin: 0 0 8px;
+}
+
+.theory-empty p {
+    color: var(--text-secondary);
+    margin: 0;
+    font-size: 0.95em;
+}
+
 .theory-lesson-arrow {
     color: var(--text-tertiary);
     flex-shrink: 0;

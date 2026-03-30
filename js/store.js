@@ -16,6 +16,7 @@ function getDefaultState() {
             audioEnabled: true
         },
         progress: {},
+        favorites: [],
         currentLesson: null,
         streakDays: 0,
         lastActiveDate: null,
@@ -176,6 +177,27 @@ export const store = {
 
     getAllProgress() {
         return { ...state.progress };
+    },
+
+    // Favorites
+    isFavorite(lessonId) {
+        return (state.favorites || []).includes(lessonId);
+    },
+
+    toggleFavorite(lessonId) {
+        if (!state.favorites) state.favorites = [];
+        const idx = state.favorites.indexOf(lessonId);
+        if (idx >= 0) {
+            state.favorites.splice(idx, 1);
+        } else {
+            state.favorites.push(lessonId);
+        }
+        saveState(state);
+        return this.isFavorite(lessonId);
+    },
+
+    getFavorites() {
+        return [...(state.favorites || [])];
     },
 
     // Cloud sync methods
