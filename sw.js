@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v4';
+const CACHE_NAME = 'tedesco-facile-v5';
 const SHELL_ASSETS = [
     './',
     './index.html',
