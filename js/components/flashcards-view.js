@@ -3,7 +3,7 @@
 import { renderPage, setHeaderTitle, showBackButton, shuffleArray } from '../renderer.js';
 import { navigate } from '../router.js';
 import { store } from '../store.js';
-import { playCorrect } from '../audio.js';
+import { playCorrect, playCardFlip, playClick } from '../audio.js';
 
 const FLASHCARD_DECKS = [
     { id: 'a1-nomen', level: 'a1', type: 'nomen', file: 'flashcards/a1-nomen.json', label: 'Sostantivi' },
@@ -235,6 +235,7 @@ export async function renderFlashcardDeck(deckId) {
         page.querySelector('#fc-main-card').addEventListener('click', () => {
             isFlipped = !isFlipped;
             page.querySelector('#fc-main-card').classList.toggle('flipped', isFlipped);
+            playCardFlip();
         });
 
         page.querySelector('#fc-next').addEventListener('click', () => {
@@ -281,6 +282,7 @@ export async function renderFlashcardDeck(deckId) {
                 e.preventDefault();
                 isFlipped = !isFlipped;
                 page.querySelector('#fc-main-card')?.classList.toggle('flipped', isFlipped);
+                playCardFlip();
             } else if (e.key === 'ArrowRight') {
                 currentIndex++;
                 renderCard();

@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
         border-radius: var(--radius-md);
     }
 
-    #app-header { padding-left: 16px; }
+    #app-header { left: 220px; padding-left: 16px; }
     #app-main { margin-left: 220px; padding-bottom: 16px; }
     .page { padding: 24px; }
 }

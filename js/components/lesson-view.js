@@ -1,6 +1,7 @@
 import { renderPage, setHeaderTitle, showBackButton, loadCourseStructure, loadData, formatMarkdown, renderTable } from '../renderer.js';
 import { store } from '../store.js';
 import { navigate } from '../router.js';
+import { playClick, playComplete } from '../audio.js';
 
 export async function renderLesson(lessonId) {
     const course = await loadCourseStructure();
@@ -150,6 +151,7 @@ function renderGrammarLesson(data, lessonId, levelId, nextLessonId, nextLessonTy
     page.querySelector('#lesson-back').addEventListener('click', () => navigate(`/level/${levelId}`));
     page.querySelector('#lesson-complete').addEventListener('click', () => {
         store.completeLesson(lessonId);
+        playComplete();
         if (typeof window.applySettings === 'function') window.applySettings();
         if (nextLessonId) {
             const route = (nextLessonType === 'exercise' || nextLessonType === 'review')
@@ -205,12 +207,14 @@ function renderVocabLesson(data, lessonId, levelId, nextLessonId, nextLessonType
     page.querySelectorAll('.vocab-card').forEach(card => {
         card.addEventListener('click', () => {
             card.classList.toggle('flipped');
+            playClick();
         });
     });
 
     page.querySelector('#lesson-back').addEventListener('click', () => navigate(`/level/${levelId}`));
     page.querySelector('#lesson-complete').addEventListener('click', () => {
         store.completeLesson(lessonId);
+        playComplete();
         if (typeof window.applySettings === 'function') window.applySettings();
         if (nextLessonId) {
             const route = (nextLessonType === 'exercise' || nextLessonType === 'review')
