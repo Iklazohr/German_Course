@@ -2,6 +2,7 @@ import { renderPage, setHeaderTitle, showBackButton, loadCourseStructure, loadDa
 import { store } from '../store.js';
 import { navigate } from '../router.js';
 import { playComplete, playStreak } from '../audio.js';
+import { animateExerciseExit, animateCorrectFeedback, animateIncorrectFeedback } from '../animations.js';
 import { renderMultipleChoice } from '../exercises/multiple-choice.js';
 import { renderFillBlank } from '../exercises/fill-blanks.js';
 import { renderMatching } from '../exercises/matching.js';
@@ -116,6 +117,24 @@ export async function renderExercise(exerciseId) {
                 checkBtn.disabled = false;
         }
 
+        // Observe correct/incorrect class additions for WAAPI animations
+        const feedbackObserver = new MutationObserver((mutations) => {
+            for (const m of mutations) {
+                if (m.type === 'attributes' && m.attributeName === 'class') {
+                    const el = m.target;
+                    if ((el.classList.contains('correct') || el.classList.contains('matched')) && !el.dataset.animated) {
+                        el.dataset.animated = '1';
+                        animateCorrectFeedback(el);
+                    }
+                    if ((el.classList.contains('incorrect') || el.classList.contains('wrong')) && !el.dataset.animated) {
+                        el.dataset.animated = '1';
+                        animateIncorrectFeedback(el);
+                    }
+                }
+            }
+        });
+        feedbackObserver.observe(content, { attributes: true, attributeFilter: ['class'], subtree: true });
+
         checkBtn.addEventListener('click', () => {
             if (!answered && checkAnswer) {
                 answered = true;
@@ -126,11 +145,10 @@ export async function renderExercise(exerciseId) {
                 // Animate exercise out, then show next
                 const exercisePage = page.querySelector('.exercise-page');
                 if (exercisePage) {
-                    exercisePage.classList.add('exercise-exit');
-                    setTimeout(() => {
+                    animateExerciseExit(exercisePage).then(() => {
                         currentIdx++;
                         showExercise(currentIdx);
-                    }, 250);
+                    });
                 } else {
                     currentIdx++;
                     showExercise(currentIdx);

@@ -65,6 +65,79 @@ export function animateExerciseEnter(el) {
     ], { duration: 400, easing: EASE, fill: 'both' });
 }
 
+// ===== Exercise Animations =====
+
+export function animateExerciseExit(el) {
+    if (!el) return Promise.resolve();
+    if (REDUCED_MOTION) {
+        el.style.opacity = '0';
+        return Promise.resolve();
+    }
+    const anim = el.animate([
+        { opacity: 1, transform: 'translateX(0)' },
+        { opacity: 0, transform: 'translateX(min(-80px, -15vw))' },
+    ], { duration: 250, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
+    return anim.finished;
+}
+
+export function animateCorrectFeedback(el) {
+    if (!el || REDUCED_MOTION) return;
+    el.animate([
+        { transform: 'scale(1)' },
+        { transform: 'scale(1.04)', offset: 0.3 },
+        { transform: 'scale(0.98)', offset: 0.6 },
+        { transform: 'scale(1.01)', offset: 0.8 },
+        { transform: 'scale(1)' },
+    ], { duration: 500, easing: 'ease' });
+    el.animate([
+        { boxShadow: '0 0 0 0 rgba(34, 197, 94, 0.4)' },
+        { boxShadow: '0 0 0 8px rgba(34, 197, 94, 0.15)' },
+        { boxShadow: '0 0 0 12px rgba(34, 197, 94, 0)' },
+    ], { duration: 600, easing: 'ease' });
+}
+
+export function animateIncorrectFeedback(el) {
+    if (!el || REDUCED_MOTION) return;
+    el.animate([
+        { transform: 'translateX(0)' },
+        { transform: 'translateX(-8px)' },
+        { transform: 'translateX(8px)' },
+        { transform: 'translateX(-6px)' },
+        { transform: 'translateX(6px)' },
+        { transform: 'translateX(-4px)' },
+        { transform: 'translateX(4px)' },
+        { transform: 'translateX(0)' },
+    ], { duration: 500, easing: 'ease' });
+}
+
+// ===== Flashcard Animations =====
+
+export function animateCardExit(el, direction) {
+    if (!el) return Promise.resolve();
+    const tx = direction === 'left' ? '-80%' : '80%';
+    const rot = direction === 'left' ? '-4deg' : '4deg';
+    if (REDUCED_MOTION) {
+        el.style.opacity = '0';
+        return Promise.resolve();
+    }
+    const anim = el.animate([
+        { transform: 'translateX(0) scale(1) rotate(0)', opacity: 1 },
+        { transform: `translateX(${tx}) scale(0.9) rotate(${rot})`, opacity: 0 },
+    ], { duration: 300, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
+    return anim.finished;
+}
+
+export function animateCardEnter(el, direction) {
+    if (!el || REDUCED_MOTION) return;
+    const fromTx = direction === 'left' ? '60%' : '-60%';
+    el.animate([
+        { transform: `translateX(${fromTx}) scale(0.92)`, opacity: 0 },
+        { transform: 'translateX(0) scale(1)', opacity: 1 },
+    ], { duration: 350, easing: EASE, fill: 'both' });
+}
+
+// ===== Generic Animations =====
+
 export function animateElements(container, selector, animationType = 'slideUp') {
     if (!container || REDUCED_MOTION) return;
     const elements = container.querySelectorAll(selector);
