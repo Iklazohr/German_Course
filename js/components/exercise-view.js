@@ -10,6 +10,7 @@ import { renderReorder } from '../exercises/reorder.js';
 import { renderSelectArticle } from '../exercises/select-article.js';
 import { renderListening } from '../exercises/listening.js';
 import { renderSpeaking } from '../exercises/speaking.js';
+import { stopSpeaking, stopListening } from '../speech.js';
 
 export async function renderExercise(exerciseId) {
     const course = await loadCourseStructure();
@@ -47,7 +48,7 @@ export async function renderExercise(exerciseId) {
 
     let currentIdx = 0;
     let correctCount = 0;
-    const total = data.exercises.length;
+    let total = data.exercises.length;
 
     function showExercise(idx) {
         if (idx >= total) {
@@ -69,7 +70,8 @@ export async function renderExercise(exerciseId) {
                 <div id="exercise-content"></div>
             </div>
             <div class="exercise-footer">
-                <button class="btn btn-primary btn-block" id="exercise-check" disabled>Controlla</button>
+                ${exercise.type === 'listening' || exercise.type === 'speaking' ? '<button class="btn btn-outline exercise-skip-btn" id="exercise-skip">Salta</button>' : ''}
+                <button class="btn btn-primary ${exercise.type === 'listening' || exercise.type === 'speaking' ? '' : 'btn-block'}" id="exercise-check" disabled>Controlla</button>
             </div>
         `);
 
@@ -145,6 +147,27 @@ export async function renderExercise(exerciseId) {
                 }
             }
         });
+
+        // Skip button for vocal exercises
+        const skipBtn = page.querySelector('#exercise-skip');
+        if (skipBtn) {
+            skipBtn.addEventListener('click', () => {
+                stopSpeaking();
+                stopListening();
+                total--;
+                const exercisePage = page.querySelector('.exercise-page');
+                if (exercisePage) {
+                    exercisePage.classList.add('exercise-exit');
+                    setTimeout(() => {
+                        currentIdx++;
+                        showExercise(currentIdx);
+                    }, 250);
+                } else {
+                    currentIdx++;
+                    showExercise(currentIdx);
+                }
+            });
+        }
 
         // Enter key triggers check/advance
         page.addEventListener('keydown', (e) => {

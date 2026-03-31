@@ -567,6 +567,15 @@
     }
 }
 
+.exercise-skip-btn {
+    flex-shrink: 0;
+    min-width: 80px;
+}
+
+.exercise-footer:has(.exercise-skip-btn) .btn-primary {
+    flex: 1;
+}
+
 /* ===== Exercise Summary ===== */
 .summary-card {
     text-align: center;
