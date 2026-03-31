@@ -6,7 +6,6 @@ import { renderDashboard } from './components/dashboard.js';
 import { renderLevels, renderLevel } from './components/levels-view.js';
 import { renderLesson } from './components/lesson-view.js';
 import { renderExercise } from './components/exercise-view.js';
-import { renderProgress } from './components/progress-view.js';
 import { renderSettings } from './components/settings-view.js';
 import { renderAuthPage } from './components/auth-view.js';
 import { renderFlashcards, renderFlashcardDeck } from './components/flashcards-view.js';
@@ -194,7 +193,6 @@ addRoute('/exercise/:id', (params) => renderExercise(params.id));
 addRoute('/theory', () => renderTheory());
 addRoute('/flashcards', () => renderFlashcards());
 addRoute('/flashcards/:id', (params) => renderFlashcardDeck(params.id));
-addRoute('/progress', () => renderProgress());
 addRoute('/settings', () => renderSettings());
 addRoute('/account', () => renderAuthPage());
 

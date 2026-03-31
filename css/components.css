@@ -267,7 +267,7 @@
     border: 1px solid var(--border);
     box-shadow: var(--shadow-sm);
     padding: 16px;
-    transition: transform var(--transition-slow), box-shadow var(--transition-slow);
+    transition: transform var(--transition-slow), box-shadow var(--transition-slow), border-color var(--transition);
 }
 
 .card-clickable {
@@ -277,7 +277,8 @@
 
 .card-clickable:hover {
     transform: scale(1.01);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 0 0 2px var(--primary-muted), var(--shadow-md);
+    border-color: var(--primary-muted);
 }
 
 /* ===== Level Cards ===== */
@@ -293,7 +294,8 @@
 
 .level-card:hover {
     transform: scale(1.01);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 0 0 2px var(--primary-muted), var(--shadow-md);
+    border-color: var(--primary-muted);
 }
 
 .level-card .level-badge {
@@ -1014,7 +1016,8 @@
 
 .stat-card:hover {
     transform: scale(1.02);
-    border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+    border-color: var(--primary-muted);
+    box-shadow: 0 0 0 2px var(--primary-muted);
 }
 
 [data-theme="dark"] .stat-card {

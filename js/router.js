@@ -64,8 +64,7 @@ export function handleRoute() {
             (route === 'home' && (path === '/' || path === '')) ||
             (route === 'levels' && path.startsWith('/level')) ||
             (route === 'theory' && path === '/theory') ||
-            (route === 'flashcards' && path.startsWith('/flashcards')) ||
-            (route === 'progress' && path === '/progress');
+            (route === 'flashcards' && path.startsWith('/flashcards'));
         item.classList.toggle('active', isActive);
     });
 }
