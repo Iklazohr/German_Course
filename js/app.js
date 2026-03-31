@@ -91,13 +91,41 @@ function showStreakCalendar() {
         // Adjust firstDay: JS uses 0=Sun, we want 0=Mon
         const startOffset = (firstDay + 6) % 7;
 
-        let daysHtml = dayNames.map(d => `<div class="cal-day-name">${d}</div>`).join('');
-        for (let i = 0; i < startOffset; i++) daysHtml += '<div class="cal-day empty"></div>';
+        // Build array of active flags for streak detection
+        const monthDates = [];
         for (let d = 1; d <= daysInMonth; d++) {
             const ds = `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-            const isActive = activeDates.has(ds);
-            const isToday = ds === today;
-            daysHtml += `<div class="cal-day${isActive ? ' active' : ''}${isToday ? ' today' : ''}">${d}</div>`;
+            monthDates.push({ day: d, date: ds, active: activeDates.has(ds) });
+        }
+
+        // Check previous/next month for streak continuity at edges
+        const lastDayPrevMonth = new Date(viewYear, viewMonth, 0);
+        const prevMonthLastDate = `${lastDayPrevMonth.getFullYear()}-${String(lastDayPrevMonth.getMonth() + 1).padStart(2, '0')}-${String(lastDayPrevMonth.getDate()).padStart(2, '0')}`;
+        const prevMonthActive = activeDates.has(prevMonthLastDate);
+
+        const firstDayNextMonth = new Date(viewYear, viewMonth + 1, 1);
+        const nextMonthFirstDate = `${firstDayNextMonth.getFullYear()}-${String(firstDayNextMonth.getMonth() + 1).padStart(2, '0')}-01`;
+        const nextMonthActive = activeDates.has(nextMonthFirstDate);
+
+        let daysHtml = dayNames.map(d => `<div class="cal-day-name">${d}</div>`).join('');
+        for (let i = 0; i < startOffset; i++) daysHtml += '<div class="cal-day empty"></div>';
+        for (let i = 0; i < monthDates.length; i++) {
+            const { day, date, active } = monthDates[i];
+            const isToday = date === today;
+            const prevActive = i > 0 ? monthDates[i - 1].active : prevMonthActive;
+            const nextActive = i < monthDates.length - 1 ? monthDates[i + 1].active : nextMonthActive;
+
+            let streakClass = '';
+            if (active) {
+                const hasPrev = prevActive;
+                const hasNext = nextActive;
+                if (hasPrev && hasNext) streakClass = ' streak-mid';
+                else if (hasPrev && !hasNext) streakClass = ' streak-end';
+                else if (!hasPrev && hasNext) streakClass = ' streak-start';
+                else streakClass = ' streak-single';
+            }
+
+            daysHtml += `<div class="cal-day${active ? ' active' : ''}${isToday ? ' today' : ''}${streakClass}">${day}</div>`;
         }
 
         modal.innerHTML = `
@@ -119,7 +147,17 @@ function showStreakCalendar() {
                     </button>
                 </div>
                 <div class="cal-grid">${daysHtml}</div>
-                <div class="cal-footer">${monthActive} ${monthActive === 1 ? 'giorno attivo' : 'giorni attivi'} questo mese</div>
+                <div class="cal-footer">
+                    <div>${monthActive} ${monthActive === 1 ? 'giorno attivo' : 'giorni attivi'} questo mese</div>
+                    ${(() => {
+                        let longest = 0, current = 0;
+                        for (const md of monthDates) {
+                            if (md.active) { current++; longest = Math.max(longest, current); }
+                            else current = 0;
+                        }
+                        return longest > 1 ? `<div class="cal-footer-streak">Streak migliore: ${longest} giorni</div>` : '';
+                    })()}
+                </div>
             </div>
         `;
 
