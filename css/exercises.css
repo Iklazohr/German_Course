@@ -548,12 +548,12 @@
 /* ===== Exercise Footer ===== */
 .exercise-footer {
     position: fixed;
-    bottom: 0;
+    bottom: var(--bottom-nav-height);
     left: 0;
     right: 0;
     background: var(--surface);
     border-top: 1px solid var(--border);
-    padding: 12px 16px calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0));
+    padding: 12px 16px;
     display: flex;
     justify-content: center;
     gap: 12px;
