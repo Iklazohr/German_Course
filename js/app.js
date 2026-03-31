@@ -41,16 +41,9 @@ function updateAuthIndicator() {
     if (!indicator) return;
 
     const user = getCurrentUser();
-    if (user) {
-        const initial = (user.email || 'U')[0].toUpperCase();
-        indicator.innerHTML = `<span class="auth-avatar">${initial}</span>`;
-        indicator.classList.remove('hidden');
-        indicator.title = user.email || 'Account';
-    } else {
-        indicator.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
-        indicator.classList.remove('hidden');
-        indicator.title = 'Account';
-    }
+    indicator.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
+    indicator.classList.remove('hidden');
+    indicator.title = user ? (user.email || 'Account') : 'Account';
 }
 
 // Streak badge click — open calendar
