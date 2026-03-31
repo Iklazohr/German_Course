@@ -6,7 +6,12 @@
     {
       "type": "multiple-choice",
       "question": "Completa: '___ mehr man übt, ___ besser wird man.'",
-      "options": ["Je ... desto", "Sowohl ... als auch", "Weder ... noch", "Entweder ... oder"],
+      "options": [
+        "Je ... desto",
+        "Sowohl ... als auch",
+        "Weder ... noch",
+        "Entweder ... oder"
+      ],
       "correct": 0,
       "explanation": "'Je ... desto' significa 'più ... più' (quanto più ... tanto più). Dopo 'je' il verbo va alla fine, dopo 'desto' c'è l'inversione: Je mehr man übt, desto besser wird man."
     },
@@ -14,8 +19,20 @@
       "type": "fill-blank",
       "sentence": "Er spricht ___ Deutsch ___ Englisch. Er ist wirklich sprachbegabt!",
       "blanks": [
-        { "position": 0, "correct": ["sowohl"], "hint": "sia (prima parte del connettore doppio)" },
-        { "position": 1, "correct": ["als auch"], "hint": "sia/che (seconda parte del connettore doppio)" }
+        {
+          "position": 0,
+          "correct": [
+            "sowohl"
+          ],
+          "hint": "sia (prima parte del connettore doppio)"
+        },
+        {
+          "position": 1,
+          "correct": [
+            "als auch"
+          ],
+          "hint": "sia/che (seconda parte del connettore doppio)"
+        }
       ],
       "translation": "Parla sia tedesco che inglese. È davvero portato per le lingue!"
     },
@@ -35,17 +52,43 @@
       "type": "matching",
       "instruction": "Collega ogni connettore al suo significato italiano.",
       "pairs": [
-        { "left": "allerdings", "right": "tuttavia, però" },
-        { "left": "folglich", "right": "di conseguenza" },
-        { "left": "hingegen", "right": "invece, al contrario" },
-        { "left": "immerhin", "right": "almeno, quantomeno" },
-        { "left": "schließlich", "right": "alla fine, dopotutto" }
+        {
+          "left": "allerdings",
+          "right": "tuttavia, però"
+        },
+        {
+          "left": "folglich",
+          "right": "di conseguenza"
+        },
+        {
+          "left": "hingegen",
+          "right": "invece, al contrario"
+        },
+        {
+          "left": "immerhin",
+          "right": "almeno, quantomeno"
+        },
+        {
+          "left": "schließlich",
+          "right": "alla fine, dopotutto"
+        }
       ]
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto per formare una frase con 'damit':",
-      "words": ["Ich", "erkläre", "es", "nochmal", ",", "damit", "du", "es", "verstehst", "."],
+      "words": [
+        "Ich",
+        "erkläre",
+        "es",
+        "nochmal",
+        ",",
+        "damit",
+        "du",
+        "es",
+        "verstehst",
+        "."
+      ],
       "correct": "Ich erkläre es nochmal , damit du es verstehst .",
       "translation": "Lo spiego di nuovo affinché tu capisca."
     },
@@ -64,7 +107,15 @@
     {
       "type": "fill-blank",
       "sentence": "Die Polizei teilte mit, der Verdächtige ___ festgenommen worden.",
-      "blanks": [{ "position": 0, "correct": ["sei"], "hint": "Konjunktiv I di 'sein' - terza persona singolare" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "sei"
+          ],
+          "hint": "Konjunktiv I di 'sein' - terza persona singolare"
+        }
+      ],
       "translation": "La polizia ha comunicato che il sospettato è stato arrestato."
     },
     {
@@ -83,7 +134,11 @@
       "type": "translation",
       "direction": "de-to-it",
       "source": "Zwar ist das Restaurant teuer, aber das Essen ist ausgezeichnet.",
-      "acceptable": ["È vero che il ristorante è caro, ma il cibo è eccellente.", "Certo, il ristorante è caro, ma il cibo è eccellente.", "Il ristorante è sì caro, ma il cibo è eccellente."],
+      "acceptable": [
+        "È vero che il ristorante è caro, ma il cibo è eccellente.",
+        "Certo, il ristorante è caro, ma il cibo è eccellente.",
+        "Il ristorante è sì caro, ma il cibo è eccellente."
+      ],
       "hint": "zwar ... aber = è vero che ... però / certo ... ma"
     },
     {
@@ -101,15 +156,89 @@
     {
       "type": "fill-blank",
       "sentence": "Er wollte Medizin studieren. ___ wurde er Ingenieur.",
-      "blanks": [{ "position": 0, "correct": ["Stattdessen"], "hint": "al posto di ciò / invece - avverbio di frase" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "Stattdessen"
+          ],
+          "hint": "al posto di ciò / invece - avverbio di frase"
+        }
+      ],
       "translation": "Voleva studiare medicina. Invece è diventato ingegnere."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta con 'sobald':",
-      "words": ["Sobald", "ich", "ankomme", ",", "rufe", "ich", "dich", "an", "."],
+      "words": [
+        "Sobald",
+        "ich",
+        "ankomme",
+        ",",
+        "rufe",
+        "ich",
+        "dich",
+        "an",
+        "."
+      ],
       "correct": "Sobald ich ankomme , rufe ich dich an .",
       "translation": "Non appena arrivo, ti chiamo."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Es besteht kein Zweifel daran, dass Handlungsbedarf besteht.",
+      "translation": "Non c'è dubbio che sia necessario agire.",
+      "acceptable": [
+        "Es besteht kein Zweifel daran dass Handlungsbedarf besteht",
+        "Es besteht kein Zweifel daran, dass Handlungsbedarf besteht"
+      ],
+      "hint": "Pronuncia: Zweifel = 'tsvai-fel', Handlungsbedarf = 'hand-lungs-be-darf'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Infolgedessen mussten zahlreiche Mitarbeiter umgeschult werden.",
+      "question": "Cosa è dovuto accadere di conseguenza?",
+      "options": [
+        "Molti dipendenti sono stati licenziati",
+        "Molti dipendenti hanno dovuto essere riqualificati",
+        "L'azienda ha chiuso",
+        "I salari sono stati ridotti"
+      ],
+      "correct": 1,
+      "explanation": "'Infolgedessen' = di conseguenza. 'umgeschult werden' = essere riqualificati (passivo)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Die Verhandlungen wurden aufgrund von Meinungsverschiedenheiten unterbrochen.",
+      "translation": "Le trattative sono state interrotte a causa di divergenze d'opinione.",
+      "acceptable": [
+        "Die Verhandlungen wurden aufgrund von Meinungsverschiedenheiten unterbrochen"
+      ],
+      "hint": "Pronuncia: Verhandlungen = 'fer-hand-lun-gen', Meinungsverschiedenheiten = 'mai-nungs-fer-shii-den-hai-ten'"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Es ist davon auszugehen, dass die Situation sich verbessern wird.",
+      "acceptable": [
+        "Es ist davon auszugehen dass die Situation sich verbessern wird",
+        "Es ist davon auszugehen, dass die Situation sich verbessern wird"
+      ],
+      "hint": "Espressione formale: 'davon auszugehen'",
+      "translation": "Si può supporre che la situazione migliorerà."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Zusammenfassend lässt sich sagen, dass die Lage ernst ist.",
+      "translation": "In sintesi, si può dire che la situazione è seria.",
+      "acceptable": [
+        "Zusammenfassend lässt sich sagen dass die Lage ernst ist",
+        "Zusammenfassend lässt sich sagen, dass die Lage ernst ist"
+      ]
     }
   ]
 }

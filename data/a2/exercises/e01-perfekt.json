@@ -6,20 +6,38 @@
     {
       "type": "multiple-choice",
       "question": "Qual è il Partizip II del verbo 'machen'?",
-      "options": ["gemachen", "gemacht", "gemakt", "macht"],
+      "options": [
+        "gemachen",
+        "gemacht",
+        "gemakt",
+        "macht"
+      ],
       "correct": 1,
       "explanation": "I verbi regolari formano il Partizip II con ge- + radice + -t: machen → gemacht."
     },
     {
       "type": "fill-blank",
       "sentence": "Ich ___ gestern einen Film gesehen.",
-      "blanks": [{ "position": 0, "correct": ["habe"], "hint": "ausiliare 'haben', prima persona singolare" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "habe"
+          ],
+          "hint": "ausiliare 'haben', prima persona singolare"
+        }
+      ],
       "translation": "Ieri ho visto un film."
     },
     {
       "type": "multiple-choice",
       "question": "Quale verbo usa 'sein' come ausiliare al Perfekt?",
-      "options": ["essen", "kaufen", "fahren", "lesen"],
+      "options": [
+        "essen",
+        "kaufen",
+        "fahren",
+        "lesen"
+      ],
       "correct": 2,
       "explanation": "'Fahren' (andare con un mezzo) indica un movimento da un luogo a un altro, quindi usa 'sein': Ich bin gefahren."
     },
@@ -27,70 +45,137 @@
       "type": "matching",
       "instruction": "Collega l'infinito al Partizip II corretto.",
       "pairs": [
-        { "left": "essen", "right": "gegessen" },
-        { "left": "trinken", "right": "getrunken" },
-        { "left": "schreiben", "right": "geschrieben" },
-        { "left": "kaufen", "right": "gekauft" },
-        { "left": "gehen", "right": "gegangen" }
+        {
+          "left": "essen",
+          "right": "gegessen"
+        },
+        {
+          "left": "trinken",
+          "right": "getrunken"
+        },
+        {
+          "left": "schreiben",
+          "right": "geschrieben"
+        },
+        {
+          "left": "kaufen",
+          "right": "gekauft"
+        },
+        {
+          "left": "gehen",
+          "right": "gegangen"
+        }
       ]
     },
     {
       "type": "fill-blank",
       "sentence": "Sie ___ nach Berlin gefahren.",
-      "blanks": [{ "position": 0, "correct": ["ist"], "hint": "ausiliare 'sein', terza persona singolare (fahren = movimento)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "ist"
+          ],
+          "hint": "ausiliare 'sein', terza persona singolare (fahren = movimento)"
+        }
+      ],
       "translation": "Lei è andata a Berlino."
     },
     {
       "type": "translation",
       "direction": "it-to-de",
       "source": "Ho imparato il tedesco.",
-      "acceptable": ["Ich habe Deutsch gelernt.", "Ich habe deutsch gelernt."],
+      "acceptable": [
+        "Ich habe Deutsch gelernt.",
+        "Ich habe deutsch gelernt."
+      ],
       "hint": "imparare = lernen, Partizip II regolare: ge-...-t"
     },
     {
       "type": "multiple-choice",
       "question": "Qual è il Präteritum di 'sein' alla prima persona singolare?",
-      "options": ["bin", "war", "wurde", "hatte"],
+      "options": [
+        "bin",
+        "war",
+        "wurde",
+        "hatte"
+      ],
       "correct": 1,
       "explanation": "'Sein' al Präteritum: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren."
     },
     {
       "type": "fill-blank",
       "sentence": "Wir ___ gestern im Kino.",
-      "blanks": [{ "position": 0, "correct": ["waren"], "hint": "Präteritum di 'sein', prima persona plurale" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "waren"
+          ],
+          "hint": "Präteritum di 'sein', prima persona plurale"
+        }
+      ],
       "translation": "Ieri eravamo al cinema."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["habe", "Ich", "ein", "Buch", "gelesen", "."],
+      "words": [
+        "habe",
+        "Ich",
+        "ein",
+        "Buch",
+        "gelesen",
+        "."
+      ],
       "correct": "Ich habe ein Buch gelesen .",
       "translation": "Ho letto un libro."
     },
     {
       "type": "multiple-choice",
       "question": "Come si dice 'Avevo fame' in tedesco (Präteritum)?",
-      "options": ["Ich habe Hunger gehabt.", "Ich hatte Hunger.", "Ich war Hunger.", "Ich bin hungrig gewesen."],
+      "options": [
+        "Ich habe Hunger gehabt.",
+        "Ich hatte Hunger.",
+        "Ich war Hunger.",
+        "Ich bin hungrig gewesen."
+      ],
       "correct": 1,
       "explanation": "'Ich hatte Hunger' usa il Präteritum di 'haben' (hatte). Nel parlato si preferisce il Präteritum per haben e sein."
     },
     {
       "type": "fill-blank",
       "sentence": "Er ___ nicht kommen, weil er krank war.",
-      "blanks": [{ "position": 0, "correct": ["konnte"], "hint": "Präteritum di 'können', terza persona singolare" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "konnte"
+          ],
+          "hint": "Präteritum di 'können', terza persona singolare"
+        }
+      ],
       "translation": "Non poteva venire perché era malato."
     },
     {
       "type": "translation",
       "direction": "it-to-de",
       "source": "Siamo andati in Italia.",
-      "acceptable": ["Wir sind nach Italien gefahren.", "Wir sind nach Italien gereist."],
+      "acceptable": [
+        "Wir sind nach Italien gefahren.",
+        "Wir sind nach Italien gereist."
+      ],
       "hint": "andare (con mezzo) = fahren, usa 'sein' come ausiliare"
     },
     {
       "type": "multiple-choice",
       "question": "Qual è il Partizip II di 'anrufen' (chiamare al telefono)?",
-      "options": ["angeruft", "angerufen", "gerufen", "gerufan"],
+      "options": [
+        "angeruft",
+        "angerufen",
+        "gerufen",
+        "gerufan"
+      ],
       "correct": 1,
       "explanation": "'Anrufen' è un verbo separabile: il prefisso 'ge-' va tra 'an' e 'rufen' → angerufen."
     },
@@ -98,12 +183,75 @@
       "type": "matching",
       "instruction": "Collega la forma del Präteritum al verbo corretto.",
       "pairs": [
-        { "left": "war", "right": "sein" },
-        { "left": "hatte", "right": "haben" },
-        { "left": "konnte", "right": "können" },
-        { "left": "musste", "right": "müssen" },
-        { "left": "wollte", "right": "wollen" }
+        {
+          "left": "war",
+          "right": "sein"
+        },
+        {
+          "left": "hatte",
+          "right": "haben"
+        },
+        {
+          "left": "konnte",
+          "right": "können"
+        },
+        {
+          "left": "musste",
+          "right": "müssen"
+        },
+        {
+          "left": "wollte",
+          "right": "wollen"
+        }
       ]
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Gestern habe ich einen Kuchen gebacken.",
+      "question": "Cosa ha fatto la persona ieri?",
+      "options": [
+        "Ha comprato una torta",
+        "Ha preparato una torta",
+        "Ha mangiato una torta",
+        "Ha ordinato una torta"
+      ],
+      "correct": 1,
+      "explanation": "'einen Kuchen gebacken' = preparato/fatto una torta. 'backen' al Perfekt: 'haben + gebacken'."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Gestern bin ich mit dem Zug nach Berlin gefahren.",
+      "translation": "Ieri sono andato a Berlino in treno.",
+      "acceptable": [
+        "Gestern bin ich mit dem Zug nach Berlin gefahren"
+      ],
+      "hint": "Pronuncia: Zug = 'tsug', gefahren = 'ghe-faa-ren'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Ich bin letztes Wochenende nach München gefahren.",
+      "question": "Dove è andata la persona?",
+      "options": [
+        "A Berlino",
+        "A Monaco",
+        "Ad Amburgo",
+        "A Francoforte"
+      ],
+      "correct": 1,
+      "explanation": "'München' = Monaco di Baviera. 'gefahren' = andato (in viaggio)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Ich habe letzte Woche einen interessanten Film gesehen.",
+      "translation": "La settimana scorsa ho visto un film interessante.",
+      "acceptable": [
+        "Ich habe letzte Woche einen interessanten Film gesehen"
+      ],
+      "hint": "Pronuncia: interessanten = 'in-te-re-SAN-ten'"
     }
   ]
 }

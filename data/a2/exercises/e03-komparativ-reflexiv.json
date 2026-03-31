@@ -6,20 +6,38 @@
     {
       "type": "multiple-choice",
       "question": "Qual è il comparativo di 'groß'?",
-      "options": ["großer", "größer", "größter", "großerer"],
+      "options": [
+        "großer",
+        "größer",
+        "größter",
+        "großerer"
+      ],
       "correct": 1,
       "explanation": "'Groß' prende l'Umlaut al comparativo: größer (più grande). Nota: groß → größer → am größten."
     },
     {
       "type": "fill-blank",
       "sentence": "Berlin ist ___ als München.",
-      "blanks": [{ "position": 0, "correct": ["größer"], "hint": "comparativo di 'groß' (grande)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "größer"
+          ],
+          "hint": "comparativo di 'groß' (grande)"
+        }
+      ],
       "translation": "Berlino è più grande di Monaco."
     },
     {
       "type": "multiple-choice",
       "question": "Qual è il superlativo di 'gut'?",
-      "options": ["am gutsten", "am bessten", "am besten", "am gutersten"],
+      "options": [
+        "am gutsten",
+        "am bessten",
+        "am besten",
+        "am gutersten"
+      ],
       "correct": 2,
       "explanation": "'Gut' ha forme irregolari: gut → besser → am besten."
     },
@@ -27,71 +45,173 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Sono alto come te.",
-      "acceptable": ["Ich bin so groß wie du.", "Ich bin genauso groß wie du."],
+      "acceptable": [
+        "Ich bin so groß wie du.",
+        "Ich bin genauso groß wie du."
+      ],
       "hint": "così... come = so... wie"
     },
     {
       "type": "fill-blank",
       "sentence": "Ich trinke ___ Tee als Kaffee.",
-      "blanks": [{ "position": 0, "correct": ["lieber"], "hint": "comparativo di 'gern' (volentieri) = lieber (preferibilmente)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "lieber"
+          ],
+          "hint": "comparativo di 'gern' (volentieri) = lieber (preferibilmente)"
+        }
+      ],
       "translation": "Preferisco bere tè piuttosto che caffè."
     },
     {
       "type": "matching",
       "instruction": "Collega il positivo al comparativo corretto.",
       "pairs": [
-        { "left": "gut", "right": "besser" },
-        { "left": "viel", "right": "mehr" },
-        { "left": "gern", "right": "lieber" },
-        { "left": "hoch", "right": "höher" },
-        { "left": "alt", "right": "älter" }
+        {
+          "left": "gut",
+          "right": "besser"
+        },
+        {
+          "left": "viel",
+          "right": "mehr"
+        },
+        {
+          "left": "gern",
+          "right": "lieber"
+        },
+        {
+          "left": "hoch",
+          "right": "höher"
+        },
+        {
+          "left": "alt",
+          "right": "älter"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Qual è il pronome riflessivo per 'ich'?",
-      "options": ["sich", "mich", "mir", "dich"],
+      "options": [
+        "sich",
+        "mich",
+        "mir",
+        "dich"
+      ],
       "correct": 1,
       "explanation": "Il pronome riflessivo accusativo per 'ich' è 'mich': Ich freue mich."
     },
     {
       "type": "fill-blank",
       "sentence": "Er fühlt ___ heute nicht gut.",
-      "blanks": [{ "position": 0, "correct": ["sich"], "hint": "pronome riflessivo per 'er' (terza persona)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "sich"
+          ],
+          "hint": "pronome riflessivo per 'er' (terza persona)"
+        }
+      ],
       "translation": "Oggi non si sente bene."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["mich", "Ich", "freue", "auf", "den", "Urlaub", "."],
+      "words": [
+        "mich",
+        "Ich",
+        "freue",
+        "auf",
+        "den",
+        "Urlaub",
+        "."
+      ],
       "correct": "Ich freue mich auf den Urlaub .",
       "translation": "Non vedo l'ora delle vacanze."
     },
     {
       "type": "fill-blank",
       "sentence": "Ich wasche ___ die Hände.",
-      "blanks": [{ "position": 0, "correct": ["mir"], "hint": "riflessivo al dativo, perché c'è un oggetto diretto (die Hände)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "mir"
+          ],
+          "hint": "riflessivo al dativo, perché c'è un oggetto diretto (die Hände)"
+        }
+      ],
       "translation": "Mi lavo le mani."
     },
     {
       "type": "translation",
       "direction": "it-to-de",
       "source": "Sbrigati!",
-      "acceptable": ["Beeil dich!", "Beeile dich!"],
+      "acceptable": [
+        "Beeil dich!",
+        "Beeile dich!"
+      ],
       "hint": "sbrigarsi = sich beeilen, imperativo 'du'"
     },
     {
       "type": "multiple-choice",
       "question": "Quale frase è corretta?",
-      "options": ["Er erinnert mich an den Urlaub.", "Er erinnert sich an den Urlaub.", "Er erinnert an den Urlaub sich.", "Er sich erinnert an den Urlaub."],
+      "options": [
+        "Er erinnert mich an den Urlaub.",
+        "Er erinnert sich an den Urlaub.",
+        "Er erinnert an den Urlaub sich.",
+        "Er sich erinnert an den Urlaub."
+      ],
       "correct": 1,
       "explanation": "'Sich erinnern an' (ricordarsi di): il pronome riflessivo 'sich' va dopo il verbo coniugato."
     },
     {
       "type": "fill-blank",
       "sentence": "Welche Stadt gefällt dir am ___?",
-      "blanks": [{ "position": 0, "correct": ["besten"], "hint": "superlativo di 'gut': am besten" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "besten"
+          ],
+          "hint": "superlativo di 'gut': am besten"
+        }
+      ],
       "translation": "Quale città ti piace di più?"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Hast du gestern den Film gesehen?",
+      "acceptable": [
+        "Hast du gestern den Film gesehen",
+        "Hast du gestern den Film gesehen?"
+      ],
+      "hint": "Domanda al Perfekt con 'sehen'",
+      "translation": "Hai visto il film ieri?"
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Ich habe mich sehr darüber gefreut.",
+      "translation": "Ne sono stato molto contento.",
+      "acceptable": [
+        "Ich habe mich sehr darüber gefreut"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wir haben uns im Park getroffen.",
+      "acceptable": [
+        "Wir haben uns im Park getroffen",
+        "Wir haben uns im Park getroffen."
+      ],
+      "hint": "Verbo riflessivo al Perfekt",
+      "translation": "Ci siamo incontrati al parco."
     }
   ]
 }

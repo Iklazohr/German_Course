@@ -6,7 +6,12 @@
     {
       "type": "multiple-choice",
       "question": "Quale frase usa correttamente un verbo separabile?",
-      "options": ["Ich aufstehe um 7 Uhr.", "Ich stehe um 7 Uhr auf.", "Ich stehe auf um 7 Uhr.", "Auf ich stehe um 7 Uhr."],
+      "options": [
+        "Ich aufstehe um 7 Uhr.",
+        "Ich stehe um 7 Uhr auf.",
+        "Ich stehe auf um 7 Uhr.",
+        "Auf ich stehe um 7 Uhr."
+      ],
       "correct": 1,
       "explanation": "Il prefisso separabile va alla fine della frase: 'Ich stehe um 7 Uhr auf.'"
     },
@@ -14,8 +19,20 @@
       "type": "fill-blank",
       "sentence": "Ich ___ morgen ___.",
       "blanks": [
-        { "position": 0, "correct": ["rufe"], "hint": "verbo anrufen, parte coniugata" },
-        { "position": 1, "correct": ["an"], "hint": "prefisso separabile" }
+        {
+          "position": 0,
+          "correct": [
+            "rufe"
+          ],
+          "hint": "verbo anrufen, parte coniugata"
+        },
+        {
+          "position": 1,
+          "correct": [
+            "an"
+          ],
+          "hint": "prefisso separabile"
+        }
       ],
       "translation": "Chiamo domani."
     },
@@ -23,37 +40,76 @@
       "type": "matching",
       "instruction": "Collega i verbi modali al loro significato.",
       "pairs": [
-        { "left": "können", "right": "potere (capacità)" },
-        { "left": "müssen", "right": "dovere" },
-        { "left": "wollen", "right": "volere" },
-        { "left": "dürfen", "right": "potere (permesso)" },
-        { "left": "möchten", "right": "vorrei" }
+        {
+          "left": "können",
+          "right": "potere (capacità)"
+        },
+        {
+          "left": "müssen",
+          "right": "dovere"
+        },
+        {
+          "left": "wollen",
+          "right": "volere"
+        },
+        {
+          "left": "dürfen",
+          "right": "potere (permesso)"
+        },
+        {
+          "left": "möchten",
+          "right": "vorrei"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Dove va l'infinito quando c'è un verbo modale?",
-      "options": ["Prima del modale", "Dopo il soggetto", "Alla fine della frase", "Non si usa l'infinito"],
+      "options": [
+        "Prima del modale",
+        "Dopo il soggetto",
+        "Alla fine della frase",
+        "Non si usa l'infinito"
+      ],
       "correct": 2,
       "explanation": "Con un verbo modale, l'infinito va alla fine: 'Ich kann gut schwimmen.'"
     },
     {
       "type": "fill-blank",
       "sentence": "Du ___ jetzt gehen.",
-      "blanks": [{ "position": 0, "correct": ["musst"], "hint": "verbo modale 'müssen', seconda persona" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "musst"
+          ],
+          "hint": "verbo modale 'müssen', seconda persona"
+        }
+      ],
       "translation": "Devi andare adesso."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["Deutsch", "kann", "Ich", "sprechen", "."],
+      "words": [
+        "Deutsch",
+        "kann",
+        "Ich",
+        "sprechen",
+        "."
+      ],
       "correct": "Ich kann Deutsch sprechen .",
       "translation": "So parlare tedesco."
     },
     {
       "type": "multiple-choice",
       "question": "Come si dice 'Vorrei un caffè' in modo cortese?",
-      "options": ["Ich will einen Kaffee.", "Ich möchte einen Kaffee.", "Ich kann einen Kaffee.", "Ich muss einen Kaffee."],
+      "options": [
+        "Ich will einen Kaffee.",
+        "Ich möchte einen Kaffee.",
+        "Ich kann einen Kaffee.",
+        "Ich muss einen Kaffee."
+      ],
       "correct": 1,
       "explanation": "'Möchten' è la forma cortese per esprimere desideri: 'Ich möchte einen Kaffee.'"
     },
@@ -61,8 +117,20 @@
       "type": "fill-blank",
       "sentence": "Wir ___ heute Abend ___.",
       "blanks": [
-        { "position": 0, "correct": ["gehen"], "hint": "verbo ausgehen, parte coniugata" },
-        { "position": 1, "correct": ["aus"], "hint": "prefisso separabile" }
+        {
+          "position": 0,
+          "correct": [
+            "gehen"
+          ],
+          "hint": "verbo ausgehen, parte coniugata"
+        },
+        {
+          "position": 1,
+          "correct": [
+            "aus"
+          ],
+          "hint": "prefisso separabile"
+        }
       ],
       "translation": "Usciamo stasera."
     },
@@ -70,15 +138,46 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Posso aprire la finestra?",
-      "acceptable": ["Darf ich das Fenster öffnen?", "Darf ich das Fenster offnen?", "Kann ich das Fenster öffnen?"],
+      "acceptable": [
+        "Darf ich das Fenster öffnen?",
+        "Darf ich das Fenster offnen?",
+        "Kann ich das Fenster öffnen?"
+      ],
       "hint": "Per chiedere il permesso usa 'dürfen'. Finestra = das Fenster"
     },
     {
       "type": "multiple-choice",
       "question": "Qual è la differenza tra 'können' e 'dürfen'?",
-      "options": ["Nessuna differenza", "können = capacità, dürfen = permesso", "können = permesso, dürfen = capacità", "können = dovere, dürfen = volere"],
+      "options": [
+        "Nessuna differenza",
+        "können = capacità, dürfen = permesso",
+        "können = permesso, dürfen = capacità",
+        "können = dovere, dürfen = volere"
+      ],
       "correct": 1,
       "explanation": "'Können' indica capacità (saper fare), 'dürfen' indica permesso (aver il permesso di fare)."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Ich bin zwanzig Jahre alt.",
+      "acceptable": [
+        "Ich bin zwanzig Jahre alt.",
+        "Ich bin zwanzig Jahre alt",
+        "Ich bin 20 Jahre alt."
+      ],
+      "hint": "Una frase sull'età con un numero",
+      "translation": "Ho venti anni."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Mädchen, Bücher, schön, Küche.",
+      "translation": "Ragazza, libri, bello, cucina.",
+      "acceptable": [
+        "Mädchen, Bücher, schön, Küche.",
+        "Mädchen Bücher schön Küche"
+      ]
     }
   ]
 }

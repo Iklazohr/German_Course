@@ -29,7 +29,12 @@
       "type": "multiple-choice",
       "instruction": "Scegli la congiunzione temporale corretta.",
       "question": "___ er gegessen hatte, ging er spazieren.",
-      "options": ["Bevor", "Nachdem", "Während", "Bis"],
+      "options": [
+        "Bevor",
+        "Nachdem",
+        "Während",
+        "Bis"
+      ],
       "answer": "Nachdem",
       "hint": "Quale congiunzione si usa per 'dopo che' + Plusquamperfekt?"
     },
@@ -37,7 +42,12 @@
       "type": "multiple-choice",
       "instruction": "Scegli la congiunzione temporale corretta.",
       "question": "___ sie abreiste, hatte sie alles eingepackt.",
-      "options": ["Nachdem", "Als", "Bevor", "Seitdem"],
+      "options": [
+        "Nachdem",
+        "Als",
+        "Bevor",
+        "Seitdem"
+      ],
       "answer": "Bevor",
       "hint": "L'azione di fare le valigie è avvenuta PRIMA della partenza."
     },
@@ -122,6 +132,50 @@
       "question": "Avranno probabilmente già finito.",
       "answer": "Sie werden wohl schon fertig geworden sein.",
       "hint": "probabilmente = wohl, già = schon, finire/diventare pronti = fertig werden (sein)"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Es ist wichtig, dass wir die Umwelt schützen.",
+      "acceptable": [
+        "Es ist wichtig dass wir die Umwelt schützen",
+        "Es ist wichtig, dass wir die Umwelt schützen"
+      ],
+      "hint": "Frase con 'dass' + infinito alla fine",
+      "translation": "È importante che proteggiamo l'ambiente."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Es wird erwartet, dass die Preise steigen werden.",
+      "translation": "Ci si aspetta che i prezzi aumenteranno.",
+      "acceptable": [
+        "Es wird erwartet dass die Preise steigen werden",
+        "Es wird erwartet, dass die Preise steigen werden"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Obwohl er müde war, hat er weiter gearbeitet.",
+      "acceptable": [
+        "Obwohl er müde war hat er weiter gearbeitet",
+        "Obwohl er müde war, hat er weiter gearbeitet"
+      ],
+      "hint": "Concessiva con 'obwohl'",
+      "translation": "Anche se era stanco, ha continuato a lavorare."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Cosa faresti se vincessi alla lotteria?",
+      "prompt_audio": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+      "acceptable": [
+        "Ich würde",
+        "Wenn ich",
+        "Dann würde ich"
+      ],
+      "explanation": "Rispondi con 'Ich würde + infinito': 'Ich würde reisen/ein Haus kaufen/sparen'."
     }
   ]
 }

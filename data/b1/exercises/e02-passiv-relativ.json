@@ -204,6 +204,55 @@
         "."
       ],
       "correct": "Das ist der Film , den ich dir empfohlen habe ."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Er sagte, er sei krank und könne nicht zur Arbeit kommen.",
+      "question": "Cosa ha riferito la persona?",
+      "options": [
+        "Che è in vacanza",
+        "Che è malato e non può venire al lavoro",
+        "Che arriverà in ritardo",
+        "Che ha un appuntamento"
+      ],
+      "correct": 1,
+      "explanation": "Discorso indiretto con Konjunktiv I: 'sei krank' = è malato, 'könne nicht kommen' = non può venire."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Das neue Gesetz wurde vom Parlament verabschiedet.",
+      "translation": "La nuova legge è stata approvata dal parlamento.",
+      "acceptable": [
+        "Das neue Gesetz wurde vom Parlament verabschiedet"
+      ],
+      "hint": "Forma passiva. Pronuncia: Gesetz = 'ghe-sets', verabschiedet = 'fer-ap-shii-det'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Meiner Meinung nach sollte man mehr für die Umwelt tun.",
+      "question": "Qual è l'opinione della persona?",
+      "options": [
+        "Bisogna lavorare di più",
+        "Bisogna fare di più per l'ambiente",
+        "Bisogna viaggiare meno",
+        "Bisogna risparmiare di più"
+      ],
+      "correct": 1,
+      "explanation": "'Meiner Meinung nach' = Secondo me. 'für die Umwelt tun' = fare per l'ambiente."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Obwohl das Wetter schlecht war, haben wir die Wanderung genossen.",
+      "translation": "Anche se il tempo era brutto, ci siamo goduti l'escursione.",
+      "acceptable": [
+        "Obwohl das Wetter schlecht war haben wir die Wanderung genossen",
+        "Obwohl das Wetter schlecht war, haben wir die Wanderung genossen"
+      ],
+      "hint": "Pronuncia: Wanderung = 'van-de-rung', genossen = 'ghe-nos-sen'"
     }
   ]
 }

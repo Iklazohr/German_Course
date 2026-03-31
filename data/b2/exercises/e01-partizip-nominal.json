@@ -6,31 +6,65 @@
     {
       "type": "multiple-choice",
       "question": "Quale forma è corretta? 'Das ___ Kind sucht seine Mutter.' (Il bambino che piange cerca sua madre.)",
-      "options": ["weinend", "weinende", "weinendes", "geweinte"],
+      "options": [
+        "weinend",
+        "weinende",
+        "weinendes",
+        "geweinte"
+      ],
       "correct": 1,
       "explanation": "Con l'articolo determinativo 'das' (neutro, nominativo), il Partizip I 'weinend' prende la desinenza -e → 'das weinende Kind'. Il Partizip I (infinito + d) esprime un'azione in corso."
     },
     {
       "type": "fill-blank",
       "sentence": "Die ___ Tür muss repariert werden.",
-      "blanks": [{ "position": 0, "correct": ["gebrochene", "zerbrochene"], "hint": "rotto/a - usa il Partizip II di 'brechen' o 'zerbrechen' con desinenza aggettivale" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "gebrochene",
+            "zerbrochene"
+          ],
+          "hint": "rotto/a - usa il Partizip II di 'brechen' o 'zerbrechen' con desinenza aggettivale"
+        }
+      ],
       "translation": "La porta rotta deve essere riparata."
     },
     {
       "type": "matching",
       "instruction": "Collega il participio tedesco alla traduzione italiana corretta.",
       "pairs": [
-        { "left": "der lachende Mann", "right": "l'uomo che ride" },
-        { "left": "die geschlossene Tür", "right": "la porta chiusa" },
-        { "left": "das schlafende Kind", "right": "il bambino che dorme" },
-        { "left": "der geschriebene Brief", "right": "la lettera scritta" },
-        { "left": "die ankommenden Züge", "right": "i treni in arrivo" }
+        {
+          "left": "der lachende Mann",
+          "right": "l'uomo che ride"
+        },
+        {
+          "left": "die geschlossene Tür",
+          "right": "la porta chiusa"
+        },
+        {
+          "left": "das schlafende Kind",
+          "right": "il bambino che dorme"
+        },
+        {
+          "left": "der geschriebene Brief",
+          "right": "la lettera scritta"
+        },
+        {
+          "left": "die ankommenden Züge",
+          "right": "i treni in arrivo"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Come si forma il Partizip I del verbo 'faszinieren'?",
-      "options": ["fasziniert", "faszinierend", "gefasziniert", "faszinierende"],
+      "options": [
+        "fasziniert",
+        "faszinierend",
+        "gefasziniert",
+        "faszinierende"
+      ],
       "correct": 1,
       "explanation": "Il Partizip I si forma: infinito + d → faszinieren + d = faszinierend. 'Faszinierend' significa 'affascinante'. Nota: 'fasziniert' è il Partizip II (affascinato)."
     },
@@ -38,7 +72,10 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "La notizia pubblicata sul giornale era falsa.",
-      "acceptable": ["Die in der Zeitung veröffentlichte Nachricht war falsch.", "Die veröffentlichte Nachricht in der Zeitung war falsch."],
+      "acceptable": [
+        "Die in der Zeitung veröffentlichte Nachricht war falsch.",
+        "Die veröffentlichte Nachricht in der Zeitung war falsch."
+      ],
       "hint": "pubblicato = veröffentlicht (Partizip II), giornale = Zeitung, falso = falsch"
     },
     {
@@ -56,13 +93,30 @@
     {
       "type": "fill-blank",
       "sentence": "Das ___ ist mein liebstes Hobby.",
-      "blanks": [{ "position": 0, "correct": ["Lesen", "Schwimmen", "Wandern", "Kochen", "Malen"], "hint": "Inserisci un infinito nominalizzato (con la maiuscola): leggere, nuotare, camminare..." }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "Lesen",
+            "Schwimmen",
+            "Wandern",
+            "Kochen",
+            "Malen"
+          ],
+          "hint": "Inserisci un infinito nominalizzato (con la maiuscola): leggere, nuotare, camminare..."
+        }
+      ],
       "translation": "Il/La ... è il mio hobby preferito."
     },
     {
       "type": "multiple-choice",
       "question": "Quale suffisso trasforma il verbo 'entscheiden' in un sostantivo femminile?",
-      "options": ["-heit", "-ung", "-keit", "-nis"],
+      "options": [
+        "-heit",
+        "-ung",
+        "-keit",
+        "-nis"
+      ],
       "correct": 1,
       "explanation": "entscheiden → die Entscheidung (la decisione). Il suffisso -ung è il più produttivo per trasformare verbi in sostantivi femminili."
     },
@@ -70,17 +124,37 @@
       "type": "matching",
       "instruction": "Collega il verbo o aggettivo al sostantivo nominalizzato corretto.",
       "pairs": [
-        { "left": "frei → die ...", "right": "Freiheit" },
-        { "left": "möglich → die ...", "right": "Möglichkeit" },
-        { "left": "erfahren → die ...", "right": "Erfahrung" },
-        { "left": "gesund → die ...", "right": "Gesundheit" },
-        { "left": "arbeitslos → die ...", "right": "Arbeitslosigkeit" }
+        {
+          "left": "frei → die ...",
+          "right": "Freiheit"
+        },
+        {
+          "left": "möglich → die ...",
+          "right": "Möglichkeit"
+        },
+        {
+          "left": "erfahren → die ...",
+          "right": "Erfahrung"
+        },
+        {
+          "left": "gesund → die ...",
+          "right": "Gesundheit"
+        },
+        {
+          "left": "arbeitslos → die ...",
+          "right": "Arbeitslosigkeit"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "'Ich habe nichts ___ gehört.' - Quale forma è corretta? (Non ho sentito niente di nuovo.)",
-      "options": ["Neu", "Neues", "Neue", "Neuem"],
+      "options": [
+        "Neu",
+        "Neues",
+        "Neue",
+        "Neuem"
+      ],
       "correct": 1,
       "explanation": "Dopo 'nichts', 'etwas', 'viel', 'wenig', l'aggettivo nominalizzato è neutro e prende la desinenza -es: nichts Neues, etwas Wichtiges, viel Gutes."
     },
@@ -88,14 +162,89 @@
       "type": "translation",
       "direction": "de-to-it",
       "source": "Die von Studenten organisierte Demonstration war friedlich.",
-      "acceptable": ["La manifestazione organizzata dagli studenti è stata pacifica.", "La manifestazione organizzata da studenti è stata pacifica.", "La dimostrazione organizzata dagli studenti è stata pacifica."],
+      "acceptable": [
+        "La manifestazione organizzata dagli studenti è stata pacifica.",
+        "La manifestazione organizzata da studenti è stata pacifica.",
+        "La dimostrazione organizzata dagli studenti è stata pacifica."
+      ],
       "hint": "Questo è un attributo participiale esteso: 'von Studenten organisierte' descrive 'Demonstration'."
     },
     {
       "type": "fill-blank",
       "sentence": "Ein ___ sucht seit Monaten einen Job.",
-      "blanks": [{ "position": 0, "correct": ["Arbeitsloser"], "hint": "disoccupato - aggettivo nominalizzato maschile con articolo indeterminativo (ein + desinenza -er)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "Arbeitsloser"
+          ],
+          "hint": "disoccupato - aggettivo nominalizzato maschile con articolo indeterminativo (ein + desinenza -er)"
+        }
+      ],
       "translation": "Un disoccupato cerca un lavoro da mesi."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Trotz der schwierigen wirtschaftlichen Lage hat das Unternehmen seinen Umsatz gesteigert.",
+      "question": "Cosa è successo all'azienda nonostante la situazione economica difficile?",
+      "options": [
+        "Ha ridotto il personale",
+        "Ha aumentato il fatturato",
+        "Ha chiuso una filiale",
+        "Ha cambiato strategia"
+      ],
+      "correct": 1,
+      "explanation": "'den Umsatz steigern' = aumentare il fatturato. 'Trotz' + genitivo = nonostante."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Die von Experten durchgeführte Studie zeigt alarmierende Ergebnisse.",
+      "translation": "Lo studio condotto da esperti mostra risultati allarmanti.",
+      "acceptable": [
+        "Die von Experten durchgeführte Studie zeigt alarmierende Ergebnisse"
+      ],
+      "hint": "Participio esteso. Pronuncia: durchgeführte = 'dursh-ghe-füür-te', alarmierende = 'a-lar-mii-ren-de'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Der Minister erklärte, die Regierung werde neue Maßnahmen ergreifen.",
+      "question": "Cosa ha dichiarato il ministro?",
+      "options": [
+        "Che dimetterà",
+        "Che il governo adotterà nuove misure",
+        "Che ci saranno nuove elezioni",
+        "Che i costi diminuiranno"
+      ],
+      "correct": 1,
+      "explanation": "Konjunktiv I nel discorso indiretto: 'werde...ergreifen'. 'Maßnahmen ergreifen' = adottare misure."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Trotzdem sollte man die positiven Aspekte nicht außer Acht lassen.",
+      "translation": "Tuttavia non si dovrebbero trascurare gli aspetti positivi.",
+      "acceptable": [
+        "Trotzdem sollte man die positiven Aspekte nicht außer Acht lassen",
+        "Trotzdem sollte man die positiven Aspekte nicht ausser Acht lassen"
+      ],
+      "hint": "Pronuncia: außer Acht = 'au-ser acht', Aspekte = 'as-pek-te'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Die zunehmende Digitalisierung stellt viele Arbeitnehmer vor neue Herausforderungen.",
+      "question": "Qual è il tema principale?",
+      "options": [
+        "I vantaggi della tecnologia",
+        "Le sfide della digitalizzazione per i lavoratori",
+        "La disoccupazione giovanile",
+        "I nuovi metodi di formazione"
+      ],
+      "correct": 1,
+      "explanation": "'zunehmende Digitalisierung' = crescente digitalizzazione. 'Herausforderungen' = sfide."
     }
   ]
 }

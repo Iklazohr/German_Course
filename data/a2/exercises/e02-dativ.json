@@ -6,20 +6,38 @@
     {
       "type": "multiple-choice",
       "question": "Qual è l'articolo determinativo maschile al dativo?",
-      "options": ["der", "den", "dem", "des"],
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "des"
+      ],
       "correct": 2,
       "explanation": "Al dativo: maschile = dem, femminile = der, neutro = dem, plurale = den (+n)."
     },
     {
       "type": "fill-blank",
       "sentence": "Ich helfe ___ Freund.",
-      "blanks": [{ "position": 0, "correct": ["meinem"], "hint": "helfen regge il dativo; 'mein' + desinenza dativo maschile" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "meinem"
+          ],
+          "hint": "helfen regge il dativo; 'mein' + desinenza dativo maschile"
+        }
+      ],
       "translation": "Aiuto il mio amico."
     },
     {
       "type": "multiple-choice",
       "question": "Quale pronome personale corrisponde a 'a me' (dativo)?",
-      "options": ["mich", "mir", "mein", "ich"],
+      "options": [
+        "mich",
+        "mir",
+        "mein",
+        "ich"
+      ],
       "correct": 1,
       "explanation": "Il pronome 'ich' al dativo diventa 'mir': Das gefällt mir. (Questo mi piace.)"
     },
@@ -27,72 +45,188 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Il libro mi piace.",
-      "acceptable": ["Das Buch gefällt mir.", "Mir gefällt das Buch."],
+      "acceptable": [
+        "Das Buch gefällt mir.",
+        "Mir gefällt das Buch."
+      ],
       "hint": "piacere = gefallen (+ dativo), a me = mir"
     },
     {
       "type": "fill-blank",
       "sentence": "Ich fahre mit ___ Bus zur Arbeit.",
-      "blanks": [{ "position": 0, "correct": ["dem"], "hint": "'mit' regge il dativo; der Bus → dem Bus" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "dem"
+          ],
+          "hint": "'mit' regge il dativo; der Bus → dem Bus"
+        }
+      ],
       "translation": "Vado al lavoro con l'autobus."
     },
     {
       "type": "matching",
       "instruction": "Collega le preposizioni al caso che reggono.",
       "pairs": [
-        { "left": "mit", "right": "Dativ" },
-        { "left": "für", "right": "Akkusativ" },
-        { "left": "aus", "right": "Dativ" },
-        { "left": "ohne", "right": "Akkusativ" },
-        { "left": "seit", "right": "Dativ" }
+        {
+          "left": "mit",
+          "right": "Dativ"
+        },
+        {
+          "left": "für",
+          "right": "Akkusativ"
+        },
+        {
+          "left": "aus",
+          "right": "Dativ"
+        },
+        {
+          "left": "ohne",
+          "right": "Akkusativ"
+        },
+        {
+          "left": "seit",
+          "right": "Dativ"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Ich gehe ___ Arzt.' (Vado dal medico.)",
-      "options": ["zu dem", "bei dem", "von dem", "nach dem"],
+      "options": [
+        "zu dem",
+        "bei dem",
+        "von dem",
+        "nach dem"
+      ],
       "correct": 0,
       "explanation": "'Zum Arzt gehen' = andare dal medico. 'zu' + dativo (zu dem = zum)."
     },
     {
       "type": "fill-blank",
       "sentence": "Das Geschenk ist ___ dich.",
-      "blanks": [{ "position": 0, "correct": ["für"], "hint": "'für' (per) regge l'accusativo" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "für"
+          ],
+          "hint": "'für' (per) regge l'accusativo"
+        }
+      ],
       "translation": "Il regalo è per te."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["Er", "gibt", "dem", "Kind", "einen", "Apfel", "."],
+      "words": [
+        "Er",
+        "gibt",
+        "dem",
+        "Kind",
+        "einen",
+        "Apfel",
+        "."
+      ],
       "correct": "Er gibt dem Kind einen Apfel .",
       "translation": "Dà una mela al bambino."
     },
     {
       "type": "multiple-choice",
       "question": "'Ich lege das Buch auf ___ Tisch.' Quale articolo va inserito?",
-      "options": ["dem", "den", "der", "das"],
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "das"
+      ],
       "correct": 1,
       "explanation": "'Legen' indica un movimento (Wohin?) → accusativo. Der Tisch → den Tisch."
     },
     {
       "type": "fill-blank",
       "sentence": "Die Katze sitzt auf ___ Sofa.",
-      "blanks": [{ "position": 0, "correct": ["dem"], "hint": "'sitzen' indica posizione (Wo?) → dativo. Das Sofa → dem Sofa" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "dem"
+          ],
+          "hint": "'sitzen' indica posizione (Wo?) → dativo. Das Sofa → dem Sofa"
+        }
+      ],
       "translation": "Il gatto è seduto sul divano."
     },
     {
       "type": "translation",
       "direction": "it-to-de",
       "source": "Vengo dalla Germania.",
-      "acceptable": ["Ich komme aus Deutschland."],
+      "acceptable": [
+        "Ich komme aus Deutschland."
+      ],
       "hint": "'aus' (da, provenienza) + dativo. Germania = Deutschland"
     },
     {
       "type": "multiple-choice",
       "question": "Quale frase è corretta?",
-      "options": ["Ich danke dir.", "Ich danke dich.", "Ich danke du.", "Ich danke deiner."],
+      "options": [
+        "Ich danke dir.",
+        "Ich danke dich.",
+        "Ich danke du.",
+        "Ich danke deiner."
+      ],
       "correct": 0,
       "explanation": "'Danken' (ringraziare) regge il dativo: ich danke dir (ti ringrazio)."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Weil es regnet, bleibe ich heute zu Hause.",
+      "question": "Perché la persona resta a casa?",
+      "options": [
+        "Perché è stanca",
+        "Perché piove",
+        "Perché è malata",
+        "Perché lavora da casa"
+      ],
+      "correct": 1,
+      "explanation": "'Weil es regnet' = Perché piove. Nota la posizione del verbo nella frase con 'weil'."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Können Sie mir bitte helfen? Ich suche den Bahnhof.",
+      "translation": "Può aiutarmi, per favore? Cerco la stazione.",
+      "acceptable": [
+        "Können Sie mir bitte helfen Ich suche den Bahnhof",
+        "Können Sie mir bitte helfen? Ich suche den Bahnhof"
+      ],
+      "hint": "Pronuncia: Bahnhof = 'baan-hof', Können = 'kön-nen'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Ich muss zum Arzt gehen, weil ich Kopfschmerzen habe.",
+      "question": "Perché deve andare dal medico?",
+      "options": [
+        "Ha mal di stomaco",
+        "Ha mal di testa",
+        "Ha la febbre",
+        "Ha mal di denti"
+      ],
+      "correct": 1,
+      "explanation": "'Kopfschmerzen' = mal di testa (Kopf = testa, Schmerzen = dolori)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Ich fühle mich heute nicht so gut.",
+      "translation": "Oggi non mi sento molto bene.",
+      "acceptable": [
+        "Ich fühle mich heute nicht so gut"
+      ],
+      "hint": "Pronuncia: fühle = 'füü-le', mich = 'mish'"
     }
   ]
 }

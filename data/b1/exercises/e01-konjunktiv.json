@@ -185,6 +185,55 @@
         }
       ],
       "explanation": "'Wissen' al Konjunktiv II: ich wüsste, du wüsstest, er wüsste. Significa 'sapessi/sapesse'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Wenn ich mehr Geld hätte, würde ich eine Weltreise machen.",
+      "question": "Cosa farebbe la persona se avesse più soldi?",
+      "options": [
+        "Comprerebbe una casa",
+        "Farebbe un viaggio intorno al mondo",
+        "Cambierebbe lavoro",
+        "Si trasferirebbe"
+      ],
+      "correct": 1,
+      "explanation": "'eine Weltreise machen' = fare un viaggio intorno al mondo. Konjunktiv II: 'hätte...würde'."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Wenn ich mehr Zeit hätte, würde ich einen Sprachkurs besuchen.",
+      "translation": "Se avessi più tempo, frequenterei un corso di lingue.",
+      "acceptable": [
+        "Wenn ich mehr Zeit hätte würde ich einen Sprachkurs besuchen",
+        "Wenn ich mehr Zeit hätte, würde ich einen Sprachkurs besuchen"
+      ],
+      "hint": "Pronuncia: hätte = 'het-te', würde = 'vür-de', Sprachkurs = 'shpraach-kurs'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Das Haus wurde letztes Jahr renoviert.",
+      "question": "Cosa è successo alla casa?",
+      "options": [
+        "È stata venduta",
+        "È stata ristrutturata",
+        "È stata demolita",
+        "È stata costruita"
+      ],
+      "correct": 1,
+      "explanation": "'renoviert' = ristrutturata. Forma passiva: 'wurde + Partizip II'."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Meiner Meinung nach ist Bildung der Schlüssel zum Erfolg.",
+      "translation": "Secondo me, l'istruzione è la chiave del successo.",
+      "acceptable": [
+        "Meiner Meinung nach ist Bildung der Schlüssel zum Erfolg"
+      ],
+      "hint": "Pronuncia: Meinung = 'mai-nung', Schlüssel = 'shlüs-sel'"
     }
   ]
 }

@@ -87,14 +87,40 @@
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase accademica corretta.",
-      "words": ["werden", "berücksichtigt", "die", "müssen", "sich", "Faktoren", "ergeben", "die", "aus", "der", "Analyse", ","],
+      "words": [
+        "werden",
+        "berücksichtigt",
+        "die",
+        "müssen",
+        "sich",
+        "Faktoren",
+        "ergeben",
+        "die",
+        "aus",
+        "der",
+        "Analyse",
+        ","
+      ],
       "answer": "Die Faktoren, die sich aus der Analyse ergeben, müssen berücksichtigt werden.",
       "hint": "La frase relativa si inserisce tra soggetto e verbo principale."
     },
     {
       "type": "reorder",
       "instruction": "Riordina per formare una frase con costruzione correlativa.",
-      "words": ["desto", "man", "Zusammenhänge", "die", "intensiver", "versteht", "besser", "je", "sich", "beschäftigt", "damit", "man"],
+      "words": [
+        "desto",
+        "man",
+        "Zusammenhänge",
+        "die",
+        "intensiver",
+        "versteht",
+        "besser",
+        "je",
+        "sich",
+        "beschäftigt",
+        "damit",
+        "man"
+      ],
       "answer": "Je intensiver man sich damit beschäftigt, desto besser versteht man die Zusammenhänge.",
       "hint": "je + comparativo... desto + comparativo. Dopo 'je' verbo in fondo, dopo 'desto' verbo in posizione 2."
     },
@@ -138,6 +164,60 @@
       ],
       "answer": 1,
       "explanation": "Spostando 'Erst gestern' in posizione 1, si enfatizza il momento temporale. Il verbo resta in posizione 2."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Es bleibt abzuwarten, ob die Maßnahmen greifen werden.",
+      "acceptable": [
+        "Es bleibt abzuwarten ob die Maßnahmen greifen werden",
+        "Es bleibt abzuwarten ob die Massnahmen greifen werden",
+        "Es bleibt abzuwarten, ob die Maßnahmen greifen werden"
+      ],
+      "hint": "Espressione formale: 'es bleibt abzuwarten'",
+      "translation": "Resta da vedere se le misure avranno effetto."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Die Frage, inwieweit diese Annahme zutrifft, bleibt offen.",
+      "translation": "La questione se e in quale misura questa ipotesi sia corretta resta aperta.",
+      "acceptable": [
+        "Die Frage inwieweit diese Annahme zutrifft bleibt offen",
+        "Die Frage, inwieweit diese Annahme zutrifft, bleibt offen"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Dem Vernehmen nach soll der Vertrag nächste Woche unterzeichnet werden.",
+      "acceptable": [
+        "Dem Vernehmen nach soll der Vertrag nächste Woche unterzeichnet werden",
+        "Dem Vernehmen nach soll der Vertrag naechste Woche unterzeichnet werden"
+      ],
+      "hint": "Registro formale: 'dem Vernehmen nach'",
+      "translation": "Secondo quanto si apprende, il contratto dovrebbe essere firmato la prossima settimana."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Man könnte einwenden, dass dieser Standpunkt zu einseitig ist.",
+      "translation": "Si potrebbe obiettare che questo punto di vista è troppo unilaterale.",
+      "acceptable": [
+        "Man könnte einwenden dass dieser Standpunkt zu einseitig ist",
+        "Man könnte einwenden, dass dieser Standpunkt zu einseitig ist"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Angesichts der Komplexität des Themas bedarf es einer differenzierten Betrachtung.",
+      "acceptable": [
+        "Angesichts der Komplexität des Themas bedarf es einer differenzierten Betrachtung",
+        "Angesichts der Komplexitaet des Themas bedarf es einer differenzierten Betrachtung"
+      ],
+      "hint": "Stile accademico con genitivo",
+      "translation": "Vista la complessità del tema, è necessaria un'analisi differenziata."
     }
   ]
 }

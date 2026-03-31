@@ -6,78 +6,156 @@
     {
       "type": "multiple-choice",
       "question": "Dove va il verbo coniugato in una frase subordinata con 'weil'?",
-      "options": ["In seconda posizione", "All'inizio della frase", "Alla fine della frase", "Non cambia posizione"],
+      "options": [
+        "In seconda posizione",
+        "All'inizio della frase",
+        "Alla fine della frase",
+        "Non cambia posizione"
+      ],
       "correct": 2,
       "explanation": "Nelle frasi subordinate introdotte da weil, dass, wenn ecc., il verbo coniugato va sempre alla FINE."
     },
     {
       "type": "fill-blank",
       "sentence": "Ich bleibe zu Hause, weil ich krank ___.",
-      "blanks": [{ "position": 0, "correct": ["bin"], "hint": "verbo 'sein' alla fine della subordinata" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "bin"
+          ],
+          "hint": "verbo 'sein' alla fine della subordinata"
+        }
+      ],
       "translation": "Resto a casa perché sono malato."
     },
     {
       "type": "reorder",
       "instruction": "Completa la frase subordinata mettendo le parole nell'ordine corretto:",
-      "words": ["weil", "ich", "keine", "Zeit", "habe", "."],
+      "words": [
+        "weil",
+        "ich",
+        "keine",
+        "Zeit",
+        "habe",
+        "."
+      ],
       "correct": "weil ich keine Zeit habe .",
       "translation": "...perché non ho tempo."
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Ich glaube, ___ er morgen kommt.'",
-      "options": ["weil", "wenn", "dass", "ob"],
+      "options": [
+        "weil",
+        "wenn",
+        "dass",
+        "ob"
+      ],
       "correct": 2,
       "explanation": "'Dass' (che) introduce una frase dichiarativa dopo verbi come glauben, denken, sagen, wissen."
     },
     {
       "type": "fill-blank",
       "sentence": "___ es regnet, nehme ich einen Regenschirm.",
-      "blanks": [{ "position": 0, "correct": ["Wenn"], "hint": "quando/se (condizione)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "Wenn"
+          ],
+          "hint": "quando/se (condizione)"
+        }
+      ],
       "translation": "Quando/Se piove, prendo un ombrello."
     },
     {
       "type": "translation",
       "direction": "it-to-de",
       "source": "Non posso venire perché devo lavorare.",
-      "acceptable": ["Ich kann nicht kommen, weil ich arbeiten muss."],
+      "acceptable": [
+        "Ich kann nicht kommen, weil ich arbeiten muss."
+      ],
       "hint": "perché = weil, nella subordinata il verbo va alla fine"
     },
     {
       "type": "matching",
       "instruction": "Collega le congiunzioni al loro significato.",
       "pairs": [
-        { "left": "weil", "right": "perché" },
-        { "left": "dass", "right": "che" },
-        { "left": "wenn", "right": "quando / se" },
-        { "left": "obwohl", "right": "sebbene" },
-        { "left": "ob", "right": "se (dubbio)" }
+        {
+          "left": "weil",
+          "right": "perché"
+        },
+        {
+          "left": "dass",
+          "right": "che"
+        },
+        {
+          "left": "wenn",
+          "right": "quando / se"
+        },
+        {
+          "left": "obwohl",
+          "right": "sebbene"
+        },
+        {
+          "left": "ob",
+          "right": "se (dubbio)"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Quale congiunzione NON cambia l'ordine delle parole?",
-      "options": ["weil", "und", "dass", "wenn"],
+      "options": [
+        "weil",
+        "und",
+        "dass",
+        "wenn"
+      ],
       "correct": 1,
       "explanation": "'Und' è una congiunzione coordinante e non cambia l'ordine delle parole. Le subordinanti (weil, dass, wenn) mandano il verbo alla fine."
     },
     {
       "type": "fill-blank",
       "sentence": "Er geht raus, obwohl es ___.",
-      "blanks": [{ "position": 0, "correct": ["regnet"], "hint": "piovere = regnen, il verbo va alla fine della subordinata" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "regnet"
+          ],
+          "hint": "piovere = regnen, il verbo va alla fine della subordinata"
+        }
+      ],
       "translation": "Esce, nonostante piova."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["Ich", "bin", "froh", ",", "dass", "du", "hier", "bist", "."],
+      "words": [
+        "Ich",
+        "bin",
+        "froh",
+        ",",
+        "dass",
+        "du",
+        "hier",
+        "bist",
+        "."
+      ],
       "correct": "Ich bin froh , dass du hier bist .",
       "translation": "Sono contento che tu sia qui."
     },
     {
       "type": "multiple-choice",
       "question": "Quale frase è corretta?",
-      "options": ["Ich bin krank, deshalb ich bleibe zu Hause.", "Ich bin krank, deshalb bleibe ich zu Hause.", "Ich bin krank, deshalb zu Hause bleibe ich.", "Ich bin krank, deshalb bleibe zu Hause ich."],
+      "options": [
+        "Ich bin krank, deshalb ich bleibe zu Hause.",
+        "Ich bin krank, deshalb bleibe ich zu Hause.",
+        "Ich bin krank, deshalb zu Hause bleibe ich.",
+        "Ich bin krank, deshalb bleibe zu Hause ich."
+      ],
       "correct": 1,
       "explanation": "'Deshalb' è un connettore avverbiale: causa l'inversione (verbo + soggetto) nella seconda frase."
     },
@@ -85,14 +163,54 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Non so se lui viene domani.",
-      "acceptable": ["Ich weiß nicht, ob er morgen kommt."],
+      "acceptable": [
+        "Ich weiß nicht, ob er morgen kommt."
+      ],
       "hint": "se (dubbio) = ob, verbo alla fine della subordinata"
     },
     {
       "type": "fill-blank",
       "sentence": "Es ist nicht teuer, ___ billig.",
-      "blanks": [{ "position": 0, "correct": ["sondern"], "hint": "dopo una negazione, per correggere: sondern (bensì)" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "sondern"
+          ],
+          "hint": "dopo una negazione, per correggere: sondern (bensì)"
+        }
+      ],
       "translation": "Non è caro, bensì economico."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Wir sind gestern Abend ins Restaurant gegangen.",
+      "translation": "Ieri sera siamo andati al ristorante.",
+      "acceptable": [
+        "Wir sind gestern Abend ins Restaurant gegangen"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Ich finde, dass Deutsch interessant ist.",
+      "acceptable": [
+        "Ich finde dass Deutsch interessant ist",
+        "Ich finde, dass Deutsch interessant ist",
+        "Ich finde, dass Deutsch interessant ist."
+      ],
+      "hint": "Frase subordinata con 'dass'",
+      "translation": "Trovo che il tedesco sia interessante."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Das Wetter war schön, deshalb sind wir spazieren gegangen.",
+      "translation": "Il tempo era bello, perciò siamo andati a passeggiare.",
+      "acceptable": [
+        "Das Wetter war schön deshalb sind wir spazieren gegangen"
+      ]
     }
   ]
 }

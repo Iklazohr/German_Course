@@ -8,19 +8,43 @@
       "type": "matching",
       "instruction": "Collega ogni Funktionsverbgefüge al verbo semplice equivalente.",
       "pairs": [
-        { "left": "zum Ausdruck bringen", "right": "ausdrücken" },
-        { "left": "in Betracht ziehen", "right": "berücksichtigen" },
-        { "left": "zur Verfügung stellen", "right": "bereitstellen" },
-        { "left": "in Anspruch nehmen", "right": "nutzen" },
-        { "left": "Kritik üben", "right": "kritisieren" },
-        { "left": "in Gang setzen", "right": "starten" }
+        {
+          "left": "zum Ausdruck bringen",
+          "right": "ausdrücken"
+        },
+        {
+          "left": "in Betracht ziehen",
+          "right": "berücksichtigen"
+        },
+        {
+          "left": "zur Verfügung stellen",
+          "right": "bereitstellen"
+        },
+        {
+          "left": "in Anspruch nehmen",
+          "right": "nutzen"
+        },
+        {
+          "left": "Kritik üben",
+          "right": "kritisieren"
+        },
+        {
+          "left": "in Gang setzen",
+          "right": "starten"
+        }
       ]
     },
     {
       "type": "fill-blank",
       "sentence": "Das neue Gesetz tritt am 1. Januar ___ Kraft.",
       "blanks": [
-        { "position": 0, "correct": ["in"], "hint": "Preposizione: entrare IN vigore" }
+        {
+          "position": 0,
+          "correct": [
+            "in"
+          ],
+          "hint": "Preposizione: entrare IN vigore"
+        }
       ],
       "translation": "La nuova legge entra in vigore il 1 gennaio."
     },
@@ -28,7 +52,13 @@
       "type": "fill-blank",
       "sentence": "Der Lehrer stellt den Schülern die Bücher ___ Verfügung.",
       "blanks": [
-        { "position": 0, "correct": ["zur"], "hint": "zu + der = ?" }
+        {
+          "position": 0,
+          "correct": [
+            "zur"
+          ],
+          "hint": "zu + der = ?"
+        }
       ],
       "translation": "L'insegnante mette a disposizione degli alunni i libri."
     },
@@ -36,21 +66,37 @@
       "type": "fill-blank",
       "sentence": "Wir müssen diese Möglichkeit ___ Betracht ziehen.",
       "blanks": [
-        { "position": 0, "correct": ["in"], "hint": "Preposizione: prendere IN considerazione" }
+        {
+          "position": 0,
+          "correct": [
+            "in"
+          ],
+          "hint": "Preposizione: prendere IN considerazione"
+        }
       ],
       "translation": "Dobbiamo prendere in considerazione questa possibilità."
     },
     {
       "type": "multiple-choice",
       "question": "Quale FVG significa 'accettare qualcosa di negativo'?",
-      "options": ["in Kauf nehmen", "in Betracht ziehen", "zur Kenntnis nehmen", "in Frage kommen"],
+      "options": [
+        "in Kauf nehmen",
+        "in Betracht ziehen",
+        "zur Kenntnis nehmen",
+        "in Frage kommen"
+      ],
       "correct": 0,
       "explanation": "'In Kauf nehmen' significa accettare qualcosa di spiacevole o svantaggioso. 'Zur Kenntnis nehmen' significa prendere atto, 'in Betracht ziehen' significa considerare."
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Der Direktor hat das Projekt ___ gesetzt.'",
-      "options": ["in Gang", "zur Verfügung", "in Kraft", "zum Ausdruck"],
+      "options": [
+        "in Gang",
+        "zur Verfügung",
+        "in Kraft",
+        "zum Ausdruck"
+      ],
       "correct": 0,
       "explanation": "'In Gang setzen' significa mettere in moto, avviare. Il direttore ha avviato il progetto."
     },
@@ -70,7 +116,13 @@
       "type": "fill-blank",
       "sentence": "Bitte nehmen Sie diese Information ___ Kenntnis.",
       "blanks": [
-        { "position": 0, "correct": ["zur"], "hint": "zu + der = ?" }
+        {
+          "position": 0,
+          "correct": [
+            "zur"
+          ],
+          "hint": "zu + der = ?"
+        }
       ],
       "translation": "Per favore, prenda atto di questa informazione."
     },
@@ -78,25 +130,44 @@
       "type": "matching",
       "instruction": "Collega ogni FVG alla preposizione corretta.",
       "pairs": [
-        { "left": "___ Betracht ziehen", "right": "in" },
-        { "left": "___ Verfügung stellen", "right": "zur" },
-        { "left": "___ Ausdruck bringen", "right": "zum" },
-        { "left": "___ Gang setzen", "right": "in" },
-        { "left": "___ Kraft treten", "right": "in" }
+        {
+          "left": "___ Betracht ziehen",
+          "right": "in"
+        },
+        {
+          "left": "___ Verfügung stellen",
+          "right": "zur"
+        },
+        {
+          "left": "___ Ausdruck bringen",
+          "right": "zum"
+        },
+        {
+          "left": "___ Gang setzen",
+          "right": "in"
+        },
+        {
+          "left": "___ Kraft treten",
+          "right": "in"
+        }
       ]
     },
     {
       "type": "translation",
       "instruction": "Trasforma la frase formale (con FVG) nella versione informale con il verbo semplice.",
       "sentence_de": "Sie hat ihre Unzufriedenheit zum Ausdruck gebracht.",
-      "correct": ["Sie hat ihre Unzufriedenheit ausgedrückt."],
+      "correct": [
+        "Sie hat ihre Unzufriedenheit ausgedrückt."
+      ],
       "explanation": "'Zum Ausdruck bringen' corrisponde al verbo semplice 'ausdrücken'. Ha espresso la sua insoddisfazione."
     },
     {
       "type": "translation",
       "instruction": "Trasforma la frase informale nella versione formale con un FVG.",
       "sentence_de": "Die Firma berücksichtigt verschiedene Optionen.",
-      "correct": ["Die Firma zieht verschiedene Optionen in Betracht."],
+      "correct": [
+        "Die Firma zieht verschiedene Optionen in Betracht."
+      ],
       "explanation": "'Berücksichtigen' corrisponde al FVG 'in Betracht ziehen'. L'azienda prende in considerazione diverse opzioni."
     },
     {
@@ -115,23 +186,99 @@
       "type": "fill-blank",
       "sentence": "Die Mitarbeiter können den Fitnessraum kostenlos ___ Anspruch nehmen.",
       "blanks": [
-        { "position": 0, "correct": ["in"], "hint": "Preposizione: usufruire di" }
+        {
+          "position": 0,
+          "correct": [
+            "in"
+          ],
+          "hint": "Preposizione: usufruire di"
+        }
       ],
       "translation": "I dipendenti possono usufruire gratuitamente della sala fitness."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta.",
-      "words": ["muss", "man", "gewisse", "Nachteile", "in", "Kauf", "nehmen"],
+      "words": [
+        "muss",
+        "man",
+        "gewisse",
+        "Nachteile",
+        "in",
+        "Kauf",
+        "nehmen"
+      ],
       "correct": "Man muss gewisse Nachteile in Kauf nehmen.",
       "translation": "Bisogna accettare certi svantaggi."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta.",
-      "words": ["hat", "der", "Sprecher", "seine", "Kritik", "deutlich", "zum", "Ausdruck", "gebracht"],
+      "words": [
+        "hat",
+        "der",
+        "Sprecher",
+        "seine",
+        "Kritik",
+        "deutlich",
+        "zum",
+        "Ausdruck",
+        "gebracht"
+      ],
       "correct": "Der Sprecher hat seine Kritik deutlich zum Ausdruck gebracht.",
       "translation": "L'oratore ha espresso chiaramente la sua critica."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Die von der Regierung vorgeschlagenen Reformen stoßen auf Kritik.",
+      "acceptable": [
+        "Die von der Regierung vorgeschlagenen Reformen stoßen auf Kritik",
+        "Die von der Regierung vorgeschlagenen Reformen stossen auf Kritik"
+      ],
+      "hint": "Participio esteso come attributo",
+      "translation": "Le riforme proposte dal governo incontrano critiche."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Man muss sowohl die Vor- als auch die Nachteile berücksichtigen.",
+      "translation": "Bisogna considerare sia i vantaggi che gli svantaggi.",
+      "acceptable": [
+        "Man muss sowohl die Vor- als auch die Nachteile berücksichtigen",
+        "Man muss sowohl die Vor als auch die Nachteile berücksichtigen"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Einerseits fördert die Globalisierung den Handel, andererseits verstärkt sie die Ungleichheit.",
+      "acceptable": [
+        "Einerseits fördert die Globalisierung den Handel andererseits verstärkt sie die Ungleichheit",
+        "Einerseits fördert die Globalisierung den Handel, andererseits verstärkt sie die Ungleichheit"
+      ],
+      "hint": "Connettori: einerseits...andererseits",
+      "translation": "Da un lato la globalizzazione favorisce il commercio, dall'altro aumenta la disuguaglianza."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Daraus ergibt sich die Notwendigkeit, neue Strategien zu entwickeln.",
+      "translation": "Da ciò risulta la necessità di sviluppare nuove strategie.",
+      "acceptable": [
+        "Daraus ergibt sich die Notwendigkeit neue Strategien zu entwickeln",
+        "Daraus ergibt sich die Notwendigkeit, neue Strategien zu entwickeln"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Der Beschluss wurde einstimmig gefasst.",
+      "acceptable": [
+        "Der Beschluss wurde einstimmig gefasst"
+      ],
+      "hint": "Passivo formale",
+      "translation": "La delibera è stata presa all'unanimità."
     }
   ]
 }

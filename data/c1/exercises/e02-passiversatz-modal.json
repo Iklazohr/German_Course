@@ -30,17 +30,37 @@
     {
       "type": "fill-blank",
       "sentence": "Das Problem lässt ___ nicht so einfach lösen.",
-      "blanks": [{ "position": 0, "correct": ["sich"], "hint": "Pronome riflessivo per la costruzione 'sich lassen + Infinitiv'" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "sich"
+          ],
+          "hint": "Pronome riflessivo per la costruzione 'sich lassen + Infinitiv'"
+        }
+      ],
       "translation": "Il problema non si lascia risolvere cosi facilmente."
     },
     {
       "type": "matching",
       "instruction": "Collega ogni verbo al corrispondente aggettivo in -bar.",
       "pairs": [
-        { "left": "essen", "right": "essbar (commestibile)" },
-        { "left": "bezahlen", "right": "bezahlbar (accessibile)" },
-        { "left": "erreichen", "right": "erreichbar (raggiungibile)" },
-        { "left": "vorstellen", "right": "vorstellbar (immaginabile)" }
+        {
+          "left": "essen",
+          "right": "essbar (commestibile)"
+        },
+        {
+          "left": "bezahlen",
+          "right": "bezahlbar (accessibile)"
+        },
+        {
+          "left": "erreichen",
+          "right": "erreichbar (raggiungibile)"
+        },
+        {
+          "left": "vorstellen",
+          "right": "vorstellbar (immaginabile)"
+        }
       ]
     },
     {
@@ -80,17 +100,37 @@
     {
       "type": "fill-blank",
       "sentence": "Das ___ stimmen — alle Quellen bestätigen es.",
-      "blanks": [{ "position": 0, "correct": ["dürfte"], "hint": "Verbo modale soggettivo per 'probabilmente'" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "dürfte"
+          ],
+          "hint": "Verbo modale soggettivo per 'probabilmente'"
+        }
+      ],
       "translation": "Dovrebbe essere vero — tutte le fonti lo confermano."
     },
     {
       "type": "matching",
       "instruction": "Collega ogni verbo modale soggettivo al suo significato.",
       "pairs": [
-        { "left": "müssen (soggettivo)", "right": "alta certezza (quasi sicuro)" },
-        { "left": "sollen (soggettivo)", "right": "per sentito dire (si dice che)" },
-        { "left": "wollen (soggettivo)", "right": "affermazione propria (sostiene di)" },
-        { "left": "dürfte", "right": "probabilita (probabilmente)" }
+        {
+          "left": "müssen (soggettivo)",
+          "right": "alta certezza (quasi sicuro)"
+        },
+        {
+          "left": "sollen (soggettivo)",
+          "right": "per sentito dire (si dice che)"
+        },
+        {
+          "left": "wollen (soggettivo)",
+          "right": "affermazione propria (sostiene di)"
+        },
+        {
+          "left": "dürfte",
+          "right": "probabilita (probabilmente)"
+        }
       ]
     },
     {
@@ -127,6 +167,62 @@
       ],
       "correct": 2,
       "explanation": "La scala corretta e: müssen (quasi certo, ~95%) > dürfte (probabile, ~75%) > könnte (possibile, ~50%)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Es lässt sich feststellen, dass die Ergebnisse die Hypothese weitgehend bestätigen.",
+      "translation": "Si può constatare che i risultati confermano ampiamente l'ipotesi.",
+      "acceptable": [
+        "Es lässt sich feststellen dass die Ergebnisse die Hypothese weitgehend bestätigen",
+        "Es lässt sich feststellen, dass die Ergebnisse die Hypothese weitgehend bestätigen"
+      ],
+      "hint": "Pronuncia: Hypothese = 'hü-po-tee-ze', weitgehend = 'vait-ghe-hend'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Die Krise ist nicht zuletzt auf mangelnde Transparenz zurückzuführen.",
+      "question": "A cosa è attribuita la crisi?",
+      "options": [
+        "Alla corruzione",
+        "Alla mancanza di trasparenza",
+        "Alla crisi economica globale",
+        "A decisioni politiche sbagliate"
+      ],
+      "correct": 1,
+      "explanation": "'nicht zuletzt' = non da ultimo. 'auf etwas zurückzuführen sein' = essere riconducibile a. 'mangelnde Transparenz' = mancanza di trasparenza."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Darüber hinaus ist zu berücksichtigen, dass externe Faktoren eine Rolle spielen.",
+      "translation": "Inoltre, bisogna considerare che fattori esterni giocano un ruolo.",
+      "acceptable": [
+        "Darüber hinaus ist zu berücksichtigen dass externe Faktoren eine Rolle spielen",
+        "Darüber hinaus ist zu berücksichtigen, dass externe Faktoren eine Rolle spielen"
+      ],
+      "hint": "Pronuncia: berücksichtigen = 'be-rük-sich-ti-gen'"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Die sich daraus ergebenden Konsequenzen sind noch nicht absehbar.",
+      "acceptable": [
+        "Die sich daraus ergebenden Konsequenzen sind noch nicht absehbar"
+      ],
+      "hint": "Attributo esteso con verbo riflessivo",
+      "translation": "Le conseguenze che ne derivano non sono ancora prevedibili."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Im Hinblick auf die gegenwärtige Entwicklung scheint ein Umdenken erforderlich.",
+      "translation": "In considerazione dell'attuale sviluppo, sembra necessario un ripensamento.",
+      "acceptable": [
+        "Im Hinblick auf die gegenwärtige Entwicklung scheint ein Umdenken erforderlich",
+        "Im Hinblick auf die gegenwaertige Entwicklung scheint ein Umdenken erforderlich"
+      ]
     }
   ]
 }

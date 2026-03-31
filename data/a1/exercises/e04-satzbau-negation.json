@@ -6,61 +6,116 @@
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["heute", "lerne", "Deutsch", "Ich", "."],
+      "words": [
+        "heute",
+        "lerne",
+        "Deutsch",
+        "Ich",
+        "."
+      ],
       "correct": "Ich lerne heute Deutsch .",
       "translation": "Oggi imparo il tedesco."
     },
     {
       "type": "multiple-choice",
       "question": "Dove va il verbo nella frase tedesca principale?",
-      "options": ["In prima posizione", "In seconda posizione", "Alla fine", "Non ha una posizione fissa"],
+      "options": [
+        "In prima posizione",
+        "In seconda posizione",
+        "Alla fine",
+        "Non ha una posizione fissa"
+      ],
       "correct": 1,
       "explanation": "Nella frase principale tedesca, il verbo coniugato va SEMPRE in seconda posizione (regola V2)."
     },
     {
       "type": "fill-blank",
       "sentence": "Ich trinke ___ Kaffee.",
-      "blanks": [{ "position": 0, "correct": ["keinen"], "hint": "negazione del sostantivo maschile all'accusativo" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "keinen"
+          ],
+          "hint": "negazione del sostantivo maschile all'accusativo"
+        }
+      ],
       "translation": "Non bevo caffè."
     },
     {
       "type": "multiple-choice",
       "question": "Come si nega 'Ich bin müde' (Sono stanco)?",
-      "options": ["Ich bin kein müde.", "Ich bin nicht müde.", "Ich nicht bin müde.", "Ich kein bin müde."],
+      "options": [
+        "Ich bin kein müde.",
+        "Ich bin nicht müde.",
+        "Ich nicht bin müde.",
+        "Ich kein bin müde."
+      ],
       "correct": 1,
       "explanation": "Per negare un aggettivo si usa 'nicht' prima dell'aggettivo: 'Ich bin nicht müde.'"
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["Morgen", "ich", "nach", "fahre", "Berlin", "."],
+      "words": [
+        "Morgen",
+        "ich",
+        "nach",
+        "fahre",
+        "Berlin",
+        "."
+      ],
       "correct": "Morgen fahre ich nach Berlin .",
       "translation": "Domani vado a Berlino."
     },
     {
       "type": "multiple-choice",
       "question": "Quale frase è corretta?",
-      "options": ["Ich habe nicht ein Auto.", "Ich habe kein Auto.", "Ich nicht habe ein Auto.", "Ich kein habe Auto."],
+      "options": [
+        "Ich habe nicht ein Auto.",
+        "Ich habe kein Auto.",
+        "Ich nicht habe ein Auto.",
+        "Ich kein habe Auto."
+      ],
       "correct": 1,
       "explanation": "Per negare un sostantivo con articolo indeterminativo (ein) si usa 'kein': 'Ich habe kein Auto.'"
     },
     {
       "type": "fill-blank",
       "sentence": "Das ist ___ mein Buch.",
-      "blanks": [{ "position": 0, "correct": ["nicht"], "hint": "negazione prima del possessivo" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "nicht"
+          ],
+          "hint": "negazione prima del possessivo"
+        }
+      ],
       "translation": "Questo non è il mio libro."
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["keine", "Wir", "haben", "Kinder", "."],
+      "words": [
+        "keine",
+        "Wir",
+        "haben",
+        "Kinder",
+        "."
+      ],
       "correct": "Wir haben keine Kinder .",
       "translation": "Non abbiamo figli."
     },
     {
       "type": "multiple-choice",
       "question": "'Heute lerne ich Deutsch.' - Cosa succede al soggetto quando un altro elemento è in posizione 1?",
-      "options": ["Va alla fine", "Sparisce", "Va dopo il verbo (inversione)", "Rimane prima del verbo"],
+      "options": [
+        "Va alla fine",
+        "Sparisce",
+        "Va dopo il verbo (inversione)",
+        "Rimane prima del verbo"
+      ],
       "correct": 2,
       "explanation": "Quando un avverbio o complemento occupa la posizione 1, il soggetto va DOPO il verbo. Si chiama 'inversione'."
     },
@@ -68,8 +123,36 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Non parlo tedesco.",
-      "acceptable": ["Ich spreche nicht Deutsch.", "Ich spreche kein Deutsch."],
+      "acceptable": [
+        "Ich spreche nicht Deutsch.",
+        "Ich spreche kein Deutsch."
+      ],
       "hint": "Usa 'nicht' o 'kein' + Deutsch"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Ich möchte ein Brot, bitte.",
+      "question": "Cosa vorrebbe questa persona?",
+      "options": [
+        "Un'acqua",
+        "Un caffè",
+        "Un pane",
+        "Una mela"
+      ],
+      "correct": 2,
+      "explanation": "\"Ein Brot\" significa \"un pane\". \"Ich möchte\" = \"vorrei\"."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Es ist fünf Uhr.",
+      "translation": "Sono le cinque.",
+      "acceptable": [
+        "Es ist fünf Uhr.",
+        "Es ist fünf Uhr"
+      ],
+      "hint": "La \"ü\" si pronuncia stringendo le labbra come per la \"u\" ma dicendo \"i\". \"Fünf\" suona come \"fuenf\"."
     }
   ]
 }

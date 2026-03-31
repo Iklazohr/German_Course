@@ -8,7 +8,13 @@
       "type": "fill-blank",
       "sentence": "Ich interessiere mich für Musik. Mein Bruder interessiert sich auch ___.",
       "blanks": [
-        { "position": 0, "correct": ["dafür"], "hint": "da(r) + für → per questo/ciò" }
+        {
+          "position": 0,
+          "correct": [
+            "dafür"
+          ],
+          "hint": "da(r) + für → per questo/ciò"
+        }
       ],
       "translation": "Mi interesso di musica. Anche mio fratello se ne interessa."
     },
@@ -16,7 +22,13 @@
       "type": "fill-blank",
       "sentence": "Wir haben über das Problem gesprochen. ___ haben wir lange diskutiert.",
       "blanks": [
-        { "position": 0, "correct": ["Darüber"], "hint": "da(r) + über → su questo/ciò" }
+        {
+          "position": 0,
+          "correct": [
+            "Darüber"
+          ],
+          "hint": "da(r) + über → su questo/ciò"
+        }
       ],
       "translation": "Abbiamo parlato del problema. Ne abbiamo discusso a lungo."
     },
@@ -24,21 +36,37 @@
       "type": "fill-blank",
       "sentence": "Er denkt oft an seine Kindheit. Er denkt oft ___.",
       "blanks": [
-        { "position": 0, "correct": ["daran"], "hint": "da(r) + an → a questo/ciò" }
+        {
+          "position": 0,
+          "correct": [
+            "daran"
+          ],
+          "hint": "da(r) + an → a questo/ciò"
+        }
       ],
       "translation": "Pensa spesso alla sua infanzia. Ci pensa spesso."
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Er ___ krank zu sein. Er sieht sehr blass aus.'",
-      "options": ["scheint", "droht", "braucht", "verspricht"],
+      "options": [
+        "scheint",
+        "droht",
+        "braucht",
+        "verspricht"
+      ],
       "correct": 0,
       "explanation": "'Scheinen + zu + Infinito' esprime apparenza: 'Sembra essere malato.' La pallura è un indizio, non una certezza."
     },
     {
       "type": "multiple-choice",
       "question": "Completa: 'Du ___ nicht zu kommen, wenn du keine Zeit hast.'",
-      "options": ["brauchst", "scheinst", "drohst", "hast"],
+      "options": [
+        "brauchst",
+        "scheinst",
+        "drohst",
+        "hast"
+      ],
       "correct": 0,
       "explanation": "'Brauchen + nicht + zu + Infinito' esprime che qualcosa non è necessario: 'Non hai bisogno di venire se non hai tempo.'"
     },
@@ -58,8 +86,20 @@
       "type": "fill-blank",
       "sentence": "Die Aufgabe ___ bis morgen ___ erledigen.",
       "blanks": [
-        { "position": 0, "correct": ["ist"], "hint": "Costruzione: sein + zu + Infinito (obbligo passivo)" },
-        { "position": 1, "correct": ["zu"], "hint": "Particella dell'infinito" }
+        {
+          "position": 0,
+          "correct": [
+            "ist"
+          ],
+          "hint": "Costruzione: sein + zu + Infinito (obbligo passivo)"
+        },
+        {
+          "position": 1,
+          "correct": [
+            "zu"
+          ],
+          "hint": "Particella dell'infinito"
+        }
       ],
       "translation": "Il compito è da sbrigare entro domani."
     },
@@ -67,26 +107,48 @@
       "type": "matching",
       "instruction": "Collega ogni connettore testuale alla sua funzione.",
       "pairs": [
-        { "left": "allerdings", "right": "contrasto (tuttavia)" },
-        { "left": "folglich", "right": "conseguenza (di conseguenza)" },
-        { "left": "insbesondere", "right": "specificazione (in particolare)" },
-        { "left": "dennoch", "right": "concessione (ciononostante)" },
-        { "left": "stattdessen", "right": "alternativa (al posto di ciò)" },
-        { "left": "hingegen", "right": "opposizione (invece)" }
+        {
+          "left": "allerdings",
+          "right": "contrasto (tuttavia)"
+        },
+        {
+          "left": "folglich",
+          "right": "conseguenza (di conseguenza)"
+        },
+        {
+          "left": "insbesondere",
+          "right": "specificazione (in particolare)"
+        },
+        {
+          "left": "dennoch",
+          "right": "concessione (ciononostante)"
+        },
+        {
+          "left": "stattdessen",
+          "right": "alternativa (al posto di ciò)"
+        },
+        {
+          "left": "hingegen",
+          "right": "opposizione (invece)"
+        }
       ]
     },
     {
       "type": "translation",
       "instruction": "Traduci in tedesco usando un connettore testuale appropriato.",
       "sentence_it": "Il progetto è costoso. Ciononostante ne vale la pena.",
-      "correct": ["Das Projekt ist teuer. Dennoch lohnt es sich."],
+      "correct": [
+        "Das Projekt ist teuer. Dennoch lohnt es sich."
+      ],
       "explanation": "'Dennoch' (ciononostante) introduce una concessione. Posizione 1 + inversione del verbo."
     },
     {
       "type": "translation",
       "instruction": "Traduci in tedesco usando 'scheinen + zu'.",
       "sentence_it": "I negoziati sembrano fare progressi.",
-      "correct": ["Die Verhandlungen scheinen Fortschritte zu machen."],
+      "correct": [
+        "Die Verhandlungen scheinen Fortschritte zu machen."
+      ],
       "explanation": "'Scheinen + zu + Infinito' esprime apparenza. Il soggetto 'die Verhandlungen' + scheinen + ... + zu machen."
     },
     {
@@ -105,8 +167,20 @@
       "type": "fill-blank",
       "sentence": "___ ist wichtig, ___ man regelmäßig Sport treibt.",
       "blanks": [
-        { "position": 0, "correct": ["Es"], "hint": "Pronome anticipatorio" },
-        { "position": 1, "correct": ["dass"], "hint": "Congiunzione subordinante: che" }
+        {
+          "position": 0,
+          "correct": [
+            "Es"
+          ],
+          "hint": "Pronome anticipatorio"
+        },
+        {
+          "position": 1,
+          "correct": [
+            "dass"
+          ],
+          "hint": "Congiunzione subordinante: che"
+        }
       ],
       "translation": "È importante che si faccia sport regolarmente."
     },
@@ -114,24 +188,133 @@
       "type": "fill-blank",
       "sentence": "Er ist ___ intelligent, ___ er hat keine Erfahrung.",
       "blanks": [
-        { "position": 0, "correct": ["zwar"], "hint": "Prima parte: è vero che..." },
-        { "position": 1, "correct": ["aber"], "hint": "Seconda parte: ...ma" }
+        {
+          "position": 0,
+          "correct": [
+            "zwar"
+          ],
+          "hint": "Prima parte: è vero che..."
+        },
+        {
+          "position": 1,
+          "correct": [
+            "aber"
+          ],
+          "hint": "Seconda parte: ...ma"
+        }
       ],
       "translation": "È sì intelligente, ma non ha esperienza."
     },
     {
       "type": "multiple-choice",
       "question": "Quale avverbio pronominale completa la frase? 'Ich warte auf die Antwort. Ich warte schon lange ___.'",
-      "options": ["darauf", "dafür", "damit", "daran"],
+      "options": [
+        "darauf",
+        "dafür",
+        "damit",
+        "daran"
+      ],
       "correct": 0,
       "explanation": "Il verbo 'warten' regge 'auf + Akk.'. L'avverbio pronominale corrispondente è 'darauf' (= auf + das/dies)."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta.",
-      "words": ["die", "Situation", "scheint", "sich", "zu", "verschlechtern"],
+      "words": [
+        "die",
+        "Situation",
+        "scheint",
+        "sich",
+        "zu",
+        "verschlechtern"
+      ],
       "correct": "Die Situation scheint sich zu verschlechtern.",
       "translation": "La situazione sembra peggiorare."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Quali sono i vantaggi e gli svantaggi del lavoro da casa?",
+      "prompt_audio": "Welche Vor- und Nachteile hat das Homeoffice?",
+      "acceptable": [
+        "Einerseits",
+        "Ein Vorteil ist",
+        "Ein Nachteil ist",
+        "Auf der einen Seite",
+        "Zum einen"
+      ],
+      "explanation": "Usa strutture come 'Einerseits...andererseits' o 'Ein Vorteil ist, dass... Ein Nachteil ist jedoch, dass...'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "in Frage stellen",
+          "meaning": "mettere in discussione"
+        },
+        {
+          "audio_text": "zur Verfügung stellen",
+          "meaning": "mettere a disposizione"
+        },
+        {
+          "audio_text": "in Betracht ziehen",
+          "meaning": "prendere in considerazione"
+        },
+        {
+          "audio_text": "zum Ausdruck bringen",
+          "meaning": "esprimere"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Cosa ne pensi della crescente digitalizzazione nella scuola?",
+      "prompt_audio": "Was halten Sie von der zunehmenden Digitalisierung in der Schule?",
+      "acceptable": [
+        "Meiner Ansicht nach",
+        "Ich bin der Auffassung",
+        "Ich vertrete die Meinung",
+        "Meiner Meinung nach",
+        "Ich halte"
+      ],
+      "explanation": "Usa espressioni formali: 'Meiner Ansicht nach...' o 'Ich bin der Auffassung, dass...'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "dennoch",
+          "meaning": "tuttavia, ciononostante"
+        },
+        {
+          "audio_text": "infolgedessen",
+          "meaning": "di conseguenza"
+        },
+        {
+          "audio_text": "nichtsdestotrotz",
+          "meaning": "nondimeno"
+        },
+        {
+          "audio_text": "demzufolge",
+          "meaning": "pertanto, di conseguenza"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come riassumeresti il tema della sostenibilità ambientale?",
+      "prompt_audio": "Wie würden Sie das Thema Nachhaltigkeit zusammenfassen?",
+      "acceptable": [
+        "Zusammenfassend",
+        "Abschließend",
+        "Im Großen und Ganzen",
+        "Insgesamt"
+      ],
+      "explanation": "Inizia con 'Zusammenfassend lässt sich sagen, dass...' o 'Insgesamt ist festzuhalten, dass...'"
     }
   ]
 }

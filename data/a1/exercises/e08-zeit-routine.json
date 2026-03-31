@@ -28,21 +28,36 @@
     {
       "type": "multiple-choice",
       "instruction": "Che ore sono? 'Es ist halb neun.'",
-      "options": ["9:30", "8:30", "8:00", "9:00"],
+      "options": [
+        "9:30",
+        "8:30",
+        "8:00",
+        "9:00"
+      ],
       "correct": "8:30",
       "explanation": "'Halb neun' = metà strada verso le 9 = 8:30."
     },
     {
       "type": "multiple-choice",
       "instruction": "Che ore sono? 'Es ist Viertel vor drei.'",
-      "options": ["3:15", "2:45", "3:45", "2:15"],
+      "options": [
+        "3:15",
+        "2:45",
+        "3:45",
+        "2:15"
+      ],
       "correct": "2:45",
       "explanation": "'Viertel vor drei' = un quarto prima delle 3 = 2:45."
     },
     {
       "type": "multiple-choice",
       "instruction": "Qual è la forma corretta di 'haben' per 'du'?",
-      "options": ["habe", "hast", "hat", "habt"],
+      "options": [
+        "habe",
+        "hast",
+        "hat",
+        "habt"
+      ],
       "correct": "hast",
       "explanation": "du hast - la coniugazione di 'haben' per la seconda persona singolare."
     },
@@ -71,33 +86,69 @@
       "type": "matching",
       "instruction": "Abbina le attività agli orari tipici.",
       "pairs": [
-        { "left": "frühstücken", "right": "7:00 Uhr" },
-        { "left": "Mittagessen", "right": "12:30 Uhr" },
-        { "left": "Abendessen", "right": "19:00 Uhr" },
-        { "left": "schlafen gehen", "right": "23:00 Uhr" }
+        {
+          "left": "frühstücken",
+          "right": "7:00 Uhr"
+        },
+        {
+          "left": "Mittagessen",
+          "right": "12:30 Uhr"
+        },
+        {
+          "left": "Abendessen",
+          "right": "19:00 Uhr"
+        },
+        {
+          "left": "schlafen gehen",
+          "right": "23:00 Uhr"
+        }
       ]
     },
     {
       "type": "matching",
       "instruction": "Abbina la preposizione all'indicazione temporale.",
       "pairs": [
-        { "left": "um", "right": "8 Uhr" },
-        { "left": "am", "right": "Mittwoch" },
-        { "left": "im", "right": "Februar" },
-        { "left": "von ... bis", "right": "Montag ... Freitag" }
+        {
+          "left": "um",
+          "right": "8 Uhr"
+        },
+        {
+          "left": "am",
+          "right": "Mittwoch"
+        },
+        {
+          "left": "im",
+          "right": "Februar"
+        },
+        {
+          "left": "von ... bis",
+          "right": "Montag ... Freitag"
+        }
       ]
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per descrivere una routine.",
-      "words": ["um", "stehe", "Ich", "auf", "6 Uhr"],
+      "words": [
+        "um",
+        "stehe",
+        "Ich",
+        "auf",
+        "6 Uhr"
+      ],
       "answer": "Ich stehe um 6 Uhr auf.",
       "explanation": "Struttura: Soggetto + verbo + complemento di tempo + prefisso separabile."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole.",
-      "words": ["Nachmittag", "Am", "ich", "Deutsch", "lerne"],
+      "words": [
+        "Nachmittag",
+        "Am",
+        "ich",
+        "Deutsch",
+        "lerne"
+      ],
       "answer": "Am Nachmittag lerne ich Deutsch.",
       "explanation": "Quando il complemento di tempo è all'inizio, il verbo viene subito dopo (posizione 2) e il soggetto dopo il verbo."
     },
@@ -107,6 +158,28 @@
       "sentence": "Wir _____ heute keine Zeit.",
       "answer": "haben",
       "explanation": "wir haben - la forma di 'haben' per la prima persona plurale."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Der Apfel ist rot.",
+      "acceptable": [
+        "Der Apfel ist rot.",
+        "Der Apfel ist rot"
+      ],
+      "hint": "Un frutto e il suo colore",
+      "translation": "La mela è rossa."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Saluta qualcuno al mattino in tedesco.",
+      "prompt_audio": "Wie begrüßt du jemanden am Morgen?",
+      "acceptable": [
+        "Guten Morgen!",
+        "Guten Morgen"
+      ],
+      "explanation": "Il saluto del mattino in tedesco è \"Guten Morgen!\" (Buon giorno!)."
     }
   ]
 }

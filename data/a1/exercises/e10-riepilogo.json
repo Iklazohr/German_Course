@@ -8,7 +8,12 @@
       "type": "select-article",
       "instruction": "Scegli l'articolo determinativo corretto.",
       "word": "_____ Hund ist braun.",
-      "options": ["der", "die", "das", "den"],
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
       "correct": "der",
       "explanation": "'Hund' è maschile: der Hund (nominativo)."
     },
@@ -16,7 +21,12 @@
       "type": "select-article",
       "instruction": "Scegli l'articolo corretto (accusativo).",
       "word": "Ich kaufe _____ Buch.",
-      "options": ["der", "die", "das", "den"],
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
       "correct": "das",
       "explanation": "'Buch' è neutro. All'accusativo il neutro non cambia: das Buch."
     },
@@ -63,7 +73,12 @@
     {
       "type": "multiple-choice",
       "instruction": "Qual è l'imperativo corretto di 'nehmen' per 'du'?",
-      "options": ["Nehm!", "Nimm!", "Nehme!", "Nimmst!"],
+      "options": [
+        "Nehm!",
+        "Nimm!",
+        "Nehme!",
+        "Nimmst!"
+      ],
       "correct": "Nimm!",
       "explanation": "'Nehmen' ha il cambio vocalico e→i all'imperativo: Nimm!"
     },
@@ -91,7 +106,12 @@
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase.",
-      "words": ["du", "Kannst", "helfen", "mir"],
+      "words": [
+        "du",
+        "Kannst",
+        "helfen",
+        "mir"
+      ],
       "answer": "Kannst du mir helfen?",
       "explanation": "Domanda con verbo modale: Modale + soggetto + complemento + infinito?"
     },
@@ -99,10 +119,22 @@
       "type": "matching",
       "instruction": "Abbina il tedesco all'italiano.",
       "pairs": [
-        { "left": "werden", "right": "diventare" },
-        { "left": "haben", "right": "avere" },
-        { "left": "sein", "right": "essere" },
-        { "left": "können", "right": "potere" }
+        {
+          "left": "werden",
+          "right": "diventare"
+        },
+        {
+          "left": "haben",
+          "right": "avere"
+        },
+        {
+          "left": "sein",
+          "right": "essere"
+        },
+        {
+          "left": "können",
+          "right": "potere"
+        }
       ]
     },
     {
@@ -135,16 +167,65 @@
       "type": "select-article",
       "instruction": "Scegli la forma corretta per il dativo.",
       "word": "Ich bin in _____ Küche. (stato in luogo)",
-      "options": ["die", "der", "dem", "den"],
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "den"
+      ],
       "correct": "der",
       "explanation": "'Küche' è femminile. Al dativo femminile: der Küche. (in der Küche)"
     },
     {
       "type": "reorder",
       "instruction": "Riordina per formare una frase corretta.",
-      "words": ["Am", "stehe", "ich", "Sonntag", "spät", "auf"],
+      "words": [
+        "Am",
+        "stehe",
+        "ich",
+        "Sonntag",
+        "spät",
+        "auf"
+      ],
       "answer": "Am Sonntag stehe ich spät auf.",
       "explanation": "Complemento di tempo in posizione 1, verbo in posizione 2, prefisso separabile alla fine."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "der Bruder",
+          "meaning": "il fratello"
+        },
+        {
+          "audio_text": "die Schwester",
+          "meaning": "la sorella"
+        },
+        {
+          "audio_text": "der Vater",
+          "meaning": "il padre"
+        },
+        {
+          "audio_text": "die Großmutter",
+          "meaning": "la nonna"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Ringrazia qualcuno in tedesco.",
+      "prompt_audio": "Hier ist dein Kaffee.",
+      "acceptable": [
+        "Danke!",
+        "Danke schön!",
+        "Vielen Dank!",
+        "Danke",
+        "Danke schön",
+        "Vielen Dank"
+      ],
+      "explanation": "Per ringraziare si dice \"Danke!\" (Grazie!), \"Danke schön!\" (Grazie mille!) o \"Vielen Dank!\" (Molte grazie!)."
     }
   ]
 }

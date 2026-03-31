@@ -8,10 +8,22 @@
       "type": "matching",
       "instruction": "Abbina i luoghi alle descrizioni.",
       "pairs": [
-        { "left": "Bahnhof", "right": "Hier fahren Züge ab." },
-        { "left": "Krankenhaus", "right": "Hier geht man zum Arzt." },
-        { "left": "Supermarkt", "right": "Hier kauft man Essen." },
-        { "left": "Bibliothek", "right": "Hier liest man Bücher." }
+        {
+          "left": "Bahnhof",
+          "right": "Hier fahren Züge ab."
+        },
+        {
+          "left": "Krankenhaus",
+          "right": "Hier geht man zum Arzt."
+        },
+        {
+          "left": "Supermarkt",
+          "right": "Hier kauft man Essen."
+        },
+        {
+          "left": "Bibliothek",
+          "right": "Hier liest man Bücher."
+        }
       ]
     },
     {
@@ -96,7 +108,12 @@
       "type": "select-article",
       "instruction": "Scegli l'articolo corretto per completare la frase.",
       "word": "Ich gehe in _____ Schule. (moto a luogo)",
-      "options": ["die", "der", "dem", "den"],
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "den"
+      ],
       "correct": "die",
       "explanation": "Moto a luogo → accusativo. 'Schule' è femminile: in die Schule."
     },
@@ -104,23 +121,77 @@
       "type": "select-article",
       "instruction": "Scegli l'articolo corretto.",
       "word": "Er ist in _____ Krankenhaus. (stato)",
-      "options": ["das", "dem", "den", "der"],
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "der"
+      ],
       "correct": "dem",
       "explanation": "Stato in luogo → dativo. 'Krankenhaus' è neutro: in dem (= im) Krankenhaus."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase.",
-      "words": ["der Nähe", "Supermarkt", "Es", "einen", "gibt", "in"],
+      "words": [
+        "der Nähe",
+        "Supermarkt",
+        "Es",
+        "einen",
+        "gibt",
+        "in"
+      ],
       "answer": "Es gibt einen Supermarkt in der Nähe.",
       "explanation": "Struttura: Es gibt + accusativo + complemento di luogo."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole.",
-      "words": ["die", "Sie", "Straße", "Überqueren"],
+      "words": [
+        "die",
+        "Sie",
+        "Straße",
+        "Überqueren"
+      ],
       "answer": "Überqueren Sie die Straße!",
       "explanation": "Imperativo formale: Verbo + Sie + complemento."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Tschüss!",
+          "meaning": "Ciao! (informale, per salutare)"
+        },
+        {
+          "audio_text": "Danke schön!",
+          "meaning": "Grazie mille!"
+        },
+        {
+          "audio_text": "Entschuldigung!",
+          "meaning": "Scusa! / Mi scusi!"
+        },
+        {
+          "audio_text": "Bitte!",
+          "meaning": "Prego! / Per favore!"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Presentati dicendo il tuo nome in tedesco. Usa il nome 'Marco'.",
+      "prompt_audio": "Wie heißt du?",
+      "acceptable": [
+        "Ich heiße Marco.",
+        "Ich heiße Marco",
+        "Ich bin Marco.",
+        "Ich bin Marco",
+        "Mein Name ist Marco.",
+        "Mein Name ist Marco"
+      ],
+      "explanation": "Per presentarsi si dice \"Ich heiße...\" (Mi chiamo...) oppure \"Ich bin...\" (Sono...)."
     }
   ]
 }

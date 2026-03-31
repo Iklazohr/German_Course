@@ -8,12 +8,30 @@
       "type": "matching",
       "instruction": "Abbina le parole composte al loro significato.",
       "pairs": [
-        { "left": "die Fahrkarte", "right": "il biglietto di viaggio" },
-        { "left": "das Schlafzimmer", "right": "la camera da letto" },
-        { "left": "der Kühlschrank", "right": "il frigorifero" },
-        { "left": "das Hochhaus", "right": "il grattacielo" },
-        { "left": "der Staubsauger", "right": "l'aspirapolvere" },
-        { "left": "die Hauptstadt", "right": "la capitale" }
+        {
+          "left": "die Fahrkarte",
+          "right": "il biglietto di viaggio"
+        },
+        {
+          "left": "das Schlafzimmer",
+          "right": "la camera da letto"
+        },
+        {
+          "left": "der Kühlschrank",
+          "right": "il frigorifero"
+        },
+        {
+          "left": "das Hochhaus",
+          "right": "il grattacielo"
+        },
+        {
+          "left": "der Staubsauger",
+          "right": "l'aspirapolvere"
+        },
+        {
+          "left": "die Hauptstadt",
+          "right": "la capitale"
+        }
       ]
     },
     {
@@ -41,7 +59,11 @@
       "type": "multiple-choice",
       "instruction": "Qual è il genere della parola composta?",
       "question": "der Schlaf + das Zimmer = ___ Schlafzimmer",
-      "options": ["der", "die", "das"],
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
       "answer": "das",
       "hint": "Il genere della parola composta è determinato dall'ultimo elemento: das Zimmer → das Schlafzimmer."
     },
@@ -49,7 +71,12 @@
       "type": "multiple-choice",
       "instruction": "Quale suffisso trasforma un verbo in un sostantivo femminile?",
       "question": "wohnen → die Wohn___",
-      "options": ["-heit", "-ung", "-schaft", "-bar"],
+      "options": [
+        "-heit",
+        "-ung",
+        "-schaft",
+        "-bar"
+      ],
       "answer": "-ung",
       "hint": "Il suffisso -ung trasforma verbi in sostantivi femminili."
     },
@@ -71,7 +98,12 @@
       "type": "multiple-choice",
       "instruction": "Quale parola composta significa 'il tempo libero'?",
       "question": "Scegli la parola corretta.",
-      "options": ["die Freizeit", "die Zeitfrei", "die Freistunde", "die Zeitfreiheit"],
+      "options": [
+        "die Freizeit",
+        "die Zeitfrei",
+        "die Freistunde",
+        "die Zeitfreiheit"
+      ],
       "answer": "die Freizeit",
       "hint": "frei (libero) + die Zeit (il tempo) = die Freizeit."
     },
@@ -100,7 +132,12 @@
       "type": "multiple-choice",
       "instruction": "Quale sostantivo NON segue la n-Deklination?",
       "question": "Scegli il sostantivo che non segue la n-Deklination.",
-      "options": ["der Student", "der Tisch", "der Kunde", "der Journalist"],
+      "options": [
+        "der Student",
+        "der Tisch",
+        "der Kunde",
+        "der Journalist"
+      ],
       "answer": "der Tisch",
       "hint": "der Tisch è un sostantivo maschile regolare, non indica una persona e non ha desinenze tipiche della n-Deklination."
     },
@@ -122,12 +159,98 @@
       "type": "matching",
       "instruction": "Abbina ogni suffisso alla sua funzione.",
       "pairs": [
-        { "left": "-ung", "right": "verbo → sostantivo femminile" },
-        { "left": "-heit/-keit", "right": "aggettivo → sostantivo femminile" },
-        { "left": "-lich", "right": "sostantivo → aggettivo" },
-        { "left": "-bar", "right": "verbo → aggettivo (possibilità)" },
-        { "left": "-los", "right": "sostantivo → aggettivo (mancanza)" }
+        {
+          "left": "-ung",
+          "right": "verbo → sostantivo femminile"
+        },
+        {
+          "left": "-heit/-keit",
+          "right": "aggettivo → sostantivo femminile"
+        },
+        {
+          "left": "-lich",
+          "right": "sostantivo → aggettivo"
+        },
+        {
+          "left": "-bar",
+          "right": "verbo → aggettivo (possibilità)"
+        },
+        {
+          "left": "-los",
+          "right": "sostantivo → aggettivo (mancanza)"
+        }
       ]
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Ich hätte gern einen Kaffee",
+          "meaning": "Vorrei un caffè (cortese)"
+        },
+        {
+          "audio_text": "Könnten Sie das bitte wiederholen?",
+          "meaning": "Potrebbe ripeterlo, per favore?"
+        },
+        {
+          "audio_text": "Würden Sie mir bitte helfen?",
+          "meaning": "Mi aiuterebbe, per favore?"
+        },
+        {
+          "audio_text": "Es wäre schön, wenn Sie kommen könnten",
+          "meaning": "Sarebbe bello se potesse venire"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Qual è la tua opinione sull'energia nucleare?",
+      "prompt_audio": "Was ist deine Meinung zur Kernenergie?",
+      "acceptable": [
+        "Meiner Meinung nach",
+        "Ich finde",
+        "Ich denke",
+        "Ich bin der Meinung",
+        "Ich glaube"
+      ],
+      "explanation": "Inizia con 'Meiner Meinung nach...' o 'Ich finde, dass...' e esprimi la tua opinione."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Das Buch wird gelesen",
+          "meaning": "Il libro viene letto (presente passivo)"
+        },
+        {
+          "audio_text": "Das Buch wurde gelesen",
+          "meaning": "Il libro fu letto (passato passivo)"
+        },
+        {
+          "audio_text": "Das Buch ist gelesen worden",
+          "meaning": "Il libro è stato letto (Perfekt passivo)"
+        },
+        {
+          "audio_text": "Das Buch muss gelesen werden",
+          "meaning": "Il libro deve essere letto (modale passivo)"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Che consiglio daresti a qualcuno che vuole imparare il tedesco?",
+      "prompt_audio": "Welchen Rat würdest du jemandem geben, der Deutsch lernen möchte?",
+      "acceptable": [
+        "Ich würde empfehlen",
+        "Man sollte",
+        "Es wäre gut",
+        "Ich rate"
+      ],
+      "explanation": "Usa il Konjunktiv II: 'Ich würde empfehlen, viel zu lesen' o 'Man sollte jeden Tag üben'."
     }
   ]
 }

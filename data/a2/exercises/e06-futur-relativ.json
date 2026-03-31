@@ -77,7 +77,12 @@
       "type": "multiple-choice",
       "instruction": "Scegli il pronome relativo corretto.",
       "question": "Die Kinder, ___ im Garten spielen, sind meine Nachbarn.",
-      "options": ["der", "die", "das", "den"],
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
       "answer": "die",
       "hint": "Kinder = plurale, soggetto → die"
     },
@@ -98,14 +103,32 @@
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase al Futur I.",
-      "words": ["Sie", "wird", "nächste", "Woche", "nach", "Rom", "fliegen"],
+      "words": [
+        "Sie",
+        "wird",
+        "nächste",
+        "Woche",
+        "nach",
+        "Rom",
+        "fliegen"
+      ],
       "answer": "Sie wird nächste Woche nach Rom fliegen.",
       "hint": "Soggetto + wird + complementi + infinito alla fine"
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase con pronome relativo.",
-      "words": ["Das", "ist", "die", "Stadt", ",", "die", "wir", "besucht", "haben"],
+      "words": [
+        "Das",
+        "ist",
+        "die",
+        "Stadt",
+        ",",
+        "die",
+        "wir",
+        "besucht",
+        "haben"
+      ],
       "answer": "Das ist die Stadt, die wir besucht haben.",
       "hint": "Frase principale + virgola + pronome relativo + ... + verbo alla fine"
     },
@@ -113,10 +136,22 @@
       "type": "matching",
       "instruction": "Abbina la frase con la traduzione corretta.",
       "pairs": [
-        { "left": "Er wird wohl krank sein.", "right": "Sarà probabilmente malato." },
-        { "left": "Wir werden dich besuchen.", "right": "Ti visiteremo." },
-        { "left": "Der Hund, der bellt, ist groß.", "right": "Il cane che abbaia è grande." },
-        { "left": "Das Haus, das ich kaufen will, ist teuer.", "right": "La casa che voglio comprare è cara." }
+        {
+          "left": "Er wird wohl krank sein.",
+          "right": "Sarà probabilmente malato."
+        },
+        {
+          "left": "Wir werden dich besuchen.",
+          "right": "Ti visiteremo."
+        },
+        {
+          "left": "Der Hund, der bellt, ist groß.",
+          "right": "Il cane che abbaia è grande."
+        },
+        {
+          "left": "Das Haus, das ich kaufen will, ist teuer.",
+          "right": "La casa che voglio comprare è cara."
+        }
       ]
     },
     {
@@ -131,6 +166,53 @@
       ],
       "answer": "Er wird wohl zu Hause sein.",
       "hint": "'wohl' indica che si tratta di una supposizione."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Dove sei andato/a in vacanza l'anno scorso?",
+      "prompt_audio": "Wohin bist du letztes Jahr in den Urlaub gefahren?",
+      "acceptable": [
+        "Ich bin",
+        "Letztes Jahr bin ich",
+        "Ich war in"
+      ],
+      "explanation": "Rispondi con 'Ich bin nach [paese/città] gefahren' o 'Ich war in [luogo]'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "die Apotheke",
+          "meaning": "la farmacia"
+        },
+        {
+          "audio_text": "das Krankenhaus",
+          "meaning": "l'ospedale"
+        },
+        {
+          "audio_text": "die Bäckerei",
+          "meaning": "la panetteria"
+        },
+        {
+          "audio_text": "das Rathaus",
+          "meaning": "il municipio"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come stai oggi?",
+      "prompt_audio": "Wie geht es dir heute?",
+      "acceptable": [
+        "Mir geht es",
+        "Es geht mir",
+        "Gut",
+        "Nicht so gut"
+      ],
+      "explanation": "Rispondi con 'Mir geht es gut/schlecht' o 'Es geht mir gut, danke'."
     }
   ]
 }

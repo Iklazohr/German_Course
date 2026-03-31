@@ -8,7 +8,12 @@
       "type": "select-article",
       "instruction": "Scegli il possessivo corretto.",
       "word": "_____ Mutter ist nett. (ich)",
-      "options": ["mein", "meine", "meinen", "meiner"],
+      "options": [
+        "mein",
+        "meine",
+        "meinen",
+        "meiner"
+      ],
       "correct": "meine",
       "explanation": "'Mutter' è femminile, quindi al nominativo: meine."
     },
@@ -16,7 +21,12 @@
       "type": "select-article",
       "instruction": "Scegli il possessivo corretto.",
       "word": "Ich sehe _____ Bruder. (du)",
-      "options": ["dein", "deine", "deinen", "deiner"],
+      "options": [
+        "dein",
+        "deine",
+        "deinen",
+        "deiner"
+      ],
       "correct": "deinen",
       "explanation": "'Bruder' è maschile e qui è all'accusativo: deinen."
     },
@@ -24,7 +34,12 @@
       "type": "select-article",
       "instruction": "Scegli il possessivo corretto.",
       "word": "_____ Haus ist groß. (wir)",
-      "options": ["unser", "unsere", "unseren", "unserem"],
+      "options": [
+        "unser",
+        "unsere",
+        "unseren",
+        "unserem"
+      ],
       "correct": "unser",
       "explanation": "'Haus' è neutro, al nominativo il possessivo non ha desinenza: unser."
     },
@@ -52,21 +67,36 @@
     {
       "type": "multiple-choice",
       "instruction": "Qual è l'imperativo corretto di 'kommen' per 'du'?",
-      "options": ["Komm!", "Kommst!", "Kommen!", "Komme!"],
+      "options": [
+        "Komm!",
+        "Kommst!",
+        "Kommen!",
+        "Komme!"
+      ],
       "correct": "Komm!",
       "explanation": "L'imperativo per 'du' si forma con la radice del verbo: Komm!"
     },
     {
       "type": "multiple-choice",
       "instruction": "Qual è l'imperativo corretto di 'lesen' per 'du'?",
-      "options": ["Les!", "Lies!", "Lese!", "Liest!"],
+      "options": [
+        "Les!",
+        "Lies!",
+        "Lese!",
+        "Liest!"
+      ],
       "correct": "Lies!",
       "explanation": "'Lesen' ha il cambio vocalico e→ie all'imperativo: Lies!"
     },
     {
       "type": "multiple-choice",
       "instruction": "Qual è l'imperativo corretto di 'sein' per 'Sie'?",
-      "options": ["Sind Sie!", "Sein Sie!", "Seien Sie!", "Sei Sie!"],
+      "options": [
+        "Sind Sie!",
+        "Sein Sie!",
+        "Seien Sie!",
+        "Sei Sie!"
+      ],
       "correct": "Seien Sie!",
       "explanation": "La forma formale di 'sein' all'imperativo è irregolare: Seien Sie!"
     },
@@ -87,14 +117,23 @@
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta.",
-      "words": ["bitte", "Sie", "langsam", "Sprechen"],
+      "words": [
+        "bitte",
+        "Sie",
+        "langsam",
+        "Sprechen"
+      ],
       "answer": "Sprechen Sie bitte langsam!",
       "explanation": "Imperativo formale: Verbo + Sie + resto della frase."
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una frase corretta.",
-      "words": ["deinen", "Nimm", "Mantel"],
+      "words": [
+        "deinen",
+        "Nimm",
+        "Mantel"
+      ],
       "answer": "Nimm deinen Mantel!",
       "explanation": "Imperativo du + accusativo maschile: deinen Mantel."
     },
@@ -104,6 +143,28 @@
       "sentence": "_____ bitte _____!",
       "answer": "Steht bitte auf!",
       "explanation": "Verbo separabile all'imperativo ihr-Form: Steht ... auf!"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Meine Mutter heißt Anna.",
+      "acceptable": [
+        "Meine Mutter heißt Anna.",
+        "Meine Mutter heisst Anna.",
+        "Meine Mutter heißt Anna"
+      ],
+      "hint": "Una frase su un membro della famiglia",
+      "translation": "Mia madre si chiama Anna."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Eins, zwei, drei, vier, fünf.",
+      "translation": "Uno, due, tre, quattro, cinque.",
+      "acceptable": [
+        "Eins, zwei, drei, vier, fünf.",
+        "Eins zwei drei vier fünf"
+      ]
     }
   ]
 }

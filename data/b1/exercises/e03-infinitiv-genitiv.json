@@ -185,6 +185,47 @@
         }
       ],
       "explanation": "'Wegen' (a causa di) è una preposizione che regge il genitivo: 'wegen des Regens'."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wenn ich du wäre, würde ich das nicht machen.",
+      "acceptable": [
+        "Wenn ich du wäre würde ich das nicht machen",
+        "Wenn ich du wäre, würde ich das nicht machen"
+      ],
+      "hint": "Congiuntivo: consiglio ipotetico",
+      "translation": "Se fossi in te, non lo farei."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Ich bin der Meinung, dass wir mehr recyceln sollten.",
+      "translation": "Sono dell'opinione che dovremmo riciclare di più.",
+      "acceptable": [
+        "Ich bin der Meinung dass wir mehr recyceln sollten",
+        "Ich bin der Meinung, dass wir mehr recyceln sollten"
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Das Problem könnte gelöst werden, wenn alle zusammenarbeiten.",
+      "acceptable": [
+        "Das Problem könnte gelöst werden wenn alle zusammenarbeiten",
+        "Das Problem könnte gelöst werden, wenn alle zusammenarbeiten"
+      ],
+      "hint": "Passivo con verbo modale al Konjunktiv II",
+      "translation": "Il problema potrebbe essere risolto se tutti collaborassero."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "An deiner Stelle würde ich den Job annehmen.",
+      "translation": "Al tuo posto, accetterei il lavoro.",
+      "acceptable": [
+        "An deiner Stelle würde ich den Job annehmen"
+      ]
     }
   ]
 }

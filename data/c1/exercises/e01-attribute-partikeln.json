@@ -29,7 +29,15 @@
     {
       "type": "fill-blank",
       "sentence": "Das vor drei Jahren ___ Unternehmen ist heute Marktführer.",
-      "blanks": [{ "position": 0, "correct": ["gegründete"], "hint": "Partizip II di 'gründen', declinato" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "gegründete"
+          ],
+          "hint": "Partizip II di 'gründen', declinato"
+        }
+      ],
       "translation": "L'azienda fondata tre anni fa e oggi leader di mercato."
     },
     {
@@ -47,7 +55,13 @@
     {
       "type": "reorder",
       "instruction": "Forma l'attributo esteso corretto:",
-      "words": ["die", "ständig", "steigenden", "Energiepreise", "immer"],
+      "words": [
+        "die",
+        "ständig",
+        "steigenden",
+        "Energiepreise",
+        "immer"
+      ],
       "correct": "die immer ständig steigenden Energiepreise",
       "translation": "I prezzi dell'energia in costante e continuo aumento."
     },
@@ -55,10 +69,22 @@
       "type": "matching",
       "instruction": "Collega ogni proposizione relativa al corrispondente attributo esteso.",
       "pairs": [
-        { "left": "Der Bericht, der kürzlich veröffentlicht wurde", "right": "der kürzlich veröffentlichte Bericht" },
-        { "left": "Die Kosten, die ständig steigen", "right": "die ständig steigenden Kosten" },
-        { "left": "Das Projekt, das von der EU finanziert wird", "right": "das von der EU finanzierte Projekt" },
-        { "left": "Die Debatte, die seit Monaten andauert", "right": "die seit Monaten andauernde Debatte" }
+        {
+          "left": "Der Bericht, der kürzlich veröffentlicht wurde",
+          "right": "der kürzlich veröffentlichte Bericht"
+        },
+        {
+          "left": "Die Kosten, die ständig steigen",
+          "right": "die ständig steigenden Kosten"
+        },
+        {
+          "left": "Das Projekt, das von der EU finanziert wird",
+          "right": "das von der EU finanzierte Projekt"
+        },
+        {
+          "left": "Die Debatte, die seit Monaten andauert",
+          "right": "die seit Monaten andauernde Debatte"
+        }
       ]
     },
     {
@@ -76,7 +102,15 @@
     {
       "type": "fill-blank",
       "sentence": "Können Sie mir ___ helfen?",
-      "blanks": [{ "position": 0, "correct": ["mal"], "hint": "Particella che ammorbidisce la richiesta" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "mal"
+          ],
+          "hint": "Particella che ammorbidisce la richiesta"
+        }
+      ],
       "translation": "Potrebbe darmi una mano? (tono amichevole)"
     },
     {
@@ -95,10 +129,22 @@
       "type": "matching",
       "instruction": "Collega ogni particella modale alla sua funzione principale.",
       "pairs": [
-        { "left": "denn", "right": "interesse / curiosita nelle domande" },
-        { "left": "ja", "right": "conoscenza condivisa / sorpresa" },
-        { "left": "wohl", "right": "supposizione / probabilita" },
-        { "left": "schon", "right": "rassicurazione / concessione" }
+        {
+          "left": "denn",
+          "right": "interesse / curiosita nelle domande"
+        },
+        {
+          "left": "ja",
+          "right": "conoscenza condivisa / sorpresa"
+        },
+        {
+          "left": "wohl",
+          "right": "supposizione / probabilita"
+        },
+        {
+          "left": "schon",
+          "right": "rassicurazione / concessione"
+        }
       ]
     },
     {
@@ -122,6 +168,69 @@
       ],
       "correct": 1,
       "explanation": "'Das ist ja toll!' con la particella 'ja' esprime sorpresa ed e molto piu naturale nel parlato. Senza 'ja', la frase suona piatta e 'da manuale'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Die im Rahmen der Untersuchung erhobenen Daten deuten auf einen signifikanten Zusammenhang hin.",
+      "question": "Cosa indicano i dati raccolti?",
+      "options": [
+        "Una contraddizione nei risultati",
+        "Una correlazione significativa",
+        "Un errore nella metodologia",
+        "Un andamento stabile"
+      ],
+      "correct": 1,
+      "explanation": "'auf einen Zusammenhang hindeuten' = indicare una correlazione. Attributo esteso: 'die im Rahmen der Untersuchung erhobenen Daten'."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Die in der Fachliteratur diskutierten Ansätze weisen erhebliche Unterschiede auf.",
+      "translation": "Gli approcci discussi nella letteratura specialistica presentano differenze considerevoli.",
+      "acceptable": [
+        "Die in der Fachliteratur diskutierten Ansätze weisen erhebliche Unterschiede auf",
+        "Die in der Fachliteratur diskutierten Ansaetze weisen erhebliche Unterschiede auf"
+      ],
+      "hint": "Attributo esteso. Pronuncia: Fachliteratur = 'fach-li-te-ra-tuur', erhebliche = 'er-heb-li-she'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Das lässt sich wohl kaum bestreiten.",
+      "question": "Qual è la sfumatura della particella modale 'wohl'?",
+      "options": [
+        "Indica certezza assoluta",
+        "Esprime un dubbio forte",
+        "Attenua l'affermazione, rendendola meno categorica",
+        "Esprime sorpresa"
+      ],
+      "correct": 2,
+      "explanation": "'wohl' come particella modale attenua l'affermazione. 'kaum bestreiten' = difficilmente contestare."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Nichtsdestotrotz lassen sich gewisse Parallelen erkennen.",
+      "translation": "Nondimeno si possono riconoscere certi paralleli.",
+      "acceptable": [
+        "Nichtsdestotrotz lassen sich gewisse Parallelen erkennen"
+      ],
+      "hint": "Pronuncia: Nichtsdestotrotz = 'nichts-desto-trots'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Er dürfte inzwischen angekommen sein.",
+      "question": "Cosa si suppone?",
+      "options": [
+        "Ha il permesso di arrivare",
+        "Probabilmente è già arrivato",
+        "Deve ancora partire",
+        "Non vuole venire"
+      ],
+      "correct": 1,
+      "explanation": "Verbo modale soggettivo: 'dürfte + Infinitiv Perfekt' esprime una supposizione probabile."
     }
   ]
 }

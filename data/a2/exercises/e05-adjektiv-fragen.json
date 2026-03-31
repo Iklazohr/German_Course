@@ -101,23 +101,55 @@
       "type": "matching",
       "instruction": "Abbina la forma dell'aggettivo corretta al contesto.",
       "pairs": [
-        { "left": "ein ___ Auto (schnell, Nom.)", "right": "schnelles" },
-        { "left": "der ___ Film (neu, Nom.)", "right": "neue" },
-        { "left": "mit ___ Freunden (gut, Dat. Pl.)", "right": "guten" },
-        { "left": "___ Kaffee (heiß, ohne Artikel, Nom.)", "right": "heißer" }
+        {
+          "left": "ein ___ Auto (schnell, Nom.)",
+          "right": "schnelles"
+        },
+        {
+          "left": "der ___ Film (neu, Nom.)",
+          "right": "neue"
+        },
+        {
+          "left": "mit ___ Freunden (gut, Dat. Pl.)",
+          "right": "guten"
+        },
+        {
+          "left": "___ Kaffee (heiß, ohne Artikel, Nom.)",
+          "right": "heißer"
+        }
       ]
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una domanda indiretta corretta.",
-      "words": ["Ich", "möchte", "wissen", ",", "wie", "du", "heißt"],
+      "words": [
+        "Ich",
+        "möchte",
+        "wissen",
+        ",",
+        "wie",
+        "du",
+        "heißt"
+      ],
       "answer": "Ich möchte wissen, wie du heißt.",
       "hint": "Frase principale + virgola + W-Wort + soggetto + verbo alla fine"
     },
     {
       "type": "reorder",
       "instruction": "Riordina le parole per formare una domanda indiretta corretta.",
-      "words": ["Können", "Sie", "mir", "sagen", ",", "ob", "es", "hier", "ein", "Hotel", "gibt"],
+      "words": [
+        "Können",
+        "Sie",
+        "mir",
+        "sagen",
+        ",",
+        "ob",
+        "es",
+        "hier",
+        "ein",
+        "Hotel",
+        "gibt"
+      ],
       "answer": "Können Sie mir sagen, ob es hier ein Hotel gibt?",
       "hint": "Frase introduttiva cortese + ob + ... + verbo alla fine"
     },
@@ -134,6 +166,52 @@
       "question": "Weißt du, ___ der Film anfängt?",
       "answer": "wann",
       "hint": "La domanda originale è: 'Wann fängt der Film an?' → si usa 'wann'"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wenn ich Zeit habe, gehe ich ins Kino.",
+      "acceptable": [
+        "Wenn ich Zeit habe gehe ich ins Kino",
+        "Wenn ich Zeit habe, gehe ich ins Kino",
+        "Wenn ich Zeit habe, gehe ich ins Kino."
+      ],
+      "hint": "Frase condizionale con 'wenn'",
+      "translation": "Quando ho tempo, vado al cinema."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Cosa hai fatto ieri sera?",
+      "prompt_audio": "Was hast du gestern Abend gemacht?",
+      "acceptable": [
+        "Ich habe",
+        "Gestern Abend habe ich",
+        "Ich bin"
+      ],
+      "explanation": "Rispondi con 'Ich habe ... gemacht/gesehen/gekocht' o 'Ich bin ... gegangen'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Ich habe eingekauft",
+          "meaning": "Ho fatto la spesa"
+        },
+        {
+          "audio_text": "Er hat geschlafen",
+          "meaning": "Lui ha dormito"
+        },
+        {
+          "audio_text": "Sie ist gelaufen",
+          "meaning": "Lei ha corso"
+        },
+        {
+          "audio_text": "Wir haben gekocht",
+          "meaning": "Abbiamo cucinato"
+        }
+      ]
     }
   ]
 }

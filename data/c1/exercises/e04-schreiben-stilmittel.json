@@ -146,6 +146,92 @@
       "given": "Hey, ich hab gesehen, dass ihr jemanden sucht. Ich bin echt gut in dem Bereich und würd mich freuen, bei euch anzufangen.",
       "answer": "Sehr geehrte Damen und Herren, mit großem Interesse habe ich Ihre Stellenausschreibung zur Kenntnis genommen. Aufgrund meiner einschlägigen Erfahrung in diesem Bereich bin ich überzeugt, einen wertvollen Beitrag zu Ihrem Unternehmen leisten zu können.",
       "hint": "Usate 'Sehr geehrte Damen und Herren', lessico formale e strutture impersonali."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come introdurresti un'obiezione in un contesto accademico?",
+      "prompt_audio": "Wie würden Sie in einem akademischen Kontext einen Einwand formulieren?",
+      "acceptable": [
+        "Man könnte einwenden",
+        "Dem ist entgegenzuhalten",
+        "Es lässt sich einwenden",
+        "Dagegen spricht",
+        "Kritisch anzumerken"
+      ],
+      "explanation": "Usa espressioni come 'Man könnte einwenden, dass...' o 'Dem ist entgegenzuhalten, dass...' o 'Kritisch anzumerken ist, dass...'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Da liegt der Hund begraben",
+          "meaning": "Questo è il punto cruciale (modo di dire)"
+        },
+        {
+          "audio_text": "Das steht auf einem anderen Blatt",
+          "meaning": "Questa è un'altra questione"
+        },
+        {
+          "audio_text": "Den Nagel auf den Kopf treffen",
+          "meaning": "Centrare il punto"
+        },
+        {
+          "audio_text": "Über den Tellerrand schauen",
+          "meaning": "Guardare oltre il proprio orizzonte"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come riassumeresti una tesi complessa in modo accademico?",
+      "prompt_audio": "Wie würden Sie eine komplexe These akademisch zusammenfassen?",
+      "acceptable": [
+        "Zusammenfassend lässt sich",
+        "Abschließend ist festzuhalten",
+        "Resümierend",
+        "Im Ergebnis",
+        "Insgesamt zeigt sich"
+      ],
+      "explanation": "Usa 'Zusammenfassend lässt sich feststellen, dass...' o 'Abschließend ist festzuhalten, dass...'"
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        {
+          "audio_text": "Er will es gesehen haben",
+          "meaning": "Sostiene di averlo visto (modale soggettivo)"
+        },
+        {
+          "audio_text": "Sie soll sehr kompetent sein",
+          "meaning": "Si dice che sia molto competente"
+        },
+        {
+          "audio_text": "Das mag stimmen",
+          "meaning": "Può darsi che sia vero"
+        },
+        {
+          "audio_text": "Er muss es gewusst haben",
+          "meaning": "Deve averlo saputo (deduzione)"
+        }
+      ]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come esprimeresti una supposizione prudente su un risultato di ricerca?",
+      "prompt_audio": "Wie würden Sie eine vorsichtige Vermutung über ein Forschungsergebnis ausdrücken?",
+      "acceptable": [
+        "Es dürfte",
+        "Es ist davon auszugehen",
+        "Es liegt nahe",
+        "Vermutlich",
+        "Man kann davon ausgehen"
+      ],
+      "explanation": "Usa 'Es dürfte sich um... handeln' o 'Es ist davon auszugehen, dass...' o 'Es liegt nahe, dass...'"
     }
   ]
 }

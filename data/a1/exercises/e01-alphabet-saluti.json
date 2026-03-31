@@ -6,14 +6,24 @@
     {
       "type": "multiple-choice",
       "question": "Come si pronuncia la lettera 'W' in tedesco?",
-      "options": ["Come la 'u' italiana", "Come la 'v' italiana", "Come la 'w' inglese", "Come la 'f' italiana"],
+      "options": [
+        "Come la 'u' italiana",
+        "Come la 'v' italiana",
+        "Come la 'w' inglese",
+        "Come la 'f' italiana"
+      ],
       "correct": 1,
       "explanation": "La 'W' tedesca si pronuncia come la 'v' italiana. Esempio: Wasser si pronuncia 'vasser'."
     },
     {
       "type": "multiple-choice",
       "question": "Qual è il saluto formale per il mattino?",
-      "options": ["Hallo", "Guten Morgen", "Tschüss", "Gute Nacht"],
+      "options": [
+        "Hallo",
+        "Guten Morgen",
+        "Tschüss",
+        "Gute Nacht"
+      ],
       "correct": 1,
       "explanation": "Guten Morgen è il saluto formale per il mattino (buongiorno)."
     },
@@ -21,29 +31,60 @@
       "type": "matching",
       "instruction": "Collega i saluti tedeschi alla traduzione italiana.",
       "pairs": [
-        { "left": "Guten Tag", "right": "Buongiorno" },
-        { "left": "Auf Wiedersehen", "right": "Arrivederci" },
-        { "left": "Gute Nacht", "right": "Buonanotte" },
-        { "left": "Tschüss", "right": "Ciao (congedo)" }
+        {
+          "left": "Guten Tag",
+          "right": "Buongiorno"
+        },
+        {
+          "left": "Auf Wiedersehen",
+          "right": "Arrivederci"
+        },
+        {
+          "left": "Gute Nacht",
+          "right": "Buonanotte"
+        },
+        {
+          "left": "Tschüss",
+          "right": "Ciao (congedo)"
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Come si dice 'Mi chiamo...' in tedesco?",
-      "options": ["Ich komme aus...", "Ich bin...", "Ich heiße...", "Ich wohne in..."],
+      "options": [
+        "Ich komme aus...",
+        "Ich bin...",
+        "Ich heiße...",
+        "Ich wohne in..."
+      ],
       "correct": 2,
       "explanation": "'Ich heiße...' significa 'Mi chiamo...'. Si può anche dire 'Mein Name ist...'."
     },
     {
       "type": "fill-blank",
       "sentence": "___ heißt du?",
-      "blanks": [{ "position": 0, "correct": ["Wie", "wie"], "hint": "parola interrogativa per 'come'" }],
+      "blanks": [
+        {
+          "position": 0,
+          "correct": [
+            "Wie",
+            "wie"
+          ],
+          "hint": "parola interrogativa per 'come'"
+        }
+      ],
       "translation": "Come ti chiami?"
     },
     {
       "type": "multiple-choice",
       "question": "Come si pronuncia 'sch' in tedesco?",
-      "options": ["Come 'sc' in 'scatola'", "Come 'sc' in 'scena'", "Come 'ch' in 'chiesa'", "Come 's' in 'sole'"],
+      "options": [
+        "Come 'sc' in 'scatola'",
+        "Come 'sc' in 'scena'",
+        "Come 'ch' in 'chiesa'",
+        "Come 's' in 'sole'"
+      ],
       "correct": 1,
       "explanation": "'sch' si pronuncia come 'sc' in 'scena' (il suono 'sh' inglese)."
     },
@@ -51,20 +92,35 @@
       "type": "translation",
       "direction": "it-to-de",
       "source": "Ciao! Come stai?",
-      "acceptable": ["Hallo! Wie geht's?", "Hallo! Wie gehts?", "Hallo! Wie geht es dir?"],
+      "acceptable": [
+        "Hallo! Wie geht's?",
+        "Hallo! Wie gehts?",
+        "Hallo! Wie geht es dir?"
+      ],
       "hint": "Ricorda: 'Come stai?' informale = 'Wie geht's?'"
     },
     {
       "type": "reorder",
       "instruction": "Metti le parole nell'ordine corretto:",
-      "words": ["aus", "komme", "Ich", "Italien", "."],
+      "words": [
+        "aus",
+        "komme",
+        "Ich",
+        "Italien",
+        "."
+      ],
       "correct": "Ich komme aus Italien .",
       "translation": "Vengo dall'Italia."
     },
     {
       "type": "multiple-choice",
       "question": "Come si pronuncia la lettera 'V' in tedesco?",
-      "options": ["Come la 'v' italiana", "Come la 'b' italiana", "Come la 'f' italiana", "Come la 'u' italiana"],
+      "options": [
+        "Come la 'v' italiana",
+        "Come la 'b' italiana",
+        "Come la 'f' italiana",
+        "Come la 'u' italiana"
+      ],
       "correct": 2,
       "explanation": "La 'V' tedesca si pronuncia come la 'f' italiana. Esempio: Vater (padre) si pronuncia 'fater'."
     },
@@ -72,11 +128,48 @@
       "type": "matching",
       "instruction": "Collega le domande alle risposte.",
       "pairs": [
-        { "left": "Wie heißt du?", "right": "Ich heiße Maria." },
-        { "left": "Woher kommst du?", "right": "Ich komme aus Italien." },
-        { "left": "Wie geht's?", "right": "Gut, danke!" },
-        { "left": "Was ist das?", "right": "Das ist ein Buch." }
+        {
+          "left": "Wie heißt du?",
+          "right": "Ich heiße Maria."
+        },
+        {
+          "left": "Woher kommst du?",
+          "right": "Ich komme aus Italien."
+        },
+        {
+          "left": "Wie geht's?",
+          "right": "Gut, danke!"
+        },
+        {
+          "left": "Was ist das?",
+          "right": "Das ist ein Buch."
+        }
       ]
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Guten Morgen!",
+      "question": "Cosa significa questo saluto?",
+      "options": [
+        "Buona sera!",
+        "Buon giorno!",
+        "Buona notte!",
+        "Arrivederci!"
+      ],
+      "correct": 1,
+      "explanation": "\"Guten Morgen\" significa \"Buon giorno\" e si usa al mattino."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Guten Tag! Ich heiße Marco.",
+      "translation": "Buon giorno! Mi chiamo Marco.",
+      "acceptable": [
+        "Guten Tag! Ich heiße Marco.",
+        "Guten Tag Ich heiße Marco"
+      ],
+      "hint": "La \"ß\" si pronuncia come una doppia S. \"Heiße\" suona come \"haisse\"."
     }
   ]
 }
