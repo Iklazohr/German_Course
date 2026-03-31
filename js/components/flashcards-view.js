@@ -329,9 +329,24 @@ export async function renderFlashcardDeck(deckId) {
 
         // Swipe support
         let touchStartX = 0;
+        let touchStartY = 0;
+        let swiping = false;
         const cardEl = page.querySelector('.fc-card-container');
-        cardEl.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
+        cardEl.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+            swiping = false;
+        }, { passive: true });
+        cardEl.addEventListener('touchmove', (e) => {
+            const dx = Math.abs(e.touches[0].clientX - touchStartX);
+            const dy = Math.abs(e.touches[0].clientY - touchStartY);
+            if (dx > dy && dx > 10) {
+                swiping = true;
+                e.preventDefault();
+            }
+        }, { passive: false });
         cardEl.addEventListener('touchend', (e) => {
+            if (!swiping) return;
             const dx = e.changedTouches[0].clientX - touchStartX;
             if (Math.abs(dx) > 60) {
                 if (dx < 0) {

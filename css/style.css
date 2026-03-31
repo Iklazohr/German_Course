@@ -234,6 +234,8 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     padding-bottom: calc(var(--bottom-nav-height) + 16px);
     min-height: 100vh;
     min-height: 100dvh;
+    transform-style: flat;
+    -webkit-transform-style: flat;
 }
 
 .page {
