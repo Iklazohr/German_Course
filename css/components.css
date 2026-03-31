@@ -1044,8 +1044,8 @@
 /* ===== Welcome Hero ===== */
 .hero {
     position: relative;
-    padding: 28px 24px 24px;
-    margin: 0 -16px 20px;
+    padding: 20px 20px 16px;
+    margin: 0 -16px 12px;
     text-align: center;
     overflow: hidden;
 }
@@ -1084,7 +1084,7 @@
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .hero h2 {
@@ -1101,7 +1101,7 @@
 .hero p {
     font-size: 1rem;
     color: var(--text-secondary);
-    margin: 0 auto 20px;
+    margin: 0 auto 16px;
     max-width: 36ch;
     text-wrap: balance;
     line-height: 1.5;
@@ -1219,7 +1219,7 @@
 
 @media (min-width: 768px) {
     .hero {
-        padding: 40px 32px 32px;
+        padding: 28px 32px 20px;
     }
 }
 
