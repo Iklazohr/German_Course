@@ -3,7 +3,6 @@
 import { renderPage, setHeaderTitle, showBackButton, shuffleArray } from '../renderer.js';
 import { navigate } from '../router.js';
 import { store } from '../store.js';
-import { animateCardExit, animateCardEnter } from '../animations.js';
 import { playCorrect, playCardFlip, playClick } from '../audio.js';
 
 const FLASHCARD_DECKS = [
@@ -139,10 +138,12 @@ export async function renderFlashcardDeck(deckId) {
     function animateCardTransition(direction, callback) {
         const cardEl = page.querySelector('#fc-main-card');
         if (!cardEl) { callback(); return; }
-        animateCardExit(cardEl, direction).then(() => {
+        const exitClass = direction === 'left' ? 'card-exit-left' : 'card-exit-right';
+        cardEl.classList.add(exitClass);
+        cardEl.addEventListener('animationend', () => {
             transitionDir = direction;
             callback();
-        });
+        }, { once: true });
     }
 
     function getFilteredCards() {
@@ -200,7 +201,7 @@ export async function renderFlashcardDeck(deckId) {
             <div class="fc-progress-text">${knownSet.size} / ${cards.length} sapute</div>
 
             <div class="fc-card-container">
-                <div class="fc-card ${isFlipped ? 'flipped' : ''}" id="fc-main-card" style="--level-color: ${levelColor}"
+                <div class="fc-card ${isFlipped ? 'flipped' : ''} ${transitionDir === 'left' ? 'card-enter-left' : transitionDir === 'right' ? 'card-enter-right' : ''}" id="fc-main-card" style="--level-color: ${levelColor}">
                     <div class="fc-card-front">
                         ${isNomen ? `
                             <div class="fc-article" style="color: ${articleColor}">${card.article}</div>
@@ -242,15 +243,20 @@ export async function renderFlashcardDeck(deckId) {
             </div>
         `;
 
-        // Apply enter animation via WAAPI
+        // Reset transition direction after enter animation plays
         const mainCard = page.querySelector('#fc-main-card');
         if (transitionDir) {
-            animateCardEnter(mainCard, transitionDir);
-            transitionDir = null;
+            const cleanup = () => {
+                mainCard.classList.remove('card-enter-left', 'card-enter-right');
+                transitionDir = null;
+            };
+            mainCard.addEventListener('animationend', cleanup, { once: true });
+            setTimeout(cleanup, 400);
         }
 
         // Event listeners
         mainCard.addEventListener('click', () => {
+            mainCard.classList.remove('card-enter-left', 'card-enter-right');
             isFlipped = !isFlipped;
             mainCard.classList.add('flipping');
             mainCard.classList.toggle('flipped', isFlipped);

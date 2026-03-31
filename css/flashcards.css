@@ -277,7 +277,42 @@
     transform: rotateY(180deg);
 }
 
-/* Deck transitions handled by WAAPI in animations.js */
+/* Deck transition: card slides out and new one slides in */
+.fc-card.card-exit-left {
+    animation: cardExitLeft 0.3s cubic-bezier(0.4, 0, 1, 1) forwards !important;
+}
+
+.fc-card.card-exit-right {
+    animation: cardExitRight 0.3s cubic-bezier(0.4, 0, 1, 1) forwards !important;
+}
+
+.fc-card.card-enter-left {
+    animation: cardEnterLeft 0.35s cubic-bezier(0, 0, 0.2, 1) both;
+}
+
+.fc-card.card-enter-right {
+    animation: cardEnterRight 0.35s cubic-bezier(0, 0, 0.2, 1) both;
+}
+
+@keyframes cardExitLeft {
+    0% { transform: translateX(0) scale(1); opacity: 1; }
+    100% { transform: translateX(-80%) scale(0.9) rotate(-4deg); opacity: 0; }
+}
+
+@keyframes cardExitRight {
+    0% { transform: translateX(0) scale(1); opacity: 1; }
+    100% { transform: translateX(80%) scale(0.9) rotate(4deg); opacity: 0; }
+}
+
+@keyframes cardEnterLeft {
+    0% { transform: translateX(60%) scale(0.92); opacity: 0; }
+    100% { transform: translateX(0) scale(1); opacity: 1; }
+}
+
+@keyframes cardEnterRight {
+    0% { transform: translateX(-60%) scale(0.92); opacity: 0; }
+    100% { transform: translateX(0) scale(1); opacity: 1; }
+}
 
 .fc-card-front, .fc-card-back {
     backface-visibility: hidden;

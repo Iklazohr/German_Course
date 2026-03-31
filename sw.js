@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v35';
+const CACHE_NAME = 'tedesco-facile-v36';
 
 // Listen for skip waiting message from the app
 self.addEventListener('message', (event) => {
