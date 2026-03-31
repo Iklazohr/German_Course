@@ -148,8 +148,13 @@ function renderGrammarLesson(data, lessonId, levelId, nextLessonId, nextLessonTy
         </div>
     `);
 
-    page.querySelector('#lesson-back').addEventListener('click', () => navigate(`/level/${levelId}`));
-    page.querySelector('#lesson-complete').addEventListener('click', () => {
+    const backBtn = page.querySelector('#lesson-back');
+    const completeBtn = page.querySelector('#lesson-complete');
+    const lsnFooter1 = page.querySelector('.lesson-footer');
+    if (lsnFooter1) page.parentElement.appendChild(lsnFooter1);
+
+    backBtn.addEventListener('click', () => navigate(`/level/${levelId}`));
+    completeBtn.addEventListener('click', () => {
         store.completeLesson(lessonId);
         playComplete();
         if (typeof window.applySettings === 'function') window.applySettings();
@@ -203,6 +208,11 @@ function renderVocabLesson(data, lessonId, levelId, nextLessonId, nextLessonType
         </div>
     `);
 
+    const backBtn2 = page.querySelector('#lesson-back');
+    const completeBtn2 = page.querySelector('#lesson-complete');
+    const lsnFooter2 = page.querySelector('.lesson-footer');
+    if (lsnFooter2) page.parentElement.appendChild(lsnFooter2);
+
     // Flip cards on click
     page.querySelectorAll('.vocab-card').forEach(card => {
         card.addEventListener('click', () => {
@@ -211,8 +221,8 @@ function renderVocabLesson(data, lessonId, levelId, nextLessonId, nextLessonType
         });
     });
 
-    page.querySelector('#lesson-back').addEventListener('click', () => navigate(`/level/${levelId}`));
-    page.querySelector('#lesson-complete').addEventListener('click', () => {
+    backBtn2.addEventListener('click', () => navigate(`/level/${levelId}`));
+    completeBtn2.addEventListener('click', () => {
         store.completeLesson(lessonId);
         playComplete();
         if (typeof window.applySettings === 'function') window.applySettings();

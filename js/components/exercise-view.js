@@ -77,6 +77,8 @@ export async function renderExercise(exerciseId) {
 
         const content = page.querySelector('#exercise-content');
         const checkBtn = page.querySelector('#exercise-check');
+        const exFooter = page.querySelector('.exercise-footer');
+        if (exFooter) page.parentElement.appendChild(exFooter);
         let answered = false;
         let userCorrect = false;
         let checkAnswer = null;
