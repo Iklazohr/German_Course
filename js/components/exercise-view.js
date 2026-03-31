@@ -8,6 +8,8 @@ import { renderMatching } from '../exercises/matching.js';
 import { renderTranslation } from '../exercises/translation.js';
 import { renderReorder } from '../exercises/reorder.js';
 import { renderSelectArticle } from '../exercises/select-article.js';
+import { renderListening } from '../exercises/listening.js';
+import { renderSpeaking } from '../exercises/speaking.js';
 
 export async function renderExercise(exerciseId) {
     const course = await loadCourseStructure();
@@ -110,6 +112,12 @@ export async function renderExercise(exerciseId) {
                 break;
             case 'select-article':
                 renderSelectArticle(content, exercise, onReady, onDirectAnswer);
+                break;
+            case 'listening':
+                renderListening(content, exercise, onReady, onDirectAnswer);
+                break;
+            case 'speaking':
+                renderSpeaking(content, exercise, onReady, onDirectAnswer);
                 break;
             default:
                 content.innerHTML = `<p>Tipo di esercizio non supportato: ${exercise.type}</p>`;

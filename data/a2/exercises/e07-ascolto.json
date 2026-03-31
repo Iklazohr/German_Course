@@ -1,0 +1,95 @@
+{
+  "id": "a2-e07",
+  "level": "a2",
+  "title": "Ascolto: Conversazioni quotidiane",
+  "exercises": [
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Gestern habe ich einen Kuchen gebacken.",
+      "question": "Cosa ha fatto la persona ieri?",
+      "options": ["Ha comprato una torta", "Ha preparato una torta", "Ha mangiato una torta", "Ha ordinato una torta"],
+      "correct": 1,
+      "explanation": "'einen Kuchen gebacken' = preparato/fatto una torta. 'backen' al Perfekt: 'haben + gebacken'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Ich bin letztes Wochenende nach München gefahren.",
+      "question": "Dove è andata la persona?",
+      "options": ["A Berlino", "A Monaco", "Ad Amburgo", "A Francoforte"],
+      "correct": 1,
+      "explanation": "'München' = Monaco di Baviera. 'gefahren' = andato (in viaggio)."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Weil es regnet, bleibe ich heute zu Hause.",
+      "question": "Perché la persona resta a casa?",
+      "options": ["Perché è stanca", "Perché piove", "Perché è malata", "Perché lavora da casa"],
+      "correct": 1,
+      "explanation": "'Weil es regnet' = Perché piove. Nota la posizione del verbo nella frase con 'weil'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Ich muss zum Arzt gehen, weil ich Kopfschmerzen habe.",
+      "question": "Perché deve andare dal medico?",
+      "options": ["Ha mal di stomaco", "Ha mal di testa", "Ha la febbre", "Ha mal di denti"],
+      "correct": 1,
+      "explanation": "'Kopfschmerzen' = mal di testa (Kopf = testa, Schmerzen = dolori)."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Hast du gestern den Film gesehen?",
+      "acceptable": ["Hast du gestern den Film gesehen", "Hast du gestern den Film gesehen?"],
+      "hint": "Domanda al Perfekt con 'sehen'",
+      "translation": "Hai visto il film ieri?"
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wir haben uns im Park getroffen.",
+      "acceptable": ["Wir haben uns im Park getroffen", "Wir haben uns im Park getroffen."],
+      "hint": "Verbo riflessivo al Perfekt",
+      "translation": "Ci siamo incontrati al parco."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Ich finde, dass Deutsch interessant ist.",
+      "acceptable": ["Ich finde dass Deutsch interessant ist", "Ich finde, dass Deutsch interessant ist", "Ich finde, dass Deutsch interessant ist."],
+      "hint": "Frase subordinata con 'dass'",
+      "translation": "Trovo che il tedesco sia interessante."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wenn ich Zeit habe, gehe ich ins Kino.",
+      "acceptable": ["Wenn ich Zeit habe gehe ich ins Kino", "Wenn ich Zeit habe, gehe ich ins Kino", "Wenn ich Zeit habe, gehe ich ins Kino."],
+      "hint": "Frase condizionale con 'wenn'",
+      "translation": "Quando ho tempo, vado al cinema."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        { "audio_text": "Ich habe eingekauft", "meaning": "Ho fatto la spesa" },
+        { "audio_text": "Er hat geschlafen", "meaning": "Lui ha dormito" },
+        { "audio_text": "Sie ist gelaufen", "meaning": "Lei ha corso" },
+        { "audio_text": "Wir haben gekocht", "meaning": "Abbiamo cucinato" }
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        { "audio_text": "die Apotheke", "meaning": "la farmacia" },
+        { "audio_text": "das Krankenhaus", "meaning": "l'ospedale" },
+        { "audio_text": "die Bäckerei", "meaning": "la panetteria" },
+        { "audio_text": "das Rathaus", "meaning": "il municipio" }
+      ]
+    }
+  ]
+}

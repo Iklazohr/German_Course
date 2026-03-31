@@ -119,6 +119,15 @@
             { "id": "a1-ref02", "type": "grammar", "file": "a1/grammar/g19-tabelle-verbi.json", "title": "📋 Tabella rapida: Coniugazione verbi" }
           ],
           "review": { "id": "a1-r06", "file": "a1/review/r06-final-test.json", "title": "Test finale A1" }
+        },
+        {
+          "id": "a1-u11",
+          "title": "Esercizi vocali",
+          "lessons": [
+            { "id": "a1-e11", "type": "exercise", "file": "a1/exercises/e11-ascolto.json", "title": "Ascolto: Primi suoni tedeschi" },
+            { "id": "a1-e12", "type": "exercise", "file": "a1/exercises/e12-parlato.json", "title": "Parlato: Prime parole tedesche" }
+          ],
+          "review": null
         }
       ]
     },
@@ -198,6 +207,15 @@
             { "id": "a2-ref02", "type": "grammar", "file": "a2/grammar/g14-tabelle-aggettivi.json", "title": "📋 Tabella rapida: Declinazione aggettivi" }
           ],
           "review": { "id": "a2-r04", "file": "a2/review/r04-final-test.json", "title": "Test finale A2" }
+        },
+        {
+          "id": "a2-u7",
+          "title": "Esercizi vocali",
+          "lessons": [
+            { "id": "a2-e07", "type": "exercise", "file": "a2/exercises/e07-ascolto.json", "title": "Ascolto: Conversazioni quotidiane" },
+            { "id": "a2-e08", "type": "exercise", "file": "a2/exercises/e08-parlato.json", "title": "Parlato: Raccontare esperienze" }
+          ],
+          "review": null
         }
       ]
     },
@@ -266,6 +284,15 @@
             { "id": "b1-ref02", "type": "grammar", "file": "b1/grammar/g12-tabelle-nebensaetze.json", "title": "📋 Tabella rapida: Subordinate e connettori" }
           ],
           "review": { "id": "b1-r03", "file": "b1/review/r03-final-test.json", "title": "Test finale B1" }
+        },
+        {
+          "id": "b1-u6",
+          "title": "Esercizi vocali",
+          "lessons": [
+            { "id": "b1-e06", "type": "exercise", "file": "b1/exercises/e06-ascolto.json", "title": "Ascolto: Capire opinioni e ipotesi" },
+            { "id": "b1-e07", "type": "exercise", "file": "b1/exercises/e07-parlato.json", "title": "Parlato: Esprimere opinioni" }
+          ],
+          "review": null
         }
       ]
     },
@@ -320,6 +347,15 @@
             { "id": "b2-e04", "type": "exercise", "file": "b2/exercises/e04-textkohaesion.json", "title": "Esercizi: Coesione e modalità" }
           ],
           "review": { "id": "b2-r02", "file": "b2/review/r02-final-test.json", "title": "Test finale B2" }
+        },
+        {
+          "id": "b2-u5",
+          "title": "Esercizi vocali",
+          "lessons": [
+            { "id": "b2-e05", "type": "exercise", "file": "b2/exercises/e05-ascolto.json", "title": "Ascolto: Argomentazione avanzata" },
+            { "id": "b2-e06", "type": "exercise", "file": "b2/exercises/e06-parlato.json", "title": "Parlato: Linguaggio formale" }
+          ],
+          "review": null
         }
       ]
     },
@@ -375,6 +411,15 @@
             { "id": "c1-e04", "type": "exercise", "file": "c1/exercises/e04-schreiben-stilmittel.json", "title": "Esercizi: Scrittura e retorica" }
           ],
           "review": { "id": "c1-r02", "file": "c1/review/r02-final-test.json", "title": "Test finale C1" }
+        },
+        {
+          "id": "c1-u5",
+          "title": "Esercizi vocali",
+          "lessons": [
+            { "id": "c1-e05", "type": "exercise", "file": "c1/exercises/e05-ascolto.json", "title": "Ascolto: Lingua accademica e idiomatica" },
+            { "id": "c1-e06", "type": "exercise", "file": "c1/exercises/e06-parlato.json", "title": "Parlato: Registro accademico" }
+          ],
+          "review": null
         }
       ]
     }

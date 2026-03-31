@@ -1,0 +1,84 @@
+{
+  "id": "c1-e06",
+  "level": "c1",
+  "title": "Parlato: Registro accademico",
+  "exercises": [
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Die in der Fachliteratur diskutierten Ansätze weisen erhebliche Unterschiede auf.",
+      "translation": "Gli approcci discussi nella letteratura specialistica presentano differenze considerevoli.",
+      "acceptable": ["Die in der Fachliteratur diskutierten Ansätze weisen erhebliche Unterschiede auf", "Die in der Fachliteratur diskutierten Ansaetze weisen erhebliche Unterschiede auf"],
+      "hint": "Attributo esteso. Pronuncia: Fachliteratur = 'fach-li-te-ra-tuur', erhebliche = 'er-heb-li-she'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Nichtsdestotrotz lassen sich gewisse Parallelen erkennen.",
+      "translation": "Nondimeno si possono riconoscere certi paralleli.",
+      "acceptable": ["Nichtsdestotrotz lassen sich gewisse Parallelen erkennen"],
+      "hint": "Pronuncia: Nichtsdestotrotz = 'nichts-desto-trots'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Es lässt sich feststellen, dass die Ergebnisse die Hypothese weitgehend bestätigen.",
+      "translation": "Si può constatare che i risultati confermano ampiamente l'ipotesi.",
+      "acceptable": ["Es lässt sich feststellen dass die Ergebnisse die Hypothese weitgehend bestätigen", "Es lässt sich feststellen, dass die Ergebnisse die Hypothese weitgehend bestätigen"],
+      "hint": "Pronuncia: Hypothese = 'hü-po-tee-ze', weitgehend = 'vait-ghe-hend'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Darüber hinaus ist zu berücksichtigen, dass externe Faktoren eine Rolle spielen.",
+      "translation": "Inoltre, bisogna considerare che fattori esterni giocano un ruolo.",
+      "acceptable": ["Darüber hinaus ist zu berücksichtigen dass externe Faktoren eine Rolle spielen", "Darüber hinaus ist zu berücksichtigen, dass externe Faktoren eine Rolle spielen"],
+      "hint": "Pronuncia: berücksichtigen = 'be-rük-sich-ti-gen'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Im Hinblick auf die gegenwärtige Entwicklung scheint ein Umdenken erforderlich.",
+      "translation": "In considerazione dell'attuale sviluppo, sembra necessario un ripensamento.",
+      "acceptable": ["Im Hinblick auf die gegenwärtige Entwicklung scheint ein Umdenken erforderlich", "Im Hinblick auf die gegenwaertige Entwicklung scheint ein Umdenken erforderlich"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Die Frage, inwieweit diese Annahme zutrifft, bleibt offen.",
+      "translation": "La questione se e in quale misura questa ipotesi sia corretta resta aperta.",
+      "acceptable": ["Die Frage inwieweit diese Annahme zutrifft bleibt offen", "Die Frage, inwieweit diese Annahme zutrifft, bleibt offen"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Man könnte einwenden, dass dieser Standpunkt zu einseitig ist.",
+      "translation": "Si potrebbe obiettare che questo punto di vista è troppo unilaterale.",
+      "acceptable": ["Man könnte einwenden dass dieser Standpunkt zu einseitig ist", "Man könnte einwenden, dass dieser Standpunkt zu einseitig ist"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come introdurresti un'obiezione in un contesto accademico?",
+      "prompt_audio": "Wie würden Sie in einem akademischen Kontext einen Einwand formulieren?",
+      "acceptable": ["Man könnte einwenden", "Dem ist entgegenzuhalten", "Es lässt sich einwenden", "Dagegen spricht", "Kritisch anzumerken"],
+      "explanation": "Usa espressioni come 'Man könnte einwenden, dass...' o 'Dem ist entgegenzuhalten, dass...' o 'Kritisch anzumerken ist, dass...'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come riassumeresti una tesi complessa in modo accademico?",
+      "prompt_audio": "Wie würden Sie eine komplexe These akademisch zusammenfassen?",
+      "acceptable": ["Zusammenfassend lässt sich", "Abschließend ist festzuhalten", "Resümierend", "Im Ergebnis", "Insgesamt zeigt sich"],
+      "explanation": "Usa 'Zusammenfassend lässt sich feststellen, dass...' o 'Abschließend ist festzuhalten, dass...'"
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Come esprimeresti una supposizione prudente su un risultato di ricerca?",
+      "prompt_audio": "Wie würden Sie eine vorsichtige Vermutung über ein Forschungsergebnis ausdrücken?",
+      "acceptable": ["Es dürfte", "Es ist davon auszugehen", "Es liegt nahe", "Vermutlich", "Man kann davon ausgehen"],
+      "explanation": "Usa 'Es dürfte sich um... handeln' o 'Es ist davon auszugehen, dass...' o 'Es liegt nahe, dass...'"
+    }
+  ]
+}

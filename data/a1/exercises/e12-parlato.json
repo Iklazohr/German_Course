@@ -1,0 +1,84 @@
+{
+  "id": "a1-e12",
+  "level": "a1",
+  "title": "Parlato: Prime parole tedesche",
+  "exercises": [
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Guten Tag! Ich heiße Marco.",
+      "translation": "Buon giorno! Mi chiamo Marco.",
+      "acceptable": ["Guten Tag! Ich heiße Marco.", "Guten Tag Ich heiße Marco"],
+      "hint": "La \"ß\" si pronuncia come una doppia S. \"Heiße\" suona come \"haisse\"."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Ich möchte einen Kaffee, bitte.",
+      "translation": "Vorrei un caffè, per favore.",
+      "acceptable": ["Ich möchte einen Kaffee, bitte.", "Ich möchte einen Kaffee bitte"],
+      "hint": "La \"ö\" si pronuncia stringendo le labbra come per la \"o\" ma dicendo \"e\". \"Möchte\" suona come \"moechteh\"."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Wo ist die Schule?",
+      "translation": "Dov'è la scuola?",
+      "acceptable": ["Wo ist die Schule?", "Wo ist die Schule"],
+      "hint": "\"Sch\" si pronuncia come la \"sc\" italiana di \"scena\". \"Schule\" suona come \"sciule\"."
+    },
+    {
+      "type": "speaking",
+      "subtype": "read-aloud",
+      "text": "Es ist fünf Uhr.",
+      "translation": "Sono le cinque.",
+      "acceptable": ["Es ist fünf Uhr.", "Es ist fünf Uhr"],
+      "hint": "La \"ü\" si pronuncia stringendo le labbra come per la \"u\" ma dicendo \"i\". \"Fünf\" suona come \"fuenf\"."
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Ich spreche ein bisschen Deutsch.",
+      "translation": "Parlo un po' di tedesco.",
+      "acceptable": ["Ich spreche ein bisschen Deutsch.", "Ich spreche ein bisschen Deutsch"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Mädchen, Bücher, schön, Küche.",
+      "translation": "Ragazza, libri, bello, cucina.",
+      "acceptable": ["Mädchen, Bücher, schön, Küche.", "Mädchen Bücher schön Küche"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "repeat-after-me",
+      "text": "Eins, zwei, drei, vier, fünf.",
+      "translation": "Uno, due, tre, quattro, cinque.",
+      "acceptable": ["Eins, zwei, drei, vier, fünf.", "Eins zwei drei vier fünf"]
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Saluta qualcuno al mattino in tedesco.",
+      "prompt_audio": "Wie begrüßt du jemanden am Morgen?",
+      "acceptable": ["Guten Morgen!", "Guten Morgen"],
+      "explanation": "Il saluto del mattino in tedesco è \"Guten Morgen!\" (Buon giorno!)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Presentati dicendo il tuo nome in tedesco. Usa il nome 'Marco'.",
+      "prompt_audio": "Wie heißt du?",
+      "acceptable": ["Ich heiße Marco.", "Ich heiße Marco", "Ich bin Marco.", "Ich bin Marco", "Mein Name ist Marco.", "Mein Name ist Marco"],
+      "explanation": "Per presentarsi si dice \"Ich heiße...\" (Mi chiamo...) oppure \"Ich bin...\" (Sono...)."
+    },
+    {
+      "type": "speaking",
+      "subtype": "answer-vocally",
+      "question": "Ringrazia qualcuno in tedesco.",
+      "prompt_audio": "Hier ist dein Kaffee.",
+      "acceptable": ["Danke!", "Danke schön!", "Vielen Dank!", "Danke", "Danke schön", "Vielen Dank"],
+      "explanation": "Per ringraziare si dice \"Danke!\" (Grazie!), \"Danke schön!\" (Grazie mille!) o \"Vielen Dank!\" (Molte grazie!)."
+    }
+  ]
+}

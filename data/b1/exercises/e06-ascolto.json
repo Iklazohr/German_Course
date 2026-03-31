@@ -1,0 +1,95 @@
+{
+  "id": "b1-e06",
+  "level": "b1",
+  "title": "Ascolto: Capire opinioni e ipotesi",
+  "exercises": [
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Wenn ich mehr Geld hätte, würde ich eine Weltreise machen.",
+      "question": "Cosa farebbe la persona se avesse più soldi?",
+      "options": ["Comprerebbe una casa", "Farebbe un viaggio intorno al mondo", "Cambierebbe lavoro", "Si trasferirebbe"],
+      "correct": 1,
+      "explanation": "'eine Weltreise machen' = fare un viaggio intorno al mondo. Konjunktiv II: 'hätte...würde'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Das Haus wurde letztes Jahr renoviert.",
+      "question": "Cosa è successo alla casa?",
+      "options": ["È stata venduta", "È stata ristrutturata", "È stata demolita", "È stata costruita"],
+      "correct": 1,
+      "explanation": "'renoviert' = ristrutturata. Forma passiva: 'wurde + Partizip II'."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Er sagte, er sei krank und könne nicht zur Arbeit kommen.",
+      "question": "Cosa ha riferito la persona?",
+      "options": ["Che è in vacanza", "Che è malato e non può venire al lavoro", "Che arriverà in ritardo", "Che ha un appuntamento"],
+      "correct": 1,
+      "explanation": "Discorso indiretto con Konjunktiv I: 'sei krank' = è malato, 'könne nicht kommen' = non può venire."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-choose",
+      "audio_text": "Meiner Meinung nach sollte man mehr für die Umwelt tun.",
+      "question": "Qual è l'opinione della persona?",
+      "options": ["Bisogna lavorare di più", "Bisogna fare di più per l'ambiente", "Bisogna viaggiare meno", "Bisogna risparmiare di più"],
+      "correct": 1,
+      "explanation": "'Meiner Meinung nach' = Secondo me. 'für die Umwelt tun' = fare per l'ambiente."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Wenn ich du wäre, würde ich das nicht machen.",
+      "acceptable": ["Wenn ich du wäre würde ich das nicht machen", "Wenn ich du wäre, würde ich das nicht machen"],
+      "hint": "Congiuntivo: consiglio ipotetico",
+      "translation": "Se fossi in te, non lo farei."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Das Problem könnte gelöst werden, wenn alle zusammenarbeiten.",
+      "acceptable": ["Das Problem könnte gelöst werden wenn alle zusammenarbeiten", "Das Problem könnte gelöst werden, wenn alle zusammenarbeiten"],
+      "hint": "Passivo con verbo modale al Konjunktiv II",
+      "translation": "Il problema potrebbe essere risolto se tutti collaborassero."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Es ist wichtig, dass wir die Umwelt schützen.",
+      "acceptable": ["Es ist wichtig dass wir die Umwelt schützen", "Es ist wichtig, dass wir die Umwelt schützen"],
+      "hint": "Frase con 'dass' + infinito alla fine",
+      "translation": "È importante che proteggiamo l'ambiente."
+    },
+    {
+      "type": "listening",
+      "subtype": "dictation",
+      "audio_text": "Obwohl er müde war, hat er weiter gearbeitet.",
+      "acceptable": ["Obwohl er müde war hat er weiter gearbeitet", "Obwohl er müde war, hat er weiter gearbeitet"],
+      "hint": "Concessiva con 'obwohl'",
+      "translation": "Anche se era stanco, ha continuato a lavorare."
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        { "audio_text": "Ich hätte gern einen Kaffee", "meaning": "Vorrei un caffè (cortese)" },
+        { "audio_text": "Könnten Sie das bitte wiederholen?", "meaning": "Potrebbe ripeterlo, per favore?" },
+        { "audio_text": "Würden Sie mir bitte helfen?", "meaning": "Mi aiuterebbe, per favore?" },
+        { "audio_text": "Es wäre schön, wenn Sie kommen könnten", "meaning": "Sarebbe bello se potesse venire" }
+      ]
+    },
+    {
+      "type": "listening",
+      "subtype": "listen-match",
+      "pairs": [
+        { "audio_text": "Das Buch wird gelesen", "meaning": "Il libro viene letto (presente passivo)" },
+        { "audio_text": "Das Buch wurde gelesen", "meaning": "Il libro fu letto (passato passivo)" },
+        { "audio_text": "Das Buch ist gelesen worden", "meaning": "Il libro è stato letto (Perfekt passivo)" },
+        { "audio_text": "Das Buch muss gelesen werden", "meaning": "Il libro deve essere letto (modale passivo)" }
+      ]
+    }
+  ]
+}
