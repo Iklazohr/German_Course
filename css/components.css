@@ -987,7 +987,7 @@
 
 @media (min-width: 768px) {
     .lesson-footer {
-        left: 80px;
+        left: 0;
         bottom: 0;
     }
 }

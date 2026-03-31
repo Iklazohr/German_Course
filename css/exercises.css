@@ -562,7 +562,7 @@
 
 @media (min-width: 768px) {
     .exercise-footer {
-        left: 80px;
+        left: 0;
         bottom: 0;
     }
 }

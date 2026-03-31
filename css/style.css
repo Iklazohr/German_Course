@@ -580,27 +580,35 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     :root { --bottom-nav-height: 0px; }
 
     #bottom-nav {
-        top: 0; bottom: auto; left: 0; right: auto;
-        width: 80px;
-        height: 100vh; height: 100dvh;
+        top: 50%;
+        bottom: auto;
+        left: 12px;
+        right: auto;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        padding: calc(var(--header-height) + env(safe-area-inset-top, 0) + 16px) 8px 16px;
+        padding: 8px;
         border-top: none;
-        border-right: 1px solid var(--border);
-        backdrop-filter: none;
-        background: var(--surface);
+        border-right: none;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        background: var(--surface-glass);
         gap: 4px;
+        z-index: 100;
     }
 
     .nav-item {
         flex-direction: column;
-        width: 64px;
+        width: 56px;
         padding: 10px 8px;
-        font-size: 0.65rem;
-        gap: 4px;
-        border-radius: var(--radius-xl);
+        font-size: 0.6rem;
+        gap: 3px;
+        border-radius: 14px;
     }
 
     .nav-item.active {
@@ -608,8 +616,8 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
         color: var(--primary);
     }
 
-    #app-header { left: 80px; padding-left: 16px; }
-    #app-main { margin-left: 80px; padding-bottom: 16px; }
+    #app-header { left: 0; padding-left: 16px; }
+    #app-main { margin-left: 0; padding-bottom: 16px; }
     .page { padding: 24px; max-width: 800px; margin: 0 auto; }
 }
 
