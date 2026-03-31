@@ -191,11 +191,12 @@ addRoute('/account', () => renderAuthPage());
 
 // Header scroll effect
 let ticking = false;
-window.addEventListener('scroll', () => {
+const appMain = document.getElementById('app-main');
+if (appMain) appMain.addEventListener('scroll', () => {
     if (!ticking) {
         requestAnimationFrame(() => {
             const header = document.getElementById('app-header');
-            if (header) header.classList.toggle('header-scrolled', window.scrollY > 10);
+            if (header) header.classList.toggle('header-scrolled', appMain.scrollTop > 10);
             ticking = false;
         });
         ticking = true;
