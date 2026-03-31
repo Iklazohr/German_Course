@@ -77,6 +77,7 @@ export async function renderExercise(exerciseId) {
 
         const content = page.querySelector('#exercise-content');
         const checkBtn = page.querySelector('#exercise-check');
+        const skipBtnRef = page.querySelector('#exercise-skip');
         const exFooter = page.querySelector('.exercise-footer');
         if (exFooter) page.parentElement.appendChild(exFooter);
         let answered = false;
@@ -151,9 +152,8 @@ export async function renderExercise(exerciseId) {
         });
 
         // Skip button for vocal exercises
-        const skipBtn = page.querySelector('#exercise-skip');
-        if (skipBtn) {
-            skipBtn.addEventListener('click', () => {
+        if (skipBtnRef) {
+            skipBtnRef.addEventListener('click', () => {
                 stopSpeaking();
                 stopListening();
                 total--;
