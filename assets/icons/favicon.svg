@@ -1,17 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
     </linearGradient>
   </defs>
   <rect width="32" height="32" rx="7" fill="url(#bg)"/>
-  <!-- Open book -->
-  <g transform="translate(16,15)">
-    <path d="M-1,8 L-1,-6 Q-1,-9 -3,-9 L-10,-9 Q-12,-9 -12,-6 L-12,8 Q-12,9 -11,9 L-2,9 Q-1,9 -1,8Z" fill="rgba(255,255,255,0.2)"/>
-    <path d="M1,8 L1,-6 Q1,-9 3,-9 L10,-9 Q12,-9 12,-6 L12,8 Q12,9 11,9 L2,9 Q1,9 1,8Z" fill="rgba(255,255,255,0.28)"/>
-    <path d="M-1,-9 Q0,-7 1,-9" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="0.8"/>
-  </g>
-  <!-- DE text -->
-  <text x="16" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" font-weight="800" fill="rgba(255,255,255,0.9)" letter-spacing="-0.3">DE</text>
+  <!-- T letterform -->
+  <text x="16" y="24" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="white">T</text>
+  <!-- Umlaut dots -->
+  <circle cx="12.5" cy="5.5" r="1.8" fill="white" opacity="0.9"/>
+  <circle cx="19.5" cy="5.5" r="1.8" fill="white" opacity="0.9"/>
 </svg>
