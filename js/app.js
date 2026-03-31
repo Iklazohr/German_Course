@@ -91,41 +91,43 @@ function showStreakCalendar() {
         // Adjust firstDay: JS uses 0=Sun, we want 0=Mon
         const startOffset = (firstDay + 6) % 7;
 
-        // Build array of active flags for streak detection
+        // Build array with grid column info for streak bar rendering
         const monthDates = [];
         for (let d = 1; d <= daysInMonth; d++) {
             const ds = `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-            monthDates.push({ day: d, date: ds, active: activeDates.has(ds) });
+            const col = (startOffset + d - 1) % 7; // 0=Mon, 6=Sun
+            monthDates.push({ day: d, date: ds, active: activeDates.has(ds), col });
         }
 
-        // Check previous/next month for streak continuity at edges
-        const lastDayPrevMonth = new Date(viewYear, viewMonth, 0);
-        const prevMonthLastDate = `${lastDayPrevMonth.getFullYear()}-${String(lastDayPrevMonth.getMonth() + 1).padStart(2, '0')}-${String(lastDayPrevMonth.getDate()).padStart(2, '0')}`;
-        const prevMonthActive = activeDates.has(prevMonthLastDate);
-
-        const firstDayNextMonth = new Date(viewYear, viewMonth + 1, 1);
-        const nextMonthFirstDate = `${firstDayNextMonth.getFullYear()}-${String(firstDayNextMonth.getMonth() + 1).padStart(2, '0')}-01`;
-        const nextMonthActive = activeDates.has(nextMonthFirstDate);
+        // Check adjacent months for streak continuity
+        const prevMonthLastDay = new Date(viewYear, viewMonth, 0);
+        const prevDs = `${prevMonthLastDay.getFullYear()}-${String(prevMonthLastDay.getMonth() + 1).padStart(2, '0')}-${String(prevMonthLastDay.getDate()).padStart(2, '0')}`;
+        const prevMonthActive = activeDates.has(prevDs);
+        const nextDs = `${new Date(viewYear, viewMonth + 1, 1).getFullYear()}-${String(new Date(viewYear, viewMonth + 1, 1).getMonth() + 1).padStart(2, '0')}-01`;
+        const nextMonthActive = activeDates.has(nextDs);
 
         let daysHtml = dayNames.map(d => `<div class="cal-day-name">${d}</div>`).join('');
         for (let i = 0; i < startOffset; i++) daysHtml += '<div class="cal-day empty"></div>';
+
         for (let i = 0; i < monthDates.length; i++) {
-            const { day, date, active } = monthDates[i];
+            const { day, date, active, col } = monthDates[i];
             const isToday = date === today;
-            const prevActive = i > 0 ? monthDates[i - 1].active : prevMonthActive;
-            const nextActive = i < monthDates.length - 1 ? monthDates[i + 1].active : nextMonthActive;
+            const prevDayActive = i > 0 ? monthDates[i - 1].active : prevMonthActive;
+            const nextDayActive = i < monthDates.length - 1 ? monthDates[i + 1].active : nextMonthActive;
 
-            let streakClass = '';
-            if (active) {
-                const hasPrev = prevActive;
-                const hasNext = nextActive;
-                if (hasPrev && hasNext) streakClass = ' streak-mid';
-                else if (hasPrev && !hasNext) streakClass = ' streak-end';
-                else if (!hasPrev && hasNext) streakClass = ' streak-start';
-                else streakClass = ' streak-single';
-            }
+            // Duolingo-style: bars connect circles within the same row
+            // Connect left if prev day active AND we're not in col 0 (Monday)
+            const connectLeft = active && prevDayActive && col > 0;
+            // Connect right if next day active AND we're not in col 6 (Sunday)
+            const connectRight = active && nextDayActive && col < 6;
 
-            daysHtml += `<div class="cal-day${active ? ' active' : ''}${isToday ? ' today' : ''}${streakClass}">${day}</div>`;
+            let cls = 'cal-day';
+            if (active) cls += ' active';
+            if (isToday) cls += ' today';
+            if (connectLeft) cls += ' connect-left';
+            if (connectRight) cls += ' connect-right';
+
+            daysHtml += `<div class="${cls}">${day}</div>`;
         }
 
         modal.innerHTML = `

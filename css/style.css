@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 .cal-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 3px 0;
+    gap: 4px 0;
     text-align: center;
 }
 
@@ -459,62 +459,86 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 }
 
 .cal-day {
-    height: 36px;
+    height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
     font-size: 0.8rem;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: var(--text-tertiary);
+    position: relative;
 }
 
 .cal-day.empty {
     visibility: hidden;
 }
 
+/* Active day: colored circle */
 .cal-day.active {
-    background: var(--primary);
     color: #fff;
     font-weight: 700;
-    position: relative;
+    z-index: 1;
 }
 
-.cal-day.active.streak-single {
+.cal-day.active::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
     border-radius: 50%;
-    box-shadow: 0 2px 8px var(--primary-glow);
+    background: var(--primary);
+    z-index: -1;
 }
 
-.cal-day.active.streak-start {
-    border-radius: 50% 0 0 50%;
-    margin-right: -2px;
-    padding-right: 2px;
-}
-
-.cal-day.active.streak-mid {
+/* Connecting bar to the RIGHT (::before on the NEXT cell won't work, so we extend ::after) */
+.cal-day.active.connect-right::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -50%;
+    height: 32px;
+    transform: translateY(-50%);
+    background: color-mix(in srgb, var(--primary) 25%, transparent);
+    z-index: -2;
     border-radius: 0;
-    margin-left: -2px;
-    margin-right: -2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    background: var(--primary-muted);
 }
 
-.cal-day.active.streak-end {
-    border-radius: 0 50% 50% 0;
-    margin-left: -2px;
-    padding-left: 2px;
-    box-shadow: 0 2px 8px var(--primary-glow);
+/* Connecting bar to the LEFT */
+.cal-day.active.connect-left::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: -50%;
+    height: 32px;
+    transform: translateY(-50%);
+    background: color-mix(in srgb, var(--primary) 25%, transparent);
+    z-index: -2;
+    border-radius: 0;
 }
 
+/* Both directions: bar spans full width */
+.cal-day.active.connect-left.connect-right::before {
+    left: -50%;
+    right: -50%;
+}
+
+/* Today ring */
 .cal-day.today:not(.active) {
-    border: 2px solid var(--primary);
     color: var(--primary);
     font-weight: 700;
 }
 
-.cal-day.today.active {
-    box-shadow: 0 2px 8px var(--primary-glow), 0 0 0 2px rgba(255,255,255,0.4) inset;
+.cal-day.today:not(.active)::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+}
+
+.cal-day.today.active::after {
+    box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--primary);
 }
 
 .cal-footer {
