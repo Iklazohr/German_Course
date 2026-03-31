@@ -42,7 +42,6 @@ export async function renderDashboard() {
             <div class="hero-content">
                 <div class="hero-badge">Corso A1–C1</div>
                 <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
-                <p>Il metodo facile per parlare tedesco con sicurezza</p>
                 ${nextLesson ? `
                     <div class="hero-actions">
                         <button class="hero-cta" id="continue-btn">
@@ -54,18 +53,6 @@ export async function renderDashboard() {
                     <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
                 `}
             </div>
-        </div>
-
-        <div class="level-pills">
-            ${course.levels.map(level => {
-                const completion = store.getLevelCompletion(level.id, course);
-                return `
-                    <button class="level-pill" data-level="${level.id}" style="--pill-color:var(--${level.id})">
-                        <span class="level-pill-label">${level.id.toUpperCase()}</span>
-                        <span class="level-pill-progress">${completion}%</span>
-                    </button>
-                `;
-            }).join('')}
         </div>
 
         <div class="stats-grid">
@@ -158,11 +145,6 @@ export async function renderDashboard() {
         });
     });
 
-    page.querySelectorAll('.level-pill').forEach(pill => {
-        pill.addEventListener('click', () => {
-            navigate(`/level/${pill.dataset.level}`);
-        });
-    });
 }
 
 function getTypeIcon(type) {
