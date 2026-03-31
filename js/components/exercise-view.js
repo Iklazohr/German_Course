@@ -79,7 +79,7 @@ export async function renderExercise(exerciseId) {
         const checkBtn = page.querySelector('#exercise-check');
         const skipBtnRef = page.querySelector('#exercise-skip');
         const exFooter = page.querySelector('.exercise-footer');
-        if (exFooter) page.parentElement.appendChild(exFooter);
+        if (exFooter) document.getElementById('bottom-nav').before(exFooter);
         let answered = false;
         let userCorrect = false;
         let checkAnswer = null;

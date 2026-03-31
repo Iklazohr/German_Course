@@ -151,7 +151,7 @@ function renderGrammarLesson(data, lessonId, levelId, nextLessonId, nextLessonTy
     const backBtn = page.querySelector('#lesson-back');
     const completeBtn = page.querySelector('#lesson-complete');
     const lsnFooter1 = page.querySelector('.lesson-footer');
-    if (lsnFooter1) page.parentElement.appendChild(lsnFooter1);
+    if (lsnFooter1) document.getElementById('bottom-nav').before(lsnFooter1);
 
     backBtn.addEventListener('click', () => navigate(`/level/${levelId}`));
     completeBtn.addEventListener('click', () => {
@@ -211,7 +211,7 @@ function renderVocabLesson(data, lessonId, levelId, nextLessonId, nextLessonType
     const backBtn2 = page.querySelector('#lesson-back');
     const completeBtn2 = page.querySelector('#lesson-complete');
     const lsnFooter2 = page.querySelector('.lesson-footer');
-    if (lsnFooter2) page.parentElement.appendChild(lsnFooter2);
+    if (lsnFooter2) document.getElementById('bottom-nav').before(lsnFooter2);
 
     // Flip cards on click
     page.querySelectorAll('.vocab-card').forEach(card => {

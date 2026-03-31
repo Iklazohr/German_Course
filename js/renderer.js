@@ -5,6 +5,7 @@ import { animatePageIn, animateExerciseEnter, animateElements } from './animatio
 const main = () => document.getElementById('app-main');
 
 export function renderPage(html) {
+    document.querySelectorAll('body > .exercise-footer, body > .lesson-footer').forEach(el => el.remove());
     const container = main();
     container.innerHTML = `<div class="page" style="visibility:hidden">${html}</div>`;
     container.scrollTop = 0;
