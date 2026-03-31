@@ -171,7 +171,30 @@ export const store = {
     },
 
     getActiveDates() {
-        return state.activeDates || [];
+        const dates = state.activeDates || [];
+        // Back-fill missing streak dates: if streakDays > consecutive dates in activeDates,
+        // fill in the gap so the calendar shows the full streak
+        const streakDays = state.streakDays || 0;
+        if (streakDays > 1 && state.lastActiveDate) {
+            const dateSet = new Set(dates);
+            const last = new Date(state.lastActiveDate + 'T12:00:00');
+            let added = false;
+            for (let i = 1; i < streakDays; i++) {
+                const d = new Date(last.getTime() - i * 86400000);
+                const ds = d.toISOString().split('T')[0];
+                if (!dateSet.has(ds)) {
+                    dates.push(ds);
+                    dateSet.add(ds);
+                    added = true;
+                }
+            }
+            if (added) {
+                state.activeDates = dates;
+                // Save silently
+                try { localStorage.setItem('germanCourse', JSON.stringify(state)); } catch {}
+            }
+        }
+        return dates;
     },
 
     getCurrentLesson() {

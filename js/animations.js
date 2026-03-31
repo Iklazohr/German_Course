@@ -50,10 +50,12 @@ export async function animateStaggerChildren(container, selector, opts = {}) {
     const children = container.querySelectorAll(selector);
     if (!children.length) return;
 
+    // Hide elements immediately before animation starts
+    children.forEach(el => { el.style.opacity = '0'; });
+
     const motion = await getMotion();
     if (!motion) {
-        showImmediately(children);
-        children.forEach(el => el.classList.add('animated'));
+        children.forEach(el => { el.style.opacity = ''; });
         return;
     }
 
@@ -84,12 +86,12 @@ export async function animateHeroEntrance(hero) {
     const actions = hero.querySelector('.hero-actions');
     const elements = [badge, h2, p, actions].filter(Boolean);
 
+    // Hide elements immediately before animation starts
+    elements.forEach(el => { el.style.opacity = '0'; });
+
     const motion = await getMotion();
     if (!motion) {
-        elements.forEach(el => {
-            el.style.opacity = '1';
-            el.classList.add('animated');
-        });
+        elements.forEach(el => { el.style.opacity = ''; });
         return;
     }
 
