@@ -1,5 +1,12 @@
 # CLAUDE.md — German Course (Tedesco Facile)
 
+## Regole di Lavoro
+
+- **Lingua**: l'utente parla italiano, rispondi sempre in italiano
+- **Branch unico**: si lavora SOLO su `main`. Non creare mai altri branch
+- **Push**: si pusha sempre su `main`
+- **Plan mode**: usa sempre la plan mode con impostazione `/model opusplan` (Opus per la pianificazione, Sonnet per l'esecuzione)
+
 ## Project Overview
 
 Progressive Web App for learning German, targeted at Italian speakers. Covers levels A1 through C1 with lessons, exercises, flashcards, and grammar theory. Fully client-side with offline support via Service Worker.
