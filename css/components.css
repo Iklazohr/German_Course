@@ -1049,20 +1049,20 @@
 /* ===== Welcome Hero ===== */
 .hero {
     position: relative;
-    padding: 48px 24px 40px;
-    margin: 0 -16px 28px;
+    padding: 28px 24px 24px;
+    margin: 0 -16px 20px;
     text-align: center;
     overflow: hidden;
 }
 
 .hero-glow {
     position: absolute;
-    top: -60%;
+    top: -80%;
     left: 50%;
     transform: translateX(-50%);
-    width: 140%;
-    height: 100%;
-    background: radial-gradient(ellipse 60% 50% at 50% 20%, color-mix(in srgb, var(--primary) 12%, transparent), transparent);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(ellipse 50% 40% at 50% 30%, color-mix(in srgb, var(--primary) 10%, transparent), transparent);
     pointer-events: none;
     z-index: 0;
 }
@@ -1110,9 +1110,9 @@
 .hero h2.animated { opacity: 1; }
 
 .hero p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--text-secondary);
-    margin: 0 auto 28px;
+    margin: 0 auto 20px;
     max-width: 36ch;
     text-wrap: balance;
     line-height: 1.5;
@@ -1236,7 +1236,7 @@
 
 @media (min-width: 768px) {
     .hero {
-        padding: 64px 32px 56px;
+        padding: 40px 32px 32px;
     }
 }
 

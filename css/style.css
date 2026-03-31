@@ -473,57 +473,56 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     visibility: hidden;
 }
 
-/* Active day: colored circle */
+/* Active day: colored circle via ::after */
 .cal-day.active {
     color: #fff;
     font-weight: 700;
-    z-index: 1;
 }
 
 .cal-day.active::after {
     content: "";
     position: absolute;
-    inset: 3px;
+    width: 34px;
+    height: 34px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     background: var(--primary);
     z-index: -1;
 }
 
-/* Connecting bar to the RIGHT (::before on the NEXT cell won't work, so we extend ::after) */
-.cal-day.active.connect-right::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: -50%;
-    height: 32px;
-    transform: translateY(-50%);
-    background: color-mix(in srgb, var(--primary) 25%, transparent);
-    z-index: -2;
-    border-radius: 0;
-}
-
-/* Connecting bar to the LEFT */
+/* Connecting bar via ::before - stays WITHIN cell boundaries */
+.cal-day.active.connect-right::before,
 .cal-day.active.connect-left::before {
     content: "";
     position: absolute;
     top: 50%;
-    right: 50%;
-    left: -50%;
-    height: 32px;
+    height: 34px;
     transform: translateY(-50%);
-    background: color-mix(in srgb, var(--primary) 25%, transparent);
+    background: color-mix(in srgb, var(--primary) 22%, transparent);
     z-index: -2;
-    border-radius: 0;
 }
 
-/* Both directions: bar spans full width */
+/* Only connect right: bar from center to right edge */
+.cal-day.active.connect-right:not(.connect-left)::before {
+    left: 50%;
+    right: 0;
+}
+
+/* Only connect left: bar from left edge to center */
+.cal-day.active.connect-left:not(.connect-right)::before {
+    left: 0;
+    right: 50%;
+}
+
+/* Both directions: bar spans full cell width */
 .cal-day.active.connect-left.connect-right::before {
-    left: -50%;
-    right: -50%;
+    left: 0;
+    right: 0;
 }
 
-/* Today ring */
+/* Today: ring when inactive, glow when active */
 .cal-day.today:not(.active) {
     color: var(--primary);
     font-weight: 700;
@@ -532,7 +531,11 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 .cal-day.today:not(.active)::after {
     content: "";
     position: absolute;
-    inset: 3px;
+    width: 34px;
+    height: 34px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     border: 2px solid var(--primary);
 }

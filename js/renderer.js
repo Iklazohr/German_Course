@@ -8,7 +8,9 @@ export function renderPage(html) {
     const container = main();
     container.innerHTML = `<div class="page" style="visibility:hidden">${html}</div>`;
     container.scrollTop = 0;
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
     const page = container.querySelector('.page');
     requestAnimationFrame(() => setTimeout(() => {
         page.style.visibility = '';
