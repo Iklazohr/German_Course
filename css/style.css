@@ -158,6 +158,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     justify-content: space-between;
     padding: env(safe-area-inset-top, 0) max(env(safe-area-inset-right, 0), 16px) 0 max(env(safe-area-inset-left, 0), 16px);
     z-index: 100;
+    contain: layout;
 }
 
 #app-header.header-scrolled {

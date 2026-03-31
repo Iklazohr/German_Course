@@ -257,6 +257,7 @@
     -webkit-user-select: none;
     user-select: none;
     position: relative;
+    contain: layout style;
 }
 
 .fc-card {
