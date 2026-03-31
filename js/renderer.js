@@ -1,5 +1,7 @@
 // ===== DOM Rendering Utilities =====
 
+import { animatePageIn, animateExerciseEnter, animateElements } from './animations.js';
+
 const main = () => document.getElementById('app-main');
 
 export function renderPage(html) {
@@ -8,32 +10,17 @@ export function renderPage(html) {
     container.scrollTop = 0;
     window.scrollTo(0, 0);
     const page = container.querySelector('.page');
-    // rAF + setTimeout: guarantees browser has painted before animations are set.
-    // Elements hidden via visibility:hidden → animations start from opacity:0 → no flash.
     requestAnimationFrame(() => setTimeout(() => {
         page.style.visibility = '';
-        page.style.animation = 'pageIn 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
+        animatePageIn(page);
         page.querySelectorAll('.exercise-page').forEach(el => {
-            el.style.animation = 'exerciseEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1)';
+            animateExerciseEnter(el);
         });
-        page.querySelectorAll('.lesson-section').forEach((el, i) => {
-            const d = Math.min(i * 0.06, 0.36);
-            el.style.animation = `slideInUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) ${d}s both`;
-        });
-        page.querySelectorAll('.mc-option').forEach((el, i) => {
-            el.style.animation = `slideInUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.05}s both`;
-            el.addEventListener('animationend', () => { el.style.animation = ''; }, { once: true });
-        });
-        page.querySelectorAll('.matching-item').forEach(el => {
-            el.style.animation = 'popIn 0.3s ease both';
-            el.addEventListener('animationend', () => { el.style.animation = ''; }, { once: true });
-        });
-        page.querySelectorAll('.summary-card').forEach(el => {
-            el.style.animation = 'popIn 0.5s cubic-bezier(0.22, 1, 0.36, 1)';
-        });
-        page.querySelectorAll('.fc-hero').forEach(el => {
-            el.style.animation = 'fadeIn 0.5s ease';
-        });
+        animateElements(page, '.lesson-section', 'slideUp');
+        animateElements(page, '.mc-option', 'slideUp');
+        animateElements(page, '.matching-item', 'popIn');
+        animateElements(page, '.summary-card', 'popIn');
+        animateElements(page, '.fc-hero', 'fadeIn');
     }, 0));
     return page;
 }

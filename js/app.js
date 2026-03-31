@@ -158,6 +158,19 @@ addRoute('/progress', () => renderProgress());
 addRoute('/settings', () => renderSettings());
 addRoute('/account', () => renderAuthPage());
 
+// Header scroll effect
+let ticking = false;
+window.addEventListener('scroll', () => {
+    if (!ticking) {
+        requestAnimationFrame(() => {
+            const header = document.getElementById('app-header');
+            if (header) header.classList.toggle('header-scrolled', window.scrollY > 10);
+            ticking = false;
+        });
+        ticking = true;
+    }
+});
+
 // Initialize
 async function init() {
     applySettings();

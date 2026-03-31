@@ -1,6 +1,7 @@
 import { renderPage, setHeaderTitle, showBackButton, loadCourseStructure } from '../renderer.js';
 import { store } from '../store.js';
 import { navigate } from '../router.js';
+import { animateHeroEntrance, animateStaggerChildren } from '../animations.js';
 
 export async function renderDashboard() {
     setHeaderTitle('Tedesco Facile');
@@ -37,33 +38,50 @@ export async function renderDashboard() {
 
     const page = renderPage(`
         <div class="hero">
-            <div class="hero-badge">Corso A1–C1</div>
-            <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
-            <p>Il metodo facile per parlare tedesco con sicurezza</p>
-            ${nextLesson ? `
-                <button class="btn btn-lg hero-cta" id="continue-btn">
-                    ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-            ` : `
-                <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
-            `}
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+                <div class="hero-badge">Corso A1–C1</div>
+                <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
+                <p>Il metodo facile per parlare tedesco con sicurezza</p>
+                ${nextLesson ? `
+                    <div class="hero-actions">
+                        <button class="hero-cta" id="continue-btn">
+                            ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                ` : `
+                    <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
+                `}
+            </div>
+        </div>
+
+        <div class="level-pills">
+            ${course.levels.map(level => {
+                const completion = store.getLevelCompletion(level.id, course);
+                return `
+                    <button class="level-pill" data-level="${level.id}" style="--pill-color:var(--${level.id})">
+                        <span class="level-pill-label">${level.id.toUpperCase()}</span>
+                        <span class="level-pill-progress">${completion}%</span>
+                    </button>
+                `;
+            }).join('')}
         </div>
 
         <div class="stats-grid">
-            <div class="stat-card" style="animation-delay: 0s">
+            <div class="stat-card">
                 <div class="stat-value">${stats.streakDays}</div>
                 <div class="stat-label">Giorni di fila</div>
             </div>
-            <div class="stat-card" style="animation-delay: 0.1s">
+            <div class="stat-card">
                 <div class="stat-value">${stats.completedLessons}</div>
                 <div class="stat-label">Lezioni completate</div>
             </div>
-            <div class="stat-card" style="animation-delay: 0.2s">
+            <div class="stat-card">
                 <div class="stat-value">${stats.totalExercises}</div>
                 <div class="stat-label">Esercizi svolti</div>
             </div>
-            <div class="stat-card" style="animation-delay: 0.3s">
+            <div class="stat-card">
                 <div class="stat-value">${accuracy}%</div>
                 <div class="stat-label">Precisione</div>
             </div>
@@ -108,6 +126,11 @@ export async function renderDashboard() {
         }).join('')}
     `);
 
+    // Trigger Motion.js animations
+    animateHeroEntrance(page.querySelector('.hero'));
+    animateStaggerChildren(page, '.stat-card', { delay: 0.08, startDelay: 0.3 });
+    animateStaggerChildren(page, '.level-card', { delay: 0.06, startDelay: 0.5 });
+
     // Event listeners
     const continueBtn = page.querySelector('#continue-btn');
     if (continueBtn && nextLesson) {
@@ -132,6 +155,12 @@ export async function renderDashboard() {
     page.querySelectorAll('.level-card').forEach(card => {
         card.addEventListener('click', () => {
             navigate(`/level/${card.dataset.level}`);
+        });
+    });
+
+    page.querySelectorAll('.level-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            navigate(`/level/${pill.dataset.level}`);
         });
     });
 }
