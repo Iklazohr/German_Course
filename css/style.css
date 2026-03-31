@@ -154,13 +154,15 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     background: var(--surface-glass);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     border-bottom: 1px solid transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: env(safe-area-inset-top, 0) max(env(safe-area-inset-right, 0), 16px) 0 max(env(safe-area-inset-left, 0), 16px);
     z-index: 100;
-    transition: border-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #app-header.header-scrolled {

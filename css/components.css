@@ -971,14 +971,14 @@
 /* ===== Lesson Footer Nav ===== */
 .lesson-footer {
     position: fixed;
-    bottom: var(--bottom-nav-height);
+    bottom: 0;
     left: 0;
     right: 0;
     background: var(--surface-glass);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-top: 1px solid var(--border);
-    padding: 12px 16px;
+    padding: 12px 16px calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0));
     display: flex;
     justify-content: space-between;
     gap: 12px;
