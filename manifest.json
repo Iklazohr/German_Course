@@ -4,8 +4,8 @@
   "description": "Impara il tedesco dall'italiano. Corso completo da A1 a C1.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#FAFAFA",
-  "theme_color": "#6366F1",
+  "background_color": "#09090B",
+  "theme_color": "#09090B",
   "orientation": "any",
   "icons": [
     {
