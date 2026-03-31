@@ -1,152 +1,98 @@
-// ===== Motion.js Animation Module =====
-// Lazy-loads Motion.js from CDN with offline fallback
+// ===== Animation Module =====
+// Uses Web Animations API (built-in, no CDN needed)
 
 const REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
 
-let motionModule = null;
-
-async function getMotion() {
-    if (motionModule) return motionModule;
-    if (REDUCED_MOTION) return null;
-    try {
-        motionModule = await import('https://cdn.jsdelivr.net/npm/motion@12.38.0/+esm');
-        return motionModule;
-    } catch {
-        return null;
-    }
+export function animatePageIn(page) {
+    if (!page || REDUCED_MOTION) return;
+    page.animate([
+        { opacity: 0, transform: 'translateY(6px)' },
+        { opacity: 1, transform: 'translateY(0)' },
+    ], { duration: 350, easing: EASE, fill: 'both' });
 }
 
-function showImmediately(elements) {
-    if (typeof elements === 'string') return;
-    const els = elements instanceof NodeList || Array.isArray(elements)
-        ? elements : [elements];
-    els.forEach(el => {
-        if (el) {
-            el.style.opacity = '1';
-            el.style.transform = 'none';
-            el.style.filter = 'none';
-        }
-    });
-}
-
-export async function animatePageIn(page) {
-    if (!page) return;
-    const motion = await getMotion();
-    if (!motion) {
-        page.style.opacity = '1';
-        return;
-    }
-    motion.animate(page, {
-        opacity: [0, 1],
-        y: [6, 0],
-    }, {
-        duration: 0.35,
-        ease: [0.22, 1, 0.36, 1],
-    });
-}
-
-export async function animateStaggerChildren(container, selector, opts = {}) {
+export function animateStaggerChildren(container, selector, opts = {}) {
     if (!container) return;
     const children = container.querySelectorAll(selector);
     if (!children.length) return;
+    if (REDUCED_MOTION) return;
 
-    // Hide elements immediately before animation starts
-    children.forEach(el => { el.style.opacity = '0'; });
-
-    const motion = await getMotion();
-    if (!motion) {
-        children.forEach(el => { el.style.opacity = ''; });
-        return;
-    }
-
-    const delay = opts.delay || 0.06;
-    const startDelay = opts.startDelay || 0;
+    const delay = (opts.delay || 0.06) * 1000;
+    const startDelay = (opts.startDelay || 0) * 1000;
 
     children.forEach((el, i) => {
-        motion.animate(el, {
-            opacity: [0, 1],
-            y: [20, 0],
-            filter: ['blur(4px)', 'blur(0px)'],
-        }, {
-            duration: 0.5,
+        el.style.opacity = '0';
+        el.animate([
+            { opacity: 0, transform: 'translateY(20px)', filter: 'blur(4px)' },
+            { opacity: 1, transform: 'translateY(0)', filter: 'blur(0px)' },
+        ], {
+            duration: 500,
             delay: startDelay + (i * delay),
-            ease: [0.22, 1, 0.36, 1],
-        }).then(() => {
-            el.classList.add('animated');
+            easing: EASE,
+            fill: 'both',
         });
     });
 }
 
-export async function animateHeroEntrance(hero) {
-    if (!hero) return;
+export function animateHeroEntrance(hero) {
+    if (!hero || REDUCED_MOTION) return;
 
     const badge = hero.querySelector('.hero-badge');
     const h2 = hero.querySelector('h2');
-    const p = hero.querySelector('p');
     const actions = hero.querySelector('.hero-actions');
-    const elements = [badge, h2, p, actions].filter(Boolean);
-
-    // Hide elements immediately before animation starts
-    elements.forEach(el => { el.style.opacity = '0'; });
-
-    const motion = await getMotion();
-    if (!motion) {
-        elements.forEach(el => { el.style.opacity = ''; });
-        return;
-    }
+    const elements = [badge, h2, actions].filter(Boolean);
 
     elements.forEach((el, i) => {
-        motion.animate(el, {
-            opacity: [0, 1],
-            y: [16, 0],
-            filter: ['blur(8px)', 'blur(0px)'],
-        }, {
-            duration: 0.6,
-            delay: 0.1 + (i * 0.12),
-            ease: [0.22, 1, 0.36, 1],
-        }).then(() => {
-            el.classList.add('animated');
+        el.style.opacity = '0';
+        el.animate([
+            { opacity: 0, transform: 'translateY(16px)', filter: 'blur(8px)' },
+            { opacity: 1, transform: 'translateY(0)', filter: 'blur(0px)' },
+        ], {
+            duration: 600,
+            delay: 100 + (i * 120),
+            easing: EASE,
+            fill: 'both',
         });
     });
 }
 
-export async function animateExerciseEnter(el) {
-    if (!el) return;
-    const motion = await getMotion();
-    if (!motion) return;
-    motion.animate(el, {
-        opacity: [0, 1],
-        x: [60, 0],
-    }, {
-        duration: 0.4,
-        ease: [0.22, 1, 0.36, 1],
-    });
+export function animateExerciseEnter(el) {
+    if (!el || REDUCED_MOTION) return;
+    el.animate([
+        { opacity: 0, transform: 'translateX(60px)' },
+        { opacity: 1, transform: 'translateX(0)' },
+    ], { duration: 400, easing: EASE, fill: 'both' });
 }
 
-export async function animateElements(container, selector, animationType = 'slideUp') {
-    if (!container) return;
+export function animateElements(container, selector, animationType = 'slideUp') {
+    if (!container || REDUCED_MOTION) return;
     const elements = container.querySelectorAll(selector);
     if (!elements.length) return;
 
-    const motion = await getMotion();
-    if (!motion) {
-        showImmediately(elements);
-        return;
-    }
-
-    const animations = {
-        slideUp: { opacity: [0, 1], y: [20, 0] },
-        popIn: { opacity: [0, 1], scale: [0.85, 1] },
-        fadeIn: { opacity: [0, 1] },
+    const keyframes = {
+        slideUp: [
+            { opacity: 0, transform: 'translateY(20px)' },
+            { opacity: 1, transform: 'translateY(0)' },
+        ],
+        popIn: [
+            { opacity: 0, transform: 'scale(0.85)' },
+            { opacity: 1, transform: 'scale(1)' },
+        ],
+        fadeIn: [
+            { opacity: 0 },
+            { opacity: 1 },
+        ],
     };
 
-    const anim = animations[animationType] || animations.slideUp;
+    const kf = keyframes[animationType] || keyframes.slideUp;
 
     elements.forEach((el, i) => {
-        motion.animate(el, anim, {
-            duration: 0.4,
-            delay: i * 0.05,
-            ease: [0.22, 1, 0.36, 1],
+        el.animate(kf, {
+            duration: 400,
+            delay: i * 50,
+            easing: EASE,
+            fill: 'both',
         });
     });
 }
