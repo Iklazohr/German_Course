@@ -3,8 +3,7 @@
 ## Regole di Lavoro
 
 - **Lingua**: l'utente parla italiano, rispondi sempre in italiano
-- **Branch unico**: si lavora SOLO su `main`. Non creare mai altri branch
-- **Push**: si pusha sempre su `main`
+- **Branch**: va bene creare un branch locale per le modifiche, ma si pusha sempre e solo su `main`. Dopo il push su main, cancellare il branch creato
 - **Plan mode**: usa sempre la plan mode con impostazione `/model opusplan` (Opus per la pianificazione, Sonnet per l'esecuzione)
 
 ## Project Overview
