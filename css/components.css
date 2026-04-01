@@ -1049,7 +1049,6 @@
     flex-direction: column;
     justify-content: center;
     height: calc(100dvh - var(--header-height) - env(safe-area-inset-top, 0px) - var(--bottom-nav-height) - 32px);
-    overflow: hidden;
 }
 
 /* ===== Welcome Hero ===== */
