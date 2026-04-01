@@ -71,7 +71,7 @@ export async function renderFlashcards() {
                                 const progress = getFlashcardProgress(deck.id);
                                 const knownCount = progress.known.length;
                                 return `
-                                    <div class="fc-deck-card card card-clickable" data-deck="${deck.id}" style="border-top: 3px solid ${LEVEL_COLORS[level]}">
+                                    <div class="fc-deck-card card card-clickable" data-deck="${deck.id}" style="--level-color:${LEVEL_COLORS[level]}">
                                         <div class="fc-deck-icon" style="background:${LEVEL_COLORS_LIGHT[deck.level]};color:${LEVEL_COLORS[deck.level]};width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em">${deck.type === 'nomen' ? 'N' : 'V'}</div>
                                         <div class="fc-deck-info">
                                             <div class="fc-deck-label">${deck.label}</div>

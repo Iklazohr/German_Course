@@ -77,7 +77,7 @@ export async function renderDashboard() {
 
             ${nextLesson ? `
                 <div class="section-title">Prossima lezione</div>
-                <div class="card card-clickable" id="next-lesson-card" style="margin-bottom:24px;border-left:4px solid var(--${nextLesson.id.split('-')[0]})">
+                <div class="card card-clickable level-card" id="next-lesson-card" style="--level-color:var(--${nextLesson.id.split('-')[0]});margin-bottom:24px">
                     <div style="display:flex;align-items:center;gap:12px">
                         <div class="lesson-icon ${nextLesson.type}">
                             ${getTypeIcon(nextLesson.type)}
