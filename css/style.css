@@ -242,6 +242,10 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
     -webkit-transform-style: flat;
 }
 
+#app-main.no-scroll {
+    overflow-y: hidden;
+}
+
 .page {
     padding: 16px;
     max-width: 800px;

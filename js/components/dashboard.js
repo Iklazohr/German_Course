@@ -93,6 +93,10 @@ export async function renderDashboard() {
         </div>
     `);
 
+    // Disable scroll on app-main for dashboard (content fits in viewport)
+    const appMain = document.getElementById('app-main');
+    appMain.classList.add('no-scroll');
+
     // Trigger Motion.js animations
     animateHeroEntrance(page.querySelector('.hero'));
     animateStaggerChildren(page, '.stat-card', { delay: 0.08, startDelay: 0.3 });
