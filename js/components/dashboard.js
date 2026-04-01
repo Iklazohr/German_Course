@@ -37,87 +37,65 @@ export async function renderDashboard() {
     const accuracy = stats.totalExercises > 0 ? Math.round((stats.totalCorrect / stats.totalExercises) * 100) : 0;
 
     const page = renderPage(`
-        <div class="hero">
-            <div class="hero-glow"></div>
-            <div class="hero-content">
-                <div class="hero-badge">Corso A1–C1</div>
-                <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
-                ${nextLesson ? `
-                    <div class="hero-actions">
-                        <button class="hero-cta" id="continue-btn">
-                            ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </button>
-                    </div>
-                ` : `
-                    <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
-                `}
-            </div>
-        </div>
-
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-value">${stats.streakDays}</div>
-                <div class="stat-label">Giorni di fila</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">${stats.completedLessons}</div>
-                <div class="stat-label">Lezioni completate</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">${stats.totalExercises}</div>
-                <div class="stat-label">Esercizi svolti</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">${accuracy}%</div>
-                <div class="stat-label">Precisione</div>
-            </div>
-        </div>
-
-        ${nextLesson ? `
-            <div class="section-title">Prossima lezione</div>
-            <div class="card card-clickable" id="next-lesson-card" style="margin-bottom:24px;border-left:4px solid var(--${nextLesson.id.split('-')[0]})">
-                <div style="display:flex;align-items:center;gap:12px">
-                    <div class="lesson-icon ${nextLesson.type}">
-                        ${getTypeIcon(nextLesson.type)}
-                    </div>
-                    <div class="lesson-info">
-                        <div class="lesson-title">${nextLessonTitle}</div>
-                        <div class="lesson-meta">${nextLessonLevel} · ${getTypeName(nextLesson.type)}</div>
-                    </div>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                </div>
-            </div>
-        ` : ''}
-
-        <div class="section-title">Il tuo percorso</div>
-        ${course.levels.map(level => {
-            const completion = store.getLevelCompletion(level.id, course);
-            const totalLessons = level.units.reduce((sum, u) => sum + u.lessons.length + (u.review ? 1 : 0), 0);
-            return `
-                <div class="card card-clickable level-card" data-level="${level.id}"
-                     style="--level-color:var(--${level.id});--level-color-light:var(--${level.id}-light)">
-                    <div class="level-badge">${level.id.toUpperCase()}</div>
-                    <div class="level-info">
-                        <div class="level-title">${level.title}</div>
-                        <div class="level-desc">${level.description} · ${totalLessons} lezioni</div>
-                        <div class="progress-bar" style="--level-color:var(--${level.id})">
-                            <div class="progress-bar-fill" style="width:${completion}%"></div>
+        <div class="dashboard-content">
+            <div class="hero">
+                <div class="hero-glow"></div>
+                <div class="hero-content">
+                    <div class="hero-badge">Corso A1–C1</div>
+                    <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
+                    ${nextLesson ? `
+                        <div class="hero-actions">
+                            <button class="hero-cta" id="continue-btn">
+                                ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
-                    </div>
-                    <div class="level-arrow">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    ` : `
+                        <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
+                    `}
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">${stats.streakDays}</div>
+                    <div class="stat-label">Giorni di fila</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stats.completedLessons}</div>
+                    <div class="stat-label">Lezioni completate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stats.totalExercises}</div>
+                    <div class="stat-label">Esercizi svolti</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${accuracy}%</div>
+                    <div class="stat-label">Precisione</div>
+                </div>
+            </div>
+
+            ${nextLesson ? `
+                <div class="section-title">Prossima lezione</div>
+                <div class="card card-clickable" id="next-lesson-card" style="margin-bottom:24px;border-left:4px solid var(--${nextLesson.id.split('-')[0]})">
+                    <div style="display:flex;align-items:center;gap:12px">
+                        <div class="lesson-icon ${nextLesson.type}">
+                            ${getTypeIcon(nextLesson.type)}
+                        </div>
+                        <div class="lesson-info">
+                            <div class="lesson-title">${nextLessonTitle}</div>
+                            <div class="lesson-meta">${nextLessonLevel} · ${getTypeName(nextLesson.type)}</div>
+                        </div>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
                     </div>
                 </div>
-            `;
-        }).join('')}
+            ` : ''}
+        </div>
     `);
 
     // Trigger Motion.js animations
     animateHeroEntrance(page.querySelector('.hero'));
     animateStaggerChildren(page, '.stat-card', { delay: 0.08, startDelay: 0.3 });
-    animateStaggerChildren(page, '.level-card', { delay: 0.06, startDelay: 0.5 });
-
     // Event listeners
     const continueBtn = page.querySelector('#continue-btn');
     if (continueBtn && nextLesson) {
@@ -138,12 +116,6 @@ export async function renderDashboard() {
             navigate(route);
         });
     }
-
-    page.querySelectorAll('.level-card').forEach(card => {
-        card.addEventListener('click', () => {
-            navigate(`/level/${card.dataset.level}`);
-        });
-    });
 
 }
 
