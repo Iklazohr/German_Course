@@ -43,16 +43,9 @@ export async function renderDashboard() {
                 <div class="hero-content">
                     <div class="hero-badge">Corso A1–C1</div>
                     <h2>Impara il tedesco,<br>una lezione alla volta.</h2>
-                    ${nextLesson ? `
-                        <div class="hero-actions">
-                            <button class="hero-cta" id="continue-btn">
-                                ${stats.completedLessons > 0 ? 'Continua a studiare' : 'Inizia il corso'}
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                            </button>
-                        </div>
-                    ` : `
+                    ${!nextLesson ? `
                         <p class="hero-complete">Hai completato tutto il materiale disponibile!</p>
-                    `}
+                    ` : ''}
                 </div>
             </div>
 
@@ -101,16 +94,6 @@ export async function renderDashboard() {
     animateHeroEntrance(page.querySelector('.hero'));
     animateStaggerChildren(page, '.stat-card', { delay: 0.08, startDelay: 0.3 });
     // Event listeners
-    const continueBtn = page.querySelector('#continue-btn');
-    if (continueBtn && nextLesson) {
-        continueBtn.addEventListener('click', () => {
-            const route = nextLesson.type === 'exercise' || nextLesson.type === 'review'
-                ? `/exercise/${nextLesson.id}`
-                : `/lesson/${nextLesson.id}`;
-            navigate(route);
-        });
-    }
-
     const nextCard = page.querySelector('#next-lesson-card');
     if (nextCard && nextLesson) {
         nextCard.addEventListener('click', () => {
