@@ -215,13 +215,17 @@ async function init() {
             updateAuthIndicator();
             if (user) {
                 await store.syncFromCloud();
+                store.startCloudListener();
                 applySettings();
+            } else {
+                store.stopCloudListener();
             }
         });
         const user = await initAuth();
         // Wait for cloud sync before rendering if user is already logged in
         if (user) {
             await store.syncFromCloud();
+            store.startCloudListener();
             store.checkStreakReset();
             applySettings();
         }

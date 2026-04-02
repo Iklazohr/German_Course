@@ -1,6 +1,6 @@
 // ===== LocalStorage Progress & Settings Store with Cloud Sync =====
 
-import { isSyncAvailable, saveToCloud, loadFromCloud, mergeProgress } from './sync.js';
+import { isSyncAvailable, saveToCloud, loadFromCloud, mergeProgress, listenToCloud, stopListeningToCloud } from './sync.js';
 
 const STORAGE_KEY = 'germanCourse';
 const STORAGE_VERSION = 1;
@@ -267,6 +267,22 @@ export const store = {
             console.error('Sync from cloud failed:', err);
             return false;
         }
+    },
+
+    startCloudListener() {
+        listenToCloud((cloudData) => {
+            const merged = mergeProgress(state, cloudData);
+            state = { ...state, ...merged, version: STORAGE_VERSION };
+            if (cloudData.settings) {
+                state.settings = { ...state.settings, ...cloudData.settings };
+            }
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+            if (window.applySettings) window.applySettings();
+        });
+    },
+
+    stopCloudListener() {
+        stopListeningToCloud();
     },
 
     async forceSyncToCloud() {

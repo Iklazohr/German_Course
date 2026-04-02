@@ -5,6 +5,8 @@ import { getCurrentUser, getFirebaseApp } from './auth.js';
 
 let db = null;
 let initialized = false;
+let unsubscribeSnapshot = null;
+let onCloudChangeCallback = null;
 
 async function getDb() {
     if (db) return db;
@@ -76,6 +78,44 @@ export async function loadFromCloud() {
     } catch (err) {
         console.error('Cloud load error:', err);
         return null;
+    }
+}
+
+// Listen for realtime cloud changes (from other devices)
+export async function listenToCloud(onChangeCallback) {
+    onCloudChangeCallback = onChangeCallback;
+    const user = getCurrentUser();
+    if (!user) return;
+
+    const firestore = await getDb();
+    if (!firestore) return;
+
+    // Unsubscribe previous listener
+    if (unsubscribeSnapshot) {
+        unsubscribeSnapshot();
+        unsubscribeSnapshot = null;
+    }
+
+    try {
+        const { doc, onSnapshot } = await import('https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js');
+        const userDoc = doc(firestore, 'users', user.uid);
+        let isFirst = true;
+        unsubscribeSnapshot = onSnapshot(userDoc, (snapshot) => {
+            // Skip the first snapshot (we already loaded it)
+            if (isFirst) { isFirst = false; return; }
+            if (snapshot.exists() && onCloudChangeCallback) {
+                onCloudChangeCallback(snapshot.data());
+            }
+        });
+    } catch (err) {
+        console.error('Cloud listener error:', err);
+    }
+}
+
+export function stopListeningToCloud() {
+    if (unsubscribeSnapshot) {
+        unsubscribeSnapshot();
+        unsubscribeSnapshot = null;
     }
 }
 
