@@ -105,6 +105,7 @@ export const store = {
         };
         this.updateStreak();
         saveState(state);
+        if (window.applySettings) window.applySettings();
     },
 
     addExerciseStats(total, correct) {
@@ -143,6 +144,15 @@ export const store = {
         return total === 0 ? 0 : Math.round((completed / total) * 100);
     },
 
+    checkStreakReset() {
+        const today = new Date().toISOString().split('T')[0];
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+        if (state.lastActiveDate && state.lastActiveDate !== today && state.lastActiveDate !== yesterday) {
+            state.streakDays = 0;
+            saveState(state);
+        }
+    },
+
     updateStreak() {
         const today = new Date().toISOString().split('T')[0];
         const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
@@ -151,7 +161,7 @@ export const store = {
 
         if (state.lastActiveDate === yesterday) {
             state.streakDays = (state.streakDays || 0) + 1;
-        } else if (state.lastActiveDate !== today) {
+        } else {
             state.streakDays = 1;
         }
 
@@ -161,7 +171,6 @@ export const store = {
         if (!state.activeDates) state.activeDates = [];
         if (!state.activeDates.includes(today)) {
             state.activeDates.push(today);
-            // Keep last 365 days
             if (state.activeDates.length > 365) {
                 state.activeDates = state.activeDates.slice(-365);
             }

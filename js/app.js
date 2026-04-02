@@ -205,7 +205,7 @@ if (appMain) appMain.addEventListener('scroll', () => {
 
 // Initialize
 async function init() {
-    store.updateStreak();
+    store.checkStreakReset();
     applySettings();
 
     // Initialize Firebase auth if configured
