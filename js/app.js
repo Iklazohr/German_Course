@@ -210,15 +210,21 @@ async function init() {
 
     // Initialize Firebase auth if configured
     if (isFirebaseConfigured()) {
-        await initAuth();
+        // Register callback BEFORE initAuth so we catch the first auth state
         onAuthChange(async (user) => {
             updateAuthIndicator();
             if (user) {
-                // Sync from cloud on login
                 await store.syncFromCloud();
                 applySettings();
             }
         });
+        const user = await initAuth();
+        // Wait for cloud sync before rendering if user is already logged in
+        if (user) {
+            await store.syncFromCloud();
+            store.checkStreakReset();
+            applySettings();
+        }
     }
 
     startRouter();

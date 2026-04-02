@@ -41,6 +41,8 @@ export async function saveToCloud(stateData) {
             settings: stateData.settings || {},
             streakDays: stateData.streakDays || 0,
             lastActiveDate: stateData.lastActiveDate || null,
+            activeDates: stateData.activeDates || [],
+            favorites: stateData.favorites || [],
             totalExercises: stateData.totalExercises || 0,
             totalCorrect: stateData.totalCorrect || 0,
             currentLesson: stateData.currentLesson || null,
@@ -110,6 +112,22 @@ export function mergeProgress(localData, cloudData) {
     merged.streakDays = Math.max(merged.streakDays || 0, cloudData.streakDays || 0);
     merged.totalExercises = Math.max(merged.totalExercises || 0, cloudData.totalExercises || 0);
     merged.totalCorrect = Math.max(merged.totalCorrect || 0, cloudData.totalCorrect || 0);
+
+    // Keep the most recent lastActiveDate
+    if (cloudData.lastActiveDate && (!merged.lastActiveDate || cloudData.lastActiveDate > merged.lastActiveDate)) {
+        merged.lastActiveDate = cloudData.lastActiveDate;
+    }
+
+    // Merge activeDates (union)
+    if (cloudData.activeDates) {
+        const dateSet = new Set([...(merged.activeDates || []), ...cloudData.activeDates]);
+        merged.activeDates = [...dateSet].sort().slice(-365);
+    }
+
+    // Merge favorites (union)
+    if (cloudData.favorites) {
+        merged.favorites = [...new Set([...(merged.favorites || []), ...cloudData.favorites])];
+    }
 
     return merged;
 }
