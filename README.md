@@ -100,6 +100,17 @@ Apri `http://localhost:8000` nel browser.
 | C1 | 3 | 20 | Nomi, Verbi |
 | **Totale** | **29** | **149** | **10 mazzi** |
 
+## Versionamento
+
+La versione dell'app e definita in `js/version.js` ed e visibile nella pagina Impostazioni.
+
+Ad ogni push su `main`, il workflow GitHub Actions:
+1. Incrementa automaticamente la versione patch (es. 1.0.0 -> 1.0.1)
+2. Aggiorna il cache name del Service Worker per forzare l'aggiornamento
+3. Committa il bump e deploya su Firebase Hosting
+
+Per bump manuali di minor/major, modifica direttamente `js/version.js`.
+
 ## Deploy
 
 Il deploy su Firebase Hosting e automatico tramite GitHub Actions ad ogni push su `main`:

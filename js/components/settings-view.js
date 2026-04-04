@@ -4,6 +4,7 @@ import { navigate } from '../router.js';
 import { getCurrentUser } from '../auth.js';
 import { isFirebaseConfigured } from '../firebase-config.js';
 import { playCorrect } from '../audio.js';
+import { APP_VERSION } from '../version.js';
 
 export function renderSettings() {
     setHeaderTitle('Opzioni');
@@ -99,7 +100,7 @@ export function renderSettings() {
             <div class="setting-item">
                 <div>
                     <div class="setting-label">Tedesco Facile</div>
-                    <div class="setting-desc">Corso di tedesco per italiani · v1.1</div>
+                    <div class="setting-desc">Corso di tedesco per italiani · v${APP_VERSION}</div>
                 </div>
             </div>
         </div>

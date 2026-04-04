@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tedesco-facile-v45';
+const CACHE_NAME = 'tedesco-facile-v1.0.0';
 
 // Listen for skip waiting message from the app
 self.addEventListener('message', (event) => {
@@ -28,7 +28,8 @@ self.addEventListener('install', (event) => {
         './js/friends.js',
         './js/firebase-config.js',
         './js/animations.js',
-        './data/course-structure.json'
+        './data/course-structure.json',
+        './js/version.js'
     ];
     event.waitUntil(
         caches.open(CACHE_NAME)
